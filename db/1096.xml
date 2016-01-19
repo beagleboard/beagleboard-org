@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1096" name="opencv acceleration" prototype="Page" created="1274044885456" lastModified="1453145165983">
+  <hopobject id="1096" name="opencv acceleration" prototype="Page" created="1274044885456" lastModified="1453153487144">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -22,14 +22,14 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://pramodpoudel.blogspot.com/</rssfeed>
     <contactinfo></contactinfo>
-    <pvcount type="float">10542.0</pvcount>
-    <prj_status>complete</prj_status>
+    <pvcount type="float">10544.0</pvcount>
     <cat_gsoc>gsoc</cat_gsoc>
+    <prj_status>complete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;gsoc;</category>
     <homepage>https://github.com/jadonk/opencv-dsp-acceleration</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/opencv+acceleration/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
