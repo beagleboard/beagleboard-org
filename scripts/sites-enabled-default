@@ -5,7 +5,7 @@
 # statements for each of your virtual hosts to this file
 server {
 	listen	80 default;
-	server_name	beagleboard.org www.beagleboard.org;
+	server_name	beagleboard.net www.beagleboard.net beagleboard.org www.beagleboard.org 52.26.75.20;
 
 	location / {
 		proxy_pass	http://127.0.0.1:8080;
@@ -25,7 +25,7 @@ server {
 }
 
 server {
-	server_name	debexpo.beagleboard.org;
+	server_name	debexpo.beagleboard.net debexpo.beagleboard.org;
 
 	location / {
 		proxy_pass	http://127.0.0.1:5000;
@@ -33,7 +33,7 @@ server {
 }
 
 server {
-	server_name	builds.beagleboard.org;
+	server_name	builds.beagleboard.net builds.beagleboard.org;
 
 	location / {
 		proxy_pass	http://127.0.0.1:8010;
@@ -41,7 +41,7 @@ server {
 }
 
 server {
-	server_name	debian.beagleboard.org;
+	server_name	debian.beagleboard.net debian.beagleboard.org;
 	root /mnt2/debian/;
 
 	location / {
