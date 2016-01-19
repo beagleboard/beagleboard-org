@@ -1,7 +1,11 @@
 <script src="/static/tinymce.min.js"></script>
 <form method="post" enctype="multipart/form-data">
  <h1>Register a BeagleBoard.org related project</h1>
- <h2>Project Information</h2>
+ <h2>Project Submission Form</h2>
+ <p>The content in this form will be posted on the site as entered below. If
+  we have questions or concerns about the content, we will contact you by
+  the provide contact information.
+ </p>
  <p align="center"><font color="red"><% this.errmsg %></font></p>
  <table>
   <tr>
@@ -21,10 +25,20 @@
    <td>&nbsp;</td>
    <td><textarea name="shortdesc" style="width:350px;" rows="4"><% this.shortdesc %></textarea></td>
   </tr>
-  <tr>
-   <td align="right" valign="top"><font color="orange">*</font>Full Description</td>
+  <tr style="height:580px;">
+   <td style="text-align:right;" valign="top"><font color="orange">*</font>Full Description<br/><br/>
+    Answer the following six questions in a conversational format for direct use:
+    <ol style="text-align:left;">
+     <li>What does your project do?</li>
+     <li>Why is it unique and interesting?</li>
+     <li>Which board(s) did you use and why?</li>
+     <li>What are your project specifications?</li>
+     <li>What stage is your project in?</li>
+     <li>How would you like BeagleBoard.org community members to participate?</li>
+    </ol>
+   </td>
    <td>&nbsp;</td>
-   <td><textarea id="fullDesc" name="body" style="width:350px;" rows="4"><% this.body %></textarea></td>
+   <td><textarea id="fullDesc" name="body" style="width:350px;height:450px;" rows="4"><% this.body %></textarea></td>
   </tr>
   <tr>
    <td align="right"><font color="orange"></font>Homepage URL</td>
@@ -45,7 +59,7 @@
    <td colspan="3">&nbsp;</td>
   </tr>
   <tr>
-   <td align="right" valign="top"><font color="orange">*</font>Choose a category or categories that best apply to your project</td>
+   <td align="right" valign="top"><font color="orange">*</font>Choose the categories that best apply to your project</td>
    <td>&nbsp;</td>
    <td>
    <table>
@@ -92,10 +106,15 @@
    </td>
   </tr>
   <tr id="uploadImageHere" style="display:none;">
-   <td align="right">Upload a project photo<br />(optional. 450kb max.)</td>
+   <td align="right">Upload a project photo<br />(450kb max. 350x275 pixels desired.)</td>
    <td>&nbsp;</td>
    <td><img id="imagePreview" style="width:75px;height:75px" src="<%this.getImageFile%>"/><input type="hidden" id="imageFile" name="imageFile" value="<%this.getImageFile%>"/><br />
 	<input type="file" name="imageFileChooser" id="imageFileChooser" /></td>
+  </tr>
+  <tr id="contactInfo">
+   <td align="right">Contact email address and name (will not be displayed on the page)</td>
+   <td>&nbsp;</td>
+   <td><input id="contactInfo" name="contactInfo" value="<%this.getContactInfo%>" type="text" style="width:350px;"/><br />
   </tr>
   <tr>
    <td align="right"></td>

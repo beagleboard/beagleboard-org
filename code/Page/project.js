@@ -23,6 +23,14 @@ function getImageFile_macro (param)
   }
  }
 
+function getContactInfo_macro (param)
+ {
+  if (this.contactInfo == undefined)
+   return '';
+  else
+   return this.contactInfo;
+ }
+
 function edit_macro (param)
  {
   var uri = req.path.replace(/\/$/,"");
