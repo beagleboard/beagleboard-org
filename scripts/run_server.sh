@@ -2,8 +2,8 @@
 killall java
 killall -9 java
 cd /home/ubuntu/beagleboard.org
-git pull github master
+git pull
 git add db
 git commit --message="Web updates" --author="Anonymous <anonymous@beagleboard.org>" db
-git push github master
+git push
 cd /home/ubuntu && ./helma-1.6.1/start.sh > /var/log/helma.log 2>&1 &
