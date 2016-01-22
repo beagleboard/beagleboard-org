@@ -209,3 +209,30 @@
 <li class="quit">[<a href="#T09:55:39" id="T09:55:39"><abbr title="2016-01-22T09:55:39+00:00">09:55:39</abbr></a>] <span>* snowstaff (c33cf752@gateway/web/freenode/ip.195.60.247.82) Quit (Ping timeout: 252 seconds)</span></li>
 <li class="quit">[<a href="#T09:55:58" id="T09:55:58"><abbr title="2016-01-22T09:55:58+00:00">09:55:58</abbr></a>] <span>* magra (~manisha@192.91.75.29) Quit (Remote host closed the connection)</span></li>
 <li class="join">[<a href="#T09:56:14" id="T09:56:14"><abbr title="2016-01-22T09:56:14+00:00">09:56:14</abbr></a>] <span>* magra (~manisha@192.91.75.29) has joined #beagle</span></li>
+<li class="quit">[<a href="#T10:07:46" id="T10:07:46"><abbr title="2016-01-22T10:07:46+00:00">10:07:46</abbr></a>] <span>* eyck (~eyck@u28n61.nowanet.pl) Quit (Ping timeout: 265 seconds)</span></li>
+<li class="join">[<a href="#T10:09:47" id="T10:09:47"><abbr title="2016-01-22T10:09:47+00:00">10:09:47</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has joined #beagle</span></li>
+<li class="message">[<a href="#T10:14:02" id="T10:14:02"><abbr title="2016-01-22T10:14:02+00:00">10:14:02</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>bb: you start by turning it on. Also you read the SRM.</q></li>
+<li class="message">[<a href="#T10:14:12" id="T10:14:12"><abbr title="2016-01-22T10:14:12+00:00">10:14:12</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>what specifically do you want to know?</q></li>
+<li class="quit">[<a href="#T10:16:27" id="T10:16:27"><abbr title="2016-01-22T10:16:27+00:00">10:16:27</abbr></a>] <span>* bb (b6418b57@gateway/web/freenode/ip.182.65.139.87) Quit (Quit: Page closed)</span></li>
+<li class="quit">[<a href="#T10:16:28" id="T10:16:28"><abbr title="2016-01-22T10:16:28+00:00">10:16:28</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) Quit (Ping timeout: 265 seconds)</span></li>
+<li class="join">[<a href="#T10:24:21" id="T10:24:21"><abbr title="2016-01-22T10:24:21+00:00">10:24:21</abbr></a>] <span>* NulL` (~bleh1@178.16.15.250) has joined #beagle</span></li>
+<li class="join">[<a href="#T10:27:29" id="T10:27:29"><abbr title="2016-01-22T10:27:29+00:00">10:27:29</abbr></a>] <span>* Ben_____ (5204dc30@gateway/web/freenode/ip.82.4.220.48) has joined #beagle</span></li>
+<li class="part">[<a href="#T10:30:46" id="T10:30:46"><abbr title="2016-01-22T10:30:46+00:00">10:30:46</abbr></a>] <span>* Ben_____ (5204dc30@gateway/web/freenode/ip.82.4.220.48) has left #beagle</span></li>
+<li class="join">[<a href="#T10:31:43" id="T10:31:43"><abbr title="2016-01-22T10:31:43+00:00">10:31:43</abbr></a>] <span>* redknight_ (5204dc30@gateway/web/freenode/ip.82.4.220.48) has joined #beagle</span></li>
+<li class="message">[<a href="#T10:31:57" id="T10:31:57"><abbr title="2016-01-22T10:31:57+00:00">10:31:57</abbr></a>] &lt;<cite>redknight_</cite>&gt; <q>I've been doing some research and is it possible to run a 24bit RGB888 at 120Hz from the BBB</q></li>
+<li class="join">[<a href="#T10:32:07" id="T10:32:07"><abbr title="2016-01-22T10:32:07+00:00">10:32:07</abbr></a>] <span>* nofxx (~nofxx@unaffiliated/nofxx) has joined #beaglebone</span></li>
+<li class="message">[<a href="#T10:32:43" id="T10:32:43"><abbr title="2016-01-22T10:32:43+00:00">10:32:43</abbr></a>] &lt;<cite>redknight_</cite>&gt; <q>*24bit Display</q></li>
+<li class="message">[<a href="#T10:35:11" id="T10:35:11"><abbr title="2016-01-22T10:35:11+00:00">10:35:11</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>on what? hdmi or the LCD pins?</q></li>
+<li class="quit">[<a href="#T10:35:45" id="T10:35:45"><abbr title="2016-01-22T10:35:45+00:00">10:35:45</abbr></a>] <span>* berton (~fabio@179.105.253.251) Quit (Quit: Leaving)</span></li>
+<li class="message">[<a href="#T10:35:49" id="T10:35:49"><abbr title="2016-01-22T10:35:49+00:00">10:35:49</abbr></a>] &lt;<cite>SpeedEvil</cite>&gt; <q>and 120*160 would be rather easier than 2048*1600</q></li>
+<li class="message">[<a href="#T10:37:11" id="T10:37:11"><abbr title="2016-01-22T10:37:11+00:00">10:37:11</abbr></a>] &lt;<cite>redknight_</cite>&gt; <q>LCD pins</q></li>
+<li class="message">[<a href="#T10:37:15" id="T10:37:15"><abbr title="2016-01-22T10:37:15+00:00">10:37:15</abbr></a>] &lt;<cite>redknight_</cite>&gt; <q>800x480</q></li>
+<li class="join">[<a href="#T10:38:39" id="T10:38:39"><abbr title="2016-01-22T10:38:39+00:00">10:38:39</abbr></a>] <span>* nighty^ (~nighty@s229123.ppp.asahi-net.or.jp) has joined #beagleboard</span></li>
+<li class="quit">[<a href="#T10:39:47" id="T10:39:47"><abbr title="2016-01-22T10:39:47+00:00">10:39:47</abbr></a>] <span>* Ceriand|desktop (~Ceriand@unaffiliated/ceriand) Quit (Quit: Leaving.)</span></li>
+<li class="message">[<a href="#T10:44:06" id="T10:44:06"><abbr title="2016-01-22T10:44:06+00:00">10:44:06</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>then the TRM should provide some insight</q></li>
+<li class="join">[<a href="#T10:44:08" id="T10:44:08"><abbr title="2016-01-22T10:44:08+00:00">10:44:08</abbr></a>] <span>* berton (~fabio@179.105.253.251) has joined #beagle</span></li>
+<li class="message">[<a href="#T10:44:21" id="T10:44:21"><abbr title="2016-01-22T10:44:21+00:00">10:44:21</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>my personal guess is that it probably can</q></li>
+<li class="message">[<a href="#T10:44:43" id="T10:44:43"><abbr title="2016-01-22T10:44:43+00:00">10:44:43</abbr></a>] &lt;<cite>tbr</cite>&gt; <q>(otherwise you'd have needed to check the HDMI framer data sheet)</q></li>
+<li class="message">[<a href="#T10:45:04" id="T10:45:04"><abbr title="2016-01-22T10:45:04+00:00">10:45:04</abbr></a>] &lt;<cite>redknight_</cite>&gt; <q>thank you :) but what does 'TRM' mean</q></li>
+<li class="quit">[<a href="#T10:48:04" id="T10:48:04"><abbr title="2016-01-22T10:48:04+00:00">10:48:04</abbr></a>] <span>* tai271828 (~tai271828@175.41.48.77) Quit (Ping timeout: 250 seconds)</span></li>
+<li class="join">[<a href="#T10:57:48" id="T10:57:48"><abbr title="2016-01-22T10:57:48+00:00">10:57:48</abbr></a>] <span>* franz__ (~franz@cpe90-146-82-220.liwest.at) has joined #beagle</span></li>
