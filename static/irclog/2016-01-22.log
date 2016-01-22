@@ -53,3 +53,20 @@
 <li class="message">[<a href="#T00:53:47" id="T00:53:47"><abbr title="2016-01-22T00:53:47+00:00">00:53:47</abbr></a>] &lt;<cite>GenTooMan</cite>&gt; <q>tea is good... which reminds me ... tea for me</q></li>
 <li class="action">[<a href="#T00:58:00" id="T00:58:00"><abbr title="2016-01-22T00:58:00+00:00">00:58:00</abbr></a>] <span>* zmatt clearly has excellent ideas</span></li>
 <li class="message">[<a href="#T00:59:49" id="T00:59:49"><abbr title="2016-01-22T00:59:49+00:00">00:59:49</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>hm, and McASP isn't actually I²S compatible in slave mode</q></li>
+<li class="message">[<a href="#T01:01:20" id="T01:01:20"><abbr title="2016-01-22T01:01:20+00:00">01:01:20</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>naughty McASP :P</q></li>
+<li class="message">[<a href="#T01:03:56" id="T01:03:56"><abbr title="2016-01-22T01:03:56+00:00">01:03:56</abbr></a>] &lt;<cite>filt3r</cite>&gt; <q>why?</q></li>
+<li class="quit">[<a href="#T01:04:00" id="T01:04:00"><abbr title="2016-01-22T01:04:00+00:00">01:04:00</abbr></a>] <span>* terinjokes (~terinjoke@wikinews/Terinjokes) Quit (Ping timeout: 272 seconds)</span></li>
+<li class="join">[<a href="#T01:04:55" id="T01:04:55"><abbr title="2016-01-22T01:04:55+00:00">01:04:55</abbr></a>] <span>* terinjokes (~terinjoke@wikinews/Terinjokes) has joined #beagle</span></li>
+<li class="message">[<a href="#T01:06:00" id="T01:06:00"><abbr title="2016-01-22T01:06:00+00:00">01:06:00</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>I²S requires that the slave accepts any slot size (without preconfiguration) and simply zero-pads or truncates as necessary for its word size</q></li>
+<li class="message">[<a href="#T01:06:50" id="T01:06:50"><abbr title="2016-01-22T01:06:50+00:00">01:06:50</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>McASP requires a preconfigured slot size and uses only one of the two lrck edges</q></li>
+<li class="message">[<a href="#T01:08:19" id="T01:08:19"><abbr title="2016-01-22T01:08:19+00:00">01:08:19</abbr></a>] &lt;<cite>filt3r</cite>&gt; <q>ok, makes sense</q></li>
+<li class="message">[<a href="#T01:08:45" id="T01:08:45"><abbr title="2016-01-22T01:08:45+00:00">01:08:45</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>also McASP specifies much tighter clock timings than I²S permits</q></li>
+<li class="quit">[<a href="#T01:10:46" id="T01:10:46"><abbr title="2016-01-22T01:10:46+00:00">01:10:46</abbr></a>] <span>* ubap (~ubap@89-71-188-226.dynamic.chello.pl) Quit (Ping timeout: 240 seconds)</span></li>
+<li class="join">[<a href="#T01:12:24" id="T01:12:24"><abbr title="2016-01-22T01:12:24+00:00">01:12:24</abbr></a>] <span>* TheoMurpse (~TheoMurps@cpe-72-191-48-158.satx.res.rr.com) has joined #beaglebone</span></li>
+<li class="quit">[<a href="#T01:28:34" id="T01:28:34"><abbr title="2016-01-22T01:28:34+00:00">01:28:34</abbr></a>] <span>* idwer_ (~irc@unaffiliated/idwer) Quit (Remote host closed the connection)</span></li>
+<li class="join">[<a href="#T01:34:04" id="T01:34:04"><abbr title="2016-01-22T01:34:04+00:00">01:34:04</abbr></a>] <span>* dj_pi (~dj@c-73-191-212-56.hsd1.mi.comcast.net) has joined #beagle</span></li>
+<li class="join">[<a href="#T01:40:34" id="T01:40:34"><abbr title="2016-01-22T01:40:34+00:00">01:40:34</abbr></a>] <span>* zauslande (~zauslande@66.53.81.157) has joined #beagle</span></li>
+<li class="join">[<a href="#T01:46:03" id="T01:46:03"><abbr title="2016-01-22T01:46:03+00:00">01:46:03</abbr></a>] <span>* mikedh (~mike@node-1w7jr9srt7fyz7gkgmx336a9s.ipv6.telus.net) has joined #beagle</span></li>
+<li class="quit">[<a href="#T01:55:55" id="T01:55:55"><abbr title="2016-01-22T01:55:55+00:00">01:55:55</abbr></a>] <span>* TheoMurpse (~TheoMurps@cpe-72-191-48-158.satx.res.rr.com) Quit (Quit: This computer has gone to sleep)</span></li>
+<li class="join">[<a href="#T01:58:36" id="T01:58:36"><abbr title="2016-01-22T01:58:36+00:00">01:58:36</abbr></a>] <span>* zot_ (~zot@104.221.28.26) has joined #beagle</span></li>
+<li class="join">[<a href="#T01:58:50" id="T01:58:50"><abbr title="2016-01-22T01:58:50+00:00">01:58:50</abbr></a>] <span>* Ceriand|desktop (~Ceriand@unaffiliated/ceriand) has joined #beagle</span></li>
