@@ -1331,3 +1331,27 @@
 <li class="message">[<a href="#T20:57:31" id="T20:57:31"><abbr title="2016-01-24T20:57:31+00:00">20:57:31</abbr></a>] &lt;<cite>Alucard__</cite>&gt; <q>I see the codes when i click on the raw button</q></li>
 <li class="message">[<a href="#T20:57:48" id="T20:57:48"><abbr title="2016-01-24T20:57:48+00:00">20:57:48</abbr></a>] &lt;<cite>Alucard__</cite>&gt; <q>but I don't know how to put it on my board</q></li>
 <li class="join">[<a href="#T20:58:46" id="T20:58:46"><abbr title="2016-01-24T20:58:46+00:00">20:58:46</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has joined #beagle</span></li>
+<li class="message">[<a href="#T21:01:40" id="T21:01:40"><abbr title="2016-01-24T21:01:40+00:00">21:01:40</abbr></a>] &lt;<cite>Jonnyw2k</cite>&gt; <q>Alucard__, <a href="http://elinux.org/BeagleBone_Black_Enable_SPIDEV#Enabling_SPIDEV_with_Cape_Manager">http://elinux.org/BeagleBone_Black_Enable_SPIDEV#Enabling_SPIDEV_with_Cape_Manager</a></q></li>
+<li class="message">[<a href="#T21:01:51" id="T21:01:51"><abbr title="2016-01-24T21:01:51+00:00">21:01:51</abbr></a>] &lt;<cite>Jonnyw2k</cite>&gt; <q>you need to go from the</q></li>
+<li class="message">[<abbr title="2016-01-24T21:01:51+00:00">21:01:51</abbr>] &lt;<cite>Jonnyw2k</cite>&gt; <q>dtc -O dtb -o BB-SPI1-01-00A0.dtbo -b 0 -@ BB-SPI1-01-00A0.dts</q></li>
+<li class="message">[<a href="#T21:01:53" id="T21:01:53"><abbr title="2016-01-24T21:01:53+00:00">21:01:53</abbr></a>] &lt;<cite>Jonnyw2k</cite>&gt; <q>bit</q></li>
+<li class="message">[<a href="#T21:02:15" id="T21:02:15"><abbr title="2016-01-24T21:02:15+00:00">21:02:15</abbr></a>] &lt;<cite>vagrantc</cite>&gt; <q>.w 14</q></li>
+<li class="quit">[<a href="#T21:03:25" id="T21:03:25"><abbr title="2016-01-24T21:03:25+00:00">21:03:25</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) Quit (Ping timeout: 245 seconds)</span></li>
+<li class="message">[<a href="#T21:05:34" id="T21:05:34"><abbr title="2016-01-24T21:05:34+00:00">21:05:34</abbr></a>] &lt;<cite>citylight2</cite>&gt; <q>in kerenl 4.2 where to read AIN0? no  /sys/devices/platform/omap/tsc/ain1</q></li>
+<li class="join">[<a href="#T21:07:22" id="T21:07:22"><abbr title="2016-01-24T21:07:22+00:00">21:07:22</abbr></a>] <span>* istvan (~istvan@cpe-74-78-219-199.twcny.res.rr.com) has joined #beagle</span></li>
+<li class="join">[<a href="#T21:12:53" id="T21:12:53"><abbr title="2016-01-24T21:12:53+00:00">21:12:53</abbr></a>] <span>* kunalg_ (~kunalg@14.139.160.232) has joined #beagle</span></li>
+<li class="quit">[<a href="#T21:13:26" id="T21:13:26"><abbr title="2016-01-24T21:13:26+00:00">21:13:26</abbr></a>] <span>* kunalg (~kunalg@14.139.160.232) Quit (Ping timeout: 272 seconds)</span></li>
+<li class="nick-change">[<a href="#T21:13:27" id="T21:13:27"><abbr title="2016-01-24T21:13:27+00:00">21:13:27</abbr></a>] <span>* kunalg_ is now known as kunalg</span></li>
+<li class="join">[<a href="#T21:16:25" id="T21:16:25"><abbr title="2016-01-24T21:16:25+00:00">21:16:25</abbr></a>] <span>* pmezydlo (5947b13d@gateway/web/freenode/ip.89.71.177.61) has joined #beagle</span></li>
+<li class="quit">[<a href="#T21:18:32" id="T21:18:32"><abbr title="2016-01-24T21:18:32+00:00">21:18:32</abbr></a>] <span>* rob_w (~rob@unaffiliated/rob-w/x-1112029) Quit (Read error: Connection reset by peer)</span></li>
+<li class="quit">[<a href="#T21:20:46" id="T21:20:46"><abbr title="2016-01-24T21:20:46+00:00">21:20:46</abbr></a>] <span>* vagrantc (~vagrant@unaffiliated/vagrantc) Quit (Quit: leaving)</span></li>
+<li class="quit">[<a href="#T21:21:14" id="T21:21:14"><abbr title="2016-01-24T21:21:14+00:00">21:21:14</abbr></a>] <span>* mythos (~mythos@unaffiliated/mythos) Quit (Quit: Verlassend)</span></li>
+<li class="join">[<a href="#T21:22:47" id="T21:22:47"><abbr title="2016-01-24T21:22:47+00:00">21:22:47</abbr></a>] <span>* florian (~fuchs@Maemo/community/contributor/florian) has joined #beagle</span></li>
+<li class="quit">[<a href="#T21:29:15" id="T21:29:15"><abbr title="2016-01-24T21:29:15+00:00">21:29:15</abbr></a>] <span>* NulL` (~bleh1@178.16.15.250) Quit (Ping timeout: 245 seconds)</span></li>
+<li class="quit">[<a href="#T21:30:28" id="T21:30:28"><abbr title="2016-01-24T21:30:28+00:00">21:30:28</abbr></a>] <span>* kunalg (~kunalg@14.139.160.232) Quit (Quit: kunalg)</span></li>
+<li class="message">[<a href="#T21:33:18" id="T21:33:18"><abbr title="2016-01-24T21:33:18+00:00">21:33:18</abbr></a>] &lt;<cite>citylight2</cite>&gt; <q>I do remember so many asked about the adc, I just do not remember the answers</q></li>
+<li class="join">[<a href="#T21:49:31" id="T21:49:31"><abbr title="2016-01-24T21:49:31+00:00">21:49:31</abbr></a>] <span>* Russ (~russ@2602:304:cd8f:8070:b1bb:15ba:5cab:70e3) has joined #beagle</span></li>
+<li class="quit">[<a href="#T21:50:41" id="T21:50:41"><abbr title="2016-01-24T21:50:41+00:00">21:50:41</abbr></a>] <span>* eFfeM (~frans@c73189.upc-c.chello.nl) Quit (Quit: Leaving.)</span></li>
+<li class="message">[<a href="#T21:56:30" id="T21:56:30"><abbr title="2016-01-24T21:56:30+00:00">21:56:30</abbr></a>] &lt;<cite>Alucard__</cite>&gt; <q>thank you</q></li>
+<li class="quit">[<a href="#T21:56:39" id="T21:56:39"><abbr title="2016-01-24T21:56:39+00:00">21:56:39</abbr></a>] <span>* Alucard__ (52e4af34@gateway/web/freenode/ip.82.228.175.52) Quit (Quit: Page closed)</span></li>
+<li class="join">[<a href="#T21:59:34" id="T21:59:34"><abbr title="2016-01-24T21:59:34+00:00">21:59:34</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has joined #beagle</span></li>
