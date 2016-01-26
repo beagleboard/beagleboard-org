@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1453679982723">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1453850886897">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,9 +10,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.22 Safari/537.36</http_browser>
-    <time type="date">10.12.2015 14:39:19 UTC</time>
-    <hopsession>127.0.0.1j3satp3worj</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.13 Safari/537.36</http_browser>
+    <time type="date">26.01.2016 23:28:06 UTC</time>
+    <hopsession>127.0.0.8rworrylh1fb</hopsession>
     <body>&lt;span itemscope itemtype=&quot;http://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
 &lt;img style=&quot;float:right;height:200px&quot; itemprop=&quot;image&quot; src=&quot;http://beagleboard.org/static/uploads/BorisTux_w_Logo.png&quot;&gt;
@@ -43,21 +43,20 @@
 &lt;h3&gt;Jessie for BeagleBone, BeagleBone Black, Seeed BeagleBone Green and Arrow BeagleBone Black Industrial via microSD card&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;http://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot;
-         href=&quot;http://builds.beagleboard.org/images/master/08132bf0d0cb284d1148c5d329fe3c8e1aaee44d/bone-debian-8.2-tester-2gb-armhf-2015-11-12-2gb.img.xz&quot;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://rcn-ee.com/rootfs/bb.org/testing/2016-01-24/lxqt-4gb/bone-debian-8.3-lxqt-4gb-armhf-2016-01-24-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;8.2&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;8.3&lt;/span&gt;
             (&lt;span itemprop=&quot;device&quot;&gt;BeagleBone, BeagleBone Black, Seeed BeagleBone Green, Arrow BeagleBone Black Industrial&lt;/span&gt; -
-            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;2GB SD&lt;/span&gt;)
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2015-11-12&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;)
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-01-24&lt;/span&gt;
         &lt;/a&gt;
         -
         &lt;a itemprop=&quot;url&quot; href=&quot;http://beagleboard.org/project/debian&quot;&gt;
             more info
         &lt;/a&gt;
         -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;4714268365500e4c733f800abe7820ff0da67dbcd2fdba5f03a5d089e6c79bbc&lt;/span&gt;
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;da97d7794d834ee785265162635aedcca80fd6dc374593dd05473c0a25f0ac73&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;p&gt;To turn these images into eMMC flasher images, edit the /boot/uEnv.txt file on the Linux partition on the microSD card and remove the &apos;#&apos; on the line with &apos;cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh&apos;. Enabling this will cause booting the microSD card to flash the eMMC. Images are no longer provided here for this to avoid people accidentally overwriting their eMMC flash.&lt;/p&gt;
@@ -193,7 +192,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">485058.0</pvcount>
+    <pvcount type="float">487026.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
