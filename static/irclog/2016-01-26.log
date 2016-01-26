@@ -449,3 +449,25 @@
 <li class="quit">[<a href="#T10:47:26" id="T10:47:26"><abbr title="2016-01-26T10:47:26+00:00">10:47:26</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) Quit (Ping timeout: 240 seconds)</span></li>
 <li class="join">[<a href="#T10:50:18" id="T10:50:18"><abbr title="2016-01-26T10:50:18+00:00">10:50:18</abbr></a>] <span>* Posterdati (~kvirc@host222-239-dynamic.7-87-r.retail.telecomitalia.it) has joined #beaglebone</span></li>
 <li class="join">[<a href="#T10:52:20" id="T10:52:20"><abbr title="2016-01-26T10:52:20+00:00">10:52:20</abbr></a>] <span>* berton (~fabio@179.105.253.251) has joined #beagle</span></li>
+<li class="quit">[<a href="#T11:04:06" id="T11:04:06"><abbr title="2016-01-26T11:04:06+00:00">11:04:06</abbr></a>] <span>* mythos (~mythos@unaffiliated/mythos) Quit (Ping timeout: 245 seconds)</span></li>
+<li class="join">[<a href="#T11:04:19" id="T11:04:19"><abbr title="2016-01-26T11:04:19+00:00">11:04:19</abbr></a>] <span>* ultra__ (af650824@gateway/web/freenode/ip.175.101.8.36) has joined #beagle</span></li>
+<li class="join">[<a href="#T11:05:00" id="T11:05:00"><abbr title="2016-01-26T11:05:00+00:00">11:05:00</abbr></a>] <span>* ubap (~ubap@89-71-188-226.dynamic.chello.pl) has joined #beagle</span></li>
+<li class="message">[<a href="#T11:07:57" id="T11:07:57"><abbr title="2016-01-26T11:07:57+00:00">11:07:57</abbr></a>] &lt;<cite>ultra__</cite>&gt; <q>in beaglebone  where i can find UART configuration pointing to ttyO2</q></li>
+<li class="quit">[<a href="#T11:10:06" id="T11:10:06"><abbr title="2016-01-26T11:10:06+00:00">11:10:06</abbr></a>] <span>* ultra__ (af650824@gateway/web/freenode/ip.175.101.8.36) Quit (Quit: Page closed)</span></li>
+<li class="join">[<a href="#T11:14:36" id="T11:14:36"><abbr title="2016-01-26T11:14:36+00:00">11:14:36</abbr></a>] <span>* johanhenselmans_ (~localadmi@pretsense.xs4all.nl) has joined #beagle</span></li>
+<li class="quit">[<a href="#T11:14:50" id="T11:14:50"><abbr title="2016-01-26T11:14:50+00:00">11:14:50</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) Quit (Ping timeout: 265 seconds)</span></li>
+<li class="nick-change">[<abbr title="2016-01-26T11:14:50+00:00">11:14:50</abbr>] <span>* johanhenselmans_ is now known as johanhenselmans</span></li>
+<li class="join">[<a href="#T11:20:24" id="T11:20:24"><abbr title="2016-01-26T11:20:24+00:00">11:20:24</abbr></a>] <span>* BellinganRoy (~Bellingan@host228-109-static.242-95-b.business.telecomitalia.it) has joined #beagle</span></li>
+<li class="message">[<a href="#T11:22:20" id="T11:22:20"><abbr title="2016-01-26T11:22:20+00:00">11:22:20</abbr></a>] &lt;<cite>snowstaff</cite>&gt; <q>How to fill the RAM in PRUSS?</q></li>
+<li class="message">[<a href="#T11:25:22" id="T11:25:22"><abbr title="2016-01-26T11:25:22+00:00">11:25:22</abbr></a>] &lt;<cite>snowstaff</cite>&gt; <q>Or, how filled in constant register 24(C24)?</q></li>
+<li class="join">[<a href="#T11:37:10" id="T11:37:10"><abbr title="2016-01-26T11:37:10+00:00">11:37:10</abbr></a>] <span>* johanhenselmans_ (~localadmi@pretsense.xs4all.nl) has joined #beagle</span></li>
+<li class="quit">[<a href="#T11:39:47" id="T11:39:47"><abbr title="2016-01-26T11:39:47+00:00">11:39:47</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) Quit (Ping timeout: 264 seconds)</span></li>
+<li class="join">[<a href="#T11:40:44" id="T11:40:44"><abbr title="2016-01-26T11:40:44+00:00">11:40:44</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) has joined #beagle</span></li>
+<li class="join">[<a href="#T11:42:31" id="T11:42:31"><abbr title="2016-01-26T11:42:31+00:00">11:42:31</abbr></a>] <span>* karsun (~karsun@14.139.121.55) has joined #beagle</span></li>
+<li class="quit">[<a href="#T11:43:12" id="T11:43:12"><abbr title="2016-01-26T11:43:12+00:00">11:43:12</abbr></a>] <span>* johanhenselmans_ (~localadmi@pretsense.xs4all.nl) Quit (Ping timeout: 272 seconds)</span></li>
+<li class="join">[<a href="#T11:43:50" id="T11:43:50"><abbr title="2016-01-26T11:43:50+00:00">11:43:50</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has joined #beagle</span></li>
+<li class="quit">[<a href="#T11:48:36" id="T11:48:36"><abbr title="2016-01-26T11:48:36+00:00">11:48:36</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) Quit (Ping timeout: 250 seconds)</span></li>
+<li class="quit">[<a href="#T11:54:28" id="T11:54:28"><abbr title="2016-01-26T11:54:28+00:00">11:54:28</abbr></a>] <span>* karsun (~karsun@14.139.121.55) Quit (Ping timeout: 265 seconds)</span></li>
+<li class="quit">[<a href="#T11:54:37" id="T11:54:37"><abbr title="2016-01-26T11:54:37+00:00">11:54:37</abbr></a>] <span>* Devastator_ (~devas@177.133.182.39) Quit (Changing host)</span></li>
+<li class="join">[<abbr title="2016-01-26T11:54:37+00:00">11:54:37</abbr>] <span>* Devastator_ (~devas@unaffiliated/devastator) has joined #beagle</span></li>
+<li class="nick-change">[<a href="#T11:54:40" id="T11:54:40"><abbr title="2016-01-26T11:54:40+00:00">11:54:40</abbr></a>] <span>* Devastator_ is now known as Devastator</span></li>
