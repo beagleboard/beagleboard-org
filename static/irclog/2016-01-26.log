@@ -209,3 +209,36 @@
 <li class="message">[<a href="#T04:58:00" id="T04:58:00"><abbr title="2016-01-26T04:58:00+00:00">04:58:00</abbr></a>] &lt;<cite>veremit</cite>&gt; <q>and its all on one level</q></li>
 <li class="message">[<a href="#T04:59:19" id="T04:59:19"><abbr title="2016-01-26T04:59:19+00:00">04:59:19</abbr></a>] &lt;<cite>yates</cite>&gt; <q>so all node/subnode/... are converted to one flat bunch of properties?</q></li>
 <li class="message">[<a href="#T05:00:03" id="T05:00:03"><abbr title="2016-01-26T05:00:03+00:00">05:00:03</abbr></a>] &lt;<cite>yates</cite>&gt; <q>is that what the dtc does?</q></li>
+<li class="message">[<a href="#T05:00:30" id="T05:00:30"><abbr title="2016-01-26T05:00:30+00:00">05:00:30</abbr></a>] &lt;<cite>yates</cite>&gt; <q>yes.</q></li>
+<li class="message">[<a href="#T05:01:24" id="T05:01:24"><abbr title="2016-01-26T05:01:24+00:00">05:01:24</abbr></a>] &lt;<cite>yates</cite>&gt; <q><a href="http://paste.fedoraproject.org/314742/53784458">http://paste.fedoraproject.org/314742/53784458</a></q></li>
+<li class="message">[<a href="#T05:09:00" id="T05:09:00"><abbr title="2016-01-26T05:09:00+00:00">05:09:00</abbr></a>] &lt;<cite>yates</cite>&gt; <q>is a single leading "/" a comment character in .dtsi files?</q></li>
+<li class="message">[<a href="#T05:09:06" id="T05:09:06"><abbr title="2016-01-26T05:09:06+00:00">05:09:06</abbr></a>] &lt;<cite>yates</cite>&gt; <q> /include/ "tps65217.dtsi"</q></li>
+<li class="message">[<a href="#T05:10:12" id="T05:10:12"><abbr title="2016-01-26T05:10:12+00:00">05:10:12</abbr></a>] &lt;<cite>yates</cite>&gt; <q>doh.</q></li>
+<li class="message">[<a href="#T05:10:14" id="T05:10:14"><abbr title="2016-01-26T05:10:14+00:00">05:10:14</abbr></a>] &lt;<cite>yates</cite>&gt; <q>nope.</q></li>
+<li class="message">[<a href="#T05:10:39" id="T05:10:39"><abbr title="2016-01-26T05:10:39+00:00">05:10:39</abbr></a>] &lt;<cite>yates</cite>&gt; <q>well, i dunno really. help?</q></li>
+<li class="message">[<a href="#T05:10:50" id="T05:10:50"><abbr title="2016-01-26T05:10:50+00:00">05:10:50</abbr></a>] &lt;<cite>yates</cite>&gt; <q>what does that line do? ^^^</q></li>
+<li class="message">[<a href="#T05:19:26" id="T05:19:26"><abbr title="2016-01-26T05:19:26+00:00">05:19:26</abbr></a>] &lt;<cite>yates</cite>&gt; <q> /include/ "tps65217.dtsi"</q></li>
+<li class="message">[<a href="#T05:19:31" id="T05:19:31"><abbr title="2016-01-26T05:19:31+00:00">05:19:31</abbr></a>] &lt;<cite>yates</cite>&gt; <q>what is THAT?!?</q></li>
+<li class="message">[<a href="#T05:19:56" id="T05:19:56"><abbr title="2016-01-26T05:19:56+00:00">05:19:56</abbr></a>] &lt;<cite>yates</cite>&gt; <q>seems like a normal include is like this: #include "skeleton.dtsi"</q></li>
+<li class="message">[<a href="#T05:21:48" id="T05:21:48"><abbr title="2016-01-26T05:21:48+00:00">05:21:48</abbr></a>] &lt;<cite>yates</cite>&gt; <q>veremit: no clue?</q></li>
+<li class="message">[<a href="#T05:23:10" id="T05:23:10"><abbr title="2016-01-26T05:23:10+00:00">05:23:10</abbr></a>] &lt;<cite>veremit</cite>&gt; <q>its a hybrid syntax</q></li>
+<li class="message">[<a href="#T05:23:19" id="T05:23:19"><abbr title="2016-01-26T05:23:19+00:00">05:23:19</abbr></a>] &lt;<cite>veremit</cite>&gt; <q>I can't comment, since I've never written nor used D-T yet</q></li>
+<li class="message">[<a href="#T05:25:14" id="T05:25:14"><abbr title="2016-01-26T05:25:14+00:00">05:25:14</abbr></a>] &lt;<cite>yates</cite>&gt; <q>ok. thanks anyway.</q></li>
+<li class="message">[<a href="#T05:26:18" id="T05:26:18"><abbr title="2016-01-26T05:26:18+00:00">05:26:18</abbr></a>] &lt;<cite>yates</cite>&gt; <q>oh!!! <a href="http://elinux.org/images/c/cf/Power_ePAPR_APPROVED_v1.1.pdf">http://elinux.org/images/c/cf/Power_ePAPR_APPROVED_v1.1.pdf</a></q></li>
+<li class="message">[<a href="#T05:26:33" id="T05:26:33"><abbr title="2016-01-26T05:26:33+00:00">05:26:33</abbr></a>] &lt;<cite>yates</cite>&gt; <q>documentation! yippee!</q></li>
+<li class="quit">[<a href="#T05:28:40" id="T05:28:40"><abbr title="2016-01-26T05:28:40+00:00">05:28:40</abbr></a>] <span>* jzaw (~jzaw@loki.dzki.co.uk) Quit (Ping timeout: 260 seconds)</span></li>
+<li class="message">[<a href="#T05:30:33" id="T05:30:33"><abbr title="2016-01-26T05:30:33+00:00">05:30:33</abbr></a>] &lt;<cite>yates</cite>&gt; <q>good night, lads.</q></li>
+<li class="join">[<a href="#T05:33:55" id="T05:33:55"><abbr title="2016-01-26T05:33:55+00:00">05:33:55</abbr></a>] <span>* skhreze (~debian@user-94-254-224-89.play-internet.pl) has joined #beagle</span></li>
+<li class="join">[<a href="#T05:35:03" id="T05:35:03"><abbr title="2016-01-26T05:35:03+00:00">05:35:03</abbr></a>] <span>* NishanthMenon (~nmenon@192.91.75.12) has joined #beagle</span></li>
+<li class="quit">[<abbr title="2016-01-26T05:35:03+00:00">05:35:03</abbr>] <span>* NishanthMenon (~nmenon@192.91.75.12) Quit (Changing host)</span></li>
+<li class="join">[<abbr title="2016-01-26T05:35:03+00:00">05:35:03</abbr>] <span>* NishanthMenon (~nmenon@unaffiliated/nishanthmenon) has joined #beagle</span></li>
+<li class="join">[<a href="#T05:35:55" id="T05:35:55"><abbr title="2016-01-26T05:35:55+00:00">05:35:55</abbr></a>] <span>* jzaw (~jzaw@loki.dzki.co.uk) has joined #beagle</span></li>
+<li class="join">[<a href="#T05:45:46" id="T05:45:46"><abbr title="2016-01-26T05:45:46+00:00">05:45:46</abbr></a>] <span>* ccaffeini (crazyed@wrongplanet/CrazyEddy) has joined #beagle</span></li>
+<li class="join">[<a href="#T05:47:33" id="T05:47:33"><abbr title="2016-01-26T05:47:33+00:00">05:47:33</abbr></a>] <span>* Akex_ (uid58281@gateway/web/irccloud.com/x-pnizssioolamgyvl) has joined #beagle</span></li>
+<li class="quit">[<a href="#T05:54:14" id="T05:54:14"><abbr title="2016-01-26T05:54:14+00:00">05:54:14</abbr></a>] <span>* skhreze (~debian@user-94-254-224-89.play-internet.pl) Quit (Ping timeout: 272 seconds)</span></li>
+<li class="quit">[<a href="#T05:55:01" id="T05:55:01"><abbr title="2016-01-26T05:55:01+00:00">05:55:01</abbr></a>] <span>* TheoMurpse (~TheoMurps@cpe-72-191-48-158.satx.res.rr.com) Quit (Quit: Leaving)</span></li>
+<li class="join">[<a href="#T05:58:23" id="T05:58:23"><abbr title="2016-01-26T05:58:23+00:00">05:58:23</abbr></a>] <span>* veremit|2 (~kvirc@166.226.125.91.dyn.plus.net) has joined #beagle</span></li>
+<li class="quit">[<a href="#T05:58:27" id="T05:58:27"><abbr title="2016-01-26T05:58:27+00:00">05:58:27</abbr></a>] <span>* veremit (~kvirc@unaffiliated/veremit) Quit (Disconnected by services)</span></li>
+<li class="nick-change">[<abbr title="2016-01-26T05:58:27+00:00">05:58:27</abbr>] <span>* veremit|2 is now known as veremit</span></li>
+<li class="quit">[<a href="#T05:58:28" id="T05:58:28"><abbr title="2016-01-26T05:58:28+00:00">05:58:28</abbr></a>] <span>* veremit (~kvirc@166.226.125.91.dyn.plus.net) Quit (Changing host)</span></li>
+<li class="join">[<abbr title="2016-01-26T05:58:28+00:00">05:58:28</abbr>] <span>* veremit (~kvirc@unaffiliated/veremit) has joined #beagle</span></li>
