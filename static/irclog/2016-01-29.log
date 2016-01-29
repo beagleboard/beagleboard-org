@@ -350,3 +350,27 @@
 <li class="quit">[<a href="#T12:47:15" id="T12:47:15"><abbr title="2016-01-29T12:47:15+00:00">12:47:15</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) Quit (Ping timeout: 240 seconds)</span></li>
 <li class="join">[<a href="#T12:48:31" id="T12:48:31"><abbr title="2016-01-29T12:48:31+00:00">12:48:31</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) has joined #beagle</span></li>
 <li class="join">[<a href="#T12:52:15" id="T12:52:15"><abbr title="2016-01-29T12:52:15+00:00">12:52:15</abbr></a>] <span>* tty0_ (~NA@unaffiliated/tty0/x-3092968) has joined #beagle</span></li>
+<li class="message">[<a href="#T13:00:40" id="T13:00:40"><abbr title="2016-01-29T13:00:40+00:00">13:00:40</abbr></a>] &lt;<cite>yates</cite>&gt; <q>?</q></li>
+<li class="message">[<a href="#T13:00:51" id="T13:00:51"><abbr title="2016-01-29T13:00:51+00:00">13:00:51</abbr></a>] &lt;<cite>yates</cite>&gt; <q>veremit: are you good at dt's?</q></li>
+<li class="quit">[<a href="#T13:05:46" id="T13:05:46"><abbr title="2016-01-29T13:05:46+00:00">13:05:46</abbr></a>] <span>* nw2s (~textual@ool-182d287b.dyn.optonline.net) Quit (Quit: My Mac has gone to sleep. ZZZzzz…)</span></li>
+<li class="join">[<a href="#T13:33:38" id="T13:33:38"><abbr title="2016-01-29T13:33:38+00:00">13:33:38</abbr></a>] <span>* bizulk (~sli@h67.cornut.fr) has joined #beagleboard</span></li>
+<li class="join">[<abbr title="2016-01-29T13:33:38+00:00">13:33:38</abbr>] <span>* bizulk (~sli@h67.cornut.fr) has joined #beagle</span></li>
+<li class="join">[<a href="#T13:35:58" id="T13:35:58"><abbr title="2016-01-29T13:35:58+00:00">13:35:58</abbr></a>] <span>* nighty^ (~nighty@s229123.ppp.asahi-net.or.jp) has joined #beagleboard</span></li>
+<li class="join">[<a href="#T13:37:24" id="T13:37:24"><abbr title="2016-01-29T13:37:24+00:00">13:37:24</abbr></a>] <span>* thaolx (~newhanoia@123.16.157.107) has joined #beagle</span></li>
+<li class="join">[<a href="#T13:39:21" id="T13:39:21"><abbr title="2016-01-29T13:39:21+00:00">13:39:21</abbr></a>] <span>* named (~unknown@5.148.129.203) has joined #beagle</span></li>
+<li class="quit">[<a href="#T13:40:13" id="T13:40:13"><abbr title="2016-01-29T13:40:13+00:00">13:40:13</abbr></a>] <span>* named (~unknown@5.148.129.203) Quit (Client Quit)</span></li>
+<li class="join">[<a href="#T13:40:15" id="T13:40:15"><abbr title="2016-01-29T13:40:15+00:00">13:40:15</abbr></a>] <span>* named_ (~unknown@5.148.129.203) has joined #beagle</span></li>
+<li class="message">[<a href="#T13:45:48" id="T13:45:48"><abbr title="2016-01-29T13:45:48+00:00">13:45:48</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>yates: of course you can just replace the dtb (or put a new one there and place its name in the dtb variable in /boot/uEnv.txt )</q></li>
+<li class="message">[<a href="#T13:47:28" id="T13:47:28"><abbr title="2016-01-29T13:47:28+00:00">13:47:28</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>(you could also simply have tried it)</q></li>
+<li class="message">[<a href="#T13:47:31" id="T13:47:31"><abbr title="2016-01-29T13:47:31+00:00">13:47:31</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>anyway, afk</q></li>
+<li class="quit">[<a href="#T13:47:43" id="T13:47:43"><abbr title="2016-01-29T13:47:43+00:00">13:47:43</abbr></a>] <span>* Catslab (~Thunderbi@205-237-53-37.static.cgocable.ca) Quit (Quit: Catslab)</span></li>
+<li class="message">[<a href="#T13:48:55" id="T13:48:55"><abbr title="2016-01-29T13:48:55+00:00">13:48:55</abbr></a>] &lt;<cite>yates</cite>&gt; <q>ok</q></li>
+<li class="join">[<a href="#T13:52:16" id="T13:52:16"><abbr title="2016-01-29T13:52:16+00:00">13:52:16</abbr></a>] <span>* Catslab (~Thunderbi@205-237-53-37.static.cgocable.ca) has joined #beagle</span></li>
+<li class="message">[<a href="#T13:52:27" id="T13:52:27"><abbr title="2016-01-29T13:52:27+00:00">13:52:27</abbr></a>] &lt;<cite>yates</cite>&gt; <q>of course.</q></li>
+<li class="message">[<a href="#T13:53:34" id="T13:53:34"><abbr title="2016-01-29T13:53:34+00:00">13:53:34</abbr></a>] &lt;<cite>yates</cite>&gt; <q>my eEnv.txt has nothing about a dts.</q></li>
+<li class="message">[<a href="#T13:53:41" id="T13:53:41"><abbr title="2016-01-29T13:53:41+00:00">13:53:41</abbr></a>] &lt;<cite>yates</cite>&gt; <q>or dtb rather</q></li>
+<li class="quit">[<a href="#T13:55:52" id="T13:55:52"><abbr title="2016-01-29T13:55:52+00:00">13:55:52</abbr></a>] <span>* Catslab (~Thunderbi@205-237-53-37.static.cgocable.ca) Quit (Client Quit)</span></li>
+<li class="quit">[<a href="#T13:56:39" id="T13:56:39"><abbr title="2016-01-29T13:56:39+00:00">13:56:39</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) Quit (Read error: Connection reset by peer)</span></li>
+<li class="join">[<a href="#T13:56:45" id="T13:56:45"><abbr title="2016-01-29T13:56:45+00:00">13:56:45</abbr></a>] <span>* suihkulokki (~voipio@jessie.kos.to) has joined #beagle</span></li>
+<li class="join">[<a href="#T13:57:26" id="T13:57:26"><abbr title="2016-01-29T13:57:26+00:00">13:57:26</abbr></a>] <span>* johanhenselmans (~localadmi@pretsense.xs4all.nl) has joined #beagle</span></li>
+<li class="message">[<a href="#T13:57:30" id="T13:57:30"><abbr title="2016-01-29T13:57:30+00:00">13:57:30</abbr></a>] &lt;<cite>yates</cite>&gt; <q>uEnv.txt</q></li>
