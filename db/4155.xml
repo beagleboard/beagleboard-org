@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4155" name="2015-11" prototype="Page" created="1448915041426" lastModified="1448915071950">
+  <hopobject id="4155" name="2015-11" prototype="Page" created="1448915041426" lastModified="1453993893077">
   <hop:parent idref="3901" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.10 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.172.19.131.1a2kgi5mhq3mq</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1.0</pvcount>
+    <pvcount type="float">2.0</pvcount>
     <body>
 
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
@@ -1391,9 +1391,9 @@ body.outlook p {
 &lt;/html&gt;
 </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <render_skin>bare</render_skin>
     <is_xhtml type="boolean">true</is_xhtml>
-    <skin_is_outer>true</skin_is_outer>
+    <render_skin>bare</render_skin>
     <http_referer>http://beagleboard.org/newsletter/2015-11/edit</http_referer>
+    <skin_is_outer>true</skin_is_outer>
   </hopobject>
 </xmlroot>
