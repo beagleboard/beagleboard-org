@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1454190686694">
+  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1454190734400">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>about</uri>
     <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36</http_browser>
-    <time type="date">30.01.2016 21:51:26 UTC</time>
+    <time type="date">30.01.2016 21:52:14 UTC</time>
     <hopsession>127.0.0.19seqohxge8im</hopsession>
     <body>&lt;h1&gt;About BeagleBoard.org&lt;/h1&gt;
 
@@ -42,7 +42,7 @@
     to provide support and development of the BeagleBoard.org project as part of
     their duties at TI. Manufacturing partners pay volume prices for the TI (and all other)
     components. BeagleBoard.org licenses the use of BeagleBoard.org logos
-    for use as part of the &lt;a href=&quot;http://beagleboard.org/logo&quot;&gt;Compliant and
+    for use as part of the &lt;a href=&quot;http://beagleboard.org/logo&quot;&gt;Manufacturer, Compliant and
         Compatible logo programs
     &lt;/a&gt; for a small royalty. BeagleBoard.org also participates as a mentoring
     organization for Google Summer of Code which pays a small fee for mentoring
@@ -99,7 +99,7 @@ Oakland Twp, MI 48306
     $(&apos;#email1&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email1 + &apos;&quot;&gt;&apos; + email1 +&apos;&lt;/a&gt;&apos;);
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email2 + &apos;&quot;&gt;&apos; + email2 +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <pvcount type="float">51798.0</pvcount>
+    <pvcount type="float">51800.0</pvcount>
     <prev idref="76" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/about/edit</http_referer>
