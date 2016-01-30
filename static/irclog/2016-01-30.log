@@ -397,3 +397,21 @@
 <li class="message">[<a href="#T06:51:43" id="T06:51:43"><abbr title="2016-01-30T06:51:43+00:00">06:51:43</abbr></a>] &lt;<cite>yates</cite>&gt; <q>"works fine" meaning no input/output error, but i am still not getting data at the input to our level translator</q></li>
 <li class="message">[<a href="#T06:51:48" id="T06:51:48"><abbr title="2016-01-30T06:51:48+00:00">06:51:48</abbr></a>] &lt;<cite>yates</cite>&gt; <q>...probing more...</q></li>
 <li class="message">[<a href="#T06:58:58" id="T06:58:58"><abbr title="2016-01-30T06:58:58+00:00">06:58:58</abbr></a>] &lt;<cite>yates</cite>&gt; <q>what about hw flow control? is it off by default?</q></li>
+<li class="message">[<a href="#T07:05:23" id="T07:05:23"><abbr title="2016-01-30T07:05:23+00:00">07:05:23</abbr></a>] &lt;<cite>yates</cite>&gt; <q>we are not using the hw flow control lines</q></li>
+<li class="message">[<a href="#T07:06:58" id="T07:06:58"><abbr title="2016-01-30T07:06:58+00:00">07:06:58</abbr></a>] &lt;<cite>ds2</cite>&gt; <q>Huh?</q></li>
+<li class="message">[<a href="#T07:07:26" id="T07:07:26"><abbr title="2016-01-30T07:07:26+00:00">07:07:26</abbr></a>] &lt;<cite>ds2</cite>&gt; <q>sigh...</q></li>
+<li class="message">[<a href="#T07:07:33" id="T07:07:33"><abbr title="2016-01-30T07:07:33+00:00">07:07:33</abbr></a>] &lt;<cite>ds2</cite>&gt; <q>why not just use yes?</q></li>
+<li class="message">[<a href="#T07:07:51" id="T07:07:51"><abbr title="2016-01-30T07:07:51+00:00">07:07:51</abbr></a>] &lt;<cite>ds2</cite>&gt; <q>i.e. 'yes 12345 &gt; /dev/ttyS0'</q></li>
+<li class="message">[<a href="#T07:08:04" id="T07:08:04"><abbr title="2016-01-30T07:08:04+00:00">07:08:04</abbr></a>] &lt;<cite>ds2</cite>&gt; <q>use stty</q></li>
+<li class="join">[<a href="#T07:10:22" id="T07:10:22"><abbr title="2016-01-30T07:10:22+00:00">07:10:22</abbr></a>] <span>* tomeff (~tomeff@ip-94-112-0-81.net.upcbroadband.cz) has joined #beagle</span></li>
+<li class="join">[<abbr title="2016-01-30T07:10:22+00:00">07:10:22</abbr>] <span>* tomeff (~tomeff@ip-94-112-0-81.net.upcbroadband.cz) has joined #beagleboard</span></li>
+<li class="join">[<abbr title="2016-01-30T07:10:22+00:00">07:10:22</abbr>] <span>* tomeff (~tomeff@ip-94-112-0-81.net.upcbroadband.cz) has joined #beaglebone</span></li>
+<li class="quit">[<a href="#T07:11:22" id="T07:11:22"><abbr title="2016-01-30T07:11:22+00:00">07:11:22</abbr></a>] <span>* moto-timo (ttorling@fsf/member/moto-timo) Quit (Remote host closed the connection)</span></li>
+<li class="join">[<a href="#T07:13:04" id="T07:13:04"><abbr title="2016-01-30T07:13:04+00:00">07:13:04</abbr></a>] <span>* moto-timo (ttorling@nat/intel/x-xqihunqwoxgvange) has joined #beagle</span></li>
+<li class="nick-change">[<a href="#T07:13:29" id="T07:13:29"><abbr title="2016-01-30T07:13:29+00:00">07:13:29</abbr></a>] <span>* moto-timo is now known as Guest28116</span></li>
+<li class="join">[<a href="#T07:22:47" id="T07:22:47"><abbr title="2016-01-30T07:22:47+00:00">07:22:47</abbr></a>] <span>* NulL` (~bleh1@87.254.76.6) has joined #beagle</span></li>
+<li class="quit">[<a href="#T07:25:19" id="T07:25:19"><abbr title="2016-01-30T07:25:19+00:00">07:25:19</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) Quit (Remote host closed the connection)</span></li>
+<li class="join">[<a href="#T07:26:09" id="T07:26:09"><abbr title="2016-01-30T07:26:09+00:00">07:26:09</abbr></a>] <span>* j12t (~j12t@c-50-136-206-246.hsd1.ca.comcast.net) has joined #beagle</span></li>
+<li class="quit">[<a href="#T07:46:00" id="T07:46:00"><abbr title="2016-01-30T07:46:00+00:00">07:46:00</abbr></a>] <span>* Shadyman (~matthew@unaffiliated/shadyman) Quit (Quit: Leaving.)</span></li>
+<li class="quit">[<a href="#T07:46:25" id="T07:46:25"><abbr title="2016-01-30T07:46:25+00:00">07:46:25</abbr></a>] <span>* VirG (~VirGin@c-98-207-169-231.hsd1.ca.comcast.net) Quit (Quit: Leaving.)</span></li>
+<li class="quit">[<a href="#T07:54:32" id="T07:54:32"><abbr title="2016-01-30T07:54:32+00:00">07:54:32</abbr></a>] <span>* tomeff (~tomeff@ip-94-112-0-81.net.upcbroadband.cz) Quit (Quit: tomeff)</span></li>
