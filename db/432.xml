@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="432" name="qemu-omap3" prototype="Page" created="1227599175117" lastModified="1453223192891">
+  <hopobject id="432" name="qemu-omap3" prototype="Page" created="1227599175117" lastModified="1454096385828">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -22,7 +22,7 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://code.google.com/feeds/p/qemu-omap3/updates/basic</rssfeed>
     <cat_host>utility</cat_host>
-    <pvcount type="float">7967.0</pvcount>
+    <pvcount type="float">8043.0</pvcount>
     <prj_status>obsolete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>utility;</category>
