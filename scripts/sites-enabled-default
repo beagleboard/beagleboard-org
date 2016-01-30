@@ -3,51 +3,6 @@
 #	...
 # }
 # statements for each of your virtual hosts to this file
-server {
-	listen	80 default;
-	server_name	beagleboard.net www.beagleboard.net beagleboard.org www.beagleboard.org 52.26.75.20;
-
-	location / {
-		proxy_pass	http://127.0.0.1:8080;
-		gzip		on;
-		gzip_min_length	1000;
-		gzip_vary on;
-		gzip_proxied expired no-cache no-store private auth;
-		gzip_types text/plain text/css text/xml text/javascript test/html application/x-javascript;
-		gzip_disable "MSIE [1-6]\.";
-
-		location /static {
-			add_header Cache-Control max-age=86400;
-			proxy_pass	http://127.0.0.1:8080/static;
-		}
-	}
-
-}
-
-server {
-	server_name	debexpo.beagleboard.net debexpo.beagleboard.org;
-
-	location / {
-		proxy_pass	http://127.0.0.1:5000;
-	}
-}
-
-server {
-	server_name	builds.beagleboard.net builds.beagleboard.org;
-
-	location / {
-		proxy_pass	http://127.0.0.1:8010;
-	}
-}
-
-server {
-	server_name	debian.beagleboard.net debian.beagleboard.org;
-	root /mnt2/debian/;
-
-	location / {
-		autoindex on;
-	}
-}
 
 ##
 # You should look at the following URL's in order to grasp a solid understanding
@@ -163,3 +118,156 @@ server {
 #		try_files $uri $uri/ /index.html;
 #	}
 #}
+
+server {
+	listen 80;
+	server_name www.beagleboard.net 52.26.75.20;
+	return 301 https://beagleboard.net$request_uri;
+}
+
+server {
+	listen 443;
+	server_name www.beagleboard.net 52.26.75.20;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	return 301 https://beagleboard.net$request_uri;
+}
+
+server {
+	listen 80;
+	listen 443 ssl;
+	server_name beagleboard.net;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:8080;
+		gzip		on;
+		gzip_min_length	1000;
+		gzip_vary on;
+		gzip_proxied expired no-cache no-store private auth;
+		gzip_types text/plain text/css text/xml text/javascript test/html application/x-javascript;
+		gzip_disable "MSIE [1-6]\.";
+
+		location /static {
+			add_header Cache-Control max-age=86400;
+			proxy_pass	http://127.0.0.1:8080/static;
+		}
+	}
+
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	debexpo.beagleboard.net;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:5000;
+	}
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	builds.beagleboard.net;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:8010;
+	}
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	debian.beagleboard.net;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	root /mnt2/debian/;
+
+	location / {
+		autoindex on;
+	}
+}
+
+server {
+	listen 80;
+	server_name www.beagleboard.org;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 443;
+	server_name www.beagleboard.org;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 80;
+	listen [::]:80 ipv6only=on;
+	listen 443 ssl;
+	listen [::]:443 ssl ipv6only=on;
+	server_name beagleboard.org;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:8080;
+		gzip		on;
+		gzip_min_length	1000;
+		gzip_vary on;
+		gzip_proxied expired no-cache no-store private auth;
+		gzip_types text/plain text/css text/xml text/javascript test/html application/x-javascript;
+		gzip_disable "MSIE [1-6]\.";
+
+		location /static {
+			add_header Cache-Control max-age=86400;
+			proxy_pass	http://127.0.0.1:8080/static;
+		}
+	}
+
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	debexpo.beagleboard.org;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:5000;
+	}
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	builds.beagleboard.org;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+
+	location / {
+		proxy_pass	http://127.0.0.1:8010;
+	}
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	debian.beagleboard.org;
+	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	root /mnt2/debian/;
+
+	location / {
+		autoindex on;
+	}
+}
+
