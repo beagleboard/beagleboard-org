@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3901" name="newsletter" prototype="Page" created="1418540573040" lastModified="1454366895688">
+  <hopobject id="3901" name="newsletter" prototype="Page" created="1418540573040" lastModified="1454423482525">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -9,9 +9,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>newsletter</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.10 Safari/537.36</http_browser>
-    <time type="date">30.11.2015 20:30:25 UTC</time>
-    <hopsession>127.0.0.172.19.131.1a2kgi5mhq3mq</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36</http_browser>
+    <time type="date">02.02.2016 14:31:22 UTC</time>
+    <hopsession>127.0.0.1s129e2emyah</hopsession>
     <body>&lt;h1&gt;Newsletter&lt;/h1&gt;
 &lt;!-- Begin MailChimp Signup Form --&gt;
 &lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
@@ -21,7 +21,7 @@
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 &lt;/style&gt;
 &lt;div id=&quot;mc_embed_signup&quot;&gt;
-&lt;form action=&quot;//beagleboard.us3.list-manage.com/subscribe/post?u=6e7c2131525b7b1b74c71e2cb&amp;amp;id=85ff84625f&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
+&lt;form action=&quot;//beagleboard.us3.list-manage.com/subscribe/post?u=6e7c2131525b7b1b74c71e2cb&amp;id=85ff84625f&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
     &lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
 	&lt;h2&gt;Subscribe to our mailing list&lt;/h2&gt;
 &lt;div class=&quot;indicates-required&quot;&gt;&lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
@@ -32,8 +32,8 @@
 &lt;/div&gt;
 &lt;div class=&quot;mc-field-group input-group&quot;&gt;
     &lt;strong&gt;Interests &lt;/strong&gt;
-    &lt;ul&gt;&lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;group[13753][1]&quot; id=&quot;mce-group[13753]-13753-0&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-0&quot;&gt;Newsletter (monthly)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;2&quot; name=&quot;group[13753][2]&quot; id=&quot;mce-group[13753]-13753-1&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-1&quot;&gt;Education&lt;/label&gt;&lt;/li&gt;
+    &lt;ul&gt;&lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;group[13753][1]&quot; id=&quot;mce-group[13753]-13753-0&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-0&quot;&gt;Newsletter (approximately monthly)&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;2&quot; name=&quot;group[13753][2]&quot; id=&quot;mce-group[13753]-13753-1&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-1&quot;&gt;Education (including BeagleBone Blue updates)&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;4&quot; name=&quot;group[13753][4]&quot; id=&quot;mce-group[13753]-13753-2&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-2&quot;&gt;Blog posts&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;8&quot; name=&quot;group[13753][8]&quot; id=&quot;mce-group[13753]-13753-3&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-3&quot;&gt;Product announcements&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input type=&quot;checkbox&quot; value=&quot;128&quot; name=&quot;group[13753][128]&quot; id=&quot;mce-group[13753]-13753-4&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-4&quot;&gt;X15&lt;/label&gt;&lt;/li&gt;
@@ -67,7 +67,7 @@
 &lt;h1&gt;Past newsletters&lt;/h1&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <list_children>true</list_children>
-    <pvcount type="float">12789.0</pvcount>
+    <pvcount type="float">12805.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=78f92f08121bd4828d687659d9f26b3482501c2f..2875:I=1422539207:X=1422542807</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/newsletter/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
