@@ -300,3 +300,39 @@
 <li class="message">[<a href="#T14:59:29" id="T14:59:29"><abbr title="2016-02-03T14:59:29+00:00">14:59:29</abbr></a>] &lt;<cite>stt_michael</cite>&gt; <q>lolol</q></li>
 <li class="message">[<a href="#T14:59:35" id="T14:59:35"><abbr title="2016-02-03T14:59:35+00:00">14:59:35</abbr></a>] &lt;<cite>stt_michael</cite>&gt; <q>a m$ phone .. eww</q></li>
 <li class="message">[<a href="#T14:59:52" id="T14:59:52"><abbr title="2016-02-03T14:59:52+00:00">14:59:52</abbr></a>] &lt;<cite>woglinde</cite>&gt; <q>hm no laptop battery is now 5 years old or so</q></li>
+<li class="message">[<a href="#T15:00:06" id="T15:00:06"><abbr title="2016-02-03T15:00:06+00:00">15:00:06</abbr></a>] &lt;<cite>woglinde</cite>&gt; <q>but got enough for 3 hours</q></li>
+<li class="message">[<a href="#T15:00:16" id="T15:00:16"><abbr title="2016-02-03T15:00:16+00:00">15:00:16</abbr></a>] &lt;<cite>woglinde</cite>&gt; <q>good</q></li>
+<li class="join">[<a href="#T15:02:11" id="T15:02:11"><abbr title="2016-02-03T15:02:11+00:00">15:02:11</abbr></a>] <span>* dgerlach1 (dgerlach@nat/ti/x-xicoyqdgjzsdjotx) has joined #beagle</span></li>
+<li class="message">[<a href="#T15:04:00" id="T15:04:00"><abbr title="2016-02-03T15:04:00+00:00">15:04:00</abbr></a>] &lt;<cite>Abhishek_</cite>&gt; <q>woglinde: which laptop?</q></li>
+<li class="quit">[<a href="#T15:05:04" id="T15:05:04"><abbr title="2016-02-03T15:05:04+00:00">15:05:04</abbr></a>] <span>* woglinde (~henning@ip-109-45-1-163.web.vodafone.de) Quit (Ping timeout: 256 seconds)</span></li>
+<li class="join">[<a href="#T15:12:12" id="T15:12:12"><abbr title="2016-02-03T15:12:12+00:00">15:12:12</abbr></a>] <span>* shambrarian (~shambrari@unaffilated/shambrarian) has joined #beaglebone</span></li>
+<li class="quit">[<a href="#T15:12:39" id="T15:12:39"><abbr title="2016-02-03T15:12:39+00:00">15:12:39</abbr></a>] <span>* berton (~fabio@177.127.6.77) Quit (Quit: Leaving)</span></li>
+<li class="quit">[<a href="#T15:15:19" id="T15:15:19"><abbr title="2016-02-03T15:15:19+00:00">15:15:19</abbr></a>] <span>* rob_w (~bob@unaffiliated/rob-w/x-1112029) Quit (Quit: Leaving)</span></li>
+<li class="join">[<a href="#T15:15:25" id="T15:15:25"><abbr title="2016-02-03T15:15:25+00:00">15:15:25</abbr></a>] <span>* berton (~fabio@177.127.6.77) has joined #beagle</span></li>
+<li class="quit">[<a href="#T15:16:39" id="T15:16:39"><abbr title="2016-02-03T15:16:39+00:00">15:16:39</abbr></a>] <span>* florian (~fuchs@Maemo/community/contributor/florian) Quit (Quit: Client exiting)</span></li>
+<li class="message">[<a href="#T15:19:30" id="T15:19:30"><abbr title="2016-02-03T15:19:30+00:00">15:19:30</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>hi, when I run my executable first.out on my debian beaglebone I get "Illegal Instruction"</q></li>
+<li class="message">[<a href="#T15:19:49" id="T15:19:49"><abbr title="2016-02-03T15:19:49+00:00">15:19:49</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>is it an ARM executable?</q></li>
+<li class="message">[<a href="#T15:19:56" id="T15:19:56"><abbr title="2016-02-03T15:19:56+00:00">15:19:56</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>I tried compiling with Linaro as well as the TI compiler built into ccsv6</q></li>
+<li class="message">[<a href="#T15:20:10" id="T15:20:10"><abbr title="2016-02-03T15:20:10+00:00">15:20:10</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>why not gcc</q></li>
+<li class="message">[<a href="#T15:20:19" id="T15:20:19"><abbr title="2016-02-03T15:20:19+00:00">15:20:19</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>just out of curiosity</q></li>
+<li class="message">[<a href="#T15:20:20" id="T15:20:20"><abbr title="2016-02-03T15:20:20+00:00">15:20:20</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>yes I do a file first.out and it reports that it's an executable</q></li>
+<li class="message">[<a href="#T15:20:35" id="T15:20:35"><abbr title="2016-02-03T15:20:35+00:00">15:20:35</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>it's an executable, but is it an ARM executable or an x86 one?</q></li>
+<li class="message">[<a href="#T15:21:11" id="T15:21:11"><abbr title="2016-02-03T15:21:11+00:00">15:21:11</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>ELF 32-bit LSB executable, ARM, EABI5 version 1</q></li>
+<li class="message">[<a href="#T15:21:35" id="T15:21:35"><abbr title="2016-02-03T15:21:35+00:00">15:21:35</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>statically linked not stripped</q></li>
+<li class="message">[<a href="#T15:21:46" id="T15:21:46"><abbr title="2016-02-03T15:21:46+00:00">15:21:46</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>hmm. that's odd</q></li>
+<li class="message">[<a href="#T15:22:11" id="T15:22:11"><abbr title="2016-02-03T15:22:11+00:00">15:22:11</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>gss is not an option when I make a new project with the ccs wizard</q></li>
+<li class="message">[<a href="#T15:22:17" id="T15:22:17"><abbr title="2016-02-03T15:22:17+00:00">15:22:17</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>gcc</q></li>
+<li class="message">[<a href="#T15:22:46" id="T15:22:46"><abbr title="2016-02-03T15:22:46+00:00">15:22:46</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>all it does is printf hello world</q></li>
+<li class="message">[<a href="#T15:22:49" id="T15:22:49"><abbr title="2016-02-03T15:22:49+00:00">15:22:49</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>you might need to tweak your compiler settings to better target the am335x chip</q></li>
+<li class="message">[<a href="#T15:23:05" id="T15:23:05"><abbr title="2016-02-03T15:23:05+00:00">15:23:05</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>ok</q></li>
+<li class="quit">[<a href="#T15:23:08" id="T15:23:08"><abbr title="2016-02-03T15:23:08+00:00">15:23:08</abbr></a>] <span>* mrjazzcat (~mrjazzcat@50.134.253.3) Quit (Quit: Leaving)</span></li>
+<li class="quit">[<a href="#T15:32:20" id="T15:32:20"><abbr title="2016-02-03T15:32:20+00:00">15:32:20</abbr></a>] <span>* BennyB_ (~heldb@host-88-217-198-167.customer.m-online.net) Quit (Ping timeout: 248 seconds)</span></li>
+<li class="message">[<a href="#T15:34:50" id="T15:34:50"><abbr title="2016-02-03T15:34:50+00:00">15:34:50</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>twoten: linaro is gcc</q></li>
+<li class="message">[<a href="#T15:35:05" id="T15:35:05"><abbr title="2016-02-03T15:35:05+00:00">15:35:05</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>eh</q></li>
+<li class="message">[<a href="#T15:35:07" id="T15:35:07"><abbr title="2016-02-03T15:35:07+00:00">15:35:07</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>kremlin:</q></li>
+<li class="message">[<a href="#T15:35:22" id="T15:35:22"><abbr title="2016-02-03T15:35:22+00:00">15:35:22</abbr></a>] &lt;<cite>kremlin</cite>&gt; <q>oh, ive never heard of it before even</q></li>
+<li class="quit">[<a href="#T15:35:53" id="T15:35:53"><abbr title="2016-02-03T15:35:53+00:00">15:35:53</abbr></a>] <span>* tomeff (~tomeff@ip-89-176-75-234.net.upcbroadband.cz) Quit (Quit: tomeff)</span></li>
+<li class="message">[<a href="#T15:36:04" id="T15:36:04"><abbr title="2016-02-03T15:36:04+00:00">15:36:04</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>the linaro gcc toolchain is pretty decent, and distro-independent: just unpack anywhere and adds its bin to your PATH</q></li>
+<li class="message">[<a href="#T15:36:10" id="T15:36:10"><abbr title="2016-02-03T15:36:10+00:00">15:36:10</abbr></a>] &lt;<cite>twoten</cite>&gt; <q>I just discovered that the qt creator is built in to ccsv6 - extremely cool</q></li>
+<li class="join">[<a href="#T15:39:01" id="T15:39:01"><abbr title="2016-02-03T15:39:01+00:00">15:39:01</abbr></a>] <span>* Bumsik (~Thunderbi@adm-129-49-101-58.wi-fi.stonybrook.edu) has joined #beagle</span></li>
+<li class="message">[<a href="#T15:55:59" id="T15:55:59"><abbr title="2016-02-03T15:55:59+00:00">15:55:59</abbr></a>] &lt;<cite>stt_michael</cite>&gt; <q>yikes bloaty bloaty</q></li>
