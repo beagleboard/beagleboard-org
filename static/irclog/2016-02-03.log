@@ -49,3 +49,27 @@
 <li class="quit">[<a href="#T03:44:04" id="T03:44:04"><abbr title="2016-02-03T03:44:04+00:00">03:44:04</abbr></a>] <span>* TheoMurpse (~TheoMurps@cpe-72-191-48-158.satx.res.rr.com) Quit (Quit: Leaving)</span></li>
 <li class="message">[<a href="#T03:50:05" id="T03:50:05"><abbr title="2016-02-03T03:50:05+00:00">03:50:05</abbr></a>] &lt;<cite>Oskar</cite>&gt; <q>Tried two different SD cards, not getting anything other than the PWR led and C:s on the serial port</q></li>
 <li class="message">[<a href="#T03:56:55" id="T03:56:55"><abbr title="2016-02-03T03:56:55+00:00">03:56:55</abbr></a>] &lt;<cite>CathyBlue</cite>&gt; <q>Sounds like it bricked to me. Gonna hafta JTAG it to reflash it to a known good firmware.</q></li>
+<li class="message">[<a href="#T04:00:56" id="T04:00:56"><abbr title="2016-02-03T04:00:56+00:00">04:00:56</abbr></a>] &lt;<cite>veremit</cite>&gt; <q>you should be able to boot it with a good uSD .. but sounds like either your cards are bad or images are bad</q></li>
+<li class="message">[<a href="#T04:01:17" id="T04:01:17"><abbr title="2016-02-03T04:01:17+00:00">04:01:17</abbr></a>] &lt;<cite>veremit</cite>&gt; <q>CC just means it can't find the first level bootloader</q></li>
+<li class="join">[<a href="#T04:02:30" id="T04:02:30"><abbr title="2016-02-03T04:02:30+00:00">04:02:30</abbr></a>] <span>* pittzheng_ (~peiqzhen@64.104.125.234) has joined #beagle</span></li>
+<li class="quit">[<a href="#T04:02:37" id="T04:02:37"><abbr title="2016-02-03T04:02:37+00:00">04:02:37</abbr></a>] <span>* pittzheng_ (~peiqzhen@64.104.125.234) Quit (Quit: Leaving)</span></li>
+<li class="join">[<a href="#T04:03:03" id="T04:03:03"><abbr title="2016-02-03T04:03:03+00:00">04:03:03</abbr></a>] <span>* pittzheng (~peiqzhen@64.104.125.234) has joined #beagle</span></li>
+<li class="message">[<a href="#T04:05:53" id="T04:05:53"><abbr title="2016-02-03T04:05:53+00:00">04:05:53</abbr></a>] &lt;<cite>Oskar</cite>&gt; <q>So you suggest I try to buy a new SD card and/or another image? Once after 30 tries I got it to start blinking again for a few seconds before stopping... Which is why I tried another SD card, but not getting any life signs with that one.</q></li>
+<li class="quit">[<a href="#T04:13:39" id="T04:13:39"><abbr title="2016-02-03T04:13:39+00:00">04:13:39</abbr></a>] <span>* pittzheng (~peiqzhen@64.104.125.234) Quit (Quit: Leaving)</span></li>
+<li class="join">[<a href="#T04:14:10" id="T04:14:10"><abbr title="2016-02-03T04:14:10+00:00">04:14:10</abbr></a>] <span>* pittzheng (~peiqzhen@64.104.125.234) has joined #beagle</span></li>
+<li class="quit">[<a href="#T04:14:20" id="T04:14:20"><abbr title="2016-02-03T04:14:20+00:00">04:14:20</abbr></a>] <span>* pittzheng (~peiqzhen@64.104.125.234) Quit (Read error: Connection reset by peer)</span></li>
+<li class="join">[<a href="#T04:19:28" id="T04:19:28"><abbr title="2016-02-03T04:19:28+00:00">04:19:28</abbr></a>] <span>* thurgood_ (~thurgood@65-36-122-62.dyn.grandenetworks.net) has joined #beagle</span></li>
+<li class="join">[<a href="#T04:27:58" id="T04:27:58"><abbr title="2016-02-03T04:27:58+00:00">04:27:58</abbr></a>] <span>* Ceriand|desktop (~Ceriand@unaffiliated/ceriand) has joined #beagle</span></li>
+<li class="quit">[<a href="#T04:39:00" id="T04:39:00"><abbr title="2016-02-03T04:39:00+00:00">04:39:00</abbr></a>] <span>* demok (~okan@139.179.138.57) Quit (Ping timeout: 248 seconds)</span></li>
+<li class="join">[<a href="#T04:42:50" id="T04:42:50"><abbr title="2016-02-03T04:42:50+00:00">04:42:50</abbr></a>] <span>* sam__ (7a994b82@gateway/web/freenode/ip.122.153.75.130) has joined #beagle</span></li>
+<li class="message">[<a href="#T04:42:54" id="T04:42:54"><abbr title="2016-02-03T04:42:54+00:00">04:42:54</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>hi</q></li>
+<li class="message">[<a href="#T04:43:02" id="T04:43:02"><abbr title="2016-02-03T04:43:02+00:00">04:43:02</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>my name is sam</q></li>
+<li class="message">[<a href="#T04:43:26" id="T04:43:26"><abbr title="2016-02-03T04:43:26+00:00">04:43:26</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>my beagleboard</q></li>
+<li class="message">[<a href="#T04:43:35" id="T04:43:35"><abbr title="2016-02-03T04:43:35+00:00">04:43:35</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>pasward</q></li>
+<li class="message">[<a href="#T04:43:48" id="T04:43:48"><abbr title="2016-02-03T04:43:48+00:00">04:43:48</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>how now</q></li>
+<li class="message">[<a href="#T04:43:51" id="T04:43:51"><abbr title="2016-02-03T04:43:51+00:00">04:43:51</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>ok?</q></li>
+<li class="message">[<a href="#T04:44:00" id="T04:44:00"><abbr title="2016-02-03T04:44:00+00:00">04:44:00</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>hihi</q></li>
+<li class="message">[<a href="#T04:44:06" id="T04:44:06"><abbr title="2016-02-03T04:44:06+00:00">04:44:06</abbr></a>] &lt;<cite>sam__</cite>&gt; <q>what!!</q></li>
+<li class="quit">[<a href="#T04:44:41" id="T04:44:41"><abbr title="2016-02-03T04:44:41+00:00">04:44:41</abbr></a>] <span>* sam__ (7a994b82@gateway/web/freenode/ip.122.153.75.130) Quit (Client Quit)</span></li>
+<li class="message">[<a href="#T04:45:51" id="T04:45:51"><abbr title="2016-02-03T04:45:51+00:00">04:45:51</abbr></a>] &lt;<cite>CathyBlue</cite>&gt; <q>ooooookay</q></li>
+<li class="quit">[<a href="#T04:54:52" id="T04:54:52"><abbr title="2016-02-03T04:54:52+00:00">04:54:52</abbr></a>] <span>* abferm (~abferm@72.29.168.106) Quit (Ping timeout: 250 seconds)</span></li>
