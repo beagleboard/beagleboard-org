@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="225" name="search" prototype="Page" created="1215747531033" lastModified="1454588581633">
+  <hopobject id="225" name="search" prototype="Page" created="1215747531033" lastModified="1454601597177">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3</http_browser>
-    <lang>en-us</lang>
-    <uri>search</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">03.06.2010 04:01:24 UTC</time>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.192.94.94.xv2ytd4e5q4f</hopsession>
-    <user>blog.hangerhead.com</user>
-    <pvcount type="float">1964.0</pvcount>
-    <body>
- &lt;div id=&quot;cse&quot; style=&quot;width: 100%;&quot;&gt;
-  &lt;form action=&quot;http://www.google.com/cse&quot; id=&quot;my-cse-search-box&quot;&gt;
-   &lt;div&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;cx&quot; value=&quot;001071468846613058269:xd-gxvzmbq4&quot;/&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;ie&quot; value=&quot;UTF-8&quot;/&gt;
-    &lt;input type=&quot;text&quot; name=&quot;q&quot; size=&quot;31&quot;/&gt;
-    &lt;input type=&quot;submit&quot; name=&quot;sa&quot; value=&quot;Search&quot;/&gt;
-   &lt;/div&gt;
-  &lt;/form&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/coop/cse/brand?form=my-cse-search-box&quot;&gt;//&lt;/script&gt;
- &lt;/div&gt;
- &lt;div&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.google.com/jsapi&quot;&gt;//&lt;/script&gt;
- &lt;/div&gt;
- &lt;div&gt;
-  &lt;script type=&quot;text/javascript&quot;&gt;google.load(&apos;search&apos;, &apos;1&apos;, {language : &apos;en&apos;});
-  google.setOnLoadCallback(function(){
-    var customSearchControl = new google.search.CustomSearchControl(&apos;001071468846613058269:xd-gxvzmbq4&apos;);
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    customSearchControl.draw(&apos;cse&apos;);
-  }, true);&lt;/script&gt;
- &lt;/div&gt;
-</body>
-    <http_language>en-us,en;q=0.8,en-gb;q=0.5,ja;q=0.3</http_language>
     <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/search/edit</http_referer>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>search</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">04.02.2016 15:59:57 UTC</time>
+    <hopsession>127.0.0.8rworrylh1fb</hopsession>
+    <body>&lt;script&gt;
+  (function() {
+    var cx = &apos;001071468846613058269:xd-gxvzmbq4&apos;;
+    var gcse = document.createElement(&apos;script&apos;);
+    gcse.type = &apos;text/javascript&apos;;
+    gcse.async = true;
+    gcse.src = (document.location.protocol == &apos;https:&apos; ? &apos;https:&apos; : &apos;http:&apos;) +
+        &apos;//cse.google.com/cse.js?cx=&apos; + cx;
+    var s = document.getElementsByTagName(&apos;script&apos;)[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+&lt;/script&gt;
+&lt;gcse:search&gt;&lt;/gcse:search&gt;</body>
+    <pvcount type="float">1967.0</pvcount>
+    <http_referer>http://beagleboard.org/search/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
