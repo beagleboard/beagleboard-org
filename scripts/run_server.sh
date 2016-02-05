@@ -6,4 +6,4 @@ git pull
 git add db
 git commit --message="Web updates" --author="Anonymous <anonymous@beagleboard.org>" db
 git push
-cd /home/ubuntu && ./helma-1.6.1/start.sh > /var/log/helma.log 2>&1 &
+cd /home/ubuntu && ./helma-1.6.1/start.sh > helma.log 2>&1 &
