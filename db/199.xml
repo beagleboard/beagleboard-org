@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1454111521664">
+  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1454629075640">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,9 +12,9 @@
     <beagleirclog>000000</beagleirclog>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>about</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.8 Safari/537.36</http_browser>
-    <time type="date">14.10.2015 13:01:52 UTC</time>
-    <hopsession>127.0.0.jmhh70x0686t</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36</http_browser>
+    <time type="date">30.01.2016 21:52:14 UTC</time>
+    <hopsession>127.0.0.19seqohxge8im</hopsession>
     <body>&lt;h1&gt;About BeagleBoard.org&lt;/h1&gt;
 
 &lt;p&gt;The BeagleBoard.org Foundation is a US-based non-profit corporation 
@@ -36,22 +36,19 @@
     Original production funding was provided by &lt;a href=&quot;http://digikey.com&quot;&gt;
     Digi-Key&lt;/a&gt;, a major international distributor, but distribution has now 
     been opened up to dozens of distributors across the world. On-going funding
-    for board prototypes has been provided by CircuitCo, manufacturer of the
-    boards. Texas Instruments generously allows Jason Kridner, community manager
+    for board prototypes has been provided by manufacturing partners. Texas 
+    Instruments generously allows Jason Kridner, community manager
     and software cat herder, to spend time
     to provide support and development of the BeagleBoard.org project as part of
-    their duties at TI. CircuitCo pays volume prices for the TI (and all other)
-    components. BeagleBoard.org does not currently get any money
-    on board sales from CircuitCo, but does license the BeagleBoard.org logos
-    for use as part of the &lt;a href=&quot;http://beagleboard.org/logo&quot;&gt;Compliant and
+    their duties at TI. Manufacturing partners pay volume prices for the TI (and all other)
+    components. BeagleBoard.org licenses the use of BeagleBoard.org logos
+    for use as part of the &lt;a href=&quot;http://beagleboard.org/logo&quot;&gt;Manufacturer, Compliant and
         Compatible logo programs
     &lt;/a&gt; for a small royalty. BeagleBoard.org also participates as a mentoring
     organization for Google Summer of Code which pays a small fee for mentoring
     students.
 &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://circuitco.com&quot;&gt;CircuitCo Printed Circuit Board Solutions&lt;/a&gt;
-    out of Richardson, TX is the primary manufacturer of BeagleBoard.org
-    products, but all the designs are fully open source and components are
+&lt;p&gt;All the designs are fully open source and components are
     available for anyone to manufacture compatible hardware. We do request
     contact and permission before considering the use of the BeagleBoard.org 
     name on any products.
@@ -102,10 +99,10 @@ Oakland Twp, MI 48306
     $(&apos;#email1&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email1 + &apos;&quot;&gt;&apos; + email1 +&apos;&lt;/a&gt;&apos;);
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email2 + &apos;&quot;&gt;&apos; + email2 +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <pvcount type="float">51747.0</pvcount>
+    <pvcount type="float">52260.0</pvcount>
     <prev idref="76" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <http_referer>http://beagleboard.org/about/edit</http_referer>
+    <http_referer>https://beagleboard.org/about/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
