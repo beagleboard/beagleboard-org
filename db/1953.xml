@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1953" name="Xvisor" prototype="Page" created="1335328579028" lastModified="1454592905210">
+  <hopobject id="1953" name="Xvisor" prototype="Page" created="1335328579028" lastModified="1454604694230">
   <hop:parent idref="20" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <pname>eXtensible Versatile hypervISOR</pname>
@@ -19,7 +19,7 @@ The ARM port of Xvisor (or Xvisor ARM) supports a wide range of ARM processors n
 On real hardware specifically BeagleBoard-xM (OMAP3 @ 600 MHz) we get near native CPU performance (i.e. Native Linux 3.0.4 gives 1120 DMIPS whereas Linux 3.0.4 running as guest on Xvisor ARM gives 960 DMIPS)</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5269.0</pvcount>
+    <pvcount type="float">5273.0</pvcount>
     <homepage>https://github.com/xvisor/xvisor/wiki</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
