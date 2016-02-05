@@ -20,7 +20,7 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
+#@hourly cd /home/ubuntu/beagleboard.org && git push github master
+#@daily cd /home/ubuntu/beagleboard.org && git push gitorious master
 @hourly /home/ubuntu/beagleboard.org/scripts/save_irclog.sh
-@hourly cd /home/ubuntu/beagleboard.org && git push github master
 @daily /home/ubuntu/beagleboard.org/scripts/run_server.sh
-@daily cd /home/ubuntu/beagleboard.org && git push gitorious master
