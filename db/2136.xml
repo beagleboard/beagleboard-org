@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1454974246388">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1454974836060">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.10 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>getting-started</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">02.12.2015 19:15:43 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.18kc75gcu8grf</hopsession>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <user>jkridner.wordpress.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">751025.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>getting-started</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">08.02.2016 23:40:36 UTC</time>
+    <hopsession>127.0.0.8rworrylh1fb</hopsession>
     <body>  &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
   &lt;script&gt;
@@ -89,10 +85,10 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     or BeagleBone Black in minutes.&lt;/p&gt;
     &lt;p&gt;For additional getting started information, visit the suport wiki pages:&lt;/p&gt;
     &lt;ul&gt;
-        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard-xM&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBone&quot;&gt;BeagleBone&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://elinux.org/Beagleboard:BeagleBoard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://elinux.org/Beagleboard:BeagleBoard-xM&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://elinux.org/Beagleboard:BeagleBone&quot;&gt;BeagleBone&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     
     &lt;h3&gt;Original BeagleBone users: update to the &lt;a href=&quot;#update&quot;&gt;latest 
@@ -123,7 +119,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
      &lt;/ul&gt;
     &lt;!--- &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;/static/images/beagle_getting_started.jpg&quot; /&gt; 
     --&gt;
-    &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;http://beagleboard.org/static/uploads/BlackUSR.png&quot; /&gt;
+    &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;/static/uploads/BlackUSR.png&quot; /&gt;
    
     &lt;/div&gt;
 &lt;/br&gt;
@@ -145,8 +141,8 @@ you serial access to your board.&lt;/p&gt;
        &lt;p&gt;If in doubt, try the 64-bit installer first.&lt;/p&gt;
        &lt;small&gt;&lt;ul&gt;
         &lt;li&gt;&lt;b&gt;Note #1:&lt;/b&gt; Windows Driver Certification warning may pop up two or three times.  Click &quot;Ignore&quot;, &quot;Install&quot; or &quot;Run&quot;&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #2:&lt;/b&gt; To check if you&apos;re running 32 or 64-bit Windows see this: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://support.microsoft.com/kb/827218&quot;&gt;http://support.microsoft.com/kb/827218&lt;/a&gt;.&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #3:&lt;/b&gt; On systems without the latest service release, you may get an error (0xc000007b). In that case, please install the following and retry: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&quot;&gt;http://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&lt;/a&gt;.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #2:&lt;/b&gt; To check if you&apos;re running 32 or 64-bit Windows see this: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://support.microsoft.com/kb/827218&quot;&gt;https://support.microsoft.com/kb/827218&lt;/a&gt;.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #3:&lt;/b&gt; On systems without the latest service release, you may get an error (0xc000007b). In that case, please install the following and retry: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&quot;&gt;https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&lt;/a&gt;.&lt;/li&gt;
         &lt;li&gt;&lt;b&gt;Note #4:&lt;/b&gt; You may need to reboot Windows.&lt;/li&gt;
         &lt;li&gt;&lt;b&gt;Note #5:&lt;/b&gt; These drivers have been tested to work up to Windows 10&lt;/li&gt;
        &lt;/ul&gt;&lt;/small&gt;
@@ -175,15 +171,15 @@ you serial access to your board.&lt;/p&gt;
      &lt;/tr&gt;
     &lt;/table&gt;
     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional FTDI USB to serial/JTAG information and drivers are available from
-     &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.ftdichip.com/Drivers/VCP.htm&quot;&gt;http://www.ftdichip.com/Drivers/VCP.htm&lt;/a&gt;.
+     &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.ftdichip.com/Drivers/VCP.htm&quot;&gt;https://www.ftdichip.com/Drivers/VCP.htm&lt;/a&gt;.
     &lt;/p&gt;
     &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional USB to virtual Ethernet information and drivers are available from
-     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;http://www.linux-usb.org/gadget/&quot;&gt;http://www.linux-usb.org/gadget/&lt;/a&gt; and
-     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;http://joshuawise.com/horndis&quot;&gt;http://joshuawise.com/horndis&lt;/a&gt;.
+     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://www.linux-usb.org/gadget/&quot;&gt;https://www.linux-usb.org/gadget/&lt;/a&gt; and
+     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://joshuawise.com/horndis&quot;&gt;https://joshuawise.com/horndis&lt;/a&gt;.
     &lt;/p&gt;
 
     &lt;h3 id=&quot;step3&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step3.gif&quot; /&gt;&lt;strong&gt;Browse to your Beagle&lt;/strong&gt;&lt;/h3&gt;
-    &lt;p&gt;Using either &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt; or &lt;a target=&quot;_blank&quot; href=&quot;http://www.mozilla.org/firefox&quot;&gt;Firefox&lt;/a&gt; (Internet Explorer will &lt;b&gt;NOT&lt;/b&gt; work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.&lt;/p&gt;
+    &lt;p&gt;Using either &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt; or &lt;a target=&quot;_blank&quot; href=&quot;http://www.mozilla.org/firefox&quot;&gt;Firefox&lt;/a&gt; (Internet Explorer will &lt;b&gt;NOT&lt;/b&gt; work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.&lt;/p&gt;
     &lt;ul class=&quot;arrow&quot;&gt;
      &lt;li&gt;Click here to launch: &lt;a class=&quot;external&quot; href=&quot;http://192.168.7.2&quot; target=&quot;_blank&quot;&gt;http://192.168.7.2&lt;/a&gt;&lt;br /&gt;
         &lt;small&gt;Older software images require you to EJECT the BEAGLE_BONE drive to start the 
@@ -201,13 +197,13 @@ you serial access to your board.&lt;/p&gt;
 
     &lt;h2 id=&quot;update&quot;&gt;Update board with latest software&lt;/h2&gt;
     &lt;h3&gt;Step #1: Download the latest software image&lt;/h3&gt;
-    &lt;p&gt;Download the desired image from &lt;a target=&quot;_blank&quot; href=&quot;/latest-images&quot;&gt;http://beagleboard.org/latest-images&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Download the desired image from &lt;a target=&quot;_blank&quot; href=&quot;/latest-images&quot;&gt;https://beagleboard.org/latest-images&lt;/a&gt;.&lt;/p&gt;
     &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
     &lt;p&gt;The file you download will have an .img.xz extention. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
     &lt;img src=&quot;/static/images/download-latestimage.png&quot; width=&quot;50%&quot; /&gt;
 
     &lt;h3&gt;Step #2: Install compression utility&lt;/h3&gt;
-    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.7-zip.org/download.html&quot;&gt;7-zip&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.7-zip.org/download.html&quot;&gt;7-zip&lt;/a&gt;.&lt;/p&gt;
     &lt;img src=&quot;/static/images/download-7zip.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
     &lt;img src=&quot;/static/images/run-7zip-installer.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
 
@@ -216,7 +212,7 @@ you serial access to your board.&lt;/p&gt;
     &lt;img src=&quot;/static/images/extract-latestimage.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
 
     &lt;h3&gt;Step #4: Install SD card programming utility&lt;/h3&gt;
-    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://sourceforge.net/projects/win32diskimager/files/latest/download&quot;&gt;Image Writer for Windows&lt;/a&gt;. Be sure to download the binary distribution.&lt;/p&gt;
+    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://sourceforge.net/projects/win32diskimager/files/latest/download&quot;&gt;Image Writer for Windows&lt;/a&gt;. Be sure to download the binary distribution.&lt;/p&gt;
     &lt;img src=&quot;/static/images/download-win32diskimager.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
     &lt;img src=&quot;/static/images/extract-win32diskimager.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
     &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;. 
@@ -274,7 +270,7 @@ you serial access to your board.&lt;/p&gt;
     &lt;/ul&gt;
 
     &lt;h2 id=&quot;hardware&quot;&gt;Hardware documentation&lt;/h2&gt;
-    &lt;p&gt;The &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;
+    &lt;p&gt;The &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;
 BeagleBoneBlack wiki page&lt;/a&gt; documents all of the known hardware issues, as well as the latest available software, hardware
 hardware documentation and design materials.
     &lt;/p&gt;
@@ -315,8 +311,12 @@ hardware documentation and design materials.
    &lt;!-- Content Area - END --&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/getting-started/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">751030.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <http_referer>https://beagleboard.org/getting-started/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
