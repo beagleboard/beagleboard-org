@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="959" name="tianocore" prototype="Page" created="1265812348805" lastModified="1454982756769">
+  <hopobject id="959" name="tianocore" prototype="Page" created="1265812348805" lastModified="1454992912758">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.02.2010 14:32:28 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>Tianocore</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">4823.0</pvcount>
+    <pvcount type="float">4825.0</pvcount>
     <body>There is a port of &apos;edk2&apos; that boots into the EBL (EDK Boot Loader) command line. The EBL is a small simple command line environment that is much simpler that the EFI shell. It is also possible to launch the EFI shell from the EBL command prompt.</body>
     <errmsg></errmsg>
     <homepage>http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=BeagleBoardPage</homepage>
