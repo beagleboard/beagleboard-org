@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1921" name="Data Acquisition Platform" prototype="Page" created="1331873071475" lastModified="1454959578650">
+  <hopobject id="1921" name="Data Acquisition Platform" prototype="Page" created="1331873071475" lastModified="1454976676717">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -20,7 +20,7 @@ In addition to this, remote control of these USB based data acquisition hardware
 Currently node.js is being used on the BeagleBone with some Measurement Computing USB Data Acquisition hardware so that one can see live measurements in a browser, and control a USB device remotely from another application.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">9620.0</pvcount>
+    <pvcount type="float">9622.0</pvcount>
     <homepage>http://code.google.com/p/beaglebone-with-usb-for-data-acquisition/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
