@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3359" name="2014-01-04-happy-new-year" prototype="Page" created="1388846358390" lastModified="1455031355753">
+  <hopobject id="3359" name="2014-01-04-happy-new-year" prototype="Page" created="1388846358390" lastModified="1455103957222">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>207.191.249.29</http_remotehost>
     <hopsession>207.191.249.1di18g8m3dxc3</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">2220.0</pvcount>
+    <pvcount type="float">2225.0</pvcount>
     <body>&lt;h1&gt;Happy New Year!&lt;/h1&gt;
 &lt;h3&gt;by Jason Kridner&lt;/h3&gt;
 &lt;p&gt;Here we are, 2014. Expect a big year for Beagle! Unfortunately, I have to
@@ -139,8 +139,8 @@
     amazing things happening in the Beagleverse for 2014!
 &lt;/p&gt;</body>
     <http_language>en-US,en;q=0.8</http_language>
-    <render_skin>blog</render_skin>
     <is_xhtml type="boolean">true</is_xhtml>
+    <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog/2014-01-04-happy-new-year/edit</http_referer>
   </hopobject>
 </xmlroot>

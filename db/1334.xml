@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1334" name="E-CarPC" prototype="Page" created="1291984420606" lastModified="1455027634660">
+  <hopobject id="1334" name="E-CarPC" prototype="Page" created="1291984420606" lastModified="1455107387284">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.12.2010 12:33:40 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>mshoemaker.myopenid.com</registrant>
     <pname>Enhanced CarPC</pname>
     <user>mshoemaker.myopenid.com</user>
-    <pvcount type="float">5903.0</pvcount>
+    <pvcount type="float">5923.0</pvcount>
     <body>Beagle board based CarPC connected to OBD2 allowing custom logging, gauge display, Check engine light code reading and clearing.  Logging/Code information available via wifi web interface.  Since most cars rely heavily on their internal network, CAN, most in car functions are actually messages sent over this network.  There it should be possible to lock/unlock doors, roll windows down, open deck lid, even change radio stations all via CAN messages.  This enables us to perform these functions wireless as well.  Connection to GPS, with google maps possible, however since my car has a navigation system this will most likely not be included.</body>
     <errmsg></errmsg>
     <homepage>http://code.google.com/p/e-carpc/</homepage>
