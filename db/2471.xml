@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2471" name="BoneScript" prototype="Page" created="1366427239709" lastModified="1455129303748">
+  <hopobject id="2471" name="BoneScript" prototype="Page" created="1366427239709" lastModified="1455138350486">
   <hop:parent idref="121" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2243.0 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=444e717eff07eff498118ec887fac643ca0c2289..72ac:I=1418144660:X=1418148260</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>BoneScript</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">12.12.2014 21:00:31 UTC</time>
-    <pseudoparent idref="121" prototyperef="Page"/>
-    <hopsession>127.0.0.1qj17bz4pymhz</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">108752.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>BoneScript</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36</http_browser>
+    <time type="date">10.02.2016 21:05:50 UTC</time>
+    <hopsession>127.0.0.1ivjuabk5007</hopsession>
     <body>&lt;script src=&quot;/static/bonescript-demo.js&quot;&gt;&lt;/script&gt;
 &lt;/br&gt;
 &lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
@@ -40,6 +36,7 @@ that is made possible by utilizing Linux.&lt;/p&gt;
 &lt;h3&gt;Books&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.amazon.com/Programming-BeagleBone-Black-JavaScript-BoneScript/dp/0071832122/ref=as_sl_pc_ss_til?tag=bloghanerhead-20&amp;linkCode=w01&amp;linkId=GV3CJX7XPLHVS2CA&amp;creativeASIN=0071832122&quot;&gt;Programming the BeagleBone Black: Getting Started with JavaScript and BoneScript&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/bad-to-the-bone&quot;&gt;BeagleBone Cookbook&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/bad-to-the-bone&quot;&gt;Bad to the Bone: Crafting Electronics Systems 
 with BeagleBone and BeagleBone Black&lt;/a&gt; (&lt;a 
 href=&quot;http://www.amazon.com/dp/1627051376/?tag=bloghanerhead-20&quot; Class=&quot;external&quot;&gt;Amazon&lt;/a&gt;)&lt;/li&gt;
@@ -119,9 +116,13 @@ target=&quot;_blank&quot; href=&quot;http://nodejs.org&quot; class=&quot;externa
 &lt;a href=&quot;https://github.com/jadonk/bonescript&quot;&gt;Github.com/jadonk/bonescript&lt;/a&gt;.&lt;/p&gt;
  
 &lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="121" prototyperef="Page"/>
+    <pvcount type="float">108771.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=444e717eff07eff498118ec887fac643ca0c2289..72ac:I=1418144660:X=1418148260</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/Support/BoneScript/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="2477" prototyperef="Page"/>
     <hop:child idref="2478" prototyperef="Page"/>
     <hop:child idref="2479" prototyperef="Page"/>
