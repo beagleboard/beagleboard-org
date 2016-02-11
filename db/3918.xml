@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3918" name="xen_i2c" prototype="Page" created="1421837162456" lastModified="1455122170033">
+  <hopobject id="3918" name="xen_i2c" prototype="Page" created="1421837162456" lastModified="1455145193411">
   <hop:parent idref="20" prototyperef="Page"/>
     <cat_lib>library</cat_lib>
     <cat_robot>robotics</cat_robot>
@@ -28,7 +28,7 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
     <contactinfo></contactinfo>
-    <pvcount type="float">5491.0</pvcount>
+    <pvcount type="float">5499.0</pvcount>
     <prj_status>dev</prj_status>
     <boardtype>bbblack;bbone;</boardtype>
     <cat_distro>distro</cat_distro>

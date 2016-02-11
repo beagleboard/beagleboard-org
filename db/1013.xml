@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1013" name="BeagleBird" prototype="Page" created="1269685512416" lastModified="1455136521651">
+  <hopobject id="1013" name="BeagleBird" prototype="Page" created="1269685512416" lastModified="1455144666423">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.03.2010 10:25:12 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>bronneman.myopenid.com</registrant>
     <pname>BeagleBird</pname>
     <user>bronneman.myopenid.com</user>
-    <pvcount type="float">3875.0</pvcount>
+    <pvcount type="float">3877.0</pvcount>
     <body>As electronics enthusiasts and software/engineering professionals we are aiming to build an open-source bird-tracking tripod. For this we are building a motion platform which will add stable and smooth 2-axis rotation to a tripod containing a  DLSR camera + zoom lens. This motion platform is controlled by an arduino. Since the tripod will need to operate for several hours at a time to get a good shot, low power usage is prime. Therefore object tracking will be implemented and executed on a powerful yet low-power ARM based platform (beagleboard). Object-tracking is ideally done by using live-view functionality of the DLSR camera, but will first be implemented using a simple webcam next to the DLSR.</body>
     <errmsg></errmsg>
     <homepage>http://code.google.com/p/beaglebird/</homepage>
