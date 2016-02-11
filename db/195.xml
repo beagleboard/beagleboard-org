@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1455218969305">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1455219120935">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>default</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <time type="date">11.02.2016 19:29:29 UTC</time>
+    <time type="date">11.02.2016 19:32:00 UTC</time>
     <hopsession>127.0.0.123sxco88g1l5</hopsession>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
@@ -202,11 +202,15 @@ var gp_entries = {};
 function handleResponse(resp) {
     gp_entries = resp;
     for(item in resp.items) {
+        var title = resp.items[item].title.substr(0,100);
+        if(title == &quot;&quot;) {
+            title = resp.items[item].annotation.substr(0,100);
+        }
         var index = parseInt(ne) + parseInt(item);
         var entry = &apos;&apos; +
             &apos;&lt;p&gt;&lt;strong id=&quot;results_&apos; + index + &apos;&quot;&gt;&apos; + 
             &apos;&lt;a href=&quot;&apos; + 
-            resp.items[item].url + &apos;&quot;&gt;&apos; + resp.items[item].title.substr(0,100) + 
+            resp.items[item].url + &apos;&quot;&gt;&apos; + title + 
             &apos;&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&apos; +
             &apos;&lt;a href=&quot;&apos; + resp.items[item].url + &apos;&quot;&gt;...more&lt;/a&gt;&lt;/p&gt;&apos;;
         $(&apos;#plus&apos;).append(entry);
@@ -317,15 +321,15 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">65.0</pvcount>
+    <pvcount type="float">66.0</pvcount>
     <prev idref="194" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/default/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
+    <user>jkridner.wordpress.com</user>
     <hop:child idref="217" prototyperef="user"/>
     <hop:child idref="219" prototyperef="user"/>
   </hopobject>
