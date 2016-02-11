@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="20" name="project" prototype="Page" created="1202836452756" lastModified="1455220326075">
+  <hopobject id="20" name="project" prototype="Page" created="1202836452756" lastModified="1455220529610">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,9 +12,9 @@
     <beagleirclog>000000</beagleirclog>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>project</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2251.0 Safari/537.36</http_browser>
-    <time type="date">07.01.2015 15:44:48 UTC</time>
-    <hopsession>127.0.0.1qj17bz4pymhz</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">11.02.2016 19:55:29 UTC</time>
+    <hopsession>127.0.0.123sxco88g1l5</hopsession>
     <body>&lt;h1&gt;Registered Projects&lt;/h1&gt;
 &lt;p&gt;Explore the ever-expanding list of registered projects to stir your own project ideas. Whether 
 you&apos;re new to Beagle or an experienced Beagle enthusiast, this list has something inspirational
@@ -26,6 +26,69 @@ for you. Start your own and change the world, one Beagle project at a time.&lt;/
  &lt;/form&gt;
 &lt;/div&gt;
 
+&lt;div&gt;
+&lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;script src=&quot;/static/ti/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/jquery-ui-1.10.2.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+
+&lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-openrov&quot; href=&quot;https://beagleboard.org/project/openrov&quot;&gt;&lt;img src=&quot;https://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_open_rov.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-replicape&quot; href=&quot;https://beagleboard.org/project/replicape&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_clone_wars.jpg&quot; alt=&quot;Replicape&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-book&quot; href=&quot;https://beagleboard.org/books&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_book.jpg&quot; alt=&quot;Book&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;!--
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-musictech&quot; href=&quot;https://www.element14.com/community/community/design-challenges/musictech?ICID=BBB-ORG&quot;&gt;&lt;img src=&quot;/static/images/TW_950x267_MusicTech.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-3dhubs&quot; href=&quot;https://beagleboard.org/project/3dhubsbeagleboard/&quot;&gt;&lt;img src=&quot;/static/images/3DHubs_Beagleboard_Banner.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-hackster&quot; href=&quot;https://www.hackster.io/challenges/beaglebonegreen&quot;&gt;&lt;img src=&quot;/static/images/BBGContestBanner_V2.jpg&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-e14-embworld&quot; href=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone?CMP=TI-HomePage-BBB&quot;&gt;&lt;img src=&quot;/static/images/950x267bbb_ban.png&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-packt&quot; href=&quot;https://www.packtpub.com/all/?search=beaglebone&amp;offset=&amp;rows=24&amp;sort=&quot;&gt;&lt;img src=&quot;/static/images/packt_banner.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-freedombone&quot; href=&quot;http://beagleboard.org/project/freedombone/&quot;&gt;&lt;img src=&quot;/static/images/freedombone_ad7.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-artoo&quot; href=&quot;http://beagleboard.org/project/artoo&quot;&gt;&lt;img src=&quot;/static/images/artoo.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-mikrobus&quot; href=&quot;http://beagleboard.org/project/mikrobus&quot;&gt;&lt;img src=&quot;/static/images/mikroBUS_Cape_Banner_950x267.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-artoo&quot; href=&quot;http://beagleboard.org/project/artoo&quot;&gt;&lt;img src=&quot;/static/images/artoo.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-gaming&quot; href=&quot;http://beagleboard.org/blog/2014-11-12-CircuitHub-launches-group-buys-with-GamingCape/&quot;&gt;&lt;img src=&quot;/static/images/950x267_beagleboard_gaming_for_sale.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-openrov&quot; href=&quot;http://beagleboard.org/project/openrov&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_open_rov.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-gaming&apos;,&apos;http://beagleboard.org/blog/2013-12-09-let-beaglebone-black-give-your-old-games-an-extra-life/&apos;)&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_gaming.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-gobot&apos;,&apos;http://beagleboard.org/project/gobot&apos;)&quot;&gt;&lt;img src=&quot;/static/images/gobot.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-cylonjs&apos;,&apos;http://beagleboard.org/project/cylonjs&apos;)&quot;&gt;&lt;img src=&quot;/static/images/cylon.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-shieldio&apos;, &apos;http://beagleboard.org/project/shieldio&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/shieldio.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-arduino&apos;,&apos;http://beagleboard.org/blog/2013-10-03-beagleboardorg-collaborates-with-arduino/&apos;)&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/950x267_arduino_beagleboard.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-fsl3d&apos;,&apos;http://fsl3d.com/&apos;)&quot;&gt;&lt;img src=&quot;http://beagleboard.org/static/uploads/beaglebone%20banner.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-logi&apos;,&apos;http://www.kickstarter.com/projects/1575992013/logi-fpga-development-board-for-raspberry-pi-beagl&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/logibone-spartan-beagle.jpg&quot; height=&quot;267px&quot; width=&quot;950px&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-adafruit&apos;,&apos;http://www.adafruit.com/beaglebone&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/adafruit_beaglebone_950x267.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+--&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- bnr_ss1 --&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+    				debug:false,
+					controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+
+   &lt;/div&gt;
+   &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+   
 &lt;div style=&quot;height: auto; padding: 10px 0 10px 0; width: 425px;&quot;&gt;
  &lt;h2 id=&quot;registered&quot;&gt;Search for Projects&lt;br&gt;&lt;input type=&quot;text&quot; size=&quot;40&quot; id=&quot;proj_search&quot; name=&quot;proj_search&quot;&gt;&lt;/h2&gt;
 &lt;/div&gt;
@@ -152,7 +215,7 @@ for you. Start your own and change the world, one Beagle project at a time.&lt;/
 </body>
     <rssfeed></rssfeed>
     <list_children>true</list_children>
-    <pvcount type="float">309720.0</pvcount>
+    <pvcount type="float">309724.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=bdddd8e482894f05ef0d690c6b11329d204c89ef..2fe5:I=1420640070:X=1420643670</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <prj_status></prj_status>
     <boardtype></boardtype>
