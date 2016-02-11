@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1455221846721">
+  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1455221906416">
   <hop:parent idref="3268" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>black</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <time type="date">11.02.2016 20:17:26 UTC</time>
+    <time type="date">11.02.2016 20:18:26 UTC</time>
     <hopsession>127.0.0.123sxco88g1l5</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
@@ -24,13 +24,15 @@
         &lt;option value=&quot;https://www.sparkfun.com/products/12857&quot;&gt;Sparkfun&lt;/option&gt;
         &lt;option value=&quot;https://www.adafruit.com/products/1876&quot;&gt;Adafruit&lt;/option&gt;
         &lt;option value=&quot;http://www.alliedelec.com/search/productdetail.aspx?SKU=70338169#tab=overview&quot;&gt;Allied Electronics&lt;/option&gt;
-        &lt;option value=&quot;http://makertronic.com/beaglebone-black-rev-c&quot;&gt;Makertronic&lt;/option&gt;
         &lt;option value=&quot;https://avnetexpress.avnet.com/store/em/EMController/Development-Kits/Circuitco-Electronics-LLC/BB-BBLK-000/_/R-5004308283967/A-5004308283967/An-0?action=part&amp;catalogId=500201&amp;langId=-1&amp;storeId=500201&amp;listIndex=-1&amp;page=1&amp;rank=0&quot;&gt;Avnet&lt;/option&gt;
         &lt;option value=&quot;http://store.netgate.com/BeagleBone-Black-C229.aspx&quot;&gt;Netgate&lt;/option&gt;
-        &lt;!-- &lt;option value=&quot;http://www.abra-electronics.com/products/BeagleBone-Black-REV-C.html&quot;&gt;Abra Electronics&lt;/option&gt; --&gt;
-        &lt;!-- &lt;option value=&quot;http://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/option&gt; --&gt;
-        &lt;!-- &lt;option value=&quot;https://www.akirisolutions.com/products/beaglebone-black/overview&quot;&gt;Akiri Solutions&lt;/option&gt; --&gt;
-        &lt;!-- &lt;option value=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2207970_-1&quot;&gt;Jameco&lt;/option&gt; --&gt;
+        &lt;!--
+        &lt;option value=&quot;http://makertronic.com/beaglebone-black-rev-c&quot;&gt;Makertronic&lt;/option&gt;
+        &lt;option value=&quot;http://www.abra-electronics.com/products/BeagleBone-Black-REV-C.html&quot;&gt;Abra Electronics&lt;/option&gt;
+        &lt;option value=&quot;http://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/option&gt;
+        &lt;option value=&quot;https://www.akirisolutions.com/products/beaglebone-black/overview&quot;&gt;Akiri Solutions&lt;/option&gt;
+        &lt;option value=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2207970_-1&quot;&gt;Jameco&lt;/option&gt;
+        --&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;South America (Brazil)&quot;&gt;
         &lt;option value=&quot;http://br.mouser.com/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
@@ -113,14 +115,14 @@
 --&gt;
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">38.0</pvcount>
+    <pvcount type="float">39.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427696432:X=1427700032</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/black/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="3273" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
