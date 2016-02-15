@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4174" name="bbbarduinouno" prototype="Page" created="1455563163025" lastModified="1455577816236">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Beagle Bone Black - Arduino UNO 5V Baseboard</pname>
+    <registrant>embeddedsyspro.wordpress.com</registrant>
+    <uri>bbbarduinouno</uri>
+    <time type="date">15.02.2016 19:06:03 UTC</time>
+    <updatetime type="date">15.02.2016 19:06:03 UTC</updatetime>
+    <projstatus>demo</projstatus>
+    <body>&lt;p&gt;I finally got my first prototype which I&apos;ll show at the Embedded World&lt;br /&gt; in a week.&lt;br /&gt; &lt;br /&gt; It&apos;s a voltage conversion base board which enables you to connect a 5V&lt;br /&gt; Arduino shield to a Beagle Bone Black.&lt;br /&gt; &lt;br /&gt; What you can see here[1] is a Grove shield connected to it. Now you can&lt;br /&gt; connect many different sensors/actors[2] to the BBB.&lt;br /&gt; &lt;br /&gt; Left from the BBB are even more pins on Grove connectors (with 5V&lt;br /&gt; conversion) and lots of jumpers to jumper what goes where.&lt;br /&gt; &lt;br /&gt;[1] &lt;a href=&quot;http://www.reliableembeddedsystems.com/images/Hw4SWppl.jpg&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;http://www.reliableembeddedsystems.com/images/Hw4SWppl.jpg&lt;/a&gt;&lt;br /&gt; [2] &lt;a href=&quot;http://www.seeedstudio.com/wiki/Grove_System&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;http://www.seeedstudio.com/wiki/Grove_System&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>/static/graphics/coolboris.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">30.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>cape;</category>
+    <homepage>http://www.reliableembeddedsystems.com/en/newsflash/201-beagle-bone-black-arduino-uno-grove-connectors.html</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>BBB, Arduino UNO 5V interface</shortdesc>
+    <user>embeddedsyspro.wordpress.com</user>
+  </hopobject>
+</xmlroot>
