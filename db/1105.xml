@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1105" name="BeagleTick" prototype="Page" created="1275104634127" lastModified="1455705995850">
+  <hopobject id="1105" name="BeagleTick" prototype="Page" created="1275104634127" lastModified="1455748823852">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">29.05.2010 03:43:54 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>voidxar.myopenid.com</registrant>
     <pname>BeagleTick</pname>
     <user>voidxar.myopenid.com</user>
-    <pvcount type="float">3900.0</pvcount>
+    <pvcount type="float">3902.0</pvcount>
     <body>A accurate clock is very important for many tasks, NTP servers are used to allow computers on the network to set the correct time.
 
 WWVB time signals are broadcast from Fort Collins CO, the frequency used is 60khz, there are other VLF time signals around the  world such as DCF in Germany.

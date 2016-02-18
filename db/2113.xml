@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2113" name="omapconf" prototype="Page" created="1348508549873" lastModified="1455698336243">
+  <hopobject id="2113" name="omapconf" prototype="Page" created="1348508549873" lastModified="1455741620464">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">24.09.2012 17:42:29 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>OMAPCONF</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">3874.0</pvcount>
+    <pvcount type="float">3876.0</pvcount>
     <body>&lt;p&gt;&lt;b&gt;OMAPCONF does not support OMAP3/DM37x/AM335x at launch, but support could be added by community developers.&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;OMAPCONF is a Linux user-space standalone application designed to provide a quick&apos;n easy way to diagnose (monitor/debug/...) TI OMAPprocessors configuration/status dynamically at runtime and is now publicly available.&lt;/p&gt;</body>
     <errmsg></errmsg>
