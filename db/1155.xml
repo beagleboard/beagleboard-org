@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1155" name="Storyboard " prototype="Page" created="1278431317549" lastModified="1455751217552">
+  <hopobject id="1155" name="Storyboard " prototype="Page" created="1278431317549" lastModified="1455837685342">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -19,7 +19,7 @@
 Storyboard Suite is composed of two parts: Storyboard Designer and Storyboard Embedded Engine. Designer provides a WYSIWYG development environment that is designed to enable a UI designer to create a rich user interface. Embedded Engine is the runtime component that drives the content developed in Designer on embedded devices. It is architected exclusively to address the unique challenges of bringing a rich UI and user experience (UX) to resource-constrained embedded devices.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://feeds2.feedburner.com/CrankSoftware</rssfeed>
-    <pvcount type="float">4502.0</pvcount>
+    <pvcount type="float">4512.0</pvcount>
     <homepage>http://www.cranksoftware.com/services_support/beagleboard.php</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>

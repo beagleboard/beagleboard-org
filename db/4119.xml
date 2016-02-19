@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4119" name="2015-09-29-autodesk-ember" prototype="Page" created="1443553042675" lastModified="1455746968381">
+  <hopobject id="4119" name="2015-09-29-autodesk-ember" prototype="Page" created="1443553042675" lastModified="1455820228525">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.8 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.jmhh70x0686t</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1821.0</pvcount>
+    <pvcount type="float">1832.0</pvcount>
     <body>&lt;h1&gt;Ember opens the way to 3D printing&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn2.hubspot.net/hubfs/1545937/Blog_post_images/Main_Board.jpg?t=1443512111722&quot; style=&quot;float:right;width:200px;height:200px;padding:20px;&quot; /&gt;Interested in 3D printing or materials development? We all know by now that BeagleBone Black has incredibly precise machine control capabilities. Now, Autodesk® just did a bunch of us a big favor when it recently opened up its Ember high-resolution and small footprint stereolithography (SLA) 3D printer. Ember is already being used to produce castings for delicate pieces of jewelry and in photopolymer chemistry research. And now Autodesk has taken the next big step to encourage even more innovation and creative 3D printing applications. All of Ember’s hardware electronic design and firmware is now downloadable as open source. The mechanical designs and resin formulations had already been made available.&lt;/p&gt;
 &lt;p&gt;What’s really exciting for the BeagleBoard community is the presentation of a complete solution and the opportunity for experts in the community to build on and improve the design. Ember’s motherboard is a clone of a BeagleBone Black with the addition of a USB hub and WiFi adapter. Flash memory was beefed up as well and power management tweaked a bit. The system also includes a couple of microcontrollers for motor control, a small UI display and a series of LEDs. An embedded web server in Ember serves as an interface for desktop applications. All of the firmware for Ember’s Sitara main processor as well as the microcontrollers is now open source. Given all the design commonalities between Ember and BeagleBone Black, experts and hobbyists will be able to continue to simplify, refine and enhance the design using open and afforadable prototyping tools.&lt;/p&gt;
@@ -23,8 +23,8 @@
 &lt;p&gt;Happy tinkering!&lt;/p&gt;
 </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
     <render_skin>blog</render_skin>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/blog/2015-10-29-autodesk-ember/edit</http_referer>
   </hopobject>
 </xmlroot>
