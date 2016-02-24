@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1456348209116">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1456348586992">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,9 +10,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
-    <http_browser>Mozilla/5.0 (X11; CrOS x86_64 7647.73.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.92 Safari/537.36</http_browser>
-    <time type="date">10.02.2016 14:51:52 UTC</time>
-    <hopsession>127.0.0.18vdt7r4sttkz</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">24.02.2016 21:16:26 UTC</time>
+    <hopsession>127.0.0.123sxco88g1l5</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
 &lt;img style=&quot;float:right;height:200px&quot; itemprop=&quot;image&quot; src=&quot;https://beagleboard.org/static/uploads/BorisTux_w_Logo.png&quot;&gt;
@@ -65,6 +65,23 @@
         &lt;/a&gt;
         -
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;da97d7794d834ee785265162635aedcca80fd6dc374593dd05473c0a25f0ac73&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
+&lt;h3&gt;Jessie for BeagleBoard-xM&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/beaglexm-debian-8.3-console-2016-02-11-2gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;8.3&lt;/span&gt;
+            (&lt;span itemprop=&quot;device&quot;&gt;BeagleBoard-xM&lt;/span&gt; -
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;2GB SD&lt;/span&gt;)
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-02-11&lt;/span&gt;
+        &lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://beagleboard.org/project/debian&quot;&gt;
+            more info
+        &lt;/a&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;p&gt;To turn these images into eMMC flasher images, edit the /boot/uEnv.txt file on the Linux partition on the microSD card and remove the &apos;#&apos; on the line with &apos;cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh&apos;. Enabling this will cause booting the microSD card to flash the eMMC. Images are no longer provided here for this to avoid people accidentally overwriting their eMMC flash.&lt;/p&gt;
@@ -188,7 +205,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">512922.0</pvcount>
+    <pvcount type="float">512931.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
