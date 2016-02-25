@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="9" name="login" prototype="Page" created="1202805474754" lastModified="1456357578930">
+  <hopobject id="9" name="login" prototype="Page" created="1202805474754" lastModified="1456424758224">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11</http_browser>
-    <lang>en-us</lang>
-    <uri>login</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">21.11.2012 15:36:59 UTC</time>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.198.47.16.1oi4g8qhf6iln</hopsession>
     <registrant>blog.hangerhead.com</registrant>
-    <user>jkridner@beagleboard.org</user>
-    <pvcount type="float">89849.0</pvcount>
+    <oauth2-token></oauth2-token>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>login</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">25.02.2016 18:25:58 UTC</time>
+    <hopsession>127.0.0.123sxco88g1l5</hopsession>
     <body> &lt;h1&gt;Login page&lt;/h1&gt;
  &lt;p&gt;
   Before you can continue, you must login. You may login using an 
@@ -22,19 +22,24 @@
  &lt;h2&gt;Login &lt;img src=&quot;/static/openid-prompt-bg.gif&quot;/&gt;&lt;/h2&gt;
  &lt;div id=&quot;prompt_form&quot;&gt;&lt;/div&gt;
  &lt;p&gt;
-  Please provide your entire OpenID identity URL or e-mail address
+  Please provide your entire OpenID identity URL 
   into this box and click the &quot;Login&quot; button to proceed. If your OpenID
-  or e-mail address is displayed in the footer below, then you are currently
+  is displayed in the footer below, then you are currently
   logged in.
+ &lt;/p&gt;
+ &lt;p&gt;
+     Wordpress.com is the only known reliable OpenID provider I know at this
+     point. Google has removed their support for OpenID.
  &lt;/p&gt;
  &lt;p&gt;
   For more information and to create your OpenID identity URL, please visit the
   &lt;a href=&quot;/register&quot;&gt;registration page.&lt;/a&gt;
- &lt;/p&gt;</body>
-    <oauth2-token></oauth2-token>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+ &lt;/p&gt;
+</body>
+    <pvcount type="float">89930.0</pvcount>
     <http_referer>http://beagleboard.org/login/edit</http_referer>
-    <beagleirclog>000000</beagleirclog>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
