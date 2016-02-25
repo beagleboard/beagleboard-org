@@ -79,14 +79,24 @@ function edit_action ()
    )
    {
     this.user = "" + session.user["name"];
-    if ((this.render_skin == "bare") && (this.user == "blog.hangerhead.com"))
+    if (this.user == "jkridner.wordpress.com")
      {
       saveEdit = true;
      }
     else if (this.cleanBody())
      {
       this.is_xhtml = true;
-      saveEdit = true;
+      try
+       {
+        if (this.pseudoparent.uri == "project")
+         {
+          saveEdit = true;
+         }
+       }
+      catch(ex)
+       {
+        app.log("Failed attempt to edit '" + this.uri + "': " + ex);
+       }
      }
     var blocked_attribute = 
      {
