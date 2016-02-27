@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3215" name="2013-11-06-beagleboneblack-3d-printer-intro" prototype="Page" created="1383767792139" lastModified="1456527171827">
+  <hopobject id="3215" name="2013-11-06-beagleboneblack-3d-printer-intro" prototype="Page" created="1383767792139" lastModified="1456589112640">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>98.250.142.42</http_remotehost>
     <hopsession>98.250.142.1r21z81a3slbu</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">3038.0</pvcount>
+    <pvcount type="float">3039.0</pvcount>
     <body>&lt;h1&gt;Introduction to 3D printing with BeagleBone Black&lt;/h1&gt;
 &lt;p&gt;by Jason Kridner&lt;/p&gt;
 &lt;p&gt;Over on the &lt;a href=&quot;http://e2e.ti.com/blogs_/b/toolsinsider/default.aspx&quot;&gt;TI Tools Insider Blog&lt;/a&gt;, Alejandro Erives has been talking about &lt;a href=&quot;/blogs_/b/toolsinsider/archive/2013/06/06/imagine-you-were-given-a-machine-that-could-make-anything-what-would-you-make.aspx&quot;&gt;self-replicating machines&lt;/a&gt; and Stephanie Pearson day-dreamed about giving a Beagle a 3D printer and the impact on &lt;a href=&quot;/blogs_/b/toolsinsider/archive/2013/07/25/if-you-give-a-beagle-a-3d-printer.aspx&quot;&gt;open source hardware&lt;/a&gt;. This prompts the question, how do you get started and where can you end up?&lt;/p&gt;
@@ -42,8 +42,8 @@ cs_setInnerHtml(&apos;video_64dffc0b-ee33-40fe-a786-a82a0a4576bf&apos;,&apos;&lt
 
 </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <render_skin>blog</render_skin>
     <is_xhtml type="boolean">true</is_xhtml>
+    <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog/2013-11-06-beagleboneblack-3d-printer-intro/edit</http_referer>
   </hopobject>
 </xmlroot>
