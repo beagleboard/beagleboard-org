@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2409" name="HelenOS" prototype="Page" created="1361879154589" lastModified="1456700490617">
+  <hopobject id="2409" name="HelenOS" prototype="Page" created="1361879154589" lastModified="1456750140807">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">26.02.2013 11:45:54 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jermj0bm@gmail.com</registrant>
     <pname>HelenOS</pname>
     <user>jermj0bm@gmail.com</user>
-    <pvcount type="float">4346.0</pvcount>
+    <pvcount type="float">4356.0</pvcount>
     <body>&amp;#8203;HelenOS is a microkernel-based multiserver operating system designed from scratch. It decomposes key operating system functionality such as file systems, networking, device drivers and user interface into many isolated but intensively communicating server processes that reside entirely in user space. HelenOS thus provides a computing environment that has several virtues, such as flexibility, increased robustness, well defined explicit interfaces and reduced complexity of individual components as compared to other operating systems.
 
 HelenOS does not aim to be another clone of Unix or some other legacy system and is not POSIX-compliant (even though some of its components may seem POSIX-similar at times). Instead, we try to design it according to our taste and sense for what is the most elegant and right thing to do. What makes HelenOS unique among the other multiserver operating systems is its multiplatform and multiprocessor microkernel. HelenOS runs on seven different processor architectures, ranging from a 32-bit uniprocessor little-endian ARMv4 and commodity x86 and x86-64 PC to a 64-bit multicore big-endian UltraSPARC T1.
