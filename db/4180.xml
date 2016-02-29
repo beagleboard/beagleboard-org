@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4180" name="2016-02" prototype="Page" created="1456759999141" lastModified="1456777212540">
+  <hopobject id="4180" name="2016-02" prototype="Page" created="1456759999141" lastModified="1456777352794">
   <hop:parent idref="3901" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>2016-02</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <time type="date">29.02.2016 20:20:12 UTC</time>
+    <time type="date">29.02.2016 20:22:32 UTC</time>
     <hopsession>127.0.0.19s641y6plpo</hopsession>
     <body>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
@@ -879,20 +879,18 @@ body.outlook p {
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-              &lt;table class=&quot;row&quot;&gt;
-                &lt;tr&gt;
-                  &lt;td class=&quot;wrapper&quot;&gt;
-                      &lt;table class=&quot;twelve columns&quot;&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
+&lt;table class=&quot;row&quot;&gt;
+ &lt;tr&gt;
+  &lt;td class=&quot;wrapper&quot;&gt;
+      &lt;table class=&quot;twelve columns&quot;&gt;
+        &lt;tr&gt;&lt;td&gt;
             &lt;p&gt;Another fantastic bit of information I can share is that BeagleBoard.org has been accepted as a
             mentoring organization for Google Summer of Code 2016! Both &lt;a href=&quot;https://beagleboard.org/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt; and
             &lt;a href=&quot;https://beagleboard.org/blue&quot;&gt;BeagleBone Blue&lt;/a&gt; will be available for students and mentors
             for projects this summer.&lt;/p&gt;
             &lt;p&gt;Want to get involved in Google Summer of Code and get early access to each of these new boards? Visit 
             &lt;a href=&quot;http://bit.ly/bbgsocideas&quot;&gt;bit.ly/bbgsocideas&lt;/a&gt;.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
+        &lt;/td&gt;&lt;/tr&gt;
       &lt;/table&gt;
 
     &lt;/td&gt;
@@ -1295,7 +1293,7 @@ body.outlook p {
 
 </body>
     <pseudoparent idref="3901" prototyperef="Page"/>
-    <pvcount type="float">7.0</pvcount>
+    <pvcount type="float">8.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/newsletter/2016-02/edit</http_referer>
