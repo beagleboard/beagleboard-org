@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4180" name="2016-02" prototype="Page" created="1456759999141" lastModified="1456780904259">
+  <hopobject id="4180" name="2016-02" prototype="Page" created="1456759999141" lastModified="1456781167926">
   <hop:parent idref="3901" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>2016-02</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <time type="date">29.02.2016 21:21:44 UTC</time>
+    <time type="date">29.02.2016 21:26:07 UTC</time>
     <hopsession>127.0.0.19s641y6plpo</hopsession>
     <body>
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
@@ -961,6 +961,22 @@ body.outlook p {
                         &lt;/tr&gt;
                     &lt;/table&gt;
                     &lt;br /&gt;
+		    &lt;table class=&quot;six columns&quot;&gt;
+                      &lt;tr&gt;
+                        &lt;td class=&quot;panel1&quot;&gt;&lt;h6 class=&quot;dkgreytype&quot;&gt;hot off the presses&lt;/h6&gt;&lt;/td&gt;
+                        &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                    &lt;/table&gt;
+                    &lt;table class=&quot;row&quot;&gt;
+                      &lt;tr&gt;
+                        &lt;td class=&quot;wrapper&quot;&gt;
+                           &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/programming-beaglebone&quot;&gt;Programming the BeagleBone&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;by Yogesh Chavan&lt;/p&gt;
+                           &lt;p&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/programming-beaglebone&quot;&gt;&lt;img src=&quot;https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/0013OS_3439_Programming%20the%20Beaglebone.jpg&quot; alt=&quot;Programming BeagleBone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+                       &lt;/td&gt;
+                     &lt;/tr&gt;
+                   &lt;/table&gt;
+                   &lt;/td&gt;
+                   &lt;td class=&quot;last wrapper&quot;&gt;
                      &lt;table class=&quot;six columns&quot;&gt;
                        &lt;tbody&gt;
                          &lt;tr&gt;
@@ -994,22 +1010,6 @@ body.outlook p {
                       &lt;/tr&gt;
                       &lt;/tbody&gt;
                     &lt;/table&gt;
-                   &lt;/td&gt;
-                   &lt;td class=&quot;last wrapper&quot;&gt;
-		    &lt;table class=&quot;six columns&quot;&gt;
-                      &lt;tr&gt;
-                        &lt;td class=&quot;panel1&quot;&gt;&lt;h6 class=&quot;dkgreytype&quot;&gt;hot off the presses&lt;/h6&gt;&lt;/td&gt;
-                        &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
-                      &lt;/tr&gt;
-                    &lt;/table&gt;
-                    &lt;table class=&quot;row&quot;&gt;
-                      &lt;tr&gt;
-                        &lt;td class=&quot;wrapper&quot;&gt;
-                           &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/programming-beaglebone&quot;&gt;Programming the BeagleBone&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;by Yogesh Chavan&lt;/p&gt;
-                           &lt;p&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/programming-beaglebone&quot;&gt;&lt;img src=&quot;https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/featured_book_block/0013OS_3439_Programming%20the%20Beaglebone.jpg&quot; alt=&quot;Programming BeagleBone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-                       &lt;/td&gt;
-                     &lt;/tr&gt;
-                   &lt;/table&gt;
                    &lt;br /&gt;
                       &lt;table class=&quot;six columns&quot;&gt;
                         &lt;tr&gt;
@@ -1280,7 +1280,7 @@ body.outlook p {
 
 </body>
     <pseudoparent idref="3901" prototyperef="Page"/>
-    <pvcount type="float">40.0</pvcount>
+    <pvcount type="float">41.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/newsletter/2016-02/edit</http_referer>
