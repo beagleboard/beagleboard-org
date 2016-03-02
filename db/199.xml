@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1456875679363">
+  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1456929678429">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,8 +13,8 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>about</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <time type="date">29.02.2016 13:41:03 UTC</time>
-    <hopsession>127.0.0.19s641y6plpo</hopsession>
+    <time type="date">02.03.2016 14:41:18 UTC</time>
+    <hopsession>127.0.0.1u4noojyjlms6</hopsession>
     <body>&lt;h1&gt;About BeagleBoard.org&lt;/h1&gt;
 
 &lt;p&gt;The BeagleBoard.org Foundation is a US-based non-profit corporation 
@@ -91,8 +91,9 @@ Oakland Twp, MI 48306
 &lt;ul&gt;
     &lt;li&gt;Jason Kridner - Texas Instruments - Community manager and usability&lt;/li&gt;
     &lt;li&gt;Gerald Coley - EmProDesign - Co-founder, hardware design and QA&lt;/li&gt;
-    &lt;li&gt;Adrian Fernandez - Texas Instruments - Maker community expert&lt;/li&gt;
     &lt;li&gt;Mark Yoder - Rose-Hulman University - Educational outreach&lt;/li&gt;
+    &lt;li&gt;Robert Nelson - Digi-Key - Distribution and kernel maintainence&lt;/li&gt;
+    &lt;li&gt;Drew Fustini - OSH Park - Social media and embedded development&lt;/li&gt;
 &lt;/ul&gt;
 &lt;script&gt;
     var email1 = &quot;jkrXXXidner@beaXXXgleboard.oXXXrg&quot;.replace(/XXX/g,&apos;&apos;);
@@ -100,7 +101,7 @@ Oakland Twp, MI 48306
     $(&apos;#email1&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email1 + &apos;&quot;&gt;&apos; + email1 +&apos;&lt;/a&gt;&apos;);
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email2 + &apos;&quot;&gt;&apos; + email2 +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <pvcount type="float">54667.0</pvcount>
+    <pvcount type="float">54744.0</pvcount>
     <prev idref="76" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/about/edit</http_referer>
