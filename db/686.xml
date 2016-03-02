@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="686" name="Math-Neon" prototype="Page" created="1247211863053" lastModified="1456723030773">
+  <hopobject id="686" name="Math-Neon" prototype="Page" created="1247211863053" lastModified="1456853674148">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.07.2009 07:44:23 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>adventus.myopenid.com</registrant>
     <pname>Math-Neon</pname>
     <user>adventus.myopenid.com</user>
-    <pvcount type="float">4895.0</pvcount>
+    <pvcount type="float">4903.0</pvcount>
     <body>This project aims to implement high performance approximations of higher order math functions (trig, exponential, powers, etc) in C and hand optimized assembly.
 
 The cmath implementations of these functions tend to be, for general applications, excessively accurate. Performance will be gained by relaxing the accuracy requirements as well as specifically targeting ARM Cortex devices.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3746" name="2014-08-27-device-tree-overlay-support-lands-upstream" prototype="Page" created="1409168682839" lastModified="1456790033586">
+  <hopobject id="3746" name="2014-08-27-device-tree-overlay-support-lands-upstream" prototype="Page" created="1409168682839" lastModified="1456856885100">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.x6exoezk90au</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">9817.0</pvcount>
+    <pvcount type="float">9824.0</pvcount>
     <body>&lt;h1&gt;Device Tree Overlay Support Lands Upstream&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://github.com/pantoniou&quot;&gt;Pantelis Antoniou&lt;/a&gt; originated device tree overlay support for the purpose of enabling dynamic hardware configuration under Linux on devices like BeagleBone that use device tree for hardware configuration. Device tree was introduced to Linux for the purpose of putting the description of hardware into data structures, rather than building it up programmatically, greatly reducing the amount of code required to be maintained within the Linux kernel sources. &lt;a href=&quot;http://beagleboard.org/blog/2014-02-18-project-spotlight-logi-bone/&quot;&gt;&lt;img style=&quot;float:right;width:50%;padding:5px;&quot; src=&quot;http://i.imgur.com/cMm5cTU.jpg&quot; /&gt;&lt;/a&gt; Until now, the device tree data structure was only processed at boot time and that simply can&apos;t work for devices that might change hardware configurations after boot. While many BeagleBone capes can be probed by the bootloader, a common use-case is hardware that is reconfigurable. The most obvious example  is a cape with an &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://en.wikipedia.org/wiki/Field-programmable_gate_array&quot;&gt;FPGA&lt;/a&gt; on it. &lt;/p&gt;
 &lt;p&gt;Pantelis&apos; early code was used in the &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://elinux.org/BeagleBone_and_the_3.8_Kernel&quot;&gt;kernel provided with the launch of BeagleBone Black&lt;/a&gt;. This became the standard for how BeagleBone cape hardware is supported with numerous &lt;a href=&quot;https://learn.adafruit.com/introduction-to-the-beaglebone-black-device-tree/overview&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;tutorials&lt;/a&gt; showing up and probing of the on-board cape EEPROMs by &lt;a href=&quot;http://elinux.org/Capemgr&quot;&gt;Capemgr&lt;/a&gt;. This was all done specifically for BeagleBone kernels and was not part of mainline Linux until today when &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=201c910bd6898d81d4ac6685d0f421b7e10f3c5d&quot;&gt;Linus&apos; accepted Pantelis&apos; patch for device tree transactional support&lt;/a&gt; which introduces &lt;a href=&quot;https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/devicetree/changesets.txt&quot; class=&quot;external&quot; target=&quot;_blank&quot;&gt;changesets to device tree support&lt;/a&gt;.&lt;/p&gt;
@@ -22,8 +22,8 @@
 
 </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
     <render_skin>blog</render_skin>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/blog/2014-08-27-device-tree-overlay-support-lands-upstream/edit</http_referer>
   </hopobject>
 </xmlroot>
