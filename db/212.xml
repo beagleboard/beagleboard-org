@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="212" name="hardware" prototype="Page" created="1215204791002" lastModified="1457307765497">
+  <hopobject id="212" name="hardware" prototype="Page" created="1215204791002" lastModified="1457321219848">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -9,11 +9,11 @@
     <http_host>beagleboard.org</http_host>
     <time type="date">26.06.2014 02:52:11 UTC</time>
     <prev idref="211" prototyperef="Page"/>
-    <hopsession>98.250.189.1pbhjzxppi4iv</hopsession>
-    <http_remotehost>98.250.189.79</http_remotehost>
     <registrant>blog.hangerhead.com</registrant>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <hopsession>98.250.189.1pbhjzxppi4iv</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">16767.0</pvcount>
+    <pvcount type="float">16772.0</pvcount>
     <body>&lt;script&gt;window.location=&quot;/beagleboard&quot;;&lt;/script&gt;
 &lt;h1&gt;BeagleBoard Product Details&lt;/h1&gt;
  &lt;p&gt;The USB-powered BeagleBoard is a low-cost, fan-less single board computer that unleashes laptop-like performance and expandability without the bulk, expense, or noise of typical desktop machines.&lt;/p&gt;
@@ -102,8 +102,8 @@
 </body>
     <http_language>en-US,en;q=0.8</http_language>
     <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/hardware/edit</http_referer>
     <beagleirclog>000000</beagleirclog>
+    <http_referer>http://beagleboard.org/hardware/edit</http_referer>
     <hop:child idref="236" prototyperef="Page"/>
     <hop:child idref="425" prototyperef="Page"/>
   </hopobject>
