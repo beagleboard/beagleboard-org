@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1457566685999">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1457566717364">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>boards</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">09.03.2016 23:38:05 UTC</time>
+    <time type="date">09.03.2016 23:38:37 UTC</time>
     <hopsession>127.0.0.1u4noojyjlms6</hopsession>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1.5GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
@@ -100,7 +100,7 @@ $(document).ready(function(){
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;/static/images/bbg_bullet_40.png&quot; align=&quot;left&quot;/&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/bbg_bullet_40.png&quot; align=&quot;left&quot; style=&quot;padding:10;&quot;/&gt;
 Seeed&apos;s Grove connectors make IoT developers life simpler large family of Grove sensors and drivers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/green&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard-xm&quot;&gt;BeagleBoard.org BeagleBoard-xM&lt;/a&gt;&lt;/h2&gt;
@@ -245,7 +245,7 @@ BeagleBoardToys
 &lt;/div&gt;
 &lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">251740.0</pvcount>
+    <pvcount type="float">251742.0</pvcount>
     <http_referer>http://beagleboard.org/boards/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
