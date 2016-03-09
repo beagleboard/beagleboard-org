@@ -1,204 +1,257 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1457563072287">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1457563185770">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; CrOS x86_64 7520.63.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>bone</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">09.02.2016 04:46:17 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.16zs1c5hm6ram</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">691438.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <body>&lt;h1&gt;BeagleBone&lt;/h1&gt;
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>bone</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
+    <time type="date">09.03.2016 22:39:45 UTC</time>
+    <hopsession>127.0.0.1u4noojyjlms6</hopsession>
+    <body>&lt;h1&gt;Boards&lt;/h1&gt;
+  &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-
-
-&lt;div id=&quot;t2-c7&quot;&gt;&lt;div&gt;
-
- &lt;div id=&quot;t2-c7-content&quot;&gt;
-&lt;div id=&quot;t2-c5d&quot;&gt;
-&lt;h2&gt;What is BeagleBone?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Be sure to check out the new &lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;BeagleBone is an $89 MSRP, credit-card-sized Linux computer that connects to the Internet and runs software such as Android 4.0 and Ubuntu. With plenty of I/O and processing power for real-time analysis provided by an AM335x 720MHz ARM® processor, BeagleBone can be complemented with cape plug-in boards to augment functionality.&lt;/p&gt;    
- &lt;/div&gt;
- &lt;div id=&quot;t2-c5a&quot;&gt;   
-    &lt;h3&gt;Processor: &lt;a class=&quot;external&quot; href=&quot;https://www.ti.com/product/am3358&quot;&gt;AM335x 720MHz ARM Cortex-A8&lt;/a&gt;&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt; 
-&lt;li&gt;256MB DDR2 RAM&lt;/li&gt;
-&lt;li&gt;3D graphics accelerator&lt;/li&gt;
-&lt;li&gt;ARM Cortex-M3 for power management&lt;/li&gt;
-&lt;li&gt;2x PRU 32-bit RISC CPUs&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;/div&gt;
-
-
- &lt;div id=&quot;t2-c5b&quot;&gt;  
-    &lt;h3&gt;Connectivity&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;USB client: power, debug and device&lt;/li&gt;
-  &lt;li&gt;USB host&lt;/li&gt;
-  &lt;li&gt;Ethernet&lt;/li&gt;
-  &lt;li&gt;2x 46 pin headers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
- &lt;div id=&quot;t2-c5c&quot;&gt;
-&lt;h3 style=&quot;margin-top:0px;&quot;&gt;Software Compatibility&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;4GB microSD card w/ Angstrom Distribution&lt;/li&gt;
-  &lt;li&gt;Cloud9 IDE on Node.JS w/ BoneScript library&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-
-&lt;div id=&quot;CTA&quot;&gt;
+&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;Meet the newest addition to the open hardware Beagle family. &lt;br&gt;&lt;br&gt;Get the powerhouse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
+   
+&lt;!--######################################--&gt;
+ &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
- &lt;ul class=&quot;dropdown&quot; id=&quot;buy-bone&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://specialcomp.com/beagleboard/bone.htm&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://parts.arrow.com/item/detail/circuitco/bb-bone-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.avnetexpress.avnet.com/part/e/BB-BONE-000/CCR&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#tabs-4&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.element14.com/community/docs/DOC-45028&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176131_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.liquidware.com/shop/show/BBONE/BeagleBone&quot;&gt;Liquidware&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mouser.com/beaglebone/&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.chipsee.com/beaglebone.html&quot;&gt;ChipSee (China)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.clotech.com.tw&quot;&gt;CLO Tech (Taiwan)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://idasystems.net/products/beagle_bone&quot;&gt;IDA Systems (India)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lextronic.fr/P26022-platine-de-developpement-beaglebone.html&quot;&gt;Lextronic (France)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://store.techshare.jp/shopbrand/006/Y/page1/order/&quot;&gt;TechShare Store (Japan)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tenettech.com/search?Q=beaglebone&quot;&gt;Tenet Technetronics (India)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tigal.com/products.asp?src=beaglebone&quot;&gt;Tigal (Europe)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.watterott.com/en/BeagleBone&quot;&gt;Watterott (Germany)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=541&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1024&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.robotistan.com/Beagle-Bone,PR-1617.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7588982/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sanatanatech.com/prestashop/258-beaglebone.html&quot;&gt;Sanatana Techtronics&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/div&gt;
-&lt;!--
-  &lt;li&gt;&lt;a href=&quot;http://www.makershed.com/BeagleBoard_BeagleBone_p/mkcce1.htm&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
---&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://specialcomp.com/beaglebone/&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.adafruit.com/products/1278&quot;&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.makershed.com/BeagleBoard_BeagleBone_Black_p/mkcce3.htm?Click=142528&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://parts.arrow.com/item/detail/circuitco/bb-bblk-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://avnetexpress.avnet.com/store/em/EMController?action=products&amp;catalogId=500201&amp;storeId=500201&amp;N=0&amp;langId=-1&amp;slnk=b&amp;term=BB-BBLK-000&amp;hrf=http%3A%2F%2Fwww.em.avnet.com%2Fen-us%2Fdesign%2Fdrc%2FPages%2FCircuitco-BeagleBone-Black-Open-Source-Hardware-Platform.aspx&amp;intcmp=EMA-BUY-BB-BBLK-000&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176149_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.openhacks.com/page/productos/id/359&quot;&gt;Openhacks.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tigal.com/product/3406&quot;&gt;Tigal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.conrad.biz/bb/&quot;&gt;Conrad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.watterott.com/de/BeagleBone-Black&quot;&gt;Watterott&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://store.techshare.jp/shopbrand/006/Y/&quot;&gt;TechShare Store&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.electroshopdendermonde.be/index.php/webshop/beaglebone/beaglebone-black&quot;&gt;Electroshop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.chipsee.com/product/evm/beagle.html&quot;&gt;Chipsee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.exp-tech.de/Mainboards/BeagleBone-Black.html&quot;&gt;EXP Tech&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.abra-electronics.com/products/BeagleBone-Black-Single%252dBoard-Computer-Development-Board-.html&quot;&gt;Abra Electronics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://embeddedcomputer.nl/beagleboard/beagleboard-beaglebone.html&quot;&gt;EmbeddedComputer.nl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.rpelectronics.com/bb-bblk-000-beaglebone-black-development-board.html&quot;&gt;RP Electronics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.active123.com/BeagleBone-Black-Development-Board-Prodview.html&quot;&gt;Active&lt;/a&gt;&lt;/li&gt; 
+  &lt;li&gt;&lt;a href=&quot;http://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.logicsupply.com/products/bb_bblk_000&quot;&gt;Logic Supply&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lextronic.fr/P28675-platine-beaglebone-black-rev-a5a.html&quot;&gt;Lextronic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1061&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.robotistan.com/BeagleBone-Black,PR-1523.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.embest-tech.cn/shop/star/beaglebone-black.html&quot;&gt;Embest Version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-    &lt;a href=&quot;https://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
-    &lt;img src=&quot;https://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
+    &lt;a href=&quot;http://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
+    &lt;img src=&quot;http://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
    &lt;/a&gt;
 
 
 &lt;script&gt;
-$(&apos;ul.dropdown&apos;).each(function(){
-  var list = $(this);
-  var select = $(document.createElement(&apos;select&apos;)).insertBefore($(this).hide());
-  var action = list.attr(&apos;id&apos;); 
-  select.change(function(){
-   $(&apos;&gt;option:selected&apos;, this).each(function(){
-    var label = $(this).text();
-    var link = $(this).val();
-    ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, action, label);
-    setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
-   });
-  });
-  var option=$(document.createElement(&apos;option&apos;));
-  option.appendTo(select);
-  option.html(&apos;Select a distributor to buy&apos;);
-  $(&apos;&gt;li&apos;, this).each(function(){
-    var option=$(document.createElement(&apos;option&apos;));
-    option.appendTo(select);
-    option.html($(this).html());
-    $(&apos;&gt;a&apos;, this).each(function(){
-     option.val(this.href);
-   });
-  });
-  list.remove();
+$(document).ready(function(){
+  if($(&apos;#buy-black&apos;).length) {
+    $.get(&apos;/distributors/black&apos;, function(data){
+        $(&apos;#buy-black&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            _gaq.push([&apos;_trackEvent&apos;, &apos;exit&apos;, action, label]);
+            setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+           });
+          });
+        });
+    });
+  }
 });
 &lt;/script&gt;
+&lt;/div&gt;
+&lt;!-- #######################################################--&gt;
+
 
 &lt;/div&gt;
-&lt;img src=&quot;/static/images/product_beaglebone.jpg&quot;/&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.ti.com/ww/en/include/js/jquery.min.js&quot;&gt;&lt;/script&gt; 
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.ti.com/ww/en/include/js/slimbox2.js&quot;&gt;&lt;/script&gt;
+          &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;http://www.ti.com/ww/en/include/css/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;http://www.ti.com/ww/en/beagleboard/product_detail_black_lg.jpg&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot; name=&quot;BeagleBone Black Image&quot;&gt;
+&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/prod_black_sm.jpg&quot; border=&quot;0&quot;  /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div id=&quot;t2-c2&quot;&gt;&lt;h2&gt;What can these boards do?&lt;/h2&gt;
+ &lt;ul class=&quot;square&quot;&gt; 
+ &lt;li&gt;The Beagles are tiny open-hardware (you could make one yourself), open-software computers that plug into whatever you have around the house.&lt;/li&gt; 
+ &lt;li&gt;Beagles mean big functionality in small packages because these little PCs can be used for all kinds of applications you&apos;ve been tinkering with... and can handle many of the same tasks as your desktop PC. 
+ &lt;li&gt;The Beagle family is happiest when helping students to learn programming, hobbyists to push the bounderies of DIY and developers move to production quickly without excess noise, expense or bulk.
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/beaglebone_sm.jpg&quot; align=&quot;left&quot;/&gt;
+This third-gen Beagle is powered by a 720MHz ARM Cortex-A8 processor and includes power management, microSD card with Angstrom, built-in FTDI-based serial / JTAG and on-chip Ethernet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/Products/BeagleBone&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard-xm&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/static/images/beagleboard-xm_sm.jpg&quot; align=&quot;left&quot;/&gt;
+BeagleBoard-xM delivers extra MIPS with a 1GHz ARM Cortex-A8 processor, and memory with 512MB of low-power DDR RAM... plus a suite of peripherals.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/Products/BeagleBoard-xM&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
+&lt;/div&gt;
+&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/beagleboard_sm.jpg&quot; align=&quot;left&quot;/&gt;
+The original Beagle runs on a 720MHz ARM Cortex-A8 processor and has extensions for increased acceleration, graphics hardware and high-res video.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/Products/BeagleBoard&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
+&lt;/div&gt;
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c1a&quot;&gt;&lt;h2&gt;Product Comparison Table&lt;/h2&gt;
+ &lt;table width=&quot;588&quot; border=&quot;0&quot; cellpadding=&quot;3px&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt; &lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBone Black&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBone&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard-xM&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;DM3730 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;OMAP3530 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;1GHz&lt;/td&gt;
+    &lt;td&gt;720MHz&lt;/td&gt;
+    &lt;td&gt;1GHz&lt;/td&gt;
+    &lt;td&gt;720MHz&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;7&lt;/td&gt;
+    &lt;td&gt;7&lt;/td&gt;
+    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;0&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;65 (3.3V)&lt;/td&gt;
+    &lt;td&gt;65 (3.3V)&lt;/td&gt;
+    &lt;td&gt;53 (1.8V)&lt;/td&gt;
+    &lt;td&gt;24 (1.8V)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;256MB DDR2 (400MHz x 16), microSD card slot&lt;/td&gt;
+    &lt;td&gt;512MB LPDDR (333MHz x 32), microSD card slot&lt;/td&gt;
+    &lt;td&gt;256MB LPDDR (333MHz x 32), SD card slot&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;HS USB 2.0 Client Port, LS/FS/HS USB 2.0 Host Port&lt;/td&gt;
+    &lt;td&gt;HS USB 2.0 Client Port, LS/FS/HS USB 2.0 Host Port&lt;/td&gt;
+    &lt;td&gt;4 Port LS/FS/HS USB Hub, HS USB 2.0 OTG Port&lt;/td&gt;
+    &lt;td&gt;USB HS Host Port, HS USB 2.0 OTG Port&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;DVI-D (via HDMI connectors), S-Video&lt;/td&gt;
+    &lt;td&gt;DVI-D (via HDMI connectors), S-Video&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;3.5mm stereo jack&lt;/td&gt;
+    &lt;td&gt;3.5mm stereo jack&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
+    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers,&lt;br /&gt;FTDI USB to Serial, JTAG via USB&lt;/td&gt;
+    &lt;td&gt;McBSP, DSS, I2C, UART, LCD, McSPI, PWM, JTAG, Camera Interface&lt;/td&gt;
+    &lt;td&gt;McBSP, DSS, I2C, UART, McSPI, PWM, JTAG&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;$49&lt;/td&gt;
+    &lt;td&gt;$89&lt;/td&gt;
+    &lt;td&gt;$149&lt;/td&gt;
+    &lt;td&gt;$125&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c2&quot;&gt;&lt;h2&gt;Cool Projects&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/openrov/&quot;&gt;OpenROV Underwater Robot&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Learn how to create an open source telerobotic submarine for use in exploring underwater environments&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/NinjaBlocks/&quot;&gt;Ninja Blocks&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Explore the internet of things by using these tiny, cloud-enabled computers to control and build apps that talk to connected devices&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/stache&quot;&gt;BeagleStache: OpenCV face detection&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Build on an OpenCV face detection sample to add a black mustache on the faces detected and upload the image to social media&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/Omek+Beckon+SDK++/&quot;&gt;3D vision for Beagle&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Deploy gesture recognition and full body tracking quickly and efficiently with the Omek Interactive Beckon™ Development Suite, a full-featured set of middleware and tools&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/Replicape/&quot;&gt;Replicape 3D Printer Cape&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Convert your BeagleBone or BeagleBone Black into a 3D printer by creating this cape add-on board&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/Beagle-Solar-A-Car/&quot;&gt;Autonomous Solar Car&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Use Beagle to make the world greener today and for generations to come by creating a solar-energy-powered autonomous car&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/BlindLeadingBlind/&quot;&gt;Haptic Belt for the Blind&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Help those without sight move around obstacles using Beagle + Kinect, vibrating motors and audio alerts for relaying more complex signals&lt;/p&gt;    
 
+&lt;a href=&quot;/project&quot;&gt;More Projects&lt;/a&gt; »
+&lt;/div&gt;
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c7&quot;&gt;&lt;h2&gt;&lt;a href=&quot;http://beagleboard.org/cape&quot;&gt;Featured Capes &amp; Accessories&lt;/a&gt;&lt;/h2&gt;
+Explore the world of feature-rich capes and other accessories for super-charged functionality. Plug
+in and go! &lt;a href=&quot;http://beaglebonecapes.com&quot; class=&quot;external&quot;&gt;Visit the cape store&lt;/a&gt; to see all options. 
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
+&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_Breadboard&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone Breadboard.jpg&quot; width=&quot;150&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone Breadboard &lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
+&lt;/div&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c4-prod-details&quot;&gt;
-&lt;h2&gt;BeagleBone Projects&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/NinjaBlocks/&quot;&gt;NinjaBlocks&lt;/a&gt;&lt;/strong&gt;
-Tiny, cloud-enabled, open hardware computers that process input from sensors &amp; control lights, power sockets and other actuators
-&lt;br&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/heliUAV/&quot;&gt;Helicopter UAV&lt;/a&gt;&lt;/strong&gt;
-Learn how to build a BeagleBone-powered helicopter-based UAV that integrates MEMS sensors, GPS, wireless datalink and other peripherals
-&lt;br&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/beaglebone-net-radio&quot;&gt;Internet Radio&lt;/a&gt;&lt;/strong&gt;
-Uses MPD (Music Player Deamon) to stream live internet radio feeds to a stereo audio output. Can be controlled by any MPD client from an iPhone, iPad, Android phone, Tablet and more
-&lt;br&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;a href=&quot;/project&quot;&gt;See More Projects&lt;/a&gt; »
-&lt;br&gt;
-
+&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_Breakout&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone Breakout Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone Breakout Cape&lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
 &lt;/div&gt;
 
-&lt;div id=&quot;t2-c5-prod-details&quot;&gt;
-&lt;h2&gt;BeagleBone Support&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-First step: connect your Beagle to this site  
-&lt;br&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/#!forum/beagleboard&quot; Class=&quot;external&quot;&gt;Discussion Groups&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-Collaborate on the Beagle community forum
-&lt;br&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/chat&quot;&gt;IRC Group Chat&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
-Live chat with other open-source enthusiasts
-&lt;br&gt;
-&lt;/p&gt;
+&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_DVI-D&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone DVI-D Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone DVI-D Cape &lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
 &lt;/div&gt;
 
-&lt;div id=&quot;t2-c6-prod-details&quot;&gt;
-&lt;h2&gt;Hardware Specs and Materials&lt;/h2&gt;
-&lt;p&gt;Browse the BeagleBone wiki to find all available hardware specifications such as:&lt;/p&gt;
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Bill of Materials&lt;/li&gt;
-&lt;li&gt;PCB Files&lt;/li&gt;
-&lt;li&gt;MFG Files&lt;/li&gt;
-&lt;li&gt;Schematic (PDF)&lt;/li&gt;
-&lt;li&gt;Schematic (OrCAD)&lt;/li&gt;
-&lt;li&gt;System Reference Manual&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBone#Rev_A6A&quot; class=&quot;external&quot;&gt;Rev A6A&lt;/a&gt;  
-&lt;p&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBone#Rev_A6&quot; class=&quot;external&quot;&gt;Rev A6&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBone#Rev_A5&quot; class=&quot;external&quot;&gt;Rev A5&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBone#Rev_A4&quot; class=&quot;external&quot;&gt;Older Revs&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
-&lt;h2&gt;Videos &lt;/h2&gt;
-&lt;div id=&quot;t2-video-1&quot;&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;http://www.youtube.com/embed/yXTJC-_rlMY?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3&gt;LCD Touchscreen GUI Applications for Embedded Linux&lt;/h3&gt; 
-&lt;p&gt;Video of Qt application development on the Beaglebone or any other embedded Linux device. This video introduces an LCD, reviews it and then discusses how you can install it and develop very basic onboard GTK GUI applications.  
-&lt;/p&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-video-2&quot;&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;http://www.youtube.com/embed/_ytQsEUt9mU?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3&gt;BeagleBone with Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;A demonstration of a BeagleBone interfacing with a temperature sensor. BeagleBone&apos;s analog to digital (ADC) interfaces to read the ouput from an Adadfruit TMP36 sensor.&lt;/p&gt;
+&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_LCD7&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone LCD7 Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone LCD7 Cape&lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
+    
 &lt;/div&gt;
-&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
-&lt;!-- end Content Area --&gt;
-
-</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>https://beagleboard.org/bone/edit</http_referer>
+&lt;/div&gt;</body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">691439.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <http_referer>http://beagleboard.org/bone/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
