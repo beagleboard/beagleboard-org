@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1457566068205">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1457566474895">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>boards</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">09.03.2016 23:27:48 UTC</time>
+    <time type="date">09.03.2016 23:34:34 UTC</time>
     <hopsession>127.0.0.1u4noojyjlms6</hopsession>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1.5GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;Meet the most popular member of the open hardware Beagle family. &lt;br&gt;&lt;br&gt;Get the flexible and affordable workhorse with &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
+&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;Meet the most popular member of the open hardware Beagle family. &lt;br&gt;&lt;br&gt;Get the flexible and affordable workhorse with &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
    
 &lt;!--######################################--&gt;
  &lt;div id=&quot;CTA&quot;&gt;
@@ -103,93 +103,93 @@ $(document).ready(function(){
     &lt;p&gt;&lt;img src=&quot;/static/images/beaglebone_sm.jpg&quot; align=&quot;left&quot;/&gt;
 This third-gen Beagle is powered by a 720MHz ARM Cortex-A8 processor and includes power management, microSD card with Angstrom, built-in FTDI-based serial / JTAG and on-chip Ethernet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/bone-original&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard-xm&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/h2&gt;
+&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard-xm&quot;&gt;BeagleBoard.org BeagleBoard-xM&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/static/images/beagleboard-xm_sm.jpg&quot; align=&quot;left&quot;/&gt;
 BeagleBoard-xM delivers extra MIPS with a 1GHz ARM Cortex-A8 processor, and memory with 512MB of low-power DDR RAM... plus a suite of peripherals.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/beagleboard-xm&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
 &lt;/div&gt;
-&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/beagleboard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;/static/images/beagleboard_sm.jpg&quot; align=&quot;left&quot;/&gt;
-The original Beagle runs on a 720MHz ARM Cortex-A8 processor and has extensions for increased acceleration, graphics hardware and high-res video.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/beagleboard&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
+&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/x15&quot;&gt;BeagleBoard.org BeagleBoard-X15&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/BeagleBoard-X15.png&quot; align=&quot;left&quot;/&gt;
+    The top performing power-users’ dream board with a core tailored for every computing task and a highspeed interface for every connectivity need.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/beagleboard-x15&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c1a&quot;&gt;&lt;h2&gt;Product Comparison Table&lt;/h2&gt;
  &lt;table width=&quot;588&quot; border=&quot;0&quot; cellpadding=&quot;3px&quot;&gt;
   &lt;tr&gt;
     &lt;th&gt; &lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBone Black&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBone&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard-xM&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;SeeedStudio BeagleBone Green&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBoard-xM&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBoard-X15&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;DM3730 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;OMAP3530 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;AM5728 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;720MHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;720MHz&lt;/td&gt;
+    &lt;td&gt;1GHz&lt;/td&gt;
+    &lt;td&gt;1.5GHz&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;7&lt;/td&gt;
     &lt;td&gt;7&lt;/td&gt;
     &lt;td&gt;0&lt;/td&gt;
-    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;TBD&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;53 (1.8V)&lt;/td&gt;
-    &lt;td&gt;24 (1.8V)&lt;/td&gt;
+    &lt;td&gt;TBD&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;256MB DDR2 (400MHz x 16), microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB LPDDR (333MHz x 32), microSD card slot&lt;/td&gt;
-    &lt;td&gt;256MB LPDDR (333MHz x 32), SD card slot&lt;/td&gt;
+    &lt;td&gt;2GB DDR, 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;HS USB 2.0 Client Port, LS/FS/HS USB 2.0 Host Port&lt;/td&gt;
     &lt;td&gt;HS USB 2.0 Client Port, LS/FS/HS USB 2.0 Host Port&lt;/td&gt;
     &lt;td&gt;4 Port LS/FS/HS USB Hub, HS USB 2.0 OTG Port&lt;/td&gt;
-    &lt;td&gt;USB HS Host Port, HS USB 2.0 OTG Port&lt;/td&gt;
+    &lt;td&gt;SS USB 3.0 Host, HS USB 2.0 OTG Port (TBD)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;DVI-D (via HDMI connectors), S-Video&lt;/td&gt;
-    &lt;td&gt;DVI-D (via HDMI connectors), S-Video&lt;/td&gt;
+    &lt;td&gt;HDMI, TBD&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;3.5mm stereo jack&lt;/td&gt;
     &lt;td&gt;3.5mm stereo jack&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
-    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers,&lt;br /&gt;FTDI USB to Serial, JTAG via USB&lt;/td&gt;
+    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
     &lt;td&gt;McBSP, DSS, I2C, UART, LCD, McSPI, PWM, JTAG, Camera Interface&lt;/td&gt;
-    &lt;td&gt;McBSP, DSS, I2C, UART, McSPI, PWM, JTAG&lt;/td&gt;
+    &lt;td&gt;TBD&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$89&lt;/td&gt;
     &lt;td&gt;$149&lt;/td&gt;
-    &lt;td&gt;$125&lt;/td&gt;
+    &lt;td&gt;$249&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -245,7 +245,7 @@ BeagleBoardToys
 &lt;/div&gt;
 &lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">251734.0</pvcount>
+    <pvcount type="float">251736.0</pvcount>
     <http_referer>http://beagleboard.org/boards/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
