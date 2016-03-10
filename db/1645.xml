@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1457578280506">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1457578366241">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">10.03.2016 02:51:20 UTC</time>
+    <time type="date">10.03.2016 02:52:46 UTC</time>
     <hopsession>127.0.0.1u4noojyjlms6</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
@@ -186,6 +186,13 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Sensors&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;n/a&lt;/td&gt;
+    &lt;td&gt;n/a&lt;/td&gt;
+    &lt;td&gt;n/a&lt;/td&gt;
+    &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$89&lt;/td&gt;
@@ -246,7 +253,7 @@ BeagleBoardToys
 &lt;/div&gt;
 &lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">691586.0</pvcount>
+    <pvcount type="float">691588.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/bone/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
