@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="605" name="Apertus" prototype="Page" created="1241447852693" lastModified="1457579985336">
+  <hopobject id="605" name="Apertus" prototype="Page" created="1241447852693" lastModified="1457583858323">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -20,13 +20,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">5613.0</pvcount>
+    <pvcount type="float">5615.0</pvcount>
     <prj_status>obsolete</prj_status>
     <boardtype>bboard;</boardtype>
     <category>demo;</category>
     <homepage>http://cinema.elphel.com</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/Apertus/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
