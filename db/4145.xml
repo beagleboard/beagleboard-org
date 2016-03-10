@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4145" name="Page" prototype="Page" created="1448027841142" lastModified="1457578733274">
+  <hopobject id="4145" name="Page" prototype="Page" created="1448027841142" lastModified="1457578923586">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>enhanced</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">10.03.2016 02:58:53 UTC</time>
+    <time type="date">10.03.2016 03:02:03 UTC</time>
     <hopsession>127.0.0.1u4noojyjlms6</hopsession>
-    <body>&lt;h1&gt;Arrow BeagleBone Black Industrial&lt;/h1&gt;
+    <body>&lt;h1&gt;SanCloud BeagleBone Enhanced&lt;/h1&gt;
 
 
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
    &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
  &lt;!-- slider --&gt;
-
+&lt;!--
 &lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
 &lt;script src=&quot;/static/ti/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;/static/ti/jquery-ui-1.10.2.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
@@ -62,10 +62,10 @@
  &lt;div id=&quot;t2-c7-content&quot;&gt;
 &lt;div id=&quot;t2-c5d&quot;&gt;
 &lt;a href=&quot;/logo&quot;&gt;&lt;img src=&quot;/static/images/BeagleBoardCompatible.png&quot; style=&quot;width:150px;float:right;&quot; /&gt;&lt;/a&gt;
-&lt;h2&gt;What is Arrow BeagleBone Black Industrial?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;Arrow BeagleBone Black Industrial
-(ABBBI) is a joint effort by BeagleBoard.org and Arrow. It is based on the 
-open-source hardware design of &lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt; and developed into this differentiated
-version. The ABBBI has support for an industrial temperature range of -40C to +85C.
+&lt;h2&gt;What is SanCloud BeagleBone Enhanced?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;SanCloud BeagleBone Enhanced 
+is a joint effort by BeagleBoard.org and SanCloud. It is based on the 
+open-source hardware design of &lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt; with upgraded Ethernet speed (gigabit),
+RAM (gigabyte), a USB hub, built-in sensors and a WiFi/Bluetooth option.
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
@@ -73,7 +73,7 @@ version. The ABBBI has support for an industrial temperature range of -40C to +8
     &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;AM335x 1GHz 
     ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
-&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;1GB DDR3 RAM&lt;/li&gt;
 &lt;li&gt;4GB 8-bit eMMC on-board flash storage&lt;/li&gt;
 &lt;li&gt;3D graphics accelerator&lt;/li&gt;
 &lt;li&gt;NEON floating-point accelerator&lt;/li&gt;
@@ -90,7 +90,6 @@ version. The ABBBI has support for an industrial temperature range of -40C to +8
   &lt;li&gt;USB host&lt;/li&gt;
   &lt;li&gt;Ethernet&lt;/li&gt;
   &lt;li&gt;2x 46 pin headers&lt;/li&gt;
-  &lt;li&gt;2x Grove connectors (I2C and UART)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -118,9 +117,9 @@ version. The ABBBI has support for an industrial temperature range of -40C to +8
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;&quot;&gt;
-  &lt;a id=&quot;buy-abbbi&quot; style=&quot;color:black;font-size:16px;&quot; 
-   href=&quot;http://www.arrow.com&quot;
-   class=&quot;external&quot;&gt;Order from Arrow&lt;/a&gt;
+  &lt;a id=&quot;buy-enhanced&quot; style=&quot;color:black;font-size:16px;&quot; 
+   href=&quot;https://www.indiegogo.com/projects/sancloud-beaglebone-enhanced/x/7085817#/&quot;
+   class=&quot;external&quot;&gt;Order from Indiegogo&lt;/a&gt;
  &lt;/p&gt;
 &lt;/div&gt;
 
@@ -221,7 +220,7 @@ Browse the &lt;a href=&quot;TBD&quot; Class=&quot;external&quot;&gt;SanCloud Bea
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">725.0</pvcount>
+    <pvcount type="float">727.0</pvcount>
     <http_referer>http://beagleboard.org/enhanced/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
