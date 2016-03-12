@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="928" name="ScramblerBeagle" prototype="Page" created="1263252061857" lastModified="1457644241114">
+  <hopobject id="928" name="ScramblerBeagle" prototype="Page" created="1263252061857" lastModified="1457723490552">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">11.01.2010 23:21:01 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>dio.myopenid.com</registrant>
     <pname>Speech Scrambler on beagleboard</pname>
     <user>dio.myopenid.com</user>
-    <pvcount type="float">3919.0</pvcount>
+    <pvcount type="float">3925.0</pvcount>
     <body>The Speech Scrambler is developed on Beagleboard. It involves the development of (at least):
 
 1. Speech Coding (Voice Coder/Encoder)
