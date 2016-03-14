@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1558" name="1511xM196" prototype="Page" created="1309109945465" lastModified="1457812026380">
+  <hopobject id="1558" name="1511xM196" prototype="Page" created="1309109945465" lastModified="1457898962422">
   <hop:parent idref="252" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -12,14 +12,14 @@
     <hopsession>127.0.0.68.163.107.1nxzs0lum2wkn</hopsession>
     <body>Board registration</body>
     <pseudoparent idref="252" prototyperef="Page"/>
-    <pvcount type="float">2407.0</pvcount>
+    <pvcount type="float">2412.0</pvcount>
     <email>cdpalmer3@gmail.com</email>
     <status>Board boots but does not seem to behave properly. Red HDMI screen.USB devices do not respond. This is a rev C board. Rev B board seems to work fine with same flash</status>
     <render_skin>board</render_skin>
     <edit_skin>edit_board</edit_skin>
     <http_referer>http://beagleboard.org/support/board</http_referer>
     <http_host>beagleboard.org</http_host>
-    <name>Charles Palmer</name>
     <user>cdpalmer3.myopenid.com</user>
+    <name>Charles Palmer</name>
   </hopobject>
 </xmlroot>
