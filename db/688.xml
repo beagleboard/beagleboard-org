@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="688" name="miniECG" prototype="Page" created="1247217977138" lastModified="1458238628815">
+  <hopobject id="688" name="miniECG" prototype="Page" created="1247217977138" lastModified="1458340300139">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -18,7 +18,7 @@
 miniECG has a graphic LCD with touch screen interface to view ECG and to provide inputs to store/transmit ECG signal. Device can be connected to wireless internet to transfer ECG to doctors clinic. It uses DSP technique to filter ECG signal, to compress it and to extract features from ECG signal. miniECG has AI algorithm running on top of ECG PCA data that determines probable heart-attack in near hour.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4379.0</pvcount>
+    <pvcount type="float">4391.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
