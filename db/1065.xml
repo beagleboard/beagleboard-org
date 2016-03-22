@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1065" name="C6Run" prototype="Page" created="1272310213443" lastModified="1458514563702">
+  <hopobject id="1065" name="C6Run" prototype="Page" created="1272310213443" lastModified="1458602590085">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">26.04.2010 19:30:13 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>www.google.com/profiles/moridinga</registrant>
     <pname>C6Run</pname>
     <user>www.google.com/profiles/moridinga</user>
-    <pvcount type="float">4139.0</pvcount>
+    <pvcount type="float">4145.0</pvcount>
     <body>Project to enable quickly building and running code on the C64x+ DSP of the beagleboard&apos;s OMAP3 processor. Provides a front-end compiler script that looks like GCC for building applications using the C6Run framework.  When run, these applications load and start the DSP, where the compiled application code runs.  Facilities are provided to let the DSP access the ARM/Linux filesystem via the standard C I/O function calls. The project depends on the DSPLink system provided by Texas Instruments.</body>
     <errmsg></errmsg>
     <homepage>https://gforge.ti.com/gf/project/dspeasy</homepage>
