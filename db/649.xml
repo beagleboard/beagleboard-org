@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="649" name="TUD:OS on the Beagleboard" prototype="Page" created="1245229261580" lastModified="1458751576559">
+  <hopobject id="649" name="TUD:OS on the Beagleboard" prototype="Page" created="1245229261580" lastModified="1458817667435">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -30,7 +30,7 @@ Further a possibility to run multiple virtualized linux instances on the beagleb
 </body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4766.0</pvcount>
+    <pvcount type="float">4774.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
