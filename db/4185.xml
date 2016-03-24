@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4185" name="2016-03" prototype="Page" created="1458833119991" lastModified="1458833120152">
+  <hopobject id="4185" name="2016-03" prototype="Page" created="1458833119991" lastModified="1458833532826">
   <hop:parent idref="3901" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>2016-03</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">24.03.2016 15:25:20 UTC</time>
-    <pseudoparent idref="3901" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>2016-03</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36</http_browser>
+    <time type="date">24.03.2016 15:32:12 UTC</time>
     <hopsession>127.0.0.10ix7qwcmhap4</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1.0</pvcount>
-    <body>
-
-&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+    <body>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
 &lt;head&gt;
      &lt;title&gt;BeagleBoard.org - Monthly Dog Dish&lt;/title&gt;
@@ -1044,13 +1038,25 @@ body.outlook p {
                      &lt;tr&gt;
                        &lt;td class=&quot;left-text-pad&quot;&gt;
 
-               &lt;p&gt;SE Michigan BeagleBone Users Group - April TBD &lt;a href=&quot;http://bit.ly/beaglemeetup&quot;&gt;more&amp;nbsp;»&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;http://bit.ly/beaglemeetup&quot;&gt;SE Michigan BeagleBone Users Group&lt;/a&gt;
+                 - April TBD&lt;br /&gt;
+                 
+                 &lt;a href=&quot;http://bit.ly/beaglemeetup&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
 
 
-               &lt;p&gt;Embedded Linux Conference - April 4-6 &lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference&quot;&gt;more&amp;nbsp;»&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference&quot;&gt;Embedded Linux Conference&lt;/a&gt;
+                 - April 4-6&lt;br /&gt;
+                 &lt;em&gt;ELC is a technical conference for systems and user space developers in the embedded space.&lt;/em&gt;
+                 &lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
 
 
-               &lt;p&gt;Penguicon - April 29 - May 1 &lt;a href=&quot;https://2016.penguicon.org/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;https://2016.penguicon.org/&quot;&gt;Penguicon&lt;/a&gt;
+                 - April 29 - May 1&lt;br /&gt;
+                 Southfield, Michigan. &lt;em&gt;Non-profit, community-run convention for open source software and hardware, science fiction, gaming, DIY, and more.&lt;/em&gt;
+                 &lt;a href=&quot;https://2016.penguicon.org/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
 
 
                         &lt;/td&gt;
@@ -1405,7 +1411,13 @@ body.outlook p {
 &lt;/body&gt;
 &lt;/html&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>http://beagleboard.org/newsletter/new/edit</http_referer>
+    <pseudoparent idref="3901" prototyperef="Page"/>
+    <pvcount type="float">2.0</pvcount>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
+    <http_referer>http://beagleboard.org/newsletter/2016-03/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
