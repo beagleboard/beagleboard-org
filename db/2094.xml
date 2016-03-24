@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2094" name="shark-detection" prototype="Page" created="1347403097407" lastModified="1458690214813">
+  <hopobject id="2094" name="shark-detection" prototype="Page" created="1347403097407" lastModified="1458777192570">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
 &lt;p&gt;This proof-of-concept demonstration uses a BeagleBoard, Arduino, Light Sensor, Liquidware BeagleTouch and runs Android.&lt;/p&gt;</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://antipastohw.blogspot.com/feeds/posts/default</rssfeed>
-    <pvcount type="float">4340.0</pvcount>
+    <pvcount type="float">4348.0</pvcount>
     <homepage>http://antipastohw.blogspot.com/2012/08/homemade-shark-laser-intrusion.html</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
