@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3501" name="Page" prototype="Page" created="1394746187329" lastModified="1458863492502">
+  <hopobject id="3501" name="Page" prototype="Page" created="1394746187329" lastModified="1458867449974">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>logo</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">24.03.2016 21:57:37 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.13mr5lhx5wbn6</hopsession>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">17066.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>logo</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36</http_browser>
+    <time type="date">25.03.2016 00:57:29 UTC</time>
+    <hopsession>127.0.0.13mr5lhx5wbn6</hopsession>
     <body>&lt;h1 style=&quot;font-size:40px;&quot;&gt;BeagleBoard.org Logo Program&lt;/h1&gt;
 &lt;p&gt;To best enable collaboration within the community, the BeagleBoard.org Foundation
     will license logos to suitable manufacturers looking to advance solutions for
@@ -22,7 +19,14 @@
     &lt;span id=&quot;email2&quot;&gt;Christine Long&lt;/span&gt; with any questions regarding our existing partners or
     to become a partner.
 &lt;/p&gt;
-&lt;h2 style=&quot;font-size:40px;&quot;&gt;BeagleBoard.org Manufacturing Partners&lt;/h2&gt;
+&lt;p&gt;There are currently four (4) different levels of logo licenses:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;#manufacturer&quot;&gt;Manufacturer&lt;/a&gt;&lt;/strong&gt; - Licensed to manufacture and sell approved BeagleBoard.org products&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;#compliant&quot;&gt;Compliant&lt;/a&gt;&lt;/strong&gt; - Licensed to manufacture and sell clones of approved designs under their own brand, but following the BeagleBoard.org specifications&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;#compatible&quot;&gt;Compatible&lt;/a&gt;&lt;/strong&gt; - Licensed to manufacture and sell approved derivatives of BeagleBoard.org products under their own brand that run the community software and otherwise be have in a compatible manner where possible&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;#approved&quot;&gt;Approved&lt;/a&gt;&lt;/strong&gt; - Licensed to manufacture and sell approved products claiming some role in the BeagleBoard.org community and ecosystem under their own brand&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;manufacturer&quot; style=&quot;font-size:40px;&quot;&gt;BeagleBoard.org Manufacturing Partners&lt;/h2&gt;
 &lt;img src=&quot;http://beagleboard.org/static/images/beagleboard_org_logo.png&quot; align=&quot;right&quot; width=&quot;400px&quot; /&gt;
 &lt;p&gt;The product bearing the BeagleBoard.org Logo is an official product of BeagleBoard.org.&lt;/p&gt;
 &lt;h3&gt;Current &quot;BeagleBoard.org&quot; manufacturing partner(s):&lt;/h3&gt;
@@ -35,7 +39,7 @@
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 style=&quot;font-size:40px;&quot;&gt;BeagleBoard Compliant&lt;/h2&gt;
+&lt;h2 id=&quot;compliant&quot; style=&quot;font-size:40px;&quot;&gt;BeagleBoard Compliant&lt;/h2&gt;
 &lt;img src=&quot;http://beagleboard.org/static/uploads/BeagleBoardCompliantLowRes.png&quot; align=&quot;right&quot; height=&quot;200px&quot; /&gt;
 &lt;p&gt;The product bearing the BeagleBoard Compliant Logo has been tested by BeagleBoard.org and has been determined to be BeagleBoard Compliant. “BeagleBoard Compliant” is defined as a product that (a) is identical in technical design and functionality as the specified BeagleBoard.org product with which this product is compliant, and (b) runs on the version of the software provided by BeagleBoard.org to supplier. A product shall be deemed “BeagleBoard Compliant” as of the manufacture date. If additional peripherals are bundled with the supplier’s product, the “BeagleBoard Compliant” certification does not extend to those peripherals.&lt;/p&gt;
 &lt;p&gt;This product may include other accessories and the applicability for use with this product is the sole responsibility of the supplier.&lt;/p&gt;
@@ -48,7 +52,7 @@
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 style=&quot;font-size:40px;&quot;&gt;BeagleBoard Compatible&lt;/h2&gt;
+&lt;h2 id=&quot;compatible&quot; style=&quot;font-size:40px;&quot;&gt;BeagleBoard Compatible&lt;/h2&gt;
 &lt;img src=&quot;http://beagleboard.org/static/images/BeagleBoardCompatible.png&quot; align=&quot;right&quot; height=&quot;200px&quot; /&gt;
 &lt;p&gt;The product bearing the BeagleBoard Compatible Logo has been tested by BeagleBoard.org and has been determined to be BeagleBoard Compatible. &quot;BeagleBoard Compatible&quot; is defined as a product that (a) runs on the version of the software provided by BeagleBoard.org to supplier, (b) said software also runs on a BeagleBoard.org product, and (c) releases open hardware design materials. A product shall be deemed “BeagleBoard Compatible” as of the manufacture date.&lt;/p&gt;
 &lt;p&gt;This product may include other accessories and the applicability for use with this product is the sole responsibility of the supplier.&lt;/p&gt;
@@ -58,19 +62,25 @@
 &lt;ul style=&quot;list-style-type:none;font-size:40px;&quot;&gt;
     &lt;li style=&quot;background: url(/static/images/bbg_bullet_40.png) no-repeat top left;padding-left:80px;&quot;&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/li&gt;
     &lt;li style=&quot;background: url(/static/images/bbe_bullet_40.png) no-repeat top left;padding-left:80px;&quot;&gt;&lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/li&gt;
-    &lt;li style=&quot;background: url() no-repeat top left;padding-left:80px;&quot;&gt;&lt;a href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;&lt;/li&gt;
+    &lt;li style=&quot;background: url(/static/images/ebbi_bullet_40.png) no-repeat top left;padding-left:80px;&quot;&gt;&lt;a href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;EEPROM database&lt;/h2&gt;
+&lt;h3&gt;EEPROM database&lt;/h3&gt;
 &lt;p&gt;One element of compatibility is an entry in our EEPROM database recorded in a Github-hosted &lt;a href=&quot;https://github.com/beagleboard/image-builder/blob/master/readme.md&quot;&gt;readme.md&lt;/a&gt; file.&lt;/p&gt;
+&lt;h2 id=&quot;approved&quot; style=&quot;font-size:40px;&quot;&gt;BeagleBoard.org Approved&lt;/h2&gt;
+&lt;img src=&quot;http://beagleboard.org/static/images/beagle_approved.png&quot; align=&quot;right&quot; height=&quot;100px&quot; /&gt;
+&lt;p&gt;See &lt;a href=&quot;/approved&quot;&gt;beagleboard.org/approved&lt;/a&gt; for terms and list of approved products.&lt;/p&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;script&gt;
     var e2a = $(&apos;#email2&apos;).html();
     var e2b = &quot;chXXXristi@XXXbeagleXXXboardXXX.orgXXX&quot;.replace(/XXX/g,&apos;&apos;);
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + e2b + &apos;&quot;&gt;&apos; + e2a +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">17071.0</pvcount>
     <http_referer>http://beagleboard.org/logo/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
