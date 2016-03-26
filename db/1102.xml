@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1102" name="rtklib" prototype="Page" created="1274951244272" lastModified="1458804041828">
+  <hopobject id="1102" name="rtklib" prototype="Page" created="1274951244272" lastModified="1458939292062">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.05.2010 09:07:24 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>RTK-GPS reciver</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">5874.0</pvcount>
+    <pvcount type="float">5882.0</pvcount>
     <body>A FOSS project to develop a highly accurate positioning system using a low cost GPS device.</body>
     <errmsg></errmsg>
     <homepage>http://gpspp.sakura.ne.jp/rtklib/rtklib_beagleboard.htm</homepage>
