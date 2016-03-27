@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2105" name="Submit" prototype="Page" created="1347476411464" lastModified="1458698627761">
+  <hopobject id="2105" name="Submit" prototype="Page" created="1347476411464" lastModified="1459011529859">
   <hop:parent idref="2092" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -138,15 +138,15 @@ return;
 </body>
     <property propertyname="entry.7.group">No, my design does not meet the minimum requirements.</property>
     <pseudoparent idref="2092" prototyperef="Page"/>
-    <pvcount type="float">3.0</pvcount>
+    <pvcount type="float">4.0</pvcount>
     <http_referer>http://beagleboard.org/CapeContest/Submit/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <backupcache></backupcache>
     <checkbox1>on</checkbox1>
     <property propertyname="entry.6.single"></property>
     <property propertyname="entry.4.single"></property>
-    <lang>en-us</lang>
-    <user>sealsjac.myopenid.com</user>
     <pagenumber>0</pagenumber>
+    <user>sealsjac.myopenid.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
