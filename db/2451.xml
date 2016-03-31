@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2451" name="beaglebone-net&apos;-radio" prototype="Page" created="1364515198403" lastModified="1459252995579">
+  <hopobject id="2451" name="beaglebone-net&apos;-radio" prototype="Page" created="1364515198403" lastModified="1459340287236">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">28.03.2013 23:59:58 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>george.trimm@gmail.com</registrant>
     <pname>BeagleBone Net Radio</pname>
     <user>george.trimm@gmail.com</user>
-    <pvcount type="float">4155.0</pvcount>
+    <pvcount type="float">4159.0</pvcount>
     <body>Uses MPD (Music Player Deamon) to stream live internet radio feeds to a stereo audio output.
 Can be controlled by any MPD client from an iPhone, iPad, Android Phone or Tablet... Pretty much anything that has network access and a MPD control client.</body>
     <errmsg></errmsg>
