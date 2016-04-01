@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1946" name="BBSDR" prototype="Page" created="1334407545992" lastModified="1459379537774">
+  <hopobject id="1946" name="BBSDR" prototype="Page" created="1334407545992" lastModified="1459437978640">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>The BeagleBone SDR aim is to make available a low cost SDR base station, that can be used over the Internet. This would allow reception of signals around the world, from your home. A typical application would be to get APT images of foreign countries from NOAA satellites. The project includes design of a BeagleBone cape and implementation of DSP application. The board will feature a wide-band tuner (probably the MAX3544) and a high-speed ADC for IF sampling. For the software part, the GNU Radio toolchain will be used. This is just a first draft, if you&apos;re interested by this project, contribution and new ideas are welcomed ! </body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">11648.0</pvcount>
+    <pvcount type="float">11676.0</pvcount>
     <homepage>www.bbsdr.com</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
