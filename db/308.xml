@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="308" name="Beagle SDR" prototype="Page" created="1218408418564" lastModified="1459540968658">
+  <hopobject id="308" name="Beagle SDR" prototype="Page" created="1218408418564" lastModified="1459632565405">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -21,14 +21,14 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">7295.0</pvcount>
-    <prj_status>dev</prj_status>
+    <pvcount type="float">7311.0</pvcount>
     <cat_doc>documentation</cat_doc>
+    <prj_status>dev</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>documentation;library;</category>
     <homepage>http://www.opensdr.com/node/10/</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/Beagle+SDR/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
