@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2323" name="Beaglebone-Spartan6 Cape" prototype="Page" created="1355727464592" lastModified="1459707477142">
+  <hopobject id="2323" name="Beaglebone-Spartan6 Cape" prototype="Page" created="1355727464592" lastModified="1459785383515">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -20,7 +20,7 @@ The board coupled with the beaglebone would be an excellent platform for Softwar
 I started this project back in June when looking for an fpga add on board for the beaglebone, similar to what exists for the original beagleboard, the pandaboard, and the Armadeus Project. Finding a few that had no updates for a long time, or weren&apos;t available to purchase, I began my own design. 6 months later here is my board. I want to share it with the beagleboard community, and this contest is a great way to do so. All my design files are on git-hub, and I welcome any and all feedback. Video show casing my design to come soon!</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">2693.0</pvcount>
+    <pvcount type="float">2697.0</pvcount>
     <email>michael.magyarm@gmail.com</email>
     <render_skin>cape</render_skin>
     <edit_skin>edit_cape</edit_skin>
