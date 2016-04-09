@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1218" name="BeagleEye" prototype="Page" created="1283624441674" lastModified="1460065747002">
+  <hopobject id="1218" name="BeagleEye" prototype="Page" created="1283624441674" lastModified="1460123058687">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
 User can do remote login to web server and watch live video in web browser also user can watch or download pre-recorded video. Also user can change direction of the camera. One of the advantage of Beagle board is that using DSP, quality of the video can be controlled so that Bandwidth required for memory(Mass Storage device) and internet can be optimized in run time.Also recording can be scheduled by configuring date,time and duration so that it can be used in standalone mode when internet connectivity is absent or poor. Also user can control the alarms remotely or by image processing fire,smoke detection automated alarms can be operated.Local user can watch live video on LCD monitor. Through switches local user can control system locally.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4914.0</pvcount>
+    <pvcount type="float">4924.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
