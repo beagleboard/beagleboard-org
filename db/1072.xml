@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1072" name="Buildroot for Beagleboard" prototype="Page" created="1272467798163" lastModified="1460194238381">
+  <hopobject id="1072" name="Buildroot for Beagleboard" prototype="Page" created="1272467798163" lastModified="1460332395277">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">28.04.2010 15:16:38 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>gruimed.blogspot.com</registrant>
     <pname>Beagleboard support for Buildroot</pname>
     <user>gruimed.blogspot.com</user>
-    <pvcount type="float">7453.0</pvcount>
+    <pvcount type="float">7475.0</pvcount>
     <body>Buildroot is a very popular and easy to use embedded Linux distribution. It is small and very easy to hack and as such is better suited for kernel hackers than OpenEmbedded, which is geared more towards application developers.
 
 Similar project exists, but has not been updated for a year, so I assume it is dead.</body>
