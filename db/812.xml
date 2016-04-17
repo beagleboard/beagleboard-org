@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="812" name="OSkitPort" prototype="Page" created="1254463096354" lastModified="1460744595083">
+  <hopobject id="812" name="OSkitPort" prototype="Page" created="1254463096354" lastModified="1460820827411">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">02.10.2009 05:58:16 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>provocamper.myopenid.com</registrant>
     <pname>OSkit port To Beagle Board.</pname>
     <user>provocamper.myopenid.com</user>
-    <pvcount type="float">3271.0</pvcount>
+    <pvcount type="float">3277.0</pvcount>
     <body>Porting the OS kit will take quite some time. I am currently estimating at least 6 months for the project. This will be a very difficult and rewarding project for me. I will be learning so many new things . I have always loved the study of operating systems and the languages that go with them. The OS Kit would allow me to continue those studies in a very different system. I can test this set of tools out with a software OMAP emulator (QEMU) to get started.
 
  The basic outline for the port will be:

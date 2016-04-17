@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2366" name="Blank Canvas Cape" prototype="Page" created="1357018875688" lastModified="1460658433737">
+  <hopobject id="2366" name="Blank Canvas Cape" prototype="Page" created="1357018875688" lastModified="1460843142217">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Eric Brombaugh</name>
@@ -11,7 +11,7 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>ebrombaugh@gmail.com</registrant>
     <user>ebrombaugh@gmail.com</user>
-    <pvcount type="float">1233.0</pvcount>
+    <pvcount type="float">1235.0</pvcount>
     <body>Blank Canvas Cape is a Beaglebone cape that provides a Xlilinx Spartan 3A FPGA connected to the GPMC bus of the Beaglebone, 24 bits of user I/O, an on-board configuration memory for instant-on configuration, several user LEDs and buttons and SPI + I2C interfaces to the Beaglebone for configuration and control. In addition to the hardware, a user-space application and interface library is available for loading designs into the FPGA and configuration memory, as well as communicating with the FPGA after it is set up.
 
 A more detailed description can be found at:
