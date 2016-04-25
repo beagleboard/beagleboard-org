@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2139" name="sabayon" prototype="Page" created="1349813101618" lastModified="1461447959592">
+  <hopobject id="2139" name="sabayon" prototype="Page" created="1349813101618" lastModified="1461538925200">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">09.10.2012 20:05:01 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>Sabayon</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">9560.0</pvcount>
+    <pvcount type="float">9580.0</pvcount>
     <body>&lt;p&gt;The first goal of the Sabayon ARM experiment is to produce an image for the BeagleBone (hopefully working on other OMAP ARMv7a devices with little modification) that can transform that little device into a SOHO Linux server (NFS, Samba, Apache, Bittorrent are the main targets).&lt;/p&gt;
 &lt;p&gt;The second goal will be hopefully providing the whole X.Org stack and some audio/video apps.&lt;/p&gt;</body>
     <errmsg></errmsg>
