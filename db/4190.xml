@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4190" name="usingswift" prototype="Page" created="1461714593993" lastModified="1461714595149">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Swift on the Beaglebone Black</pname>
+    <registrant>hoffmanjon.wordpress.com</registrant>
+    <uri>usingswift</uri>
+    <time type="date">26.04.2016 23:49:53 UTC</time>
+    <updatetime type="date">26.04.2016 23:49:53 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;div class=&quot;separator&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px; clear: both;&quot;&gt;Now that I have completed my three books on Swift (&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/25FsL71&quot;&gt;MasteringSwift&lt;/a&gt;,&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/1N4vVpm&quot;&gt;Mastering Swift 2&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/25FsG34&quot;&gt;Protocol Oriented Programming with Swift&lt;/a&gt;), I told my daughters that I would take a break from writing books for the summer.&amp;nbsp; My oldest told me that she wanted to start working on robots again.&amp;nbsp; At the age of ten, She is already a second-degree black belt, and an instructor in Tae Kwon Do so when she says she wants to do do something I generally listen.&amp;nbsp; So after a little discussion about what she wanted to do, we decided that we would pull out all of the robot parts and start working with our&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/25Fggs2&quot;&gt;BeagleBone Blacks&lt;/a&gt;&amp;nbsp;again.&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;I had to start off by doing some reading to catch up with everything that has happened over the past year and a half that spent writing.&amp;nbsp;&amp;nbsp;In my reading I happened to stumble on the&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://dev.iachieved.it/iachievedit/debian-packages-for-swift-on-arm/&quot;&gt;iacheived.it&lt;/a&gt;&amp;nbsp;site that showed how to install Swift on the BeagleBone Black. I also found the&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/uraimo/SwiftyGPIO&quot;&gt;SwiftyGPIO package&lt;/a&gt;&amp;nbsp;(control the BeagleBone Black GPIO with Swift) that was featured on&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://swiftpkgs.ng.bluemix.net/&quot;&gt;IBM&amp;rsquo;s Swiftpackage library&lt;/a&gt;.&amp;nbsp;&amp;nbsp;So this got me thinking about being able to program our robots with Swift, now that sounds pretty exciting doesn&amp;rsquo;t it?&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;You can read the complete post here: &amp;nbsp;http://myroboticadventure.blogspot.com/2016/04/swift-and-beaglebone-black.html&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;</body>
+    <imagefile>/static/graphics/coolboris.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">4.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>http://myroboticadventure.blogspot.com/2016/04/swift-and-beaglebone-black.html</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <errmsg></errmsg>
+    <shortdesc>Using the Swift programming language on the Beaglebone Black</shortdesc>
+    <user>hoffmanjon.wordpress.com</user>
+  </hopobject>
+</xmlroot>

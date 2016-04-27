@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4191" name="ipv6bluetooth" prototype="Page" created="1461714711601" lastModified="1461714712539">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>IPv6 over Bluetooth on the BeagleBone Black</pname>
+    <registrant>hoffmanjon.wordpress.com</registrant>
+    <uri>ipv6bluetooth</uri>
+    <time type="date">26.04.2016 23:51:51 UTC</time>
+    <updatetime type="date">26.04.2016 23:51:51 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;When we remotely connect to a&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/1SHLMMk&quot;&gt;BeagleBone Black&lt;/a&gt;&amp;nbsp;we generally SSH into them over a WiFi or wired network.&amp;nbsp; There are several drawbacks to using a WiFi or wired network connection with a&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/1SHLMMk&quot;&gt;BeagleBone Black&lt;/a&gt;&amp;nbsp;especially with robotic projects.&amp;nbsp; In this post I will demonstrate how we can use 6LoWPAN over Bluetooth Smart to connect two&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;http://amzn.to/1SHLMMk&quot;&gt;BeagleBone Blacks&lt;/a&gt;&amp;nbsp;together.&amp;nbsp; This will allow us to use standard Internet technologies like SSH or HTTP over a Bluetooth connection.&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;6LoWPAN (IPv6 over Low Power Wireless Networks) for Bluetooth was introduced with the Bluetooth Smart 4.2 specifications.&amp;nbsp;&amp;nbsp;It is defined by&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://tools.ietf.org/html/rfc7668&quot;&gt;RFC7668&lt;/a&gt;. 6LoWPAN is a software specification that will work with most Bluetooth 4.0 adapters therefore we do not need a special Bluetooth 4.2 adapter to use it.&amp;nbsp;&amp;nbsp;We also do not need any additional network infrastructure, beside the Bluetooth adapters, like we do with wired and WiFi networks.&amp;nbsp;&amp;nbsp;Bluetooth smart technologies also use significantly less power as compared to USB WiFi adapters.&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;You can read the complete post here: &amp;nbsp;http://myroboticadventure.blogspot.com/2016/04/ipv6-over-bluetooth-on-beaglebone-black.html&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;</body>
+    <imagefile>/static/graphics/coolboris.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">4.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://myroboticadventure.blogspot.com/2016/04/ipv6-over-bluetooth-on-beaglebone-black.html</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <errmsg></errmsg>
+    <shortdesc>Using IPv6 over a Bluetooth smart connection with the Beaglebone Black</shortdesc>
+    <user>hoffmanjon.wordpress.com</user>
+  </hopobject>
+</xmlroot>
