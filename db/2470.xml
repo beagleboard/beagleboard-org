@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2470" name="Software Support" prototype="Page" created="1366427151677" lastModified="1462201727041">
+  <hopobject id="2470" name="Software Support" prototype="Page" created="1366427151677" lastModified="1462201811935">
   <hop:parent idref="121" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>Software Support</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">02.05.2016 15:08:46 UTC</time>
+    <time type="date">02.05.2016 15:10:11 UTC</time>
     <hopsession>127.0.0.7qc4xufuwahk</hopsession>
     <body>&lt;h1&gt;Software Support&lt;/h1&gt;
 
@@ -90,8 +90,9 @@ BoneScript is a node.js-based language specifically optimized for the Beagle fam
     &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
     
-&lt;h3&gt;Books&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;http://bit.ly/bbb-books&quot; class=&quot;external&quot;&gt;Books&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/cookbook&quot;&gt;BeagleBone Cookbook&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/dp/1627051376/?tag=bloghanerhead-20&quot; Class=&quot;external&quot;&gt;Bad to the Bone&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/dp/1449345379/?tag=bloghanerhead-20&quot; Class=&quot;external&quot;&gt;Getting Started with BeagleBone&lt;/a&gt;&lt;/li&gt; 
 &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/dp/0137017839/?tag=bloghanerhead-20&quot; Class=&quot;external&quot;&gt;Embedded Linux Primer&lt;/a&gt;&lt;/li&gt;
@@ -129,9 +130,9 @@ BoneScript is a node.js-based language specifically optimized for the Beagle fam
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;</body>
     <pseudoparent idref="121" prototyperef="Page"/>
-    <pvcount type="float">85231.0</pvcount>
+    <pvcount type="float">85232.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <http_referer>http://beagleboard.org/Support/Software+Support/edit</http_referer>
+    <http_referer>http://beagleboard.org/support/Software+Support/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
