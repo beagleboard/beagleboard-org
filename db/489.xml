@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="489" name="Beagledroid" prototype="Page" created="1231159737198" lastModified="1462303613752">
+  <hopobject id="489" name="Beagledroid" prototype="Page" created="1231159737198" lastModified="1462333594304">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -19,14 +19,14 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6591.0</pvcount>
+    <pvcount type="float">6597.0</pvcount>
     <prj_status>obsolete</prj_status>
-    <boardtype>bboard;</boardtype>
     <cat_distro>distro</cat_distro>
+    <boardtype>bboard;</boardtype>
     <category>distro;</category>
     <homepage>http://www.nthcode.com/pubs/porting-android-to-a-new-device.html</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/Beagledroid/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
