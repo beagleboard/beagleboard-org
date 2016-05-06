@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3076" name="Bottleing plant" prototype="Page" created="1378827463478" lastModified="1462403682161">
+  <hopobject id="3076" name="Bottleing plant" prototype="Page" created="1378827463478" lastModified="1462487568351">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.09.2013 15:37:43 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>dave@kabbee.com</registrant>
     <pname>Bottle labeller, rinser, filler and capper</pname>
     <user>dave@kabbee.com</user>
-    <pvcount type="float">4185.0</pvcount>
+    <pvcount type="float">4195.0</pvcount>
     <body>&lt;p&gt;Uses the BeagleBone Black as the control system, a domestic 3D printer (the UP! Plus 2), the Micro-rax frame system, stepper motor controllers with stepper motors, solenoids and a small printer to automate the beer bottle filling process for small breweries.&lt;/p&gt;
 &lt;p&gt;Target cost of under $4,000 for parts and labour for the prototype, including all the spares and things that go wrong.&lt;/p&gt;
 &lt;p&gt;This would not be possible without the BeagleBone and it&apos;s huge number of GPIO ports, coupled with simple GPIO software interface.&lt;/p&gt;</body>
