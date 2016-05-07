@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3330" name="beagleSQL" prototype="Page" created="1387798076835" lastModified="1462451265881">
+  <hopobject id="3330" name="beagleSQL" prototype="Page" created="1387798076835" lastModified="1462566894826">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">23.12.2013 11:27:56 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>rajputv.linux@gmail.com</registrant>
     <pname>Table based data storage and retrieval system</pname>
     <user>rajputv.linux@gmail.com</user>
-    <pvcount type="float">4486.0</pvcount>
+    <pvcount type="float">4494.0</pvcount>
     <categories>cape,demo</categories>
     <body>&lt;p&gt;A table(rows/cloumns) based abstraction will be created on the filesystem. An API will be defined and implemented which will permit creation of tables and columns. This API can be used to store various kinds of data like sensor data for light,temparature,parking etc. This data can then be retrieved using extensions to bonescript. For example bonescript will use select,from,where semantics to retrieve the data from BBB. This API will also permit the creation of various metadata for security,pattern matching etc.&lt;/p&gt;</body>
     <errmsg></errmsg>

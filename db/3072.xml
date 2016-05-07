@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3072" name="temperature server" prototype="Page" created="1378565440607" lastModified="1462485426654">
+  <hopobject id="3072" name="temperature server" prototype="Page" created="1378565440607" lastModified="1462566905913">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">07.09.2013 14:50:40 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>larry.pedcardiologist@gmail.com</registrant>
     <pname>temperature server</pname>
     <user>larry.pedcardiologist@gmail.com</user>
-    <pvcount type="float">12359.0</pvcount>
+    <pvcount type="float">12377.0</pvcount>
     <body>&lt;p&gt;One of the problems of Adafruit_BBIO is that you need to be root to use it. Running a server is a non-root user process. By running temperature as a superuser under crontab, saving the result as a text string, then having the server running php can pick up the info and output it to the world.&lt;/p&gt;
 &lt;p&gt;Install ubuntu os. When you plug in BBB to usb, and see mass storage connect window pop up, the start.html file are the instructions for booting ubuntu and other operating systems. Use the &lt;strong&gt;eMMC flasher img&lt;/strong&gt;, don&apos;t use the first one. See&amp;nbsp;&lt;a href=&quot;http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black&quot;&gt;http://elinux.org/BeagleBoardUbuntu#eMMC:_BeagleBone_Black&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Connect using ssh&lt;/p&gt;
