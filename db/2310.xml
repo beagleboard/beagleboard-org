@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2310" name="The Space Station" prototype="Page" created="1355125486646" lastModified="1462566892755">
+  <hopobject id="2310" name="The Space Station" prototype="Page" created="1355125486646" lastModified="1462617055144">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.12.2012 07:44:46 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>djabunai.myopenid.com</registrant>
     <pname>The Space Station</pname>
     <user>djabunai.myopenid.com</user>
-    <pvcount type="float">4007.0</pvcount>
+    <pvcount type="float">4009.0</pvcount>
     <body>The Space Station includes five modular propeller devices, also constructed with K&apos;Nex, that can be strategically placed at any point along the structure&apos;s three main ramps.  The propellers spin every time a ball passes through them on its way down a ramp, and the spinning motion of each propeller is detected by an electronic sensor; sensor output to an Arduino Nano triggers and modulates samples that are played by The Space Station&apos;s onboard BeagleBoard.</body>
     <errmsg></errmsg>
     <homepage></homepage>
