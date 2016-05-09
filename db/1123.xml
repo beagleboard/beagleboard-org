@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1123" name="TiroKart" prototype="Page" created="1276091076968" lastModified="1462653638224">
+  <hopobject id="1123" name="TiroKart" prototype="Page" created="1276091076968" lastModified="1462727551588">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">09.06.2010 13:44:36 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>tirokartchief.myopenid.com</registrant>
     <pname>TiroKart - Total Immersion Remotely Operated Go-Kart</pname>
     <user>tirokartchief.myopenid.com</user>
-    <pvcount type="float">4032.0</pvcount>
+    <pvcount type="float">4036.0</pvcount>
     <body>Is it possible to race vehicles by remote control? This project intends to prove that it is. There are two major parts to this - the remotely operated go-kart and the immersive remote control system. Using an HMD, 3D cameras, stereo audio, head tracking, steering wheel and pedals the aim is provide the &quot;plugged-in&quot; feeling needed to race a vehicle. Telemetry on the go-kart will include IMU data, lidar data and rear view mirror cameras to allow a detailed &quot;virtual dashboard&quot; to be provided to the operator including a real-time track map. Beagleboards will be used as part of the onboard processing system. </body>
     <errmsg></errmsg>
     <homepage>http://tirokartblog.wordpress.com/</homepage>

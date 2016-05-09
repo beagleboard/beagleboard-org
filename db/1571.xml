@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1571" name="Android RIL porting" prototype="Page" created="1310024684056" lastModified="1462566882498">
+  <hopobject id="1571" name="Android RIL porting" prototype="Page" created="1310024684056" lastModified="1462722834144">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>This porting was done in order to show how beagle board can be used as fully functional mobile device. Android RIL was adjusted to support all major functionality such as Voice call, SMS, MMS, Internet. We did used ordinary mobile phone as modem, connected via USB through standard Linux CDC/ACM drivers.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4525.0</pvcount>
+    <pvcount type="float">4529.0</pvcount>
     <homepage>https://gitorious.org/android-ril-porting-on-sonyericsson-c510i</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
