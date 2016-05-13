@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2989" name="blog-drafts" prototype="Page" created="1375367500275" lastModified="1462329874827">
+  <hopobject id="2989" name="blog-drafts" prototype="Page" created="1375367500275" lastModified="1463078159826">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -54,13 +54,13 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <list_children>true</list_children>
-    <pvcount type="float">143.0</pvcount>
+    <pvcount type="float">144.0</pvcount>
     <render_skin>blog</render_skin>
     <edit_skin>edit_blog</edit_skin>
     <http_referer>http://beagleboard.org/blog-drafts/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="2990" prototyperef="Page"/>
     <hop:child idref="3024" prototyperef="Page"/>
     <hop:child idref="3028" prototyperef="Page"/>
