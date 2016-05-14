@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="530" name="beagleepd" prototype="Page" created="1234567888861" lastModified="1463035611290">
+  <hopobject id="530" name="beagleepd" prototype="Page" created="1234567888861" lastModified="1463171799152">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -22,13 +22,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed>http://highlycomposite2.blogspot.com/search/label/beagleepd</rssfeed>
-    <pvcount type="float">6560.0</pvcount>
+    <pvcount type="float">6566.0</pvcount>
     <prj_status>complete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;demo;</category>
     <homepage>http://elinux.org/BeagleEPD</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/beagleepd/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
