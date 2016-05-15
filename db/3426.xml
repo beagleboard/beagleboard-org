@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3426" name="HelloBone" prototype="Page" created="1391328326559" lastModified="1463269588379">
+  <hopobject id="3426" name="HelloBone" prototype="Page" created="1391328326559" lastModified="1463343525675">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">23.02.2014 15:00:21 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jokubokla@gmail.com</registrant>
     <pname>C/C++ cross development for BeagleBone in Windows</pname>
     <user>jokubokla@gmail.com</user>
-    <pvcount type="float">52668.0</pvcount>
+    <pvcount type="float">52716.0</pvcount>
     <categories>documentation</categories>
     <body>&lt;p&gt;This article explains in detail how to set up a C/C++ Toolchain with a gcc &lt;strong&gt;Cross Compiler&lt;/strong&gt; from linaro.org and the Eclipse IDE in Windows 7 and shows how both are used with a BeagleBone board. It&apos;s explained how to Cross Compile, Remote Deploy and Remote Debug (with gdb) a simple &quot;Hello world&quot; example project.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;It&apos;s a &lt;strong&gt;step-by-step instruction&lt;/strong&gt; made for people who know C programming in general but aren&apos;t very familiar with Cross Compilers and like to stay &lt;strong&gt;in the Windows environment&lt;/strong&gt; instead of changing to Linux.&lt;/span&gt;&lt;/p&gt;</body>

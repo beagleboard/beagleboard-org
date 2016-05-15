@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="222" name="media" prototype="Page" created="1215613378009" lastModified="1463268584550">
+  <hopobject id="222" name="media" prototype="Page" created="1215613378009" lastModified="1463350146351">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>media</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">02.12.2015 12:56:52 UTC</time>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.vdxau14uvjbj</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">7255.0</pvcount>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>media</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
+    <time type="date">15.05.2016 22:09:06 UTC</time>
+    <hopsession>127.0.0.1oj1fxq6c1u4t</hopsession>
     <body>&lt;h1&gt;BeagleBoard.org Digital Media&lt;/h1&gt;
  &lt;p&gt;This page is full of media such as 
 
@@ -78,7 +77,8 @@ that will give you an idea what the Beagle platform can do. Much of this informa
 &lt;h2&gt;
   &lt;a name=&quot;logos&quot;&gt;Logos&lt;/a&gt;
  &lt;/h2&gt;
-
+&lt;a href=&quot;/static/images/beagle_logo_full_dog_with_tm.jpeg&quot;&gt;&lt;img src=&quot;/static/images/beagle_logo_full_dog_with_tm.jpeg&quot;/&gt;&lt;/a&gt;
+&lt;!--
 &lt;a href=&quot;/static/uploads/beagleboard_logo.jpg.png&quot;&gt;&lt;img src=&quot;/static/graphics/beaglelogo.png&quot;/&gt;&lt;/a&gt;
 
  &lt;br/&gt;
@@ -100,7 +100,7 @@ that will give you an idea what the Beagle platform can do. Much of this informa
 &lt;br/&gt;
 &lt;a href=&quot;/static/uploads/Boris_Birthday.png&quot;&gt;&lt;img src=&quot;/static/uploads/Boris_Birthday.png&quot; width=&quot;225&quot; height=&quot;350&quot;/&gt; &lt;/a&gt;
 &lt;a href=&quot;/static/uploads/Boris_Holiday.png&quot;&gt;&lt;img src=&quot;/static/uploads/Boris_Holiday.png&quot; width=&quot;325&quot; height=&quot;400&quot;/&gt;&lt;/a&gt;
-
+--&gt;
 &lt;br/&gt;
 &lt;br/&gt;
 
@@ -209,10 +209,11 @@ that will give you an idea what the Beagle platform can do. Much of this informa
 &lt;a href=&quot;/static/uploads/SitaraAM335xARM_jpg.jpg&quot;&gt;&lt;img src=&quot;/static/uploads/SitaraAM335xARM_jpg.jpg&quot; width =&quot;250&quot; height=&quot;250&quot;/&gt;&lt;/a&gt;
 
 &lt;br/&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <beagleirclog>000000</beagleirclog>
+    <pvcount type="float">7271.0</pvcount>
     <http_referer>http://beagleboard.org/media/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="303" prototyperef="Page"/>
     <hop:child idref="2458" prototyperef="Page"/>
   </hopobject>

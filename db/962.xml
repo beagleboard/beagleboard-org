@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="962" name="BeagleImager" prototype="Page" created="1265935712410" lastModified="1463248207061">
+  <hopobject id="962" name="BeagleImager" prototype="Page" created="1265935712410" lastModified="1463332370431">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">12.02.2010 00:48:32 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>steveberry.myopenid.com</registrant>
     <pname>CMOS 5 mpix sensor </pname>
     <user>steveberry.myopenid.com</user>
-    <pvcount type="float">4124.0</pvcount>
+    <pvcount type="float">4130.0</pvcount>
     <body>Using an existing Micron MT9P001 color CMOS sensor I intend on integrating it to a Beagle Board, write a new device driver, capture various resolutions from the sensor and store them as JPEG images. For extra credit I may do video captures. </body>
     <errmsg></errmsg>
     <homepage>gravityperformance.net/beagleboard</homepage>
