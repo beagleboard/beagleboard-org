@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3324" name="HomeEnergy" prototype="Page" created="1387549507128" lastModified="1463422957701">
+  <hopobject id="3324" name="HomeEnergy" prototype="Page" created="1387549507128" lastModified="1463453859785">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">20.12.2013 14:25:07 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>moa47401@gmail.com</registrant>
     <pname>Home Energy Monitor</pname>
     <user>moa47401@gmail.com</user>
-    <pvcount type="float">7183.0</pvcount>
+    <pvcount type="float">7191.0</pvcount>
     <categories></categories>
     <body>&lt;p&gt;Over the past 10 years I&apos;ve used various micro-controllers and devices to monitor and control my home heating and cooling system, water heater, sump pump, humidifier, AC power, lights, as well as a custom security system. After downsizing and moving into a condo a couple years ago, I also downsized my system toys, much to my wife&apos;s relief. But I am currently using a BeagleBoardXM to monitor our gas furnace and relevant weather datapoints. I thought I would share some of this project with anyone who might be interested.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
