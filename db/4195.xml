@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4195" name="Page" prototype="Page" created="1463520815894" lastModified="1463520816469">
+  <hopobject id="4195" name="Page" prototype="Page" created="1463520815894" lastModified="1463521139664">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>trademark</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">17.05.2016 21:33:35 UTC</time>
+    <time type="date">17.05.2016 21:38:59 UTC</time>
     <hopsession>127.0.0.172.19.131.17hju7e3f0vh2</hopsession>
-    <body>
-&lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot;
+    <body>&lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot;
 xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot;
 xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot;
 xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot;
@@ -23,9 +22,9 @@ xmlns:mv=&quot;http://macVmlSchemaUri&quot; xmlns=&quot;http://www.w3.org/TR/REC
 &lt;meta name=ProgId content=Word.Document&gt;
 &lt;meta name=Generator content=&quot;Microsoft Word 14&quot;&gt;
 &lt;meta name=Originator content=&quot;Microsoft Word 14&quot;&gt;
-&lt;link rel=File-List href=&quot;Trademark%20usage%20guidelines_files/filelist.xml&quot;&gt;
-&lt;link rel=Edit-Time-Data href=&quot;Trademark%20usage%20guidelines_files/editdata.mso&quot;&gt;
-&lt;link rel=OLE-Object-Data href=&quot;Trademark%20usage%20guidelines_files/oledata.mso&quot;&gt;
+&lt;link rel=File-List href=&quot;/static/tm/filelist.xml&quot;&gt;
+&lt;link rel=Edit-Time-Data href=&quot;/static/tm/editdata.mso&quot;&gt;
+&lt;link rel=OLE-Object-Data href=&quot;/static/tm/oledata.mso&quot;&gt;
 &lt;!--[if !mso]&gt;
 &lt;style&gt;
 v\:* {behavior:url(#default#VML);}
@@ -54,7 +53,7 @@ w\:* {behavior:url(#default#VML);}
   &lt;o:AllowPNG/&gt;
  &lt;/o:OfficeDocumentSettings&gt;
 &lt;/xml&gt;&lt;![endif]--&gt;
-&lt;link rel=themeData href=&quot;Trademark%20usage%20guidelines_files/themedata.xml&quot;&gt;
+&lt;link rel=themeData href=&quot;/static/tm/themedata.xml&quot;&gt;
 &lt;!--[if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:WordDocument&gt;
   &lt;w:DontDisplayPageBoundaries/&gt;
@@ -83,7 +82,7 @@ w\:* {behavior:url(#default#VML);}
   &lt;m:mathPr&gt;
    &lt;m:mathFont m:val=&quot;Cambria Math&quot;/&gt;
    &lt;m:brkBin m:val=&quot;before&quot;/&gt;
-   &lt;m:brkBinSub m:val=&quot;&amp;#45;-&quot;/&gt;
+   &lt;m:brkBinSub m:val=&quot;--&quot;/&gt;
    &lt;m:smallFrac m:val=&quot;off&quot;/&gt;
    &lt;m:dispDef/&gt;
    &lt;m:lMargin m:val=&quot;0&quot;/&gt;
@@ -735,16 +734,16 @@ span.BalloonTextChar
 	line-height:107%;}
  /* Page Definitions */
 @page
-	{mso-footnote-separator:url(&quot;:Trademark usage guidelines_files:header.htm&quot;) fs;
-	mso-footnote-continuation-separator:url(&quot;:Trademark usage guidelines_files:header.htm&quot;) fcs;
-	mso-endnote-separator:url(&quot;:Trademark usage guidelines_files:header.htm&quot;) es;
-	mso-endnote-continuation-separator:url(&quot;:Trademark usage guidelines_files:header.htm&quot;) ecs;}
+	{mso-footnote-separator:url(&quot;:static:tm:header.htm&quot;) fs;
+	mso-footnote-continuation-separator:url(&quot;:static:tm:header.htm&quot;) fcs;
+	mso-endnote-separator:url(&quot;:static:tm:header.htm&quot;) es;
+	mso-endnote-continuation-separator:url(&quot;:static:tm:header.htm&quot;) ecs;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
 	mso-header-margin:.5in;
 	mso-footer-margin:.5in;
-	mso-footer:url(&quot;:Trademark usage guidelines_files:header.htm&quot;) f1;
+	mso-footer:url(&quot;:static:tm:header.htm&quot;) f1;
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
@@ -882,12 +881,12 @@ table.MsoTableGrid
 
 &lt;div class=WordSection1&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal align=center style=&apos;text-align:center&apos;&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;u&gt;BeagleBoard.org Trademark Usage Guidelines&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal&gt;The BeagleBoard.org Foundation is dedicated to providing
 education in and promotion of the design and use of open-source software and
@@ -895,7 +894,7 @@ hardware in embedded computing. As part of this, we provide open-source
 software (e.g., firmware and/or operating system source code) and open-source
 hardware designs (e.g., schematics and PCB layouts) for our devices. &lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal&gt;The BeagleBoard.org Foundation owns each of the trademarks
 shown below (the “Trademarks”). A license from the BeagleBoard.org Foundation
@@ -904,12 +903,12 @@ requirements are discussed in detail below. Please contact Christine Long (&lt;a
 href=&quot;mailto:christi@beagleboard.org&quot;&gt;christi@beagleboard.org&lt;/a&gt;) with any
 questions regarding these trademarks. &lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal align=center style=&apos;text-align:center&apos;&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style=&apos;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
@@ -940,12 +939,12 @@ normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&g
    &lt;o:lock v:ext=&quot;edit&quot; aspectratio=&quot;t&quot;/&gt;
   &lt;/v:shapetype&gt;&lt;v:shape id=&quot;Picture_x0020_4&quot; o:spid=&quot;_x0000_i1028&quot; type=&quot;#_x0000_t75&quot;
    style=&apos;width:309pt;height:65pt;visibility:visible;mso-wrap-style:square&apos;&gt;
-   &lt;v:imagedata src=&quot;Trademark%20usage%20guidelines_files/image001.png&quot;
+   &lt;v:imagedata src=&quot;/static/tm/image001.png&quot;
     o:title=&quot;&quot;/&gt;
   &lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img border=0 width=311 height=67
-  src=&quot;Trademark%20usage%20guidelines_files/image002.png&quot; v:shapes=&quot;Picture_x0020_4&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  src=&quot;/static/tm/image002.png&quot; v:shapes=&quot;Picture_x0020_4&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:1&apos;&gt;
@@ -956,11 +955,11 @@ normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&g
   &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-no-proof:yes&apos;&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shape
    id=&quot;Picture_x0020_5&quot; o:spid=&quot;_x0000_i1027&quot; type=&quot;#_x0000_t75&quot; style=&apos;width:111pt;
    height:138pt;visibility:visible;mso-wrap-style:square&apos;&gt;
-   &lt;v:imagedata src=&quot;Trademark%20usage%20guidelines_files/image003.png&quot;
+   &lt;v:imagedata src=&quot;/static/tm/image003.png&quot;
     o:title=&quot;&quot;/&gt;
   &lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img border=0 width=113 height=140
-  src=&quot;Trademark%20usage%20guidelines_files/image004.png&quot; v:shapes=&quot;Picture_x0020_5&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  src=&quot;/static/tm/image004.png&quot; v:shapes=&quot;Picture_x0020_5&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:2&apos;&gt;
@@ -971,10 +970,10 @@ normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&g
   &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-no-proof:yes&apos;&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shape
    id=&quot;Picture_x0020_6&quot; o:spid=&quot;_x0000_i1026&quot; type=&quot;#_x0000_t75&quot; style=&apos;width:107pt;
    height:130pt;visibility:visible;mso-wrap-style:square&apos;&gt;
-   &lt;v:imagedata src=&quot;Trademark%20usage%20guidelines_files/image005.png&quot;
+   &lt;v:imagedata src=&quot;/static/tm/image005.png&quot;
     o:title=&quot;&quot;/&gt;
   &lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img border=0 width=109 height=132
-  src=&quot;Trademark%20usage%20guidelines_files/image006.png&quot; v:shapes=&quot;Picture_x0020_6&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
+  src=&quot;/static/tm/image006.png&quot; v:shapes=&quot;Picture_x0020_6&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:3&apos;&gt;
@@ -982,18 +981,18 @@ normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&g
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0in 5.4pt 0in 5.4pt&apos;&gt;
   &lt;p class=MsoNormal&gt;The “BeableBoard.org Approved” logo:&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shape id=&quot;_x0000_i1025&quot; type=&quot;#_x0000_t75&quot;
    style=&apos;width:301pt;height:101pt&apos; o:ole=&quot;&quot;&gt;
-   &lt;v:imagedata src=&quot;Trademark%20usage%20guidelines_files/image007.png&quot;
+   &lt;v:imagedata src=&quot;/static/tm/image007.png&quot;
     o:title=&quot;&quot;/&gt;
   &lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img border=0 width=303 height=103
-  src=&quot;Trademark%20usage%20guidelines_files/image008.png&quot; v:shapes=&quot;_x0000_i1025&quot;&gt;&lt;![endif]&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+  src=&quot;/static/tm/image008.png&quot; v:shapes=&quot;_x0000_i1025&quot;&gt;&lt;![endif]&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
    &lt;o:OLEObject Type=&quot;Embed&quot; ProgID=&quot;PBrush&quot; ShapeID=&quot;_x0000_i1025&quot;
     DrawAspect=&quot;Content&quot; ObjectID=&quot;_1398867694&quot;&gt;
    &lt;/o:OLEObject&gt;
   &lt;/xml&gt;&lt;![endif]--&gt;&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:4&apos;&gt;
@@ -1019,21 +1018,21 @@ normal&apos;&gt;&lt;u&gt;The Trademarks&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&g
  &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal align=center style=&apos;text-align:center&apos;&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;u&gt;Usage Restrictions&lt;o:p&gt;&lt;/o:p&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal&gt;Third party use of the Trademarks is only permitted as
 indicated below. You may not use any of these trademarks without written
 approval from the BeagleBoard.org Foundation.&lt;span
-style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
+style=&quot;mso-spacerun:yes&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
  style=&apos;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in&apos;&gt;
@@ -1054,7 +1053,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt&apos;&gt;
   &lt;p class=MsoNormal&gt;“BeagleBoard.org” (logo)&lt;/p&gt;
   &lt;p class=MsoNormal&gt;“BeagleBoard.org” (text)&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width=315 valign=top style=&apos;width:315.05pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1063,7 +1062,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBoard.org, such as the BeagleBoard and BeagleBone product families. Use
   of these trademarks is reserved for a select group of products and
   contractual partners of BeagleBoard.org.&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:2;page-break-inside:avoid&apos;&gt;
@@ -1078,7 +1077,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBoard.org. Use of this trademark is reserved for a select group of
   contractual partners of BeagleBoard.org that manufacture/distribute the
   BeagleBoard line of products.&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:3;page-break-inside:avoid&apos;&gt;
@@ -1093,14 +1092,14 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBoard.org. Use of this trademark is reserved for a select group of
   contractual partners of BeagleBoard.org that manufacture/distribute the
   BeagleBone line of products.&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:4;page-break-inside:avoid&apos;&gt;
   &lt;td width=152 valign=top style=&apos;width:151.95pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt&apos;&gt;
   &lt;p class=MsoNormal&gt;“BeagleBoard Compliant” logo&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width=315 valign=top style=&apos;width:315.05pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1111,7 +1110,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBone product families). The product upon which a “BeagleBoard
   Compliant” circuit board is based will be referred to as the “product of
   origin” below. &lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;For a circuit board to be eligible for a license for this
   trademark, the following requirements must be fulfilled:&lt;/p&gt;
   &lt;p class=MsoNormal&gt;- the circuit board is identical in technical design and
@@ -1132,14 +1131,14 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;- you agree that the “BeagleBoard Compliant” logo will not
   be separately used with any peripherals without the express approval of the
   BeagleBoard.org Foundation. &lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;i&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/i&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;i&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/i&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:5;page-break-inside:avoid&apos;&gt;
   &lt;td width=152 valign=top style=&apos;width:151.95pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt&apos;&gt;
   &lt;p class=MsoNormal&gt;“BeagleBoard Compatible” (logo)&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width=315 valign=top style=&apos;width:315.05pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1149,7 +1148,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBoard.org (e.g., a product from the BeagleBoard or BeagleBone product
   families). The product upon which a “BeagleBoard Compatible” circuit board is
   based will be referred to as a “product of origin” below.&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;For a circuit board to be eligible for a license for this
   trademark, the following requirements must be fulfilled:&lt;/p&gt;
   &lt;p class=MsoNormal&gt;- the circuit board is manufactured from a modified
@@ -1170,14 +1169,14 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;- you agree that the “BeagleBoard Compatible” logo will
   not be separately used with any peripherals without the express approval of
   the BeagleBoard.org Foundation. &lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:6;page-break-inside:avoid&apos;&gt;
   &lt;td width=152 valign=top style=&apos;width:151.95pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt&apos;&gt;
   &lt;p class=MsoNormal&gt;“BeagleBoard.org Approved” (logo)&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width=315 valign=top style=&apos;width:315.05pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -1187,7 +1186,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   product families). The official BeagleBoard.org product with which a
   “BeagleBoard Approved” peripheral device is intended to be used will be
   referred to as an “accessorized product” below.&lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;p class=MsoNormal&gt;For a peripheral device to be eligible for a license for
   this trademark, the following requirements must be fulfilled:&lt;/p&gt;
   &lt;p class=MsoNormal&gt;- the peripheral device &lt;a style=&apos;mso-comment-reference:
@@ -1197,7 +1196,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   id=&quot;_anchor_1&quot; onmouseover=&quot;msoCommentShow(&apos;_anchor_1&apos;,&apos;_com_1&apos;)&quot;
   onmouseout=&quot;msoCommentHide(&apos;_com_1&apos;)&quot; href=&quot;#_msocom_1&quot; language=JavaScript
   name=&quot;_msoanchor_1&quot;&gt;[BTC1]&lt;/a&gt;&lt;![endif]&gt;&lt;span style=&apos;mso-special-character:
-  comment&apos;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;; &lt;/p&gt;
+  comment&apos;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;; &lt;/p&gt;
   &lt;p class=MsoNormal&gt;- the peripheral device has been tested by the
   BeagleBoard.org Foundation (or its designated representative(s)) for use with
   the accessorized product and has passed the testing; &lt;/p&gt;
@@ -1205,7 +1204,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   BeagleBoard.org foundation (or its designated representative(s)) to provide a
   satisfactory “out-of-box” experience for users for use with the accessorized
   product; &lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;- all source
+  &lt;p class=MsoNormal&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt; &lt;/span&gt;- all source
   code and/or hardware design for the peripheral device must be released using
   one or more open source licenses approved by the BeagleBoard.org Foundation;
   and&lt;/p&gt;
@@ -1213,7 +1212,7 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   future revised version of the peripheral device must be approved by
   BeagleBoard.org before the “BeagleBoard.org Approved” logo may be used in
   connection with the revised version. &lt;/p&gt;
-  &lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+  &lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr style=&apos;mso-yfti-irow:7;mso-yfti-lastrow:yes;page-break-inside:avoid&apos;&gt;
@@ -1229,14 +1228,14 @@ style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
   is based on an official product. Use of this trademark is reserved for a
   select group of contractual partners of BeagleBoard.org. &lt;/p&gt;
   &lt;p class=MsoNormal&gt;&lt;span style=&apos;color:red&apos;&gt;&lt;span
-  style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  style=&quot;mso-spacerun:yes&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1254,10 +1253,10 @@ onmouseout=&quot;msoCommentHide(&apos;_com_1&apos;)&quot;&gt;&lt;![endif]&gt;&lt
 &quot;Bradley\, Timothy C\.&quot;&apos;&gt;&lt;![if !supportAnnotations]&gt;&lt;a name=&quot;_msocom_1&quot;&gt;&lt;/a&gt;&lt;![endif]&gt;&lt;/span&gt;
 
 &lt;p class=MsoCommentText&gt;&lt;span class=MsoCommentReference&gt;&lt;span style=&apos;font-size:
-8.0pt&apos;&gt;&lt;span style=&apos;mso-special-character:comment&apos;&gt;&amp;nbsp;&lt;![if !supportAnnotations]&gt;&lt;a
+8.0pt&apos;&gt;&lt;span style=&apos;mso-special-character:comment&apos;&gt; &lt;![if !supportAnnotations]&gt;&lt;a
 href=&quot;#_msoanchor_1&quot; class=msocomoff&gt;[BTC1]&lt;/a&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span
-style=&apos;mso-no-proof:yes&apos;&gt;What do we Are these &amp;quot;design guidelines&amp;quot; the
-same as the &amp;quot;open source hardware designs&amp;quot; that I introduced in the
+style=&apos;mso-no-proof:yes&apos;&gt;What do we Are these &quot;design guidelines&quot; the
+same as the &quot;open source hardware designs&quot; that I introduced in the
 first paragraph or something different?&lt;/span&gt;&lt;/p&gt;
 
 &lt;![if !supportAnnotations]&gt;&lt;/div&gt;
@@ -1271,7 +1270,7 @@ first paragraph or something different?&lt;/span&gt;&lt;/p&gt;
 &lt;/html&gt;
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">1.0</pvcount>
+    <pvcount type="float">3.0</pvcount>
     <http_referer>http://beagleboard.org/trademark/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
