@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1463459302031">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1463459373903">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">17.05.2016 04:28:22 UTC</time>
+    <time type="date">17.05.2016 04:29:33 UTC</time>
     <hopsession>127.0.0.1oj1fxq6c1u4t</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -85,7 +85,9 @@
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;p&gt;To turn these images into eMMC flasher images, edit the /boot/uEnv.txt file on the Linux partition on the microSD card and remove the &apos;#&apos; on the line with &apos;cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh&apos;. Enabling this will cause booting the microSD card to flash the eMMC. Images are no longer provided here for this to avoid people accidentally overwriting their eMMC flash.&lt;/p&gt;
-&lt;p&gt;For testing, flasher and other Debian images, see &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For testing, flasher and other Debian images, see &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&lt;/a&gt; and
+    &lt;a href=&quot;https://debian.beagleboard.org/images&quot;&gt;debian.beagleboard.org/imges&lt;/a&gt;.
+&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 style=&quot;color:black;&quot;&gt;Older Debian images&lt;/h2&gt;
 &lt;h3&gt;BeagleBone compatibles via microSD card (without flashing the eMMC)&lt;/h3&gt;
@@ -225,7 +227,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">582282.0</pvcount>
+    <pvcount type="float">582284.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
