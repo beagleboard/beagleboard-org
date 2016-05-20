@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2138" name="elinux-tcl" prototype="Page" created="1349716362600" lastModified="1463604511284">
+  <hopobject id="2138" name="elinux-tcl" prototype="Page" created="1349716362600" lastModified="1463700235575">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">08.10.2012 17:12:42 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>https://me.yahoo.com/a/0hkvtayz2fvan8bgn6c3uedzy0s-#2ef0d</registrant>
     <pname>Embedded Linux Library for Total Control Lighting</pname>
     <user>https://me.yahoo.com/a/0hkvtayz2fvan8bgn6c3uedzy0s-#2ef0d</user>
-    <pvcount type="float">4647.0</pvcount>
+    <pvcount type="float">4655.0</pvcount>
     <body>This C library comes with example code for driving coolneon.com&apos;s Total Control Lighting. A fully programmable 3-color LED system based on the p9813 chip. The strands are run through an SPI compatible protocol. The library requires that the kernel be compiled for user space SPI using the spidev kernel module. </body>
     <errmsg></errmsg>
     <homepage>https://bitbucket.org/devries/elinux-tcl</homepage>
