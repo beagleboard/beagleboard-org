@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2345" name="SecureHome" prototype="Page" created="1356628098579" lastModified="1463786863600">
+  <hopobject id="2345" name="SecureHome" prototype="Page" created="1356628098579" lastModified="1463792892509">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -22,10 +22,10 @@ Provides live video feed and motion detection.
 </body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6960.0</pvcount>
+    <pvcount type="float">6962.0</pvcount>
     <homepage>http://cyrilgp.wordpress.com/2012/12/28/beaglebone-securehome/</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/SecureHome/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
