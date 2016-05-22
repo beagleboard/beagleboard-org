@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="550" name="maemo" prototype="Page" created="1236054113077" lastModified="1463825157576">
+  <hopobject id="550" name="maemo" prototype="Page" created="1236054113077" lastModified="1463864398440">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -20,14 +20,14 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>https://garage.maemo.org/export/rss_sfnews.php?group_id=880</rssfeed>
-    <pvcount type="float">5612.0</pvcount>
+    <pvcount type="float">5614.0</pvcount>
     <prj_status>complete</prj_status>
-    <boardtype>bbxm;bboard;</boardtype>
     <cat_distro>distro</cat_distro>
+    <boardtype>bbxm;bboard;</boardtype>
     <category>distro;</category>
     <homepage>https://garage.maemo.org/projects/maemo-beagle/</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/maemo/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
