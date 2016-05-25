@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1464180087108">
+  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1464180127831">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>green-wireless</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">25.05.2016 12:41:27 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>green-wireless</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
+    <time type="date">25.05.2016 12:42:07 UTC</time>
     <hopsession>127.0.0.4jloi154i5r5</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">55.0</pvcount>
     <body>&lt;h1&gt;SeeedStudio BeagleBone Green Wireless&lt;/h1&gt;
 
 
@@ -190,22 +186,22 @@ $(document).ready(function(){
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c4-prod-details&quot;&gt;
 &lt;h2&gt;&lt;a href=&quot;/project&quot;&gt;SeeedStudio BeagleBone Green Wireless Projects&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1570&quot;&gt;The first sight of SeeedStudio BeagleBone Green Wireless&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1570&quot;&gt;The first sight of SeeedStudio BeagleBone Green Wireless&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Learn about the specs and getting started using PuTTY.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1571&quot;&gt;Configure WiFi Using Smartphone&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1571&quot;&gt;Configure WiFi Using Smartphone&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Use your Android phone to connect SeeedStudio BeagleBone Green Wireless to your existing home WiFi.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1572&quot;&gt;UV Intensity Detection System&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1572&quot;&gt;UV Intensity Detection System&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Utilize Python and Dweet.io to publish UV intensity data.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1592&quot;&gt;Pin mapping to MRAA&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1592&quot;&gt;Pin mapping to MRAA&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Utilize MRAA Python library to access SeeedStudio BeagleBone Green Wireless&apos;s GPIO, I2C, analog input, PWM and UART features.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://cc.seeed.cc/project_detail.html?id=1591&quot;&gt;Connect to your Bluetooth headset&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://cc.seeed.cc/project_detail.html?id=1591&quot;&gt;Connect to your Bluetooth headset&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Connect to an A2DP device using the &apos;bluetoothctl&apos; command-line tool.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1580&quot;&gt;Configure Bluetooth via Web&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeed.cc/project_detail.html?id=1580&quot;&gt;Configure Bluetooth via Web&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
     Launch a Python service to connect to Bluetooth devices.
 &lt;/p&gt;
 &lt;a href=&quot;/project&quot;&gt;See More Projects&lt;/a&gt; »
@@ -306,7 +302,11 @@ Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green_wir
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">57.0</pvcount>
     <http_referer>http://beagleboard.org/green-wireless/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
