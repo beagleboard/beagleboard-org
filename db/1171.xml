@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1171" name="sniffer-beagle" prototype="Page" created="1279614591823" lastModified="1464384035360">
+  <hopobject id="1171" name="sniffer-beagle" prototype="Page" created="1279614591823" lastModified="1464508259480">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>Sniffer-beagle will be a robot which will able to find out direction of gas (A perticular gas for it is being trained).It will follow the direction of gas and try to figure out source of gas.If the gas is &quot;Hazardous&quot; it will blow a alarm.A camera attached to this will be able to show current view. With the help of beagle board based robotic gas sensing and data aquisition system capture data can be transmitted over WLAN.This kind of robot is best for chemical plant or petrochemical plant.Till now as per my studies manualy every corner is check.this kind robot will help in that case.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4422.0</pvcount>
+    <pvcount type="float">4424.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
