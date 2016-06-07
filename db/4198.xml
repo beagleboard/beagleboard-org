@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1465320381118">
+  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1465321085532">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>green-wireless</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.05.2016 18:53:04 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.4jloi154i5r5</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">3167.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>green-wireless</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
+    <time type="date">07.06.2016 17:38:05 UTC</time>
+    <hopsession>127.0.0.duc4hwl0as8r</hopsession>
     <body>&lt;h1&gt;SeeedStudio BeagleBone Green Wireless&lt;/h1&gt;
 
 
@@ -290,12 +286,15 @@ Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green_wir
    &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;h2&gt;Videos &lt;/h2&gt;
 &lt;div id=&quot;t2-video-1&quot;&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/fxHyAgybbZs&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;Learn about BeagleBone Green&lt;/h3&gt;
-&lt;p&gt;Learn about SeeedStudio BeagleBone Green from Jason Kridner, co-founder of BeagleBoard.org.&lt;br /&gt;&lt;b&gt;Note:&lt;/b&gt; The RTC battery was removed from the final design.&lt;/p&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/TBD&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;TBD&lt;/h3&gt;
+&lt;p&gt;TBD&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-video-2&quot;&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/HDsPV6y8QbA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;Intelligent Alarm System&lt;/h3&gt;
-&lt;p&gt;A simple demo to create an intelligent alarm system out of a SeeedStudio BeagleBone Green and Grove modules.&lt;/p&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/5oh4NQDrPY4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;Home Control Center&lt;/h3&gt;
+&lt;p&gt;A web accessible demo with a Grove air quality sensor, a Grove temperature sensor and a Grove relay to control your table lamp or something else.
+&lt;br /&gt;
+    &lt;a href=&quot;http://seeed.cc/project_detail.html?id=1596&quot;&gt;Read more...&lt;/a&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
 
@@ -306,7 +305,11 @@ Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green_wir
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>https://beagleboard.org/green-wireless/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">3172.0</pvcount>
+    <http_referer>http://beagleboard.org/green-wireless/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
