@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3415" name="BBB_HS_USB" prototype="Page" created="1390953475762" lastModified="1465296424063">
+  <hopobject id="3415" name="BBB_HS_USB" prototype="Page" created="1390953475762" lastModified="1465396993215">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">28.01.2014 23:57:55 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>mmsn.myopenid.com</registrant>
     <pname>HS USB on Beaglebone Black</pname>
     <user>mmsn.myopenid.com</user>
-    <pvcount type="float">5198.0</pvcount>
+    <pvcount type="float">5204.0</pvcount>
     <categories></categories>
     <body>&lt;p&gt;The maximum speed I reached till now (in Angstrom)is about 8 MB/s but it&apos;s too slow . In my project I need at least 25 MB/s that is near half that can be achieved ideally.I use HS USB Flash that tested for such speeds.&lt;/p&gt;</body>
     <errmsg></errmsg>

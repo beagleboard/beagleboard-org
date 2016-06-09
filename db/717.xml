@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="717" name="Gnome" prototype="Page" created="1249398256596" lastModified="1465331942130">
+  <hopobject id="717" name="Gnome" prototype="Page" created="1249398256596" lastModified="1465404324984">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">04.08.2009 15:04:16 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>sakoman.myopenid.com</registrant>
     <pname>Gnome for OMAP3</pname>
     <user>sakoman.myopenid.com</user>
-    <pvcount type="float">4579.0</pvcount>
+    <pvcount type="float">4589.0</pvcount>
     <body>This project supplies a complete set of images (MLO, u-boot, uImage, rootfs) for running Gnome (currently beta 2.27).
 
 It is too large for onboard NAND, you will need a 4GB or larger SD/microSD card for a satisfactory experience.
