@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2636" name="rma" prototype="Page" created="1368648076340" lastModified="1465500842186">
+  <hopobject id="2636" name="rma" prototype="Page" created="1368648076340" lastModified="1465500940932">
   <hop:parent idref="121" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -130,10 +130,11 @@
     });
 &lt;/script&gt; </body>
     <pseudoparent idref="121" prototyperef="Page"/>
-    <pvcount type="float">14330.0</pvcount>
+    <pvcount type="float">14331.0</pvcount>
     <http_referer>http://beagleboard.org/support/rma/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
+    <hop:child idref="4201" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
