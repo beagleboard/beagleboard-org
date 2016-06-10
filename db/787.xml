@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="787" name="beaglevision" prototype="Page" created="1252945635682" lastModified="1465472146801">
+  <hopobject id="787" name="beaglevision" prototype="Page" created="1252945635682" lastModified="1465509387060">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">14.09.2009 16:27:15 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>heshamebrahimi.myopenid.com</registrant>
     <pname>BeagleVision</pname>
     <user>heshamebrahimi.myopenid.com</user>
-    <pvcount type="float">4050.0</pvcount>
+    <pvcount type="float">4054.0</pvcount>
     <body>BeagleVision will be a fast object recognition framework. The aim of the project is to have a hardware optimized implementation (utilising the DSP and NEON) of state-of-the-art local feature detectors and descriptors on the Beagle Board. BeagleVision will include our recent work on efficient feature detectors and descriptors, other well-known algorithms (e.g. FAST corner detector and SURF), and efficient matching algorithms for very large datasets (&gt;1M images). </body>
     <errmsg></errmsg>
     <homepage>http://code.google.com/p/beaglevision/</homepage>

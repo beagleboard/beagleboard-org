@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1481" name="lowcost-robot" prototype="Page" created="1303683729791" lastModified="1465472100086">
+  <hopobject id="1481" name="lowcost-robot" prototype="Page" created="1303683729791" lastModified="1465501673554">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>create a low cost robot with many features like real time 3D vision, motion, speech, sound recognition</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4123.0</pvcount>
+    <pvcount type="float">4125.0</pvcount>
     <homepage>lowcost-robot.org</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
