@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1009" name="AGV" prototype="Page" created="1269449499201" lastModified="1466103402910">
+  <hopobject id="1009" name="AGV" prototype="Page" created="1269449499201" lastModified="1466206116407">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">24.03.2010 16:51:39 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>dushyant-mehta.myopenid.com</registrant>
     <pname>Autonomous All Terrain Vehicle</pname>
     <user>dushyant-mehta.myopenid.com</user>
-    <pvcount type="float">5768.0</pvcount>
+    <pvcount type="float">5780.0</pvcount>
     <body>This project aims to build an Autonomous All Terrain Vehicle capable of navigating almost all types of terrain through lane following and GPS waypoints loaded before the mission. It will employ stereo vision for detecting obstacles with the range data augmented by narrow beam ultrasonic sensors, with the data from the two being fused using a Kalman Filter to provide information about obstacles in from of the vehicle. Another Kalman Filter fuses information from GPS, an IMU and encoders on the driving and steering wheels to provide an estimate of it&apos;s pose and heading. A local map builder then integrates the pose &amp; heading information with the range data to create a map of the immediate surroundings of the vehicle. A path planner plans the path of the vehicle and gives driving commands to a control unit. The control unit interprets the driving commands and breaks them into sub commands, which it executes by driving the actuators with the appropriate signals. 
 A global map builder can also be implemented to provide information about the terrain the vehicle traversed.</body>
     <errmsg></errmsg>
