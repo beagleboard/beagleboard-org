@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1184" name="FridgeAssist" prototype="Page" created="1280443836117" lastModified="1466310590560">
+  <hopobject id="1184" name="FridgeAssist" prototype="Page" created="1280443836117" lastModified="1466449117670">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">29.07.2010 22:50:36 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>openujs.myopenid.com</registrant>
     <pname>Refrigerator Assistance</pname>
     <user>openujs.myopenid.com</user>
-    <pvcount type="float">3866.0</pvcount>
+    <pvcount type="float">3868.0</pvcount>
     <body>I am planning to develop shopping list application with  rich graphical interface on LCD running on beagle board. The list is saved in SD/MMC card. User can add various grocery items. There is also a category to sort out grocery items example - produce, dairy  product, soda. Also user can add date (on which groceries should be bought), if the date is passed (due), LED indicater turns red from green.</body>
     <errmsg></errmsg>
     <homepage></homepage>
