@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1260" name="beagle tracker" prototype="Page" created="1286352994516" lastModified="1466295220724">
+  <hopobject id="1260" name="beagle tracker" prototype="Page" created="1286352994516" lastModified="1466474317925">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -20,7 +20,7 @@ The device will be controlable for setup, calibration and movement using Open So
 Several devices could be coupled to cover a lager tracking and projecting area through a classic hub.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4575.0</pvcount>
+    <pvcount type="float">4577.0</pvcount>
     <homepage>http://www.combosquare.net</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
