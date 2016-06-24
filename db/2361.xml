@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2361" name="Epic Cape" prototype="Page" created="1357008768063" lastModified="1466584074637">
+  <hopobject id="2361" name="Epic Cape" prototype="Page" created="1357008768063" lastModified="1466720155104">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -18,15 +18,15 @@
 &lt;p&gt;The Epic Cape uses the open source Epic module (http://www.cs.berkeley.edu/~prabal/projects/epic/) which allows the cape to act as a compact egress router for low power sensor networks. The Epic module is fully supported by the open source TinyOS (http://www.tinyos.net) sensor network operating system and features a complete 6lowpan/RPL IPv6 stack (http://docs.tinyos.net/tinywiki/index.php/BLIP_2.0) that allows transmission of IPv6 Packets over IEEE 802.15.4 networks. The Epic Cape will allow you to develop an 802.15.4 wireless sensor network with IPv6 connectivity to each low power mesh endpoint.&lt;/p&gt;</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">1892.0</pvcount>
+    <pvcount type="float">1895.0</pvcount>
     <email>cwilson@flyingcampdesign.com</email>
-    <edit_skin>edit_cape</edit_skin>
     <render_skin>cape</render_skin>
+    <edit_skin>edit_cape</edit_skin>
     <http_referer>http://beagleboard.org/CapeContest/entries/Epic%20Cape/edit</http_referer>
-    <youtube_url>http://youtu.be/5gI3UR8GyBM</youtube_url>
     <http_host>beagleboard.org</http_host>
+    <youtube_url>http://youtu.be/5gI3UR8GyBM</youtube_url>
     <errmsg></errmsg>
-    <name>Chris Wilson</name>
     <user>cwilson@flyingcampdesign.com</user>
+    <name>Chris Wilson</name>
   </hopobject>
 </xmlroot>
