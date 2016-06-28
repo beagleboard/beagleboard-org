@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1152" name="BOB" prototype="Page" created="1278009874347" lastModified="1467063370220">
+  <hopobject id="1152" name="BOB" prototype="Page" created="1278009874347" lastModified="1467079725805">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">01.07.2010 18:44:34 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>https://electronpimp.myopenid.com</registrant>
     <pname>BOB - the BeagleBoard Operated Bug</pname>
     <user>https://electronpimp.myopenid.com</user>
-    <pvcount type="float">4418.0</pvcount>
+    <pvcount type="float">4422.0</pvcount>
     <body>The Beagleboard Operated Bug grew out of an interest in using the Beagleboard in conjunction with some of the open source robotics and AI libraries. BOB is built on a retired HexCrawler HDATS 18-DOF Hexapod base with a 2-DOF pan/tilt platform for camera scanning. The main processor is a Beagleboard rev C4. 
 
 Currently, BOB can walk (OK, more like shamble), identify faces and track them with the camera, and output speech.

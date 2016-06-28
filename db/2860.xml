@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2860" name="OBD-II BBB" prototype="Page" created="1373658191365" lastModified="1467058688215">
+  <hopobject id="2860" name="OBD-II BBB" prototype="Page" created="1373658191365" lastModified="1467073925558">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>&lt;p&gt;This project consists of using a chip based on the ELM327 command set for comunications between a car OBD-2 port and the BeagleBone Black. &amp;nbsp;The cape will communicate with the BeagleBone Black through UART and display the information in a way that is easlily manipulated. &amp;nbsp;&amp;nbsp;&lt;/p&gt;</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">7087.0</pvcount>
+    <pvcount type="float">7089.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
