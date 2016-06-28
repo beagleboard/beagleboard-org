@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3332" name="Streaming video BBB" prototype="Page" created="1387802518522" lastModified="1466971855234">
+  <hopobject id="3332" name="Streaming video BBB" prototype="Page" created="1387802518522" lastModified="1467058658595">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>64.134.16.2</http_remotehost>
@@ -26,15 +26,15 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">26472.0</pvcount>
-    <categories></categories>
-    <cat_doc>documentation</cat_doc>
+    <pvcount type="float">26506.0</pvcount>
     <prj_status>demo</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <categories></categories>
     <boardtype>bbblack;</boardtype>
     <category>documentation;demo;</category>
     <homepage>https://github.com/Mras2an/Webcam-IP-BeagleBone</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/Streaming+video+BBB/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
