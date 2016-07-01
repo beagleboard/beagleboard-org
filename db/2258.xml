@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1467384209380">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1467384896438">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">01.07.2016 14:43:29 UTC</time>
+    <time type="date">01.07.2016 14:54:56 UTC</time>
     <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -20,7 +20,12 @@
 &lt;p&gt;See the &lt;a href=&quot;https://beagleboard.org/getting-started#update&quot;&gt;Getting Started guide&lt;/a&gt; and the &lt;a href=&quot;https://elinux.org/Beagleboard:Updating_The_Software&quot;&gt;official wiki page&lt;/a&gt; for hints on loading these images.&lt;/p&gt;
 &lt;/span&gt;
 &lt;h2 style=&quot;color:black;&quot;&gt;Recommended Debian Images&lt;/h2&gt;
-&lt;h3&gt;Wheezy for BeagleBone, BeagleBone Black and SeeedStudio BeagleBone Green via microSD card&lt;/h3&gt;
+&lt;h3&gt;Wheezy for 
+    &lt;a href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+    &lt;a hfef=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt; and 
+    &lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot;
@@ -44,7 +49,17 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;f6e67ba01ff69d20f2c655f5e429c3e6c2398123bcd3d8d548460c597275d277&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
-&lt;h3&gt;Jessie for BeagleBone, BeagleBone Black, SeeedStudio BeagleBone Green, SeeedStudio BeagleBone Green Wireless, SanCloud BeagleBone Enhanced, element14 BeagleBone Black Industrial, Arrow BeagleBone Black Industrial and Mentorel BeagleBone uSomIQ via microSD card&lt;/h3&gt;
+&lt;h3&gt;Jessie for
+    &lt;a href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+    &lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;, 
+    &lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;, 
+    &lt;a href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+    &lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+    &lt;a href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+    &lt;a href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+    &lt;a href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.img.xz&quot;
@@ -67,7 +82,10 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;28d67e877497fb9e52fe605f2cbefdbaedaff23e9fa82e9ed2076ae375aa777f&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
-&lt;h3&gt;Jessie for BeagleBoard-X15 via microSD card&lt;/h3&gt;
+&lt;h3&gt;Jessie for 
+    &lt;a href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.img.xz&quot;
@@ -90,7 +108,10 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;69dc6b1daccc5fc0bb3050977d102706621ec0dd8bf14757f5ef0542e60ac72e&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
-&lt;h3&gt;Jessie for BeagleBoard-xM&lt;/h3&gt;
+&lt;h3&gt;Jessie for 
+    &lt;a href=&quot;/xm&quot;&gt;BeagleBoard-xM&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/beaglexm-debian-8.3-console-2016-02-11-2gb.img.xz&quot;
@@ -250,11 +271,11 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">616501.0</pvcount>
+    <pvcount type="float">616514.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
