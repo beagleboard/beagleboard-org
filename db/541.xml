@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="541" name="nullDC_Beagle" prototype="Page" created="1235411795107" lastModified="1467193327776">
+  <hopobject id="541" name="nullDC_Beagle" prototype="Page" created="1235411795107" lastModified="1467288147697">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -23,13 +23,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">6055.0</pvcount>
+    <pvcount type="float">6061.0</pvcount>
     <prj_status>demo</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;demo;</category>
     <homepage>http://www.emudev.org/nulldc_beagle</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/nullDC_Beagle/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
