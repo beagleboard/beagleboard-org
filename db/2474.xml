@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2474" name="Forums" prototype="Page" created="1366427629674" lastModified="1467391745678">
+  <hopobject id="2474" name="Forums" prototype="Page" created="1366427629674" lastModified="1467391768582">
   <hop:parent idref="2472" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>Forums</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">01.07.2016 16:49:05 UTC</time>
+    <time type="date">01.07.2016 16:49:28 UTC</time>
     <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
     <body>&lt;h1&gt;Forums &amp; Mailing Lists&lt;/h1&gt;
 &lt;ul&gt;
@@ -23,7 +23,7 @@
   scrolling=&quot;no&quot;
   frameborder=&quot;0&quot;
   width=&quot;900&quot;
-  height=&quot;1850&quot;&gt;
+  height=&quot;2250&quot;&gt;
 &lt;/iframe&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   document.getElementById(&apos;board_forum_embed&apos;).src =
@@ -89,7 +89,7 @@
 
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;</body>
     <pseudoparent idref="2472" prototyperef="Page"/>
-    <pvcount type="float">154771.0</pvcount>
+    <pvcount type="float">154773.0</pvcount>
     <http_referer>http://beagleboard.org/Community/Forums/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
