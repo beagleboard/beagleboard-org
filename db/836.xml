@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="836" name="Robotics Bus" prototype="Page" created="1256432900031" lastModified="1467365898790">
+  <hopobject id="836" name="Robotics Bus" prototype="Page" created="1256432900031" lastModified="1467417174563">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>This is a proposal for an expansion bus for robotics. It&apos;s a way to connect more than one robotics expansion bus to the beagleboard. Each board might have a slaved daisy chain type connection and one board would be the master. The master board would be connected directly to the beagleboard. The onboard EEPROM on the master board would contain addressing information for peripherals on the slave boards.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4129.0</pvcount>
+    <pvcount type="float">4131.0</pvcount>
     <homepage>http://www.thedynaplex.info/wiki/index.php/RoboticsBus</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
