@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3122" name="BeagleQ" prototype="Page" created="1380680139594" lastModified="1467467149373">
+  <hopobject id="3122" name="BeagleQ" prototype="Page" created="1380680139594" lastModified="1467588162389">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>50.142.158.112</http_remotehost>
@@ -16,7 +16,7 @@
     <body>&lt;p&gt;A wireless bbq cooker controller with multiple temperature probes and a pwm controller fan. Using a temperature probe placed in the pit and PID algorithm the controller will adjust the fan speed to to maintain the cooker at a constant temperature.&lt;/p&gt;</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6391.0</pvcount>
+    <pvcount type="float">6401.0</pvcount>
     <homepage>https://github.com/HouseOfBeck/BeagleQ</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
