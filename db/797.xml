@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="797" name="34092362125" prototype="Page" created="1253843018613" lastModified="1467585146004">
+  <hopobject id="797" name="34092362125" prototype="Page" created="1253843018613" lastModified="1467675560511">
   <hop:parent idref="252" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -12,14 +12,14 @@
     <hopsession>127.0.0.99.152.53.87bw4lloytdw</hopsession>
     <body>Board registration</body>
     <pseudoparent idref="252" prototyperef="Page"/>
-    <pvcount type="float">2838.0</pvcount>
+    <pvcount type="float">2843.0</pvcount>
     <email>gonzo@lnxrox.com</email>
     <status>OK</status>
     <render_skin>board</render_skin>
     <edit_skin>edit_board</edit_skin>
     <http_referer>http://beagleboard.org/support/board?openid.assoc_handle=%7BHMAC-SHA256%7D%7B4abc1fda%7D%7BBMBR8g%3D%3D%7D&amp;openid.claimed_id=http%3A%2F%2Fmgonzolla.myopenid.com%2F&amp;openid.identity=http%3A%2F%2Fmgonzolla.myopenid.com%2F&amp;openid.mode=id_res&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.op_endpoint=http%3A%2F%2Fwww.myopenid.com%2Fserver&amp;openid.response_nonce=2009-09-25T01%3A42%3A28ZCwfzOv&amp;openid.return_to=http%3A%2F%2Fbeagleboard.org%2Fsupport%2Fboard&amp;openid.sig=opw8NjIBvIWGSRVuirWaoErLXmJd6bresmEbM9IfXH8%3D&amp;openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Csigned</http_referer>
     <http_host>beagleboard.org</http_host>
-    <user>mgonzolla.myopenid.com</user>
     <name>Mike Gonzalez</name>
+    <user>mgonzolla.myopenid.com</user>
   </hopobject>
 </xmlroot>

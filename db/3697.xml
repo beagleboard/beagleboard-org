@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3697" name="bcc" prototype="Page" created="1406381504160" lastModified="1467559762438">
+  <hopobject id="3697" name="bcc" prototype="Page" created="1406381504160" lastModified="1467609726444">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>65.129.142.233</http_remotehost>
@@ -75,14 +75,14 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6628.0</pvcount>
-    <prj_status>dev</prj_status>
+    <pvcount type="float">6634.0</pvcount>
     <cat_doc>documentation</cat_doc>
+    <prj_status>dev</prj_status>
     <boardtype>bbblack;</boardtype>
     <category>documentation;cape;</category>
     <homepage>http://mybbbprojects.blogspot.com/2014/07/designing-brew-chamber-controller-part-1.html</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/bcc/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
