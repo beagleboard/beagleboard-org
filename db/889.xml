@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="889" name="beaglepod" prototype="Page" created="1259881641509" lastModified="1467676184623">
+  <hopobject id="889" name="beaglepod" prototype="Page" created="1259881641509" lastModified="1467760455808">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -20,7 +20,7 @@ Adding a video monitor the BeaglePod can also become a video player running all 
 Using a software implementation of the Apple Accessory Protocol the BeaglePod is connected to the car stereo via a USB-&gt;TTL cable.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">13705.0</pvcount>
+    <pvcount type="float">13723.0</pvcount>
     <homepage>https://code.google.com/p/beaglepod/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
