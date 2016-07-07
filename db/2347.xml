@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2347" name="Replicape" prototype="Page" created="1356796933219" lastModified="1467719018753">
+  <hopobject id="2347" name="Replicape" prototype="Page" created="1356796933219" lastModified="1467835029941">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Elias Bakken</name>
@@ -11,7 +11,7 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>elias.bakken@gmail.com</registrant>
     <user>elias.bakken@gmail.com</user>
-    <pvcount type="float">3296.0</pvcount>
+    <pvcount type="float">3299.0</pvcount>
     <body>Replicape is a 3D printer cape for BeagleBone.
 Features include:
 - 5 stepper motors (X, Y, Z, Ext1, Ext2)
@@ -24,8 +24,8 @@ Features include:
 - X, Y and Ext 1 SMDs wired to PRUICSS for hard real time operation.
 - Option for stackable LCD cape.</body>
     <errmsg></errmsg>
-    <email>elias.bakken@gmail.com</email>
     <youtube_url>http://youtu.be/7Sxl5geo10w</youtube_url>
+    <email>elias.bakken@gmail.com</email>
     <render_skin>cape</render_skin>
     <project_url>https://bitbucket.org/intelligentagent/replicape</project_url>
   </hopobject>
