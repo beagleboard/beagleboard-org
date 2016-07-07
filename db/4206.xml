@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1467923781163">
+  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1467923897935">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>2016-07-07-seeedstudio-beaglebone-green-wireless</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">07.07.2016 20:35:18 UTC</time>
+    <time type="date">07.07.2016 20:38:17 UTC</time>
     <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
     <body>&lt;h1&gt;Introducing SeeedStudio BeagleBone Green&lt;br /&gt;&lt;small style=&quot;font-size: 12px;&quot;&gt;by Christopher Rush&lt;/small&gt;&lt;/h1&gt;
 &lt;style&gt;
@@ -444,55 +444,10 @@ table.MsoTableGrid
 
 &lt;div class=WordSection1&gt;
 
-&lt;p class=MsoNormal&gt;&lt;span class=SpellE&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
-ZH-CN&apos;&gt;Seeed&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
-ZH-CN&apos;&gt; Studio &lt;/span&gt;&lt;span lang=EN-GB&gt;BeagleBone Green Wireless&lt;/span&gt;&lt;/b&gt;&lt;b
-style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=ZH-CN style=&apos;font-family:\5B8B\4F53;
-mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-language:
-ZH-CN&apos;&gt;&amp;#65292;&lt;/span&gt;&lt;/b&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
-ZH-CN&apos;&gt; the First WiFi plus BLE Board from &lt;/span&gt;&lt;span
-style=&quot;mso-spacerun:yes&quot;&gt; &lt;/span&gt;&lt;/b&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
-ZH-CN&apos;&gt;BeagleBone Community&lt;/span&gt;&lt;span lang=EN-GB&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
-ZH-CN&apos;&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p class=MsoNormal align=center style=&apos;text-align:center&apos;&gt;&lt;b style=&apos;mso-bidi-font-weight:
-normal&apos;&gt;&lt;span style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;
-mso-no-proof:yes&apos;&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shapetype id=&quot;_x0000_t75&quot; coordsize=&quot;21600,21600&quot;
- o:spt=&quot;75&quot; o:preferrelative=&quot;t&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; filled=&quot;f&quot;
- stroked=&quot;f&quot;&gt;
- &lt;v:stroke joinstyle=&quot;miter&quot;/&gt;
- &lt;v:formulas&gt;
-  &lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;/&gt;
-  &lt;v:f eqn=&quot;sum @0 1 0&quot;/&gt;
-  &lt;v:f eqn=&quot;sum 0 0 @1&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @2 1 2&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;/&gt;
-  &lt;v:f eqn=&quot;sum @0 0 1&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @6 1 2&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;/&gt;
-  &lt;v:f eqn=&quot;sum @8 21600 0&quot;/&gt;
-  &lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;/&gt;
-  &lt;v:f eqn=&quot;sum @10 21600 0&quot;/&gt;
- &lt;/v:formulas&gt;
- &lt;v:path o:extrusionok=&quot;f&quot; gradientshapeok=&quot;t&quot; o:connecttype=&quot;rect&quot;/&gt;
- &lt;o:lock v:ext=&quot;edit&quot; aspectratio=&quot;t&quot;/&gt;
-&lt;/v:shapetype&gt;&lt;v:shape id=&quot;_x56fe__x7247__x0020_1&quot; o:spid=&quot;_x0000_i1027&quot;
- type=&quot;#_x0000_t75&quot; alt=&quot;Description: 102010048 01&quot; style=&apos;width:214pt;
- height:161pt;visibility:visible;mso-wrap-style:square&apos;&gt;
- &lt;v:imagedata src=&quot;Word%20Work%20File%20D_1_files/image001.jpg&quot; o:title=&quot;102010048 01&quot;/&gt;
-&lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img width=216 height=163
+&lt;p&gt;The First WiFi plus BLE board from the BeagleBone Community
+&lt;br /&gt;&lt;img width=216 height=163
 src=&quot;https://beagleboard.org/static/images/seeedbbgw/image002.png&quot;
-alt=&quot;Description: 102010048 01&quot; v:shapes=&quot;_x56fe__x7247__x0020_1&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/b&gt;&lt;b
-style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=EN-GB style=&apos;mso-fareast-font-family:
-\5B8B\4F53;mso-fareast-language:ZH-CN&apos;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+alt=&quot;Description: 102010048 01&quot; v:shapes=&quot;_x56fe__x7247__x0020_1&quot;&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:
 EN-US;mso-fareast-language:ZH-CN&apos;&gt;&lt;a
@@ -1617,7 +1572,7 @@ tools.&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 </body>
     <pseudoparent idref="2912" prototyperef="Page"/>
-    <pvcount type="float">4.0</pvcount>
+    <pvcount type="float">6.0</pvcount>
     <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog/2016-07-07-seeedstudio-beaglebone-green-wireless/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
