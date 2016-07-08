@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1468001404893">
+  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1468001529905">
   <hop:parent idref="2912" prototyperef="Page"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>2016-07-07-seeedstudio-beaglebone-green-wireless</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">08.07.2016 18:10:04 UTC</time>
+    <lang>en-us</lang>
+    <uri>2016-07-07-seeedstudio-beaglebone-green-wireless</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">08.07.2016 18:12:09 UTC</time>
+    <pseudoparent idref="2912" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">48.0</pvcount>
     <body>&lt;h1&gt;Introducing SeeedStudio BeagleBone Green&lt;br /&gt;&lt;small style=&quot;font-size: 12px;&quot;&gt;by Christopher Rush and Jason Kridner&lt;/small&gt;&lt;/h1&gt;
 &lt;div bgcolor=white lang=EN-US link=blue vlink=&quot;#954F72&quot; style=&apos;tab-interval:.5in&apos;&gt;
 &lt;div class=WordSection1&gt;
@@ -54,46 +58,46 @@ hardware&lt;/span&gt;&lt;span style=&apos;mso-fareast-font-family:\5B8B\4F53;mso
 EN-US;mso-fareast-language:ZH-CN&apos;&gt;. T&lt;/span&gt;&lt;span lang=EN-GB&gt;he BBGW is a true &lt;span
 class=SpellE&gt;IoT&lt;/span&gt; device.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=EN-GB&gt;Specification&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;Specification&lt;/b&gt;&lt;/p&gt;
 
-&lt;p class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;ul&gt;
+&lt;li class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span class=SpellE&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;span lang=EN-GB&gt;SoC&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b style=&apos;mso-bidi-font-weight:
-normal&apos;&gt;&lt;span lang=EN-GB&gt;:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; TI AM335x &lt;/span&gt;&lt;/p&gt;
+normal&apos;&gt;&lt;span lang=EN-GB&gt;:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; TI AM335x &lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-lang=EN-GB&gt;CPU:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 1GHz ARM Coretex-A8 + 2x 200MHz PRU&lt;/span&gt;&lt;/p&gt;
+lang=EN-GB&gt;CPU:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 1GHz ARM Coretex-A8 + 2x 200MHz PRU&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-lang=EN-GB&gt;GPU:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; SGX 3D graphics accelerator&lt;/span&gt;&lt;/p&gt;
+lang=EN-GB&gt;GPU:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; SGX 3D graphics accelerator&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-lang=EN-GB&gt;Memory:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 512MB DDR3&lt;/span&gt;&lt;/p&gt;
+lang=EN-GB&gt;Memory:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 512MB DDR3&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-lang=EN-GB&gt;USB Ports:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 4&lt;/span&gt;&lt;/p&gt;
+lang=EN-GB&gt;USB Ports:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 4&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpLast style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
+&lt;li class=ListParagraph1CxSpLast style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
 lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span
-lang=EN-GB&gt;Network:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 802.11 b/g/n, Bluetooth 4.1&lt;/span&gt;&lt;/p&gt;
-
-&lt;p class=MsoNormal&gt;&lt;span lang=EN-GB&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+lang=EN-GB&gt;Network:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; 802.11 b/g/n, Bluetooth 4.1&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=EN-GB&gt;Software&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -1138,12 +1142,8 @@ tools.&lt;/span&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 </body>
-    <pseudoparent idref="2912" prototyperef="Page"/>
-    <pvcount type="float">45.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
     <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog/2016-07-07-seeedstudio-beaglebone-green-wireless/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
