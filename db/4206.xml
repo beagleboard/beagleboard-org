@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1468001617078">
+  <hopobject id="4206" name="2016-07-07-seeedstudio-beaglebone-green-wireless" prototype="Page" created="1467923718353" lastModified="1468001748854">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>2016-07-07-seeedstudio-beaglebone-green-wireless</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">08.07.2016 18:13:37 UTC</time>
+    <time type="date">08.07.2016 18:15:48 UTC</time>
     <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
     <body>&lt;h1&gt;Introducing SeeedStudio BeagleBone Green&lt;br /&gt;&lt;small style=&quot;font-size: 12px;&quot;&gt;by Christopher Rush and Jason Kridner&lt;/small&gt;&lt;/h1&gt;
 &lt;div bgcolor=white lang=EN-US link=blue vlink=&quot;#954F72&quot; style=&apos;tab-interval:.5in&apos;&gt;
@@ -57,10 +57,7 @@ class=SpellE&gt;IoT&lt;/span&gt; device.&lt;/span&gt;&lt;/p&gt;
 &lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;Specification&lt;/b&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span class=SpellE&gt;&lt;b style=&apos;mso-bidi-font-weight:
+&lt;li class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l1 level1 lfo1&apos;&gt;&lt;span class=SpellE&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;span lang=EN-GB&gt;SoC&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b style=&apos;mso-bidi-font-weight:
 normal&apos;&gt;&lt;span lang=EN-GB&gt;:&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB&gt; TI AM335x &lt;/span&gt;&lt;/li&gt;
 
@@ -137,11 +134,7 @@ Studio BeagleBone Green Wireless development board. &lt;/span&gt;&lt;/p&gt;
 style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:EN-US;mso-fareast-language:
 ZH-CN&apos;&gt;Hardware and Connectivity&lt;/span&gt;&lt;span lang=EN-GB&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-ansi-language:EN-US;mso-no-proof:yes&apos;&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shape
- id=&quot;Picture_x0020_2&quot; o:spid=&quot;_x0000_i1026&quot; type=&quot;#_x0000_t75&quot; style=&apos;width:452pt;
- height:315pt;visibility:visible;mso-wrap-style:square&apos;&gt;
- &lt;v:imagedata src=&quot;Word%20Work%20File%20D_1_files/image003.png&quot; o:title=&quot;&quot;/&gt;
-&lt;/v:shape&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img border=0 width=454 height=317
+&lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-ansi-language:EN-US;mso-no-proof:yes&apos;&gt;&lt;img border=0 width=454 height=317
 src=&quot;https://beagleboard.org/static/images/seeedbbgw/image004.png&quot; v:shapes=&quot;Picture_x0020_2&quot;&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;b
 style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=EN-GB&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -190,38 +183,26 @@ style=&quot;mso-spacerun:yes&quot;&gt; &lt;/span&gt;The pins also allow the expa
 &lt;span class=SpellE&gt;BegleBone&lt;/span&gt; Cape family of expansion boards including
 the &lt;span class=SpellE&gt;SeedStudio&lt;/span&gt; Grove Cape. GPIO headers feature the
 following:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;65x Digital I/O&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpFirst style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;65x Digital I/O&lt;/span&gt;&lt;/p&gt;
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;8x PWM&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;8x PWM&lt;/span&gt;&lt;/p&gt;
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;8x &lt;span class=SpellE&gt;Analog&lt;/span&gt;
+Inputs&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;8x &lt;span class=SpellE&gt;Analog&lt;/span&gt;
-Inputs&lt;/span&gt;&lt;/p&gt;
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;UART&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;UART&lt;/span&gt;&lt;/p&gt;
+&lt;li class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;I2C&lt;/span&gt;&lt;/li&gt;
 
-&lt;p class=ListParagraph1CxSpMiddle style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;I2C&lt;/span&gt;&lt;/p&gt;
-
-&lt;p class=ListParagraph1CxSpLast style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;&lt;![if !supportLists]&gt;&lt;span
-lang=EN-GB style=&apos;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol&apos;&gt;&lt;span style=&apos;mso-list:Ignore&apos;&gt;·&lt;span style=&apos;font:7.0pt &quot;Times New Roman&quot;&apos;&gt;      
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span lang=EN-GB&gt;SPI&lt;/span&gt;&lt;/p&gt;
-
+&lt;li class=ListParagraph1CxSpLast style=&apos;text-indent:-.25in;mso-list:l0 level1 lfo2&apos;&gt;
+&lt;span lang=EN-GB&gt;SPI&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p class=MsoNormal&gt;&lt;b style=&apos;mso-bidi-font-weight:normal&apos;&gt;&lt;span lang=EN-GB&gt;Applications&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 
 &lt;p class=MsoNormal&gt;&lt;span style=&apos;mso-fareast-font-family:\5B8B\4F53;mso-ansi-language:
@@ -1124,7 +1105,7 @@ tools.&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 </body>
     <pseudoparent idref="2912" prototyperef="Page"/>
-    <pvcount type="float">50.0</pvcount>
+    <pvcount type="float">53.0</pvcount>
     <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog/2016-07-07-seeedstudio-beaglebone-green-wireless/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
