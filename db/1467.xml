@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1467" name="2810XM023" prototype="Page" created="1302632855697" lastModified="1467866178661">
+  <hopobject id="1467" name="2810XM023" prototype="Page" created="1302632855697" lastModified="1468020359656">
   <hop:parent idref="252" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -12,14 +12,14 @@
     <hopsession>127.0.0.24.21.48.qlba8odyhtgr</hopsession>
     <body>Board registration</body>
     <pseudoparent idref="252" prototyperef="Page"/>
-    <pvcount type="float">2886.0</pvcount>
+    <pvcount type="float">2887.0</pvcount>
     <email>robotguy@hybotics.org</email>
     <status>Won&apos;t Boot - power circuit probably blown.</status>
     <render_skin>board</render_skin>
     <edit_skin>edit_board</edit_skin>
     <http_referer>http://beagleboard.org/support/board?openid.claimed_id=https%3A%2F%2Fopenid.org%2Frobotguy&amp;openid.identity=https%3A%2F%2Fopenid.org%2Frobotguy&amp;openid.sig=%2By%2Fm9z%2Bn8XfpitbmgeQglSAD6snZOnNMZyoPWuc5fj8%3D&amp;openid.signed=claimed_id%2Cidentity%2Cassoc_handle%2Cop_endpoint%2Creturn_to%2Cresponse_nonce&amp;openid.assoc_handle=%7B634382295912830000%7D%7BdeJBig%3D%3D%7D%7B32%7D&amp;openid.op_endpoint=https%3A%2F%2Fopenid.org%2FOpenId%2FProvider&amp;openid.return_to=http%3A%2F%2Fbeagleboard.org%2Fsupport%2Fboard&amp;openid.response_nonce=2011-04-12T18%3A26%3A52ZEq61IBpO&amp;openid.mode=id_res&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0</http_referer>
     <http_host>beagleboard.org</http_host>
-    <user>https://openid.org/robotguy</user>
     <name>Dale Weber</name>
+    <user>https://openid.org/robotguy</user>
   </hopobject>
 </xmlroot>
