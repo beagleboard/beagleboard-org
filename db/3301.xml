@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3301" name="CAN" prototype="Page" created="1386930274663" lastModified="1468019806275">
+  <hopobject id="3301" name="CAN" prototype="Page" created="1386930274663" lastModified="1468092884639">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">13.12.2013 10:24:34 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>tbhanu91@gmail.com</registrant>
     <pname>Design of CAN Bus Master &amp; Slave</pname>
     <user>tbhanu91@gmail.com</user>
-    <pvcount type="float">6691.0</pvcount>
+    <pvcount type="float">6699.0</pvcount>
     <categories>distro,documentation,library,utility,cape</categories>
     <body>&lt;p&gt;Implementation of CAN bus for automotive &amp;amp; industrial application on beagle board by using gateways of CAN bus and finally implementing by using CAN stack software.&lt;/p&gt;</body>
     <errmsg></errmsg>
