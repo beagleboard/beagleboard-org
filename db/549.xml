@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="549" name="James" prototype="Page" created="1236053929804" lastModified="1468609392732">
+  <hopobject id="549" name="James" prototype="Page" created="1236053929804" lastModified="1468687645952">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -24,13 +24,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">5511.0</pvcount>
+    <pvcount type="float">5513.0</pvcount>
     <prj_status>obsolete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;demo;</category>
     <homepage>http://elinux.org/BeagleBoard/James</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/James/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
