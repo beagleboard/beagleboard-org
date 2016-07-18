@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="823" name="Speed-Reader" prototype="Page" created="1255228223040" lastModified="1468707364764">
+  <hopobject id="823" name="Speed-Reader" prototype="Page" created="1255228223040" lastModified="1468798622178">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">11.10.2009 02:30:23 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>openid-provider.appspot.com/harvey.sugar@nerd1951.com</registrant>
     <pname>Speed-Reader</pname>
     <user>openid-provider.appspot.com/harvey.sugar@nerd1951.com</user>
-    <pvcount type="float">4248.0</pvcount>
+    <pvcount type="float">4256.0</pvcount>
     <body>Speed reader allows an audio book to be played back with faster or slower speaker rates. A user interface gives the listener realtime control of the speaker rate. Speed-Reader uses digital speech signal processing to accomplish low distortion timescale modification of speech in real time. Timescale modification of speech is accomplished by selectively repeating segments of speech to slow down the speaker rate or deleting selected speech segments to speed up the speaker rate. Digital signal processing is used to determine which speech segments are candidates for repetition or deletion. </body>
     <errmsg></errmsg>
     <homepage>http://www.nerd1951.com/?page_id=72</homepage>

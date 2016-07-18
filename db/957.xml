@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="957" name="reacTIVision" prototype="Page" created="1265663637701" lastModified="1468626431913">
+  <hopobject id="957" name="reacTIVision" prototype="Page" created="1265663637701" lastModified="1468744884537">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">08.02.2010 21:13:57 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>robtomorrow.myopenid.com</registrant>
     <pname>reacTIVision Port</pname>
     <user>robtomorrow.myopenid.com</user>
-    <pvcount type="float">4003.0</pvcount>
+    <pvcount type="float">4007.0</pvcount>
     <body>Porting the reacTIVision computer vision framework to the  BeagleBoard. This will allow for the creation of simple, low-cost multi-touch tables and devices. All that&apos;s needed to make use of this is a working webcam, a network connection, and objects printed with the fiducial symbols used by the engine.</body>
     <errmsg></errmsg>
     <homepage>http://robtomorrow.com</homepage>
