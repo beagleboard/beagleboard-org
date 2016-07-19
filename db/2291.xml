@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2291" name="Solar Energy Beagle Cape" prototype="Page" created="1354836762001" lastModified="1468796029549">
+  <hopobject id="2291" name="Solar Energy Beagle Cape" prototype="Page" created="1354836762001" lastModified="1468881969342">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -36,15 +36,15 @@ With its built in heavy duty current sensors you can charge any standard 12V or 
 </body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">2246.0</pvcount>
+    <pvcount type="float">2253.0</pvcount>
     <email>plusmartin@gmail.com</email>
-    <edit_skin>edit_cape</edit_skin>
     <render_skin>cape</render_skin>
+    <edit_skin>edit_cape</edit_skin>
     <http_referer>http://beagleboard.org/CapeContest/entries/Solar%20Energy%20Beagle%20Cape/edit</http_referer>
-    <http_host>beagleboard.org</http_host>
     <youtube_url>http://youtu.be/TS5rb1FRINs</youtube_url>
+    <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
-    <user>plusmartin@gmail.com</user>
     <name>Martin Garcia</name>
+    <user>plusmartin@gmail.com</user>
   </hopobject>
 </xmlroot>
