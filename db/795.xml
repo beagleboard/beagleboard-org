@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="795" name="BeagleUAV" prototype="Page" created="1253640316585" lastModified="1468939461158">
+  <hopobject id="795" name="BeagleUAV" prototype="Page" created="1253640316585" lastModified="1468978773783">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">22.09.2009 17:25:16 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>medikeri.myopenid.com</registrant>
     <pname>Unmanned Aerial Vehicle with Real-Time wireless video transmission capability</pname>
     <user>medikeri.myopenid.com</user>
-    <pvcount type="float">5109.0</pvcount>
+    <pvcount type="float">5113.0</pvcount>
     <body>A quad-rotor UAV mounted with a camera sensor. the processor board will process the outputs of the MEMS sensors - gyros, accelerometers, magnetometer and generate appropriate corrective signals (control the motors) in order to stabilize the UAV. also, the DSP on-board will perform compression of the frames obtained from the camera sensor and then transmit wirelessly over 2.4GHz zigbee link. at the base station, the zigbee Rx is hooked up to a PC where video can be viewed.
 
 Applications: Aerial Photography - useful for 3D reconstruction of buildings, Military, Search &amp; Rescue ops.
