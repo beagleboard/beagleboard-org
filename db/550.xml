@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="550" name="maemo" prototype="Page" created="1236054113077" lastModified="1469131403385">
+  <hopobject id="550" name="maemo" prototype="Page" created="1236054113077" lastModified="1469204476877">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -20,7 +20,7 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>https://garage.maemo.org/export/rss_sfnews.php?group_id=880</rssfeed>
-    <pvcount type="float">5940.0</pvcount>
+    <pvcount type="float">5956.0</pvcount>
     <prj_status>complete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <cat_distro>distro</cat_distro>
