@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2933" name="2008-04-04-source-released-for-beagle-board" prototype="Page" created="1375197100042" lastModified="1469585019797">
+  <hopobject id="2933" name="2008-04-04-source-released-for-beagle-board" prototype="Page" created="1375197100042" lastModified="1469586189686">
   <hop:parent idref="2912" prototyperef="Page"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>2008-04-04-source-released-for-beagle-board</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>2008-04-04-source-released-for-beagle-board</uri>
+    <http_host>127.0.0.1:8080</http_host>
     <time type="date">27.07.2016 02:03:39 UTC</time>
+    <pseudoparent idref="2912" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.ks0oe9qffm9d</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">2985.0</pvcount>
     <body>&lt;h3 class=&apos;post-title entry-title&apos; itemprop=&apos;name&apos;&gt;
 Source released for the Beagle Board
 &lt;/h3&gt;
@@ -21,12 +24,9 @@ Source released for the Beagle Board
 &lt;p&gt;&lt;b&gt;Update 2016-07-26&lt;/b&gt;: code.google.com removed a bunch of their hosting and a copy of the wiki and issues got saved to &lt;a href=&quot;https://github.com/jadonk/beagleboard&quot;&gt;https://github.com/jadonk/beagleboard&lt;/a&gt;&lt;/p&gt;
 &lt;div style=&apos;clear: both;&apos;&gt;&lt;/div&gt;
 &lt;/div&gt;</body>
-    <pseudoparent idref="2912" prototyperef="Page"/>
-    <pvcount type="float">2984.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
     <render_skin>blog</render_skin>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/blog/2008-04-04-source-released-for-beagle-board/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
