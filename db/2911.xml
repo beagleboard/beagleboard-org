@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2911" name="VSCP" prototype="Page" created="1374779437122" lastModified="1469822056410">
+  <hopobject id="2911" name="VSCP" prototype="Page" created="1374779437122" lastModified="1469863113976">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">25.07.2013 19:10:37 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>x112358@gmail.com</registrant>
     <pname>VSCP &amp; Friends</pname>
     <user>x112358@gmail.com</user>
-    <pvcount type="float">5452.0</pvcount>
+    <pvcount type="float">5456.0</pvcount>
     <body>&lt;p&gt;VSCP &amp;amp; Friends is a framwork for (home)automation and control. The package is working on the Beaglebone today also but users need to compile the code themselves today. &amp;nbsp;A turnrekey package is on the way in a few weeks. With this package nice web user interfaces can be created with a few lines of code where the widgets ciommunicate with the VSCP daemon using HTML5 websockets. Use with Tllestick, 1-Wire sensor or whatever. &amp;nbsp;&lt;/p&gt;</body>
     <errmsg></errmsg>
     <homepage>http://www.vscp.org</homepage>
