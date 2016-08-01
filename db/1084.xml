@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1084" name="BeagleROS" prototype="Page" created="1273001473636" lastModified="1469852864031">
+  <hopobject id="1084" name="BeagleROS" prototype="Page" created="1273001473636" lastModified="1469974533945">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">04.05.2010 19:31:13 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>cyrilleberger.myopenid.com</registrant>
     <pname>BeagleROS</pname>
     <user>cyrilleberger.myopenid.com</user>
-    <pvcount type="float">4390.0</pvcount>
+    <pvcount type="float">4394.0</pvcount>
     <body>This project aims at making it possible to use ROS for robotic project, providing cross compilation and creation of custom image in Angstrom. Also it will provides component for accessing beagleboard hardware (such as GPIO) as ROS service and component.</body>
     <errmsg></errmsg>
     <homepage>http://www.bitbucket.org/erb/beagleros</homepage>
