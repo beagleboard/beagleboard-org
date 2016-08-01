@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="558" name="GStreamer_TI" prototype="Page" created="1236658405567" lastModified="1470059685054">
+  <hopobject id="558" name="GStreamer_TI" prototype="Page" created="1236658405567" lastModified="1470073709928">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -21,13 +21,13 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6272.0</pvcount>
+    <pvcount type="float">6274.0</pvcount>
     <prj_status>complete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;</category>
     <homepage>http://gstreamer.ti.com</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/GStreamer_TI/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
