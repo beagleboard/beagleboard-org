@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2257" name="weekly" prototype="Page" created="1353347075515" lastModified="1470394126513">
+  <hopobject id="2257" name="weekly" prototype="Page" created="1353347075515" lastModified="1470426744649">
   <hop:parent idref="2092" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17</http_browser>
     <lang>en-us</lang>
@@ -12,8 +12,7 @@
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.66.25.15.39f31fa58a6r</hopsession>
     <user>pelochino.myopenid.com</user>
-    <pvcount type="float">3271.0</pvcount>
-    <oauth2-token></oauth2-token>
+    <pvcount type="float">3272.0</pvcount>
     <body>&lt;head&gt;
 &lt;title&gt;BeagleBone Cape Plug-In Board Weekly Trivia Contest&lt;/title&gt;
 &lt;style type=&quot;text/css&quot;&gt;
@@ -138,6 +137,7 @@ Winner: Umakanta Patro from India&lt;br&gt;
 Prize: The &lt;a target=&quot;_blank&quot; href=&quot;http://www.totalphase.com/products/aardvark_i2cspi/&quot;&gt;Aardvark I2C/SPI Host Adapter&lt;/a&gt;&lt;/p&gt;
 
 	&lt;/body&gt;</body>
+    <oauth2-token></oauth2-token>
     <http_language>en-US,en;q=0.8</http_language>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/CapeContest/weekly/edit</http_referer>
