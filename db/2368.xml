@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2368" name="FlightCape" prototype="Page" created="1357026902898" lastModified="1470582723253">
+  <hopobject id="2368" name="FlightCape" prototype="Page" created="1357026902898" lastModified="1470630579733">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,15 +16,15 @@
     <body>Automatic Pilot and IMU for experimental fixed and rotor wing aircraft.  Uses TI Hercules ARM processor for all real-time functions and provides a python or serial interface for the development of advanced flight systems including vision and voice recognition.</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">1074.0</pvcount>
+    <pvcount type="float">1075.0</pvcount>
     <email>dean.franks@gmail.com</email>
     <render_skin>cape</render_skin>
     <edit_skin>edit_cape</edit_skin>
     <http_referer>http://beagleboard.org/CapeContest/entries/FlightCape/edit</http_referer>
-    <youtube_url>http://youtu.be/2pVtit_Cmyg</youtube_url>
     <http_host>beagleboard.org</http_host>
+    <youtube_url>http://youtu.be/2pVtit_Cmyg</youtube_url>
     <errmsg></errmsg>
-    <name>Dean Franks</name>
     <user>blog.hangerhead.com</user>
+    <name>Dean Franks</name>
   </hopobject>
 </xmlroot>
