@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2222" name="opensmartmeter" prototype="Page" created="1351887425248" lastModified="1471116869784">
+  <hopobject id="2222" name="opensmartmeter" prototype="Page" created="1351887425248" lastModified="1471218269691">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">02.11.2012 20:17:05 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>nilsoneng.myopenid.com</registrant>
     <pname>Open Smart Meter</pname>
     <user>nilsoneng.myopenid.com</user>
-    <pvcount type="float">6331.0</pvcount>
+    <pvcount type="float">6337.0</pvcount>
     <body>Project created as completion of course work for college Gurgacz Assis Brazil. Using the board Beaglebone converters and brand Microchip, is read the values &amp;#8203;&amp;#8203;of voltage, current and power of the three powers, as well as automating the reading of electricity. Novelty in developing countries like Brazil.</body>
     <errmsg></errmsg>
     <homepage>http://code.google.com/p/opensmartmeter/ </homepage>
