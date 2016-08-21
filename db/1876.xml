@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1876" name="webLightSwitch" prototype="Page" created="1327624857014" lastModified="1471636068214">
+  <hopobject id="1876" name="webLightSwitch" prototype="Page" created="1327624857014" lastModified="1471724995913">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.01.2012 00:40:57 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>www.jpeterson.com</registrant>
     <pname>webLigthSwitch</pname>
     <user>www.jpeterson.com</user>
-    <pvcount type="float">5601.0</pvcount>
+    <pvcount type="float">5605.0</pvcount>
     <body>The project webLightSwitch is a simple web application written in JavaScript using node.js. It acts as a controller to turn on and off INSTEON lighting controllers. The software communicates with an INSTEON PowerLinc Modem via a serial interface (including USB serial interfaces) to control the INSTEONN lighting controllers.</body>
     <errmsg></errmsg>
     <homepage>http://www.jpeterson.com/projects/project-weblightswitch/</homepage>
