@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1471971251647">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1471971568646">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,9 +10,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <time type="date">01.07.2016 15:41:42 UTC</time>
-    <hopsession>127.0.0.gpqyzqzttlbb</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</http_browser>
+    <time type="date">23.08.2016 16:59:28 UTC</time>
+    <hopsession>127.0.0.10ljvtneddow8</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
 &lt;img style=&quot;float:right;width:400px&quot; itemprop=&quot;image&quot; src=&quot;/static/images/beagleboard_org_logo.png&quot;&gt;
@@ -45,7 +45,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a href=&quot;https://debian.beagleboard.org/images/bone-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmap&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
@@ -73,7 +73,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmap&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
@@ -126,7 +126,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a href=&quot;https://debian.beagleboard.org/images/bone-debian-7.11-lxde-4gb-armhf-2016-06-15-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmap&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-7.11-lxde-4gb-armhf-2016-06-15-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
@@ -155,7 +155,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a href=&quot;https://debian.beagleboard.org/images/bone-debian-8.3-lxqt-4gb-armhf-2016-01-24-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmap&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.3-lxqt-4gb-armhf-2016-01-24-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
@@ -180,7 +180,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a href=&quot;https://debian.beagleboard.org/images/bone-debian-7.9-lxde-4gb-armhf-2015-11-12-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmap&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-7.9-lxde-4gb-armhf-2015-11-12-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
@@ -301,7 +301,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">653401.0</pvcount>
+    <pvcount type="float">653405.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
