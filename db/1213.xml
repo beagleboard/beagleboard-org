@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1213" name="BeagleBoard Validation" prototype="Page" created="1282943908460" lastModified="1472078308863">
+  <hopobject id="1213" name="BeagleBoard Validation" prototype="Page" created="1282943908460" lastModified="1472148359413">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.08.2010 21:18:28 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>kozio-inc.myopenid.com</registrant>
     <pname>Verification and validation for the BeagleBoard</pname>
     <user>kozio-inc.myopenid.com</user>
-    <pvcount type="float">4032.0</pvcount>
+    <pvcount type="float">4034.0</pvcount>
     <body>The BeagleBoard processor boots directly from a Secure Digital (SD) card into the kDiagnostics software. Users receive full hardware access within minutes, with zero hardware modifications or additional test equipment. With kDiagnostics, users have the power to explore and understand their BeagleBoard, verify that it is performing properly, and have full access and control of both low-level hardware and high-level functionality in real-time.  The kDiagnostics Design Suite isolates faults and easily reproduces results within minutes.
 
 The Kozio solution provides a powerful interface for programming devices on board, including NOR and NAND flash memories, and SD cards. Users can select a file and program it where they want it. They can peek and poke hardware registers, control GPIO lines, access I2C devices, configure power resources, and more by clicking on commands and filling in dialogs. Users can also create scripts of custom commands using any text editor, and the powerful GUI to download and run scripts immediately. These scripts can perform complex control flow such as looping and conditional branching using the rich programming constructs available through the Kozio scripting language.  
