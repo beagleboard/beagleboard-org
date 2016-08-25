@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3567" name="Page" prototype="Page" created="1396975410691" lastModified="1472152840603">
+  <hopobject id="3567" name="Page" prototype="Page" created="1396975410691" lastModified="1472153006937">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>updater</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</http_browser>
-    <time type="date">25.08.2016 19:20:40 UTC</time>
+    <time type="date">25.08.2016 19:23:26 UTC</time>
     <hopsession>127.0.0.10ljvtneddow8</hopsession>
     <body>&lt;script src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;/static/jquery.microdata.js&quot;&gt;&lt;/script&gt;
@@ -145,7 +145,7 @@
         var images = [];
         for(var i in parsed.items) {
             var x = parsed.items[i].properties;
-            if(x.device[0].match(/BeagleBone/)) {
+            if(x.device &amp;&amp; x.device[0].match(/BeagleBone/)) {
                 var name = x.name[0] + &apos; &apos; + x.datePublished[0] + &apos; &apos; + x.memoryRequirements[0];
                 if(typeof x.sha256sum == typeof []) {
                     images.push(&apos;&lt;option value=&quot;&apos;+ x.downloadURL[0] + &apos;&quot; sha256sum=&quot;&apos; +
@@ -369,7 +369,7 @@
     }
 &lt;/script&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">708.0</pvcount>
+    <pvcount type="float">711.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427754439:X=1427758039</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/updater/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
