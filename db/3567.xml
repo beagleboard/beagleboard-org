@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3567" name="Page" prototype="Page" created="1396975410691" lastModified="1472153006937">
+  <hopobject id="3567" name="Page" prototype="Page" created="1396975410691" lastModified="1472153045377">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>updater</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</http_browser>
-    <time type="date">25.08.2016 19:23:26 UTC</time>
+    <time type="date">25.08.2016 19:24:05 UTC</time>
     <hopsession>127.0.0.10ljvtneddow8</hopsession>
     <body>&lt;script src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;/static/jquery.microdata.js&quot;&gt;&lt;/script&gt;
@@ -58,7 +58,7 @@
         When the uSD card has been written, your board will reboot automatically.
     &lt;/p&gt;
     &lt;div id=&quot;latestImages&quot; style=&quot;display:inline;&quot;&gt;&lt;/div&gt;
-    &lt;input id=&quot;address&quot; value=&quot;beaglebone.local&quot; size=&quot;40&quot; style=&quot;height:22px;padding:1px;border:2px inset;margin:2px;font-size:1em;&quot;&gt;&lt;/input&gt;
+    &lt;input id=&quot;address&quot; value=&quot;beaglebone.local&quot; size=&quot;30&quot; style=&quot;height:22px;padding:1px;border:2px inset;margin:2px;font-size:1em;&quot;&gt;&lt;/input&gt;
     &lt;input id=&quot;address-go&quot; name=&quot;address-go&quot; type=&quot;submit&quot; value=&quot;GO »&quot; style=&quot;border:1px solid #B4A279; border-radius:5px 5px 5px 5px; margin-bottom:20px; margin-left:25px; padding:10px; width:80px; background-color:#de7224; text-align:center; color:#fff; font-weight:bold; height:3em; cursor:pointer;&quot; /&gt;
     &lt;div id=&quot;progressBarContainer&quot; style=&quot;display:inline-block;border:1px solid #B4A279;border-radius:5px 5px 5px 5px;width:300px;height:20px;&quot;&gt;
         &lt;div id=&quot;progressBar&quot; style=&quot;height:20px;width:1px;background-color:#de7224&quot;&gt;&lt;/div&gt; 
@@ -369,7 +369,7 @@
     }
 &lt;/script&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">711.0</pvcount>
+    <pvcount type="float">715.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427754439:X=1427758039</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/updater/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
