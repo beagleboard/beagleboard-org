@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="332" name="USB download" prototype="Page" created="1218970050915" lastModified="1472164874188">
+  <hopobject id="332" name="USB download" prototype="Page" created="1218970050915" lastModified="1472221874017">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -21,14 +21,14 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
     <cat_host>utility</cat_host>
-    <pvcount type="float">6758.0</pvcount>
-    <prj_status>complete</prj_status>
+    <pvcount type="float">6764.0</pvcount>
     <cat_doc>documentation</cat_doc>
+    <prj_status>complete</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>documentation;utility;</category>
     <homepage>http://elinux.org/BeagleBoard_Community#USB_boot</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/USB+download/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
