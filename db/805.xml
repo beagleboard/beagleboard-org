@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="805" name="page" prototype="Page" created="1254133271765" lastModified="1472299687927">
+  <hopobject id="805" name="page" prototype="Page" created="1254133271765" lastModified="1472416666124">
   <hop:parent idref="803" prototyperef="user"/>
     <body></body>
     <user>vmartinmora.myopenid.com</user>
-    <pseudoparent idref="803" prototyperef="user"/>
     <uri>vmartinmora.myopenid.com</uri>
-    <registrant>vmartinmora.myopenid.com</registrant>
+    <pseudoparent idref="803" prototyperef="user"/>
+    <pvcount type="float">578.0</pvcount>
     <time type="date">28.09.2009 10:21:11 UTC</time>
-    <pvcount type="float">577.0</pvcount>
+    <registrant>vmartinmora.myopenid.com</registrant>
   </hopobject>
 </xmlroot>

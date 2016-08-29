@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2713" name="OBD1 Honda " prototype="Page" created="1370214795917" lastModified="1472303849619">
+  <hopobject id="2713" name="OBD1 Honda " prototype="Page" created="1370214795917" lastModified="1472416227644">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">02.06.2013 23:13:15 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>plus9paradox@gmail.com</registrant>
     <pname>OBD1 Honda Ecu Embedded Serial Interface Suite</pname>
     <user>plus9paradox@gmail.com</user>
-    <pvcount type="float">5829.0</pvcount>
+    <pvcount type="float">5833.0</pvcount>
     <body>Fortunately for the aftermarket community OBD1 Honda ECUs have huge potential in terms of aftermarket tuning. Unfortunately the only solutions for datalogging require a laptop or a $250+ accessory that can datalog in car without the need for a laptop. The former method of datalogging is very akward for everyday driving and requires someone to operate the laptop from the passenger seat. This project aims to make a low-cost and highly functional in-car datalogging unit. My proposed design will include a TFT display with tactile buttons and only require a power connection and serial connection to the ecu (unless additional sensors are needed). By offering a lowcost embedded datalogging solution, one can datalog during daily driving and view live data without a laptop or expensive equipment. This system should allow honda enthusiasts to perfect their tunes on slightly to highly modified motors. Due to the nature of the expenses related with dyno tuning this is a huge benefit. Data will be outputted to the TFT display as well as an SD card for datastorage. It will also be compatible with the serial or analog output of every popular wideband controller. In the future I will be creating an OBD2 + CAN version for newer Hondas as well. For forced induction setups I will include the ability for additional sensors (EGT, etc...), Boost Solenoid Control, failsafes, and potentially boost by gear. *Please note that any information obtained through data logging should be used with caution, as properly tuning vehicles requires knowledge and skill*</body>
     <errmsg></errmsg>
     <homepage></homepage>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1411" name="PostBot" prototype="Page" created="1298299182117" lastModified="1472327917950">
+  <hopobject id="1411" name="PostBot" prototype="Page" created="1298299182117" lastModified="1472416440589">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">21.02.2011 14:39:42 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>serhancosar.myopenid.com</registrant>
     <pname>Postman Robot</pname>
     <user>serhancosar.myopenid.com</user>
-    <pvcount type="float">5605.0</pvcount>
+    <pvcount type="float">5607.0</pvcount>
     <body>The aim of this project is to build a robot that can act as a postman of the internal mail system of offices, universities etc. 
 
 Although we are in the age of electronic mails, there are still some documents that need to be sent as a hard copy. In office buildings, universities, this is handled in an old-fashion way, using a postman, which lacks of speed. A robot can do the same job faster and by carrying more post at a time. It can also connect to the internal Wifi, so that the main queue system will be on a web-page. Users can see where the PostBot is, see the job list, waiting time and assign jobs online via this page.</body>
