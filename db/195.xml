@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1465321562649">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1472657896091">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,9 +12,9 @@
     <beagleirclog>000000</beagleirclog>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>default</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">07.06.2016 17:46:02 UTC</time>
-    <hopsession>127.0.0.duc4hwl0as8r</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</http_browser>
+    <time type="date">31.08.2016 15:38:16 UTC</time>
+    <hopsession>127.0.0.10ljvtneddow8</hopsession>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
  &lt;!-- slider --&gt;
@@ -192,12 +192,15 @@ $(document).ready(function(){
 &lt;/div&gt;
 &lt;div id=&quot;hp-c2&quot; style=&quot;background-color: #f1f1f1; padding: 10px; width: 250px; border-radius: 5px 5px 5px 5px;&quot;&gt;
 &lt;h1 style=&quot;margin-top: 0px&quot;&gt;Community Activity&lt;/h1&gt;
+&lt;!--
 &lt;p&gt;&lt;strong id=&quot;element14&quot;&gt;&lt;a id=&quot;e14-click&quot; href=&quot;https://element14.com/element14_BBB&quot;&gt;Element14
 delivers BeagleBoard Compliant BeagleBone Black&lt;/strong&gt; &lt;br /&gt;...more&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;
 $(&apos;#e14&apos;).on(&apos;click&apos;, function() {
   ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, &apos;element14&apos;, &apos;community activity&apos;);
 });
+--&gt;
+&lt;script&gt;
 var ne = 0;
 var gp_entries = {};
 function handleResponse(resp) {
@@ -223,7 +226,7 @@ function makeRequest() {
     gapi.client.plus.activities.list({
         &apos;userId&apos;: &apos;109587204186717390991&apos;,
         &apos;collection&apos;: &apos;public&apos;, 
-        &apos;maxResults&apos;: 3
+        &apos;maxResults&apos;: 4
     }).execute(handleResponse);
     console.log(&quot;Made request to Google&quot;);
 }
@@ -322,15 +325,15 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">78.0</pvcount>
+    <pvcount type="float">79.0</pvcount>
     <prev idref="194" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/default/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="217" prototyperef="user"/>
     <hop:child idref="219" prototyperef="user"/>
   </hopobject>
