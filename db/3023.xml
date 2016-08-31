@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3023" name="makoserver.net" prototype="Page" created="1376949045070" lastModified="1472501440973">
+  <hopobject id="3023" name="makoserver.net" prototype="Page" created="1376949045070" lastModified="1472593421407">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">19.08.2013 21:50:45 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>realtimelogic.myopenid.com</registrant>
     <pname>Mako Server</pname>
     <user>realtimelogic.myopenid.com</user>
-    <pvcount type="float">6652.0</pvcount>
+    <pvcount type="float">6656.0</pvcount>
     <body>&lt;p&gt;The Mako Server removes the complexity of deploying a web application. To develop web applications, developers must typically integrate and configure many components such as Apache, PHP, and an SQL database. In contrast, Mako Server brings all of these components together, bundling them into one unit so that the application developer can immediately focus on application development for Windows, Mac OS, and Linux or on devices such as Raspberry Pi. Facilitating easy application deployment, developers can bundle their application into a single zip file so that users can download and run the application just as they would a Windows-based application.&lt;br /&gt; &lt;br /&gt;Mako Server&apos;s comprehensive library, based on Real Time Logic&apos;s flagship product Barracuda Application Server, integrates and streamlines all resources needed for a very fast web-server back end. In addition to the Lua Server Pages and virtual machine, the Barracuda Application Server library includes REST, AJAX, SOAP, JSON, and XML services; an SMTP client; both client and server SSL/TLS security; client HTTPS; the WebDAV file exchange protocol, and a process management API. An SQL database is also integrated into Mako Server. All components have been optimized for robust, high-speed information exchange, even on underpowered computers.&lt;/p&gt;</body>
     <errmsg></errmsg>
     <homepage>http://makoserver.net/</homepage>
