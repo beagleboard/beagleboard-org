@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2363" name="DeviantLCD" prototype="Page" created="1357009837110" lastModified="1472735296813">
+  <hopobject id="2363" name="DeviantLCD" prototype="Page" created="1357009837110" lastModified="1472931170054">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Chris Clark</name>
@@ -11,11 +11,11 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>sirhc87611@gmail.com</registrant>
     <user>sirhc87611@gmail.com</user>
-    <pvcount type="float">1378.0</pvcount>
+    <pvcount type="float">1379.0</pvcount>
     <body>Stick it to standards and bit-bang an LCD interface! This cape features a 240x320 LCD with touchscreen connected to the BeagleBone PRU and GPIOs. Use it when you can&apos;t spare the BeagleBone&apos;s LCD interface pins for a regular display cape.</body>
     <errmsg></errmsg>
-    <email>chris@clarkengineer.com</email>
     <youtube_url>http://youtu.be/hFeXr79dWaM</youtube_url>
+    <email>chris@clarkengineer.com</email>
     <render_skin>cape</render_skin>
     <project_url>https://github.com/cclark2/deviantlcd_bbone_cape</project_url>
   </hopobject>
