@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1450" name="LVDS LCD" prototype="Page" created="1300723450543" lastModified="1473116854450">
+  <hopobject id="1450" name="LVDS LCD" prototype="Page" created="1300723450543" lastModified="1473205240266">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>This small board is connected to two LCD headers on the bottom of BeagleBoard-xM (and original BeagleBoard), and provides simple interface to LVDS LCD panels like those you can find in notebooks. Schematic and Gerbers are available. Also, you can order bare PCB, fully assembled board or full bundle with LCD, touchscreen and ambient light sensor.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">19077.0</pvcount>
+    <pvcount type="float">19099.0</pvcount>
     <homepage>http://www.chalk-elec.com</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
