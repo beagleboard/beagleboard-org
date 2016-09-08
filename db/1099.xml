@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1099" name="VCWC" prototype="Page" created="1274208473448" lastModified="1473189136203">
+  <hopobject id="1099" name="VCWC" prototype="Page" created="1274208473448" lastModified="1473281824713">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">18.05.2010 18:47:53 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>sskendre.myopenid.com</registrant>
     <pname>Voice Controlled Wheelchair</pname>
     <user>sskendre.myopenid.com</user>
-    <pvcount type="float">4760.0</pvcount>
+    <pvcount type="float">4768.0</pvcount>
     <body>It is proposed to implement a speaker dependent / independent system for voice command recognition. The system will implement a denoising method for noise removal from the voice command. It is proposed to implement denoising and voice recognition using DSP. The recognized commands will then activate a controller which is PIC/Arduino based controller. It is proposed to implement a system using ultrasonic transducer and a motorized control for wheelchair.</body>
     <errmsg></errmsg>
     <homepage></homepage>
