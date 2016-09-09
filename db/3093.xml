@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3093" name="RGB LED (Hello World for BBB)" prototype="Page" created="1379386965520" lastModified="1473262065485">
+  <hopobject id="3093" name="RGB LED (Hello World for BBB)" prototype="Page" created="1379386965520" lastModified="1473309712457">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">17.09.2013 03:02:45 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jnormandin63@gmail.com</registrant>
     <pname>RGB LED Hello World Beagle Bord  Project</pname>
     <user>jnormandin63@gmail.com</user>
-    <pvcount type="float">8153.0</pvcount>
+    <pvcount type="float">8157.0</pvcount>
     <body>&lt;p&gt;Here&apos;s a real simple hello world project.&amp;nbsp; This uses 3 pwm pins. I disabled my HDMI port.&lt;/p&gt;
 &lt;p&gt;Here&apos;s the pic of my wiring and also the code.&amp;nbsp; I&apos;ll post more info later.&amp;nbsp; For now this code wull fad&amp;nbsp; red to green to blue.&amp;nbsp; next will be walking through a rgb table.&amp;nbsp; I already wrote&amp;nbsp; a&amp;nbsp; crzy spinning effect but that will be posted later.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
