@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1188" name="AUV" prototype="Page" created="1280677448632" lastModified="1473538255407">
+  <hopobject id="1188" name="AUV" prototype="Page" created="1280677448632" lastModified="1473567464654">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">01.08.2010 15:44:08 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>alan-schoen.myopenid.com</registrant>
     <pname>Autonomous Underwater Vehicle</pname>
     <user>alan-schoen.myopenid.com</user>
-    <pvcount type="float">6097.0</pvcount>
+    <pvcount type="float">6101.0</pvcount>
     <body>Our goal is to implement the control and vision for our Autonomous Underwater Vehicle, a robotic submarine which navigates without any human input.  The vehicle must navigate a course which contains visual cues to help guide the robot.  
 Success will involve two separate sub-projects.  First, we will implement high-level control routines.  This means combining physical readings from all of the different sensors and determining the course of action for the robot.  The robot has a variety of sensors including accelerometers, gyroscopes, a depth sensor, a compass, and cameras.  Interpreting all of this information and making it useful will require an implementation of Kalman Filtering, PID control, and a state-machine.  The state machine will contain high level instructions like &quot;maintain heading&quot;, and &quot;pursue object.&quot;  The second sub-project is a set of computer vision routines.  These will be implemented in OpenCV, and include segmenting objects from their surroundings, determining their orientation and distance, and distinguishing patterns.  We have determined that 3 processed images per second is sufficient for our objectives, so we expect that a beagle board will have adequate computational power.  The small size and low power consumption make them ideal for use in a closed system like a submarine.  Battery power is limited, and a beagle board will consume less than one tenth the power of our current computer.</body>
     <errmsg></errmsg>

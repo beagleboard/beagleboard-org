@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="868" name="BeagleWalker" prototype="Page" created="1258186971549" lastModified="1473506472112">
+  <hopobject id="868" name="BeagleWalker" prototype="Page" created="1258186971549" lastModified="1473619773658">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">14.11.2009 08:22:51 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>darthdj.myopenid.com</registrant>
     <pname>Beagle-Walker</pname>
     <user>darthdj.myopenid.com</user>
-    <pvcount type="float">4865.0</pvcount>
+    <pvcount type="float">4873.0</pvcount>
     <body>The project consist in a dog-walker robot using openCV, the robot is meant to take the dog outside for a walk in the block and take it back home with minimal intervention by a human operator(or without any intervention). 
 
 The main goal of the system is analyze the feedback between the dog and the robot, and let the dog walk only in places previously programmed by the dog&apos;s owner</body>
