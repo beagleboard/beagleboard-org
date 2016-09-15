@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="413" name="androidonbeagle" prototype="Page" created="1224612596485" lastModified="1473860149759">
+  <hopobject id="413" name="androidonbeagle" prototype="Page" created="1224612596485" lastModified="1473955461444">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -36,10 +36,10 @@
 </body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5579.0</pvcount>
+    <pvcount type="float">5585.0</pvcount>
     <homepage>http://labs.embinux.org/wiki</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/android/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
