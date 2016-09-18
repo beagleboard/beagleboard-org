@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4194" name="BuddyBot" prototype="Page" created="1462751572206" lastModified="1474213734248">
+  <hopobject id="4194" name="BuddyBot" prototype="Page" created="1462751572206" lastModified="1474216180332">
   <hop:parent idref="20" prototyperef="Page"/>
     <cat_robot>robotics</cat_robot>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -29,13 +29,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
     <contactinfo>hoffman.jon@gmail.com</contactinfo>
-    <pvcount type="float">2356.0</pvcount>
+    <pvcount type="float">2358.0</pvcount>
     <prj_status></prj_status>
     <boardtype>bbblack;</boardtype>
     <category>robotics;</category>
     <homepage>https://github.com/hoffmanjon/SwiftyBones_BuddyBot</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/BuddyBot/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
