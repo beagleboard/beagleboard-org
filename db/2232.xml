@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2232" name="CoolRunner-II CPLD Cape" prototype="Page" created="1352300910723" lastModified="1474310805380">
+  <hopobject id="2232" name="CoolRunner-II CPLD Cape" prototype="Page" created="1352300910723" lastModified="1474472693675">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
     <body>Adding the power of a CPLD to the BeagleBone. It has an Xilinx CoolRunner-II CPLD with 256 macro cells.  (XC2C256-7VQG100C). This cape will add many ways to generate and process digital signals in real time. All signals can be accessed from the P8 and P9 headers of the BeagleBone. If the signal is not already routed on the PCB use a jump wire to route the signal(s).</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">1403.0</pvcount>
+    <pvcount type="float">1406.0</pvcount>
     <email>andreas.kingback@gmail.com</email>
     <render_skin>cape</render_skin>
     <edit_skin>edit_cape</edit_skin>
