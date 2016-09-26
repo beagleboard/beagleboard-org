@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1474858158525">
+  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1474858479340">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>black-wireless</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 02:40:05 UTC</time>
+    <time type="date">26.09.2016 02:54:39 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">40.0</pvcount>
+    <pvcount type="float">42.0</pvcount>
     <body>&lt;h1&gt;BeagleBone Black Wireless&lt;/h1&gt;
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
    &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
@@ -186,12 +186,13 @@ Read books to help you learn fundamental concepts
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c6-prod-details&quot;&gt;
-&lt;h2&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
-Browse the &lt;a href=&quot;TBD&quot; Class=&quot;external&quot;&gt;BeagleBone Black Wireless page&lt;/a&gt; to find all available hardware specifications such as:
+&lt;h2&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black-wireless&quot; class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
+Browse the &lt;a href=&quot;https://github.com/beagleboard/beaglebone-black-wireless&quot; Class=&quot;external&quot;&gt;BeagleBone Black Wireless Github page&lt;/a&gt; to
+find all available hardware specifications such as:
 &lt;ul&gt;
-&lt;li&gt;Bill of Materials&lt;/li&gt;
-&lt;li&gt;PCB Files&lt;/li&gt;
-&lt;li&gt;MFG Files&lt;/li&gt;
+&lt;li&gt;Bill of materials&lt;/li&gt;
+&lt;li&gt;PCB source files&lt;/li&gt;
+&lt;li&gt;Manufacturing files&lt;/li&gt;
 &lt;li&gt;Schematic (PDF and source)&lt;/li&gt;
 &lt;li&gt;System Reference Manual&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;/approved&quot;&gt;Approved accessories&lt;/a&gt;&lt;/p&gt;
@@ -223,6 +224,6 @@ Browse the &lt;a href=&quot;TBD&quot; Class=&quot;external&quot;&gt;BeagleBone B
 
  </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>http://beagleboard.org/black-wireless/edit</http_referer>
+    <http_referer>https://beagleboard.org/black-wireless/edit</http_referer>
   </hopobject>
 </xmlroot>
