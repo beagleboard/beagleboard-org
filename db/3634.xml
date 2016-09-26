@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3634" name="discover" prototype="Page" created="1403287010895" lastModified="1403287030517">
+  <hopobject id="3634" name="discover" prototype="Page" created="1403287010895" lastModified="1474855314083">
   <hop:parent idref="0" prototyperef="Root"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_remotehost>98.250.189.79</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36</http_browser>
-    <uri>discover</uri>
-    <time type="date">20.06.2014 17:56:51 UTC</time>
-    <hopsession>98.250.189.j7fmla9gksqe</hopsession>
-    <body>Place holder. Plan to put all the boards under discover.</body>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_referer>http://beagleboard.org/discover/edit</http_referer>
-    <http_host>beagleboard.org</http_host>
     <lang>en-us</lang>
+    <uri>discover</uri>
+    <http_host>beagleboard.org</http_host>
+    <time type="date">20.06.2014 17:56:51 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <hopsession>98.250.189.j7fmla9gksqe</hopsession>
     <user>jkridner.wordpress.com</user>
+    <pvcount type="float">2.0</pvcount>
+    <body>Place holder. Plan to put all the boards under discover.</body>
+    <http_language>en-US,en;q=0.8</http_language>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_referer>http://beagleboard.org/discover/edit</http_referer>
     <hop:child idref="3635" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
