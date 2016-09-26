@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2298" name="EMMA" prototype="Page" created="1354875057220" lastModified="1474892397011">
+  <hopobject id="2298" name="EMMA" prototype="Page" created="1354875057220" lastModified="1474924369499">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">09.12.2012 06:57:47 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>vkadal@gmail.com</registrant>
     <pname>EMMA- Electronic Marimba Music Automator</pname>
     <user>afrooz.myopenid.com</user>
-    <pvcount type="float">4780.0</pvcount>
+    <pvcount type="float">4782.0</pvcount>
     <body>EMMA works by measuring the rotation of a handle built into a balsa wood box sitting atop our full-size marimba. This data is read in Pure Data from an Arduino Nano board. Pure Data (PD) uses the rotation data to advance a sequencer that is connected to a user defined music score. The score displays a selected melody. As the sequencer advances through the score, PD sends messages to a second Arduino in order to trigger a set of seven solenoids placed under seven marimba keys. Additionally information is relayed back to the original Arduino to send haptic feedback to the handle coupled to a 5v battery.</body>
     <errmsg></errmsg>
     <homepage></homepage>
