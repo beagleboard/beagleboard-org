@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3634" name="discover" prototype="Page" created="1403287010895" lastModified="1474855314083">
+  <hopobject id="3634" name="discover" prototype="Page" created="1403287010895" lastModified="1474855426349">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,8 +12,9 @@
     <http_remotehost>98.250.189.79</http_remotehost>
     <hopsession>98.250.189.j7fmla9gksqe</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">2.0</pvcount>
+    <pvcount type="float">5.0</pvcount>
     <body>Place holder. Plan to put all the boards under discover.</body>
+    <list_children>true</list_children>
     <http_language>en-US,en;q=0.8</http_language>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/discover/edit</http_referer>
