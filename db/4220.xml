@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4220" name="2016-09-26-meet-beaglebone-black-wireless" prototype="Page" created="1474856181678" lastModified="1474898324230">
+  <hopobject id="4220" name="2016-09-26-meet-beaglebone-black-wireless" prototype="Page" created="1474856181678" lastModified="1474899182998">
   <hop:parent idref="2912" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>2016-09-26-meet-beaglebone-black-wireless</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 02:53:08 UTC</time>
-    <pseudoparent idref="2912" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>2016-09-26-meet-beaglebone-black-wireless</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
+    <time type="date">26.09.2016 14:13:02 UTC</time>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">133.0</pvcount>
     <body>&lt;h1&gt;&lt;strong&gt;Meet BeagleBone&lt;sup&gt;&amp;trade;&lt;/sup&gt;&amp;nbsp;Black&amp;nbsp;Wireless, the newest board in the BeagleBone&lt;sup&gt;&amp;trade;&lt;/sup&gt; family&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone&amp;trade; Black computer now comes with built-in wireless networking capability.&lt;br /&gt;&lt;img src=&quot;../../static/images/BeagleBoneBlackWireless_A3_horiz.jpeg&quot; alt=&quot;BeagleBone Black Wireless&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone&amp;trade; Black computer now comes with built-in wireless networking capability.&lt;br /&gt;&lt;img src=&quot;https://beagleboard.org/static/images/BeagleBoneBlackWireless_A3_horiz.jpeg&quot; alt=&quot;BeagleBone Black Wireless&quot; /&gt;&lt;/p&gt;
 &lt;p class=&quot;p1&quot;&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Based on the extremely successful open-source BeagleBone&amp;trade; Black hardware design, BeagleBone&amp;trade; Black Wireless is a high-expansion, maker-focused, community-supported open hardware computer created by the BeagleBoard.org Foundation. Leveraging a partnership with Octavo Systems, BeagleBone&amp;trade; Black Wireless is the easiest to use and modify credit-card sized I&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;T Linux computer.&lt;br /&gt; &amp;nbsp;&lt;br /&gt; BeagleBone&amp;trade; Black Wireless was designed with maximum connectivity in mind, trading in the 10/100 Ethernet port from BeagleBone Black for a high-performance 802.11 b/g/n 2.4GHz WiFi module with Bluetooth. Like BeagleBone Black, Wireless retains HDMI output, serial debug port, PC USB interface, USB 2.0 host, reset and power buttons, and adds two more status LEDs for WiFi and Bluetooth. Also retained is the 4GB of onboard eMMC memory with Debian Linux pre-installed, allowing BeagleBone Black Wireless to boot in around 10 seconds, and have you developing through your web browser in less than 5 minutes using just a single USB cable. &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s1&quot;&gt;BeagleBone&amp;trade; Black Wireless introduces the Octavo Systems OSD3358 SiP (system-in-package) which integrates BeagleBone functionality into one easy-to-use BGA package. The board is open source and designed in CadSoft EAGLE. This combination of an easy to use system-in-package and affordable design tools brings an entire new level of access for people wanting to make their own customized variations.&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
@@ -93,9 +90,12 @@
 &lt;p class=&quot;p4&quot;&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;All product and company names are trademarks&lt;/span&gt;&lt;span class=&quot;s10&quot;&gt;&lt;sup&gt;&amp;trade;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; or registered&lt;/span&gt;&lt;span class=&quot;s10&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p class=&quot;p4&quot;&gt;&amp;nbsp;&lt;/p&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
+    <pseudoparent idref="2912" prototyperef="Page"/>
+    <pvcount type="float">135.0</pvcount>
     <render_skin>blog</render_skin>
-    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/blog/2016-09-26-meet-beaglebone-black-wireless/edit_blog</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
