@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4179" name="Page" prototype="Page" created="1456593356938" lastModified="1474850714578">
+  <hopobject id="4179" name="Page" prototype="Page" created="1456593356938" lastModified="1474853725531">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>xm</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.02.2016 17:15:56 UTC</time>
+    <time type="date">26.09.2016 01:35:25 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.19s641y6plpo</hopsession>
+    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1104.0</pvcount>
-    <body>&lt;script&gt;window.location=&quot;/beagleboard-xm&quot;&lt;/script&gt;</body>
+    <pvcount type="float">1106.0</pvcount>
+    <body>&lt;script&gt;
+    goTracked(&apos;beagleboard-xm&apos;, &apos;xm&apos;, &apos;/beagleboard-xm&apos;, &apos;shortlink&apos;);
+&lt;/script&gt;</body>
     <http_language>en-US,en;q=0.8</http_language>
     <http_referer>http://beagleboard.org/xm/edit</http_referer>
   </hopobject>
