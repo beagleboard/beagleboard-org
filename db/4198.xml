@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1474857737304">
+  <hopobject id="4198" name="Page" prototype="Page" created="1464176210017" lastModified="1474857925294">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>green-wireless</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">18.09.2016 16:18:46 UTC</time>
+    <time type="date">26.09.2016 02:45:25 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">31825.0</pvcount>
+    <pvcount type="float">31827.0</pvcount>
     <body>&lt;h1&gt;SeeedStudio BeagleBone Green Wireless&lt;/h1&gt;
 
 
@@ -168,8 +168,7 @@ $(document).ready(function(){
            $(&apos;option:selected&apos;, this).each(function(){
             var label = $(this).text();
             var link = $(this).val();
-            _gaq.push([&apos;_trackEvent&apos;, &apos;exit&apos;, action, label]);
-            setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+            goTracked(action, link, label);
            });
           });
         });
@@ -315,6 +314,6 @@ Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green_wir
 
  </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>https://beagleboard.org/green-wireless/edit</http_referer>
+    <http_referer>http://beagleboard.org/green-wireless/edit</http_referer>
   </hopobject>
 </xmlroot>
