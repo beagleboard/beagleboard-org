@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1474851336463">
+  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1474852007822">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>black-wireless</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 00:55:36 UTC</time>
+    <time type="date">26.09.2016 01:06:47 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1.0</pvcount>
+    <pvcount type="float">3.0</pvcount>
     <body>&lt;h1&gt;BeagleBone Black Wireless&lt;/h1&gt;
 
 &lt;!--
@@ -123,14 +123,14 @@ open-source hardware design of &lt;a href=&quot;/black&quot;&gt;BeagleBone Black
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;&quot;&gt;
   &lt;a id=&quot;buy-bbbw&quot; style=&quot;color:black;font-size:16px;&quot; 
-   href=&quot;https&quot;
-   class=&quot;external&quot;&gt;Order&lt;/a&gt;
+   href=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;
+   class=&quot;external&quot;&gt;Order from Mouser&lt;/a&gt;
  &lt;/p&gt;
 &lt;/div&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
-  if($(&apos;#buy-abbbi&apos;).length) {
+  if($(&apos;#buy-bbbw&apos;).length) {
     $.get(&apos;/distributors/bbbw&apos;, function(data){
         $(&apos;#buy-bbbw&apos;).replaceWith(data);
         $(&apos;select.dropdown&apos;).each(function(){
