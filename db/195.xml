@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1474855783885">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1474893248258">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>default</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <time type="date">26.09.2016 01:41:34 UTC</time>
+    <time type="date">26.09.2016 12:34:08 UTC</time>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
@@ -23,6 +23,7 @@
 
 &lt;div class=&quot;tislides&quot;&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-black-wireless&quot; href=&quot;/black-wireless&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Black-Banner-Ads950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-green-wireless&quot; href=&quot;/green-wireless&quot;&gt;&lt;img src=&quot;/static/images/BBGW_HomepageBanner.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-musictech&quot; href=&quot;https://www.element14.com/community/community/design-challenges/musictech?ICID=BBB-ORG&quot;&gt;&lt;img src=&quot;/static/images/TW_950x267_MusicTech.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;!--
@@ -326,15 +327,15 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">82.0</pvcount>
+    <pvcount type="float">83.0</pvcount>
     <prev idref="194" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/default/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="217" prototyperef="user"/>
     <hop:child idref="219" prototyperef="user"/>
   </hopobject>
