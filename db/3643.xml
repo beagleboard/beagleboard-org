@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3643" name="Page" prototype="Page" created="1403751248197" lastModified="1474897184797">
+  <hopobject id="3643" name="Page" prototype="Page" created="1403751248197" lastModified="1474898051648">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=6c2d97012982b47ab576de3202fcc0fa482fd6a0..463e:I=1415912797:X=1415916397</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>beagleboard-xm</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.02.2016 17:48:52 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.19s641y6plpo</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">272773.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>beagleboard-xm</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
+    <time type="date">26.09.2016 13:54:11 UTC</time>
+    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <body>&lt;h1&gt;BeagleBoard-xM&lt;/h1&gt;
 
 
@@ -77,6 +73,7 @@
     &lt;li&gt;&lt;a href=&quot;http://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=961&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
  --&gt;
     &lt;li&gt;&lt;a href=&quot;http://www.mouser.com/ProductDetail/BeagleBoard-Org/BeagleBoard-xM/?qs=sGAEpiMZZMswbtOCZfjOjLKX7u2Ui8hq6Hlv0Mom5jk%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
+&lt;!--
     &lt;li&gt;&lt;a href=&quot;http://avnetexpress.avnet.com/store/em/EMController/Development-Kits/Circuitco-Electronics-LLC/BEAGLEBOARD-XM/_/R-14441977/A-14441977/An-0?action=part&amp;catalogId=500201&amp;langId=-1&amp;storeId=500201&amp;listIndex=-1&amp;page=1&amp;rank=0&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;http://www.liquidware.com/shop/show/BB-XM/BeagleBoard+XM&quot;&gt;Liquidware&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://specialcomp.com/beagleboard/xm.htm&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
@@ -89,14 +86,16 @@
     &lt;li&gt;&lt;a href=&quot;http://www.robotistan.com/BeagleBoard-xM,PR-1619.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7160430/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;http://sanatanatech.com/prestashop/259-beagle-board-xm.html&quot;&gt;Sanatana Techtronics&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
+--&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 
 
+&lt;!--
     &lt;a href=&quot;https://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
     &lt;img src=&quot;https://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
    &lt;/a&gt;
-
+--&gt;
 
 &lt;script&gt;
 $(&apos;ul.dropdown&apos;).each(function(){
@@ -107,8 +106,7 @@ $(&apos;ul.dropdown&apos;).each(function(){
    $(&apos;&gt;option:selected&apos;, this).each(function(){
     var label = $(this).text();
     var link = $(this).val();
-    ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, action, label);
-    setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+    goTracked(action, link, label);
    });
   });
   var option=$(document.createElement(&apos;option&apos;));
@@ -205,8 +203,12 @@ Live chat with other open-source enthusiasts
 &lt;!-- end Content Area --&gt;
 
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">272777.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=6c2d97012982b47ab576de3202fcc0fa482fd6a0..463e:I=1415912797:X=1415916397</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/beagleboard-xm/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
