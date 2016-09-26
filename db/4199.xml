@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4199" name="green-wireless" prototype="Page" created="1464177680381" lastModified="1464177714250">
+  <hopobject id="4199" name="green-wireless" prototype="Page" created="1464177680381" lastModified="1474854903318">
   <hop:parent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>green-wireless</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
-    <time type="date">25.05.2016 12:01:20 UTC</time>
-    <hopsession>127.0.0.4jloi154i5r5</hopsession>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
+    <time type="date">26.09.2016 01:55:03 UTC</time>
+    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-green&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;optgroup label=&quot;North America&quot;&gt;
@@ -49,8 +49,7 @@
            $(&apos;option:selected&apos;, this).each(function(){
             var label = $(this).text();
             var link = $(this).val();
-            ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, action, label);
-            setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+            goTracked(action, link, label);
            });
           });
         });
@@ -58,7 +57,7 @@
 
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">3.0</pvcount>
+    <pvcount type="float">4.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/green-wireless/edit</http_referer>
