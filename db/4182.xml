@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4182" name="Page" prototype="Page" created="1457563112707" lastModified="1474853565890">
+  <hopobject id="4182" name="Page" prototype="Page" created="1457563112707" lastModified="1474853665715">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>bone-original</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">09.03.2016 22:50:07 UTC</time>
+    <time type="date">26.09.2016 01:34:25 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1u4noojyjlms6</hopsession>
+    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">31264.0</pvcount>
+    <pvcount type="float">31266.0</pvcount>
     <body>&lt;h1&gt;BeagleBone&lt;/h1&gt;
 
 
@@ -100,8 +100,7 @@ $(&apos;ul.dropdown&apos;).each(function(){
    $(&apos;&gt;option:selected&apos;, this).each(function(){
     var label = $(this).text();
     var link = $(this).val();
-    ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, action, label);
-    setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+    goTracked(action, label, link);
    });
   });
   var option=$(document.createElement(&apos;option&apos;));
