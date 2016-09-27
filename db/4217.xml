@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1474995360090">
+  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1474995530146">
   <hop:parent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>bbbw</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <time type="date">27.09.2016 16:56:00 UTC</time>
+    <time type="date">27.09.2016 16:58:50 UTC</time>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-bbbw&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+    &lt;optgroup label=&quot;North America&quot;&gt;
+        &lt;option value=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;South America (Brazil)&quot;&gt;
+        &lt;option value=&quot;http://br.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;Europe&quot;&gt;
+        &lt;option value=&quot;http://uk.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;Japan&quot;&gt;
+        &lt;option value=&quot;http://www.mouser.jp/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;China&quot;&gt;
+        &lt;option value=&quot;http://www.mouser.cn/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;India&quot;&gt;
+        &lt;option value=&quot;http://www.mouser.in/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;Asia Pacific&quot;&gt;
+        &lt;option value=&quot;http://www.mouser.sg/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/optgroup&gt;
+&lt;!--
     &lt;optgroup label=&quot;North America&quot;&gt;
         &lt;option value=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;https://www.element14.com/community/docs/DOC-83315/l/beaglebone-black-wireless-coming-soon&quot;&gt;element14&lt;/option&gt;
@@ -39,6 +61,7 @@
         &lt;option value=&quot;http://www.mouser.sg/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;https://www.element14.com/community/docs/DOC-83315/l/beaglebone-black-wireless-coming-soon&quot;&gt;element14&lt;/option&gt;
     &lt;/optgroup&gt;
+--&gt;
 &lt;/select&gt;
 &lt;script&gt;
         $(&apos;select.dropdown&apos;).each(function(){
@@ -55,7 +78,7 @@
 &lt;/script&gt;
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">12.0</pvcount>
+    <pvcount type="float">13.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/bbbw/edit</http_referer>
