@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1474853591938">
+  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1474948502368">
   <hop:parent idref="3268" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,12 +10,12 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>black</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <time type="date">26.09.2016 01:33:11 UTC</time>
+    <time type="date">27.09.2016 03:55:02 UTC</time>
     <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;optgroup label=&quot;North America&quot;&gt;
-        &lt;option value=&quot;http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://www.mouser.com/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;http://www.mcmelectronics.com/product/83-16241&quot;&gt;MCM Electronics&lt;/option&gt;
         &lt;option value=&quot;https://www.adafruit.com/products/1996&quot;&gt;Adafruit&lt;/option&gt;
         &lt;option value=&quot;https://www.arrow.com/en/products/bb-bblk-000-arrow/arrow-development-tools&quot;&gt;Arrow **&lt;/option&gt;
@@ -37,14 +37,14 @@
     &lt;optgroup label=&quot;South America (Brazil)&quot;&gt;
         &lt;option value=&quot;http://www.filipeflop.com/pd-1436b0-beaglebone-black-rev-c.html?ct=93349&amp;p=1&amp;s=1&quot;&gt;Filipeflop&lt;/option&gt;
         &lt;option value=&quot;http://www.farnellnewark.com.br/ferramentabeaglebonepretoarmcortexa84gbflas,product,EMB0002,0.aspx&quot;&gt;Newark element14&lt;/option&gt;
-        &lt;option value=&quot;http://br.mouser.com/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://br.mouser.com/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
         &lt;!-- &lt;option value=&quot;http://www.openhacks.com/page/productos/id/741&quot;&gt;Open Hacks&lt;/option&gt; --&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;Europe&quot;&gt;
         &lt;option value=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone&quot;&gt;Farnell element14&lt;/option&gt;
         &lt;option value=&quot;http://cpc.farnell.com/element14/bbone-black-4g/beaglebone-black-rev-c-cortex-a8/dp/SC13491&quot;&gt;CPC Electronics&lt;/option&gt;
         &lt;option value=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/option&gt;
-        &lt;option value=&quot;http://uk.mouser.com/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://uk.mouser.com/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;http://www.exp-tech.de/beaglebone-black-rev-c&quot;&gt;EXP Tech&lt;/option&gt;
         &lt;!--
         &lt;option value=&quot;http://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/option&gt;
@@ -58,21 +58,21 @@
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;Japan&quot;&gt;
         &lt;!-- &lt;option value=&quot;http://store.techshare.jp/shopdetail/000000000719/&quot;&gt;TechShare&lt;/option&gt; --&gt;
-        &lt;option value=&quot;http://www.mouser.jp/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://www.mouser.jp/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;China&quot;&gt;
         &lt;option value=&quot;http://www.embest-tech.com/product/evaluation-boards/beaglebone-black-rev-c.html&quot;&gt;Embest Technology&lt;/option&gt;
-        &lt;option value=&quot;http://www.mouser.cn/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://www.mouser.cn/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;India&quot;&gt;
-        &lt;option value=&quot;http://www.mouser.in/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://www.mouser.in/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;http://in.element14.com/jsp/bespoke/bespoke7.jsp?bespokepage=e14/common/wp/promotions/beaglebone.jsp&amp;isRedirect=true&quot;&gt;element14&lt;/option&gt;
         &lt;!-- &lt;option value=&quot;http://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/option&gt; --&gt;
         &lt;!-- &lt;option value=&quot;http://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/option&gt; --&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;Asia Pacific&quot;&gt;
         &lt;option value=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone&quot;&gt;element14&lt;/option&gt;
-        &lt;option value=&quot;http://www.mouser.sg/new/embedded-solutions/beagleboneblack/n-5g1kZ2bv0qx&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;http://www.mouser.sg/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
     &lt;/optgroup&gt;
 &lt;/select&gt;
 &lt;script&gt;
@@ -114,14 +114,14 @@
 --&gt;
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">49.0</pvcount>
+    <pvcount type="float">50.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427696432:X=1427700032</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/black/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
+    <user>jkridner.wordpress.com</user>
     <hop:child idref="3273" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
