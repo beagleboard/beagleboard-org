@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="336" name="faq" prototype="Page" created="1219074441028" lastModified="1474992210975">
+  <hopobject id="336" name="faq" prototype="Page" created="1219074441028" lastModified="1474995835063">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>faq</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">18.08.2008 15:47:21 UTC</time>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">27.09.2016 17:03:55 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.76.31.18.z8zs5sm3rn0</hopsession>
-    <user>blog.hangerhead.com</user>
-    <pvcount type="float">1922.0</pvcount>
-    <body>
- &lt;script type=&quot;text/javascript&quot;&gt;window.location = &quot;http://beagleboard.org/support/faq&quot;&lt;/script&gt;
+    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">1923.0</pvcount>
+    <body> &lt;script type=&quot;text/javascript&quot;&gt;
+    goTracked(&apos;support-faq&apos;, &apos;/support/faq&apos;, &apos;faq&apos;, &apos;shortlink&apos;);
+ &lt;/script&gt;
  &lt;h1&gt;Frequently Asked Questions&lt;/h1&gt;
  &lt;p&gt;
   Please see the FAQ at
   &lt;a href=&quot;/support/faq&quot;&gt;/support/faq.&lt;/a&gt;
  &lt;/p&gt;
 </body>
-    <http_language>en-us,en;q=0.8,ja;q=0.5,zh;q=0.3</http_language>
+    <http_language>en-US,en;q=0.8</http_language>
     <http_referer>http://beagleboard.org/faq/edit</http_referer>
     <hop:child idref="4100" prototyperef="Page"/>
   </hopobject>
