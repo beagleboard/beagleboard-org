@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1960" name="ZigBeagle" prototype="Page" created="1335619947080" lastModified="1475150171533">
+  <hopobject id="1960" name="ZigBeagle" prototype="Page" created="1335619947080" lastModified="1475186809343">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">28.04.2012 13:32:27 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>raul7.myopenid.com</registrant>
     <pname>ZigBeagle</pname>
     <user>raul7.myopenid.com</user>
-    <pvcount type="float">8785.0</pvcount>
+    <pvcount type="float">8789.0</pvcount>
     <body>The ZigBeagle will allow locally or remotely over-the-air configure, reprogram and monitor all nodes in a ZigBee network from a very convenient graphic interface. A special purpose ZigBee Network Card will be developed with all the necessary Linux drivers for interfacing with the BeagleBoard. Over the top of the low level drivers a C/C++ API will be written providing a convenient interface to the low level ZigBee functionalty, and over the C/C++ API a modular application software will be developed for all task mentioned: configuring, monitoring, deploying, running diagnostics and analyzing IEEE 802.15.4 and ZigBee protocol data frames and packets. </body>
     <errmsg></errmsg>
     <homepage>https://github.com/raul7/ZigBeagle</homepage>
