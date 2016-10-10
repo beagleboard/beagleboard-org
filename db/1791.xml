@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1791" name="soniCube" prototype="Page" created="1323909216183" lastModified="1476126849372">
+  <hopobject id="1791" name="soniCube" prototype="Page" created="1323909216183" lastModified="1476137061656">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
 The soniCube is played with two hands while moving around in an X,Y plane. These two interactions allow control of the onset and pitch played, as well as a wide range of timbres to be expressed in one instrument.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4804.0</pvcount>
+    <pvcount type="float">4806.0</pvcount>
     <homepage>http://www.stanford.edu/~evanlee/sonicube.pdf</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
