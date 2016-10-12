@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2400" name="6LBR" prototype="Page" created="1361537771723" lastModified="1476197708850">
+  <hopobject id="2400" name="6LBR" prototype="Page" created="1361537771723" lastModified="1476232919180">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">22.02.2013 12:56:11 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>laurent.deru@cetic.be</registrant>
     <pname>6LBR</pname>
     <user>laurent.deru@cetic.be</user>
-    <pvcount type="float">12051.0</pvcount>
+    <pvcount type="float">12053.0</pvcount>
     <body>A 6LoWPAN Border Router connects your 6LoWPAN devices to the Internet and is responsible for handling traffic to and from the IPv6 and 802.15.4 interfaces. 6LBR is a deployment-ready solution for 6LoWPAN/RPL border routers, based on Contiki OS. You don&apos;t need to be a Contiki expert to get started with it, it is designed to run out-of-the-box on BeagleBone.</body>
     <errmsg></errmsg>
     <homepage>http://cetic.github.com/6lbr</homepage>
