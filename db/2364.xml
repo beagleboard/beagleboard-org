@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2364" name="CapeWings" prototype="Page" created="1357010477046" lastModified="1476298987661">
+  <hopobject id="2364" name="CapeWings" prototype="Page" created="1357010477046" lastModified="1476337380831">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Chris Clark</name>
@@ -11,11 +11,11 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>sirhc87611@gmail.com</registrant>
     <user>sirhc87611@gmail.com</user>
-    <pvcount type="float">835.0</pvcount>
+    <pvcount type="float">836.0</pvcount>
     <body>Breaks down cape stacks into a form factor easier to debug without having to keep removing capes. Supports selectively jumpering signals between the BeagleBone and up to three capes. Also allows multiple BeagleBones to be connected together. It&apos;s a cape developer&apos;s dream!</body>
     <errmsg></errmsg>
-    <youtube_url>http://youtu.be/Ci1aKsf_dBM</youtube_url>
     <email>chris@clarkengineer.com</email>
+    <youtube_url>http://youtu.be/Ci1aKsf_dBM</youtube_url>
     <render_skin>cape</render_skin>
     <project_url>https://github.com/cclark2/capewings_bbone_cape</project_url>
   </hopobject>
