@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3410" name="page" prototype="Page" created="1390915763405" lastModified="1476348077709">
+  <hopobject id="3410" name="page" prototype="Page" created="1390915763405" lastModified="1476459260972">
   <hop:parent idref="3331" prototyperef="user"/>
     <body></body>
     <user>quentin.therond@awabot.com</user>
-    <pseudoparent idref="3331" prototyperef="user"/>
     <uri>quentin.therond@awabot.com</uri>
-    <registrant>quentin.therond@awabot.com</registrant>
+    <pseudoparent idref="3331" prototyperef="user"/>
+    <pvcount type="float">613.0</pvcount>
     <time type="date">28.01.2014 13:29:23 UTC</time>
-    <pvcount type="float">612.0</pvcount>
+    <registrant>quentin.therond@awabot.com</registrant>
   </hopobject>
 </xmlroot>
