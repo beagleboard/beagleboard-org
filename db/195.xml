@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1476990015664">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1476990101509">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>default</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36</http_browser>
-    <time type="date">20.10.2016 19:00:15 UTC</time>
+    <time type="date">20.10.2016 19:01:41 UTC</time>
     <hopsession>127.0.0.1812g529t9drd</hopsession>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
@@ -95,85 +95,87 @@
 &lt;/div&gt;
 
 &lt;div id=&quot;hp-c3&quot;&gt;&lt;div&gt;
-&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;
-&lt;p style=&quot;padding-right:10px&quot;&gt;A true open hardware, community-supported 
-embedded computer for developers and hobbyists. Ride the 1GHz edge with the Sitara™ ARM® 
-Cortex-A8 processor, boot Linux in under 10 seconds and get started on development in less 
-than 5 minutes with just a single USB cable.&lt;/p&gt;
- 
-    &lt;h3&gt;Key Features:&lt;/h3&gt;
-    &lt;table id=&quot;features&quot; width=&quot;250&quot; border=&quot;0&quot; cellpadding=&quot;0px&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;background-color:#ffffff; padding:0px&quot;&gt;&lt;li&gt;1GHz performance&lt;/li&gt;&lt;/td&gt;
-    &lt;td style=&quot;background-color:#ffffff; padding:0px&quot;&gt;&lt;li&gt;Run Ubuntu &amp; Android&lt;/li&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;background-color:#ffffff; padding:0px&quot;&gt;&lt;li&gt;uHDMI, uSD, USB,       Ethernet, 5V&lt;/li&gt;&lt;/td&gt;
-    &lt;td style=&quot;background-color:#ffffff; padding:0px&quot;&gt;&lt;li&gt;Built-in 4GB storage        with Debian&lt;/li&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  
-&lt;/table&gt;&lt;br/&gt;
-&lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »
+&lt;div id=&quot;t2-c1-content&quot;&gt;
+&lt;h2&gt;What is BeagleBone Black Wireless?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;
+Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the 
+popular open source &lt;a href=&quot;/black&quot;&gt;BeagleBone™ Black&lt;/a&gt; computer now comes with built-in 
+wireless networking capability. Leveraging a partnership with Octavo Systems and designed in
+CadSoft Eagle, BeagleBone™ Black Wireless is the easiest to use and modify credit-card sized
+IoT Linux computer available.
+&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;AM335x 1GHz 
+    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;4GB 8-bit eMMC on-board flash storage&lt;/li&gt;
+&lt;li&gt;3D graphics accelerator&lt;/li&gt;
+&lt;li&gt;NEON floating-point accelerator&lt;/li&gt;
+&lt;li&gt;2x PRU 32-bit microcontrollers&lt;/li&gt;
 
-   
-&lt;div id=&quot;CTA&quot;&gt;
-    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
- &lt;br /&gt;
-&lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://specialcomp.com/beaglebone/&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/products/1278&quot;&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.makershed.com/BeagleBoard_BeagleBone_Black_p/mkcce3.htm?Click=142528&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://parts.arrow.com/item/detail/circuitco/bb-bblk-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://avnetexpress.avnet.com/store/em/EMController?action=products&amp;catalogId=500201&amp;storeId=500201&amp;N=0&amp;langId=-1&amp;slnk=b&amp;term=BB-BBLK-000&amp;hrf=http%3A%2F%2Fwww.em.avnet.com%2Fen-us%2Fdesign%2Fdrc%2FPages%2FCircuitco-BeagleBone-Black-Open-Source-Hardware-Platform.aspx&amp;intcmp=EMA-BUY-BB-BBLK-000&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176149_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.openhacks.com/page/productos/id/359&quot;&gt;Openhacks.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tigal.com/product/3406&quot;&gt;Tigal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.conrad.biz/bb/&quot;&gt;Conrad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.watterott.com/de/BeagleBone-Black&quot;&gt;Watterott&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://store.techshare.jp/shopbrand/006/Y/&quot;&gt;TechShare Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.electroshopdendermonde.be/index.php/webshop/beaglebone/beaglebone-black&quot;&gt;Electroshop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.chipsee.com/product/evm/beagle.html&quot;&gt;Chipsee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.exp-tech.de/Mainboards/BeagleBone-Black.html&quot;&gt;EXP Tech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.abra-electronics.com/products/BeagleBone-Black-Single%252dBoard-Computer-Development-Board-.html&quot;&gt;Abra Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://embeddedcomputer.nl/beagleboard/beagleboard-beaglebone.html&quot;&gt;EmbeddedComputer.nl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.rpelectronics.com/bb-bblk-000-beaglebone-black-development-board.html&quot;&gt;RP Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.active123.com/BeagleBone-Black-Development-Board-Prodview.html&quot;&gt;Active&lt;/a&gt;&lt;/li&gt; 
-  &lt;li&gt;&lt;a href=&quot;https://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.logicsupply.com/products/bb_bblk_000&quot;&gt;Logic Supply&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lextronic.fr/P28675-platine-beaglebone-black-rev-a5a.html&quot;&gt;Lextronic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1061&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.robotistan.com/BeagleBone-Black,PR-1523.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.embest-tech.cn/shop/star/beaglebone-black.html&quot;&gt;Embest Version&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 
- 
+
+ &lt;div id=&quot;t2-c5b&quot;&gt;  
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;USB client for power &amp; communications&lt;/li&gt;
+  &lt;li&gt;USB host&lt;/li&gt;
+  &lt;li&gt;802.11b/g/n and Bluetooth 4.1 plus BLE&lt;/li&gt;
+  &lt;li&gt;HDMI&lt;/li&gt;
+  &lt;li&gt;2x 46 pin headers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+ &lt;div id=&quot;t2-c5c&quot;&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;Debian with Cloud9 IDE on Node.js w/ BoneScript library&lt;/li&gt;
+  &lt;li&gt;Third party support for Android and Ubuntu&lt;/li&gt;
+  &lt;li&gt;plus much more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;CTA&quot;&gt;
+  &lt;a href=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;p style=&quot;background-color:#EEEEEE;border-radius:6px;
+  padding: 2px 2px 2px 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;&quot;&gt;
+  &lt;a id=&quot;buy-bbbw&quot; style=&quot;color:black;font-size:16px;&quot; 
+   href=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;
+   class=&quot;external&quot;&gt;Order from Mouser&lt;/a&gt;
+ &lt;/p&gt;
 &lt;/div&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
-  if($(&apos;#buy-black&apos;).length) {
-    $.get(&apos;/distributors/black&apos;, function(data){
-        $(&apos;#buy-black&apos;).replaceWith(data);
-        $(&apos;select.dropdown&apos;).each(function(){
-          var list = $(this);
-          var action = list.attr(&apos;id&apos;); 
-          list.change(function(){
-           $(&apos;option:selected&apos;, this).each(function(){
-            var label = $(this).text();
-            var link = $(this).val();
-            goTracked(action, link, label);
-           });
-          });
+    if($(&apos;#buy-bbbw&apos;).length) {
+        $.get(&apos;/distributors/bbbw&apos;, function(data) {
+            $(&apos;#buy-bbbw&apos;).replaceWith(data);
+            $(&apos;select.dropdown&apos;).each(function() {
+                var list = $(this);
+                var action = list.attr(&apos;id&apos;); 
+                list.change(function() {
+                    $(&apos;option:selected&apos;, this).each(function() {
+                        var label = $(this).text();
+                        var link = $(this).val();
+                        goTracked(action, link, label);
+                    });
+                });
+            });
         });
-    });
-  }
+    }
 });
 &lt;/script&gt;
 &lt;/div&gt;
@@ -322,7 +324,7 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">85.0</pvcount>
+    <pvcount type="float">86.0</pvcount>
     <prev idref="194" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
