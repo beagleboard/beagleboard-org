@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1476990755923">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1476990944752">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>default</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36</http_browser>
-    <time type="date">20.10.2016 19:12:35 UTC</time>
+    <time type="date">20.10.2016 19:15:44 UTC</time>
     <hopsession>127.0.0.1812g529t9drd</hopsession>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
@@ -135,6 +135,7 @@ IoT Linux computer available.
 
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
  &lt;div id=&quot;t2-c5c&quot;&gt;
+
 &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
   &lt;li&gt;Debian with Cloud9 IDE on Node.js w/ BoneScript library&lt;/li&gt;
@@ -182,12 +183,8 @@ $(document).ready(function(){
 &lt;!-- #######################################################--&gt;
 
 
-&lt;/div&gt;
-&lt;a href=&quot;/black-wireless&quot; name=&quot;BeagleBone Black Wireless Image&quot;&gt;
-&lt;img src=&quot;/static/images/BeagleBoneBlackWireless_A3_small.jpg&quot; border=&quot;0&quot;  /&gt;&lt;/a&gt;
-    
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;!-- t2-c5c --&gt; 
+&lt;/div&gt;&lt;/div&gt;&lt;!-- hp-c3 --&gt;
 &lt;div id=&quot;hp-c2&quot; style=&quot;background-color: #f1f1f1; padding: 10px; width: 250px; border-radius: 5px 5px 5px 5px;&quot;&gt;
 &lt;h1 style=&quot;margin-top: 0px&quot;&gt;Community Activity&lt;/h1&gt;
 &lt;!--
@@ -323,7 +320,7 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">88.0</pvcount>
+    <pvcount type="float">89.0</pvcount>
     <prev idref="194" prototyperef="Page"/>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
