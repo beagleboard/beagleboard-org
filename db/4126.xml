@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4126" name="Page" prototype="Page" created="1444819841808" lastModified="1476989434424">
+  <hopobject id="4126" name="Page" prototype="Page" created="1444819841808" lastModified="1476989760213">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>x15</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36</http_browser>
-    <time type="date">20.10.2016 18:50:34 UTC</time>
+    <time type="date">20.10.2016 18:56:00 UTC</time>
     <hopsession>127.0.0.1812g529t9drd</hopsession>
     <body>&lt;h1&gt;BeagleBoard-X15&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Sign up below for notifications of availability and approved distributors to place orders.
@@ -129,7 +129,7 @@ $(document).ready(function(){
                     $(&apos;option:selected&apos;, this).each(function() {
                         var label = $(this).text();
                         var link = $(this).val();
-                        goTracked(action, link, label, &apos;buy-x15&apos;);
+                        goTracked(action, link, label);
                     });
                 });
             });
@@ -193,7 +193,7 @@ $(document).ready(function(){
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">169916.0</pvcount>
+    <pvcount type="float">169917.0</pvcount>
     <http_referer>http://beagleboard.org/x15/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
