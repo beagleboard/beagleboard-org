@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1476988723564">
+  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1476989559575">
   <hop:parent idref="3268" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>black</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36</http_browser>
-    <time type="date">19.10.2016 14:43:02 UTC</time>
+    <time type="date">20.10.2016 18:52:39 UTC</time>
     <hopsession>127.0.0.1812g529t9drd</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
@@ -75,19 +75,7 @@
         &lt;option value=&quot;http://www.mouser.sg/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
     &lt;/optgroup&gt;
 &lt;/select&gt;
-&lt;script&gt;
-        $(&apos;select.dropdown&apos;).each(function(){
-          var list = $(this);
-          var action = list.attr(&apos;id&apos;); 
-          list.change(function(){
-           $(&apos;option:selected&apos;, this).each(function(){
-            var label = $(this).text();
-            var link = $(this).val();
-            goTracked(action, label, link);
-           });
-          });
-        });
-&lt;/script&gt;
+
 &lt;!--
     &lt;optgroup label=&quot;North America&quot;&gt;
         &lt;option value=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Newark&lt;/option&gt;
@@ -114,14 +102,14 @@
 --&gt;
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">54.0</pvcount>
+    <pvcount type="float">55.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427696432:X=1427700032</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <render_skin>bare</render_skin>
     <skin_is_outer>1</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/black/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="3273" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
