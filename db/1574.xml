@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1574" name="simulink" prototype="Page" created="1310311395124" lastModified="1477763352533">
+  <hopobject id="1574" name="simulink" prototype="Page" created="1310311395124" lastModified="1477863133778">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.07.2011 15:23:15 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>Simulink Support for BeagleBoard</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">9200.0</pvcount>
+    <pvcount type="float">9204.0</pvcount>
     <body>MATLAB and Simulink can be used to develop standalone, real-time algorithms for the BeagleBoard, a low-cost, single-board computer designed for audio, video, and digital signal processing. The standard BeagleBoard includes a TI OMAP3530 processor that has an ARM Cortex core running Linux; a C64x+ DSP core; stereo audio and digital video connectivity; and USB, RS232, and Ethernet support. </body>
     <errmsg></errmsg>
     <homepage>http://www.mathworks.com/academia/beagleboard/</homepage>
