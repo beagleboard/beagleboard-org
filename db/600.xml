@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="600" name="OMAP35x SMP" prototype="Page" created="1241166731678" lastModified="1477781008540">
+  <hopobject id="600" name="OMAP35x SMP" prototype="Page" created="1241166731678" lastModified="1477888477347">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -22,13 +22,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">5674.0</pvcount>
+    <pvcount type="float">5676.0</pvcount>
     <prj_status>concept</prj_status>
     <boardtype>bbxm;bboard;</boardtype>
     <category>library;demo;</category>
     <homepage>http://code.google.com/p/omap35x-smp-supercomputing-ulp/</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/OMAP35x+SMP/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
