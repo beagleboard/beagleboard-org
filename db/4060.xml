@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4060" name="Page" prototype="Page" created="1431530954233" lastModified="1478044771984">
+  <hopobject id="4060" name="Page" prototype="Page" created="1431530954233" lastModified="1478059839881">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>green</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 02:41:31 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">122793.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>green</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36</http_browser>
+    <time type="date">02.11.2016 04:10:39 UTC</time>
+    <hopsession>127.0.0.5ztdxdpu3m7y</hopsession>
     <body>&lt;h1&gt;SeeedStudio BeagleBone Green&lt;/h1&gt;
 
 
@@ -204,7 +200,7 @@ First step: connect your Beagle to this site
 Collaborate on the Beagle community forum
 &lt;br&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green&quot; class=&quot;external&quot;&gt;Hardware Discussion Groups&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://wiki.seeed.cc/BeagleBone_Green/&quot; class=&quot;external&quot;&gt;Hardware Discussion Groups&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
 Visit the Seeed Studio wiki for hardware support
 &lt;br&gt;
 
@@ -219,8 +215,8 @@ Read books to help you learn fundamental concepts
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c6-prod-details&quot;&gt;
-&lt;h2&gt;&lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green&quot; Class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
-Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green&quot; Class=&quot;external&quot;&gt;BeagleBone Green wiki&lt;/a&gt; to find all available hardware specifications such as:
+&lt;h2&gt;&lt;a href=&quot;http://wiki.seeed.cc/BeagleBone_Green/&quot; Class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
+Browse the &lt;a href=&quot;http://wiki.seeed.cc/BeagleBone_Green/&quot; Class=&quot;external&quot;&gt;BeagleBone Green wiki&lt;/a&gt; to find all available hardware specifications such as:
 &lt;ul&gt;
 &lt;li&gt;Bill of Materials&lt;/li&gt;
 &lt;li&gt;PCB Files&lt;/li&gt;
@@ -290,8 +286,12 @@ Browse the &lt;a href=&quot;http://www.seeedstudio.com/wiki/Beaglebone_green&quo
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">122823.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/green/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
