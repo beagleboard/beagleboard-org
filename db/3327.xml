@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3327" name="OTR" prototype="Page" created="1387641096275" lastModified="1478114202525">
+  <hopobject id="3327" name="OTR" prototype="Page" created="1387641096275" lastModified="1478209860853">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">21.12.2013 15:51:36 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>kmdineshece@gmail.com</registrant>
     <pname>Object Tracking Robot</pname>
     <user>kmdineshece@gmail.com</user>
-    <pvcount type="float">6337.0</pvcount>
+    <pvcount type="float">6341.0</pvcount>
     <categories>robotics</categories>
     <body>&lt;p&gt;A camera captures image and sends to beagle as continuosly, the sitara processor performs edge detection based on camera output. whenever some new object is founded the robot follows the new object and it details send to webserver via wireless network (Wi-Fi).&lt;/p&gt;</body>
     <errmsg></errmsg>
