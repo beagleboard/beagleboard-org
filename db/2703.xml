@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2703" name="BBBabb" prototype="Page" created="1370000568510" lastModified="1478191920437">
+  <hopobject id="2703" name="BBBabb" prototype="Page" created="1370000568510" lastModified="1478284303711">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>98.250.189.79</http_remotehost>
@@ -22,14 +22,14 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://beagleboot.vdev.ro/?feed=rss2</rssfeed>
     <cat_host>utility</cat_host>
-    <pvcount type="float">8967.0</pvcount>
-    <prj_status>complete</prj_status>
+    <pvcount type="float">8973.0</pvcount>
     <cat_gsoc>gsoc</cat_gsoc>
+    <prj_status>complete</prj_status>
     <boardtype>bbblack;bbone;</boardtype>
     <category>utility;gsoc;</category>
     <homepage>http://beagleboot.vdev.ro/</homepage>
-    <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
     <http_referer>http://beagleboard.org/project/BBBabb/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
