@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2561" name="Autonomous Robot" prototype="Page" created="1367617772770" lastModified="1478266531666">
+  <hopobject id="2561" name="Autonomous Robot" prototype="Page" created="1367617772770" lastModified="1478334297722">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>Navigational Robots are becoming tools for setting educational foundations in engineering. As technology advances, the demand for robots in the classroom is necessary to fit the needs of real world applications. The next generation of robots will be controlled by processors similar to the BeagleBone. With the support of robotic supply companies: DFRobot, EpicTinker, and Makeblock , our senior design project proposes the use of the BeagleBone processor in instructional environments by developing a Four Wheel Drive Autonomous Robot that will venture through a maze with rugged terrain. Necessary attributes include: independent control of each wheel, a traction control system, an ability to detect walls, tilt measuring accelerometer, and system status reports on an LCD display. Additionally, the robot has flexibility to include more objectives such as making a map of the maze that can later be viewed by a person after navigation. In result, our device inspires others to explore electronics and controls systems engineering and provide hands-on experience for instructional purpose.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5670.0</pvcount>
+    <pvcount type="float">5676.0</pvcount>
     <homepage>https://sites.google.com/site/beaglebonerobot/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
