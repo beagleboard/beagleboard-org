@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1397" name="OpenCV- Haar Training on DSP" prototype="Page" created="1297237552390" lastModified="1478339517387">
+  <hopobject id="1397" name="OpenCV- Haar Training on DSP" prototype="Page" created="1297237552390" lastModified="1478408763006">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>These days, OpenCV is one of key elements of any image processing application implemented in C/C++. Embedded design helps to have mobile, low level, low size and low price implementation of PC applications. Having embedded OpenCV library for digital signal processors (DSP) can be of a very big help to accelerate porting image processing applications to embedded solution. In this project, using the BeagleBoard xM, very important openCV functions and applications like Haar Training are going to be optimized for DSP. Another version of this project is being done in an appreciable and irreplaceable work http://code.google.com/p/opencv-dsp-acceleration/. We will try to expand this set of functions and also include Haar Training.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6859.0</pvcount>
+    <pvcount type="float">6861.0</pvcount>
     <homepage>http://code.google.com/p/opencv-haar-trainig-on-dsp/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>

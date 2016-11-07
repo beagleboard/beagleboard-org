@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3486" name="2014-03-05-debian-beta-released" prototype="Page" created="1394074902761" lastModified="1478363957864">
+  <hopobject id="3486" name="2014-03-05-debian-beta-released" prototype="Page" created="1394074902761" lastModified="1478458804781">
   <hop:parent idref="2912" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -12,7 +12,7 @@
     <http_remotehost>98.250.189.79</http_remotehost>
     <hopsession>98.250.189.xs0mv99vjk0p</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">6196.0</pvcount>
+    <pvcount type="float">6201.0</pvcount>
     <body>&lt;h1&gt;Debian Beta images have been released&lt;/h1&gt;
 &lt;p&gt;As posted earlier today &lt;a href=&quot;https://groups.google.com/d/msg/beagleboard/VRqGZbXBK1Q/8wofUZyTyUsJ&quot;&gt;on the BeagleBoard.org mailing list,&lt;/a&gt; the latest BeagleBone Debian beta images are now posted for broader testing at:&lt;br /&gt;
 &lt;a href=&quot;http://beagleboard.org/latest-images/&quot;&gt;http://beagleboard.org/latest-images/&lt;/a&gt;&lt;/p&gt;
@@ -43,8 +43,8 @@ root@beaglebone# ./build-userspace/Blink.elf
 &lt;p&gt;Drivers and firmware for many common USB WiFi dongles are included, so be sure to report any that you find missing. An issue with the driver for the Logic Supply UWN200 has already been resolved since the release[&lt;a href=&quot;https://groups.google.com/d/msg/beagleboard/VRqGZbXBK1Q/M09l6jdXLYMJ&quot;&gt;**&lt;/a&gt;]. To test it out myself, I uncommented and edited the wlan0 entry in /etc/network/interfaces (including replacing wlan0 with ra0), shutdown, plugged in the adapter and powered up the board again.  I also was able to plug in a TL-WN822N adapter I bought from Amazon and got it working right away.&lt;/p&gt;
 &lt;p&gt;This is just a quick intro to some of the experience and what we are focused on fine tuning. Please take the time to check it out and let us know about your experience. I hope you enjoy it!&lt;/p&gt;</body>
     <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
     <render_skin>blog</render_skin>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/blog/2014-03-04-debian-beta-released/edit</http_referer>
   </hopobject>
 </xmlroot>
