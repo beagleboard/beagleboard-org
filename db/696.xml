@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="696" name="GSTAS" prototype="Page" created="1248142597877" lastModified="1478395048225">
+  <hopobject id="696" name="GSTAS" prototype="Page" created="1248142597877" lastModified="1478542669305">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">21.07.2009 02:16:37 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>mattbettcher.myopenid.com</registrant>
     <pname>Gyro Stabilized Target Acquisition System</pname>
     <user>mattbettcher.myopenid.com</user>
-    <pvcount type="float">4776.0</pvcount>
+    <pvcount type="float">4780.0</pvcount>
     <body>Using an ARM-based processor, camera, gyros, IR markers, wireless connection, and a special motion sensing algorithm the GSTAS attempts to identify possible enemy and friendly targets while in motion. 
 
 The goal is to have a single fully self contained module that attaches to any mobile vehicle and sends real-time data on possible targets over a wireless connection.</body>

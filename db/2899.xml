@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2899" name="RFIDADP" prototype="Page" created="1374507948298" lastModified="1478335470734">
+  <hopobject id="2899" name="RFIDADP" prototype="Page" created="1374507948298" lastModified="1478548825250">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
 &lt;p&gt;The communication between the BBB and the TB is via SPI. Since SPI pins are not automatically enabled on BBB, a device tree overlay is used to configure the pins properly for SPI use.&lt;/p&gt;</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">11734.0</pvcount>
+    <pvcount type="float">11744.0</pvcount>
     <homepage>http://elinux.org/BeagleBone_Black_RFID_Adaptor_Cape</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
