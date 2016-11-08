@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3342" name="Beagle-Mobile" prototype="Page" created="1388195615798" lastModified="1478532190729">
+  <hopobject id="3342" name="Beagle-Mobile" prototype="Page" created="1388195615798" lastModified="1478573724256">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">28.12.2013 01:53:35 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>keith@mccanless.us</registrant>
     <pname>Phone Controlled Beagle</pname>
     <user>keith@mccanless.us</user>
-    <pvcount type="float">6338.0</pvcount>
+    <pvcount type="float">6340.0</pvcount>
     <categories>demo</categories>
     <body>&lt;p&gt;Using Node.js, socket.io, HTML 5, and client-side JavaScript to control IO on the Beaglebone Black. &amp;nbsp;Also, using the same stack to read the temperature using a TMP36 and stream it to the device. &amp;nbsp;Interesting aspects include using DeviceOrientation to control a remote RGB LED and using the Web Speech API to use voice on the phone to turn a LED on the Beaglebone on/off. &amp;nbsp;Code available at https://github.com/kmccanless/BeagleMobile. &amp;nbsp;Demo available at&amp;nbsp;http://youtu.be/nwIsQNKmHvg.&lt;/p&gt;</body>
     <errmsg></errmsg>
