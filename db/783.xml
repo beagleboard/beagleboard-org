@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="783" name="BuildBeagle" prototype="Page" created="1252583146838" lastModified="1478590766408">
+  <hopobject id="783" name="BuildBeagle" prototype="Page" created="1252583146838" lastModified="1478686585953">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">10.09.2009 11:45:46 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>aptasys.myopenid.com</registrant>
     <pname>Buildroot on beagleboard</pname>
     <user>aptasys.myopenid.com</user>
-    <pvcount type="float">7178.0</pvcount>
+    <pvcount type="float">7186.0</pvcount>
     <body>Project to develop a concise but complete rootfs for testing purpose based on Qt 4.5, X11, SDL and DirectFB. Based on Buildroot we shall make a rootfs optimized for OMAP35x to run on the NAND FLASH or SD card. </body>
     <errmsg></errmsg>
     <homepage>http://www.aptasys.eu/index.php?option=com_content&amp;view=article&amp;id=48:buildroot-per-omap35x-ebvbeagle&amp;catid=8:ti-omap-35xx&amp;Itemid=31</homepage>
