@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2114" name="pandora" prototype="Page" created="1348515510717" lastModified="1478812750331">
+  <hopobject id="2114" name="pandora" prototype="Page" created="1348515510717" lastModified="1478892418421">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>This project uses a PIC24 microcontroller, a 4-line LCD, a BeagleBoard, a box, some buttons, Ubuntu 12.04 and the &apos;pianobar&apos; application to make a stand-alone Pandora radio.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed>http://www.engscope.com/feed/</rssfeed>
-    <pvcount type="float">12991.0</pvcount>
+    <pvcount type="float">12993.0</pvcount>
     <homepage>http://www.engscope.com/pandorabar/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>

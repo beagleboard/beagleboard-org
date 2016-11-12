@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="864" name="evmonbeagle" prototype="Page" created="1258087115021" lastModified="1478766720791">
+  <hopobject id="864" name="evmonbeagle" prototype="Page" created="1258087115021" lastModified="1478877757910">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">13.11.2009 04:38:35 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jwinarske.myopenid.com</registrant>
     <pname>Adapting the TI EVM 35xx BSP to the Beagle Board</pname>
     <user>jwinarske.myopenid.com</user>
-    <pvcount type="float">5524.0</pvcount>
+    <pvcount type="float">5530.0</pvcount>
     <body>evmonbeagle makes it easy for Beagle Board owners to get up and running with WinCE 6 R2. TI offers a free WinCE BSP for their EVM OMAP35xx evaluation board. This project focuses on adaptions required to make this BSP run on the BeagleBoard, and potentially the Gumstix Overo.</body>
     <errmsg></errmsg>
     <homepage>http://evmonbeagle.codeplex.com/</homepage>
