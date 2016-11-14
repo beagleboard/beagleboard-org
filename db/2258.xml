@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1479155330228">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1479155538364">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36</http_browser>
-    <time type="date">14.11.2016 20:28:50 UTC</time>
+    <time type="date">14.11.2016 20:32:18 UTC</time>
     <hopsession>127.0.0.5ztdxdpu3m7y</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -85,11 +85,11 @@
 &lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.5-lxqt-4gb-armhf-2016-08-28-4gb.img.xz&quot;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15bbx15-debian-8.6-lxqt-4gb-armhf-2016-11-06-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;8.5&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-08-28&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;8.6&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-11-06&lt;/span&gt;
             &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
         &lt;/a&gt;
@@ -100,11 +100,11 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.5-lxqt-4gb-armhf-2016-08-28-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.6-lxqt-4gb-armhf-2016-11-06-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;e7cae98823f7f9ff9abdb76c76e78071586d89af760391770b4d31a56afa2811&lt;/span&gt;
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;b03799ae3c604d4355ca446cf343e252247e0c2d76fe4f81d0dc004ff02eb232&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;h3&gt;Jessie for 
@@ -300,6 +300,28 @@
 &lt;h3&gt;BeagleBoard-X15&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.5-lxqt-4gb-armhf-2016-08-28-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;8.5&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-08-28&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.5-lxqt-4gb-armhf-2016-08-28-4gb.bmap&quot;&gt;
+            bmap
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;e7cae98823f7f9ff9abdb76c76e78071586d89af760391770b4d31a56afa2811&lt;/span&gt;
+    &lt;/li&gt;    
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
@@ -382,7 +404,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">714036.0</pvcount>
+    <pvcount type="float">714041.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
