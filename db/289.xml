@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="289" name="news" prototype="Page" created="1217374452104" lastModified="1479485595471">
+  <hopobject id="289" name="news" prototype="Page" created="1217374452104" lastModified="1479485673848">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>news</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
-    <time type="date">18.11.2016 16:13:15 UTC</time>
+    <time type="date">18.11.2016 16:14:33 UTC</time>
     <hopsession>127.0.0.192.168.5.bt8t7ewh4yuo</hopsession>
     <body>&lt;script&gt;
 function handleResponse(resp) {
@@ -122,8 +122,10 @@ function onGoogleLoad() {
 &lt;/ul&gt;
 &lt;h2&gt;Blogs that talk about the BeagleBoard&lt;/h2&gt;
 &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;http://beagleboard.blogspot.com&quot;&gt;BeagleBoard Blog&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://beagleintern.blogspot.com&quot;&gt;Beagle Intern Blog&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://jkridner.wordpress.com&quot; class=&quot;external&quot;&gt;Jason&apos;s blog&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://beagleboardfoundation.wordpress.com&quot; class=&quot;external&quot;&gt;Drew&apos;s blog&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://beagleboard.blogspot.com&quot; class=&quot;external&quot;&gt;BeagleBoard Blog&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://beagleintern.blogspot.com&quot; class=&quot;external&quot;&gt;Beagle Intern Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;News entries&lt;/h2&gt;
 &lt;ul id=&quot;slider&quot;&gt;&lt;/ul&gt;
@@ -131,7 +133,7 @@ function onGoogleLoad() {
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <list_children>1</list_children>
-    <pvcount type="float">2529.0</pvcount>
+    <pvcount type="float">2531.0</pvcount>
     <http_referer>https://beagleboard.org/news/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
