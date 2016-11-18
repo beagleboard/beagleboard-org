@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="289" name="news" prototype="Page" created="1217374452104" lastModified="1479485492937">
+  <hopobject id="289" name="news" prototype="Page" created="1217374452104" lastModified="1479485521081">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>news</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
-    <time type="date">18.11.2016 16:11:32 UTC</time>
+    <time type="date">18.11.2016 16:12:01 UTC</time>
     <hopsession>127.0.0.192.168.5.bt8t7ewh4yuo</hopsession>
     <body>&lt;script&gt;
 function handleResponse(resp) {
@@ -71,7 +71,7 @@ function onGoogleLoad() {
 &lt;div id=&quot;mc_embed_signup&quot;&gt;
 &lt;form action=&quot;//beagleboard.us3.list-manage.com/subscribe/post?u=6e7c2131525b7b1b74c71e2cb&amp;id=85ff84625f&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
     &lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
-	&lt;h2&gt;Subscribe to our mailing list&lt;/h2&gt;
+	&lt;!-- &lt;h2&gt;Subscribe to our mailing list&lt;/h2&gt; --&gt;
 &lt;div class=&quot;indicates-required&quot;&gt;&lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
 &lt;div class=&quot;mc-field-group&quot;&gt;
 	&lt;label for=&quot;mce-EMAIL&quot;&gt;Email Address  &lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt;
@@ -132,7 +132,7 @@ function onGoogleLoad() {
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <list_children>1</list_children>
-    <pvcount type="float">2524.0</pvcount>
+    <pvcount type="float">2526.0</pvcount>
     <http_referer>https://beagleboard.org/news/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
