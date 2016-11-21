@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1605" name="video-notes" prototype="Page" created="1311959864282" lastModified="1479592377150">
+  <hopobject id="1605" name="video-notes" prototype="Page" created="1311959864282" lastModified="1479608250353">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>In everyday life while watching videos it takes more time to seek to video position where we are interested. By adding a seek bar based on notes is a simple solution and going to be a successful solution for this problem. For example: While recording a presentation add a simple note at interested places. These notes will be sequenced based on time of record and shown in a separate notes seekbar. While watching the recorded session one can go to the interested point just by clicking the notes.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">4518.0</pvcount>
+    <pvcount type="float">4522.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
