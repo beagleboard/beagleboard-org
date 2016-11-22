@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1202" name="B-UTV" prototype="Page" created="1281926421919" lastModified="1479729950232">
+  <hopobject id="1202" name="B-UTV" prototype="Page" created="1281926421919" lastModified="1479745516221">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -40,7 +40,7 @@ Once the system is working there is space for a lot of further developing. Some 
 • Adding accelerometer to the lenses would allow to control the camera pan and tilt using head movements this will improve the feeling of actually driving the car.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5830.0</pvcount>
+    <pvcount type="float">5832.0</pvcount>
     <homepage>http://code.google.com/p/beagle-unmanned-terrestrial-vehicle</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
