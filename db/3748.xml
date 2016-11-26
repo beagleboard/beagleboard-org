@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3748" name="bbb_i2c" prototype="Page" created="1409224820931" lastModified="1480021622759">
+  <hopobject id="3748" name="bbb_i2c" prototype="Page" created="1409224820931" lastModified="1480105858807">
   <hop:parent idref="20" prototyperef="Page"/>
     <pname>BeagleBone Black I2C Library</pname>
     <registrant>cagdascaglak@gmail.com</registrant>
@@ -20,7 +20,7 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">15052.0</pvcount>
+    <pvcount type="float">15060.0</pvcount>
     <prj_status></prj_status>
     <boardtype>bbblack;</boardtype>
     <category>library;</category>

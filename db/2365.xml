@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2365" name="FPGA LOGI-BONE" prototype="Page" created="1357016250869" lastModified="1480026151188">
+  <hopobject id="2365" name="FPGA LOGI-BONE" prototype="Page" created="1357016250869" lastModified="1480110916409">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,7 +17,7 @@
     <body>The FPGA LOGI-BONE was designed as member of the FPGA “LOGI” Family series. The FPGA LOGI series is a family of FPGA development boards that seeks to ease FPGA development and unify existing hardware interfaces and platforms.  The LOGI-BONE is a high performance low cost FPGA expansion board specifically designed to interface with the Beaglebone as an FPGA cape.  The LOGI-BONE meets the requirements of being low cost while maintaining maximum performance.  The LOGI-BONE facilitates maximum expansion using standardized interfaces including PMOD modules, SATA devices and Arduino Shields to allow direct plug and play functionality with a diverse amount of available hardware.  The PCB was designed using a 4 layer PCB with utmost care taken to length tune and impedance control critical high speed signals.  The LOGI-BONE has versatile programming options making it easy to design and program custom FPGA applications.</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">4083.0</pvcount>
+    <pvcount type="float">4087.0</pvcount>
     <email>mjones@valentfx.com</email>
     <edit_skin>edit_cape</edit_skin>
     <render_skin>cape</render_skin>
