@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3950" name="feet" prototype="Page" created="1423627462847" lastModified="1480238271398">
+  <hopobject id="3950" name="feet" prototype="Page" created="1423627462847" lastModified="1480348000725">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -23,14 +23,14 @@
     <imagefile>data:image/jpeg;base64,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</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5377.0</pvcount>
+    <pvcount type="float">5385.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425592800:X=1425596400</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <prj_status>production</prj_status>
     <boardtype>bbblack;</boardtype>
     <category>case;</category>
     <homepage>http://shpws.me/CZ5F</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/feet/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
