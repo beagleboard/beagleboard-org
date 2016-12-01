@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1220" name="B-NFDS" prototype="Page" created="1283626903825" lastModified="1480461778841">
+  <hopobject id="1220" name="B-NFDS" prototype="Page" created="1283626903825" lastModified="1480549558922">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">04.09.2010 19:01:43 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>aslamengineer.myopenid.com</registrant>
     <pname>Beagle Novel Fire Detection System</pname>
     <user>aslamengineer.myopenid.com</user>
-    <pvcount type="float">6055.0</pvcount>
+    <pvcount type="float">6057.0</pvcount>
     <body>The System will use any video camera attache to our beagle board, once the process of image retrieval is over the processing takes place, once the fire is detected the information is sent to control center using USB or Zigbee Protocol, this method have advantages over smoke based fire prediction systems because here we are not predicting rather detecting, there by giving 100% correct info to the responsible persons to take action.</body>
     <errmsg></errmsg>
     <homepage></homepage>
