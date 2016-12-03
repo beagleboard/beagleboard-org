@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1602" name="VermaVocoder" prototype="Page" created="1311783056461" lastModified="1480607808916">
+  <hopobject id="1602" name="VermaVocoder" prototype="Page" created="1311783056461" lastModified="1480709172652">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.07.2011 16:10:56 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>manish-embedded.myopenid.com</registrant>
     <pname>voice coding implementation</pname>
     <user>manish-embedded.myopenid.com</user>
-    <pvcount type="float">4828.0</pvcount>
+    <pvcount type="float">4838.0</pvcount>
     <body>This project provide the various speech coding algorithm at beagle board plateform. The board will take the voice input and this analog data will be pass through ADC and then algorithm will take the compression and then playback the voice.   </body>
     <errmsg></errmsg>
     <homepage></homepage>
