@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2760" name="yaler" prototype="Page" created="1371470783727" lastModified="1480890927624">
+  <hopobject id="2760" name="yaler" prototype="Page" created="1371470783727" lastModified="1480958403845">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">17.06.2013 12:06:23 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>yaler.myopenid.com</registrant>
     <pname>Remote Web and SSH access via Yaler</pname>
     <user>yaler.myopenid.com</user>
-    <pvcount type="float">9440.0</pvcount>
+    <pvcount type="float">9450.0</pvcount>
     <body>Yaler is a simple, open and scalable relay infrastructure. Setting up the YalerTunnel command line tool enables remote Web and SSH access to your BeagleBone, even if it&apos;s located behind a firewall or NAT, without the hassle of port forwarding.</body>
     <errmsg></errmsg>
     <homepage>http://yaler.net/beaglebone</homepage>
