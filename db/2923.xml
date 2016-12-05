@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2923" name="wifiradio1" prototype="Page" created="1374919093802" lastModified="1480806318056">
+  <hopobject id="2923" name="wifiradio1" prototype="Page" created="1374919093802" lastModified="1480890885644">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">27.07.2013 09:58:13 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>mathieu.fregeau@gmail.com</registrant>
     <pname>wifi radio alarm clock</pname>
     <user>mathieu.fregeau@gmail.com</user>
-    <pvcount type="float">6562.0</pvcount>
+    <pvcount type="float">6564.0</pvcount>
     <body>&lt;p&gt;Starting from an existing simple alarm clock FM radio, scavenge the hardware (casing, clock display, button, perhaps power supply) and implement a wifi radio, keeping the feature of the clock with alarm, but replacing the FM radio with wifi radio, adding a little LCD to display station and user option and a rotary for station selection. Idea is to keep the product as a simple bedside device (alarm clock) and not a mini-color tv full-blown computer next to the bed.&lt;/p&gt;</body>
     <errmsg></errmsg>
     <homepage></homepage>
