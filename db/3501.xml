@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3501" name="Page" prototype="Page" created="1394746187329" lastModified="1480970040098">
+  <hopobject id="3501" name="Page" prototype="Page" created="1394746187329" lastModified="1480973024575">
   <hop:parent idref="0" prototyperef="Root"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>logo</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>logo</uri>
+    <http_host>127.0.0.1:8080</http_host>
     <time type="date">05.12.2016 20:34:00 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.192.168.5.bt8t7ewh4yuo</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <pvcount type="float">23055.0</pvcount>
     <body>&lt;h1 style=&quot;font-size:40px;&quot;&gt;BeagleBoard.org Logo Program&lt;/h1&gt;
 &lt;p&gt;To best enable collaboration within the community, the BeagleBoard.org Foundation
     will license logos to suitable manufacturers looking to advance solutions for
@@ -92,11 +95,8 @@
     var e2b = &quot;chXXXristi@XXXbeagleXXXboardXXX.orgXXX&quot;.replace(/XXX/g,&apos;&apos;);
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + e2b + &apos;&quot;&gt;&apos; + e2a +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">23051.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/logo/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
