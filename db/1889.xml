@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1889" name="BBPeripheralEx" prototype="Page" created="1328867290125" lastModified="1481312908404">
+  <hopobject id="1889" name="BBPeripheralEx" prototype="Page" created="1328867290125" lastModified="1481337567509">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -18,7 +18,7 @@
 Developed and tested using BeagleBoard xM rev. C, Angstrom Linux distribution, Linux kernel version 3.0.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5388.0</pvcount>
+    <pvcount type="float">5394.0</pvcount>
     <homepage>https://gitorious.org/beaconboard-peripheral-examples</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
