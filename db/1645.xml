@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1481759707387">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1481833542514">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>bone</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 01:31:50 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <user>jkridner.wordpress.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">910544.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>bone</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
+    <time type="date">15.12.2016 20:25:42 UTC</time>
+    <hopsession>127.0.0.1wx7p688dd5i7</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
@@ -223,40 +219,43 @@ Help those without sight move around obstacles using Beagle + Kinect, vibrating 
 &lt;a href=&quot;/project&quot;&gt;More Projects&lt;/a&gt; »
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c7&quot;&gt;&lt;h2&gt;&lt;a href=&quot;http://beagleboard.org/cape&quot;&gt;Featured Capes &amp; Accessories&lt;/a&gt;&lt;/h2&gt;
-Explore the world of feature-rich capes and other accessories for super-charged functionality. Plug
-in and go! &lt;a href=&quot;http://beaglebonecapes.com&quot; class=&quot;external&quot;&gt;Visit the cape store&lt;/a&gt; to see all options. 
+&lt;div id=&quot;t2-c7&quot; style=&quot;margin: 5px 10px 30px 25px;&quot; &gt;&lt;h2&gt;Featured Capes &amp; Accessories&lt;/h2&gt;
+Explore the world of feature-rich capes and other accessories for super-charged functionality. Plug in and go! &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBone_Capes&quot; class=&quot;external&quot;&gt;Visit the cape store&lt;/a&gt; to see all options. 
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+
 &lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_Breadboard&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone Breadboard.jpg&quot; width=&quot;150&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
-BeagleBone Breadboard &lt;/a&gt;&lt;br&gt;
-BeagleBoardToys 
+&lt;a href=&quot;http://www.adafruit.com/products/1555&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;http://beagleboard.org/static/uploads/1555_MED.jpg&quot; width=&quot;150&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+Adafruit BeagleBone Black Case &lt;/a&gt;&lt;br&gt;
+Adafruit 
 &lt;/div&gt;
 &lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_Breakout&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone Breakout Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
-BeagleBone Breakout Cape&lt;/a&gt;&lt;br&gt;
-BeagleBoardToys 
-&lt;/div&gt;
-
-&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
-
-&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_DVI-D&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone DVI-D Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
-BeagleBone DVI-D Cape &lt;/a&gt;&lt;br&gt;
-BeagleBoardToys 
+&lt;a href=&quot;https://www.element14.com/community/docs/DOC-81966/l/43-lcd-display-cape-for-beaglebone-black&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;https://www.element14.com/community/dtss-images/uploads/devtool/image/large/Coming_Soon__43_LCD_Display_Cape.png&quot; border=&quot;0&quot; width=&quot;175px&quot; height=&quot;104px&quot; /&gt;&lt;br&gt;
+4.3&quot; LCD Cape for BeagleBone&lt;/a&gt;&lt;br&gt;
+Element14 
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
 
-&lt;a href=&quot;http://elinux.org/Circuitco:BeagleBone_LCD7&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone LCD7 Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
-BeagleBone LCD7 Cape&lt;/a&gt;&lt;br&gt;
-BeagleBoardToys 
-    
+&lt;a href=&quot;http://hitaltechusa.com/enclosures/enclosures-for-embedded-platforms/enclosures-for-beaglebone/&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;http://hitaltechusa.com/wp-content/uploads/2016/05/25.0410000.BGB_.jpg&quot; width=&quot;175&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+Modulbox for BeagleBone&lt;/a&gt;&lt;br&gt;
+Hitaltech 
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
+
+&lt;a href=&quot;https://groupgets.com/manufacturers/getlab/products/prudaq&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;http://elinux.org/images/thumb/a/a7/PRUDAQ.jpg/300px-PRUDAQ.jpg&quot; width=&quot;104px&quot; height=&quot;104px&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+PRUDAQ Cape&lt;/a&gt;&lt;br&gt;
+Google Research
 &lt;/div&gt;
 &lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">911234.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/bone/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
