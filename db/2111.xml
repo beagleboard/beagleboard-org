@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2111" name="Traffiic Light" prototype="Page" created="1347967835341" lastModified="1481904832430">
+  <hopobject id="2111" name="Traffiic Light" prototype="Page" created="1347967835341" lastModified="1481971377458">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>Build a Continous Integration Traffic Light with access via a http server, to incllude it in yout build process. Based on PHP, Ubuntu, Apache.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6359.0</pvcount>
+    <pvcount type="float">6361.0</pvcount>
     <homepage>http://www.notdefine.de/projects.php?project=continous-integration-ampel</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>

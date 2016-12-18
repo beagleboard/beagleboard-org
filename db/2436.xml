@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2436" name="ProtoBone" prototype="Page" created="1363366916137" lastModified="1481926499717">
+  <hopobject id="2436" name="ProtoBone" prototype="Page" created="1363366916137" lastModified="1482001191970">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">15.03.2013 17:01:56 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>ybeagle@rehut.com</registrant>
     <pname>ProtoBone</pname>
     <user>ybeagle@rehut.com</user>
-    <pvcount type="float">7302.0</pvcount>
+    <pvcount type="float">7304.0</pvcount>
     <body>A single expansion board for the Beagle bone that provides sensors (Accelerometer/Gyro/Magnetometer/Pressure/Humidity/Light/Proximity/GPS), LCD display, buttons, Power, and audio output for the Beagle Bone. It also provides an expansion port for interfacing with SPI and/or I2C off board devices at different voltages. The entire board will support a flavor of Android. LCD display and button display will be supported through a connector that is a subset of those used on the classic Beagle Board. Specifically, this will support LCDs supported by the Beagle LCD family of display interfaces which include, 4.3&quot;, 4.8&quot;, and 7&quot; displays. Expansion connector will be similar to an existing UEXT connector to allow a subset of UEXT devices to be connected.</body>
     <errmsg></errmsg>
     <homepage>http://www.hy-research.com/beagle_mid2.html</homepage>
