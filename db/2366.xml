@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2366" name="Blank Canvas Cape" prototype="Page" created="1357018875688" lastModified="1481879063022">
+  <hopobject id="2366" name="Blank Canvas Cape" prototype="Page" created="1357018875688" lastModified="1482082234111">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Eric Brombaugh</name>
@@ -11,15 +11,15 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>ebrombaugh@gmail.com</registrant>
     <user>ebrombaugh@gmail.com</user>
-    <pvcount type="float">1614.0</pvcount>
+    <pvcount type="float">1617.0</pvcount>
     <body>Blank Canvas Cape is a Beaglebone cape that provides a Xlilinx Spartan 3A FPGA connected to the GPMC bus of the Beaglebone, 24 bits of user I/O, an on-board configuration memory for instant-on configuration, several user LEDs and buttons and SPI + I2C interfaces to the Beaglebone for configuration and control. In addition to the hardware, a user-space application and interface library is available for loading designs into the FPGA and configuration memory, as well as communicating with the FPGA after it is set up.
 
 A more detailed description can be found at:
 file:///home/ericb/KBADC/website/studionebula.com/embedded/bcc/index.html
  </body>
     <errmsg></errmsg>
-    <youtube_url>http://youtu.be/EbxJKCzUQ9c</youtube_url>
     <email>ebrombaugh1@cox.net</email>
+    <youtube_url>http://youtu.be/EbxJKCzUQ9c</youtube_url>
     <render_skin>cape</render_skin>
     <project_url>https://github.com/emeb/bcc_hardware</project_url>
   </hopobject>
