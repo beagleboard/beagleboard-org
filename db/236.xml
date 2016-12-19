@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="236" name="design" prototype="Page" created="1216236708736" lastModified="1482097920879">
+  <hopobject id="236" name="design" prototype="Page" created="1216236708736" lastModified="1482169742771">
   <hop:parent idref="212" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>design</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.09.2016 03:04:33 UTC</time>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1vobnkeg5cn0z</hopsession>
     <registrant>blog.hangerhead.com</registrant>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">65769.0</pvcount>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>design</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
+    <time type="date">19.12.2016 17:49:02 UTC</time>
+    <hopsession>127.0.0.1wx7p688dd5i7</hopsession>
     <body> &lt;h1&gt;BeagleBoard Hardware Design&lt;/h1&gt;
  &lt;p&gt;
   Please read the
@@ -89,6 +88,27 @@
   &lt;/li&gt;
  &lt;/ul&gt;
  &lt;h1&gt;DM3730 BeagleBoard-xM&lt;/h1&gt;
+ &lt;h2&gt;xM latest&lt;/h2&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/blob/master/BeagleBoard-xM_SCH.pdf&quot;&gt;System Reference Manual&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/blob/master/BeagleBoard-xM_SRM.pdf&quot;&gt;Schematics (PDF)&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/blob/master/SCH/BeagleBoard-xM_ORCAD.DSN?raw=true&quot;&gt;Schematics (OrCAD)&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/tree/master/PCB/GERBER&quot;&gt;Gerber files&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/blob/master/BeagleBoard-xM_BOM.xlsx?raw=true&quot;&gt;Bill of materials&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://github.com/beagleboard/beagleboard-xm/blob/master/PCB/ALLEGRO/BeagleBoard-xM.brd?raw=true&quot;&gt;Allegro files&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
  &lt;h2&gt;xM Rev C&lt;/h2&gt;
  &lt;p&gt;
   Here is a
@@ -282,9 +302,10 @@
   &lt;/li&gt;
  &lt;/ul&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <beagleirclog>000000</beagleirclog>
+    <pvcount type="float">65842.0</pvcount>
     <http_referer>http://beagleboard.org/hardware/design/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
