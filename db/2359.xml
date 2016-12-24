@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2359" name="NanoBone" prototype="Page" created="1357007710098" lastModified="1482371673504">
+  <hopobject id="2359" name="NanoBone" prototype="Page" created="1357007710098" lastModified="1482529316457">
   <hop:parent idref="2143" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>A cape connecting all BeagleBone P8/P9 I/Os to the pins of the $89 DE0-Nano FPGA board. Use it to add an FPGA to your BeagleBone project!</body>
     <agree>on</agree>
     <pseudoparent idref="2143" prototyperef="Page"/>
-    <pvcount type="float">1417.0</pvcount>
+    <pvcount type="float">1419.0</pvcount>
     <email>chris@clarkengineer.com</email>
     <render_skin>cape</render_skin>
     <edit_skin>edit_cape</edit_skin>
