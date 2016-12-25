@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2357" name="BeagleBone DMX Cape" prototype="Page" created="1357002814113" lastModified="1482522656339">
+  <hopobject id="2357" name="BeagleBone DMX Cape" prototype="Page" created="1357002814113" lastModified="1482620874862">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Sean McIntyre</name>
@@ -11,7 +11,7 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>boxysean@gmail.com</registrant>
     <user>boxysean@gmail.com</user>
-    <pvcount type="float">3667.0</pvcount>
+    <pvcount type="float">3671.0</pvcount>
     <body>With the BeagleBone DMX Cape, your BeagleBone turns into a DMX interface and controller in one! The cape is a cheap, flexible, and robust tool for BeagleBone hackers and developers to create fun, interactive light shows.
 
 DMX is the industry standard lighting protocol and used in venues that need light all around the world. Professional lighting setups tend to use expensive DMX interfaces attached to expensive and underutilized computers to control systems that need only a minimal amount of computing power. This cape adds the capability for lighting designers to consider the BeagleBone an option that won&apos;t blow their lighting budget.

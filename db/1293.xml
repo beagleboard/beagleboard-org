@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1293" name="BeagleRB" prototype="Page" created="1289646859154" lastModified="1482522764458">
+  <hopobject id="1293" name="BeagleRB" prototype="Page" created="1289646859154" lastModified="1482543513220">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">13.11.2010 11:14:19 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>nawook.myopenid.com</registrant>
     <pname>BeagleBoard Robotics Base</pname>
     <user>nawook.myopenid.com</user>
-    <pvcount type="float">6483.0</pvcount>
+    <pvcount type="float">6489.0</pvcount>
     <body>The BeagleRB project (BeagleBoard Robotics Base) is a project aiming to release plans and software and instructions on how to set up a cheap open-source wireless robotics base with a BeaglBoard as core component : it includes the chassis (or frame) construction, the drive control system (motor drivers), the microcontroller source code, and the code running on the beagleboard which coordinates everything.
 
 The basic idea is that the beagleboard will connect via bluetooth to a wireless joystick (e.g. Sony DualShock3) and retrieve info on the buttons, axis, etc via an SDL application or a processing applet. Then, this application or applet will send data to the Microcontroller (Arduino Duemilanove) which will then send PWM signals to the Motor Drivers, moving the motors.</body>

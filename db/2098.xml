@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2098" name="stache" prototype="Page" created="1347463134138" lastModified="1482535412219">
+  <hopobject id="2098" name="stache" prototype="Page" created="1347463134138" lastModified="1482620825094">
   <hop:parent idref="20" prototyperef="Page"/>
     <cat_lib>library</cat_lib>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -111,14 +111,14 @@ meta              = angstrom-staging:a9fe47faf2f4241a2b80c26d3d38ec8694c71c08
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed>https://github.com/jadonk/stache/commits/master.atom</rssfeed>
-    <pvcount type="float">36324.0</pvcount>
+    <pvcount type="float">36338.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=6c2d97012982b47ab576de3202fcc0fa482fd6a0..463e:I=1415832158:X=1415835758</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <prj_status>complete</prj_status>
     <boardtype>bbblack;bbone;</boardtype>
     <category>library;demo;</category>
     <homepage>https://github.com/jadonk/stache</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/stache/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
