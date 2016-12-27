@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="704" name="Turk" prototype="Page" created="1248323310016" lastModified="1482709591183">
+  <hopobject id="704" name="Turk" prototype="Page" created="1248323310016" lastModified="1482789880702">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>Turk will be an open-source wireless interface platform that allows interfacing of small wireless (Zigbee or Wi-Fi enabled) devices through a dynamic mapping framework and web interface. Developers can implement their device&apos;s protocol easily through small user-space drivers called &apos;Gadgets&apos; and host them on our servers. The platform is then capable of automatically downloading and starting appropriate gadgets for new devices that are compatible with the basic Turk protocol. Gadgets reveal their services to the user and other gadgets through our growing library of data endpoint types (such as colors, URLs, booleans, xml strings) and user controls (like sliders, switches and color pickers), and can then be connected to each other through a themable web interface.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5287.0</pvcount>
+    <pvcount type="float">5291.0</pvcount>
     <homepage>http://www.turkinnovations.com/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
