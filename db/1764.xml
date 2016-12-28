@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1764" name="aj" prototype="Page" created="1323306093634" lastModified="1482710577520">
+  <hopobject id="1764" name="aj" prototype="Page" created="1323306093634" lastModified="1482864955861">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>The Air-Joy consists of a left handed glove and a right handed joystick. In the left handed glove there are 4 flex-resistors: one per finger. By making various hand gestures, one can form different signals which are processed as different midi values. As each player will exhibit different ranges of finger extension/contraction, there is a simple calibration routine which is activated by a button. The right-handed joystick is a 2-axis design consisting of two knob potentiometers (one for each direction) and centering springs. Radial motion of the joystick is mapped to gain, and angular motion is mapped to pitch modulation. In order to activate sound, there is a button on the head of the joystick. There are also 2 buttons used to switch between higher and lower octaves.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5207.0</pvcount>
+    <pvcount type="float">5209.0</pvcount>
     <homepage></homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
