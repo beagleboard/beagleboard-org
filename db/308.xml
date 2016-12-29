@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="308" name="Beagle SDR" prototype="Page" created="1218408418564" lastModified="1482875326472">
+  <hopobject id="308" name="Beagle SDR" prototype="Page" created="1218408418564" lastModified="1482968940031">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <cat_lib>library</cat_lib>
@@ -21,7 +21,7 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">9547.0</pvcount>
+    <pvcount type="float">9567.0</pvcount>
     <cat_doc>documentation</cat_doc>
     <prj_status>dev</prj_status>
     <boardtype>bbxm;bboard;</boardtype>

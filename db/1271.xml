@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1271" name="DAISI" prototype="Page" created="1287004061620" lastModified="1482881601403">
+  <hopobject id="1271" name="DAISI" prototype="Page" created="1287004061620" lastModified="1482969290125">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">13.10.2010 21:07:41 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>openid-provider.appspot.com/smp4488</registrant>
     <pname>Digital Automotive Information Systems Integration</pname>
     <user>openid-provider.appspot.com/smp4488</user>
-    <pvcount type="float">6328.0</pvcount>
+    <pvcount type="float">6348.0</pvcount>
     <body>DAISI is a system that is used as an interface between existing automotive control systems and any device that is connected to the Internet or within WII range. An Arduino is used to manipulate vehicle control signals that already exist in the automotive control system. A BeagleBoard is used to run a webserver that is used to access the Arduino and control vehicle functions from remote devices. These devices could be Smart Phones, Laptops, or any device that has access to the Internet or within wifi range of the vehicle. Connected to the BeagleBoard are also a GPS receiver, WIFI, and GSM data connection. The GSM data connection is optional, but this then reduces the range of the user interface to the radius of the WIFI signal emitted by the vehicle. With a GSM data connection the vehicle can be accessed from anywhere there is internet access. OBD can also be interfaced through the BeagleBoard via USB and can be used to log more detailed information about the vehicle such as engine temp, blower fan speed, and gear position. With a GPS reciever speed, location, and time can all be monitored.      </body>
     <errmsg></errmsg>
     <homepage>http://www.smplman.com/node/5</homepage>
