@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2643" name="A Home Security System" prototype="Page" created="1368902560044" lastModified="1483132368915">
+  <hopobject id="2643" name="A Home Security System" prototype="Page" created="1368902560044" lastModified="1483220600019">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">18.05.2013 18:42:40 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>bbqandbanjos@gmail.com</registrant>
     <pname>BBQBaileys&apos; Home Security System</pname>
     <user>bbqandbanjos@gmail.com</user>
-    <pvcount type="float">10480.0</pvcount>
+    <pvcount type="float">10484.0</pvcount>
     <body>The project fully documents a Home Security System from the initial design to the final implementation.  Originally designed to use a Raspberry Pi, the design has changed in order to incorporate the BeagleBone Black.  Design decisions, project builds, and software will be presented.</body>
     <errmsg></errmsg>
     <homepage>http://bbqandbanjos.blogspot.com/2013/03/project-home-security-system.html</homepage>
