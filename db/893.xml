@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="893" name="Building_Qt" prototype="Page" created="1260243862317" lastModified="1483312201294">
+  <hopobject id="893" name="Building_Qt" prototype="Page" created="1260243862317" lastModified="1483373538293">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">08.12.2009 03:44:22 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>blog.hangerhead.com</registrant>
     <pname>Building Qt on OMAP3</pname>
     <user>blog.hangerhead.com</user>
-    <pvcount type="float">6288.0</pvcount>
+    <pvcount type="float">6290.0</pvcount>
     <body>Qt has support for OMAP3 and this is just a pointer to a wiki page that tells you how to build Qt for OMAP3 and the BeagleBoard.</body>
     <errmsg></errmsg>
     <homepage>http://tiexpressdsp.com/index.php/Building_Qt</homepage>
