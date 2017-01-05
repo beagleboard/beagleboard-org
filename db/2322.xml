@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2322" name="Swissbone" prototype="Page" created="1355695955772" lastModified="1483557549393">
+  <hopobject id="2322" name="Swissbone" prototype="Page" created="1355695955772" lastModified="1483603490015">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">16.12.2012 22:12:35 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jbvador64@gmail.com</registrant>
     <pname>Swissbone</pname>
     <user>jbvador64@gmail.com</user>
-    <pvcount type="float">6056.0</pvcount>
+    <pvcount type="float">6058.0</pvcount>
     <body>I try to create a swissknife in a network.
 My bone delivers time white (NTP) over ethernet and different anthena (DCF77,GPS,3G-USB).
 i can deliver openvpn services, Wake on Command to start some server remotely. Samba Server,ftp,Apache,Tomcat,Nagios, Somme fonctionality soon..</body>
