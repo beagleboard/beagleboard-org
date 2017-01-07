@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="711" name="beagle-wacom" prototype="Page" created="1248756527689" lastModified="1483578598060">
+  <hopobject id="711" name="beagle-wacom" prototype="Page" created="1248756527689" lastModified="1483742203121">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -18,7 +18,7 @@
 The idea is to have support for wacom-components, so that they can be used by OEMs using linux as their OS.</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">5017.0</pvcount>
+    <pvcount type="float">5019.0</pvcount>
     <homepage>http://code.google.com/p/beagle-wacom/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
