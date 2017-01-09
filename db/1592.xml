@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1592" name="linaro-ubuntu" prototype="Page" created="1311355234044" lastModified="1483810080659">
+  <hopobject id="1592" name="linaro-ubuntu" prototype="Page" created="1311355234044" lastModified="1483909429363">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -23,15 +23,15 @@
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">6887.0</pvcount>
+    <pvcount type="float">6893.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416582556:X=1416586156</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <prj_status>obsolete</prj_status>
-    <boardtype>bbxm;bboard;</boardtype>
     <cat_distro>distro</cat_distro>
+    <boardtype>bbxm;bboard;</boardtype>
     <category>distro;</category>
     <homepage>https://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/linaro-ubuntu/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2678" name="PRUJTAG" prototype="Page" created="1369694139388" lastModified="1483803848203">
+  <hopobject id="2678" name="PRUJTAG" prototype="Page" created="1369694139388" lastModified="1483914626872">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -16,7 +16,7 @@
     <body>&lt;p&gt;The goal of this project is to utilize the PRUs in investigating the fastest way to program using JTAG and provide for Debugging facilities. Furthermore, implement these frameworks. JTAG capabilities would especially be a benefit for those members of the community using the beaglebone in non-trivial hardware projects. If these capabilities are realized, rather than needing a separate JTAG apparatus/peripheral, the beaglebone could be considered a tool equally appropriate for this task - having this capability provides much added value at no cost. The project will mostly involve PRU Assembly code with the possibility of some C. There will need to be some work done from the Linux side in developing a driver to interface with existing software for actually controlling the debugger (such as OpenOCD), which will be done by other members of the Community. As an initial target for testing the debug capabilities, the Stellaris Launchpad will be utilized as it meets the requirements, and is a fairly simple platform. Also discussed were the Arduino, and MSP430 Launchpad as possible options, however these choices were not appropriate due to lack of desired debug interface. A second beaglebone as target for testing was also considered, however, due to it&apos;s complexity, it may not be the best choice as an initial test target.&lt;/p&gt;</body>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <pvcount type="float">8950.0</pvcount>
+    <pvcount type="float">8960.0</pvcount>
     <homepage>http://zecozephyr.github.io/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>

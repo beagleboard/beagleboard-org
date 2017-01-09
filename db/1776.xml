@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1776" name="Bowld" prototype="Page" created="1323564323811" lastModified="1483821746509">
+  <hopobject id="1776" name="Bowld" prototype="Page" created="1323564323811" lastModified="1483909208683">
   <hop:parent idref="20" prototyperef="Page"/>
     <edit_skin>edit_project</edit_skin>
     <updatetime type="date">11.12.2011 00:45:23 UTC</updatetime>
@@ -11,7 +11,7 @@
     <registrant>jwitt90.myopenid.com</registrant>
     <pname>Bowld--The Electronic Tibetan Singing Bowl</pname>
     <user>jwitt90.myopenid.com</user>
-    <pvcount type="float">6929.0</pvcount>
+    <pvcount type="float">6931.0</pvcount>
     <body>ABSTRACT
 This paper describes a new musical device inspired by the mechanics and traditions of Tibetan singing bowls.  Singing bowls are naturally spiritual instruments; the tranquil stirring motion necessary to evoke the soothing resonances of the singing bowl creates a very individual contemplative ambiance.  In addition, the simplicity of the gestures required to play a singing bowl lends the instrument well to electronic sensing, and its basic portable nature creates the alluring challenge of developing a completely autonomous, computer-based instrument.  Through use of a soft potentiometer, a button, two accelerometers, and an internal microprocessor, and BeagleBoard, Bowld models a singing bowl mechanically and electronically.  Relying on FM synthesis for the audio, Bowld can also be tilted to create timbral shifts.  Bowld also includes external mechanisms to simulate the presence of water in the bowl.  All together, Bowld stands as a modern, electronic interpretation of a singing bowl.
 
