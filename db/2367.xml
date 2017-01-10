@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2367" name="Energon Cape" prototype="Page" created="1357024875669" lastModified="1483911245410">
+  <hopobject id="2367" name="Energon Cape" prototype="Page" created="1357024875669" lastModified="1483991705208">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Andrew Gillan</name>
@@ -11,15 +11,15 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>andrew-gillan.myopenid.com</registrant>
     <user>andrew-gillan.myopenid.com</user>
-    <pvcount type="float">1202.0</pvcount>
+    <pvcount type="float">1205.0</pvcount>
     <body>Home Branch Circuit Power Meter
 
 The project design is based on the Analog ADE7816 with 6 current channels and 1 voltage channel.  The design also uses the Analog ADUM5404 and ADUM 1250 in order to provide power and communications isolation between the Beaglebone and cape.
 
 This design is a proof of concept with the ambition is to scale the design up to 36-42 current channels in order to monitor mains power and every branch circuit in a home panel.  The current design is however very capable for many power monitoring applications without any additional channels.</body>
     <errmsg></errmsg>
-    <youtube_url>http://youtu.be/4jsqVEmLBls</youtube_url>
     <email>andrew.gillan@gmail.com</email>
+    <youtube_url>http://youtu.be/4jsqVEmLBls</youtube_url>
     <render_skin>cape</render_skin>
     <project_url>https://docs.google.com/folder/d/0B-urizbxloJrNlVsZU9CUmhFY2s/edit</project_url>
   </hopobject>
