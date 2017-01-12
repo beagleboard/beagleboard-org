@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2340" name="Dual Motor Controller Cape" prototype="Page" created="1356310043437" lastModified="1484087140099">
+  <hopobject id="2340" name="Dual Motor Controller Cape" prototype="Page" created="1356310043437" lastModified="1484175804407">
   <hop:parent idref="2143" prototyperef="Page"/>
     <edit_skin>edit_cape</edit_skin>
     <name>Paul Tan</name>
@@ -11,11 +11,11 @@
     <pseudoparent idref="2143" prototyperef="Page"/>
     <registrant>roberto.beto2009@gmail.com</registrant>
     <user>paulctan@gmail.com</user>
-    <pvcount type="float">2568.0</pvcount>
+    <pvcount type="float">2571.0</pvcount>
     <body>Dual Motor HBridge with dual QEI (Quadrature Encoder Interface) cape.  In addition, this cape is designed to be stackable and up to 3 Capes can be stacked allowing up to 6 motors to be controlled from a single BeagleBone.</body>
     <errmsg></errmsg>
-    <youtube_url>http://youtu.be/_bfA5D4yPq0</youtube_url>
     <email>paulctan@gmail.com</email>
+    <youtube_url>http://youtu.be/_bfA5D4yPq0</youtube_url>
     <render_skin>cape</render_skin>
     <project_url>https://github.com/Exadler/DualMotorControlCape</project_url>
   </hopobject>
