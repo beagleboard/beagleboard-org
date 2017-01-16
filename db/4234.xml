@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4234" name="2017-01" prototype="Page" created="1484594543483" lastModified="1484594543616">
+  <hopobject id="4234" name="2017-01" prototype="Page" created="1484594543483" lastModified="1484594760003">
   <hop:parent idref="3901" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>2017-01</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">16.01.2017 19:22:23 UTC</time>
-    <pseudoparent idref="3901" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>2017-01</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36</http_browser>
+    <time type="date">16.01.2017 19:26:00 UTC</time>
     <hopsession>127.0.0.1wx7p688dd5i7</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">1.0</pvcount>
     <body>
-
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
 &lt;head&gt;
@@ -907,7 +902,7 @@ body.outlook p {
               &lt;td&gt;
                &lt;table class=&quot;six columns&quot;&gt;
                 &lt;tr&gt;
-                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Google Research PRUDAQ&quot; width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-prudaq_bbb.png&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Google Research PRUDAQ&quot; width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-prudaq_bbb.png&quot; class=&quot;cke_focus&quot; /&gt;
                  &lt;/td&gt;
                 &lt;/tr&gt;
                &lt;/table&gt;
@@ -916,7 +911,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;PRUDAQ is an open source 40MSPS (megasamples per second) data acquisition BeagleBone cape&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2016/07/21/google-research-prudaq-cape/&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2016/07/21/google-research-prudaq-cape/&quot;&gt;Read more »&lt;/a&gt;&lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
             &lt;/table&gt;
@@ -933,7 +928,7 @@ body.outlook p {
               &lt;td&gt;
                &lt;table class=&quot;six columns&quot;&gt;
                 &lt;tr&gt;
-                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Beagle Entertainment System Cartridge Console&quot; width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-snes.jpg&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Beagle Entertainment System Cartridge Console&quot; width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-snes.jpg&quot; class=&quot;cke_focus&quot; /&gt;
                  &lt;/td&gt;
                 &lt;/tr&gt;
                &lt;/table&gt;
@@ -942,7 +937,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Andrew Henderson has turned his Beagle Entertainment System into a tiny SNES cartridge console&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2017/01/05/beagle-entertainment-system-cartridge-console/&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2017/01/05/beagle-entertainment-system-cartridge-console/&quot;&gt;Read more »&lt;/a&gt;&lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
             &lt;/table&gt;
@@ -959,7 +954,7 @@ body.outlook p {
               &lt;td&gt;
                &lt;table class=&quot;six columns&quot;&gt;
                 &lt;tr&gt;
-                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Blinking a LED with Rust&quot; width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-rust.gif&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Blinking a LED with Rust&quot; width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-rust.gif&quot; class=&quot;cke_focus&quot; /&gt;
                  &lt;/td&gt;
                 &lt;/tr&gt;
                &lt;/table&gt;
@@ -968,7 +963,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Christopher Woodall chose Rust to develop a drink making robot powered by BeagleBone Green Wireless&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2016/12/24/blinking-a-led-with-rust/&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+               &lt;p&gt;&lt;a href=&quot;https://beagleboardfoundation.wordpress.com/2016/12/24/blinking-a-led-with-rust/&quot;&gt;Read more »&lt;/a&gt;&lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
             &lt;/table&gt;
@@ -990,7 +985,8 @@ body.outlook p {
 
       &lt;table class=&quot;two columns&quot;&gt;
         &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/beaglebone-example&quot;&gt;&lt;img width=&quot;180&quot; src=&quot;/newsletter/static/images/beaglebone_by_example.jpg&quot; alt=&quot;BeagleBone By Example&quot; /&gt;&lt;/a&gt;
+          &lt;td&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/beaglebone-example&quot;&gt;&lt;img width=&quot;180&quot; 
+          =&quot;https://beagleboard.github.io/newsletter/static/images/beaglebone_by_example.jpg&quot; alt=&quot;BeagleBone By Example&quot; /&gt;&lt;/a&gt;
           &lt;/td&gt;
           &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -1015,7 +1011,7 @@ body.outlook p {
                         &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
                       &lt;/tr&gt;
                     &lt;/table&gt;
-                    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+                    &lt;p&gt; &lt;/p&gt;
                     &lt;table class=&quot;six columns&quot;&gt;
                      &lt;tr&gt;
                        &lt;td class=&quot;left-text-pad&quot;&gt;
@@ -1023,21 +1019,21 @@ body.outlook p {
                &lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Southeast-Michigan-BeagleBone-Users-Group/events/qvgjvjywcbjc/&quot;&gt;SE Michigan BeagleBone Meetup&lt;/a&gt;
                  - Jan 26, 2017&lt;br /&gt;
                  
-                 &lt;a href=&quot;https://www.meetup.com/Southeast-Michigan-BeagleBone-Users-Group/events/qvgjvjywcbjc/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+                 &lt;a href=&quot;https://www.meetup.com/Southeast-Michigan-BeagleBone-Users-Group/events/qvgjvjywcbjc/&quot;&gt;more »&lt;/a&gt;
                &lt;/p&gt;
 
 
                &lt;p&gt;&lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference/attend/register&quot;&gt;Embedded Linux Conference&lt;/a&gt;
                  - Feb 21-23, 2017&lt;br /&gt;
                  
-                 &lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference/attend/register&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+                 &lt;a href=&quot;http://events.linuxfoundation.org/events/embedded-linux-conference/attend/register&quot;&gt;more »&lt;/a&gt;
                &lt;/p&gt;
 
 
                &lt;p&gt;&lt;a href=&quot;https://www.embedded-world.de/en&quot;&gt;Embedded World&lt;/a&gt;
                  - March 14-16, 2017&lt;br /&gt;
                  
-                 &lt;a href=&quot;https://www.embedded-world.de/en&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+                 &lt;a href=&quot;https://www.embedded-world.de/en&quot;&gt;more »&lt;/a&gt;
                &lt;/p&gt;
 
 
@@ -1065,7 +1061,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Debian 8.6 is now suitable for all boards. This gets all the boards to a common base and will aide in community support.&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!category-topic/beagleboard/yCKzPy54a7Q&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!category-topic/beagleboard/yCKzPy54a7Q&quot;&gt;Read more »&lt;/a&gt;
                &lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
@@ -1083,7 +1079,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Julien Boulnois got hardware acceleration for desktop graphics on the BeagleBoard X15 &lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/d/msg/beagleboard/S5UFHnIc11o/x0MqY6aIBwAJ&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/d/msg/beagleboard/S5UFHnIc11o/x0MqY6aIBwAJ&quot;&gt;Read more »&lt;/a&gt;
                &lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
@@ -1101,7 +1097,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Boot recently gained support for Device Tree Overlays.  Robert Nelson has released a new Debian image with U-Boot Cape Manager for developer testing.&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!msg/beagleboard/iGvA9I4LdSE/cRcBIuqBFgAJ&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!msg/beagleboard/iGvA9I4LdSE/cRcBIuqBFgAJ&quot;&gt;Read more »&lt;/a&gt;
                &lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
@@ -1119,7 +1115,7 @@ body.outlook p {
              &lt;tr&gt;
               &lt;td class=&quot;left-text-pad&quot;&gt;
                &lt;p&gt;Robert Nelson writes about the latest changes in Linux 4.9 kernels based on the TI branch&lt;/p&gt;
-               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!category-topic/beagleboard/wxxXS907OXY&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!category-topic/beagleboard/wxxXS907OXY&quot;&gt;Read more »&lt;/a&gt;
                &lt;/p&gt;
               &lt;/td&gt;
              &lt;/tr&gt;
@@ -1151,7 +1147,7 @@ body.outlook p {
             &lt;table class=&quot;six columns&quot;&gt;
               &lt;tr&gt;
                 &lt;td class=&quot;left-text-pad&quot;&gt;
-&lt;img width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-pru-pid-motor.jpg&quot; alt=&quot;Motor Speed Controller image&quot;/&gt;
+&lt;img width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-pru-pid-motor.jpg&quot; alt=&quot;Motor Speed Controller image&quot;/&gt;
 
                 
                 &lt;/td&gt;
@@ -1165,14 +1161,14 @@ body.outlook p {
               &lt;tr&gt;
                 &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/Greg-R/pru-pid-motor-speed-controller-with-beaglebone-green-ccb805&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/Greg-R/pru-pid-motor-speed-controller-with-beaglebone-green-ccb805&quot;&gt;More Details »&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/td&gt;
                 &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
               &lt;/tr&gt;
             &lt;/table&gt;
-            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;p&gt; &lt;/p&gt;
 
 
 
@@ -1182,7 +1178,7 @@ body.outlook p {
             &lt;table class=&quot;six columns&quot;&gt;
               &lt;tr&gt;
                 &lt;td class=&quot;left-text-pad&quot;&gt;
-&lt;img width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-cellular.jpg&quot; alt=&quot;Connect to Cellular Network image&quot;/&gt;
+&lt;img width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-cellular.jpg&quot; alt=&quot;Connect to Cellular Network image&quot;/&gt;
 
                 
                 &lt;/td&gt;
@@ -1196,14 +1192,14 @@ body.outlook p {
               &lt;tr&gt;
                 &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/benstr-hologram/connect-beaglebone-black-to-cellular-0e14c2&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/benstr-hologram/connect-beaglebone-black-to-cellular-0e14c2&quot;&gt;More Details »&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/td&gt;
                 &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
               &lt;/tr&gt;
             &lt;/table&gt;
-            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;p&gt; &lt;/p&gt;
 
                    &lt;/td&gt;
 
@@ -1215,7 +1211,7 @@ body.outlook p {
             &lt;table class=&quot;six columns&quot;&gt;
               &lt;tr&gt;
                 &lt;td class=&quot;left-text-pad&quot;&gt;
-&lt;img width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-upside-down.jpg&quot; alt=&quot;Upside Down Challenge image&quot;/&gt;
+&lt;img width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-upside-down.jpg&quot; alt=&quot;Upside Down Challenge image&quot;/&gt;
 
                 
                 &lt;/td&gt;
@@ -1223,20 +1219,20 @@ body.outlook p {
               &lt;/tr&gt;
               &lt;tr&gt;
                 &lt;td  class=&quot;left-text-pad&quot;&gt;&lt;h6 class=&quot;orangetype&quot;&gt;&lt;a href=&quot;https://www.hackster.io/command-alkon-dublin-oh/upside-down-challenge-c7dba7&quot;&gt;Upside Down Challenge&lt;/a&gt;&lt;/h6&gt;
-                  Christmas light alphabet wall based on the series &amp;quot;Stranger Things&amp;quot;
+                  Christmas light alphabet wall based on the series &quot;Stranger Things&quot;
                 &lt;/td&gt;
               &lt;/tr&gt;
               &lt;tr&gt;
                 &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/command-alkon-dublin-oh/upside-down-challenge-c7dba7&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/command-alkon-dublin-oh/upside-down-challenge-c7dba7&quot;&gt;More Details »&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/td&gt;
                 &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
               &lt;/tr&gt;
             &lt;/table&gt;
-            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;p&gt; &lt;/p&gt;
 
 
 
@@ -1246,7 +1242,7 @@ body.outlook p {
             &lt;table class=&quot;six columns&quot;&gt;
               &lt;tr&gt;
                 &lt;td class=&quot;left-text-pad&quot;&gt;
-&lt;img width=&quot;280&quot; src=&quot;/newsletter/static/images/2017-jan-pru-adc.jpg&quot; alt=&quot;PRU interface to ADC image&quot;/&gt;
+&lt;img width=&quot;280&quot; src=&quot;https://beagleboard.github.io/newsletter/static/images/2017-jan-pru-adc.jpg&quot; alt=&quot;PRU interface to ADC image&quot;/&gt;
 
                 
                 &lt;/td&gt;
@@ -1260,14 +1256,14 @@ body.outlook p {
               &lt;tr&gt;
                 &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/Greg-R/beaglebone-pru-adc-a42a71&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://www.hackster.io/Greg-R/beaglebone-pru-adc-a42a71&quot;&gt;More Details »&lt;/a&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/td&gt;
                 &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
               &lt;/tr&gt;
             &lt;/table&gt;
-            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;p&gt; &lt;/p&gt;
 
                    &lt;/td&gt;
 
@@ -1288,7 +1284,7 @@ body.outlook p {
                       &lt;br /&gt;
                       &lt;table class=&quot;six columns&quot;&gt;
                         &lt;tr&gt;
-                          &lt;td class=&quot;text-pad&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/beagleboard&quot;&gt;Github &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+                          &lt;td class=&quot;text-pad&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/beagleboard&quot;&gt;Github »&lt;/a&gt;&lt;/p&gt;
                             &lt;hr /&gt;
                             &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/project&quot;&gt;Projects »&lt;/a&gt;&lt;/p&gt;
                             &lt;hr /&gt;
@@ -1296,12 +1292,12 @@ body.outlook p {
                             &lt;hr /&gt;
                             &lt;p&gt;&lt;a href=&quot;https://www.hackster.io/beagleboard&quot;&gt;Hackster.io »&lt;/a&gt;&lt;/p&gt;
                             &lt;hr /&gt;
-                            &lt;p&gt;&lt;a href=&quot;https://upverter.com/Beagle/&quot;&gt;Upverter &amp;raquo;&lt;/a&gt;                            &lt;/p&gt;
+                            &lt;p&gt;&lt;a href=&quot;https://upverter.com/Beagle/&quot;&gt;Upverter »&lt;/a&gt;                            &lt;/p&gt;
                             &lt;hr /&gt;
-                            &lt;p&gt;&lt;a href=&quot;https://beaglebonecapes.com/&quot;&gt;BeagleBone Capes &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+                            &lt;p&gt;&lt;a href=&quot;https://beaglebonecapes.com/&quot;&gt;BeagleBone Capes »&lt;/a&gt;&lt;/p&gt;
                             &lt;hr /&gt;
-                            &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/Support/BoneScript&quot;&gt;BoneScript Library &amp;raquo;&lt;/a&gt;&lt;/p&gt;
-                            &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;&lt;/td&gt;
+                            &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/Support/BoneScript&quot;&gt;BoneScript Library »&lt;/a&gt;&lt;/p&gt;
+                            &lt;h2&gt; &lt;/h2&gt;&lt;/td&gt;
                           &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
                         &lt;/tr&gt;
                       &lt;/table&gt;&lt;/td&gt;
@@ -1406,7 +1402,13 @@ body.outlook p {
 &lt;/body&gt;
 &lt;/html&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
+    <pseudoparent idref="3901" prototyperef="Page"/>
+    <pvcount type="float">3.0</pvcount>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
     <http_referer>https://beagleboard.org/newsletter/2017-01/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
