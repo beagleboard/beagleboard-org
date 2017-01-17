@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3677" name="OpenVLC" prototype="Page" created="1405588088076" lastModified="1484590876475">
+  <hopobject id="3677" name="OpenVLC" prototype="Page" created="1405588088076" lastModified="1484608438792">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>193.145.14.145</http_remotehost>
@@ -23,13 +23,13 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <cat_demo>demo</cat_demo>
     <rssfeed></rssfeed>
-    <pvcount type="float">10212.0</pvcount>
+    <pvcount type="float">10214.0</pvcount>
     <prj_status></prj_status>
     <boardtype>bbblack;</boardtype>
     <category>demo;</category>
     <homepage>http://openVLC.com</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/OpenVLC/edit</http_referer>
     <http_host>beagleboard.org</http_host>
     <errmsg></errmsg>
