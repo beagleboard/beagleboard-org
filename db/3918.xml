@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3918" name="xen_i2c" prototype="Page" created="1421837162456" lastModified="1484695757991">
+  <hopobject id="3918" name="xen_i2c" prototype="Page" created="1421837162456" lastModified="1484769082355">
   <hop:parent idref="20" prototyperef="Page"/>
     <cat_lib>library</cat_lib>
     <cat_robot>robotics</cat_robot>
@@ -28,14 +28,14 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
     <contactinfo></contactinfo>
-    <pvcount type="float">9563.0</pvcount>
+    <pvcount type="float">9581.0</pvcount>
     <prj_status>dev</prj_status>
-    <boardtype>bbblack;bbone;</boardtype>
     <cat_distro>distro</cat_distro>
+    <boardtype>bbblack;bbone;</boardtype>
     <category>distro;library;robotics;</category>
     <homepage></homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/xen_i2c/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>

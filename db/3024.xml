@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3024" name="embedded-computing-top-innovators" prototype="Page" created="1377038324000" lastModified="1473360380800">
+  <hopobject id="3024" name="embedded-computing-top-innovators" prototype="Page" created="1377038324000" lastModified="1484735470548">
   <hop:parent idref="2989" prototyperef="Page"/>
     <edit_skin>edit_blog</edit_skin>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36</http_browser>
@@ -10,10 +10,10 @@
     <http_host>beagleboard.org</http_host>
     <time type="date">21.08.2013 06:49:11 UTC</time>
     <pseudoparent idref="2989" prototyperef="Page"/>
-    <hopsession>192.94.94.172.24.56.lcwcepjqgfto</hopsession>
     <http_remotehost>192.94.94.106</http_remotehost>
+    <hopsession>192.94.94.172.24.56.lcwcepjqgfto</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">36.0</pvcount>
+    <pvcount type="float">37.0</pvcount>
     <body>&lt;div&gt;
     &lt;div style=&quot;float:left;width:60%;&quot;&gt;
         &lt;h1&gt;BeagleBone Black wins Top Embedded Innovator award&lt;/h1&gt;
@@ -70,8 +70,8 @@
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
     <http_language>en-US,en;q=0.8</http_language>
-    <render_skin>blog</render_skin>
     <is_xhtml type="boolean">true</is_xhtml>
+    <render_skin>blog</render_skin>
     <http_referer>http://beagleboard.org/blog-drafts/embedded-computing-top-innovators/edit</http_referer>
   </hopobject>
 </xmlroot>
