@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1484870291115">
+  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1484880909869">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>black-wireless</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">19.12.2016 21:54:54 UTC</time>
+    <time type="date">20.01.2017 02:55:09 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1wx7p688dd5i7</hopsession>
+    <hopsession>127.0.0.k1tnf02l428n</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">51572.0</pvcount>
+    <pvcount type="float">51616.0</pvcount>
     <body>&lt;h1&gt;BeagleBone Black Wireless&lt;/h1&gt;
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
    &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
@@ -69,14 +69,14 @@
 &lt;h2&gt;What is BeagleBone Black Wireless?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;
 Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the 
 popular open source &lt;a href=&quot;/black&quot;&gt;BeagleBone™ Black&lt;/a&gt; computer now comes with built-in 
-wireless networking capability. Leveraging a partnership with Octavo Systems and designed in
+wireless networking capability. Leveraging a partnership with &lt;a href=&quot;/sip&quot;&gt;Octavo Systems&lt;/a&gt; and designed in
 CadSoft Eagle, BeagleBone™ Black Wireless is the easiest to use and modify credit-card sized
 IoT Linux computer available.
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
-    &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;AM335x 1GHz 
+    &lt;a href=&quot;/sip&quot;&gt;Octavo Systems OSD3358 1GHz 
     ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
 &lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
@@ -225,6 +225,6 @@ find all available hardware specifications such as:
 
  </body>
     <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>http://beagleboard.org/black-wireless/edit</http_referer>
+    <http_referer>https://beagleboard.org/black-wireless/edit</http_referer>
   </hopobject>
 </xmlroot>
