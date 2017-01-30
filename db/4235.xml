@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4235" name="Page" prototype="Page" created="1485752420952" lastModified="1485753101684">
+  <hop:parent idref="0" prototyperef="Root"/>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>blue-preview</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">30.01.2017 05:11:41 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.1a0kwqouldodb</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">3.0</pvcount>
+    <body>&lt;h1&gt;BeagleBone Blue&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Additional details to be announced. Limited alpha testers are receiving boards
+ now and can find some additional support at &lt;a href=&quot;http://strawsondesign.com&quot;&gt;Strawson Design&lt;/a&gt;
+ or &lt;a href=&quot;https://github.com/jadonk/beaglebone-blue&quot;&gt;Jason&apos;s personal github&lt;/a&gt;.
+&lt;/em&gt;&lt;/p&gt;
+
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is BeagleBone Blue?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;BeagleBone Blue
+is the affordable and complete educational robotics controller built around the popular
+BeagleBone open hardware computer. With complete robotics education curriculum, barriers
+to learning and growing are completely eliminated.
+&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x/&quot;&gt;Octavo Systems OSD3358 1GHz 
+    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;4GB 8-bit on-board flash storage&lt;/li&gt;
+&lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
+&lt;li&gt;On-board flash programmed with Linux distribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+ &lt;div id=&quot;t2-c5b&quot;&gt;  
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity and sensors&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;Battery: 2-cell LiPo support with balancing, 6-16V charger input&lt;/li&gt;
+&lt;li&gt;Wireless: 802.11bgn, Bluetooth 4.0 and BLE&lt;/li&gt;
+&lt;li&gt;Motor control: 8 6V servo out, 4 DC motor out, 4 quad enc in&lt;/li&gt;
+&lt;li&gt;Sensors: 9 axis IMU, barometer&lt;/li&gt;
+&lt;li&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/li&gt;
+&lt;li&gt;Other easy connect interfaces: GPS, DSM2 radio, UARTs, SPI, I2C, analog, buttons, LEDs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+ &lt;div id=&quot;t2-c5c&quot;&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;Debian, Ubuntu Snappy, ...&lt;/li&gt;
+  &lt;li&gt;ROS, Ardupilot, Machinekit, ...&lt;/li&gt;
+  &lt;li&gt;Graphical programming, Cloud9 IDE on Node.js&lt;/li&gt;
+  &lt;li&gt;plus much more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;CTA&quot;&gt;
+&lt;!-- Begin MailChimp Signup Form --&gt;
+&lt;div id=&quot;mc_embed_signup&quot; style=&quot;padding:0px;&quot;&gt;
+&lt;form action=&quot;//beagleboard.us3.list-manage.com/subscribe/post?u=6e7c2131525b7b1b74c71e2cb&amp;id=85ff84625f&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate style=&quot;padding:0px;&quot;&gt;
+    &lt;div id=&quot;mc_embed_signup_scroll&quot; style=&quot;background-color:#de7224;&quot;&gt;
+    &lt;h2 style=&quot;color:#ffffff;margin:0px;&quot;&gt;Register your interest&lt;/h2&gt;
+    &lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot; style=&quot;height:32px;width:150px;margin-top:5px;&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Go&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; style=&quot;float:right;margin-top:5px;width:50px;text-align:center;padding:0px;&quot;&gt;
+    &lt;input style=&quot;display:none;&quot; checked type=&quot;checkbox&quot; value=&quot;2&quot; name=&quot;group[13753][2]&quot; id=&quot;mce-group[13753]-13753-1&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-1&quot; style=&quot;display:none;&quot;&gt;Education&lt;/label&gt;
+    &lt;input style=&quot;display:none;&quot; checked type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;group[13753][1]&quot; id=&quot;mce-group[13753]-13753-0&quot;&gt;&lt;label for=&quot;mce-group[13753]-13753-0&quot; style=&quot;display:none;&quot;&gt;Newsletter (monthly)&lt;/label&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    &lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_6e7c2131525b7b1b74c71e2cb_85ff84625f&quot; tabindex=&quot;-1&quot; value=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;!--End mc_embed_signup--&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+  if($(&apos;#buy-blue&apos;).length) {
+    $.get(&apos;/distributors/blue&apos;, function(data){
+        $(&apos;#buy-blue&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            goTracked(action, link, label);
+           });
+          });
+        });
+    });
+  }
+});
+&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;/static/images/edumip.jpeg&quot; rel=&quot;lightbox&quot; name=&quot;EduMIP&quot;&gt;
+&lt;img src=&quot;/static/images/edumip_cropped.png&quot; border=&quot;0&quot;  style=&quot;width:250px;height:200px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+
+&lt;!-- slider --&gt;
+&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
+&lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;script src=&quot;/static/ti/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/jquery-ui-1.10.2.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+&lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-blue&quot; href=&quot;http://eepurl.com/-410j&quot;&gt;&lt;img src=&quot;/static/images/beaglebonebluecountercard.png&quot; width=&quot;950&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- bnr_ss1 --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+                    debug:false,
+					controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+&lt;!-- /slider --&gt;
+
+&lt;h2&gt;Videos &lt;/h2&gt;
+&lt;div id=&quot;t2-video-1&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/T15D7U2BOf4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;BeagleBone Blue Introduction at CES&lt;/h3&gt;
+&lt;p&gt;Tom Bewley of UCSD shares a brief introduction to BeagleBone Blue.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://player.vimeo.com/video/151100483&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;h3&gt;Quick BeagleBoard.org Overview&lt;/h3&gt;
+&lt;p&gt;Jason Kridner gives a rapid introduction to BeagleBoard.org.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+&lt;!-- end Content Area --&gt;
+
+
+
+
+ </body>
+    <http_language>en-US,en;q=0.8</http_language>
+    <http_referer>http://beagleboard.org/blue-preview/edit</http_referer>
+  </hopobject>
+</xmlroot>
