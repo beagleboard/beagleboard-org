@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1010" name="Page" prototype="Page" created="1269468348142" lastModified="1486998381164">
+  <hopobject id="1010" name="Page" prototype="Page" created="1269468348142" lastModified="1487019876578">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>gsoc</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">08.02.2017 21:05:30 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.1a0kwqouldodb</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">32435.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>gsoc</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
+    <time type="date">13.02.2017 21:04:36 UTC</time>
+    <hopsession>127.0.0.1a0kwqouldodb</hopsession>
     <body>&lt;h1&gt;BeagleBoard.org Google Summer of Code 2017&lt;/h1&gt;
 &lt;p&gt;Please see and contribute to our &lt;a href=&quot;http://bbb.io/gsocideas&quot;&gt;ideas wiki page&lt;/a&gt;.
 &lt;/p&gt;
@@ -56,7 +52,7 @@
  &lt;ol&gt;
   &lt;li&gt;
    Join the
-   &lt;a class=&quot;external&quot; href=&quot;http://groups.google.com/group/beagleboard-gsoc&quot;&gt;BeagleBoard-GSoC mailing list&lt;/a&gt;
+   &lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/group/beagleboard-gsoc&quot;&gt;BeagleBoard-GSoC mailing list&lt;/a&gt;
    to get announcements and to simply be part of the discussion.  All official announcements will have the word &quot;Announce&quot; or &quot;Announcement&quot; in the subject line.
   &lt;/li&gt;
   &lt;li&gt;
@@ -64,12 +60,12 @@
    &lt;a class=&quot;external&quot; href=&quot;http://eLinux.org/BeagleBoard/GSoC&quot;&gt;eLinux.org/BeagleBoard/GSoC.&lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/iHVhG-9td0M?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/mp398Lkmzak?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/CIugTSnqcf4?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/irROS-2n0mU?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/CDbEAq33vdA?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/QymwVr9gY-Y?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/iHVhG-9td0M?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/mp398Lkmzak?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/CIugTSnqcf4?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/irROS-2n0mU?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/CDbEAq33vdA?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/QymwVr9gY-Y?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
  &lt;h1&gt;BeagleBoard.org Google Summer of Code 2013&lt;/h1&gt;
  &lt;p&gt;
   BeagleBoard.org has been selected as a mentoring organization for
@@ -91,10 +87,10 @@
    &lt;a class=&quot;external&quot; href=&quot;http://eLinux.org/BeagleBoard/GSoC&quot;&gt;eLinux.org/BeagleBoard/GSoC.&lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/dxjaFsWYkAM?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/JTsZL-puy-E?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/1F0S5ajq-Ls?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
- &lt;iframe src=&quot;http://www.youtube.com/embed/hxzoz6f4Q5w?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/dxjaFsWYkAM?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/JTsZL-puy-E?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/1F0S5ajq-Ls?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/hxzoz6f4Q5w?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
  &lt;h1&gt;BeagleBoard.org Google Summer of Code 2010&lt;/h1&gt;
  &lt;p&gt;
   BeagleBoard.org has been accepted as a mentoring organization for the Google 
@@ -121,50 +117,54 @@
   &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/wcGk4VmviU0&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/wcGk4VmviU0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/wcGk4VmviU0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
  &lt;h3&gt;DSP-RPC-POSIX using C6Run&lt;/h3&gt;
  &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
   &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/c8z-UxFwsQA&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/c8z-UxFwsQA&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/c8z-UxFwsQA&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
  &lt;p&gt;
-  &lt;a class=&quot;external&quot; href=&quot;http://www.vimeo.com/12796429&quot;&gt;C6Run presentation on Vimeo&lt;/a&gt;
+  &lt;a class=&quot;external&quot; href=&quot;https://www.vimeo.com/12796429&quot;&gt;C6Run presentation on Vimeo&lt;/a&gt;
  &lt;/p&gt;
  &lt;h3&gt;Pulse Width Modulation (PWM)&lt;/h3&gt;
  &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
-  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot;/&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
  &lt;h3&gt;OpenCV&lt;/h3&gt;
  &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
-  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
  &lt;h3&gt;XBMC Rendering Optimizations&lt;/h3&gt;
  &lt;p&gt;My apologies for the audio quality on this one...&lt;/p&gt;
  &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
-  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
  &lt;h2&gt;Request to participate in Google Summer of Code&lt;/h2&gt;
  &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
-  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
   &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
   &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
-  &lt;embed src=&quot;http://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
  &lt;/object&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">32458.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/gsoc/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
