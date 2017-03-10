@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2636" name="rma" prototype="Page" created="1368648076340" lastModified="1489101652866">
+  <hopobject id="2636" name="rma" prototype="Page" created="1368648076340" lastModified="1489110342253">
   <hop:parent idref="121" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>rma</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">20.07.2016 14:22:04 UTC</time>
-    <pseudoparent idref="121" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.ks0oe9qffm9d</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">17798.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>rma</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
+    <time type="date">10.03.2017 01:45:42 UTC</time>
+    <hopsession>127.0.0.1b2rlaereiy9</hopsession>
     <body>&lt;h1&gt;Return Merchandise Application&lt;/h1&gt;
 &lt;p&gt;Before returning merchandise, please seek approval from the manufacturer.&lt;/p&gt;
 &lt;table&gt;
     &lt;tr&gt;&lt;th&gt;Manufacturer&lt;/th&gt;&lt;th&gt;RMA page&lt;/th&gt;&lt;tr/&gt;
     &lt;tr&gt;&lt;td&gt;Element14 or Embest&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://www.element14.com/community/docs/DOC-68749&quot; class=&quot;external&quot;&gt;Element14 RMA page&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;CircuitCo&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;GHI Electronics&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;Seeed Studio&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;Arrow&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;EmProDesign&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;SanCloud&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;Mentorel&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;!--
+    &lt;tr&gt;&lt;td&gt;CircuitCo&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;EmProDesign&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;TBD&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+--&gt; 
 &lt;/table&gt;
 &lt;p&gt;If the contact still has &lt;b&gt;TBD&lt;/b&gt;, please contact Jason Kridner via the contact information on &lt;a href=&quot;/about&quot;&gt;the about page&lt;/a&gt; to acquire the correct contact.&lt;/p&gt;
 &lt;p&gt;For a complete list of licensed manufacturers, please visit the &lt;a href=&quot;/logo&quot;&gt;logo licensee page&lt;/a&gt;.&lt;/p&gt;
@@ -135,9 +134,12 @@
         );
     });
 &lt;/script&gt; </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="121" prototyperef="Page"/>
+    <pvcount type="float">17804.0</pvcount>
     <http_referer>http://beagleboard.org/support/rma/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="4201" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
