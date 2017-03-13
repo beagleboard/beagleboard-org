@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4245" name="blue" prototype="Page" created="1489383188919" lastModified="1489383188922">
+  <hop:parent idref="2989" prototyperef="Page"/>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>blue</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">13.03.2017 05:33:08 UTC</time>
+    <pseudoparent idref="2989" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.172.19.131.jewlq92nlcgd</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <body>&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p1&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt;Meet BeagleBone&lt;/strong&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt; Blue. Robots. Fast.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;img src=&quot;../../static/images/beaglebone-blue-A2-official.jpg&quot; alt=&quot;BeagleBone Blue&quot; width=&quot;600&quot; height=&quot;419&quot; /&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&lt;span class=&quot;s1&quot;&gt;BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; Blue is the affordable and complete robotics controller built around the popular BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; open hardware computer. Linux-enabled, Blue is community-supported and fully open-source.&amp;nbsp; High-performance, flexible networking capabilities are coupled with a real-time capable Linux system and a compelling set of peripherals for building mobile robots quickly and affordably.&amp;nbsp; By utilizing the pre-configured WiFi access point, starting code development is as simple as connecting a battery and opening a web browser.&lt;/span&gt;&lt;span class=&quot;s4&quot;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt;Robots.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&lt;span class=&quot;s4&quot;&gt;&lt;br /&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;The electronic components needed for a wide variety of mobile and flying robots are all included. BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; Blue has onboard 2 cell (2S) LiPo battery management with charger and battery level LEDs, 8 real-time software controlled PWM/PPM outputs for 6V servo motors or electronic-speed-controllers (ESCs), 4 PWM-enabled DC motor drivers, 4 quadrature encoder inputs, on-board sensors including a 9-axis IMU and barometer, a wide array of GPIO and serial protocol connectors including CAN,4 ADC inputs, a PC USB interface, a USB 2.0 host port, a reset button, a power button, two user configurable buttons and eleven user configurable LED indicators.&amp;nbsp; Built on Octavo Systems&amp;rsquo; System-In-Package that integrates a high-performance TI AM3358 processor, 512MB of DDR3 and power management, customizing the Autodesk EAGLE based design to include any of your specific needs is simple and affordable. BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; Blue is ready to be a component of &lt;em&gt;your&lt;/em&gt; robot.&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt;Fast.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&lt;span class=&quot;s1&quot;&gt;BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; Blue leverages and engages a large community of experienced Linux and robotics developers, providing integrated solutions for numerous robotics challenges. Designed and developed in coordination with the UCSD Coordinated Robotics Lab, the basis for the hardware and software setup has been utilized by hundreds of students already, before this general public release. Several programming approaches are supported today, including a C API supporting the integrated sensors and drivers, mainline support for the Ardupilot open-source autopilot software for UAVs, multi-rotor-copters and rovers and an evolving integration with Robot Operating System (ROS) allowing for high-level programming in Python or across the network. Additionally, partners have created fully graphical programming options, eliminating barriers even to those brand new to programming. Not yet another microcontroller robotics platform, the high-performance interactive Linux-based BeagleBone&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;sup&gt;&amp;reg;&lt;/sup&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; Blue has test programs ready-to-run and cycles to spare, helping you get your robot moving &lt;em&gt;fast&lt;/em&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt;Summary of Key Features&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p8&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Processor: Octavo Systems OSD3358 1GHz ARM&amp;reg; Cortex-A8&lt;/li&gt;
+&lt;ul&gt;
+&lt;li class=&quot;li5&quot;&gt;&lt;span class=&quot;s1&quot;&gt;512MB DDR3 RAM&lt;/span&gt;&lt;/li&gt;
+&lt;li class=&quot;li5&quot;&gt;&lt;span class=&quot;s1&quot;&gt;2&amp;times;32-bit 200-MHz programmable real-time units (PRUs)&lt;/span&gt;&lt;/li&gt;
+&lt;li class=&quot;li5&quot;&gt;4GB 8-bit on-board flash storage programmed with Debian Linux distribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Connectivity and Sensors:&amp;nbsp;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Battery: 2-cell LiPo support with balancing, 9-18V charger input&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Wireless: 802.11bgn, Bluetooth 4.1 and BLE&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Motor control: 8 6V servo out, 4 DC motor out, 4 quadrature encoder in&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Sensors: 9 axis IMU, barometer&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Other easy connect interfaces: GPS, DSM2 radio, UARTs, SPI, I2C, analog, buttons, LEDs&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Software Compatibility&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Debian, ROS, Ardupilot, ...&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;Graphical programming, Cloud9 IDE on Node.js&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #454545; font-family: &apos;Trebuchet MS&apos;; -webkit-text-stroke: #454545;&quot;&gt;plus much more&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;p8&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p9&quot;&gt;&lt;span class=&quot;s1&quot;&gt;BeagleBone Blue is available today from Arrow, Element14 and Mouser. &lt;/span&gt;&lt;span class=&quot;s6&quot;&gt;For more details, visit &lt;a href=&quot;../../blue&quot;&gt;&lt;span class=&quot;s7&quot;&gt;https://beagleboard.org/blue&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p10&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p9&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;strong&gt;About BeagleBoard.org&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class=&quot;p9&quot;&gt;&lt;span class=&quot;s1&quot;&gt;A small group of enthusiastic engineers interested in creating powerful, open and embedded devices are pioneering new ground in open hardware and have worked together on the concept and realization of BeagleBone, BeagleBone Black, BeagleBone Black Wireless, BeagleBoard, BeagleBoard-xM and BeagleBoard-X15. The resulting open-source hardware platforms bridge desktop and embedded development, allowing developers to design to their specification and collaborate with the open source community on creative new applications. The BeagleBoard.org community has tens of thousands of engaged members and aims to fuel their innovations, whether they are designing projects for work or fun. With publicly hosted open-source software, social media feeds of ongoing development, and an active community mailing list and live chat, developers have easy access to support and exchange of ideas. Visit www.beagleboard.org to get started today.&lt;/span&gt;&lt;/p&gt;</body>
+    <http_language>en-US,en;q=0.8</http_language>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_referer>https://beagleboard.org/blog-drafts/blue/edit_blog</http_referer>
+  </hopobject>
+</xmlroot>
