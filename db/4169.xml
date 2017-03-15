@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1489561619600">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1489561660070">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>blue</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">15.03.2017 07:06:59 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>blue</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
+    <time type="date">15.03.2017 07:07:40 UTC</time>
     <hopsession>127.0.0.172.19.131.jewlq92nlcgd</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">29680.0</pvcount>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
@@ -37,7 +34,6 @@ mobile robots quick and affordable.
 &lt;/ul&gt;
 &lt;/div&gt;
 
-
  &lt;div id=&quot;t2-c5b&quot;&gt;  
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity and sensors&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
@@ -47,12 +43,9 @@ mobile robots quick and affordable.
 &lt;li&gt;Sensors: 9 axis IMU, barometer&lt;/li&gt;
 &lt;li&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/li&gt;
 &lt;li&gt;User interface: 11 user programmable LEDs, 2 user programmable buttons&lt;/li&gt;
-&lt;li&gt;Easy connect interfaces for adding additional sensors such as: GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog&lt;/li&gt;
+&lt;li&gt;Easy connect interfaces for adding additional sensors such as: GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-
-
-
 
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
  &lt;div id=&quot;t2-c5c&quot;&gt;
@@ -237,8 +230,11 @@ find all available hardware specifications such as:
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">29681.0</pvcount>
     <http_referer>https://beagleboard.org/blue/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
