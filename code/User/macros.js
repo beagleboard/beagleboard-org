@@ -8,6 +8,17 @@ function prompt_macro (param)
  {
   function updateUserState ()
    {
+    try
+     {
+      //app.log("Attempting to set a new log level");
+      var logger = Packages.org.apache.log4j.LogManager.getRootLogger();
+      logger.setLevel(Packages.org.apache.log4j.Level.DEBUG);
+     }
+    catch (ex)
+     {
+      app.log("Unable to update log level: " + ex);
+     }
+
     if (req.data["logout"])
      {
       app.log("Logging out.");
@@ -115,6 +126,7 @@ function prompt_macro (param)
        }
       app.log("warning: " + warning);
       var discoveries = manager.discover(openid_url);
+      app.log("Associating with discoveries = " + discoveries);
       var discovered = manager.associate(discoveries);
       session.data["openid-disco"] = discovered;
       //var realmVerifier = new Packages.org.openid4java.server.RealmVerifier();
@@ -164,10 +176,18 @@ function prompt_macro (param)
       var manager = getManager();
       var discovered = session.data["openid-disco"];
       var receivingURL = uri + "?" + queryString;
+      app.log("Parsing queryString = " + queryString);
       var parameterList =
        Packages.org.openid4java.message.ParameterList.createFromQueryString(queryString);
+      if (parameterList["openid.return_to"])
+       {
+        receivingURL = parameterList["openid.return_to"];
+       }
       app.log("Attempting to verify with receivingURL = " + receivingURL);
+      app.log(" parameterList = " + parameterList);
+      app.log(" discovered = " + discovered);
       var verification = manager.verify(receivingURL, parameterList, discovered);
+      app.log(" verification = " + verification);
       var verified = verification.getVerifiedId();
       if (verified != null)
        {

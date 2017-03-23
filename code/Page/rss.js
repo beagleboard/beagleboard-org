@@ -4,7 +4,7 @@ function rss_action ()
   res.handlers["User"] = User();
   res.contentType = "application/rss+xml";
   res.data.title = this.uri + "";
-  res.data.href = "http://beagleboard.org" + this.href();
+  res.data.href = "https://beagleboard.org" + this.href();
   res.data.body = this.rssBody();
   renderSkin("rss");
  }
@@ -37,12 +37,13 @@ function rssBody ()
   for (var i in collection)
    {
     var rfc882time = "" + collection[i].time;
-    rfc882time = //rfc882time.substring(0,3) + ','
-     rfc882time.substring(8,10)                 // DD
-     + ' ' + rfc882time.substring(4,7)          // Mon
+    rfc882time = rfc882time.substring(0,3) + ',' // Dow
+     + ' ' + rfc882time.substring(8,10)          // DD
+     + ' ' + rfc882time.substring(4,7)           // Mon
      + ' ' + rfc882time.substring(11,15)         // YYYY
-     + ' ' + rfc882time.substring(16,24)        // HH:MM::SS
-     + ' ' + rfc882time.substring(35,38);       // ZZZ
+     + ' ' + rfc882time.substring(16,24)         // HH:MM::SS
+     + ' UT';
+     //+ ' ' + rfc882time.substring(35,38);        // ZZZ
     body += "  <item>\n";
     body += "   <title>" + collection[i].uri + "</title>\n";
     body += "   <link>http://beagleboard.org" + collection[i].href() + "</link>\n";
