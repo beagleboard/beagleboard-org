@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4247" name="2017-03" prototype="Page" created="1490285779449" lastModified="1490285779547">
+  <hopobject id="4247" name="2017-03" prototype="Page" created="1490285779449" lastModified="1490285794975">
   <hop:parent idref="3901" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -1400,6 +1400,8 @@ body.outlook p {
 &lt;/html&gt;
 </body>
     <http_language>en-US,en;q=0.8</http_language>
+    <render_skin>bare</render_skin>
     <http_referer>https://beagleboard.org/newsletter/2017-03/edit</http_referer>
+    <skin_is_outer>true</skin_is_outer>
   </hopobject>
 </xmlroot>
