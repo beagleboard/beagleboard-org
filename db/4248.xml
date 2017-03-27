@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4248" name="Page" prototype="Page" created="1490640695034" lastModified="1490640695120">
+  <hop:parent idref="0" prototyperef="Root"/>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>resources-old</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">27.03.2017 18:51:35 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.pz2xeodxtgml</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">1.0</pvcount>
+    <body> &lt;h1&gt;Resource Links for the BeagleBoard&lt;/h1&gt;
+ &lt;p&gt;
+  First off, there is a
+  &lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard&quot;&gt;support wiki page&lt;/a&gt;
+  for the BeagleBoard that includes System Technical Reference Manuals, Schematics and more.
+ &lt;/p&gt;
+  &lt;h2&gt;
+   &lt;a name=&quot;third_party&quot;&gt;Third Party Resources and Distributors&lt;/a&gt;
+  &lt;/h2&gt;
+  &lt;h3&gt;Consultants and Commercial Linux Providers&lt;/h3&gt;
+  &lt;p&gt;The TI processors wiki has a nice &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com/index.php/Linux_Consultants_and_Commercial_Linux_Providers&quot;&gt;list of consultants and commercial Linux providers that support the BeagleBoard.org hardware&lt;/a&gt;&lt;/p&gt;
+  &lt;h3&gt;Hardware Distributors
+  &lt;/h3&gt;
+  &lt;p&gt;
+    Find a &lt;a href=&quot;/buy&quot;&gt;distributor for a BeagleBoard, BeagleBoard-xM and BeagleBone&lt;/a&gt;
+   &lt;/p&gt;
+  &lt;h3&gt;Value added resellers&lt;/h3&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://specialcomp.com/beagleboard&quot;&gt;
+    &lt;img src=&quot;/static/banners/specialcomp/234x60-Specialcomp.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://specialcomp.com/beagleboard&quot;&gt;Special Computing&lt;/a&gt;
+   offers unique products and services for the OMAP3530 BeagleBoard from custom cases and cabling to complete solutions.
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a href=&quot;/breeds&quot;&gt;Providers of OMAP35x in other development hardware&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;Several providers offer development platforms that utilize the OMAP35x that are either based on the BeagleBoard or otherwise provide some degree of software compatibility.&lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://gumstix.com/store/catalog/advanced_search_result.php?keywords=overo&amp;Search=Search&quot;&gt;
+    &lt;img src=&quot;/static/banners/gumstix/234x60-Overo.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   The
+   &lt;a class=&quot;external&quot; href=&quot;http://gumstix.com/store/catalog/advanced_search_result.php?keywords=overo&amp;Search=Search&quot;&gt;Gumstix Overo&lt;/a&gt;
+   series offers the BeagleBoard function in a smaller package, adds more expansion options like LCD, Ethernet &amp; Bluetooth and can be purchased in hundreds or thousands for commercial applications.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.igep-platform.com/&quot;&gt;
+    &lt;img src=&quot;/static/banners/isee/234x60-isee.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   ISEE
+   &lt;a class=&quot;external&quot; href=&quot;http://www.igep-platform.com/&quot;&gt;IGEPv2 Platform&lt;/a&gt;
+   provides all the functionality of a BeagleBoard (65x93mm), completely industrial grade (40 + 85ºC) and includes Ethernet 10/100 Mb, Wifi 802.11b/g, Bluetooth 2.0, 
+RS485/232, Expansion Connectors and available in the thousands for commercial applications.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.kwikbyte.com/KBOC.html&quot;&gt;
+    &lt;img src=&quot;/static/banners/kwikbyte/emb_ad_actual.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   The KwikByte
+   &lt;a class=&quot;external&quot; href=&quot;http://www.kwikbyte.com/KBOC.html&quot;&gt;KBOC System Module&lt;/a&gt;
+   provides easy-to-integrate OMAP35x
+BeagleBoard functionality and also supports simple expansion and
+customization at any volume.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.technexion.com/index.php/tao-devkits&quot;&gt;
+    &lt;img src=&quot;/static/banners/technexion/technexion-tao-series-banner.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   TechNexion
+   &lt;a class=&quot;external&quot; href=&quot;http://www.technexion.com/index.php/tao-devkits&quot;&gt;TAO-3530 System Module&lt;/a&gt;
+   together with the inferno or thunder interface boards creates possibilities for developers to fully test all and more of Beagleboard functionality and start development of custom unique products immediately and without huge upfront investments.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com/index.php?title=OMAP3_Boards&quot;&gt;Other OMAP3 boards.&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;Knowledgeable consultants and solution providers&lt;/h3&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.qnx.com/partners/partner_kits/ti_omap_3530.html&quot;&gt;
+    &lt;img src=&quot;/static/banners/qnx/278-49_ti-omap3530_banner.gif&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.qnx.com/partners/partner_kits/ti_omap_3530.html&quot;&gt;QNX&lt;/a&gt;
+   provides a complete solution for the accelerated development of automotive and general embedded applications with rich HMI and multimedia requirements.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.ics.com/services/embedded/&quot;&gt;ICS&lt;/a&gt;
+   provides embedded software development services for the Beagleboard with focus on applications built with Qt, a cross-platform application and UI framework from Nokia (formerly Trolltech). ICS is a Qt Certified Partner, and the largest independent firm specializing in Qt development.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.screamingcircuits.com/?utm_source=beagleboard.org&amp;utm_medium=sitelink&amp;utm_campaign=beagleboardsite&quot;&gt;Screaming Circuits&lt;/a&gt;
+   delivers PCB Assembly service – prototypes and short run production. We guarantee turn-times as fast as 24 hours. We assemble Package-on-package, 0201 passives, CSP, microBGA, QFN and our minimum quantity is just one board. You can quote and order our pcb assembly service online.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;https://linuxlink.timesys.com/dev_center/beagleboard&quot;&gt;LinuxLink Development Center for Beagle Board&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.arm.com/ds5&quot;&gt;ARM DS-5 development system&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.mvista.com/download/request_single.php?d=468&quot;&gt;Booting MontaVista Linux 6 on the Beagle Board&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;Daughter-boards and accessories&lt;/h3&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.tincantools.com/product.php?productid=16147&amp;cat=0&amp;page=1&amp;featured&quot;&gt;
+    &lt;img src=&quot;/static/banners/tincantools/tct-zippy-banner.jpg&quot; border=&quot;0&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+   The
+   &lt;a class=&quot;external&quot; href=&quot;http://www.tincantools.com/product.php?productid=16147&amp;cat=0&amp;page=1&amp;featured&quot;&gt;BeagleBuddy Zippy Ethernet Combo Board&lt;/a&gt;
+   is an expansion board for the BeagleBoard that adds an Ethernet interface, a second SD/MMC memory card interface, a battery backed-up Real Time Clock, a second RS-232 serial port, and a I²C expansion interface (5V).
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.beagleboardtoys.com&quot;&gt;Beagle Board Toys from CircuitCo&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;hr/&gt;
+ &lt;h2&gt;
+  &lt;a href=&quot;/hardware&quot;&gt;Hardware Overview and Resources&lt;/a&gt;
+ &lt;/h2&gt;
+ &lt;h3&gt;System Technical Reference Manuals&lt;/h3&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;/static/BBxMSRM_latest.pdf&quot;&gt;Current BeagleBoard-xM System Technical Reference Manual&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;/static/BBSRM_latest.pdf&quot;&gt;Current pre-xM System Technical Reference Manual&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h3&gt;Device-level documentation&lt;/h3&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   For pre-xM BeagleBoard:
+   &lt;a class=&quot;external&quot; href=&quot;http://focus.ti.com/docs/prod/folders/print/omap3530.html&quot;&gt;OMAP35x Processor Family Information&lt;/a&gt;
+   (search for &quot;Technical Reference Manual&quot; because I cannot get a stable link to document ID &quot;spruf98&quot;)
+  &lt;/li&gt;
+  &lt;li&gt;
+   For BealgleBoard-xM:
+   &lt;a class=&quot;external&quot; href=&quot;http://focus.ti.com/docs/prod/folders/print/dm3730.html&quot;&gt;AM/DM37x Processor Family Information&lt;/a&gt;
+   (search for &quot;Technical Reference Manual&quot; because I cannot get a stable link to document ID &quot;sprugn4&quot;)
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://focus.ti.com/docs/prod/folders/print/tps65950.html&quot;&gt;Power Management and Analog Companion Devices&lt;/a&gt;
+   (search for &quot;TRM&quot; because I cannot get a stable link to document ID &quot;swcu050&quot; and the terminology on each web page isn&apos;t consistent so you might not know to look for those magical 3 letters of TI-speak)
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://community.ti.com/forums/107.aspx&quot;&gt;Power Management for OMAP discussion forum&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://focus.ti.com/docs/prod/folders/print/tfp410.html&quot;&gt;TFP410 DVI-D Transmitter&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;https://focus.ti.com/general/docs/tags/fldrsfortagTemplate.tsp?tagName=beagleboard&amp;startIndex=0&quot;&gt;Products on www.ti.com tagged with &quot;beagleboard&quot;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.micron.com/products/mcps/beagleboard&quot;&gt;Micron memories&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h3&gt;Additional materials&lt;/h3&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://elinux.org/BeagleBoard&quot;&gt;eLinux Wiki for the Beagle Board&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;/hardware/design&quot;&gt;Beagle Board Design Materials&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com&quot;&gt;TI Embedded Processors Wiki&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.omappedia.org&quot;&gt;OMAPPedia.org&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;hr/&gt;
+ &lt;h2&gt;
+  &lt;a href=&quot;/software&quot;&gt;Software Development Resources&lt;/a&gt;
+ &lt;/h2&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.ti.com/dummiesbook&quot;&gt;OMAP and DaVinci Software for Dummies book&lt;/a&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.ti.com/dummiesbook&quot;&gt;
+    &lt;img src=&quot;/static/images/dummiesbook_half.PNG&quot; align=&quot;right&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://code.google.com/p/beagleboard&quot;&gt;Google Project Page&lt;/a&gt;
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://code.google.com/p/beagleboard/wiki/BeagleBoardDiagnostics&quot;&gt;Diagnostic Software&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://code.google.com/p/beagleboard/issues/list&quot;&gt;Issue Tracker for Diagnostic Software, Board, and Website&lt;/a&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   Compilers
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;The boards ship with a native ARM compiler that is available in the demo images&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://www.angstrom-distribution.org/toolchains&quot;&gt;Angstrom Distribution toolchains (including Qt)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;https://www-a.ti.com/downloads/sds_support/TICodegenerationTools/download.htm&quot;&gt;TI Free, Non-commercial C6000 Compiler&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://www.codesourcery.com/gnu_toolchains/arm&quot;&gt;Code Sourcery GCC Tools for ARM&lt;/a&gt;
+     &lt;br/&gt;
+     2007q3-51 is currently recommended
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   TI-hosted software
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://www.ti.com/requestfreesoftware&quot;&gt;Free software available from TI&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com&quot;&gt;TI Embedded Processors Wiki&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://software-dl.ti.com/dsps/dsps_public_sw/sdo_sb/targetcontent/dvsdk/DVSDK_3_00/latest/index_FDS.html&quot;&gt;OMAP35x DVSDK&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;https://omapzoom.org/gf/project/&quot;&gt;OMAPZoom GForge&lt;/a&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   Linux-related
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://free-electrons.com/blog/beagle-labs/&quot;&gt;Free Electrons Linux Training Materials for the BeagleBoard&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     Books
+     &lt;ul&gt;
+      &lt;li&gt;
+       &lt;a class=&quot;external&quot; href=&quot;http://oreilly.com/catalog/9780596005658/&quot;&gt;Understanding the Linux Kernel&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+       &lt;a class=&quot;external&quot; href=&quot;http://oreilly.com/catalog/9780596005900/&quot;&gt;Linux Device Drivers&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+       &lt;a class=&quot;external&quot; href=&quot;http://www.embeddedlinuxprimer.com/&quot;&gt;Embedded Linux Primer&lt;/a&gt;
+      &lt;/li&gt;
+     &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://ldn.linuxfoundation.org/how-participate-linux-community&quot;&gt;Participating in the Linux community&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://delicious.com/jadon/gitweb+beagleboard&quot;&gt;Links to related git repositories&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;/project/linux&quot;&gt;Linux kernel&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;/project/U-Boot+%28V1%29&quot;&gt;U-boot bootloader&lt;/a&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   WinCE-related
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;
+     &lt;a class=&quot;external&quot; href=&quot;http://www.microsoft.com/windowsembedded/en-us/products/spark/default.mspx&quot;&gt;Microsoft Spark program&lt;/a&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   RTOS-related
+   &lt;ul class=&quot;subitem&quot;&gt;
+    &lt;li&gt;DSP BIOS&lt;/li&gt;
+    &lt;li&gt;Micrium&lt;/li&gt;
+    &lt;li&gt;OKL4&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;hr/&gt;
+  &lt;h2&gt;Other Resources&lt;/h2&gt;
+  &lt;h3&gt;Links on this site&lt;/h3&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;/media&quot;&gt;Videos/Pictures&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;/support&quot;&gt;Support Information&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;/discuss&quot;&gt;Beagle Board Discussion Group and Chat&lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Links to other community sites&lt;/h3&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a  class=&quot;external&quot;href=&quot;https://community.ti.com/forums/32.aspx&quot;&gt;
+     TI Community Forum for OMAP
+     &lt;sup&gt;NEW&lt;/sup&gt;
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://beagleboard.jp&quot;&gt;BeagleBoard Japan&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://www.beagleboard.tw&quot;&gt;CATCAN in Taiwan (BeagleBoard.tw)&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://groups.google.com/group/beagleboard-brasil&quot;&gt;BeagleBoard Brazil&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://meld.mvista.com/group_view.aspx?GroupID=daab8b9149484cfaa180bb0cf71a15d5&quot;&gt;Meld embedded Linux community hosted by MontaVista&lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h2&gt;Selected past events&lt;/h2&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com/index.php/ETechDays_Community_Lightning_Talks&quot;&gt;TI eTech Day&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   &lt;b&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://processors.wiki.ti.com/index.php/ETechDays_Community_Lightning_Talks&quot;&gt;Community Lightning Talks&lt;/a&gt;
+   &lt;/b&gt;
+   &lt;br/&gt;
+   &lt;i&gt;
+    November 17, 2009
+    &lt;br/&gt;
+    On-line event
+   &lt;/i&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://newscenter.ti.com/Blogs/newsroom/archive/2009/11/12/see-beagleboard-demos-at-sps-ipc-drives-tradefair-november-24.aspx&quot;&gt;SPS/IPC/Drives Tradefair&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   &lt;i&gt;November 24&lt;/i&gt;
+   &lt;br/&gt;
+   &lt;i&gt;Nuremberg, Germany&lt;/i&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a href=&quot;/esc&quot;&gt;ESC Grenoble, France 2009&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;/esc&quot;&gt;
+    &lt;b&gt;BeagleBoard Workshop&lt;/b&gt;
+   &lt;/a&gt;
+   &lt;br/&gt;
+   &lt;i&gt;Thursday, December 3&lt;/i&gt;
+   &lt;br/&gt;
+   Join BeagleBoard.org at ESC France for a hands-on interactive training workshop. You get access to industry expert led classes where you learn how to configure your kit onsite---and it’s yours to keep!
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;i&gt;
+    &lt;a class=&quot;external&quot; href=&quot;http://www.see2009.org/page.cfm/Action=Seminars/SeminarID=0351&quot;&gt;Symbian Exchange &amp; Expo&lt;/a&gt;
+   &lt;/i&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   &lt;b&gt;The beagle board port for SF^2&lt;/b&gt;
+   &lt;br/&gt;
+   &lt;i&gt;
+    27 Oct 2009
+    &lt;br/&gt;
+    13:30-14:00
+   &lt;/i&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;ESC Boston 2009&lt;/h3&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;/esc/&quot;&gt;Hands-on BeagleBoard classes&lt;/a&gt;
+   were held in Boston on September 22.  Materials are archived for all to use.
+  &lt;/p&gt;
+  &lt;p/&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;/esc&quot;&gt;Embedded Systems Conference&lt;/a&gt;
+   &lt;br/&gt;
+   McEnery Convention Center
+   &lt;br/&gt;
+   San Jose, CA, USA
+   &lt;br/&gt;
+   March 30 - April 3, 2009
+   &lt;br/&gt;
+   You get a
+   &lt;b&gt;Rev C&lt;/b&gt;
+   board and two full days of hands-on Beagle training with SGX-accelerated 3D, DSP-accelerated GStreamer, Android, and more.
+   &lt;br/&gt;
+   &lt;a class=&quot;external&quot; href=&quot;https://www.cmpevents.com/ESCw09/a.asp?option=C&amp;V=11&amp;SessID=9406&quot;&gt;User&apos;s group meeting to follow the BeagleBoard and Tektronix scope give away on Thursday at 3PM, discussing new sponsored project program.&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.silica.com/events/seminars/seminar-overview/ti-omp-workshop.html&quot;&gt;OMAP35x training by Silica&lt;/a&gt;
+   &lt;br/&gt;
+   ARM Holdings Lecture Theatre
+   &lt;br/&gt;
+   Brussels, Belgium
+   &lt;br/&gt;
+   March 31, 2009
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.cmp-egevents.com/web/escb/beagleboard&quot;&gt;Embedded Systems Conference Boston&lt;/a&gt;
+   &lt;br/&gt;
+   Hynes Convention Center
+   &lt;br/&gt;
+   Boston, MA, USA
+   &lt;br/&gt;
+   October 26-30, 2008
+   &lt;br/&gt;
+   Build Your Own Embedded
+   &lt;br/&gt;
+   System - BeagleBoard
+   &lt;br/&gt;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;/demo/esc&quot;&gt;ESC course materials&lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.silica.com/events/seminars/seminar-overview/ti-omp-workshop.html&quot;&gt;OMAP35x training by Silica&lt;/a&gt;
+   &lt;br/&gt;
+   ARM Holdings Lecture Theatre
+   &lt;br/&gt;
+   Cambridge, UK
+   &lt;br/&gt;
+   January 21, 2009 and again on January 22, 2009
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.embedded-world.de/en/exhibitors-and-products/?activetab=products&amp;edb.action=Details&amp;edb.exid=196203&amp;layout=&amp;edb.allexhibitorschar=T&quot;&gt;Embedded World&lt;/a&gt;
+   &lt;br/&gt;
+   Nurenberg, Germany
+   &lt;br/&gt;
+   March 3 - 5, 2009
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.embedded-world.de/en/default.ashx&quot;&gt;Embedded World  2010 Trade Show&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   March 2-4, 2010
+   &lt;br/&gt;
+   Nuremberg, Germany
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a href=&quot;/bone&quot;&gt;The $89 BeagleBone!&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   Today, BeagleBoard.org announces the next member of the pack, the BeagleBone.  Here is a
+   &lt;a class=&quot;external&quot; href=&quot;http://www.prnewswire.com/news-releases/meet-beaglebone-the-new-89-open-source-hardware-platform-giving-electronic-enthusiasts-a-smaller-friendlier-and-more-affordable-treat-132910373.html&quot;&gt;related press release&lt;/a&gt;
+   and
+   &lt;a href=&quot;/bone&quot;&gt;some details.&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://www.bdkeller.com/2011/10/save-google-reader/&quot;&gt;Google kills BeagleBoard.org news feed&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   By
+   &lt;a class=&quot;external&quot; href=&quot;http://www.bdkeller.com/2011/10/save-google-reader/&quot;&gt;removing the social features from Google Reader&lt;/a&gt;
+   , Google killed our news feed and deleted a log of thousands of blog posts regarding what you can do with a BeagleBoard.  Thanks Google. :-(
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://esc.eetimes.com/boston/beagle_chronos&quot;&gt;BeagleBoard is back at ESC Boston&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   This time, there is more focus on hardware interfacing and on Android, including an
+   &lt;a class=&quot;external&quot; href=&quot;http://esc.eetimes.com/boston/android_certificate&quot;&gt;Android Certificate Program.&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://beagleboard.blogspot.com/2011/07/beagleboard-turns-30.html&quot;&gt;BeagleBoard turns 3.0!&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;The BeagleBoard was announced 3 years ago now.&lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;http://bit.ly/bcsuggest&quot;&gt;BeagleCast!&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   We&apos;re bringing Gerald into a weekly podcast!  Send in your questions and suggestions at +1-713-234-0535 or
+   &lt;a class=&quot;external&quot; href=&quot;http://tinyurl.com/bcsuggest&quot;&gt;on the BeagleCast suggest form.&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/d/topic/beagleboard/nZtrnMMGNB4/discussion&quot;&gt;Summer Workshops at Stanford&lt;/a&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;July 16-20 and July 23-27&lt;/p&gt;
+ &lt;/ul&gt;
+  &lt;a class=&quot;external&quot; href=&quot;http://www.mathworks.com/academia/student-challenges/hardware-2012.html&quot;&gt;&lt;img src=&quot;/static/images/Simulink_Revised.jpg.jpeg&quot; align=&quot;left&quot; /&gt;&lt;/a&gt;
+ &lt;h3&gt;&lt;a class=&quot;external&quot; href=&quot;http://www.mathworks.com/academia/student-challenges/hardware-2012.html&quot;&gt;Simulink + BeagleBoard = $500&lt;/a&gt;&lt;/h3&gt;
+ &lt;p&gt;Calling all students! Here’s some simple arithmetic: BeagleBoard + Simulink could = back to class with extra cash. &lt;a href=&quot;http://www.mathworks.com/academia/student-challenges/hardware-2012.html&quot;&gt;Find out how to get $500 in your pocket.&lt;/a&gt; Homework’s due &lt;b&gt;August 31st&lt;/b&gt;.&lt;/p&gt;
+</body>
+    <http_language>en-US,en;q=0.8</http_language>
+    <http_referer>http://beagleboard.org/resources-old/edit</http_referer>
+  </hopobject>
+</xmlroot>
