@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="50" name="credits" prototype="Page" created="1203267969725" lastModified="1435763383206">
+  <hopobject id="50" name="credits" prototype="Page" created="1203267969725" lastModified="1490624553567">
   <hop:parent idref="0" prototyperef="Root"/>
     <body>&lt;div&gt;
  Here is a partial working-list of projects utilized in creating and running this site:
@@ -15,10 +15,10 @@
  &lt;/ul&gt;
 &lt;/div&gt;</body>
     <user>blog.hangerhead.com</user>
-    <prev idref="49" prototyperef="Page"/>
     <uri>credits</uri>
+    <prev idref="49" prototyperef="Page"/>
+    <pvcount type="float">3.0</pvcount>
     <time type="date">17.02.2008 17:06:09 UTC</time>
-    <pvcount type="float">2.0</pvcount>
     <lang>en-us</lang>
   </hopobject>
 </xmlroot>
