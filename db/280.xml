@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1490714576815">
+  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1490714669368">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>resources</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
-    <time type="date">28.03.2017 15:22:56 UTC</time>
+    <time type="date">28.03.2017 15:24:29 UTC</time>
     <hopsession>127.0.0.pz2xeodxtgml</hopsession>
     <body> &lt;h1&gt;Resource Links for the BeagleBoard.org Community&lt;/h1&gt;
  &lt;p&gt;The open-source BeagleBoard.org designs are perfect for rapidly building
@@ -28,6 +28,10 @@
   When in doubt, search around the wiki for who might already be working on the challenge
   you are facing. Once you have some ideas, reach out to the experts to help you get to
   where you are headed.
+ &lt;/p&gt;
+ &lt;p&gt;You should also start by checking out the &lt;a href=&quot;/logo&quot;&gt;logo-licensed compatible boards&lt;/a&gt;
+     as one of them may meet your product requirments and the manufacturer might be able
+     to satisfy your business needs.
  &lt;/p&gt;
   &lt;h2&gt;
    &lt;a name=&quot;third_party&quot;&gt;Third Party Resources&lt;/a&gt;
@@ -78,12 +82,12 @@
 
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">17949.0</pvcount>
+    <pvcount type="float">17951.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/resources/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
     <hop:child idref="314" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
