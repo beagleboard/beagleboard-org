@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3643" name="Page" prototype="Page" created="1403751248197" lastModified="1493861426555">
+  <hopobject id="3643" name="Page" prototype="Page" created="1403751248197" lastModified="1493861553492">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>beagleboard-xm</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36</http_browser>
-    <time type="date">04.05.2017 01:30:26 UTC</time>
+    <time type="date">04.05.2017 01:32:33 UTC</time>
     <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
     <body>&lt;h1&gt;BeagleBoard-xM&lt;/h1&gt;
 
@@ -62,38 +62,7 @@
 &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
-&lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://specialcomp.com/beaglebone/&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/products/1278&quot;&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.makershed.com/BeagleBoard_BeagleBone_Black_p/mkcce3.htm?Click=142528&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://parts.arrow.com/item/detail/circuitco/bb-bblk-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://avnetexpress.avnet.com/store/em/EMController?action=products&amp;catalogId=500201&amp;storeId=500201&amp;N=0&amp;langId=-1&amp;slnk=b&amp;term=BB-BBLK-000&amp;hrf=http%3A%2F%2Fwww.em.avnet.com%2Fen-us%2Fdesign%2Fdrc%2FPages%2FCircuitco-BeagleBone-Black-Open-Source-Hardware-Platform.aspx&amp;intcmp=EMA-BUY-BB-BBLK-000&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176149_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.openhacks.com/page/productos/id/359&quot;&gt;Openhacks.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tigal.com/product/3406&quot;&gt;Tigal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.conrad.biz/bb/&quot;&gt;Conrad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.watterott.com/de/BeagleBone-Black&quot;&gt;Watterott&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://store.techshare.jp/shopbrand/006/Y/&quot;&gt;TechShare Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.electroshopdendermonde.be/index.php/webshop/beaglebone/beaglebone-black&quot;&gt;Electroshop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.chipsee.com/product/evm/beagle.html&quot;&gt;Chipsee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.exp-tech.de/Mainboards/BeagleBone-Black.html&quot;&gt;EXP Tech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.abra-electronics.com/products/BeagleBone-Black-Single%252dBoard-Computer-Development-Board-.html&quot;&gt;Abra Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://embeddedcomputer.nl/beagleboard/beagleboard-beaglebone.html&quot;&gt;EmbeddedComputer.nl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.rpelectronics.com/bb-bblk-000-beaglebone-black-development-board.html&quot;&gt;RP Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.active123.com/BeagleBone-Black-Development-Board-Prodview.html&quot;&gt;Active&lt;/a&gt;&lt;/li&gt; 
-  &lt;li&gt;&lt;a href=&quot;https://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.logicsupply.com/products/bb_bblk_000&quot;&gt;Logic Supply&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.lextronic.fr/P28675-platine-beaglebone-black-rev-a5a.html&quot;&gt;Lextronic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1061&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.robotistan.com/BeagleBone-Black,PR-1523.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.embest-tech.cn/shop/star/beaglebone-black.html&quot;&gt;Embest Version&lt;/a&gt;&lt;/li&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-xm&quot;&gt;
 &lt;/ul&gt;
 
  
@@ -206,7 +175,7 @@ Live chat with other open-source enthusiasts
 
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">313531.0</pvcount>
+    <pvcount type="float">313533.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=6c2d97012982b47ab576de3202fcc0fa482fd6a0..463e:I=1415912797:X=1415916397</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/beagleboard-xm/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
