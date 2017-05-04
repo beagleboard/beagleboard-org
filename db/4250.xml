@@ -1,23 +1,52 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4250" name="xm" prototype="Page" created="1493861281936" lastModified="1493861347784">
+  <hopobject id="4250" name="xm" prototype="Page" created="1493861281936" lastModified="1493861472800">
   <hop:parent idref="3268" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>xm</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">04.05.2017 01:29:07 UTC</time>
-    <pseudoparent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>xm</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36</http_browser>
+    <time type="date">04.05.2017 01:31:12 UTC</time>
     <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">3.0</pvcount>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-xm&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardxm/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
-&lt;/select&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
+    &lt;option value=&quot;http://www.mouser.com/new/beagleboardorg/beagleboardxm/&quot;&gt;Mouser&lt;/option&gt;
+&lt;/select&gt;
+
+
+ &lt;!--
+ 
+ &lt;ul class=&quot;dropdown&quot; id=&quot;buy-xm&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.mouser.com/new/beagleboardorg/beagleboardxm/&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://parts.arrow.com/item/detail/circuitco/beagleboardxm&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176122_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://uk.farnell.com/texas-instruments/beagle-xm/kit-dev-beagleboard-xm-omap35x/dp/1823269&quot;&gt;Farnell (UK)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://store.techshare.jp/shop/shopdetail.html?brandcode=005007000002&amp;search=beagleboard-xm&amp;sort=&quot;&gt;TechShare Store (Japan)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.tenettech.com/search?Q=beagleboard-xm&quot;&gt;Tenet Technetronics (India)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.tigal.com/products.asp?src=beagleboard-xm&quot;&gt;Tigal (Europe)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=961&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://avnetexpress.avnet.com/store/em/EMController/Development-Kits/Circuitco-Electronics-LLC/BEAGLEBOARD-XM/_/R-14441977/A-14441977/An-0?action=part&amp;catalogId=500201&amp;langId=-1&amp;storeId=500201&amp;listIndex=-1&amp;page=1&amp;rank=0&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.liquidware.com/shop/show/BB-XM/BeagleBoard+XM&quot;&gt;Liquidware&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://specialcomp.com/beagleboard/xm.htm&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.chipsee.com/beagleboard-xm.html&quot;&gt;ChipSee (China)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.clotech.com.tw/products/beagle-series/beagleboard&quot;&gt;CLO Tech (Taiwan)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.idasystems.net/products/beagle_board&quot;&gt;IDA Systems (India)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.lextronic.fr/P26244-platine-de-developpement-beagleboard-xm.html&quot;&gt;Lextronic (France)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.watterott.com/en/BeagleBoard-xM&quot;&gt;Watterott (Germany)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=542&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.robotistan.com/BeagleBoard-xM,PR-1619.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7160430/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://sanatanatech.com/prestashop/259-beagle-board-xm.html&quot;&gt;Sanatana Techtronics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+--&gt;</body>
+    <pseudoparent idref="3268" prototyperef="Page"/>
+    <pvcount type="float">4.0</pvcount>
     <http_referer>http://beagleboard.org/distributors/xm/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
