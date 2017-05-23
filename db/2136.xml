@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1495545314877">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1495545729170">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36</http_browser>
-    <time type="date">23.05.2017 13:15:14 UTC</time>
+    <time type="date">23.05.2017 13:22:09 UTC</time>
     <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
     <body> &lt;a href=&quot;https://github.com/beagleboard/beaglebone-getting-started&quot;&gt;&lt;img style=&quot;position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67&quot; alt=&quot;Fork me on GitHub&quot; data-canonical-src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png&quot;&gt;&lt;/a&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
@@ -252,7 +252,7 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
     &lt;h2 id=&quot;update&quot;&gt;Update board with latest software&lt;/h2&gt;
     &lt;h3&gt;Step #1: Download the latest software image&lt;/h3&gt;
     &lt;p&gt;Download the lastest Debian image from &lt;a href=&quot;https://beagleboard.org/latest-images&quot;&gt;beagleboard.org/latest-images&lt;/a&gt;. The &quot;IoT&quot; images provide more free disk space if you don&apos;t need to use a graphical user interface (GUI).&lt;/p&gt;
-    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
     &lt;p&gt;The Debian distribution ships with the boards. The file you download will have an .img.xz extension. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
     &lt;img src=&quot;/static/images/download-latestimage.png&quot; width=&quot;50%&quot; /&gt;
  
@@ -327,13 +327,13 @@ hardware documentation and design materials.
 &lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://bit.ly/2rwqa3e&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1DYDyHI&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;http://bit.ly/2rwp6ME&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1P8JR7w&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;http://bit.ly/2rwp6ME&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1PxxOLN&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;http://bit.ly/2qcPKq5&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;/div&gt;
 &lt;h3&gt;Bad to the Bone&lt;/h3&gt;
@@ -353,7 +353,7 @@ hardware documentation and design materials.
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">1223906.0</pvcount>
+    <pvcount type="float">1223920.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/getting-started/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
