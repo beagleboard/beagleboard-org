@@ -61,6 +61,8 @@ $(document).ready(function(){
         var serversToTry = [
             window.location.host,
             '192.168.7.2',
+            '192.168.6.2',
+            '192.168.8.1',
             'beaglebone.local',
             'beaglebone-2.local'
         ];
