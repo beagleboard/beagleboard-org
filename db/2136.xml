@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1495543857926">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1495545314877">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>getting-started</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.03.2017 17:34:01 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.pz2xeodxtgml</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">1223890.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <body>  &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>getting-started</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36</http_browser>
+    <time type="date">23.05.2017 13:15:14 UTC</time>
+    <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
+    <body> &lt;a href=&quot;https://github.com/beagleboard/beaglebone-getting-started&quot;&gt;&lt;img style=&quot;position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67&quot; alt=&quot;Fork me on GitHub&quot; data-canonical-src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png&quot;&gt;&lt;/a&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
   &lt;script&gt;
 var step1done = false;
@@ -24,113 +21,166 @@ var testedOnce = false;
 $(document).ready(function(){  
  testForCompletedSteps();
 });
-
+ 
 function testForCompletedSteps() {
  if(!testedOnce) {
   testedOnce = true;
-  if(ga &amp;&amp; (typeof ga == &quot;function&quot;)) {
+  if(typeof ga == &quot;function&quot;) {
    ga(&apos;send&apos;, &apos;event&apos;, &apos;bonescript&apos;, &apos;started&apos;, &apos;getting-started&apos;);
   }
  }
  if(!step1done &amp;&amp; window.location.toString().match(/^file.*BEAGLEBONE\/START.htm$/)) {
   step1done = true;
   $(&apos;#fmStep1&apos;).addClass(&apos;fmGreen&apos;);
-  if(ga &amp;&amp; (typeof ga == &quot;function&quot;)) {
+  if(typeof ga == &quot;function&quot;) {
    ga(&apos;send&apos;, &apos;event&apos;, &apos;bonescript&apos;, &apos;plugged-in&apos;, &apos;getting-started&apos;);
   }
  }
- setTargetAddress(&apos;192.168.7.2&apos;, function () {
-  if(typeof _bonescript != &apos;undefined&apos;) {
-   step1done = true;
-   $(&apos;#fmStep1&apos;).addClass(&apos;fmGreen&apos;);
-   $(&apos;#fmStep2&apos;).addClass(&apos;fmGreen&apos;);
-   if(ga &amp;&amp; (typeof ga == &quot;function&quot;)) {
-    ga(&apos;send&apos;, &apos;event&apos;, &apos;bonescript&apos;, &apos;connected&apos;, &apos;getting-started&apos;);
-   }
-  } else {
-   setTimeout(testForCompletedSteps, 2000);
-  }
- });
+}
+ 
+function foundBone(host) {
+ console.log(&quot;Found BeagleBone at &quot; + host);
+ $(&apos;a.bonelink&apos;).each(function(i){ $(this).attr(&apos;href&apos;,&quot;http://&quot;+host); });
+ $(&apos;a#bonelinktext&apos;).html(&quot;http://&quot; + host);
+ $(&apos;ul#quickLinks&apos;).html(
+  &apos;&lt;li&gt;&lt;a href=&quot;http://&apos; + host + &apos;/&quot; class=&quot;external&quot;&gt;Web server&lt;/a&gt;&lt;/li&gt;&apos; +
+  &apos;&lt;li&gt;&lt;a href=&quot;http://&apos; + host + &apos;:3000/&quot; class=&quot;external&quot;&gt;Cloud9 IDE&lt;/a&gt;&lt;/li&gt;&apos; +
+  &apos;&lt;li&gt;&lt;a href=&quot;ssh://debian@&apos; + host + &apos;/&quot; class=&quot;external&quot;&gt;SSH server&lt;/a&gt;&lt;/li&gt;&apos; +
+  &apos;&lt;li&gt;&lt;a href=&quot;http://&apos; + host + &apos;:1880/&quot; class=&quot;external&quot;&gt;Node-RED&lt;/a&gt;&lt;/li&gt;&apos;
+ );
+ $(&apos;ul#quickLinks&apos;).show();
+ step1done = true;
+ $(&apos;#fmStep1&apos;).addClass(&apos;fmGreen&apos;);
+ $(&apos;#fmStep2&apos;).addClass(&apos;fmGreen&apos;);
+ if(typeof ga == &quot;function&quot;) {
+  ga(&apos;send&apos;, &apos;event&apos;, &apos;bonescript&apos;, &apos;connected7&apos;, &apos;getting-started&apos;);
+ }
 }
   &lt;/script&gt;
  &lt;/head&gt;
  &lt;body&gt;
     &lt;div id=&quot;floatMenu&quot;&gt;  
-     &lt;ul&gt;   
+     &lt;ul id=&quot;quickLinks&quot; style=&quot;display:none;&quot;&gt;
+     &lt;/ul&gt;
+     &lt;ul&gt;  
        &lt;li id=&quot;fmStep1&quot;&gt;&lt;a href=&quot;#step1&quot;&gt;&lt;strong&gt;Step 1:&lt;/strong&gt;&lt;br /&gt;
-Plug in your Beagle via USB&lt;/a&gt;&lt;/li&gt; 
+Power and boot&lt;/a&gt;&lt;/li&gt;
        &lt;li id=&quot;fmStep2&quot;&gt;&lt;a href=&quot;#step2&quot;&gt;&lt;strong&gt;Step 2:&lt;/strong&gt;&lt;br /&gt;
-Install drivers&lt;/a&gt;&lt;/li&gt;         
+Enable a network connection&lt;/a&gt;&lt;/li&gt;        
        &lt;li id=&quot;fmStep3&quot;&gt;&lt;a href=&quot;#step3&quot;&gt;&lt;strong&gt;Step 3:&lt;/strong&gt;&lt;br /&gt;
 Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
-    &lt;ul&gt; 
+    &lt;ul&gt;
      &lt;li&gt;&lt;a href=&quot;#troubleshooting&quot;&gt;Troubleshooting&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#update&quot;&gt;Update to latest software&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#distros&quot;&gt;Other software options&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#hardware&quot;&gt;Hardware documentation&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#books&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt; 
+    &lt;/ul&gt;
    &lt;/div&gt;
    &lt;div id=&quot;gettingstarted&quot;&gt;
-
+ 
 &lt;/a&gt;&lt;/p&gt;
-
-&lt;div style=&quot;float:right; width:305px; margin:5px; padding:5px;&quot;&gt;
-&lt;iframe width=&quot;300&quot; height=&quot;169&quot; src=&quot;https://www.youtube.com/embed/MSbJ45OnajE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;div style=&quot;height:15px;&quot;&gt; &lt;/div&gt;
-&lt;iframe width=&quot;300&quot; height=&quot;169&quot; src=&quot;https://www.youtube.com/embed/ciX08ysl6LE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h1&gt;Getting Started with BeagleBone&lt;/h1&gt;
-    &lt;p&gt;Beagle boards are tiny computers with all the capability of today’s desktop machines,
-    without the bulk, expense, or noise. 
-    Read the step-by-step getting started tutorial below to begin developing with your BeagleBone 
-    or BeagleBone Black in minutes.&lt;/p&gt;
-    &lt;p&gt;For additional getting started information, visit the suport wiki pages:&lt;/p&gt;
+ 
+&lt;h1&gt;Start your Beagle&lt;/h1&gt;
+    &lt;p&gt;Beagles are tiny computers with the capability of modern systems,
+    without the bulk, expense, or noise.
+    Read the step-by-step getting started tutorial below to begin developing with your Beagle in minutes.&lt;/p&gt;
+    &lt;p&gt;For user supplied tips on getting started, visit the eLinux (or other) community wiki pages:&lt;/p&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard-xM&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard-X15&quot;&gt;BeagleBoard-X15&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBone&quot;&gt;BeagleBone&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlackWireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlue&quot;&gt;BeagleBone Blue&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://wiki.seeed.cc/BeagleBone_Green/&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://wiki.seeed.cc/BeagleBone_Green_Wireless/&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/SanCloud_BeagleBoneEnhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://wiki.neuromeka.net/index.php?title=Category:Getting_started_with_BB-Air&quot;&gt;Neuromeka BeagleBone Air&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
-    
-    &lt;h3&gt;Original BeagleBone users: update to the &lt;a href=&quot;#update&quot;&gt;latest 
-    software image&lt;/a&gt; to use the instructions below.&lt;/h3&gt;
-
+   
+    &lt;h3&gt;&lt;em&gt;If any step fails, it is recommended to update to the &lt;a href=&quot;#update&quot;&gt;latest
+    software image&lt;/a&gt; to use the instructions below.&lt;/em&gt;&lt;/h3&gt;
+ 
     &lt;h3 id=&quot;step1&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step1.gif&quot; /&gt;
-    &lt;strong&gt;Plug in your Beagle via USB&lt;/strong&gt;&lt;/h3&gt;
-
+    &lt;strong&gt;Power and boot&lt;/strong&gt;&lt;/h3&gt;
+ 
     &lt;div&gt;
-     &lt;p&gt;Use the provided USB cable to plug your Beagle into your computer. This 
-     will both power the board and provide a development interface. 
-     BeagleBone Black will boot Linux from the on-board 2GB or 4GB eMMC. Either
-     BeagleBone Black or original BeagleBone may also boot from a microSD card.
-     Original BeagleBone is provided with a pre-configured 4GB microSD card.
+     &lt;p&gt;Most Beagles include a USB cable, providing a convenient way
+     to provide both power to your Beagle and connectivity to your computer.
+     If you provide your own, ensure it is of good quality. You&apos;ll connect
+     the &lt;a href=&quot;https://en.wikipedia.org/wiki/USB&quot; class=&quot;external&quot;&gt;&quot;type-B&quot; plug&lt;/a&gt; of
+     the USB cable to your Beagle and the &quot;type-A&quot; plug to your computer.
+     &lt;em&gt;Note that BeagleBoard-X15 must
+     always be powered instead by a 12V adapter with a barrel jack.&lt;/em&gt;&lt;/p&gt;
+     &lt;p&gt;Alternatively, for Beagles other than BeagleBoard-X15 and BeagleBone Blue
+     that require 12V, you can utilize a 5V adapter connected to the barrel
+     jack.&lt;/p&gt;
+     &lt;p&gt;If your Beagle was provided with an &lt;a href=&quot;https://en.wikipedia.org/wiki/Secure_Digital&quot; class=&quot;external&quot;&gt;SD (microSD) card&lt;/a&gt;, make sure
+     it is inserted ahead of providing power. Most Beagles include programmed
+     on-board flash and therefore do not require an SD card to
+     be inserted.
      &lt;/p&gt;
-     &lt;p&gt;BeagleBone or BeagleBone Black will operate as a flash drive providing
-     you with a local copy of the documentation and drivers.  Note that this
-     interface may not be used to re-configure the microSD card with a new
-     image, but may be used to update the boot parameters using the uEnv.txt
-     file.
-     &lt;/p&gt;
-     &lt;p&gt;You&apos;ll see the PWR LED lit steadily. Within 10 seconds, you should see the other LEDs blinking in their default configurations.&lt;/p&gt;
+     &lt;p&gt;&lt;/p&gt;
+     &lt;p&gt;You&apos;ll see the power (PWR or ON) LED lit steadily. Within a minute or so, you should see the other LEDs blinking in their default configurations.&lt;/p&gt;
      &lt;ul&gt;
-      &lt;li&gt;USR0 is configured at boot to blink in a heartbeat pattern&lt;/li&gt;
-      &lt;li&gt;USR1 is configured at boot to light during microSD card accesses&lt;/li&gt;
-      &lt;li&gt;USR2 is configured at boot to light during CPU activity&lt;/li&gt;
-      &lt;li&gt;USR3 is configured at boot to light during eMMC accesses&lt;/li&gt;
+      &lt;li&gt;USR0 is typically configured at boot to blink in a heartbeat pattern&lt;/li&gt;
+      &lt;li&gt;USR1 is typically configured at boot to light during SD (microSD) card accesses&lt;/li&gt;
+      &lt;li&gt;USR2 is typically configured at boot to light during CPU activity&lt;/li&gt;
+      &lt;li&gt;USR3 is typically configured at boot to light during eMMC accesses&lt;/li&gt;
+      &lt;li&gt;WIFI is typically configured at boot to light with WiFi network association (&lt;em&gt;BeagleBone Blue only&lt;/em&gt;)&lt;/li&gt;
      &lt;/ul&gt;
-    &lt;!--- &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;/static/images/beagle_getting_started.jpg&quot; /&gt; 
-    --&gt;
-    &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;/static/uploads/BlackUSR.png&quot; /&gt;
+     &lt;img align=&quot;center&quot; width=&quot;85%&quot; src=&quot;/static/images/BlackUSR.png&quot; /&gt;
    
     &lt;/div&gt;
 &lt;/br&gt;
-    &lt;h3 id=&quot;step2&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step2.gif&quot; /&gt;&lt;strong&gt;Install drivers&lt;/strong&gt;&lt;/h3&gt;
-    &lt;p&gt;Install the drivers for your operating system to give you network-over-USB access to your Beagle.  Additional drivers give
-you serial access to your board.&lt;/p&gt;
+    &lt;h3 id=&quot;step2&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step2.gif&quot; /&gt;&lt;strong&gt;Enable a network connection&lt;/strong&gt;&lt;/h3&gt;
+    &lt;p&gt;If connected via USB, a network adapter should show up on your computer. Your Beagle should be running a DHCP server that will provide your computer with an IP address of either 192.168.7.1 or 192.168.6.1, depending on the type of USB network adapter supported by your computer&apos;s operating system. Your Beagle will reserve 192.168.7.2 or 192.168.6.2 for itself.&lt;/p&gt;
+    &lt;p&gt;If your Beagle includes WiFi, an access point called &quot;BeagleBone-XXXX&quot; where &quot;XXXX&quot; varies between boards. The access point password defaults to &quot;BeagleBone&quot;. Your Beagle should be running a DHCP server that will provide your computer with an IP address in the 192.168.8.x range and reserve 192.168.8.1 for itself.&lt;/p&gt;
+    &lt;p&gt;If your Beagle is connected to your local area network (LAN) via either Ethernet or WiFi, it will utilize &lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot; class=&quot;external&quot;&gt;mDNS&lt;/a&gt; to broadcast itself to your computer. If your computer supports mDNS, you should see your Beagle as beaglebone.local. &lt;em&gt;Non-BeagleBone boards will utilize alternate names. Multiple BeagleBone boards on the same network will add a suffix such as beaglebone-2.local.&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;The below table summarizes the typical addresses and should dynamically update to indicate an active connection.&lt;/p&gt;
+    &lt;table border=&quot;0&quot;&gt;
+     &lt;tr&gt;
+      &lt;th&gt;IP Address&lt;/th&gt;
+      &lt;th&gt;Connection Type&lt;/th&gt;
+      &lt;th&gt;Operating System(s)&lt;/th&gt;
+      &lt;th&gt;Status&lt;/th&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;192.168.7.2&lt;/td&gt;
+      &lt;td&gt;USB&lt;/td&gt;
+      &lt;td&gt;Windows&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/static/testconn.htm?host=192.168.7.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;192.168.6.2&lt;/td&gt;
+      &lt;td&gt;USB&lt;/td&gt;
+      &lt;td&gt;Mac OS X, Linux&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/static/testconn.htm?host=192.168.6.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;192.168.8.1&lt;/td&gt;
+      &lt;td&gt;WiFi&lt;/td&gt;
+      &lt;td&gt;all&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/static/testconn.htm?host=192.168.8.1&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;beaglebone.local&lt;/td&gt;
+      &lt;td&gt;all&lt;/td&gt;
+      &lt;td&gt;mDNS enabled&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/static/testconn.htm?host=beaglebone.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;beaglebone-2.local&lt;/td&gt;
+      &lt;td&gt;all&lt;/td&gt;
+      &lt;td&gt;mDNS enabled&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/static/testconn.htm?host=beaglebone-2.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;p&gt;With the latest images, &lt;em&gt;it should no longer be necessary to install drivers&lt;/em&gt; for your operating system to give you network-over-USB access to your Beagle. In case you are running an older image, an older operating system or need additional drivers for
+serial access to older boards, links to the old drivers are below.&lt;/p&gt;
     &lt;table border=&quot;0&quot;&gt;
      &lt;tr&gt;
       &lt;th&gt;Operating System&lt;/th&gt;
@@ -140,115 +190,98 @@ you serial access to your board.&lt;/p&gt;
      &lt;tr&gt;
       &lt;td&gt;Windows (64-bit)&lt;/td&gt;
       &lt;td&gt;
-       &lt;a target=&quot;_blank&quot; href=&quot;/static/Drivers/Windows/BONE_D64.exe&quot;&gt;64-bit installer&lt;/a&gt;
+       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/static/Drivers/Windows/BONE_D64.exe&quot;&gt;64-bit installer&lt;/a&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;2&quot;&gt;
        &lt;p&gt;If in doubt, try the 64-bit installer first.&lt;/p&gt;
        &lt;small&gt;&lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;Note #1:&lt;/b&gt; Windows Driver Certification warning may pop up two or three times.  Click &quot;Ignore&quot;, &quot;Install&quot; or &quot;Run&quot;&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #2:&lt;/b&gt; To check if you&apos;re running 32 or 64-bit Windows see this: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://support.microsoft.com/kb/827218&quot;&gt;https://support.microsoft.com/kb/827218&lt;/a&gt;.&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #3:&lt;/b&gt; On systems without the latest service release, you may get an error (0xc000007b). In that case, please install the following and retry: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&quot;&gt;https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&lt;/a&gt;.&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #4:&lt;/b&gt; You may need to reboot Windows.&lt;/li&gt;
-        &lt;li&gt;&lt;b&gt;Note #5:&lt;/b&gt; These drivers have been tested to work up to Windows 10&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #1:&lt;/b&gt; Windows Driver Certification warning may pop up two or three times.  Click &quot;Ignore&quot;, &quot;Install&quot; or &quot;Run&quot;&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #2:&lt;/b&gt; To check if you&apos;re running 32 or 64-bit Windows see this: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://support.microsoft.com/kb/827218&quot;&gt;support.microsoft.com/kb/827218&lt;/a&gt;.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #3:&lt;/b&gt; On systems without the latest service release, you may get an error (0xc000007b). In that case, please install the following and retry: &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.microsoft.com/en-us/download/confirmation.aspx?id=13523&quot;&gt;www.microsoft.com/en-us/download/confirmation.aspx?id=13523&lt;/a&gt;.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #4:&lt;/b&gt; You may need to reboot Windows.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Note #5:&lt;/b&gt; These drivers have been tested to work up to Windows 10&lt;/li&gt;
        &lt;/ul&gt;&lt;/small&gt;
       &lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;Windows (32-bit)&lt;/td&gt;
       &lt;td&gt;
-       &lt;a target=&quot;_blank&quot; href=&quot;/static/Drivers/Windows/BONE_DRV.exe&quot;&gt;32-bit installer&lt;/a&gt;
+       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/static/Drivers/Windows/BONE_DRV.exe&quot;&gt;32-bit installer&lt;/a&gt;
       &lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
-      &lt;td&gt;Mac OS X&lt;/td&gt;
+      &lt;td&gt;Mac OS X&lt;/td&gt;
       &lt;td&gt;
-       &lt;a target=&quot;_blank&quot; href=&quot;/static/Drivers/MacOSX/RNDIS/HoRNDIS.pkg&quot;&gt;Network&lt;/a&gt;&lt;br /&gt;
-       &lt;a target=&quot;_blank&quot; href=&quot;/static/Drivers/MacOSX/FTDI/EnergiaFTDIDrivers2.2.18.pkg&quot;&gt;Serial&lt;/a&gt;&lt;br /&gt;
+       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/static/Drivers/MacOSX/RNDIS/HoRNDIS.pkg&quot;&gt;Network&lt;/a&gt;&lt;br /&gt;
+       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/static/Drivers/MacOSX/FTDI/EnergiaFTDIDrivers2.2.18.pkg&quot;&gt;Serial&lt;/a&gt;&lt;br /&gt;
       &lt;/td&gt;
       &lt;td&gt;Install both sets of drivers.&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;Linux&lt;/td&gt;
       &lt;td&gt;
-       &lt;a target=&quot;_blank&quot; href=&quot;/static/Drivers/Linux/FTDI/mkudevrule.sh&quot;&gt;mkudevrule.sh&lt;/a&gt;      
+       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/static/Drivers/Linux/FTDI/mkudevrule.sh&quot;&gt;mkudevrule.sh&lt;/a&gt;      
       &lt;/td&gt;
       &lt;td&gt;Driver installation isn&apos;t required, but you might find a few udev rules helpful.&lt;/td&gt;
      &lt;/tr&gt;
     &lt;/table&gt;
-    &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional FTDI USB to serial/JTAG information and drivers are available from
-     &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.ftdichip.com/Drivers/VCP.htm&quot;&gt;https://www.ftdichip.com/Drivers/VCP.htm&lt;/a&gt;.
+    &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional FTDI USB to serial/JTAG information and drivers are available from
+     &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.ftdichip.com/Drivers/VCP.htm&quot;&gt;www.ftdichip.com/Drivers/VCP.htm&lt;/a&gt;.
     &lt;/p&gt;
-    &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional USB to virtual Ethernet information and drivers are available from
-     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://www.linux-usb.org/gadget/&quot;&gt;https://www.linux-usb.org/gadget/&lt;/a&gt; and
-     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://joshuawise.com/horndis&quot;&gt;https://joshuawise.com/horndis&lt;/a&gt;.
+    &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Additional USB to virtual Ethernet information and drivers are available from
+     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://www.linux-usb.org/gadget/&quot;&gt;www.linux-usb.org/gadget/&lt;/a&gt; and
+     &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://joshuawise.com/horndis&quot;&gt;joshuawise.com/horndis&lt;/a&gt;.
     &lt;/p&gt;
-
+ 
     &lt;h3 id=&quot;step3&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step3.gif&quot; /&gt;&lt;strong&gt;Browse to your Beagle&lt;/strong&gt;&lt;/h3&gt;
-    &lt;p&gt;Using either &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt; or &lt;a target=&quot;_blank&quot; href=&quot;http://www.mozilla.org/firefox&quot;&gt;Firefox&lt;/a&gt; (Internet Explorer will &lt;b&gt;NOT&lt;/b&gt; work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.&lt;/p&gt;
+    &lt;p&gt;Using either &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt; or &lt;a target=&quot;_blank&quot; href=&quot;http://www.mozilla.org/firefox&quot; class=&quot;external&quot;&gt;Firefox&lt;/a&gt; (Internet Explorer will &lt;b&gt;NOT&lt;/b&gt; work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.&lt;/p&gt;
     &lt;ul class=&quot;arrow&quot;&gt;
-     &lt;li&gt;Click here to launch: &lt;a class=&quot;external&quot; href=&quot;http://192.168.7.2&quot; target=&quot;_blank&quot;&gt;http://192.168.7.2&lt;/a&gt;&lt;br /&gt;
-        &lt;small&gt;Older software images require you to EJECT the BEAGLE_BONE drive to start the 
+     &lt;li&gt;Click here to launch: &lt;a id=&quot;bonelinktext&quot; class=&quot;bonelink external&quot; href=&quot;http://192.168.7.2&quot;&gt;http://192.168.7.2&lt;/a&gt;&lt;br /&gt;
+        &lt;small&gt;Older software images require you to EJECT the BEAGLE_BONE drive to start the
         network.  With the latest software image, that step is no longer required.&lt;/small&gt;
      &lt;/li&gt;
     &lt;/ul&gt;
-    &lt;a class=&quot;external&quot; href=&quot;http://192.168.7.2&quot;&gt;&lt;img src=&quot;/static/images/bone101.png&quot; width=&quot;600px&quot; /&gt;&lt;/a&gt;
-
+    &lt;a class=&quot;bonelink&quot; href=&quot;http://192.168.7.2&quot;&gt;&lt;img src=&quot;/static/images/bone101.png&quot; width=&quot;600px&quot; /&gt;&lt;/a&gt;
+ 
     &lt;h2 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h2&gt;
     &lt;p&gt;&lt;em&gt;Do not use Internet Explorer.&lt;/em&gt;&lt;/p&gt;
-    &lt;p&gt;One option to browse your board is to use this node-webkit based application (currently limited to Windows machines): &lt;a href=&quot;/static/App/beaglebone-getting-started.zip&quot;&gt;beaglebone-getting-started.zip&lt;/a&gt;.&lt;/p&gt;
     &lt;p&gt;Virtual machines are not recommended when using the direct USB connection. It is recommended you use only network connections to your board if you are using a virtual machine.&lt;/p&gt;
-    &lt;p&gt;When using &apos;ssh&apos; with the provided image, the username is &apos;root&apos; and the password is blank.&lt;/p&gt;
-    &lt;p&gt;Visit &lt;a href=&quot;/support&quot;&gt;beagleboard.org/support&lt;/a&gt; for additional debugging tips.&lt;/p&gt;
-
+    &lt;p&gt;When using &apos;ssh&apos; with the provided image, the username is &apos;debian&apos; and the password is &apos;temppwd&apos;.&lt;/p&gt;
+    &lt;p&gt;Visit &lt;a href=&quot;https://beagleboard.org/support&quot;&gt;beagleboard.org/support&lt;/a&gt; for additional debugging tips.&lt;/p&gt;
+ 
     &lt;h2 id=&quot;update&quot;&gt;Update board with latest software&lt;/h2&gt;
     &lt;h3&gt;Step #1: Download the latest software image&lt;/h3&gt;
-    &lt;p&gt;Download the desired image from &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/latest-images&quot;&gt;https://beagleboard.org/latest-images&lt;/a&gt;.&lt;/p&gt;
-    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
-    &lt;p&gt;The file you download will have an .img.xz extention. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
+    &lt;p&gt;Download the lastest Debian image from &lt;a href=&quot;https://beagleboard.org/latest-images&quot;&gt;beagleboard.org/latest-images&lt;/a&gt;. The &quot;IoT&quot; images provide more free disk space if you don&apos;t need to use a graphical user interface (GUI).&lt;/p&gt;
+    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
+    &lt;p&gt;The Debian distribution ships with the boards. The file you download will have an .img.xz extension. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
     &lt;img src=&quot;/static/images/download-latestimage.png&quot; width=&quot;50%&quot; /&gt;
-
-    &lt;h3&gt;Step #2: Install compression utility&lt;/h3&gt;
-    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.7-zip.org/download.html&quot;&gt;7-zip&lt;/a&gt;.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/download-7zip.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;img src=&quot;/static/images/run-7zip-installer.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-
-    &lt;h3&gt;Step #3: Decompress the image&lt;/h3&gt;
-    &lt;p&gt;Use 7-zip to decompress the SD card .img file&lt;/p&gt;
-    &lt;img src=&quot;/static/images/extract-latestimage.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-
-    &lt;h3&gt;Step #4: Install SD card programming utility&lt;/h3&gt;
-    &lt;p&gt;Download and install &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://sourceforge.net/projects/win32diskimager/files/latest/download&quot;&gt;Image Writer for Windows&lt;/a&gt;. Be sure to download the binary distribution.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/download-win32diskimager.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;img src=&quot;/static/images/extract-win32diskimager.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;. 
-
-    &lt;h3&gt;Step #5: Connect SD card to your computer&lt;/h3&gt;
-    &lt;p&gt;Use the provided microSD card to SD adapter or a USB adapter to connect the SD card to your computer.&lt;/p&gt;
-
-    &lt;h3&gt;Step #6: Write the image to your SD card&lt;/h3&gt;
-    &lt;p&gt;Use either the Ubuntu Image Writer or instructions on its page to write the decompressed image to your SD card.&lt;/p&gt;
-    &lt;small&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; You may see a warning about damaging your device. This is
-        fine to accept as long as you are pointing to your SD card for
-        writing.
-    &lt;/p&gt;
-    &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; You should not have your BeagleBone connected to your computer
-        at this time.
-    &lt;/p&gt;&lt;/small&gt;
-    &lt;img src=&quot;/static/images/write-latestimage.png&quot; /&gt;
-
-    &lt;h3&gt;Step #7: Eject the SD card&lt;/h3&gt;
+ 
+    &lt;h3&gt;Step #2: Install SD card programming utility&lt;/h3&gt;
+    &lt;p&gt;Download and install &lt;a target=&quot;_blank&quot; href=&quot;https://etcher.io/&quot;&gt;Etcher&lt;/a&gt;.&lt;/p&gt;
+    &lt;img src=&quot;/static/images/download-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
+    &lt;img src=&quot;/static/images/install-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
+    &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;.
+ 
+    &lt;h3&gt;Step #3: Connect SD card to your computer&lt;/h3&gt;
+    &lt;p&gt;Use your computer&apos;s SD slot or a USB adapter to connect the SD card to your computer.&lt;/p&gt;
+ 
+    &lt;h3&gt;Step #4: Write the image to your SD card&lt;/h3&gt;
+    &lt;p&gt;Use Etcher to write the image to your SD card. Etcher will transparently decompress the image on-the-fly before writing it to the SD card.&lt;/p&gt;
+    &lt;img src=&quot;/static/images/write-latestimage.png&quot; width=&quot;50%&quot; /&gt;
+ 
+    &lt;h3&gt;Step #5: Eject the SD card&lt;/h3&gt;
     &lt;p&gt;Eject the newly programmed SD card.&lt;/p&gt;
-
-    &lt;h3&gt;Step #8: Boot your board off of the SD card&lt;/h3&gt;
+ 
+    &lt;h3&gt;Step #6: Boot your board off of the SD card&lt;/h3&gt;
     &lt;p&gt;Insert SD card into your (powered-down) board, hold down the USER/BOOT button (if using Black) and apply power, either by the USB cable or 5V adapter.&lt;/p&gt;
     &lt;p&gt;If using an original BeagleBone, you are done.&lt;/p&gt;
-    &lt;p&gt;If using BeagleBone Black and desire to write the image to your on-board eMMC, you&apos;ll need to follow the instructions at &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian flasher images automatically power down the board upon completion.  &lt;em&gt;This can take up to 45 minutes.&lt;/em&gt;  Power-down your board, remove the SD card and apply power again to be complete.&lt;/p&gt;
-
+    &lt;p&gt;If using BeagleBone Black and desire to write the image to your on-board eMMC, you&apos;ll need to follow the instructions at &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian flasher images automatically power down the board upon completion.  &lt;em&gt;This can take up to 45 minutes.&lt;/em&gt;  Power-down your board, remove the SD card and apply power again to finish.&lt;/p&gt;
+ 
     &lt;h2 id=&quot;distros&quot;&gt;Other currently available software images&lt;/h2&gt;
     &lt;p&gt;Some of the starting images below involve multiple steps to produce an SD card image or otherwise change some of the steps above, so be sure to read all the instructions on their pages. Choose the starting point you want, download or produce the SD card image and follow the steps above.&lt;/p&gt;
     &lt;p&gt;At the time of release, not all of these distributions support BeagleBone Black, but should soon.&lt;/p&gt;
     &lt;ul class=&quot;arrow&quot;&gt;
-     &lt;li&gt;Texas Instruments releases: 
+     &lt;li&gt;Texas Instruments releases:
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/android/&quot;&gt;
        Android&lt;/a&gt;,
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/amsdk/&quot;&gt;
@@ -256,7 +289,7 @@ you serial access to your board.&lt;/p&gt;
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/starterware/&quot;&gt;
        StarterWare (no OS)&lt;/a&gt;
      &lt;/li&gt;
-     &lt;li&gt;Linux: 
+     &lt;li&gt;Linux:
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/Debian/&quot;&gt;Debian&lt;/a&gt;,
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/angstrom&quot;&gt;Angstrom Distribution&lt;/a&gt;,
       &lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project/ubuntu/&quot;&gt;Ubuntu&lt;/a&gt;,
@@ -273,7 +306,7 @@ you serial access to your board.&lt;/p&gt;
      &lt;/li&gt;
      &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://beagleboard.org/project&quot;&gt;Projects page&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
-
+ 
     &lt;h2 id=&quot;hardware&quot;&gt;Hardware documentation&lt;/h2&gt;
     &lt;p&gt;The &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;
 BeagleBoneBlack wiki page&lt;/a&gt; documents all of the known hardware issues, as well as the latest available software, hardware
@@ -289,18 +322,18 @@ hardware documentation and design materials.
    
    &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 &lt;p&gt;For a complete list of books on BeagleBone, see
-&lt;a href=&quot;https://beagleboard.org/books&quot;&gt;https://beagleboard.org/books&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;https://beagleboard.org/books&quot;&gt;beagleboard.org/books&lt;/a&gt;.&lt;/p&gt;
 &lt;div style=&quot;display:table;&quot;&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;frameborder:0;&quot; src=&quot;https://amzn.to/1bGhKdd&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://bit.ly/2rwqa3e&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;frameborder:0;&quot; src=&quot;https://amzn.to/1DYDyHI&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1DYDyHI&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;frameborder:0;&quot; src=&quot;https://amzn.to/1P8JR7w&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1P8JR7w&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;div style=&quot;display:table-cell;padding:10px;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;frameborder:0;&quot; src=&quot;https://amzn.to/1PxxOLN&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;marginwidth:0;marginheight:0;&quot; frameborder=&quot;0&quot; src=&quot;https://amzn.to/1PxxOLN&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;/div&gt;
 &lt;h3&gt;Bad to the Bone&lt;/h3&gt;
@@ -315,13 +348,16 @@ hardware documentation and design materials.
     &quot;Embedded Linux Primer&quot; as a companion textbook to provide a strong
     base on embedded Linux suitable for working with any hardware that will
     run Linux.
-&lt;/p&gt;   
+&lt;/p&gt;  
    &lt;!-- Content Area - END --&gt;
 &lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">1223906.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/getting-started/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
