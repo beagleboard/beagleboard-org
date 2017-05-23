@@ -1,0 +1,27 @@
+<html>
+<head>
+<style type="text/css" media="screen">@import "common.css";</style>
+<style type="text/css" media="screen">@import "beagle.css";</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bonescript.js"></script>
+<script>
+function get(name) {
+ if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+ return decodeURIComponent(name[1]);
+}
+
+function onconnect() {
+  console.log("Connected to " + host);
+  $("div#status").html('<a href="http://' + host + '" class="external" target="_parent"><em>Active</em></a>');
+  if(typeof parent.foundBone == "function") parent.foundBone(host);
+}
+
+var host = get('host');
+setTargetAddress(host, onconnect);
+
+</script>
+</head>
+<body style="background-color:#f1f1f1;">
+<div id="status">Inactive</div>
+</body>
+</html>
