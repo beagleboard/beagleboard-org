@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4253" name="Page" prototype="Page" created="1496766752276" lastModified="1496766752351">
+  <hop:parent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>home-test</uri>
+    <http_browser>Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36</http_browser>
+    <time type="date">06.06.2017 16:32:32 UTC</time>
+    <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
+    <body> &lt;!-- Product Promotion - START --&gt;
+   &lt;div id=&quot;promo&quot;&gt;
+ &lt;!-- slider --&gt;
+
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+
+&lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-blue&quot; href=&quot;/blue&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Blue-Banner-Ads950-267.gif&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-black-wireless&quot; href=&quot;/black-wireless&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Black-Banner-Ads950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-green-wireless&quot; href=&quot;/green-wireless&quot;&gt;&lt;img src=&quot;/static/images/BBGW_HomepageBanner.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;!--
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-musictech&quot; href=&quot;https://www.element14.com/community/community/design-challenges/musictech?ICID=BBB-ORG&quot;&gt;&lt;img src=&quot;/static/images/TW_950x267_MusicTech.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-book&quot; href=&quot;http://beagleboard.org/books&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_book.jpg&quot; alt=&quot;Book&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-hackster&quot; href=&quot;https://www.hackster.io/challenges/beaglebonegreen&quot;&gt;&lt;img src=&quot;/static/images/BBGContestBanner_V2.jpg&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-3dhubs&quot; href=&quot;https://beagleboard.org/project/3dhubsbeagleboard/&quot;&gt;&lt;img src=&quot;/static/images/3DHubs_Beagleboard_Banner.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-openrov&quot; href=&quot;https://beagleboard.org/project/openrov&quot;&gt;&lt;img src=&quot;https://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_open_rov.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-replicape&quot; href=&quot;https://beagleboard.org/project/replicape&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_clone_wars.jpg&quot; alt=&quot;Replicape&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-packt&quot; href=&quot;https://www.packtpub.com/all/?search=beaglebone&amp;offset=&amp;rows=24&amp;sort=&quot;&gt;&lt;img src=&quot;/static/images/Beagle_merrier.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-mikrobus&quot; href=&quot;http://beagleboard.org/project/mikrobus&quot;&gt;&lt;img src=&quot;/static/images/beaglebone_mikrobus_cape_banner_950x267.jpg&quot; alt=&quot;Mikrobus&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-freedombone&quot; href=&quot;http://beagleboard.org/project/freedombone/&quot;&gt;&lt;img src=&quot;/static/images/freedombone_ad7.jpg&quot; alt=&quot;Freedombone&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-cylonjs&quot; href=&quot;http://beagleboard.org/project/cylonjs&quot;&gt;&lt;img src=&quot;/static/images/cylon.png&quot; alt=&quot;Cylon&quot; /&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-e14-embworld&quot; href=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone?CMP=TI-HomePage-BBB&quot;&gt;&lt;img src=&quot;/static/images/950x267bbb_ban.png&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-artoo&quot; href=&quot;http://beagleboard.org/project/artoo&quot;&gt;&lt;img src=&quot;/static/images/artoo.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-gaming&quot; href=&quot;http://beagleboard.org/blog/2014-11-12-CircuitHub-launches-group-buys-with-GamingCape/&quot;&gt;&lt;img src=&quot;/static/images/950x267_beagleboard_gaming_for_sale.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-gaming&apos;,&apos;http://beagleboard.org/blog/2013-12-09-let-beaglebone-black-give-your-old-games-an-extra-life/&apos;)&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_gaming.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-gobot&apos;,&apos;http://beagleboard.org/project/gobot&apos;)&quot;&gt;&lt;img src=&quot;/static/images/gobot.png&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-malloy&apos;,&apos;http://www.youtube.com/playlist?list=PLF4A1A7E09E5E260A&apos;)&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/slider/banners/950x267_beagleboard_drmalloy.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-shieldio&apos;, &apos;http://beagleboard.org/project/shieldio&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/shieldio.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-arduino&apos;,&apos;http://beagleboard.org/blog/2013-10-03-beagleboardorg-collaborates-with-arduino/&apos;)&quot;&gt;&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/950x267_arduino_beagleboard.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-fsl3d&apos;,&apos;http://fsl3d.com/&apos;)&quot;&gt;&lt;img src=&quot;http://beagleboard.org/static/uploads/beaglebone%20banner.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-logi&apos;,&apos;http://www.kickstarter.com/projects/1575992013/logi-fpga-development-board-for-raspberry-pi-beagl&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/logibone-spartan-beagle.jpg&quot; height=&quot;267px&quot; width=&quot;950px&quot;/&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;#&quot; onClick=&quot;goTracked(&apos;promo-adafruit&apos;,&apos;http://www.adafruit.com/beaglebone&apos;)&quot;&gt;&lt;img src=&quot;/static/uploads/adafruit_beaglebone_950x267.jpg&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+--&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!-- bnr_ss1 --&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+					debug:false,
+					controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+
+   &lt;/div&gt;
+
+
+   &lt;!-- Product Promotion - END --&gt;
+   &lt;!-- Content Area - START --&gt;
+
+&lt;div id=&quot;homepage-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2 style=&quot;color:#fff;&quot;&gt;&lt;a href=&quot;/getting-started&quot; style=&quot;color:#fff&quot;&gt;&lt;img class=&quot;start&quot; src=&quot;/static/images/icon-beagle.png&quot; border=&quot;0&quot; /&gt;Getting Started &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2 style=&quot;color:#fff;&quot;&gt;&lt;a href=&quot;/latest-images&quot; style=&quot;color:#fff&quot;&gt;Latest Software Images &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2 style=&quot;color:#fff;&quot;&gt;&lt;a href=&quot;/newsletter-subscribe&quot; style=&quot;color:#fff&quot;&gt;Subscribe to Newsletter &lt;/a&gt; »&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div style=&quot;float:right;margin-right:25px;width:250px;&quot;&gt;&lt;a href=&apos;http://2013.oshwa.org/sponsor/&apos;&gt;&lt;img src=&apos;/static/images/stamp_supporter.png&apos; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id=&quot;hp-c1&quot;&gt;
+  &lt;h1&gt;Meet the Beagles: Open Source Computing &lt;/h1&gt;
+  &lt;p&gt;Get your hands in technology&apos;s guts and control your development destiny with these credit-card sized, low-power, open-hardware computers. Experiment with Linux, Android and Ubuntu and jump-start development in five minutes with the included USB cable.&lt;/p&gt; 
+&lt;p&gt;Dive into the Beagle community to explore what Beagles can do. 
+&lt;b&gt;What can yours do? &lt;/b&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;hp-c3&quot;&gt;&lt;div&gt;
+&lt;div id=&quot;t2-c1-content&quot;&gt;
+&lt;h2&gt;What is BeagleBone Black Wireless?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;
+Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the 
+popular open source &lt;a href=&quot;/black&quot;&gt;BeagleBone™ Black&lt;/a&gt; computer now comes with built-in 
+wireless networking capability. Leveraging a partnership with Octavo Systems and designed in
+CadSoft Eagle, BeagleBone™ Black Wireless is the easiest to use and modify credit-card sized
+IoT Linux computer available.
+&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;AM335x 1GHz 
+    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;4GB 8-bit eMMC on-board flash storage&lt;/li&gt;
+&lt;li&gt;3D graphics accelerator&lt;/li&gt;
+&lt;li&gt;NEON floating-point accelerator&lt;/li&gt;
+&lt;li&gt;2x PRU 32-bit microcontrollers&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+ &lt;div id=&quot;t2-c5b&quot;&gt;  
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;USB client for power &amp; communications&lt;/li&gt;
+  &lt;li&gt;USB host&lt;/li&gt;
+  &lt;li&gt;802.11b/g/n and Bluetooth 4.1 plus BLE&lt;/li&gt;
+  &lt;li&gt;HDMI&lt;/li&gt;
+  &lt;li&gt;2x 46 pin headers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+ &lt;div id=&quot;t2-c5c&quot;&gt;
+
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;Debian with Cloud9 IDE on Node.js w/ BoneScript library&lt;/li&gt;
+  &lt;li&gt;Third party support for Android and Ubuntu&lt;/li&gt;
+  &lt;li&gt;plus much more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;CTA&quot;&gt;
+  &lt;a href=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;p style=&quot;background-color:#EEEEEE;border-radius:6px;
+  padding: 2px 2px 2px 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;&quot;&gt;
+  &lt;a id=&quot;buy-bbbw&quot; style=&quot;color:black;font-size:16px;&quot; 
+   href=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;
+   class=&quot;external&quot;&gt;Order from Mouser&lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+    if($(&apos;#buy-bbbw&apos;).length) {
+        $.get(&apos;/distributors/bbbw&apos;, function(data) {
+            $(&apos;#buy-bbbw&apos;).replaceWith(data);
+            $(&apos;select.dropdown&apos;).each(function() {
+                var list = $(this);
+                var action = list.attr(&apos;id&apos;); 
+                list.change(function() {
+                    $(&apos;option:selected&apos;, this).each(function() {
+                        var label = $(this).text();
+                        var link = $(this).val();
+                        goTracked(action, link, label);
+                    });
+                });
+            });
+        });
+    }
+});
+&lt;/script&gt;
+
+&lt;!-- #######################################################--&gt;
+
+
+&lt;/div&gt;&lt;!-- t2-c5c --&gt; 
+&lt;/div&gt;&lt;/div&gt;&lt;!-- hp-c3 --&gt;
+&lt;div id=&quot;hp-c2&quot; style=&quot;background-color: #f1f1f1; padding: 10px; width: 250px; border-radius: 5px 5px 5px 5px;&quot;&gt;
+&lt;h1 style=&quot;margin-top: 0px&quot;&gt;Community Activity&lt;/h1&gt;
+&lt;!--
+&lt;p&gt;&lt;strong id=&quot;element14&quot;&gt;&lt;a id=&quot;e14-click&quot; href=&quot;https://element14.com/element14_BBB&quot;&gt;Element14
+delivers BeagleBoard Compliant BeagleBone Black&lt;/strong&gt; &lt;br /&gt;...more&lt;/a&gt;&lt;/p&gt;
+&lt;script&gt;
+$(&apos;#e14&apos;).on(&apos;click&apos;, function() {
+  ga(&apos;send&apos;, &apos;event&apos;, &apos;exit&apos;, &apos;element14&apos;, &apos;community activity&apos;);
+});
+--&gt;
+&lt;script&gt;
+var ne = 0;
+var gp_entries = {};
+function handleResponse(resp) {
+    gp_entries = resp;
+    for(item in resp.items) {
+        var title = resp.items[item].title.substr(0,100);
+        if(title == &quot;&quot;) {
+            title = resp.items[item].annotation.substr(0,100);
+        }
+        var index = parseInt(ne) + parseInt(item);
+        var entry = &apos;&apos; +
+            &apos;&lt;p&gt;&lt;strong id=&quot;results_&apos; + index + &apos;&quot;&gt;&apos; + 
+            &apos;&lt;a href=&quot;&apos; + 
+            resp.items[item].url + &apos;&quot;&gt;&apos; + title + 
+            &apos;&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&apos; +
+            &apos;&lt;a href=&quot;&apos; + resp.items[item].url + &apos;&quot;&gt;...more&lt;/a&gt;&lt;/p&gt;&apos;;
+        $(&apos;#plus&apos;).append(entry);
+    }
+    ne += resp.items.length;
+}
+
+function makeRequest() {
+    gapi.client.plus.activities.list({
+        &apos;userId&apos;: &apos;109587204186717390991&apos;,
+        &apos;collection&apos;: &apos;public&apos;, 
+        &apos;maxResults&apos;: 4
+    }).execute(handleResponse);
+    console.log(&quot;Made request to Google&quot;);
+}
+
+function onGoogleLoad() {
+    gapi.client.setApiKey(&apos;AIzaSyDB9-M-HaJ1GtB8j8EppCLsdpzLwW5Y4IE&apos;);
+    gapi.client.load(&apos;plus&apos;, &apos;v1&apos;, makeRequest);
+    console.log(&quot;Loaded Google API&quot;);
+}
+&lt;/script&gt;
+&lt;script src=&quot;https://apis.google.com/js/client.js?onload=onGoogleLoad&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;plus&quot;&gt;&lt;/div&gt;&lt;br/&gt;
+&lt;a href=&quot;https://plus.google.com/communities/104960311812236799231&quot; class=&quot;external&quot;&gt;More Community Activity&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;hp-c4&quot;&gt;
+&lt;h1&gt;Helpful Projects&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/debian/&quot;&gt;Debian&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+    Explore the Linux distribution shipping with Rev C BeagleBone Black, customized
+    with Cloud9 IDE to run JavaScript, Python, C, Ruby and more programs right
+    out of the box
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/octoscroller/&quot;&gt;Octoscroller and LEDscape&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+    Drive huge numbers of LEDs using the on-board PRU microcontrollers on
+    BeagleBone Black and an interface for building graphics
+    with Python and other high-level languages
+&lt;/p&gt;
+&lt;!--
+     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/angstrom/&quot;&gt;Ångström Distribution&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Explore this Linux distribution tailored for embedded devices and shipped with BeagleBone Black, BeagleBone and BeagleBoard-xM&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/rowboat/&quot;&gt;Android on Beagle&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Provides a stable Google Android base port for AM335x, AM35x and AM37x platforms. Examples: BeagleBoard-xM, BeagleBone, AM335x EVM and AM335x Starter Kit&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/ubuntu/&quot;&gt;Ubuntu on Beagle&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Run the Ubuntu distribution on BeagleBoard (can extend to support BeagleBone, PandaBoard, etc.) &lt;/p&gt;
+--&gt;
+&lt;/div&gt;
+&lt;div id=&quot;hp-c5&quot;&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/BeagleBoy/&quot;&gt;BeagleBoy&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Use this project to seamlessly turn your BeagleBone Black into a handheld gaming console that supports a variety of classic video games&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/beaglesnes/&quot;&gt;BeagleSNES&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Transform BeagleBone Black or BeagleBoard-xM into an embedded appliance that plays Super Nintendo games&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/SensorCape/&quot;&gt;SensorCape&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Measure just about anything by making the SensorCape, an expansion board that adds a myriad or sensors to your BeagleBone or BeagleBone Black&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;hp-c6&quot; style=&quot;margin-top:55px;&quot;&gt;
+&lt;!--
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/QNX+Neutrino+on+OMAP/&quot;&gt;QNX Neutrino&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Easily create attractive graphics and link large touch screen displays to underlying embedded real-time controls with QNX&apos;s smart energy reference design&lt;/p&gt;
+--&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/java/&quot;&gt;Java on Beagle&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Develop on Beagle with Java, the foundation for many networked applications and the widely-held standard for developing mobile, games, Web content and enterprise software&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/project/biltter-bike/&quot;&gt;Blitter Bike&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Create an interactive, bike-towed, electronic light sculpture that will cause countless double takes and be a hit at any party&lt;/p&gt;
+&lt;a href=&quot;/project&quot;&gt;More Helpful Projects&lt;/a&gt; »
+&lt;/div&gt;
+
+
+
+
+
+&lt;br&gt;&lt;/a&gt;
+&lt;!--
+&lt;div id=&quot;t2-c7&quot; style=&quot;margin: 5px 10px 30px 25px;&quot; &gt;&lt;h2&gt;&lt;a href=&quot;http://beagleboard.org/cape&quot;&gt;Featured Capes &amp; Accessories&lt;/a&gt;&lt;/h2&gt;
+Explore the world of feature-rich capes and other accessories for super-charged functionality. Plug in and go! &lt;a href=&quot;http://http://beaglebonecapes.com&quot; class=&quot;external&quot;&gt;Visit the cape store&lt;/a&gt; to see all options. 
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
+
+&lt;a href=&quot;http://www.adafruit.com/products/1555&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/uploads/1555_MED.jpg&quot; width=&quot;175&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+Adafruit BeagleBone Black Case &lt;/a&gt;&lt;br&gt;
+Adafruit 
+&lt;/div&gt;
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
+
+&lt;a href=&quot;http://circuitco.com/support/index.php?title=BeagleBone_Breakout&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone Breakout Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone Breakout Cape&lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
+
+&lt;a href=&quot;http://boardzoo.com/index.php/catalog/product/view/id/146/category/8#.UpULtcRDs34&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/uploads/wilink8_1.jpg&quot; width=&quot;175&quot; height=&quot;104&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone WL1835MOD w/ Chip Antenna&lt;/a&gt;&lt;br&gt;
+BoardZoo 
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c7-capes-display-prod&quot;&gt;
+
+&lt;a href=&quot;http://circuitco.com/support/index.php?title=BeagleBone_LCD7&quot; target=&quot;_blank&quot; class=&quot;external&quot;&gt;&lt;img src=&quot;/static/images/BeagleBone LCD7 Cape.jpg&quot; border=&quot;0&quot; /&gt;&lt;br&gt;
+BeagleBone LCD7 Cape&lt;/a&gt;&lt;br&gt;
+BeagleBoardToys 
+    
+&lt;/div&gt;
+--&gt;
+
+</body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">1.0</pvcount>
+    <http_referer>http://beagleboard.org/home-test/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
+  </hopobject>
+</xmlroot>
