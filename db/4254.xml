@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4254" name="asee" prototype="Page" created="1498595274011" lastModified="1498596807080">
+  <hopobject id="4254" name="asee" prototype="Page" created="1498595274011" lastModified="1498596837232">
   <hop:parent idref="3757" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>asee</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.06.2017 20:53:26 UTC</time>
-    <pseudoparent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>asee</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36</http_browser>
+    <time type="date">27.06.2017 20:53:57 UTC</time>
     <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">19.0</pvcount>
     <body>&lt;h1&gt;ASEE 2017&lt;/h1&gt;
 &lt;div style=&quot;float:right;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZrd4LjHrmvWApUv73-LrQtxF&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;ul style=&quot;font-size:1.5em;&quot;&gt;
     &lt;li&gt;Contact e-mails:
-        &lt;ul&gt;
+        &lt;ul style=&quot;font-size:1em;&quot;&gt;
             &lt;li&gt;&lt;span id=&quot;email2&quot;&gt;&lt;/span&gt;&lt;/li&gt;
             &lt;li&gt;&lt;span id=&quot;email1&quot;&gt;&lt;/span&gt;&lt;/li&gt;
             &lt;li&gt;&lt;span id=&quot;email3&quot;&gt;&lt;/span&gt;&lt;/li&gt;
@@ -37,7 +33,11 @@
     $(&apos;#email2&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email2 + &apos;&quot;&gt;&apos; + email2 +&apos;&lt;/a&gt;&apos;);
     $(&apos;#email3&apos;).html(&apos;&lt;a href=&quot;mailto:&apos; + email3 + &apos;&quot;&gt;&apos; + email3 +&apos;&lt;/a&gt;&apos;);
 &lt;/script&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
+    <pseudoparent idref="3757" prototyperef="Page"/>
+    <pvcount type="float">21.0</pvcount>
     <http_referer>https://beagleboard.org/show/asee/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
