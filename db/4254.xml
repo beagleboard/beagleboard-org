@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4254" name="asee" prototype="Page" created="1498595274011" lastModified="1498596935486">
+  <hopobject id="4254" name="asee" prototype="Page" created="1498595274011" lastModified="1498597415487">
   <hop:parent idref="3757" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>asee</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.06.2017 20:55:35 UTC</time>
+    <time type="date">27.06.2017 21:03:35 UTC</time>
     <pseudoparent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">26.0</pvcount>
+    <pvcount type="float">29.0</pvcount>
     <body>&lt;h1&gt;ASEE 2017&lt;/h1&gt;
 &lt;div style=&quot;float:right;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZrd4LjHrmvWApUv73-LrQtxF&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;ul style=&quot;font-size:1.5em;&quot;&gt;
@@ -22,10 +22,28 @@
             &lt;li&gt;&lt;span id=&quot;email1&quot;&gt;&lt;/span&gt;&lt;/li&gt;
             &lt;li&gt;&lt;span id=&quot;email3&quot;&gt;&lt;/span&gt;&lt;/li&gt;
         &lt;/ul&gt;
+    &lt;/li&gt;
     &lt;li&gt;Slides: &lt;a href=&quot;https://drive.google.com/file/d/0B5UNMAgIJB74ZEowLVJ0ZFU0Mlk/view?usp=sharing&quot; class=&quot;external&quot;&gt;LEDs to Robots.pptx&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue info page&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;http://renaissancerobotics.com/edumip.html&quot; class=&quot;external&quot;&gt;eduMIP info page&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/getting-started&quot;&gt;Get connected to the board&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Resources
+        &lt;ul style=&quot;font-size:0.8em;&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;http://elinux.org/BeagleBoard&quot; class=&quot;external&quot;&gt;eLinux wiki&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/discuss&quot;&gt;Google Group&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/chat&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/newsletter-subscribe&quot;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.hackster.io/beagleboard&quot; class=&quot;external&quot;&gt;Hackster.io - BeagleBoard&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Teaching materials
+        &lt;ul style=&quot;font-size:0.8em;&quot;&gt;
+            &lt;li&gt;Yoder&apos;s wiki: &lt;a href=&quot;http://elinux.org/Category:ECE497&quot; class=&quot;external&quot;&gt;http://elinux.org/Category:ECE497&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Derek Molloy: &lt;a href=&quot;http://derekmolloy.ie/beaglebone/&quot; class=&quot;external&quot;&gt;http://derekmolloy.ie/beaglebone/&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/cookbook&quot;&gt;BeagleBone Cookbook&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/bad-to-the-bone&quot;&gt;Bad to the Bone&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;h1&gt;&lt;a href=&quot;/show/asee2016&quot;&gt;ASEE 2016&lt;/a&gt;&lt;/h1&gt;
