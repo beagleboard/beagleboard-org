@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1501005465699">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1501005616103">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</http_browser>
-    <time type="date">25.07.2017 17:57:45 UTC</time>
+    <time type="date">25.07.2017 18:00:16 UTC</time>
     <hopsession>127.0.0.1jrsbozwo12hz</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -169,7 +169,8 @@ Live chat with other open-source enthusiasts
 &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a class=&quot;external&quot; href=&quot;/books&quot;&gt;Books&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-Read books to help you learn fundamental concepts
+Read books to help you learn fundamental concepts. Be sure to check out the code examples
+for &lt;a href=&quot;https://github.com/jadonk/BeagleBone-Robotic-Projects-Second-Edition&quot; class=&quot;external&quot;&gt;BeagleBone Robotics Projects, Second Edition&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -245,7 +246,7 @@ find all available hardware specifications such as:
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">171493.0</pvcount>
+    <pvcount type="float">171494.0</pvcount>
     <http_referer>https://beagleboard.org/blue/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
