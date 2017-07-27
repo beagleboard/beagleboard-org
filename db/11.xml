@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="11" name="tools" prototype="Page" created="1202805579338" lastModified="1500602008828">
+  <hopobject id="11" name="tools" prototype="Page" created="1202805579338" lastModified="1501047152474">
   <hop:parent idref="0" prototyperef="Root"/>
     <body>&lt;h1&gt;Beagle Board Tools&lt;/h1&gt;
 &lt;p&gt;The Beagle Board is meant for hobbyists, students, open source developers, and as a supplement to software development on the TI EVM.  The package would contain a board, a USB cable for power and monitor-style debug, and information on returns/replacements with a pointer to http://BeagleBoard.org.  All of the tools would be linked for free download from the website and we can add links to professional tools as well.  The free tools will include the Code Sourcery ARM Linux compiler, a C64x+ compiler, and some bootloading tools.  Binary images will be provided for graphics development at some point.&lt;/p&gt;</body>
     <user>blog.hangerhead.com</user>
     <uri>tools</uri>
-    <pvcount type="float">9.0</pvcount>
     <time type="date">12.02.2008 08:39:39 UTC</time>
+    <pvcount type="float">10.0</pvcount>
     <lang>en-us</lang>
   </hopobject>
 </xmlroot>
