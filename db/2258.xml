@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1502816404161">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1502816536498">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</http_browser>
-    <time type="date">15.08.2017 17:00:04 UTC</time>
+    <time type="date">15.08.2017 17:02:16 UTC</time>
     <hopsession>127.0.0.17i57kbromv35</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -113,17 +113,17 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;48582b8a1a134679ff324eacc1e0b4af6f2cdabfb56dafb6b932fe11129b404f&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
-&lt;h3&gt;Jessie for 
+&lt;h3&gt;Stretch for 
     &lt;a href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
     via microSD card
 &lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.6-lxqt-4gb-armhf-2016-11-06-4gb.img.xz&quot;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-9.0-lxqt-4gb-armhf-2017-07-02-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;8.6&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-11-06&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.0&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-07-02&lt;/span&gt;
             &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
         &lt;/a&gt;
@@ -134,11 +134,11 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-8.6-lxqt-4gb-armhf-2016-11-06-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-9.0-lxqt-4gb-armhf-2017-07-02-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;b03799ae3c604d4355ca446cf343e252247e0c2d76fe4f81d0dc004ff02eb232&lt;/span&gt;
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;00edbde186a92ae3c5922317cebb442640bc5c4a0c10e3bc397cbc11e2ebf089&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;h3&gt;Jessie for 
@@ -577,11 +577,11 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">915367.0</pvcount>
+    <pvcount type="float">915369.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
+    <user>jkridner.wordpress.com</user>
   </hopobject>
 </xmlroot>
