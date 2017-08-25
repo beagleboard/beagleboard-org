@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1503626063070">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1503626150677">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.8</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36</http_browser>
-    <time type="date">25.08.2017 01:54:22 UTC</time>
+    <time type="date">25.08.2017 01:55:50 UTC</time>
     <hopsession>127.0.0.lkzqfiz86yv1</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -20,14 +20,14 @@
 &lt;p&gt;See the &lt;a href=&quot;https://beagleboard.org/getting-started#update&quot;&gt;Getting Started guide&lt;/a&gt; and the &lt;a href=&quot;http://elinux.org/Beagleboard:Updating_The_Software&quot; class=&quot;external&quot;&gt;community wiki page&lt;/a&gt; for hints on loading these images.&lt;/p&gt;
 &lt;/span&gt;
 &lt;h2 style=&quot;color:black;&quot;&gt;Recommended Debian Images&lt;/h2&gt;
-&lt;h3&gt;Jessie for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
+&lt;h3&gt;Stretch for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.7-lxqt-4gb-armhf-2017-03-19-4gb.img.xz&quot;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-24-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;8.7&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-03-19&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.1&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-08-24&lt;/span&gt;
             &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
         &lt;/a&gt;
@@ -47,11 +47,11 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.7-lxqt-4gb-armhf-2017-03-19-4gb.bmap&quot;&gt;
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-24-4gb.bmap&quot;&gt;
             bmap
         &lt;/a&gt;
         -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;cb8a97714c6b0a4113429fc4e9ef8d28babc88de96a40ae80cf927a343d816e5&lt;/span&gt;
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;0a22d7bc4d183c17bf80753135cde623d150b8b704c9f9bc5b7f8af133f0e885&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;h3&gt;Stretch IoT (non-GUI) for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
@@ -639,7 +639,7 @@
     
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">921047.0</pvcount>
+    <pvcount type="float">921049.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/latest-images/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
