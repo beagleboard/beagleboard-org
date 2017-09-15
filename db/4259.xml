@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4259" name="pb" prototype="Page" created="1505450432614" lastModified="1505450528093">
+  <hopobject id="4259" name="pb" prototype="Page" created="1505450432614" lastModified="1505450549448">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
     <lang>en-us</lang>
@@ -21,5 +21,6 @@
     <hop:child idref="4260" prototyperef="Page"/>
     <hop:child idref="4261" prototyperef="Page"/>
     <hop:child idref="4262" prototyperef="Page"/>
+    <hop:child idref="4263" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
