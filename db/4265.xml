@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="Page" prototype="Page" created="1505864905657" lastModified="1505865030534">
+  <hopobject id="4265" name="Page" prototype="Page" created="1505864905657" lastModified="1505865110562">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>pocket-preview</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
-    <time type="date">19.09.2017 23:50:30 UTC</time>
+    <lang>en-us</lang>
+    <uri>pocket-preview</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">19.09.2017 23:51:50 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.oxhak6d4nmz1</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">4.0</pvcount>
     <body>&lt;h1&gt;PocketBeagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
 
  &lt;div id=&quot;t2-c7-content&quot;&gt;
 &lt;div id=&quot;t2-c5d&quot;&gt;
-&lt;h2&gt;What is PocketBeagle&lt;sup&gt;®&lt;/sup&gt;?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;PocketBeagle®, an ultra-tiny-yet-complete open-source USB-key-fob computer. PocketBeagle® features an incredible low cost, slick design and simple usage, making PocketBeagle® the ideal development board for beginners professionals alike.
+&lt;h2&gt;What is PocketBeagle?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;PocketBeagle is an 
+ultra-tiny-yet-complete open-source USB-key-fob computer. PocketBeagle
+features an incredible low cost, slick design and simple usage, making 
+PocketBeagle the ideal development board for beginners professionals alike.
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
-    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x/&quot;&gt;Octavo Systems OSD3358 1GHz 
+    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x-sm&quot;&gt;Octavo Systems OSD3358 1GHz 
     ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
 &lt;li&gt;512MB DDR3 RAM integrated&lt;/li&gt;
 &lt;li&gt;Integrated power management&lt;/li&gt;
 &lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
 &lt;li&gt;ARM Cortex-M3&lt;/li&gt;
-&lt;li&gt;On-board 4GB 8-bit eMMC flash storage programmed with Debian Linux&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -241,11 +247,7 @@ find all available hardware specifications such as:
 
 
  </body>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">2.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
     <http_referer>https://beagleboard.org/pocket-preview/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
