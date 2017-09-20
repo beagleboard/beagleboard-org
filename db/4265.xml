@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="Page" prototype="Page" created="1505864905657" lastModified="1505866361286">
+  <hopobject id="4265" name="Page" prototype="Page" created="1505864905657" lastModified="1505866882394">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>pocket-preview</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
-    <time type="date">20.09.2017 00:12:41 UTC</time>
+    <lang>en-us</lang>
+    <uri>pocket-preview</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">20.09.2017 00:21:22 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.oxhak6d4nmz1</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">23.0</pvcount>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
@@ -33,26 +37,22 @@ PocketBeagle the ideal development board for beginners professionals alike.
 &lt;/ul&gt;
 &lt;/div&gt;
 
- &lt;div id=&quot;t2-c5b&quot;&gt;  
-    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity and sensors&lt;/h3&gt;
+&lt;div id=&quot;t2-c5b&quot;&gt;  
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Key Features&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;Battery: 2-cell LiPo support with balancing, 9-18V charger input&lt;/li&gt;
-&lt;li&gt;Wireless: 802.11bgn, Bluetooth 4.1 and BLE&lt;/li&gt;
-&lt;li&gt;Motor control: 8 6V servo out, 4 DC motor out, 4 quadrature encoder in&lt;/li&gt;
-&lt;li&gt;Sensors: 9 axis IMU, barometer&lt;/li&gt;
-&lt;li&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/li&gt;
-&lt;li&gt;User interface: 11 user programmable LEDs, 2 user programmable buttons&lt;/li&gt;
-&lt;li&gt;Easy connect interfaces for adding additional sensors such as: GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs&lt;/li&gt;
+&lt;li&gt;Low cost Linux computer with tremendous expansibility&lt;/li&gt;
+&lt;li&gt;Opportunity to learn many programming aspects from educators on-line&lt;/li&gt;
+&lt;li&gt;Openness and flexibility tear-down limits on your imagination&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
- &lt;div id=&quot;t2-c5c&quot;&gt;
-&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
+
+&lt;div id=&quot;t2-c5c&quot;&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Technical Specifications&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot; class=&quot;external&quot;&gt;Debian&lt;/a&gt;, &lt;a href=&quot;https://dscl.lcsr.jhu.edu/edumip-ros/&quot; class=&quot;external&quot;&gt;ROS&lt;/a&gt;, &lt;a href=&quot;https://github.com/mirkix/ardupilotblue&quot; class=&quot;external&quot;&gt;ArduPilot&lt;/a&gt;, ...&lt;/li&gt;
-  &lt;li&gt;Graphical programming with &lt;a href=&quot;https://github.com/ktalke12/Labview-MiP&quot; class=&quot;external&quot;&gt;LabVIEW&lt;/a&gt;, Cloud9 IDE on Node.js&lt;/li&gt;
-  &lt;li&gt;plus much more&lt;/li&gt;
+  &lt;li&gt;Based on new Octavo Systems OSD3358-SM 21mm x 21mm system-in-package that includes 512MB DDR3 RAM, 1-GHz ARM Cortex-A8 CPU, 2x 200-MHz PRUs, ARM Cortex-M3, 3D accelerator, power/battery management and EEPROM&lt;/li&gt;
+  &lt;li&gt;72 expansion pin headers with power and battery I/Os, high-speed USB, 8 analog inputs, 44 digital I/Os and numerous digital interface peripherals&lt;/li&gt;
+  &lt;li&gt;microUSB host/client and microSD connectors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -134,6 +134,7 @@ $(document).ready(function(){
 &lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
 &lt;!-- /slider --&gt;
 
+&lt;!--
 &lt;div id=&quot;t2-c4-prod-details&quot;&gt;
 &lt;h2&gt;&lt;a href=&quot;/project&quot;&gt;BeagleBone Blue Projects&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mirkix/ardupilotblue&quot; class=&quot;external&quot;&gt;ArduPilot&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
@@ -187,6 +188,7 @@ find all available hardware specifications such as:
 &lt;!--
 &lt;p&gt;&lt;a href=&quot;/logo&quot;&gt;&lt;img src=&quot;/static/images/BeagleBoardCompatible.png&quot; style=&quot;width:200px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 --&gt;
+&lt;!--
 &lt;p&gt;&lt;a href=&quot;http://www.autodesk.com/products/eagle/free-download&quot; class=&quot;external&quot;&gt;Autodesk EAGLE CAD&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
@@ -225,6 +227,7 @@ find all available hardware specifications such as:
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;!-- end Content Area --&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
 
 
@@ -243,11 +246,7 @@ find all available hardware specifications such as:
 
 
  </body>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">18.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
     <http_referer>https://beagleboard.org/pocket-preview/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
