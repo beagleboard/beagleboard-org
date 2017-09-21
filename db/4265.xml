@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1505981449190">
+  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1505981530242">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>pocket</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
-    <time type="date">21.09.2017 08:10:49 UTC</time>
+    <time type="date">21.09.2017 08:12:10 UTC</time>
     <hopsession>127.0.0.1tgdck1bbd8uz</hopsession>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -79,7 +79,7 @@ $(document).ready(function(){
 &lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
 &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;a href=&quot;/static/images/PocketBeagle-SizeCompare.jpg&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot;&gt;
+&lt;a href=&quot;/static/images/PocketBeagle_SizeCompare.jpg&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot;&gt;
 &lt;img src=&quot;/static/images/PocketBeagle-size-compare-small.jpg&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
 &lt;!--
 &lt;iframe width=&quot;250&quot; height=&quot;141&quot; src=&quot;https://www.youtube.com/embed/GxmjygZlnJw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -240,7 +240,7 @@ find all available hardware specifications such as:
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">58.0</pvcount>
+    <pvcount type="float">60.0</pvcount>
     <http_referer>https://beagleboard.org/pocket/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
