@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1506271716971">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1506273386455">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>getting-started</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">26.05.2017 11:28:32 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">1331221.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>getting-started</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
+    <time type="date">24.09.2017 17:16:26 UTC</time>
+    <hopsession>127.0.0.1tgdck1bbd8uz</hopsession>
     <body> &lt;a href=&quot;https://github.com/beagleboard/beaglebone-getting-started&quot;&gt;&lt;img style=&quot;position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67&quot; alt=&quot;Fork me on GitHub&quot; data-canonical-src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png&quot;&gt;&lt;/a&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
@@ -67,6 +63,7 @@ function foundBone(host) {
      &lt;ul id=&quot;quickLinks&quot; style=&quot;display:none;&quot;&gt;
      &lt;/ul&gt;
      &lt;ul&gt;  
+       &lt;li&gt;&lt;a href=&quot;#update&quot;&gt;&lt;strong&gt;Step 0:&lt;/strong&gt;Update image&lt;/a&gt;&lt;/li&gt;
        &lt;li id=&quot;fmStep1&quot;&gt;&lt;a href=&quot;#step1&quot;&gt;&lt;strong&gt;Step 1:&lt;/strong&gt;&lt;br /&gt;
 Power and boot&lt;/a&gt;&lt;/li&gt;
        &lt;li id=&quot;fmStep2&quot;&gt;&lt;a href=&quot;#step2&quot;&gt;&lt;strong&gt;Step 2:&lt;/strong&gt;&lt;br /&gt;
@@ -76,7 +73,6 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;ul&gt;
      &lt;li&gt;&lt;a href=&quot;#troubleshooting&quot;&gt;Troubleshooting&lt;/a&gt;&lt;/li&gt;
-     &lt;li&gt;&lt;a href=&quot;#update&quot;&gt;Update to latest software&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#distros&quot;&gt;Other software options&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#hardware&quot;&gt;Hardware documentation&lt;/a&gt;&lt;/li&gt;
      &lt;li&gt;&lt;a href=&quot;#books&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
@@ -85,6 +81,35 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
    &lt;div id=&quot;gettingstarted&quot;&gt;
  
 &lt;/a&gt;&lt;/p&gt;
+
+    &lt;h1 id=&quot;update&quot;&gt;Update board with latest software&lt;/h1&gt;
+    &lt;h3&gt;Step #0.A: Download the latest software image&lt;/h3&gt;
+    &lt;p&gt;Download the lastest Debian image from &lt;a href=&quot;https://beagleboard.org/latest-images&quot;&gt;beagleboard.org/latest-images&lt;/a&gt;. The &quot;IoT&quot; images provide more free disk space if you don&apos;t need to use a graphical user interface (GUI).&lt;/p&gt;
+    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
+    &lt;p&gt;The Debian distribution ships with the boards. The file you download will have an .img.xz extension. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
+    &lt;img src=&quot;/static/images/download-latestimage.png&quot; width=&quot;50%&quot; /&gt;
+ 
+    &lt;h3&gt;Step #0.B: Install SD card programming utility&lt;/h3&gt;
+    &lt;p&gt;Download and install &lt;a target=&quot;_blank&quot; href=&quot;https://etcher.io/&quot;&gt;Etcher&lt;/a&gt;.&lt;/p&gt;
+    &lt;img src=&quot;/static/images/download-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
+    &lt;img src=&quot;/static/images/install-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
+    &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;.
+ 
+    &lt;h3&gt;Step #0.C: Connect SD card to your computer&lt;/h3&gt;
+    &lt;p&gt;Use your computer&apos;s SD slot or a USB adapter to connect the SD card to your computer.&lt;/p&gt;
+ 
+    &lt;h3&gt;Step #0.D: Write the image to your SD card&lt;/h3&gt;
+    &lt;p&gt;Use Etcher to write the image to your SD card. Etcher will transparently decompress the image on-the-fly before writing it to the SD card.&lt;/p&gt;
+    &lt;img src=&quot;/static/images/write-latestimage.png&quot; width=&quot;50%&quot; /&gt;
+ 
+    &lt;h3&gt;Step #0.E: Eject the SD card&lt;/h3&gt;
+    &lt;p&gt;Eject the newly programmed SD card.&lt;/p&gt;
+ 
+    &lt;h3&gt;Step #0.F: Boot your board off of the SD card&lt;/h3&gt;
+    &lt;p&gt;Insert SD card into your (powered-down) board, hold down the USER/BOOT button (if using Black) and apply power, either by the USB cable or 5V adapter.&lt;/p&gt;
+    &lt;p&gt;If using an original BeagleBone or PocketBeagle, you are done.&lt;/p&gt;
+    &lt;p&gt;If using BeagleBone Black and desire to write the image to your on-board eMMC, you&apos;ll need to follow the instructions at &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian flasher images automatically power down the board upon completion.  &lt;em&gt;This can take up to 45 minutes.&lt;/em&gt;  Power-down your board, remove the SD card and apply power again to finish.&lt;/p&gt;
+ 
  
 &lt;h1&gt;Start your Beagle&lt;/h1&gt;
     &lt;p&gt;Beagles are tiny computers with the capability of modern systems,
@@ -92,6 +117,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     Read the step-by-step getting started tutorial below to begin developing with your Beagle in minutes.&lt;/p&gt;
     &lt;p&gt;For user supplied tips on getting started, visit the eLinux (or other) community wiki pages:&lt;/p&gt;
     &lt;ul&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://github.com/beagleboard/pocketbeagle/wiki&quot;&gt;PocketBeagle&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard&quot;&gt;BeagleBoard&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard-xM&quot;&gt;BeagleBoard-xM&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoard-X15&quot;&gt;BeagleBoard-X15&lt;/a&gt;&lt;/li&gt;
@@ -253,35 +279,7 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
     &lt;p&gt;When using &apos;ssh&apos; with the provided image, the username is &apos;debian&apos; and the password is &apos;temppwd&apos;.&lt;/p&gt;
     &lt;p&gt;Visit &lt;a href=&quot;https://beagleboard.org/support&quot;&gt;beagleboard.org/support&lt;/a&gt; for additional debugging tips.&lt;/p&gt;
  
-    &lt;h2 id=&quot;update&quot;&gt;Update board with latest software&lt;/h2&gt;
-    &lt;h3&gt;Step #1: Download the latest software image&lt;/h3&gt;
-    &lt;p&gt;Download the lastest Debian image from &lt;a href=&quot;https://beagleboard.org/latest-images&quot;&gt;beagleboard.org/latest-images&lt;/a&gt;. The &quot;IoT&quot; images provide more free disk space if you don&apos;t need to use a graphical user interface (GUI).&lt;/p&gt;
-    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; Due to sizing necessities, this download may take 30 minutes or more.&lt;/small&gt;&lt;/p&gt;
-    &lt;p&gt;The Debian distribution ships with the boards. The file you download will have an .img.xz extension. This is a compressed sector-by-sector image of the SD card.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/download-latestimage.png&quot; width=&quot;50%&quot; /&gt;
- 
-    &lt;h3&gt;Step #2: Install SD card programming utility&lt;/h3&gt;
-    &lt;p&gt;Download and install &lt;a target=&quot;_blank&quot; href=&quot;https://etcher.io/&quot;&gt;Etcher&lt;/a&gt;.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/download-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;img src=&quot;/static/images/install-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;.
- 
-    &lt;h3&gt;Step #3: Connect SD card to your computer&lt;/h3&gt;
-    &lt;p&gt;Use your computer&apos;s SD slot or a USB adapter to connect the SD card to your computer.&lt;/p&gt;
- 
-    &lt;h3&gt;Step #4: Write the image to your SD card&lt;/h3&gt;
-    &lt;p&gt;Use Etcher to write the image to your SD card. Etcher will transparently decompress the image on-the-fly before writing it to the SD card.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/write-latestimage.png&quot; width=&quot;50%&quot; /&gt;
- 
-    &lt;h3&gt;Step #5: Eject the SD card&lt;/h3&gt;
-    &lt;p&gt;Eject the newly programmed SD card.&lt;/p&gt;
- 
-    &lt;h3&gt;Step #6: Boot your board off of the SD card&lt;/h3&gt;
-    &lt;p&gt;Insert SD card into your (powered-down) board, hold down the USER/BOOT button (if using Black) and apply power, either by the USB cable or 5V adapter.&lt;/p&gt;
-    &lt;p&gt;If using an original BeagleBone, you are done.&lt;/p&gt;
-    &lt;p&gt;If using BeagleBone Black and desire to write the image to your on-board eMMC, you&apos;ll need to follow the instructions at &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian flasher images automatically power down the board upon completion.  &lt;em&gt;This can take up to 45 minutes.&lt;/em&gt;  Power-down your board, remove the SD card and apply power again to finish.&lt;/p&gt;
- 
-    &lt;h2 id=&quot;distros&quot;&gt;Other currently available software images&lt;/h2&gt;
+   &lt;h2 id=&quot;distros&quot;&gt;Other currently available software images&lt;/h2&gt;
     &lt;p&gt;Some of the starting images below involve multiple steps to produce an SD card image or otherwise change some of the steps above, so be sure to read all the instructions on their pages. Choose the starting point you want, download or produce the SD card image and follow the steps above.&lt;/p&gt;
     &lt;p&gt;At the time of release, not all of these distributions support BeagleBone Black, but should soon.&lt;/p&gt;
     &lt;ul class=&quot;arrow&quot;&gt;
@@ -351,8 +349,12 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
    &lt;!-- Content Area - END --&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">1331240.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/getting-started/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
