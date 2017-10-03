@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1507047472751">
+  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1507047602994">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
     <lang>en-us</lang>
     <uri>pocket</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">03.10.2017 16:17:52 UTC</time>
+    <time type="date">03.10.2017 16:20:02 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.mew6fus66xvu</hopsession>
     <user>jkridner.wordpress.com</user>
-    <pvcount type="float">117768.0</pvcount>
+    <pvcount type="float">117772.0</pvcount>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
@@ -235,10 +235,12 @@ find all available hardware specifications such as:
   height=&quot;700&quot;&gt;
 &lt;/iframe&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
+  if(!place) place = &apos;forum/beagleboard#!categories/beagleboard/pocketbeagle&apos;;
   document.getElementById(&apos;forum_embed&apos;).src =
      &apos;https://groups.google.com/forum/embed/?&apos;
      + &apos;&amp;parenturl=&apos; + encodeURIComponent(window.location.href)
-     + &apos;&amp;showsearch=true&amp;showpopout=false&amp;showtabs=false&amp;place=forum/beagleboard#!categories/beagleboard/pocketbeagle&apos;;
+     + &apos;&amp;showsearch=true&amp;showpopout=false&amp;showtabs=false&amp;place=&apos;
+     + place;
 &lt;/script&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 
