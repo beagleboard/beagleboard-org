@@ -96,17 +96,27 @@
       </ul>
    </li>
 </ul>
+<!--
 <div id="search">
 <ul>
 <li class="google">
-       <form action="https://www.google.com/cse" id="cse-search-box">
-        <input type="hidden" name="cx" value="001071468846613058269:xd-gxvzmbq4" />
-        <input type="hidden" name="ie" value="UTF-8" />
-        <input type="text" name="q" style="width:180px;" />
-        <input class="btn1" type="submit" name="sa" value="Search"/>
-       </form>
-       <script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-      </li></ul></div></div>
+<div style="width:180px";>
+<script>
+  (function() {
+    var cx = '001071468846613058269:xd-gxvzmbq4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+</div>
+      </li></ul></div>
+-->
+</div>
 <!--end menu bar-->
 <!-- Content Area - START -->
     <div id="content">
