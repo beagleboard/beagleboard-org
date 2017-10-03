@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4126" name="Page" prototype="Page" created="1444819841808" lastModified="1507049859002">
+  <hopobject id="4126" name="Page" prototype="Page" created="1444819841808" lastModified="1507053239269">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>x15</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">11.08.2017 21:43:35 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1tpp5w7qf1pa5</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">273790.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>x15</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
+    <time type="date">03.10.2017 17:53:59 UTC</time>
+    <hopsession>127.0.0.mew6fus66xvu</hopsession>
     <body>&lt;h1&gt;BeagleBoard-X15&lt;/h1&gt;
 
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -185,14 +182,41 @@ $(document).ready(function(){
 
 
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+&lt;iframe id=&quot;forum_embed&quot;
+  src=&quot;https://groups.google.com/forum/embed/?parenturl=https://beagleboard.org/x15&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=forum/beagleboard-x15&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;
+  width=&quot;900&quot;
+  height=&quot;700&quot;&gt;
+&lt;/iframe&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var place = &apos;forum/beagleboard-x15&apos;;
+  var a = $(&apos;&lt;a&gt;&apos;, { href: window.location.href });
+  var params = a.prop(&apos;search&apos;).substr(1).split(&apos;&amp;&apos;)
+    .reduce((params, param) =&gt; {
+      let [ key, value ] = param.split(&apos;=&apos;);
+      params[key] = value ? decodeURIComponent(value.replace(/\+/g, &apos; &apos;)) : &apos;&apos;;
+      return params;
+    }, { });
+  if(typeof params[&apos;place&apos;] !== &apos;undefined&apos;) place = params[&apos;place&apos;];
+  document.getElementById(&apos;forum_embed&apos;).src =
+     &apos;https://groups.google.com/forum/embed/?&amp;parenturl=&apos; 
+     + encodeURIComponent(window.location.href)
+     + &apos;&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=&apos;
+     + place;
+&lt;/script&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;!-- end Content Area --&gt;
 
 
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">273807.0</pvcount>
     <http_referer>https://beagleboard.org/x15/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
