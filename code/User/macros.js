@@ -109,7 +109,7 @@ function prompt_macro (param)
       var manager = getManager();
       var warning = "";
       var openid_url = userSuppliedString;
-      if (openid_url == "" || (openid_url.match(/@/) && !openid_url.match(/^http/)))
+      if (0 && (openid_url == "" || (openid_url.match(/@/) && !openid_url.match(/^http/))))
        {
         warning += 'Attempting to use Google for provider of authentication".<br />\n';
 	openid_url = "https://www.google.com/accounts/o8/id";
@@ -136,6 +136,7 @@ function prompt_macro (param)
       //var authReq = manager.authenticate(discovered, returnToURL, realm);
       var authReq = manager.authenticate(discovered, returnToURL);
       app.log("authReq=" + authReq);
+      /*
       var fetch = Packages.org.openid4java.message.ax.FetchRequest.createFetchRequest();
       fetch.addAttribute
        (
@@ -144,6 +145,7 @@ function prompt_macro (param)
         true
        );
       authReq.addExtension(fetch);
+      */
       if (!discovered.isVersion2())
        {
         var destinationURL = "" + authReq.getDestinationUrl(true);
@@ -189,12 +191,15 @@ function prompt_macro (param)
       var verification = manager.verify(receivingURL, parameterList, discovered);
       app.log(" verification = " + verification);
       var verified = verification.getVerifiedId();
+      app.log(" verified = " + verified);
       if (verified != null)
        {
         var name = "" + verified;
         name = name.replace(/^http(s)*\:\/\//, "").replace(/\/$/, "");
+        app.log("Attempting to get authorization response for name = " + name);
         authSuccess = verification.getAuthResponse();
-        if (authSuccess.hasExtension(Packages.org.openid4java.message.ax.AxMessage.OPENID_NS_AX))
+        app.log(" authSuccess = " + authSuccess);
+        if (0 && authSuccess.hasExtension(Packages.org.openid4java.message.ax.AxMessage.OPENID_NS_AX))
          {
           var fetchResp = 
            authSuccess.getExtension(Packages.org.openid4java.message.ax.AxMessage.OPENID_NS_AX);

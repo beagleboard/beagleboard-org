@@ -1,0 +1,213 @@
+<h1></h1>
+
+<p>Please see <a href="https://www.arrow.com/en/products/bb-bblk-000-itemp/arrow-development-tools">Arrow's BeagleBone Black Industrial page</a>.</p>
+
+<div style="clear:both" /></div>
+   <div id="promo" style="margin-left:-26px;">
+ <!-- slider -->
+
+<link href="/static/ti/com.ti.jquery.ui.widget.default.css" rel="stylesheet" type="text/css"/>
+<script src="/static/ti/jquery-1.7.2.min.js"></script>
+<script src="/static/ti/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="/static/ti/com.ti.jquery.ui.widgets.js" type="text/javascript"></script>
+
+<div id="bnr_ss1" class="noscript">
+
+<div class="tislides">
+<ul>
+<li></li>
+</ul>
+</div>
+
+</div><!-- bnr_ss1 -->
+
+<script type="text/javascript">
+    
+        $(document).ready(function() {
+            $("#bnr_ss1").slideshow(
+                {
+            		debug:false,
+					controls:true,
+					animate:'slide',
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+</script>
+
+   </div>
+   <div style="clear:both;"></div>
+   
+<div id="t2-c7">
+<div style="position:relative;">
+
+ <div id="t2-c7-content">
+<div id="t2-c5d">
+<a href="/logo"><img src="/static/images/BeagleBoardCompatible.png" style="width:150px;float:right;" /></a>
+<h2>What is Arrow BeagleBone Black Industrial?</h2><p style="margin-right:75px;">Arrow BeagleBone Black Industrial
+(ABBBI) is a joint effort by BeagleBoard.org and Arrow. It is based on the 
+open-source hardware design of <a href="/black">BeagleBone Black</a> and developed into this differentiated
+version. The ABBBI has support for an industrial temperature range of -40C to +85C.
+</p>    
+ </div>
+ <div id="t2-c5a">   
+    <h3 style="margin-top:-5px;">Processor: 
+    <a href="http://www.ti.com/product/am3358">AM335x 1GHz 
+    ARM® Cortex-A8</a></h3>
+<ul class="square"> 
+<li>512MB DDR3 RAM</li>
+<li>4GB 8-bit eMMC on-board flash storage</li>
+<li>3D graphics accelerator</li>
+<li>NEON floating-point accelerator</li>
+<li>2x PRU 32-bit microcontrollers</li>
+
+</ul>
+</div>
+
+
+ <div id="t2-c5b">  
+    <h3 style="margin-top:-5px;">Connectivity</h3>
+<ul class="square"> 
+  <li>USB client for power & communications</li>
+  <li>USB host</li>
+  <li>Ethernet</li>
+  <li>2x 46 pin headers</li>
+</ul>
+</div>
+
+
+
+
+<div style="clear:both" /></div>
+ <div id="t2-c5c">
+<h3 style="margin-top:-5px;">Software Compatibility</h3>
+<ul class="square"> 
+  <li>Debian</li>
+  <li>Android</li>
+  <li>Ubuntu</li>
+  <li>Cloud9 IDE on Node.js w/ BoneScript library</li>
+  <li>plus much more</li>
+</ul>
+</div>
+
+<div id="CTA">
+  <a href="http://www.arrow.com">
+    <img src="/static/images/purchase.gif" /></a><br />
+  <p style="background-color:#EEEEEE;border-radius:6px;
+  padding: 2px 2px 2px 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;">
+  <a id="buy-abbbi" style="color:black;font-size:16px;" 
+   href="https://www.arrow.com/en/products/bb-bblk-000-itemp/arrow-development-tools"
+   class="external">Order from Arrow</a>
+ </p>
+</div>
+
+<!--
+<script>
+$(document).ready(function(){
+  if($('#buy-abbbi').length) {
+    $.get('/distributors/abbbi', function(data){
+        $('#buy-abbbi').replaceWith(data);
+        $('select.dropdown').each(function(){
+          var list = $(this);
+          var action = list.attr('id'); 
+          list.change(function(){
+           $('option:selected', this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            _gaq.push(['_trackEvent', 'exit', action, label]);
+            setTimeout('document.location = "' + link + '"', 100)
+           });
+          });
+        });
+    });
+  }
+});
+</script>
+-->
+
+
+</div>
+<script type="text/javascript" src="/static/ti/slimbox2.js"></script>
+<link media="screen" type="text/css" href="/static/ti/slimbox2.css" rel="stylesheet" />
+<a href="/static/images/TBD" rel="lightbox" name="Arrow BeagleBone Black Industrial Image">
+<img src="/static/images/TBD_small" border="0" alt="Arrow BeagleBone Black Industrial" /></a>
+</div>
+</div>
+
+<div style="clear:both" /></div>
+<div id="t2-c4-prod-details">
+<h2><a href="/project">Arrow BeagleBone Black Industrial Projects</a></h2>
+    <p><strong><a href="TBD" class="external">Project #1</a></strong><br />
+    Project #1 description.</p>
+<a href="/project">See More Projects</a> »
+</div>
+
+<div id="t2-c5-prod-details">
+<h2><a href="/support/bone101">Arrow BeagleBone Black Industrial Support</a></h2>
+<p><strong><a href="/getting-started">Getting Started</a></strong><br>
+First step: connect your Beagle to this site  
+<br>
+
+<p><strong><a href="/discuss">Software and Ecosystem Discussion Groups</a></strong><br>
+Collaborate on the Beagle community forum
+<br>
+
+<p><strong><a href="TBD" class="external">Hardware Discussion Groups</a></strong><br>
+Visit the Arrow site for hardware support
+<br>
+
+<p><strong><a href="/chat">IRC Group Chat</a></strong><br />
+Live chat with other open-source enthusiasts
+<br>
+</p>
+
+<p><strong><a Class="external" href="http://bit.ly/bbb-books">Books</a></strong><br />
+Read books to help you learn fundamental concepts
+</p>
+</div>
+
+<div id="t2-c6-prod-details">
+<h2><a href="TBD" Class="external">Hardware Specs and Materials</a></h2>
+Browse the <a href="TBD" Class="external">Arrow BeagleBone Black Industrial page</a> to find all available hardware specifications such as:
+<ul>
+<li>Bill of Materials</li>
+<li>PCB Files</li>
+<li>MFG Files</li>
+<li>Schematic (PDF and source)</li>
+<li>System Reference Manual</li></ul>
+<p><a href="/approved">Approved accessories</a></p>
+<p><a href="/cape">Capes</a> </p>
+<p><a href="/logo"><img src="/static/images/BeagleBoardCompatible.png" style="width:200px;" /></a></p>
+
+</div>
+
+
+<div style="clear:both;"></div>
+<h2>Videos </h2>
+<div id="t2-video-1">
+<iframe width="420" height="236" src="https://www.youtube.com/embed/TBD" frameborder="0" allowfullscreen></iframe><h3>Learn about Arrow BeagleBone Black Industrial</h3>
+<p>Learn about Arrow BeagleBone Black Industrial.</p>
+</div>
+<div id="t2-video-2">
+<iframe width="420" height="236" src="https://www.youtube.com/embed/TBD" frameborder="0" allowfullscreen></iframe><h3>Demo #1</h3>
+<p>Description of Demo #1.</p>
+</div>
+
+<div style="clear:both" /></div>
+<!-- end Content Area -->
+
+
+
+
+ 
