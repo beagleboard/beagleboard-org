@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1507048569956">
+  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1507048592245">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.8</http_language>
     <uri>pocket</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
-    <time type="date">03.10.2017 16:36:09 UTC</time>
+    <time type="date">03.10.2017 16:36:32 UTC</time>
     <hopsession>127.0.0.mew6fus66xvu</hopsession>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -233,7 +233,7 @@ find all available hardware specifications such as:
 &lt;script type=&quot;text/javascript&quot;&gt;
   var place = &apos;forum/beagleboard#!categories/beagleboard/pocketbeagle&apos;;
   var a = $(&apos;&lt;a&gt;&apos;, { href: window.location.href });
-  if(typeof a.prop(&apos;place&apos;) !== &apos;undefined&apos;) place = a.place;
+  if(typeof a.prop(&apos;place&apos;) !== &apos;undefined&apos;) place = a.prop(&apos;place&apos;);
   document.getElementById(&apos;forum_embed&apos;).src =
      &apos;https://groups.google.com/forum/embed/?&apos;
      + &apos;&amp;parenturl=&apos; + encodeURIComponent(window.location.href)
@@ -259,7 +259,7 @@ find all available hardware specifications such as:
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">117811.0</pvcount>
+    <pvcount type="float">117812.0</pvcount>
     <http_referer>https://beagleboard.org/pocket/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>jkridner.wordpress.com</user>
