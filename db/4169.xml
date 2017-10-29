@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1509235192039">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1509304288791">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>blue</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">02.08.2017 19:10:45 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.14if88g4f1g21</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">214942.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>blue</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
+    <time type="date">29.10.2017 19:11:28 UTC</time>
+    <hopsession>127.0.0.1vpp1knto8dc0</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
@@ -55,7 +52,7 @@ mobile robots quick and affordable.
  &lt;div id=&quot;t2-c5c&quot;&gt;
 &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot; class=&quot;external&quot;&gt;Debian&lt;/a&gt;, &lt;a href=&quot;https://dscl.lcsr.jhu.edu/edumip-ros/&quot; class=&quot;external&quot;&gt;ROS&lt;/a&gt;, &lt;a href=&quot;https://github.com/mirkix/ardupilotblue&quot; class=&quot;external&quot;&gt;ArduPilot&lt;/a&gt;, ...&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot; class=&quot;external&quot;&gt;Debian&lt;/a&gt;, &lt;a href=&quot;https://dscl.lcsr.jhu.edu/home/courses/me530707_2017_edumip_ros&quot; class=&quot;external&quot;&gt;ROS&lt;/a&gt;, &lt;a href=&quot;https://github.com/mirkix/ardupilotblue&quot; class=&quot;external&quot;&gt;ArduPilot&lt;/a&gt;, ...&lt;/li&gt;
   &lt;li&gt;Graphical programming with &lt;a href=&quot;https://github.com/ktalke12/Labview-MiP&quot; class=&quot;external&quot;&gt;LabVIEW&lt;/a&gt;, Cloud9 IDE on Node.js&lt;/li&gt;
   &lt;li&gt;plus much more&lt;/li&gt;
 &lt;/ul&gt;
@@ -145,7 +142,7 @@ $(document).ready(function(){
     Mirko Denecke describes how he runs ArduCopter. You can also look how Jason built &lt;a href=&quot;https://gist.github.com/jadonk/6080ca92d6e225eb89d33ad7744e1775&quot; class=&quot;external&quot;&gt;his&lt;/a&gt;.&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hackster.io/renaissance-robotics/edumip-13a29c&quot; class=&quot;external&quot;&gt;EduMIP&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
     is the world’s most extensible low-cost open platform for learning embedded control &amp; robotics.&lt;/p&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://dscl.lcsr.jhu.edu/edumip-ros/&quot; class=&quot;external&quot;&gt;EduMIP ROS&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://dscl.lcsr.jhu.edu/home/courses/me530707_2017_edumip_ros&quot; class=&quot;external&quot;&gt;EduMIP ROS&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
     Using Robot Operating System (ROS) with a balancing robot (EduMIP).&lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gist.github.com/jadonk/d05d96243bc26b3c08a5293d29f78839&quot; class=&quot;external&quot;&gt;Bluetooth speaker&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
     Connect a Bluetooth speaker.&lt;/p&gt;
@@ -213,23 +210,19 @@ find all available hardware specifications such as:
 &lt;p&gt;Jason Kridner describes why educational robotics are critical for the future of Linux&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-video-2&quot;&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/T15D7U2BOf4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3&gt;BeagleBone Blue Introduction at CES&lt;/h3&gt;
-&lt;p&gt;Tom Bewley of UCSD shares a brief introduction to BeagleBone Blue.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-video-1&quot;&gt;
 &lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/yMhZRutjHSI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3&gt;BeagleBone Blue Webinar with Autodesk&lt;/h3&gt;
 &lt;p&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;!--
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/T15D7U2BOf4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Introduction at CES&lt;/h3&gt;
+&lt;p&gt;Tom Bewley of UCSD shares a brief introduction to BeagleBone Blue.&lt;/p&gt;
 &lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/TBD&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3&gt;BeagleBone Blue Webinar with Autodesk part 2&lt;/h3&gt;
 &lt;p&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
-&lt;!-- end Content Area --&gt;
+--&gt;
 
 
 
@@ -248,8 +241,11 @@ find all available hardware specifications such as:
 
 
  </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">215181.0</pvcount>
     <http_referer>https://beagleboard.org/blue/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>jkridner.wordpress.com</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
