@@ -121,12 +121,68 @@
 
 server {
 	listen 80;
+	server_name bbb.io;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 443;
+	server_name bbb.io;
+	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 80;
+	server_name beagleb.one;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 443;
+	server_name beagleb.one;
+	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 80;
+	server_name beagleboard.cn;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 443;
+	server_name beagleboard.cn;
+	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 80;
+	server_name beaglebone.cn;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 443;
+	server_name beaglebone.cn;
+	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	return 301 https://beagleboard.org$request_uri;
+}
+
+server {
+	listen 80;
 	server_name www.beagleboard.net 52.26.75.20;
 	return 301 https://beagleboard.net$request_uri;
 }
 
 server {
-	listen 443;
+	listen 443 ssl;
 	server_name www.beagleboard.net 52.26.75.20;
 	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
@@ -159,7 +215,7 @@ server {
 
 server {
 	listen 80;
-	listen 443;
+	listen 443 ssl;
 	server_name	debexpo.beagleboard.net;
 	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
@@ -171,7 +227,7 @@ server {
 
 server {
 	listen 80;
-	listen 443;
+	listen 443 ssl;
 	server_name	builds.beagleboard.net;
 	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
@@ -183,11 +239,11 @@ server {
 
 server {
 	listen 80;
-	listen 443;
+	listen 443 ssl;
 	server_name	debian.beagleboard.net;
 	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
-	root /mnt2/debian/;
+	root /mnt/debian/;
 
 	location / {
 		autoindex on;
@@ -264,7 +320,7 @@ server {
 	server_name	debian.beagleboard.org;
 	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
-	root /mnt2/debian/;
+	root /mnt/debian/;
 
 	location / {
 		autoindex on;
