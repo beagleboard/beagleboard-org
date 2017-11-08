@@ -119,16 +119,16 @@
 #	}
 #}
 
-map $request_uri $new_uri {
-	default $request_uri;
-	"~^/p/(.*)$" /projects/$1;
-}
+#map $request_uri $new_uri {
+#	default $request_uri;
+#	~^\/p\/(.*)$ /projects/$1;
+#}
 
 server {
 	listen 80;
 	server_name bbb.io;
-	#return 301 https://beagleboard.org$request_uri;
-	return 301 https://beagleboard.org$new_uri;
+	return 301 https://beagleboard.org$request_uri;
+#	return 301 https://beagleboard.org$new_uri;
 }
 
 server {
@@ -136,8 +136,8 @@ server {
 	server_name bbb.io;
 	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
-	#return 301 https://beagleboard.org$request_uri;
-	return 301 https://beagleboard.org$new_uri;
+	return 301 https://beagleboard.org$request_uri;
+#	return 301 https://beagleboard.org$new_uri;
 }
 
 server {
@@ -280,7 +280,8 @@ server {
 	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 
-	location ~ ^/projects {
+#	location ~ ^/assets {
+	location ~ ^/(p|assets)(/.*)*$ {
 		proxy_pass https://beagleboard.hackster.io;
 		proxy_http_version 1.1;
 		proxy_set_header Host $host;
