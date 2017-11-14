@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1507741845526">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1510686117532">
   <hop:parent idref="0" prototyperef="Root"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <http_remotehost>127.0.0.1</http_remotehost>
+    <skin_is_outer>1</skin_is_outer>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
     <registrant>blog.hangerhead.com</registrant>
-    <oauth2-token></oauth2-token>
-    <g_authuser_h2>0</g_authuser_h2>
-    <beagleirclog>000000</beagleirclog>
-    <http_language>en-US,en;q=0.8</http_language>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
+    <lang>en-us</lang>
     <uri>default</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
-    <time type="date">27.09.2017 17:57:02 UTC</time>
-    <hopsession>127.0.0.mew6fus66xvu</hopsession>
+    <mp_mixpanel__c>0</mp_mixpanel__c>
+    <initialreferrer>beagleboard.org</initialreferrer>
+    <http_language>en-US,en;q=0.8</http_language>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <initiallandingpage>/p</initiallandingpage>
+    <hopsession>127.0.0.1tttp83nkbm6k</hopsession>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <beagleirclog>000000</beagleirclog>
     <body> &lt;!-- Product Promotion - START --&gt;
    &lt;div id=&quot;promo&quot;&gt;
  &lt;!-- slider --&gt;
@@ -25,11 +30,11 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-pocket&quot; href=&quot;/pocket&quot;&gt;&lt;img src=&quot;/static/images/pocket-beagle-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-blue&quot; href=&quot;/blue&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Blue-Banner-Ads950-267.gif&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;!--
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-pocket&quot; href=&quot;/pocket&quot;&gt;&lt;img src=&quot;/static/images/pocket-beagle-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-black-wireless&quot; href=&quot;/black-wireless&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Black-Banner-Ads950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-pocket&quot; href=&quot;/pocket&quot;&gt;&lt;img src=&quot;/static/images/pocket-beagle-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-green-wireless&quot; href=&quot;/green-wireless&quot;&gt;&lt;img src=&quot;/static/images/BBGW_HomepageBanner.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;!--
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-musictech&quot; href=&quot;https://www.element14.com/community/community/design-challenges/musictech?ICID=BBB-ORG&quot;&gt;&lt;img src=&quot;/static/images/TW_950x267_MusicTech.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-book&quot; href=&quot;http://beagleboard.org/books&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_book.jpg&quot; alt=&quot;Book&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-hackster&quot; href=&quot;https://www.hackster.io/challenges/beaglebonegreen&quot;&gt;&lt;img src=&quot;/static/images/BBGContestBanner_V2.jpg&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
@@ -294,15 +299,21 @@ BeagleBoardToys
 --&gt;
 
 </body>
-    <pvcount type="float">110.0</pvcount>
-    <prev idref="194" prototyperef="Page"/>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <render_skin>bare</render_skin>
-    <skin_is_outer>1</skin_is_outer>
     <http_referer>https://beagleboard.org/default/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>jkridner.wordpress.com</user>
+    <prev idref="194" prototyperef="Page"/>
+    <http_host>127.0.0.1:8080</http_host>
+    <oauth2-token></oauth2-token>
+    <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
+    <time type="date">14.11.2017 19:01:57 UTC</time>
+    <userid>40774</userid>
+    <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
+    <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
+    <g_authuser_h2>0</g_authuser_h2>
+    <render_skin>bare</render_skin>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <pvcount type="float">111.0</pvcount>
     <hop:child idref="217" prototyperef="user"/>
     <hop:child idref="219" prototyperef="user"/>
   </hopobject>
