@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1510680734015">
+  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1510680799527">
   <hop:parent idref="3268" prototyperef="Page"/>
     <skin_is_outer>1</skin_is_outer>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
@@ -50,7 +50,7 @@
     &lt;optgroup label=&quot;Europe&quot;&gt;
         &lt;option value=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone&quot;&gt;Farnell element14&lt;/option&gt;
         &lt;!-- &lt;option value=&quot;http://cpc.farnell.com/element14/bbone-black-4g/beaglebone-black-rev-c-cortex-a8/dp/SC13491&quot;&gt;CPC Electronics&lt;/option&gt; --&gt;
-        &lt;option value=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/option&gt;
+        &lt;!-- &lt;option value=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/option&gt; --&gt;
         &lt;option value=&quot;http://uk.mouser.com/ProductDetail/BeagleBoard/BBB01-SC-505&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;http://www.digikey.es/products/en?keywords=BBB01-SC-505-ND&quot;&gt;Digi-Key&lt;/option&gt;
         &lt;!--
@@ -118,7 +118,7 @@
     <http_host>127.0.0.1:8080</http_host>
     <pseudoparent idref="3268" prototyperef="Page"/>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">14.11.2017 17:32:14 UTC</time>
+    <time type="date">14.11.2017 17:33:19 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/dashboard/projects&quot;,&quot;Session landing page type&quot;: &quot;users#dashboard&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
@@ -126,7 +126,7 @@
     <render_skin>bare</render_skin>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <pvcount type="float">61.0</pvcount>
+    <pvcount type="float">62.0</pvcount>
     <hop:child idref="3273" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
