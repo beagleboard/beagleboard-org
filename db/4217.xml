@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1505959726884">
+  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1510680880847">
   <hop:parent idref="3268" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
+    <skin_is_outer>true</skin_is_outer>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
+    <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
     <lang>en-us</lang>
     <uri>bbbw</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">13.09.2017 01:42:19 UTC</time>
-    <pseudoparent idref="3268" prototyperef="Page"/>
+    <mp_mixpanel__c>0</mp_mixpanel__c>
+    <initialreferrer>beagleboard.org</initialreferrer>
+    <http_language>en-US,en;q=0.8</http_language>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1anlz01cgphgm</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">25.0</pvcount>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <initiallandingpage>/p</initiallandingpage>
+    <hopsession>127.0.0.1tttp83nkbm6k</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-bbbw&quot;&gt;
   &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;optgroup label=&quot;North America&quot;&gt;
         &lt;!-- 
         &lt;option value=&quot;https://www.arrow.com/en/products/bbwireless/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
         --&gt;
+        &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardxm/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
         &lt;option value=&quot;http://www.digikey.com/products/en?lang=en&amp;site=us&amp;KeyWords=BBBWL-SC-562-ND&quot;&gt;Digi-Key&lt;/option&gt;
         &lt;option value=&quot;https://www.element14.com/community/docs/DOC-83315/l/beaglebone-black-wireless-coming-soon&quot;&gt;element14&lt;/option&gt;
         &lt;option value=&quot;http://www.mcmelectronics.com/product/83-17778&quot;&gt;MCM Electronics&lt;/option&gt;
@@ -57,9 +60,18 @@
 &lt;/select&gt;
 
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <render_skin>bare</render_skin>
-    <skin_is_outer>true</skin_is_outer>
     <http_referer>https://beagleboard.org/distributors/bbbw/edit</http_referer>
+    <user>jkridner.wordpress.com</user>
+    <http_host>127.0.0.1:8080</http_host>
+    <pseudoparent idref="3268" prototyperef="Page"/>
+    <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
+    <time type="date">14.11.2017 17:34:40 UTC</time>
+    <userid>40774</userid>
+    <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/dashboard/projects&quot;,&quot;Session landing page type&quot;: &quot;users#dashboard&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
+    <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
+    <render_skin>bare</render_skin>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <pvcount type="float">26.0</pvcount>
   </hopobject>
 </xmlroot>

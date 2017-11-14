@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4229" name="x15" prototype="Page" created="1476988866210" lastModified="1506375078938">
+  <hopobject id="4229" name="x15" prototype="Page" created="1476988866210" lastModified="1510680831531">
   <hop:parent idref="3268" prototyperef="Page"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.8</http_language>
-    <uri>x15</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>x15</uri>
+    <http_host>127.0.0.1:8080</http_host>
     <time type="date">25.09.2017 21:31:18 UTC</time>
+    <pseudoparent idref="3268" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.mew6fus66xvu</hopsession>
+    <user>jkridner.wordpress.com</user>
+    <pvcount type="float">8.0</pvcount>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-x15&quot;&gt;
     &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardx15/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
@@ -21,13 +25,9 @@
 &lt;/select&gt;
 
 </body>
-    <pseudoparent idref="3268" prototyperef="Page"/>
-    <pvcount type="float">7.0</pvcount>
+    <http_language>en-US,en;q=0.8</http_language>
     <render_skin>bare</render_skin>
-    <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/x15/edit</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
-    <lang>en-us</lang>
+    <skin_is_outer>true</skin_is_outer>
   </hopobject>
 </xmlroot>
