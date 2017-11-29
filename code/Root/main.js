@@ -7,7 +7,6 @@
 function main_action ()
  {
   res.data.body = "";
-  res.handlers["User"] = User();
   res.handlers["Page"] = Page();
 
   try
