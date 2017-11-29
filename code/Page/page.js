@@ -33,7 +33,6 @@ function main_action ()
     skin_is_outer = this.skin_is_outer;
    }
 
-  res.handlers["User"] = User();
   res.data.title = this.uri;
   if (render_skin == "project" && this.pname)
    res.data.title = this.pname;
@@ -64,13 +63,12 @@ function edit_action ()
 
   //if(this.edit_skin == 'edit_project') return(res.redirect());
 
-  if (!session.user || !session.user["name"])
+  if (true)
    {
     var targetURL = root.href("login") + "?target=" + this.href();
     res.redirect(targetURL);
     return;
    }
-  res.handlers["User"] = User();
 
   if
    (
@@ -78,8 +76,8 @@ function edit_action ()
     && req.data["body"]
    )
    {
-    this.user = "" + session.user["name"];
-    if (this.user == "jkridner.wordpress.com")
+    this.user = "default";
+    if (false)
      {
       saveEdit = true;
      }
@@ -138,7 +136,7 @@ function edit_action ()
         this.uri = req.data["uri"];
        }
       var runtime = Packages.java.lang.Runtime.getRuntime();
-      var message = "http://beagleboard.org" + this.href() + " was edited by " + session.user["name"];
+      var message = "http://beagleboard.org" + this.href() + " was edited by default";
       runtime.exec("scripts/beagle/edit.sh");
       var currentTime = new Date();
       if (typeof bot === 'undefined')
@@ -179,7 +177,6 @@ function info_action ()
   res.data.title = "Page information";
   res.data.body = "<h1>Page information</h1>";
   res.data.body += this.toJSON();
-  res.handlers["User"] = User();
   renderSkin("index");
  }
 
@@ -231,7 +228,6 @@ function href (action)
 
 function notfound_action ()
  {
-  res.handlers["User"] = User();
   res.data.body = "";
 
   try
@@ -266,15 +262,12 @@ function getChildElement (name)
     x.pseudoParent = this;
     try
      {
-      if (!session.user)
-       {
-        var orderedByDate = this.getOrderedView("time desc");
-        var collection = orderedByDate.list();
-        var edit_skin = collection[0].edit_skin || "edit";
-        var redirectURL = this.href() + "new/" + edit_skin;
-        session.data.edit_new = redirectURL;
-        app.log("Setting session.data.edit_new=" + redirectURL);
-       }
+      var orderedByDate = this.getOrderedView("time desc");
+      var collection = orderedByDate.list();
+      var edit_skin = collection[0].edit_skin || "edit";
+      var redirectURL = this.href() + "new/" + edit_skin;
+      session.data.edit_new = redirectURL;
+      app.log("Setting session.data.edit_new=" + redirectURL);
      }
     catch(e)
      {
