@@ -280,6 +280,12 @@ server {
 	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 
+	location ~ ^/~(.+?)(/.*)?$ {
+		alias /home/$1/public_html$2;
+		index  index.html index.htm;
+		autoindex on;
+	}
+
 #	location ~ ^/assets {
 	location ~ ^/(p|assets)(/.*)*$ {
 		proxy_pass https://beagleboard.hackster.io;
