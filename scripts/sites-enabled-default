@@ -286,6 +286,10 @@ server {
 		autoindex on;
 	}
 
+	location ~ ^/\+(.*)$ {
+		return 301 https://beagleboard.org/p/p/$1;
+	}
+
 #	location ~ ^/assets {
 	location ~ ^/(p|assets)(/.*)*$ {
 		proxy_pass https://beagleboard.hackster.io;
