@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 my $template = <<'END_TEMPLATE';
-	location /project/[PROJ]
+	location /project/[PROJ] {
 		rewrite ^/.* https://$server_name/+[ID] permanent;
 	}
 END_TEMPLATE
