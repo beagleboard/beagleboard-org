@@ -391,3 +391,81 @@
 23 Jan 15:07:59 - SEND: PONG hitchcock.freenode.net
 23 Jan 15:10:15 - SEND: PONG hitchcock.freenode.net
 23 Jan 15:12:31 - SEND: PONG hitchcock.freenode.net
+[Tue Jan 23 2018 15:14:32 GMT+0000 (UTC)] INFO Connecting...
+23 Jan 15:14:32 - Sending irc NICK/USER
+23 Jan 15:14:32 - SEND: CAP REQ sasl
+23 Jan 15:14:33 - SEND: NICK beagleslackbot
+23 Jan 15:14:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+23 Jan 15:14:41 - SEND: NICK beagleslackbot1
+23 Jan 15:14:42 - [01;31mUnhandled message: { prefix: 'livingstone.freenode.net',
+  server: 'livingstone.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+23 Jan 15:14:42 - SEND: CAP END
+23 Jan 15:14:42 - [01;31mUnhandled message: { prefix: 'livingstone.freenode.net',
+  server: 'livingstone.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '19', 'unknown connection(s)' ] }[0m
+23 Jan 15:14:42 - MODE: beagleslackbot1 sets mode: +i
+23 Jan 15:14:42 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+23 Jan 15:14:43 - SEND: NICK beagleslackbot
+23 Jan 15:14:43 - SEND: JOIN #beagle-gsoc
+23 Jan 15:14:44 - SEND: JOIN #beagle-mentors
+23 Jan 15:14:44 - SEND: JOIN #beagle
+23 Jan 15:14:45 - SEND: JOIN #beagle-support
+23 Jan 15:14:45 - SEND: JOIN #beagle-bonescript
+23 Jan 15:14:48 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+23 Jan 15:14:48 - SEND: NICK beagleslackbot2
+23 Jan 15:14:50 - NICK: beagleslackbot1 changes nick to beagleslackbot2
+23 Jan 15:17:09 - SEND: PONG livingstone.freenode.net
+23 Jan 15:19:45 - SEND: PONG livingstone.freenode.net
+23 Jan 15:20:00 - QUIT: dgerlach!~dgerlach@192.91.101.32 Remote host closed the connection
+23 Jan 15:22:21 - SEND: PONG livingstone.freenode.net
+23 Jan 15:24:57 - SEND: PONG livingstone.freenode.net
+23 Jan 15:27:33 - SEND: PONG livingstone.freenode.net
+23 Jan 15:27:58 - QUIT: penth!~rachel@pool-98-115-252-221.phlapa.fios.verizon.net Read error: Connection reset by peer
+23 Jan 15:30:09 - SEND: PONG livingstone.freenode.net
+23 Jan 15:32:45 - SEND: PONG livingstone.freenode.net
+23 Jan 15:35:21 - SEND: PONG livingstone.freenode.net
+23 Jan 15:37:57 - SEND: PONG livingstone.freenode.net
+23 Jan 15:38:46 - QUIT: bradfa!~andrew@clr-vpn01.kodakalaris.com Quit: rebooting
+23 Jan 15:40:33 - SEND: PONG livingstone.freenode.net
+23 Jan 15:43:09 - SEND: PONG livingstone.freenode.net
+23 Jan 15:45:45 - SEND: PONG livingstone.freenode.net
+23 Jan 15:48:21 - SEND: PONG livingstone.freenode.net
+23 Jan 15:50:57 - SEND: PONG livingstone.freenode.net
+23 Jan 15:53:33 - SEND: PONG livingstone.freenode.net
+23 Jan 15:56:09 - SEND: PONG livingstone.freenode.net
+23 Jan 15:56:46 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net 
+23 Jan 15:58:45 - SEND: PONG livingstone.freenode.net
+23 Jan 16:00:30 - QUIT: yegorich1!~yegorich@mail.visionsystems.de Read error: Connection reset by peer
+23 Jan 16:00:31 - QUIT: yegorich!~yegorich@mail.visionsystems.de Read error: Connection reset by peer
+23 Jan 16:01:21 - SEND: PONG livingstone.freenode.net
+23 Jan 16:03:57 - SEND: PONG livingstone.freenode.net
+23 Jan 16:06:33 - SEND: PONG livingstone.freenode.net
+23 Jan 16:09:09 - SEND: PONG livingstone.freenode.net
+23 Jan 16:11:45 - SEND: PONG livingstone.freenode.net
+23 Jan 16:14:21 - SEND: PONG livingstone.freenode.net
+23 Jan 16:16:57 - SEND: PONG livingstone.freenode.net
+23 Jan 16:19:33 - SEND: PONG livingstone.freenode.net
+23 Jan 16:22:09 - SEND: PONG livingstone.freenode.net
+23 Jan 16:24:45 - SEND: PONG livingstone.freenode.net
+23 Jan 16:26:23 - QUIT: zarzar!~zarzar@184.75.233.58 Ping timeout: 248 seconds
+23 Jan 16:27:21 - SEND: PONG livingstone.freenode.net
+23 Jan 16:29:57 - SEND: PONG livingstone.freenode.net
+23 Jan 16:32:33 - SEND: PONG livingstone.freenode.net
+23 Jan 16:34:28 - QUIT: LarreaMikel!~Thunderbi@158.227.0.241 Remote host closed the connection
+23 Jan 16:35:09 - SEND: PONG livingstone
