@@ -1,0 +1,66 @@
+[Tue Jan 23 2018 03:29:45 GMT+0000 (UTC)] INFO Connecting...
+23 Jan 03:29:46 - Sending irc NICK/USER
+23 Jan 03:29:46 - SEND: CAP REQ sasl
+23 Jan 03:29:46 - SEND: NICK beagleslackbot
+23 Jan 03:29:47 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+23 Jan 03:29:56 - SEND: AUTHENTICATE PLAIN
+23 Jan 03:29:56 - SEND: AUTHENTICATE YmVhZ2xlc2xhY2tib3QAYmVhZ2xlc2xhY2tib3QAR2FiJGI0MTIzeg==
+23 Jan 03:29:57 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+23 Jan 03:29:57 - SEND: CAP END
+23 Jan 03:29:58 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '126', 'unknown connection(s)' ] }[0m
+23 Jan 03:29:58 - MODE: beagleslackbot sets mode: +i
+23 Jan 03:29:58 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+23 Jan 03:29:58 - SEND: NICK beagleslackbot
+23 Jan 03:29:59 - SEND: JOIN #beagle-gsoc
+23 Jan 03:29:59 - SEND: JOIN #beagle-mentors
+23 Jan 03:30:00 - SEND: JOIN #beagle
+23 Jan 03:30:00 - SEND: JOIN #beagle-support
+23 Jan 03:30:01 - SEND: JOIN #beagle-bonescript
+23 Jan 03:30:03 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+23 Jan 03:30:03 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+23 Jan 03:30:04 - SEND: MODE #beagle-gsoc
+23 Jan 03:30:04 - SEND: MODE #beagle-mentors
+23 Jan 03:30:04 - MODE: #beagle-support sets mode: +ns
+23 Jan 03:30:04 - MODE: #beagle-support sets mode: -o
+23 Jan 03:30:04 - MODE: #beagle-support sets mode: +ct-s
+23 Jan 03:30:04 - MODE: #beagle-support sets mode: +o
+23 Jan 03:30:05 - SEND: MODE #beagle
+23 Jan 03:30:05 - SEND: MODE #beagle-support
+23 Jan 03:30:06 - SEND: MODE #beagle-bonescript
+23 Jan 03:32:08 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:34:23 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:36:39 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:37:19 - SEND: PRIVMSG #beagle :<jkridner> That says it is GHI.
+23 Jan 03:37:30 - QUIT: GenTooMan!~cyberman@2601:547:4380:2fe0:21f:d0ff:fe26:7344 Quit: Leaving
+23 Jan 03:39:30 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:41:45 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:44:01 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:46:18 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:46:51 - QUIT: Dunedan!~dunedan@unaffiliated/dunedan Ping timeout: 265 seconds
+23 Jan 03:48:33 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:48:45 - SEND: PRIVMSG #beagle-mentors :<wicks.cathy> @jkridner I collected inputs for ideas and will be adding those to the page tonight. They will need a bit of clean up. 
+23 Jan 03:50:49 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:52:09 - QUIT: rizzo!~RizzoTheR@p54B6BDA4.dip0.t-ipconnect.de Ping timeout: 240 seconds
+23 Jan 03:53:06 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:55:21 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:57:37 - SEND: PONG hitchcock.freenode.net
+23 Jan 03:59:54 - SEND: PONG hitchcock.freenode.net
