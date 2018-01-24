@@ -1,0 +1,81 @@
+[Wed Jan 24 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+24 Jan 00:00:01 - Sending irc NICK/USER
+24 Jan 00:00:02 - SEND: CAP REQ sasl
+24 Jan 00:00:02 - SEND: NICK beagleslackbot
+24 Jan 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+24 Jan 00:00:09 - [01;31mUnhandled message: { prefix: 'verne.freenode.net',
+  server: 'verne.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+24 Jan 00:00:10 - SEND: CAP END
+24 Jan 00:00:10 - [01;31mUnhandled message: { prefix: 'verne.freenode.net',
+  server: 'verne.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '26', 'unknown connection(s)' ] }[0m
+24 Jan 00:00:10 - MODE: beagleslackbot sets mode: +i
+24 Jan 00:00:10 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+24 Jan 00:00:11 - SEND: NICK beagleslackbot
+24 Jan 00:00:11 - SEND: JOIN #beagle-gsoc
+24 Jan 00:00:12 - SEND: JOIN #beagle-mentors
+24 Jan 00:00:12 - SEND: JOIN #beagle
+24 Jan 00:00:13 - SEND: JOIN #beagle-support
+24 Jan 00:00:13 - SEND: JOIN #beagle-bonescript
+24 Jan 00:00:16 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+24 Jan 00:00:16 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+24 Jan 00:00:17 - SEND: MODE #beagle-gsoc
+24 Jan 00:00:17 - SEND: MODE #beagle-mentors
+24 Jan 00:00:17 - MODE: #beagle-support sets mode: +ns
+24 Jan 00:00:17 - MODE: #beagle-support sets mode: -o
+24 Jan 00:00:17 - MODE: #beagle-support sets mode: +ct-s
+24 Jan 00:00:17 - MODE: #beagle-support sets mode: +o
+24 Jan 00:00:18 - SEND: MODE #beagle
+24 Jan 00:00:18 - SEND: MODE #beagle-support
+24 Jan 00:00:19 - SEND: MODE #beagle-bonescript
+24 Jan 00:02:48 - SEND: PONG verne.freenode.net
+24 Jan 00:03:45 - QUIT: vagrantc!~vagrant@unaffiliated/vagrantc Quit: leaving
+24 Jan 00:04:14 - QUIT: Retr0id!~Retr0id@unaffiliated/retr0id Ping timeout: 268 seconds
+24 Jan 00:05:08 - SEND: PONG verne.freenode.net
+24 Jan 00:07:28 - SEND: PONG verne.freenode.net
+24 Jan 00:08:34 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 256 seconds
+24 Jan 00:09:48 - SEND: PONG verne.freenode.net
+24 Jan 00:12:08 - SEND: PONG verne.freenode.net
+24 Jan 00:14:28 - SEND: PONG verne.freenode.net
+24 Jan 00:16:48 - SEND: PONG verne.freenode.net
+24 Jan 00:19:08 - SEND: PONG verne.freenode.net
+24 Jan 00:21:28 - SEND: PONG verne.freenode.net
+24 Jan 00:23:48 - SEND: PONG verne.freenode.net
+24 Jan 00:25:48 - QUIT: chomwitt!~chomwitt@2a02:587:dc08:a00:59a3:e2de:3ad7:1ade Ping timeout: 246 seconds
+24 Jan 00:26:08 - SEND: PONG verne.freenode.net
+24 Jan 00:28:28 - SEND: PONG verne.freenode.net
+24 Jan 00:30:48 - SEND: PONG verne.freenode.net
+24 Jan 00:33:08 - SEND: PONG verne.freenode.net
+24 Jan 00:35:28 - SEND: PONG verne.freenode.net
+24 Jan 00:37:48 - SEND: PONG verne.freenode.net
+24 Jan 00:40:08 - SEND: PONG verne.freenode.net
+24 Jan 00:42:28 - SEND: PONG verne.freenode.net
+24 Jan 00:44:48 - SEND: PONG verne.freenode.net
+24 Jan 00:47:08 - SEND: PONG verne.freenode.net
+24 Jan 00:49:28 - SEND: PONG verne.freenode.net
+24 Jan 00:51:48 - SEND: PONG verne.freenode.net
+24 Jan 00:52:54 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Remote host closed the connection
+24 Jan 00:53:03 - QUIT: tonokip!~quassel@24-159-82-190.static.jcsn.tn.charter.com Ping timeout: 248 seconds
+24 Jan 00:54:08 - SEND: PONG verne.freenode.net
+24 Jan 00:55:54 - QUIT: comptroller!~comptroll@47-213-225-245.paolcmtc01.res.dyn.suddenlink.net Excess Flood
+24 Jan 00:56:28 - SEND: PONG verne.freenode.net
+24 Jan 00:58:00 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Ping timeout: 264 seconds
+24 Jan 00:58:48 - SEND: PONG verne.freenode.net
+24 Jan 01:01:08 - SEND: PONG verne.freenode.net
+24 Jan 01:03:28 - SEND
