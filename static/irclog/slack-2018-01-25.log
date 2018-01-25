@@ -600,4 +600,83 @@
 25 Jan 18:30:29 - SEND: PONG hobana.freenode.net
 25 Jan 18:32:49 - SEND: PONG hobana.freenode.net
 25 Jan 18:35:09 - SEND: PONG hobana.freenode.net
-25 Jan 18:37:29 - SEND: PONG hobana.freenode.n
+25 Jan 18:37:29 - SEND: PONG hobana.freenode.net
+25 Jan 18:39:49 - SEND: PONG hobana.freenode.net
+25 Jan 18:42:09 - SEND: PONG hobana.freenode.net
+25 Jan 18:42:45 - QUIT: citylight2!~me@bzq-84-111-152-17.red.bezeqint.net Ping timeout: 268 seconds
+25 Jan 18:44:29 - SEND: PONG hobana.freenode.net
+25 Jan 18:46:49 - SEND: PONG hobana.freenode.net
+25 Jan 18:47:55 - QUIT: rthille-ciena!~rthille@c-67-164-62-81.hsd1.ca.comcast.net Quit: Leaving.
+25 Jan 18:49:09 - SEND: PONG hobana.freenode.net
+25 Jan 18:51:29 - SEND: PONG hobana.freenode.net
+25 Jan 18:53:49 - SEND: PONG hobana.freenode.net
+25 Jan 18:54:27 - QUIT: krish-iyer!uid217852@gateway/web/irccloud.com/x-ztnlekfogergsvfb Quit: Connection closed for inactivity
+25 Jan 18:55:05 - QUIT: elcrcp!b0e91dd5@gateway/web/freenode/ip.176.233.29.213 Ping timeout: 260 seconds
+25 Jan 18:56:09 - SEND: PONG hobana.freenode.net
+25 Jan 18:58:29 - SEND: PONG hobana.freenode.net
+25 Jan 18:59:07 - QUIT: ferdna!~ferdna@68-73-71-246.lightspeed.elpstx.sbcglobal.net Quit: Leaving
+25 Jan 19:00:49 - SEND: PONG hobana.freenode.net
+25 Jan 19:03:09 - SEND: PONG hobana.freenode.net
+25 Jan 19:05:29 - SEND: PONG hobana.freenode.net
+25 Jan 19:07:49 - SEND: PONG hobana.freenode.net
+25 Jan 19:10:09 - SEND: PONG hobana.freenode.net
+25 Jan 19:11:35 - QUIT: c10ud!~c10ud@emesene/dictator/c10ud Ping timeout: 265 seconds
+25 Jan 19:12:29 - SEND: PONG hobana.freenode.net
+25 Jan 19:14:49 - SEND: PONG hobana.freenode.net
+25 Jan 19:17:09 - SEND: PONG hobana.freenode.net
+25 Jan 19:19:29 - SEND: PONG hobana.freenode.net
+25 Jan 19:21:49 - SEND: PONG hobana.freenode.net
+25 Jan 19:23:18 - QUIT: nerienna!~nerienna@p5498ECA2.dip0.t-ipconnect.de Remote host closed the connection
+25 Jan 19:24:09 - SEND: PONG hobana.freenode.net
+25 Jan 19:24:11 - QUIT: onio!~onio@2a00:23c5:7a0e:5900:1df1:5f0b:9fbf:2293 Ping timeout: 240 seconds
+25 Jan 19:26:29 - SEND: PONG hobana.freenode.net
+25 Jan 19:28:49 - SEND: PONG hobana.freenode.net
+25 Jan 19:29:13 - GOT NOTICE from the server: "Server Terminating. tomaw"
+25 Jan 19:29:13 - Connection got "end" event
+25 Jan 19:29:13 - Connection got "close" event
+25 Jan 19:29:13 - Disconnected: reconnecting
+25 Jan 19:29:13 - Waiting 2000ms before retrying
+25 Jan 19:29:15 - Sending irc NICK/USER
+25 Jan 19:29:15 - SEND: CAP REQ sasl
+25 Jan 19:29:15 - SEND: NICK beagleslackbot
+25 Jan 19:29:16 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Jan 19:29:26 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+25 Jan 19:29:26 - SEND: CAP END
+25 Jan 19:29:26 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '25', 'unknown connection(s)' ] }[0m
+25 Jan 19:29:26 - MODE: beagleslackbot sets mode: +i
+25 Jan 19:29:27 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+25 Jan 19:29:27 - SEND: NICK beagleslackbot
+25 Jan 19:29:28 - SEND: JOIN #beagle
+25 Jan 19:29:28 - SEND: JOIN #beagle-gsoc
+25 Jan 19:29:29 - SEND: JOIN #beagle-mentors
+25 Jan 19:29:29 - SEND: JOIN #beagle-support
+25 Jan 19:29:30 - SEND: JOIN #beagle-bonescript
+25 Jan 19:29:30 - SEND: JOIN #beagle-pro
+25 Jan 19:29:33 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+25 Jan 19:29:33 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+25 Jan 19:29:34 - SEND: MODE #beagle
+25 Jan 19:29:34 - SEND: MODE #beagle-gsoc
+25 Jan 19:29:35 - SEND: MODE #beagle-mentors
+25 Jan 19:29:35 - SEND: MODE #beagle-support
+25 Jan 19:29:36 - SEND: MODE #beagle-bonescript
+25 Jan 19:29:36 - SEND: MODE #beagle-pro
+25 Jan 19:31:20 - QUIT: ferdna!~ferdna@68-73-71-246.lightspeed.elpstx.sbcglobal.net Quit: Leavi
