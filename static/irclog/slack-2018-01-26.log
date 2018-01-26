@@ -1,0 +1,81 @@
+[Fri Jan 26 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+26 Jan 00:00:02 - Sending irc NICK/USER
+26 Jan 00:00:02 - SEND: CAP REQ sasl
+26 Jan 00:00:03 - SEND: NICK beagleslackbot
+26 Jan 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+26 Jan 00:00:12 - SEND: NICK beagleslackbot1
+26 Jan 00:00:13 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+26 Jan 00:00:13 - SEND: CAP END
+26 Jan 00:00:13 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '14', 'unknown connection(s)' ] }[0m
+26 Jan 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+26 Jan 00:00:14 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+26 Jan 00:00:14 - SEND: NICK beagleslackbot
+26 Jan 00:00:15 - SEND: JOIN #beagle
+26 Jan 00:00:15 - SEND: JOIN #beagle-gsoc
+26 Jan 00:00:16 - SEND: JOIN #beagle-mentors
+26 Jan 00:00:16 - SEND: JOIN #beagle-support
+26 Jan 00:00:17 - SEND: JOIN #beagle-bonescript
+26 Jan 00:00:17 - SEND: JOIN #beagle-pro
+26 Jan 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+26 Jan 00:00:20 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+26 Jan 00:00:20 - SEND: MODE #beagle
+26 Jan 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+26 Jan 00:00:20 - SEND: MODE #beagle-gsoc
+26 Jan 00:00:20 - MODE: #beagle-bonescript sets mode: +ns
+26 Jan 00:00:21 - MODE: #beagle-bonescript sets mode: -o
+26 Jan 00:00:21 - MODE: #beagle-bonescript sets mode: +ct-s
+26 Jan 00:00:21 - MODE: #beagle-bonescript sets mode: +o
+26 Jan 00:00:21 - SEND: MODE #beagle-mentors
+26 Jan 00:00:21 - SEND: MODE #beagle-support
+26 Jan 00:00:22 - SEND: MODE #beagle-bonescript
+26 Jan 00:00:22 - SEND: MODE #beagle-pro
+26 Jan 00:02:51 - SEND: PONG weber.freenode.net
+26 Jan 00:05:00 - SEND: PONG weber.freenode.net
+26 Jan 00:07:08 - SEND: PONG weber.freenode.net
+26 Jan 00:07:18 - QUIT: rthille-ciena!~rthille@67.59.199.241 Ping timeout: 240 seconds
+26 Jan 00:09:15 - SEND: PONG weber.freenode.net
+26 Jan 00:09:36 - MODE: #beagle sets mode: +o
+26 Jan 00:09:37 - MODE: #beagle-mentors sets mode: +o
+26 Jan 00:11:24 - SEND: PONG weber.freenode.net
+26 Jan 00:13:32 - SEND: PONG weber.freenode.net
+26 Jan 00:15:39 - SEND: PONG weber.freenode.net
+26 Jan 00:17:48 - SEND: PONG weber.freenode.net
+26 Jan 00:19:56 - SEND: PONG weber.freenode.net
+26 Jan 00:22:03 - SEND: PONG weber.freenode.net
+26 Jan 00:22:52 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Remote host closed the connection
+26 Jan 00:23:18 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 240 seconds
+26 Jan 00:24:12 - SEND: PONG weber.freenode.net
+26 Jan 00:26:20 - SEND: PONG weber.freenode.net
+26 Jan 00:28:24 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Ping timeout: 252 seconds
+26 Jan 00:28:27 - SEND: PONG weber.freenode.net
+26 Jan 00:30:10 - QUIT: chomwitt!~chomwitt@2a02:587:dc08:a00:c854:3cb6:f417:7dd1 Ping timeout: 256 seconds
+26 Jan 00:30:35 - SEND: PONG weber.freenode.net
+26 Jan 00:31:40 - QUIT: KimK!~KimK@2001:579:d00c:800:44de:a31a:53ab:a380 Remote host closed the connection
+26 Jan 00:32:44 - SEND: PONG weber.freenode.net
+26 Jan 00:34:52 - SEND: PONG weber.freenode.net
+26 Jan 00:36:59 - SEND: PONG weber.freenode.net
+26 Jan 00:39:08 - SEND: PONG weber.freenode.net
+26 Jan 00:41:16 - SEND: PONG weber.freenode.net
+26 Jan 00:43:23 - SEND: PONG weber.freenode.net
+26 Jan 00:45:32 - SEND: PONG weber.freenode.net
+26 Jan 00:46:03 - QUIT: NishanthMenon!~nmenon@unaffiliated/nishanthmenon Quit: Am I a turtle?
+26 Jan 00:47:40 - SEND: PONG weber.freenod
