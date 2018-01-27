@@ -1,0 +1,84 @@
+[Sat Jan 27 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+27 Jan 00:00:01 - Sending irc NICK/USER
+27 Jan 00:00:02 - SEND: CAP REQ sasl
+27 Jan 00:00:02 - SEND: NICK beagleslackbot
+27 Jan 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+27 Jan 00:00:11 - SEND: NICK beagleslackbot1
+27 Jan 00:00:12 - [01;31mUnhandled message: { prefix: 'niven.freenode.net',
+  server: 'niven.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+27 Jan 00:00:12 - SEND: CAP END
+27 Jan 00:00:12 - [01;31mUnhandled message: { prefix: 'niven.freenode.net',
+  server: 'niven.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '27', 'unknown connection(s)' ] }[0m
+27 Jan 00:00:12 - MODE: beagleslackbot1 sets mode: +i
+27 Jan 00:00:13 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+27 Jan 00:00:13 - SEND: NICK beagleslackbot
+27 Jan 00:00:14 - SEND: JOIN #beagle
+27 Jan 00:00:14 - SEND: JOIN #beagle-gsoc
+27 Jan 00:00:15 - SEND: JOIN #beagle-mentors
+27 Jan 00:00:15 - SEND: JOIN #beagle-support
+27 Jan 00:00:16 - SEND: JOIN #beagle-bonescript
+27 Jan 00:00:16 - SEND: JOIN #beagle-pro
+27 Jan 00:00:18 - NICK: beagleslackbot1 changes nick to beagleslackbot
+27 Jan 00:00:18 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+27 Jan 00:00:18 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+27 Jan 00:00:19 - SEND: MODE #beagle
+27 Jan 00:00:19 - SEND: MODE #beagle-gsoc
+27 Jan 00:00:19 - MODE: #beagle-bonescript sets mode: +ns
+27 Jan 00:00:19 - MODE: #beagle-bonescript sets mode: -o
+27 Jan 00:00:19 - MODE: #beagle-bonescript sets mode: +ct-s
+27 Jan 00:00:19 - MODE: #beagle-bonescript sets mode: +o
+27 Jan 00:00:20 - SEND: MODE #beagle-mentors
+27 Jan 00:00:20 - SEND: MODE #beagle-support
+27 Jan 00:00:21 - SEND: MODE #beagle-bonescript
+27 Jan 00:00:21 - SEND: MODE #beagle-pro
+27 Jan 00:02:39 - SEND: PONG niven.freenode.net
+27 Jan 00:04:14 - SEND: PRIVMSG #beagle-gsoc :<jkridner> kiran4399: I wasn’t so much saying you mentor as to help find mentors. 
+27 Jan 00:06:39 - SEND: PONG niven.freenode.net
+27 Jan 00:09:09 - SEND: PONG niven.freenode.net
+27 Jan 00:11:39 - SEND: PONG niven.freenode.net
+27 Jan 00:14:09 - SEND: PONG niven.freenode.net
+27 Jan 00:16:39 - SEND: PONG niven.freenode.net
+27 Jan 00:19:09 - SEND: PONG niven.freenode.net
+27 Jan 00:21:39 - SEND: PONG niven.freenode.net
+27 Jan 00:24:09 - SEND: PONG niven.freenode.net
+27 Jan 00:26:39 - SEND: PONG niven.freenode.net
+27 Jan 00:29:09 - SEND: PONG niven.freenode.net
+27 Jan 00:31:39 - SEND: PONG niven.freenode.net
+27 Jan 00:34:09 - SEND: PONG niven.freenode.net
+27 Jan 00:36:39 - SEND: PONG niven.freenode.net
+27 Jan 00:39:09 - SEND: PONG niven.freenode.net
+27 Jan 00:40:33 - QUIT: jbdatko!~jbdatko@fsf/member/jbdatko Quit: ZNC - http://znc.in
+27 Jan 00:41:39 - SEND: PONG niven.freenode.net
+27 Jan 00:43:44 - QUIT: jbdatko!~jbdatko@ip-65-183-76-97.rev.frii.com Changing host
+27 Jan 00:44:09 - SEND: PONG niven.freenode.net
+27 Jan 00:46:39 - SEND: PONG niven.freenode.net
+27 Jan 00:49:09 - SEND: PONG niven.freenode.net
+27 Jan 00:51:39 - SEND: PONG niven.freenode.net
+27 Jan 00:54:09 - SEND: PONG niven.freenode.net
+27 Jan 00:56:39 - SEND: PONG niven.freenode.net
+27 Jan 00:59:09 - SEND: PONG niven.freenode.net
+27 Jan 01:01:39 - SEND: PONG niven.freenode.net
+27 Jan 01:02:42 - QUIT: NishanthMenon!~nmenon@192.91.101.30 Changing host
+27 Jan 01:04:09 - SEND: PONG niven.freenode.net
+27 Jan 01:04:21 - QUIT: saile!~saile@2800:200:e640:8c2:f5cb:928b:1509:a793 Quit: Leaving
+27 Jan 01:06:39 - SEND: PONG niven.freenode.net
+27 Jan 01:09:09 - SEND: PONG niven.freenode.net
+27 Jan 01:11:39 - SEND: PONG niven.freenode.net
+27 Jan 01:14:09 - SEND: PONG niv
