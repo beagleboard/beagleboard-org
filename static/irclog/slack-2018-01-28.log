@@ -1,0 +1,84 @@
+[Sun Jan 28 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+28 Jan 00:00:02 - Sending irc NICK/USER
+28 Jan 00:00:02 - SEND: CAP REQ sasl
+28 Jan 00:00:02 - SEND: NICK beagleslackbot
+28 Jan 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+28 Jan 00:00:11 - SEND: NICK beagleslackbot1
+28 Jan 00:00:12 - [01;31mUnhandled message: { prefix: 'hobana.freenode.net',
+  server: 'hobana.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+28 Jan 00:00:13 - SEND: CAP END
+28 Jan 00:00:13 - [01;31mUnhandled message: { prefix: 'hobana.freenode.net',
+  server: 'hobana.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '23', 'unknown connection(s)' ] }[0m
+28 Jan 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+28 Jan 00:00:13 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+28 Jan 00:00:14 - SEND: NICK beagleslackbot
+28 Jan 00:00:14 - SEND: JOIN #beagle
+28 Jan 00:00:15 - SEND: JOIN #beagle-gsoc
+28 Jan 00:00:15 - SEND: JOIN #beagle-mentors
+28 Jan 00:00:16 - SEND: JOIN #beagle-support
+28 Jan 00:00:16 - SEND: JOIN #beagle-bonescript
+28 Jan 00:00:17 - SEND: JOIN #beagle-pro
+28 Jan 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+28 Jan 00:00:19 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+28 Jan 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+28 Jan 00:00:19 - SEND: MODE #beagle
+28 Jan 00:00:20 - SEND: MODE #beagle-gsoc
+28 Jan 00:00:20 - MODE: #beagle-bonescript sets mode: +ns
+28 Jan 00:00:20 - MODE: #beagle-bonescript sets mode: -o
+28 Jan 00:00:20 - MODE: #beagle-bonescript sets mode: +ct-s
+28 Jan 00:00:20 - MODE: #beagle-bonescript sets mode: +o
+28 Jan 00:00:20 - SEND: MODE #beagle-mentors
+28 Jan 00:00:21 - SEND: MODE #beagle-support
+28 Jan 00:00:21 - SEND: MODE #beagle-bonescript
+28 Jan 00:00:22 - SEND: MODE #beagle-pro
+28 Jan 00:02:44 - SEND: PONG hobana.freenode.net
+28 Jan 00:04:59 - SEND: PONG hobana.freenode.net
+28 Jan 00:07:15 - SEND: PONG hobana.freenode.net
+28 Jan 00:09:31 - SEND: PONG hobana.freenode.net
+28 Jan 00:11:14 - QUIT: onio1!~onio@2a00:23c5:7a0e:5900:b13c:45d5:4620:cf04 Quit: Leaving.
+28 Jan 00:11:14 - QUIT: ferdna!~ferdna@68-73-71-246.lightspeed.elpstx.sbcglobal.net Quit: Leaving
+28 Jan 00:11:47 - SEND: PONG hobana.freenode.net
+28 Jan 00:14:03 - SEND: PONG hobana.freenode.net
+28 Jan 00:16:19 - SEND: PONG hobana.freenode.net
+28 Jan 00:18:35 - SEND: PONG hobana.freenode.net
+28 Jan 00:20:51 - SEND: PONG hobana.freenode.net
+28 Jan 00:23:07 - SEND: PONG hobana.freenode.net
+28 Jan 00:25:23 - SEND: PONG hobana.freenode.net
+28 Jan 00:27:39 - SEND: PONG hobana.freenode.net
+28 Jan 00:29:55 - SEND: PONG hobana.freenode.net
+28 Jan 00:32:11 - SEND: PONG hobana.freenode.net
+28 Jan 00:34:27 - SEND: PONG hobana.freenode.net
+28 Jan 00:36:43 - SEND: PONG hobana.freenode.net
+28 Jan 00:38:59 - SEND: PONG hobana.freenode.net
+28 Jan 00:41:15 - SEND: PONG hobana.freenode.net
+28 Jan 00:43:22 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Ping timeout: 260 seconds
+28 Jan 00:43:31 - SEND: PONG hobana.freenode.net
+28 Jan 00:45:47 - SEND: PONG hobana.freenode.net
+28 Jan 00:48:03 - SEND: PONG hobana.freenode.net
+28 Jan 00:50:19 - SEND: PONG hobana.freenode.net
+28 Jan 00:52:35 - SEND: PONG hobana.freenode.net
+28 Jan 00:52:43 - QUIT: mythos!~mythos@unaffiliated/mythos Read error: Connection reset by peer
+28 Jan 00:54:51 - SEND: PONG hobana.freenode.net
+28 Jan 00:57:07 - SEND: PONG hobana.freenode.net
+28 Jan 00:59:23 - SEND: PONG hobana.freenode.net
+28 Jan 01:01:39 - SEND: PONG hobana.freenode.net
+28 Jan 01:03:55 - SEND: PONG hobana.freenode.net
+28 Jan 01:06:11 - SEND: PONG hobana.freenode.net
+28 Jan 01:08:27 - SEND: PONG hobana.fre
