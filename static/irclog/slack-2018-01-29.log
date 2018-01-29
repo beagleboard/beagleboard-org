@@ -1,0 +1,85 @@
+[Mon Jan 29 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+29 Jan 00:00:01 - Sending irc NICK/USER
+29 Jan 00:00:01 - SEND: CAP REQ sasl
+29 Jan 00:00:02 - SEND: NICK beagleslackbot
+29 Jan 00:00:02 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+29 Jan 00:00:11 - SEND: NICK beagleslackbot1
+29 Jan 00:00:12 - [01;31mUnhandled message: { prefix: 'hobana.freenode.net',
+  server: 'hobana.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+29 Jan 00:00:13 - SEND: CAP END
+29 Jan 00:00:13 - [01;31mUnhandled message: { prefix: 'hobana.freenode.net',
+  server: 'hobana.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '16', 'unknown connection(s)' ] }[0m
+29 Jan 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+29 Jan 00:00:13 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+29 Jan 00:00:14 - SEND: NICK beagleslackbot
+29 Jan 00:00:14 - SEND: JOIN #beagle
+29 Jan 00:00:15 - SEND: JOIN #beagle-gsoc
+29 Jan 00:00:15 - SEND: JOIN #beagle-mentors
+29 Jan 00:00:16 - SEND: JOIN #beagle-support
+29 Jan 00:00:16 - SEND: JOIN #beagle-bonescript
+29 Jan 00:00:17 - SEND: JOIN #beagle-pro
+29 Jan 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+29 Jan 00:00:19 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+29 Jan 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+29 Jan 00:00:19 - SEND: MODE #beagle
+29 Jan 00:00:20 - SEND: MODE #beagle-gsoc
+29 Jan 00:00:20 - SEND: MODE #beagle-mentors
+29 Jan 00:00:21 - SEND: MODE #beagle-support
+29 Jan 00:00:21 - SEND: MODE #beagle-bonescript
+29 Jan 00:00:22 - SEND: MODE #beagle-pro
+29 Jan 00:02:36 - SEND: PONG hobana.freenode.net
+29 Jan 00:04:52 - SEND: PONG hobana.freenode.net
+29 Jan 00:07:08 - SEND: PONG hobana.freenode.net
+29 Jan 00:09:24 - SEND: PONG hobana.freenode.net
+29 Jan 00:11:09 - QUIT: behanw!uid110099@gateway/web/irccloud.com/x-laexvfzljghgaxpi Quit: Connection closed for inactivity
+29 Jan 00:11:40 - SEND: PONG hobana.freenode.net
+29 Jan 00:13:56 - SEND: PONG hobana.freenode.net
+29 Jan 00:16:12 - SEND: PONG hobana.freenode.net
+29 Jan 00:18:28 - SEND: PONG hobana.freenode.net
+29 Jan 00:20:25 - QUIT: florian_kc!~florian_k@Maemo/community/contributor/florian Ping timeout: 256 seconds
+29 Jan 00:20:44 - SEND: PONG hobana.freenode.net
+29 Jan 00:23:00 - SEND: PONG hobana.freenode.net
+29 Jan 00:25:16 - SEND: PONG hobana.freenode.net
+29 Jan 00:27:32 - SEND: PONG hobana.freenode.net
+29 Jan 00:29:48 - SEND: PONG hobana.freenode.net
+29 Jan 00:32:04 - SEND: PONG hobana.freenode.net
+29 Jan 00:34:20 - SEND: PONG hobana.freenode.net
+29 Jan 00:34:49 - QUIT: thaytan!~thaytan@180-150-118-156.NBN.mel.aussiebb.net Excess Flood
+29 Jan 00:36:36 - SEND: PONG hobana.freenode.net
+29 Jan 00:38:52 - SEND: PONG hobana.freenode.net
+29 Jan 00:41:08 - SEND: PONG hobana.freenode.net
+29 Jan 00:43:24 - SEND: PONG hobana.freenode.net
+29 Jan 00:45:40 - SEND: PONG hobana.freenode.net
+29 Jan 00:47:56 - SEND: PONG hobana.freenode.net
+29 Jan 00:50:12 - SEND: PONG hobana.freenode.net
+29 Jan 00:52:28 - SEND: PONG hobana.freenode.net
+29 Jan 00:54:44 - SEND: PONG hobana.freenode.net
+29 Jan 00:57:00 - SEND: PONG hobana.freenode.net
+29 Jan 00:59:16 - SEND: PONG hobana.freenode.net
+29 Jan 01:01:32 - SEND: PONG hobana.freenode.net
+29 Jan 01:03:48 - SEND: PONG hobana.freenode.net
+29 Jan 01:06:04 - SEND: PONG hobana.freenode.net
+29 Jan 01:08:20 - SEND: PONG hobana.freenode.net
+29 Jan 01:10:36 - SEND: PONG hobana.freenode.net
+29 Jan 01:12:52 - SEND: PONG hobana.freenode.net
+29 Jan 01:15:08 - SEND: PONG hobana.freenode.net
+29 Jan 01:17:24 - SEND: PONG hobana.freenode.net
+29 Jan 01:19:40 - SEND: PONG hobana.freenode.net
+29 Jan 01:21:56 - SEND: PONG h
