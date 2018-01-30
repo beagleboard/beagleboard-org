@@ -1,0 +1,85 @@
+[Tue Jan 30 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+30 Jan 00:00:01 - Sending irc NICK/USER
+30 Jan 00:00:01 - SEND: CAP REQ sasl
+30 Jan 00:00:02 - SEND: NICK beagleslackbot
+30 Jan 00:00:02 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+30 Jan 00:00:11 - SEND: NICK beagleslackbot1
+30 Jan 00:00:12 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+30 Jan 00:00:13 - SEND: CAP END
+30 Jan 00:00:13 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '19', 'unknown connection(s)' ] }[0m
+30 Jan 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+30 Jan 00:00:13 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+30 Jan 00:00:14 - SEND: NICK beagleslackbot
+30 Jan 00:00:14 - SEND: JOIN #beagle
+30 Jan 00:00:15 - SEND: JOIN #beagle-gsoc
+30 Jan 00:00:15 - SEND: JOIN #beagle-mentors
+30 Jan 00:00:16 - SEND: JOIN #beagle-support
+30 Jan 00:00:16 - SEND: JOIN #beagle-bonescript
+30 Jan 00:00:17 - SEND: JOIN #beagle-pro
+30 Jan 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+30 Jan 00:00:19 - SEND: MODE #beagle
+30 Jan 00:00:19 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+30 Jan 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+30 Jan 00:00:20 - SEND: MODE #beagle-gsoc
+30 Jan 00:00:20 - SEND: MODE #beagle-mentors
+30 Jan 00:00:21 - SEND: MODE #beagle-support
+30 Jan 00:00:21 - SEND: MODE #beagle-bonescript
+30 Jan 00:00:22 - SEND: MODE #beagle-pro
+30 Jan 00:02:48 - SEND: PONG tolkien.freenode.net
+30 Jan 00:04:55 - SEND: PONG tolkien.freenode.net
+30 Jan 00:07:03 - SEND: PONG tolkien.freenode.net
+30 Jan 00:09:12 - SEND: PONG tolkien.freenode.net
+30 Jan 00:10:14 - QUIT: m_w!~Michael@173-22-246-196.client.mchsi.com Quit: Leaving
+30 Jan 00:11:19 - SEND: PONG tolkien.freenode.net
+30 Jan 00:13:27 - SEND: PONG tolkien.freenode.net
+30 Jan 00:15:36 - SEND: PONG tolkien.freenode.net
+30 Jan 00:17:43 - SEND: PONG tolkien.freenode.net
+30 Jan 00:19:51 - SEND: PONG tolkien.freenode.net
+30 Jan 00:21:59 - SEND: PONG tolkien.freenode.net
+30 Jan 00:24:08 - SEND: PONG tolkien.freenode.net
+30 Jan 00:26:15 - SEND: PONG tolkien.freenode.net
+30 Jan 00:28:23 - SEND: PONG tolkien.freenode.net
+30 Jan 00:30:32 - SEND: PONG tolkien.freenode.net
+30 Jan 00:32:39 - SEND: PONG tolkien.freenode.net
+30 Jan 00:34:47 - SEND: PONG tolkien.freenode.net
+30 Jan 00:36:56 - SEND: PONG tolkien.freenode.net
+30 Jan 00:39:03 - SEND: PONG tolkien.freenode.net
+30 Jan 00:41:11 - SEND: PONG tolkien.freenode.net
+30 Jan 00:43:20 - SEND: PONG tolkien.freenode.net
+30 Jan 00:45:27 - SEND: PONG tolkien.freenode.net
+30 Jan 00:47:35 - SEND: PONG tolkien.freenode.net
+30 Jan 00:49:44 - SEND: PONG tolkien.freenode.net
+30 Jan 00:51:51 - SEND: PONG tolkien.freenode.net
+30 Jan 00:53:59 - SEND: PONG tolkien.freenode.net
+30 Jan 00:55:59 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 240 seconds
+30 Jan 00:56:07 - SEND: PONG tolkien.freenode.net
+30 Jan 00:58:15 - SEND: PONG tolkien.freenode.net
+30 Jan 01:00:23 - SEND: PONG tolkien.freenode.net
+30 Jan 01:02:31 - SEND: PONG tolkien.freenode.net
+30 Jan 01:02:52 - QUIT: tonokip!~quassel@24-159-82-190.static.jcsn.tn.charter.com Ping timeout: 246 seconds
+30 Jan 01:04:39 - SEND: PONG tolkien.freenode.net
+30 Jan 01:06:47 - SEND: PONG tolkien.freenode.net
+30 Jan 01:08:55 - SEND: PONG tolkien.freenode.net
+30 Jan 01:11:04 - SEND: PONG tolkien.freenode.net
+30 Jan 01:13:11 - SEND: PONG tolkien.freenode.net
+30 Jan 01:15:19 - SEND: PONG tolkien.freenode.net
+30 Jan 01:17:28 - 
