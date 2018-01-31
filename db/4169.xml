@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1517433955196">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1517434777032">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,8 +12,8 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</http_browser>
-    <time type="date">27.01.2018 04:11:07 UTC</time>
-    <hopsession>127.0.0.igxw774xdu1v</hopsession>
+    <time type="date">31.01.2018 21:39:36 UTC</time>
+    <hopsession>127.0.0.4a2q1xqx1gtm</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
 &lt;div style=&quot;position:relative;&quot;&gt;
@@ -232,6 +232,32 @@ find all available hardware specifications such as:
 &lt;h3&gt;BeagleBone Blue Webinar with Autodesk part 2&lt;/h3&gt;
 &lt;p&gt;.&lt;/p&gt;
 --&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;iframe id=&quot;forum_embed&quot;
+  src=&quot;https://groups.google.com/forum/embed/?parenturl=https://beagleboard.org/pocket&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=forum/beagleboard#!categories/beagleboard/beaglebone-blue&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;
+  width=&quot;900&quot;
+  height=&quot;850&quot;&gt;
+&lt;/iframe&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var place = &apos;forum/beagleboard#!categories/beagleboard/beaglebone-blue&apos;;
+  var a = $(&apos;&lt;a&gt;&apos;, { href: window.location.href });
+  var params = a.prop(&apos;search&apos;).substr(1).split(&apos;&amp;&apos;)
+    .reduce((params, param) =&gt; {
+      let [ key, value ] = param.split(&apos;=&apos;);
+      params[key] = value ? decodeURIComponent(value.replace(/\+/g, &apos; &apos;)) : &apos;&apos;;
+      return params;
+    }, { });
+  if(typeof params[&apos;place&apos;] !== &apos;undefined&apos;) place = params[&apos;place&apos;];
+  document.getElementById(&apos;forum_embed&apos;).src =
+     &apos;https://groups.google.com/forum/embed/?&amp;parenturl=&apos; 
+     + encodeURIComponent(window.location.href)
+     + &apos;&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=&apos;
+     + place;
+&lt;/script&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
 
 
 
@@ -252,7 +278,7 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">254433.0</pvcount>
+    <pvcount type="float">254444.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <sessionreferrer>beagleboard.org</sessionreferrer>
     <initiallandingpage>/p</initiallandingpage>
