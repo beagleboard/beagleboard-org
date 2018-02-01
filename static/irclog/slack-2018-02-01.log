@@ -1,0 +1,86 @@
+[Thu Feb 01 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+1 Feb 00:00:01 - Sending irc NICK/USER
+1 Feb 00:00:02 - SEND: CAP REQ sasl
+1 Feb 00:00:02 - SEND: NICK beagleslackbot
+1 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+1 Feb 00:00:12 - SEND: NICK beagleslackbot1
+1 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+1 Feb 00:00:13 - SEND: CAP END
+1 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '16', 'unknown connection(s)' ] }[0m
+1 Feb 00:00:14 - MODE: beagleslackbot1 sets mode: +i
+1 Feb 00:00:14 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+1 Feb 00:00:14 - SEND: NICK beagleslackbot
+1 Feb 00:00:15 - SEND: JOIN #beagle
+1 Feb 00:00:15 - SEND: JOIN #beagle-gsoc
+1 Feb 00:00:16 - SEND: JOIN #beagle-mentors
+1 Feb 00:00:16 - SEND: JOIN #beagle-support
+1 Feb 00:00:17 - SEND: JOIN #beagle-bonescript
+1 Feb 00:00:17 - SEND: JOIN #beagle-pro
+1 Feb 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+1 Feb 00:00:19 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+1 Feb 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+1 Feb 00:00:20 - SEND: MODE #beagle
+1 Feb 00:00:20 - SEND: MODE #beagle-gsoc
+1 Feb 00:00:21 - SEND: MODE #beagle-mentors
+1 Feb 00:00:21 - SEND: MODE #beagle-support
+1 Feb 00:00:22 - SEND: MODE #beagle-bonescript
+1 Feb 00:00:22 - SEND: MODE #beagle-pro
+1 Feb 00:02:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:05:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:07:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:10:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:12:40 - SEND: PONG leguin.freenode.net
+1 Feb 00:15:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:16:10 - QUIT: rthille-ciena!~rthille@67.59.199.241 Quit: Leaving.
+1 Feb 00:16:42 - QUIT: rthille-ciena!~rthille@67.59.199.241 Client Quit
+1 Feb 00:17:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:20:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:22:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:22:47 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Quit: Ex-Chat
+1 Feb 00:23:57 - QUIT: vagrantc!~vagrant@unaffiliated/vagrantc Quit: leaving
+1 Feb 00:25:10 - SEND: PONG leguin.freenode.net
+1 Feb 00:27:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:30:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:32:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:35:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:37:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:40:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:42:20 - QUIT: russ!foobar@47.145.201.87 Ping timeout: 252 seconds
+1 Feb 00:42:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:43:01 - QUIT: NishanthMenon!~nmenon@unaffiliated/nishanthmenon Quit: Going!
+1 Feb 00:45:10 - SEND: PONG leguin.freenode.net
+1 Feb 00:47:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:50:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:52:39 - SEND: PONG leguin.freenode.net
+1 Feb 00:55:09 - SEND: PONG leguin.freenode.net
+1 Feb 00:57:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:00:09 - SEND: PONG leguin.freenode.net
+1 Feb 01:02:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:05:09 - SEND: PONG leguin.freenode.net
+1 Feb 01:07:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:10:09 - SEND: PONG leguin.freenode.net
+1 Feb 01:12:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:15:09 - SEND: PONG leguin.freenode.net
+1 Feb 01:17:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:20:09 - SEND: PONG leguin.freenode.net
+1 Feb 01:22:39 - SEND: PONG leguin.freenode.net
+1 Feb 01:25:09 - SEND: PONG leguin
