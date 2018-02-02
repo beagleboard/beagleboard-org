@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517594639778">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517595092320">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</http_browser>
-    <time type="date">02.02.2018 18:03:59 UTC</time>
+    <time type="date">02.02.2018 18:11:32 UTC</time>
     <hopsession>127.0.0.4a2q1xqx1gtm</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -53,14 +53,14 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;8cab7b77a3da697aabbbde883fd9172d93daee398f9c7b88a90bfb53dfea5f5e&lt;/span&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Stretch for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
+&lt;h3&gt;Stretch LXQT (with graphical desktop) for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.img.xz&quot;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.3-lxqt-armhf-2018-01-28-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;9.1&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-08-31&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.3&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-01-28&lt;/span&gt;
             &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
         &lt;/a&gt;
@@ -80,11 +80,7 @@
             more info
         &lt;/a&gt;
         -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.bmap&quot;&gt;
-            bmap
-        &lt;/a&gt;
-        -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;bc8292d97458987481d45da025ef9868b8ccf8477a72f11b541bf97d329a6d7e&lt;/span&gt;
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;ace523522050e1848b1b69678170d071028eb8670c72398eee1f7719174364d2&lt;/span&gt;
     &lt;/li&gt;    
 &lt;/ul&gt;
 &lt;h3&gt;Jessie for &lt;a href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt; via microSD card&lt;/h3&gt;
@@ -800,7 +796,7 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">1037874.0</pvcount>
+    <pvcount type="float">1037884.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
