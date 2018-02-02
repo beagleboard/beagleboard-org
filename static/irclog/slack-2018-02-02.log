@@ -1,0 +1,80 @@
+[Fri Feb 02 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+2 Feb 00:00:02 - Sending irc NICK/USER
+2 Feb 00:00:02 - SEND: CAP REQ sasl
+2 Feb 00:00:02 - SEND: NICK beagleslackbot
+2 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+2 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'cherryh.freenode.net',
+  server: 'cherryh.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+2 Feb 00:00:11 - SEND: CAP END
+2 Feb 00:00:11 - [01;31mUnhandled message: { prefix: 'cherryh.freenode.net',
+  server: 'cherryh.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '30', 'unknown connection(s)' ] }[0m
+2 Feb 00:00:11 - MODE: beagleslackbot sets mode: +i
+2 Feb 00:00:11 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+2 Feb 00:00:12 - SEND: NICK beagleslackbot
+2 Feb 00:00:12 - SEND: JOIN #beagle
+2 Feb 00:00:13 - SEND: JOIN #beagle-gsoc
+2 Feb 00:00:13 - SEND: JOIN #beagle-mentors
+2 Feb 00:00:14 - SEND: JOIN #beagle-support
+2 Feb 00:00:14 - SEND: JOIN #beagle-bonescript
+2 Feb 00:00:15 - SEND: JOIN #beagle-pro
+2 Feb 00:00:17 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+2 Feb 00:00:17 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+2 Feb 00:00:18 - SEND: MODE #beagle
+2 Feb 00:00:18 - SEND: MODE #beagle-gsoc
+2 Feb 00:00:18 - MODE: #beagle-bonescript sets mode: +ns
+2 Feb 00:00:18 - MODE: #beagle-bonescript sets mode: -o
+2 Feb 00:00:18 - MODE: #beagle-bonescript sets mode: +ct-s
+2 Feb 00:00:18 - MODE: #beagle-bonescript sets mode: +o
+2 Feb 00:00:19 - SEND: MODE #beagle-mentors
+2 Feb 00:00:19 - SEND: MODE #beagle-support
+2 Feb 00:00:20 - SEND: MODE #beagle-bonescript
+2 Feb 00:00:20 - SEND: MODE #beagle-pro
+2 Feb 00:01:11 - QUIT: vagrantc!~vagrant@unaffiliated/vagrantc Quit: leaving
+2 Feb 00:02:39 - SEND: PONG cherryh.freenode.net
+2 Feb 00:05:07 - SEND: PONG cherryh.freenode.net
+2 Feb 00:07:36 - SEND: PONG cherryh.freenode.net
+2 Feb 00:08:41 - QUIT: udit!uid221984@gateway/web/irccloud.com/x-sorjprpylbzocqoe Quit: Connection closed for inactivity
+2 Feb 00:08:41 - QUIT: madaari_!uid221984@gateway/web/irccloud.com/x-vbxfaumswhjhukdd Quit: Connection closed for inactivity
+2 Feb 00:10:03 - SEND: PONG cherryh.freenode.net
+2 Feb 00:12:31 - SEND: PONG cherryh.freenode.net
+2 Feb 00:14:59 - SEND: PONG cherryh.freenode.net
+2 Feb 00:17:27 - SEND: PONG cherryh.freenode.net
+2 Feb 00:19:55 - SEND: PONG cherryh.freenode.net
+2 Feb 00:22:23 - SEND: PONG cherryh.freenode.net
+2 Feb 00:24:51 - SEND: PONG cherryh.freenode.net
+2 Feb 00:27:20 - SEND: PONG cherryh.freenode.net
+2 Feb 00:29:47 - SEND: PONG cherryh.freenode.net
+2 Feb 00:30:33 - QUIT: chomwitt!~chomwitt@2a02:587:dc08:a00:f8dd:bc1a:365:4829 Quit: WeeChat 1.0.1
+2 Feb 00:30:58 - QUIT: kurtam01!95a46f0d@gateway/web/freenode/ip.149.164.111.13 Quit: Page closed
+2 Feb 00:32:15 - SEND: PONG cherryh.freenode.net
+2 Feb 00:33:51 - QUIT: zarzar!~zarzar@vpn1.noregon.com Read error: Connection reset by peer
+2 Feb 00:34:43 - SEND: PONG cherryh.freenode.net
+2 Feb 00:37:11 - SEND: PONG cherryh.freenode.net
+2 Feb 00:39:39 - SEND: PONG cherryh.freenode.net
+2 Feb 00:42:07 - SEND: PONG cherryh.freenode.net
+2 Feb 00:44:35 - SEND: PONG cherryh.freenode.net
+2 Feb 00:47:04 - SEND: PONG cherryh.freenode.net
+2 Feb 00:49:31 - SEND: PONG cherryh.freenode.net
+2 Feb 00:51:13 - QUIT: mikeiniowa!~py@169.48.236.23.bc.googleusercontent.com Read error: Connection reset by peer
+2 Feb 00:51:59 - SEND: PONG cherryh.freenode.net
+2 Feb 00:54:27 - SEND: PONG cherryh.freenode.net
+2 Feb 00:55:49 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Read error: Connection reset by peer
+2 Feb 00:56:55 - SEND: PONG cherryh.freenode.net
+2 Feb 00:59:23 - SEND: PONG
