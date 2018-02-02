@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517598870331">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517599295219">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</http_browser>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -149,10 +149,6 @@
         -
         &lt;a itemprop=&quot;url&quot; href=&quot;https://beagleboard.org/project/debian&quot;&gt;
             more info
-        &lt;/a&gt;
-        -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bbxm-debian-8.6-lxqt-xm-4gb-armhf-2016-11-06-4gb.bmap&quot;&gt;
-            bmap
         &lt;/a&gt;
         -
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;46af1a570e1e2ec9e7b0e652079e9ee9830f95a8941625a24d71c3a0b3c4c965&lt;/span&gt;
@@ -795,12 +791,12 @@
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <pseudoparent idref="0" prototyperef="Root"/>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">02.02.2018 19:14:30 UTC</time>
+    <time type="date">02.02.2018 19:21:35 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <pvcount type="float">1037928.0</pvcount>
+    <pvcount type="float">1037941.0</pvcount>
   </hopobject>
 </xmlroot>
