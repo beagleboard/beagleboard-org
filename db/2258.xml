@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517593873708">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1517594242630">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</http_browser>
-    <time type="date">02.02.2018 17:51:13 UTC</time>
+    <time type="date">02.02.2018 17:57:22 UTC</time>
     <hopsession>127.0.0.4a2q1xqx1gtm</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -213,37 +213,6 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;be1eac7a5e526930155520215329a6c39071b82199c0745c300e68b7e6c7180b&lt;/span&gt;
     &lt;/li&gt;    
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.img.xz&quot;
-        &gt;
-            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;9.1&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-08-31&lt;/span&gt;
-            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
-            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
-        &lt;/a&gt;
-        image for
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
-        -
-        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
-            more info
-        &lt;/a&gt;
-        -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.bmap&quot;&gt;
-            bmap
-        &lt;/a&gt;
-        -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;bc8292d97458987481d45da025ef9868b8ccf8477a72f11b541bf97d329a6d7e&lt;/span&gt;
-    &lt;/li&gt;
-    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.1-iot-armhf-2017-09-21-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
@@ -275,6 +244,37 @@
         -
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;14621ea7a23bcadff273f93eda657d05bbb9b63f2b73384958b7f371cd039174&lt;/span&gt;
     &lt;/li&gt;    
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.1&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2017-08-31&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.1-lxqt-armhf-2017-08-31-4gb.bmap&quot;&gt;
+            bmap
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;bc8292d97458987481d45da025ef9868b8ccf8477a72f11b541bf97d329a6d7e&lt;/span&gt;
+    &lt;/li&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.7-lxqt-4gb-armhf-2017-03-19-4gb.img.xz&quot;
         &gt;
@@ -338,28 +338,6 @@
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;f709035e9d9470fa0aa9b778e4d369ba914f5acc7a5fecd6713facbe52cc9285&lt;/span&gt;
     &lt;/li&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
-        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-seeed-iot-armhf-2016-11-06-4gb.img.xz&quot;
-        &gt;
-            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
-            &lt;span itemprop=&quot;version&quot;&gt;8.6&lt;/span&gt;
-            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-11-06&lt;/span&gt;
-            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
-            &lt;span itemprop=&quot;featureList&quot;&gt;SeeedStudio IoT&lt;/span&gt;
-        &lt;/a&gt;
-        image for
-        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;
-        -
-        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
-            more info
-        &lt;/a&gt;
-        -
-        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-seeed-iot-armhf-2016-11-06-4gb.bmap&quot;&gt;
-            bmap
-        &lt;/a&gt;
-        -
-        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;48582b8a1a134679ff324eacc1e0b4af6f2cdabfb56dafb6b932fe11129b404f&lt;/span&gt;
-    &lt;/li&gt;    
-    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-iot-armhf-2016-12-09-4gb.img.xz&quot;
         &gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
@@ -389,7 +367,29 @@
         &lt;/a&gt;
         -
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;1e164ee34d77d87d5ceceb36024c22657e74430bd67a1800c74d257d721a8530&lt;/span&gt;
-    &lt;/li&gt;    
+    &lt;/li&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-seeed-iot-armhf-2016-11-06-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;8.6&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2016-11-06&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;SeeedStudio IoT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;bmapUrl&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-seeed-iot-armhf-2016-11-06-4gb.bmap&quot;&gt;
+            bmap
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;48582b8a1a134679ff324eacc1e0b4af6f2cdabfb56dafb6b932fe11129b404f&lt;/span&gt;
+    &lt;/li&gt;
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-8.6-lxqt-4gb-armhf-2016-11-06-4gb.img.xz&quot;
         &gt;
@@ -804,7 +804,7 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">1037858.0</pvcount>
+    <pvcount type="float">1037865.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
