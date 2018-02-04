@@ -1,0 +1,85 @@
+[Sun Feb 04 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+4 Feb 00:00:01 - Sending irc NICK/USER
+4 Feb 00:00:02 - SEND: CAP REQ sasl
+4 Feb 00:00:02 - SEND: NICK beagleslackbot
+4 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+4 Feb 00:00:11 - SEND: NICK beagleslackbot1
+4 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+4 Feb 00:00:13 - SEND: CAP END
+4 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '119', 'unknown connection(s)' ] }[0m
+4 Feb 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+4 Feb 00:00:13 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+4 Feb 00:00:14 - SEND: NICK beagleslackbot
+4 Feb 00:00:14 - SEND: JOIN #beagle
+4 Feb 00:00:15 - SEND: JOIN #beagle-gsoc
+4 Feb 00:00:15 - SEND: JOIN #beagle-mentors
+4 Feb 00:00:16 - SEND: JOIN #beagle-support
+4 Feb 00:00:16 - SEND: JOIN #beagle-bonescript
+4 Feb 00:00:17 - SEND: JOIN #beagle-pro
+4 Feb 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot
+4 Feb 00:00:19 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+4 Feb 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+4 Feb 00:00:19 - SEND: MODE #beagle
+4 Feb 00:00:20 - SEND: MODE #beagle-gsoc
+4 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +ns
+4 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: -o
+4 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +ct-s
+4 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +o
+4 Feb 00:00:20 - SEND: MODE #beagle-mentors
+4 Feb 00:00:21 - SEND: MODE #beagle-support
+4 Feb 00:00:21 - SEND: MODE #beagle-bonescript
+4 Feb 00:00:22 - SEND: MODE #beagle-pro
+4 Feb 00:01:54 - QUIT: flebourse!4d88571f@gateway/web/freenode/ip.77.136.87.31 Quit: Page closed
+4 Feb 00:02:40 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:04:56 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:07:12 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:09:28 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:11:44 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:14:00 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:16:16 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:18:32 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:18:49 - QUIT: florian_kc!~florian_k@Maemo/community/contributor/florian Ping timeout: 276 seconds
+4 Feb 00:20:48 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:23:04 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:25:20 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:27:36 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:29:52 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:32:08 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:34:24 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:36:40 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:38:56 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:41:12 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:43:28 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:45:44 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:48:00 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:50:16 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:52:32 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:54:48 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:57:04 - SEND: PONG hitchcock.freenode.net
+4 Feb 00:59:20 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:01:36 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:03:52 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:06:08 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:08:24 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:10:40 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:12:56 - SEND: PONG hitchcock.freenode.net
+4 Feb 01:15:12 - 
