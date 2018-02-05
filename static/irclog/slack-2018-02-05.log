@@ -1,0 +1,85 @@
+[Mon Feb 05 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+5 Feb 00:00:02 - Sending irc NICK/USER
+5 Feb 00:00:02 - SEND: CAP REQ sasl
+5 Feb 00:00:02 - SEND: NICK beagleslackbot
+5 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+5 Feb 00:00:11 - SEND: NICK beagleslackbot1
+5 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+5 Feb 00:00:12 - SEND: CAP END
+5 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '26', 'unknown connection(s)' ] }[0m
+5 Feb 00:00:12 - MODE: beagleslackbot1 sets mode: +i
+5 Feb 00:00:12 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+5 Feb 00:00:13 - SEND: NICK beagleslackbot
+5 Feb 00:00:13 - SEND: JOIN #beagle
+5 Feb 00:00:14 - SEND: JOIN #beagle-gsoc
+5 Feb 00:00:14 - SEND: JOIN #beagle-mentors
+5 Feb 00:00:15 - SEND: JOIN #beagle-support
+5 Feb 00:00:15 - SEND: JOIN #beagle-bonescript
+5 Feb 00:00:16 - SEND: JOIN #beagle-pro
+5 Feb 00:00:18 - NICK: beagleslackbot1 changes nick to beagleslackbot
+5 Feb 00:00:18 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+5 Feb 00:00:18 - SEND: MODE #beagle
+5 Feb 00:00:18 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+5 Feb 00:00:19 - SEND: MODE #beagle-gsoc
+5 Feb 00:00:19 - SEND: MODE #beagle-mentors
+5 Feb 00:00:20 - SEND: MODE #beagle-support
+5 Feb 00:00:20 - SEND: MODE #beagle-bonescript
+5 Feb 00:00:21 - SEND: MODE #beagle-pro
+5 Feb 00:02:30 - SEND: PONG card.freenode.net
+5 Feb 00:04:54 - SEND: PONG card.freenode.net
+5 Feb 00:07:18 - SEND: PONG card.freenode.net
+5 Feb 00:09:43 - SEND: PONG card.freenode.net
+5 Feb 00:12:06 - SEND: PONG card.freenode.net
+5 Feb 00:12:13 - QUIT: danieljabailey!~danieljab@cpc75709-york6-2-0-cust725.7-1.cable.virginm.net Ping timeout: 248 seconds
+5 Feb 00:14:30 - SEND: PONG card.freenode.net
+5 Feb 00:16:55 - SEND: PONG card.freenode.net
+5 Feb 00:19:18 - SEND: PONG card.freenode.net
+5 Feb 00:21:42 - SEND: PONG card.freenode.net
+5 Feb 00:24:06 - SEND: PONG card.freenode.net
+5 Feb 00:26:30 - SEND: PONG card.freenode.net
+5 Feb 00:28:54 - SEND: PONG card.freenode.net
+5 Feb 00:31:18 - SEND: PONG card.freenode.net
+5 Feb 00:31:54 - QUIT: nerdboy!~sarnold@gentoo/developer/nerdboy Ping timeout: 264 seconds
+5 Feb 00:31:56 - QUIT: mr_science!~sarnold@gentoo/developer/nerdboy Ping timeout: 240 seconds
+5 Feb 00:33:42 - SEND: PONG card.freenode.net
+5 Feb 00:34:19 - QUIT: chomwitt!~chomwitt@2a02:587:dc08:a00:19bf:7401:7eb6:708e Quit: WeeChat 1.0.1
+5 Feb 00:36:07 - SEND: PONG card.freenode.net
+5 Feb 00:38:30 - SEND: PONG card.freenode.net
+5 Feb 00:40:54 - SEND: PONG card.freenode.net
+5 Feb 00:43:19 - SEND: PONG card.freenode.net
+5 Feb 00:45:42 - SEND: PONG card.freenode.net
+5 Feb 00:48:06 - SEND: PONG card.freenode.net
+5 Feb 00:50:30 - SEND: PONG card.freenode.net
+5 Feb 00:52:54 - SEND: PONG card.freenode.net
+5 Feb 00:55:18 - SEND: PONG card.freenode.net
+5 Feb 00:57:42 - SEND: PONG card.freenode.net
+5 Feb 00:58:56 - QUIT: pez-}!~pez-}@syd3-244-16.octopus.com.au Quit: Coyote finally caught me
+5 Feb 01:00:06 - SEND: PONG card.freenode.net
+5 Feb 01:02:31 - SEND: PONG card.freenode.net
+5 Feb 01:04:34 - QUIT: mirzetb!2e80229c@gateway/web/freenode/ip.46.128.34.156 Quit: Page closed
+5 Feb 01:04:54 - SEND: PONG card.freenode.net
+5 Feb 01:07:18 - SEND: PONG card.freenode.net
+5 Feb 01:09:43 - SEND: PONG card.freenode.net
+5 Feb 01:12:06 - SEND: PONG card.freenode.net
+5 Feb 01:14:30 - SEND: PONG card.freenode.net
+5 Feb 01:16:54 - SEND: PONG card.freenode.net
+5 Feb 01:19:18 - SEND: PONG car
