@@ -1,0 +1,87 @@
+[Tue Feb 06 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+6 Feb 00:00:02 - Sending irc NICK/USER
+6 Feb 00:00:03 - SEND: CAP REQ sasl
+6 Feb 00:00:03 - SEND: NICK beagleslackbot
+6 Feb 00:00:04 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+6 Feb 00:00:11 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+6 Feb 00:00:12 - SEND: CAP END
+6 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '17', 'unknown connection(s)' ] }[0m
+6 Feb 00:00:12 - MODE: beagleslackbot sets mode: +i
+6 Feb 00:00:12 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+6 Feb 00:00:13 - SEND: NICK beagleslackbot
+6 Feb 00:00:13 - SEND: JOIN #beagle
+6 Feb 00:00:14 - SEND: JOIN #beagle-gsoc
+6 Feb 00:00:14 - SEND: JOIN #beagle-mentors
+6 Feb 00:00:15 - SEND: JOIN #beagle-support
+6 Feb 00:00:15 - SEND: JOIN #beagle-bonescript
+6 Feb 00:00:16 - SEND: JOIN #beagle-pro
+6 Feb 00:00:19 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+6 Feb 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+6 Feb 00:00:19 - SEND: MODE #beagle
+6 Feb 00:00:19 - SEND: MODE #beagle-gsoc
+6 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +ns
+6 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: -o
+6 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +ct-s
+6 Feb 00:00:20 - MODE: #beagle-bonescript sets mode: +o
+6 Feb 00:00:20 - SEND: MODE #beagle-mentors
+6 Feb 00:00:20 - SEND: MODE #beagle-support
+6 Feb 00:00:21 - SEND: MODE #beagle-bonescript
+6 Feb 00:00:21 - SEND: MODE #beagle-pro
+6 Feb 00:01:26 - NICK: pascal changes nick to Guest92714
+6 Feb 00:02:52 - SEND: PONG adams.freenode.net
+6 Feb 00:04:49 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 240 seconds
+6 Feb 00:05:09 - SEND: PONG adams.freenode.net
+6 Feb 00:06:47 - QUIT: NishanthMenon!~nmenon@unaffiliated/nishanthmenon Quit: Stay away from hurricanes for a while.
+6 Feb 00:07:25 - SEND: PONG adams.freenode.net
+6 Feb 00:09:40 - SEND: PONG adams.freenode.net
+6 Feb 00:11:57 - SEND: PONG adams.freenode.net
+6 Feb 00:14:13 - SEND: PONG adams.freenode.net
+6 Feb 00:16:28 - SEND: PONG adams.freenode.net
+6 Feb 00:18:45 - SEND: PONG adams.freenode.net
+6 Feb 00:21:01 - SEND: PONG adams.freenode.net
+6 Feb 00:23:16 - SEND: PONG adams.freenode.net
+6 Feb 00:24:49 - QUIT: Guest92714!b8a18dc9@gateway/web/freenode/ip.184.161.141.201 Ping timeout: 260 seconds
+6 Feb 00:25:33 - SEND: PONG adams.freenode.net
+6 Feb 00:27:49 - SEND: PONG adams.freenode.net
+6 Feb 00:30:04 - SEND: PONG adams.freenode.net
+6 Feb 00:32:21 - SEND: PONG adams.freenode.net
+6 Feb 00:34:37 - SEND: PONG adams.freenode.net
+6 Feb 00:36:52 - SEND: PONG adams.freenode.net
+6 Feb 00:39:09 - SEND: PONG adams.freenode.net
+6 Feb 00:41:25 - SEND: PONG adams.freenode.net
+6 Feb 00:43:40 - SEND: PONG adams.freenode.net
+6 Feb 00:45:57 - SEND: PONG adams.freenode.net
+6 Feb 00:48:13 - SEND: PONG adams.freenode.net
+6 Feb 00:50:28 - SEND: PONG adams.freenode.net
+6 Feb 00:52:45 - SEND: PONG adams.freenode.net
+6 Feb 00:55:01 - SEND: PONG adams.freenode.net
+6 Feb 00:57:16 - SEND: PONG adams.freenode.net
+6 Feb 00:59:33 - SEND: PONG adams.freenode.net
+6 Feb 01:01:49 - SEND: PONG adams.freenode.net
+6 Feb 01:04:04 - SEND: PONG adams.freenode.net
+6 Feb 01:06:21 - SEND: PONG adams.freenode.net
+6 Feb 01:08:37 - SEND: PONG adams.freenode.net
+6 Feb 01:10:52 - SEND: PONG adams.freenode.net
+6 Feb 01:13:09 - SEND: PONG adams.freenode.net
+6 Feb 01:15:25 - SEND: PONG adams.freenode.net
+6 Feb 01:17:40 - SEND: PONG adams.freenode.net
+6 Fe
