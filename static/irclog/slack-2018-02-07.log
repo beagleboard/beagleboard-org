@@ -1,0 +1,74 @@
+[Wed Feb 07 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+7 Feb 00:00:01 - Sending irc NICK/USER
+7 Feb 00:00:01 - SEND: CAP REQ sasl
+7 Feb 00:00:02 - SEND: NICK beagleslackbot
+7 Feb 00:00:02 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+7 Feb 00:00:12 - SEND: NICK beagleslackbot1
+7 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+7 Feb 00:00:13 - SEND: CAP END
+7 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '137', 'unknown connection(s)' ] }[0m
+7 Feb 00:00:14 - MODE: beagleslackbot1 sets mode: +i
+7 Feb 00:00:14 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+7 Feb 00:00:15 - SEND: NICK beagleslackbot
+7 Feb 00:00:15 - SEND: JOIN #beagle
+7 Feb 00:00:16 - SEND: JOIN #beagle-gsoc
+7 Feb 00:00:16 - SEND: JOIN #beagle-mentors
+7 Feb 00:00:17 - SEND: JOIN #beagle-support
+7 Feb 00:00:17 - SEND: JOIN #beagle-bonescript
+7 Feb 00:00:18 - SEND: JOIN #beagle-pro
+7 Feb 00:00:20 - NICK: beagleslackbot1 changes nick to beagleslackbot
+7 Feb 00:00:20 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+7 Feb 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+7 Feb 00:00:20 - SEND: MODE #beagle
+7 Feb 00:00:21 - SEND: MODE #beagle-gsoc
+7 Feb 00:00:21 - SEND: MODE #beagle-mentors
+7 Feb 00:00:22 - SEND: MODE #beagle-support
+7 Feb 00:00:22 - SEND: MODE #beagle-bonescript
+7 Feb 00:00:23 - SEND: MODE #beagle-pro
+7 Feb 00:02:52 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:05:08 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:05:40 - QUIT: kwork!~quassel@bnc.ee Ping timeout: 240 seconds
+7 Feb 00:07:24 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:09:40 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:09:56 - QUIT: sarnold[m]!sarnoldmat@gateway/shell/matrix.org/x-noxnuujafbifphjh Ping timeout: 255 seconds
+7 Feb 00:09:58 - QUIT: aynah[m]!aynahmatri@gateway/shell/matrix.org/x-zhkzdexzfkybpcen Ping timeout: 255 seconds
+7 Feb 00:10:08 - QUIT: ericxdu[m]!ericxdumat@gateway/shell/matrix.org/x-jsridxsmiodbxhty Ping timeout: 265 seconds
+7 Feb 00:10:09 - QUIT: jkridner[m]!jkridnerma@gateway/shell/matrix.org/x-qiqhystiajkzxugq Ping timeout: 248 seconds
+7 Feb 00:10:18 - QUIT: zeekhuge!zeekhugema@gateway/shell/matrix.org/x-ctghuctndbtewgxp Ping timeout: 276 seconds
+7 Feb 00:10:23 - QUIT: thetransformerr[!thetransfo@gateway/shell/matrix.org/x-yqirvilkkgwsyqid Ping timeout: 255 seconds
+7 Feb 00:10:37 - QUIT: ravikp7!ravikp7mat@gateway/shell/matrix.org/x-odfzuygnoqlmkdbj Ping timeout: 265 seconds
+7 Feb 00:10:39 - QUIT: berton!fabioberto@gateway/shell/matrix.org/x-jrjijdinmcmgwqyf Ping timeout: 255 seconds
+7 Feb 00:11:56 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:12:44 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 248 seconds
+7 Feb 00:13:32 - QUIT: prabhakarlad!~prabhakar@194.75.40.178 Ping timeout: 260 seconds
+7 Feb 00:14:12 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:16:28 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:18:44 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:21:00 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:21:37 - QUIT: jbdatko!~jbdatko@fsf/member/jbdatko Quit: ZNC - http://znc.in
+7 Feb 00:23:16 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:25:08 - QUIT: jbdatko!~jbdatko@ip-65-183-76-97.rev.frii.com Changing host
+7 Feb 00:25:32 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:27:48 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:30:04 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:32:20 - SEND: PONG hitchcock.freenode.net
+7 Feb 00:34:36 - SEND
