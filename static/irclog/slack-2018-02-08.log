@@ -1,0 +1,84 @@
+[Thu Feb 08 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+8 Feb 00:00:02 - Sending irc NICK/USER
+8 Feb 00:00:02 - SEND: CAP REQ sasl
+8 Feb 00:00:02 - SEND: NICK beagleslackbot
+8 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+8 Feb 00:00:11 - SEND: NICK beagleslackbot1
+8 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+8 Feb 00:00:12 - SEND: CAP END
+8 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '145', 'unknown connection(s)' ] }[0m
+8 Feb 00:00:12 - MODE: beagleslackbot1 sets mode: +i
+8 Feb 00:00:12 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+8 Feb 00:00:13 - SEND: NICK beagleslackbot
+8 Feb 00:00:13 - SEND: JOIN #beagle
+8 Feb 00:00:14 - SEND: JOIN #beagle-gsoc
+8 Feb 00:00:14 - SEND: JOIN #beagle-mentors
+8 Feb 00:00:15 - SEND: JOIN #beagle-support
+8 Feb 00:00:15 - SEND: JOIN #beagle-bonescript
+8 Feb 00:00:16 - SEND: JOIN #beagle-pro
+8 Feb 00:00:18 - NICK: beagleslackbot1 changes nick to beagleslackbot
+8 Feb 00:00:18 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+8 Feb 00:00:18 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+8 Feb 00:00:18 - SEND: MODE #beagle
+8 Feb 00:00:19 - SEND: MODE #beagle-gsoc
+8 Feb 00:00:19 - SEND: MODE #beagle-mentors
+8 Feb 00:00:20 - SEND: MODE #beagle-support
+8 Feb 00:00:20 - SEND: MODE #beagle-bonescript
+8 Feb 00:00:21 - SEND: MODE #beagle-pro
+8 Feb 00:02:45 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:05:00 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:05:10 - QUIT: MathOnNapkins!~chatzilla@2603:300f:1f01:9100:d48a:611d:1cbf:49a7 Ping timeout: 252 seconds
+8 Feb 00:07:16 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:09:32 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:11:48 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:14:04 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:16:20 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:18:36 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:20:52 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:23:08 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:24:58 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Remote host closed the connection
+8 Feb 00:25:24 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:27:40 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:29:56 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:32:12 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:34:28 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:36:44 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:39:00 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:40:02 - QUIT: gak!d055c113@gateway/web/freenode/ip.208.85.193.19 Quit: Page closed
+8 Feb 00:41:16 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:43:32 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:45:48 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:48:04 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:50:20 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:52:36 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:54:52 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:57:08 - SEND: PONG hitchcock.freenode.net
+8 Feb 00:59:24 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:01:41 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:03:56 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:06:12 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:08:28 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:10:44 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:13:00 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:15:16 - SEND: PONG hitchcock.freenode.net
+8 Feb 01:16:09 - QUIT: rthille-ciena!~rthille@67.59.199.241 Quit: Leaving.
+8 Feb 01:17:13 - QU
