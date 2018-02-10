@@ -1,0 +1,84 @@
+[Sat Feb 10 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+10 Feb 00:00:01 - Sending irc NICK/USER
+10 Feb 00:00:02 - SEND: CAP REQ sasl
+10 Feb 00:00:02 - SEND: NICK beagleslackbot
+10 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+10 Feb 00:00:08 - SEND: NICK beagleslackbot1
+10 Feb 00:00:08 - [01;31mUnhandled message: { prefix: 'barjavel.freenode.net',
+  server: 'barjavel.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+10 Feb 00:00:09 - SEND: CAP END
+10 Feb 00:00:09 - [01;31mUnhandled message: { prefix: 'barjavel.freenode.net',
+  server: 'barjavel.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '33', 'unknown connection(s)' ] }[0m
+10 Feb 00:00:09 - MODE: beagleslackbot1 sets mode: +i
+10 Feb 00:00:09 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+10 Feb 00:00:10 - SEND: NICK beagleslackbot
+10 Feb 00:00:10 - SEND: JOIN #beagle
+10 Feb 00:00:11 - SEND: JOIN #beagle-gsoc
+10 Feb 00:00:11 - SEND: JOIN #beagle-mentors
+10 Feb 00:00:12 - SEND: JOIN #beagle-support
+10 Feb 00:00:12 - SEND: JOIN #beagle-bonescript
+10 Feb 00:00:13 - SEND: JOIN #beagle-pro
+10 Feb 00:00:14 - NICK: beagleslackbot1 changes nick to beagleslackbot
+10 Feb 00:00:14 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+10 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+10 Feb 00:00:15 - SEND: MODE #beagle
+10 Feb 00:00:15 - SEND: MODE #beagle-gsoc
+10 Feb 00:00:16 - SEND: MODE #beagle-mentors
+10 Feb 00:00:16 - SEND: MODE #beagle-support
+10 Feb 00:00:17 - SEND: MODE #beagle-bonescript
+10 Feb 00:00:17 - SEND: MODE #beagle-pro
+10 Feb 00:02:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:05:14 - SEND: PONG barjavel.freenode.net
+10 Feb 00:07:20 - QUIT: Bongobong!~Bongobong@ulsecure-belknap-nat-190060.wireless.louisville.edu Ping timeout: 268 seconds
+10 Feb 00:07:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:09:31 - QUIT: NishanthMenon!~nmenon@unaffiliated/nishanthmenon Quit: Courage is my greatest present need.
+10 Feb 00:10:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:12:44 - SEND: PONG barjavel.freenode.net
+10 Feb 00:15:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:17:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:20:14 - SEND: PONG barjavel.freenode.net
+10 Feb 00:22:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:25:14 - SEND: PONG barjavel.freenode.net
+10 Feb 00:27:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:29:24 - QUIT: vagrantc!~vagrant@unaffiliated/vagrantc Quit: leaving
+10 Feb 00:30:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:32:44 - SEND: PONG barjavel.freenode.net
+10 Feb 00:35:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:37:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:40:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:42:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:45:14 - SEND: PONG barjavel.freenode.net
+10 Feb 00:47:43 - SEND: PONG barjavel.freenode.net
+10 Feb 00:50:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:52:44 - SEND: PONG barjavel.freenode.net
+10 Feb 00:55:13 - SEND: PONG barjavel.freenode.net
+10 Feb 00:57:44 - SEND: PONG barjavel.freenode.net
+10 Feb 01:00:13 - SEND: PONG barjavel.freenode.net
+10 Feb 01:02:43 - SEND: PONG barjavel.freenode.net
+10 Feb 01:05:14 - SEND: PONG barjavel.freenode.net
+10 Feb 01:07:43 - SEND: PONG barjavel.freenode.net
+10 Feb 01:10:13 - SEND: PONG barjavel.freenode.net
+10 Feb 01:12:44 - SEND: PONG barjavel.freenode.net
+10 Feb 01:15:13 - SEND: PONG barjavel.freenode.net
+10 Feb 01:17:44 - SEND: PONG barjavel.freenode.net
+10 Feb 01:20:13 - SEND: PONG barjavel.freenode.net
+10 Feb 01:22:43 - SEND: PONG barjavel.freenode.net
+10 Feb 01:25:14 - SEND: PONG barjavel.freenode.net
+10 Feb 01
