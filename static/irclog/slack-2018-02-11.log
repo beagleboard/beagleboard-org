@@ -1,0 +1,81 @@
+[Sun Feb 11 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+11 Feb 00:00:02 - Sending irc NICK/USER
+11 Feb 00:00:02 - SEND: CAP REQ sasl
+11 Feb 00:00:02 - SEND: NICK beagleslackbot
+11 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+11 Feb 00:00:13 - SEND: NICK beagleslackbot1
+11 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+11 Feb 00:00:14 - SEND: CAP END
+11 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '138', 'unknown connection(s)' ] }[0m
+11 Feb 00:00:14 - MODE: beagleslackbot1 sets mode: +i
+11 Feb 00:00:14 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+11 Feb 00:00:15 - SEND: NICK beagleslackbot
+11 Feb 00:00:15 - SEND: JOIN #beagle
+11 Feb 00:00:16 - SEND: JOIN #beagle-gsoc
+11 Feb 00:00:16 - SEND: JOIN #beagle-mentors
+11 Feb 00:00:17 - SEND: JOIN #beagle-support
+11 Feb 00:00:17 - SEND: JOIN #beagle-bonescript
+11 Feb 00:00:18 - SEND: JOIN #beagle-pro
+11 Feb 00:00:20 - NICK: beagleslackbot1 changes nick to beagleslackbot
+11 Feb 00:00:20 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+11 Feb 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+11 Feb 00:00:20 - SEND: MODE #beagle
+11 Feb 00:00:21 - SEND: MODE #beagle-gsoc
+11 Feb 00:00:21 - MODE: #beagle-support sets mode: +ns
+11 Feb 00:00:21 - MODE: #beagle-support sets mode: -o
+11 Feb 00:00:21 - MODE: #beagle-support sets mode: +ct-s
+11 Feb 00:00:21 - MODE: #beagle-support sets mode: +o
+11 Feb 00:00:21 - SEND: MODE #beagle-mentors
+11 Feb 00:00:22 - SEND: MODE #beagle-support
+11 Feb 00:00:22 - SEND: MODE #beagle-bonescript
+11 Feb 00:00:23 - SEND: MODE #beagle-pro
+11 Feb 00:02:56 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:05:12 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:07:28 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:09:44 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:12:00 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:13:01 - QUIT: rob_w!~rob@unaffiliated/rob-w/x-1112029 Read error: Connection reset by peer
+11 Feb 00:14:16 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:16:32 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:18:48 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:21:04 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:23:20 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:24:47 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 276 seconds
+11 Feb 00:25:36 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:27:52 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:30:08 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:32:24 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:34:12 - QUIT: peroyvib!~peroyvib@111.151.9.46.customer.cdi.no Quit: Bye...
+11 Feb 00:34:40 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:35:02 - QUIT: peroyvib!~peroyvib@111.151.9.46.customer.cdi.no Client Quit
+11 Feb 00:35:53 - QUIT: peroyvib!~peroyvib@111.151.9.46.customer.cdi.no Client Quit
+11 Feb 00:36:56 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:39:12 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:41:28 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:41:44 - QUIT: rthille-ciena!~rthille@c-67-164-62-81.hsd1.ca.comcast.net Quit: Leaving.
+11 Feb 00:43:44 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:46:00 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:48:16 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:50:32 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:52:48 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:55:04 - SEND: PONG hitchcock.freenode.net
+11 Feb 00:57:20 - SEND: PONG hi
