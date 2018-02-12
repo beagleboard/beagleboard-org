@@ -460,4 +460,159 @@
 12 Feb 13:20:33 - SEND: PONG adams.freenode.net
 12 Feb 13:22:49 - SEND: PONG adams.freenode.net
 12 Feb 13:25:05 - SEND: PONG adams.freenode.net
-12 Feb 13:27:21 - SEND
+12 Feb 13:27:21 - SEND[Mon Feb 12 2018 15:05:05 GMT+0000 (UTC)] INFO Connecting...
+12 Feb 15:05:05 - Sending irc NICK/USER
+12 Feb 15:05:06 - SEND: CAP REQ sasl
+12 Feb 15:05:06 - SEND: NICK beagleslackbot
+12 Feb 15:05:07 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+12 Feb 15:05:16 - SEND: NICK beagleslackbot1
+12 Feb 15:05:17 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+12 Feb 15:05:17 - SEND: CAP END
+12 Feb 15:05:18 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '167', 'unknown connection(s)' ] }[0m
+12 Feb 15:05:18 - MODE: beagleslackbot1 sets mode: +i
+12 Feb 15:05:18 - SEND: NICK beagleslackbot
+12 Feb 15:05:19 - SEND: JOIN #beagle
+12 Feb 15:05:19 - SEND: JOIN #beagle-gsoc
+12 Feb 15:05:20 - SEND: JOIN #beagle-support
+12 Feb 15:05:20 - SEND: JOIN #beagle-bonescript
+12 Feb 15:05:21 - SEND: JOIN #beagle-pro
+12 Feb 15:05:24 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+12 Feb 15:05:24 - SEND: NICK beagleslackbot2
+12 Feb 15:05:25 - NICK: beagleslackbot1 changes nick to beagleslackbot2
+12 Feb 15:07:45 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:10:02 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:12:13 - GOT NOTICE from "SaslServ": "beagleslackbot1!~beaglesla@ec2-52-26-75-20.us-west-2.compute.amazonaws.com has just authenticated as you (beagleslackbot)"
+12 Feb 15:12:18 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:12:22 - NICK: beagleslackbot1 changes nick to beagleslackbot3
+12 Feb 15:14:27 - QUIT: sp4rt4h!c7bdbfec@gateway/web/freenode/ip.199.189.191.236 Client Quit
+12 Feb 15:14:33 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:15:35 - QUIT: dgerlach!~dgerlach@192.91.75.29 Quit: Leaving.
+12 Feb 15:16:50 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:19:06 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:21:21 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:23:38 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:25:54 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:28:09 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:30:26 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:32:42 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:33:10 - QUIT: Ionakka!~ionakka@62.183.198.241 Quit: -.-
+12 Feb 15:34:57 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:35:26 - QUIT: i_am_rishi__!ac49430b@gateway/web/freenode/ip.172.73.67.11 Quit: Page closed
+12 Feb 15:37:14 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:39:30 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:40:05 - NICK: dgerlach1 changes nick to dgerlach
+12 Feb 15:40:26 - QUIT: W_Olympic!~W_Olympic@123.150.120.103 Quit: Leaving
+12 Feb 15:41:45 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:44:02 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:44:03 - QUIT: luneff!~yury@95.174.104.43 Quit: This computer has gone to sleep
+12 Feb 15:45:21 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net 
+12 Feb 15:46:18 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:47:41 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Remote host closed the connection
+12 Feb 15:48:33 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:49:30 - QUIT: jpirko!~jpirko@ip-89-103-66-6.net.upcbroadband.cz Quit: WeeChat 1.9.1
+12 Feb 15:50:50 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:53:06 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:55:21 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:57:38 - SEND: PONG hitchcock.freenode.net
+12 Feb 15:57:54 - QUIT: beng-nl!~beng-nl@pc-020965.clients.vu.nl Ping timeout: 260 seconds
+12 Feb 15:59:29 - QUIT: Way!6cd3c982@gateway/web/freenode/ip.108.211.201.130 Ping timeout: 260 seconds
+12 Feb 15:59:53 - SEND: [Mon Feb 12 2018 15:12:02 GMT+0000 (UTC)] INFO Connecting...
+12 Feb 15:12:03 - Sending irc NICK/USER
+12 Feb 15:12:03 - SEND: CAP REQ sasl
+12 Feb 15:12:03 - SEND: NICK beagleslackbot
+12 Feb 15:12:04 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+12 Feb 15:12:11 - SEND: NICK beagleslackbot1
+12 Feb 15:12:12 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+12 Feb 15:12:13 - SEND: CAP END
+12 Feb 15:12:13 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '20', 'unknown connection(s)' ] }[0m
+12 Feb 15:12:13 - MODE: beagleslackbot1 sets mode: +i
+12 Feb 15:12:14 - SEND: NICK beagleslackbot
+12 Feb 15:12:14 - SEND: JOIN #beagle
+12 Feb 15:12:15 - SEND: JOIN #beagle-gsoc
+12 Feb 15:12:15 - SEND: JOIN #beagle-support
+12 Feb 15:12:16 - SEND: JOIN #beagle-bonescript
+12 Feb 15:12:16 - SEND: JOIN #beagle-pro
+12 Feb 15:12:20 - SEND: NICK beagleslackbot2
+12 Feb 15:12:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+12 Feb 15:12:22 - SEND: NICK beagleslackbot3
+12 Feb 15:12:22 - NICK: beagleslackbot1 changes nick to beagleslackbot3
+12 Feb 15:14:27 - SEND: PONG adams.freenode.net
+12 Feb 15:14:27 - QUIT: sp4rt4h!c7bdbfec@gateway/web/freenode/ip.199.189.191.236 Client Quit
+12 Feb 15:15:35 - QUIT: dgerlach!~dgerlach@192.91.75.29 Quit: Leaving.
+12 Feb 15:16:43 - SEND: PONG adams.freenode.net
+12 Feb 15:18:59 - SEND: PONG adams.freenode.net
+12 Feb 15:21:15 - SEND: PONG adams.freenode.net
+12 Feb 15:23:31 - SEND: PONG adams.freenode.net
+12 Feb 15:25:47 - SEND: PONG adams.freenode.net
+12 Feb 15:28:03 - SEND: PONG adams.freenode.net
+12 Feb 15:30:19 - SEND: PONG adams.freenode.net
+12 Feb 15:32:35 - SEND: PONG adams.freenode.net
+12 Feb 15:33:10 - QUIT: Ionakka!~ionakka@62.183.198.241 Quit: -.-
+12 Feb 15:34:51 - SEND: PONG adams.freenode.net
+12 Feb 15:35:26 - QUIT: i_am_rishi__!ac49430b@gateway/web/freenode/ip.172.73.67.11 Quit: Page closed
+12 Feb 15:37:07 - SEND: PONG adams.freenode.net
+12 Feb 15:39:23 - SEND: PONG adams.freenode.net
+12 Feb 15:40:05 - NICK: dgerlach1 changes nick to dgerlach
+12 Feb 15:40:26 - QUIT: W_Olympic!~W_Olympic@123.150.120.103 Quit: Leaving
+12 Feb 15:41:39 - SEND: PONG adams.freenode.net
+12 Feb 15:43:55 - SEND: PONG adams.freenode.net
+12 Feb 15:44:02 - QUIT: luneff!~yury@95.174.104.43 Quit: This computer has gone to sleep
+12 Feb 15:45:21 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net 
+12 Feb 15:46:11 - SEND: PONG adams.freenode.net
+12 Feb 15:47:41 - QUIT: majuk!~majuk@75-163-155-5.clsp.qwest.net Remote host closed the connection
+12 Feb 15:48:27 - SEND: PONG adams.freenode.net
+12 Feb 15:49:30 - QUIT: jpirko!~jpirko@ip-89-103-66-6.net.upcbroadband.cz Quit: WeeChat 1.9.1
+12 Feb 15:50:43 - SEND: PONG adams.freenode.net
+12 Feb 15:52:59 - SEND: PONG adams.freenode.net
+12 Feb 15:55:15 - SEND: PONG adams.freenode.net
+12 Feb 15:57:31 - SEND: PONG adams.freenode.net
+12 Feb 15:57:54 - QUIT: beng-nl!~beng-nl@pc-020965.clients.vu.nl Ping timeout: 260 seconds
+12 Feb 15:59:29 - QUIT: Way!6cd3c982@gateway/web/freenode/ip.108.211.201.130 Ping timeout: 260 seconds
+12 Feb 15:59:47 - SEND: PONG adams.freenode.net
+12 Feb 16:02:03 - SEND: PONG adams.freenode.net
+12 Feb 16:04:19 - SEND: PONG adams.freenode.net
+12 Feb 16:06:35 - SEND: PONG adams.freenode.net
+12 Feb 16:07:16 - QUIT: thinkfat!~maw@195.145.229.154 Quit: Konversation terminated!
+12 Feb 16:08:51 - SEND: PONG adams.freenode.net
+12 Feb 16:11:07 - SEND: PONG adams.freenode.net
+12 Feb 16:13:23 - SEND: PONG adams.freenode.net
+12 Feb 16:15:39 - SEND: PONG adams.freenode.net
+12 Fe
