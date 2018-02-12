@@ -1,0 +1,84 @@
+[Mon Feb 12 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+12 Feb 00:00:02 - Sending irc NICK/USER
+12 Feb 00:00:02 - SEND: CAP REQ sasl
+12 Feb 00:00:03 - SEND: NICK beagleslackbot
+12 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+12 Feb 00:00:13 - SEND: NICK beagleslackbot1
+12 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+12 Feb 00:00:14 - SEND: CAP END
+12 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'adams.freenode.net',
+  server: 'adams.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '31', 'unknown connection(s)' ] }[0m
+12 Feb 00:00:14 - MODE: beagleslackbot1 sets mode: +i
+12 Feb 00:00:14 - SEND: PRIVMSG NickServ :IDENTIFY Gab$b4123z
+12 Feb 00:00:15 - SEND: NICK beagleslackbot
+12 Feb 00:00:15 - SEND: JOIN #beagle
+12 Feb 00:00:16 - SEND: JOIN #beagle-gsoc
+12 Feb 00:00:16 - SEND: JOIN #beagle-mentors
+12 Feb 00:00:17 - SEND: JOIN #beagle-support
+12 Feb 00:00:17 - SEND: JOIN #beagle-bonescript
+12 Feb 00:00:18 - SEND: JOIN #beagle-pro
+12 Feb 00:00:20 - NICK: beagleslackbot1 changes nick to beagleslackbot
+12 Feb 00:00:20 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+12 Feb 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+12 Feb 00:00:20 - SEND: MODE #beagle
+12 Feb 00:00:21 - SEND: MODE #beagle-gsoc
+12 Feb 00:00:21 - SEND: MODE #beagle-mentors
+12 Feb 00:00:22 - SEND: MODE #beagle-support
+12 Feb 00:00:22 - SEND: MODE #beagle-bonescript
+12 Feb 00:00:23 - SEND: MODE #beagle-pro
+12 Feb 00:02:42 - SEND: PONG adams.freenode.net
+12 Feb 00:04:58 - SEND: PONG adams.freenode.net
+12 Feb 00:07:14 - SEND: PONG adams.freenode.net
+12 Feb 00:09:30 - SEND: PONG adams.freenode.net
+12 Feb 00:11:46 - SEND: PONG adams.freenode.net
+12 Feb 00:14:02 - SEND: PONG adams.freenode.net
+12 Feb 00:16:18 - SEND: PONG adams.freenode.net
+12 Feb 00:18:34 - SEND: PONG adams.freenode.net
+12 Feb 00:20:50 - SEND: PONG adams.freenode.net
+12 Feb 00:23:06 - SEND: PONG adams.freenode.net
+12 Feb 00:24:20 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 256 seconds
+12 Feb 00:24:27 - QUIT: Bongobong!~Bongobong@ulsecure-belknap-nat-190060.wireless.louisville.edu 
+12 Feb 00:25:22 - SEND: PONG adams.freenode.net
+12 Feb 00:27:38 - SEND: PONG adams.freenode.net
+12 Feb 00:29:54 - SEND: PONG adams.freenode.net
+12 Feb 00:31:48 - QUIT: laurittr!~laurittr@indie.ed.ntnu.no Remote host closed the connection
+12 Feb 00:32:10 - SEND: PONG adams.freenode.net
+12 Feb 00:34:26 - SEND: PONG adams.freenode.net
+12 Feb 00:36:42 - SEND: PONG adams.freenode.net
+12 Feb 00:38:58 - SEND: PONG adams.freenode.net
+12 Feb 00:41:14 - SEND: PONG adams.freenode.net
+12 Feb 00:43:30 - SEND: PONG adams.freenode.net
+12 Feb 00:45:46 - SEND: PONG adams.freenode.net
+12 Feb 00:46:35 - QUIT: JetForMe!~JetForMe@38.75.18.174 Client Quit
+12 Feb 00:48:02 - SEND: PONG adams.freenode.net
+12 Feb 00:50:18 - SEND: PONG adams.freenode.net
+12 Feb 00:52:34 - SEND: PONG adams.freenode.net
+12 Feb 00:52:57 - QUIT: JetForMe!~JetForMe@38.75.18.174 Read error: Connection reset by peer
+12 Feb 00:54:50 - SEND: PONG adams.freenode.net
+12 Feb 00:57:06 - SEND: PONG adams.freenode.net
+12 Feb 00:59:22 - SEND: PONG adams.freenode.net
+12 Feb 01:01:38 - SEND: PONG adams.freenode.net
+12 Feb 01:03:16 - QUIT: HalfMadDad!~patrick@184-175-23-21.dsl.teksavvy.com Quit: Leaving
+12 Feb 01:03:54 - SEND: PONG adams.freenode.net
+12 Feb 01:06:10 - SEND: PONG adams.freenode.net
+12 Feb 01:08:26 - SEND: PONG adams.freenode.net
+12 Feb 01:10:42 - SEND: PONG adams.freenode.net
+12 Feb 01:12:58 - SEND: PONG adams.fr
