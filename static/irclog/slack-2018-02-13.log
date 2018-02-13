@@ -1,0 +1,85 @@
+[Tue Feb 13 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+13 Feb 00:00:01 - Sending irc NICK/USER
+13 Feb 00:00:01 - SEND: CAP REQ sasl
+13 Feb 00:00:02 - SEND: NICK beagleslackbot
+13 Feb 00:00:02 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+13 Feb 00:00:09 - SEND: NICK beagleslackbot1
+13 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'cherryh.freenode.net',
+  server: 'cherryh.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+13 Feb 00:00:10 - SEND: CAP END
+13 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'cherryh.freenode.net',
+  server: 'cherryh.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '36', 'unknown connection(s)' ] }[0m
+13 Feb 00:00:10 - MODE: beagleslackbot1 sets mode: +i
+13 Feb 00:00:11 - SEND: NICK beagleslackbot
+13 Feb 00:00:11 - SEND: JOIN #beagle
+13 Feb 00:00:12 - SEND: JOIN #beagle-gsoc
+13 Feb 00:00:13 - SEND: JOIN #beagle-support
+13 Feb 00:00:13 - SEND: JOIN #beagle-bonescript
+13 Feb 00:00:14 - SEND: JOIN #beagle-pro
+13 Feb 00:00:16 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+13 Feb 00:00:17 - SEND: NICK beagleslackbot2
+13 Feb 00:00:19 - SEND: NICK beagleslackbot3
+13 Feb 00:00:19 - SEND: NICK beagleslackbot4
+13 Feb 00:00:19 - NICK: beagleslackbot1 changes nick to beagleslackbot4
+13 Feb 00:02:42 - SEND: PONG cherryh.freenode.net
+13 Feb 00:05:10 - SEND: PONG cherryh.freenode.net
+13 Feb 00:07:38 - SEND: PONG cherryh.freenode.net
+13 Feb 00:10:06 - SEND: PONG cherryh.freenode.net
+13 Feb 00:12:34 - SEND: PONG cherryh.freenode.net
+13 Feb 00:13:29 - QUIT: Bernardita!419954d2@gateway/web/freenode/ip.65.153.84.210 Client Quit
+13 Feb 00:15:02 - SEND: PONG cherryh.freenode.net
+13 Feb 00:17:30 - SEND: PONG cherryh.freenode.net
+13 Feb 00:19:58 - SEND: PONG cherryh.freenode.net
+13 Feb 00:22:26 - SEND: PONG cherryh.freenode.net
+13 Feb 00:24:54 - SEND: PONG cherryh.freenode.net
+13 Feb 00:27:23 - SEND: PONG cherryh.freenode.net
+13 Feb 00:29:50 - SEND: PONG cherryh.freenode.net
+13 Feb 00:32:18 - SEND: PONG cherryh.freenode.net
+13 Feb 00:34:46 - SEND: PONG cherryh.freenode.net
+13 Feb 00:37:14 - SEND: PONG cherryh.freenode.net
+13 Feb 00:39:42 - SEND: PONG cherryh.freenode.net
+13 Feb 00:42:10 - SEND: PONG cherryh.freenode.net
+13 Feb 00:44:38 - SEND: PONG cherryh.freenode.net
+13 Feb 00:47:06 - SEND: PONG cherryh.freenode.net
+13 Feb 00:49:34 - SEND: PONG cherryh.freenode.net
+13 Feb 00:52:02 - SEND: PONG cherryh.freenode.net
+13 Feb 00:54:30 - SEND: PONG cherryh.freenode.net
+13 Feb 00:55:03 - QUIT: majuk_!~majuk@75-163-148-173.clsp.qwest.net 
+13 Feb 00:56:58 - SEND: PONG cherryh.freenode.net
+13 Feb 00:59:26 - SEND: PONG cherryh.freenode.net
+13 Feb 01:01:54 - SEND: PONG cherryh.freenode.net
+13 Feb 01:04:22 - SEND: PONG cherryh.freenode.net
+13 Feb 01:06:50 - SEND: PONG cherryh.freenode.net
+13 Feb 01:09:18 - SEND: PONG cherryh.freenode.net
+13 Feb 01:11:46 - SEND: PONG cherryh.freenode.net
+13 Feb 01:12:52 - QUIT: danieljabailey!~danieljab@cpc75709-york6-2-0-cust725.7-1.cable.virginm.net Ping timeout: 240 seconds
+13 Feb 01:14:14 - SEND: PONG cherryh.freenode.net
+13 Feb 01:16:42 - SEND: PONG cherryh.freenode.net
+13 Feb 01:19:10 - SEND: PONG cherryh.freenode.net
+13 Feb 01:21:38 - SEND: PONG cherryh.freenode.net
+13 Feb 01:24:06 - SEND: PONG cherryh.freenode.net
+13 Feb 01:26:34 - SEND: PONG cherryh.freenode.net
+13 Feb 01:29:02 - SEND: PONG cherryh.freenode.net
+13 Feb 01:31:30 - SEND: PONG cherryh.freenode.net
+13 Feb 01:33:58 - SEND: PONG cherryh.freenode.net
+13 Feb 01:36:26 - SEND: PONG cherryh.freenode.net
+13 Feb 01:38:54 - SEND: PONG cherryh.freenode.net
+13 Feb 01:41:22 - SEND: PONG cherryh.freenode.net
+13 Feb 01:43:50 - SEND: PONG cherryh.freenode.net
