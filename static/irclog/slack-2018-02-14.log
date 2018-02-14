@@ -1,0 +1,84 @@
+[Wed Feb 14 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+14 Feb 00:00:02 - Sending irc NICK/USER
+14 Feb 00:00:02 - SEND: CAP REQ sasl
+14 Feb 00:00:03 - SEND: NICK beagleslackbot
+14 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+14 Feb 00:00:31 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@52.26.75.20',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+14 Feb 00:00:31 - SEND: CAP END
+14 Feb 00:00:31 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '103', 'unknown connection(s)' ] }[0m
+14 Feb 00:00:31 - MODE: beagleslackbot sets mode: +i
+14 Feb 00:00:32 - SEND: NICK beagleslackbot
+14 Feb 00:00:33 - SEND: JOIN #beagle
+14 Feb 00:00:33 - SEND: JOIN #beagle-gsoc
+14 Feb 00:00:34 - SEND: JOIN #beagle-support
+14 Feb 00:00:34 - SEND: JOIN #beagle-bonescript
+14 Feb 00:00:35 - SEND: JOIN #beagle-pro
+14 Feb 00:00:38 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+14 Feb 00:00:38 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+14 Feb 00:00:38 - SEND: MODE #beagle
+14 Feb 00:00:39 - SEND: MODE #beagle-gsoc
+14 Feb 00:00:39 - SEND: MODE #beagle-support
+14 Feb 00:00:40 - SEND: MODE #beagle-bonescript
+14 Feb 00:00:40 - SEND: MODE #beagle-pro
+14 Feb 00:03:08 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:05:23 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:07:40 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:09:56 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:12:11 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:14:28 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:16:44 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:18:59 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:21:16 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:22:05 - QUIT: ferdna!~ferdna@68-73-71-246.lightspeed.elpstx.sbcglobal.net Ping timeout: 264 seconds
+14 Feb 00:23:32 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:25:47 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:28:04 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:30:20 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:32:35 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:34:52 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:37:08 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:39:24 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:41:40 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:43:55 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:46:12 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:48:28 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:50:43 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:53:00 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:55:16 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:57:31 - SEND: PONG hitchcock.freenode.net
+14 Feb 00:59:48 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:02:04 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:04:19 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:06:36 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:08:52 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:11:07 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:13:24 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:15:40 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:16:45 - QUIT: ayjay_t!ajp@24-181-188-142.dhcp.nwtn.ct.charter.com Read error: No route to host
+14 Feb 01:17:55 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:20:12 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:22:28 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:24:43 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:27:00 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:29:02 - QUIT: swain!46286bc6@gateway/web/freenode/ip.70.40.107.198 Ping timeout: 260 seconds
+14 Feb 01:29:16 - SEND: PONG hitchcock.freenode.net
+14 Feb 01:31:31 - 
