@@ -1,0 +1,82 @@
+[Thu Feb 15 2018 00:00:01 GMT+0000 (UTC)] INFO Connecting...
+15 Feb 00:00:01 - Sending irc NICK/USER
+15 Feb 00:00:02 - SEND: CAP REQ sasl
+15 Feb 00:00:02 - SEND: NICK beagleslackbot
+15 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+15 Feb 00:00:09 - SEND: NICK beagleslackbot1
+15 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'karatkievich.freenode.net',
+  server: 'karatkievich.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+15 Feb 00:00:10 - SEND: CAP END
+15 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'karatkievich.freenode.net',
+  server: 'karatkievich.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '23', 'unknown connection(s)' ] }[0m
+15 Feb 00:00:10 - MODE: beagleslackbot1 sets mode: +i
+15 Feb 00:00:11 - SEND: NICK beagleslackbot
+15 Feb 00:00:12 - SEND: JOIN #beagle
+15 Feb 00:00:12 - SEND: JOIN #beagle-gsoc
+15 Feb 00:00:13 - SEND: JOIN #beagle-support
+15 Feb 00:00:13 - SEND: JOIN #beagle-bonescript
+15 Feb 00:00:14 - SEND: JOIN #beagle-pro
+15 Feb 00:00:16 - SEND: NICK beagleslackbot2
+15 Feb 00:00:16 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+15 Feb 00:00:18 - NICK: beagleslackbot1 changes nick to beagleslackbot2
+15 Feb 00:02:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:04:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:07:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:08:33 - QUIT: set_!set_@ip68-226-150-239.lf.br.cox.net 
+15 Feb 00:09:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:11:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:14:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:16:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:18:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:21:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:23:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:24:51 - QUIT: rthille-ciena1!~rthille@67.59.199.241 Quit: Leaving.
+15 Feb 00:25:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:28:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:30:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:32:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:35:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:37:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:39:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:40:51 - QUIT: turtguy!6bde8602@gateway/web/freenode/ip.107.222.134.2 Ping timeout: 260 seconds
+15 Feb 00:42:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:44:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:46:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:49:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:51:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:53:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:56:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 00:58:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:00:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:03:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:05:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:07:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:10:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:12:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:14:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:17:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:19:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:21:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:24:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:26:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:28:43 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:31:03 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:33:23 - SEND: PONG karatkievich.freenode.net
+15 Feb 01:
