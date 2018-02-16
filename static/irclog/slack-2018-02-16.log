@@ -1,0 +1,89 @@
+[Fri Feb 16 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+16 Feb 00:00:02 - Sending irc NICK/USER
+16 Feb 00:00:02 - SEND: CAP REQ sasl
+16 Feb 00:00:03 - SEND: NICK beagleslackbot
+16 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+16 Feb 00:00:10 - SEND: NICK beagleslackbot1
+16 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+16 Feb 00:00:11 - SEND: CAP END
+16 Feb 00:00:11 - [01;31mUnhandled message: { prefix: 'card.freenode.net',
+  server: 'card.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '20', 'unknown connection(s)' ] }[0m
+16 Feb 00:00:11 - MODE: beagleslackbot1 sets mode: +i
+16 Feb 00:00:12 - SEND: NICK beagleslackbot
+16 Feb 00:00:12 - SEND: JOIN #beagle
+16 Feb 00:00:13 - SEND: JOIN #beagle-gsoc
+16 Feb 00:00:13 - SEND: JOIN #beagle-support
+16 Feb 00:00:14 - SEND: JOIN #beagle-bonescript
+16 Feb 00:00:14 - SEND: JOIN #beagle-pro
+16 Feb 00:00:17 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+16 Feb 00:00:18 - SEND: NICK beagleslackbot2
+16 Feb 00:00:20 - SEND: NICK beagleslackbot3
+16 Feb 00:00:20 - NICK: beagleslackbot1 changes nick to beagleslackbot3
+16 Feb 00:02:50 - SEND: PONG card.freenode.net
+16 Feb 00:05:15 - SEND: PONG card.freenode.net
+16 Feb 00:07:38 - SEND: PONG card.freenode.net
+16 Feb 00:10:02 - SEND: PONG card.freenode.net
+16 Feb 00:12:27 - SEND: PONG card.freenode.net
+16 Feb 00:14:50 - SEND: PONG card.freenode.net
+16 Feb 00:17:14 - SEND: PONG card.freenode.net
+16 Feb 00:19:39 - SEND: PONG card.freenode.net
+16 Feb 00:22:02 - SEND: PONG card.freenode.net
+16 Feb 00:24:26 - SEND: PONG card.freenode.net
+16 Feb 00:26:50 - SEND: PONG card.freenode.net
+16 Feb 00:27:40 - QUIT: vagrantc!~vagrant@unaffiliated/vagrantc Quit: leaving
+16 Feb 00:29:14 - SEND: PONG card.freenode.net
+16 Feb 00:31:33 - QUIT: wa5qjh!~quassel@175.158.225.199 Changing host
+16 Feb 00:31:39 - SEND: PONG card.freenode.net
+16 Feb 00:34:02 - SEND: PONG card.freenode.net
+16 Feb 00:36:26 - SEND: PONG card.freenode.net
+16 Feb 00:38:51 - SEND: PONG card.freenode.net
+16 Feb 00:41:14 - SEND: PONG card.freenode.net
+16 Feb 00:43:38 - SEND: PONG card.freenode.net
+16 Feb 00:46:03 - SEND: PONG card.freenode.net
+16 Feb 00:48:26 - SEND: PONG card.freenode.net
+16 Feb 00:50:50 - SEND: PONG card.freenode.net
+16 Feb 00:51:09 - QUIT: mr_science!~sarnold@gentoo/developer/nerdboy Remote host closed the connection
+16 Feb 00:53:14 - SEND: PONG card.freenode.net
+16 Feb 00:55:38 - SEND: PONG card.freenode.net
+16 Feb 00:58:03 - SEND: PONG card.freenode.net
+16 Feb 01:00:26 - SEND: PONG card.freenode.net
+16 Feb 01:02:50 - SEND: PONG card.freenode.net
+16 Feb 01:05:15 - SEND: PONG card.freenode.net
+16 Feb 01:07:38 - SEND: PONG card.freenode.net
+16 Feb 01:09:47 - QUIT: russ!foobar@47.151.244.159 Ping timeout: 240 seconds
+16 Feb 01:10:02 - SEND: PONG card.freenode.net
+16 Feb 01:12:27 - SEND: PONG card.freenode.net
+16 Feb 01:14:50 - SEND: PONG card.freenode.net
+16 Feb 01:17:14 - SEND: PONG card.freenode.net
+16 Feb 01:19:38 - SEND: PONG card.freenode.net
+16 Feb 01:22:02 - SEND: PONG card.freenode.net
+16 Feb 01:24:26 - SEND: PONG card.freenode.net
+16 Feb 01:26:50 - SEND: PONG card.freenode.net
+16 Feb 01:29:14 - SEND: PONG card.freenode.net
+16 Feb 01:31:39 - SEND: PONG card.freenode.net
+16 Feb 01:34:02 - SEND: PONG card.freenode.net
+16 Feb 01:36:26 - SEND: PONG card.freenode.net
+16 Feb 01:38:51 - SEND: PONG card.freenode.net
+16 Feb 01:41:14 - SEND: PONG card.freenode.net
+16 Feb 01:43:38 - SEND: PONG card.freenode.net
+16 Feb 01:46:02 - SEND: PONG card.freenode.net
+16 Feb 01:48:26 - SEND: PONG card.freenode.net
+16
