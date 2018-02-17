@@ -1,0 +1,84 @@
+[Sat Feb 17 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+17 Feb 00:00:02 - Sending irc NICK/USER
+17 Feb 00:00:02 - SEND: CAP REQ sasl
+17 Feb 00:00:03 - SEND: NICK beagleslackbot
+17 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+17 Feb 00:00:11 - SEND: NICK beagleslackbot1
+17 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'niven.freenode.net',
+  server: 'niven.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+17 Feb 00:00:12 - SEND: CAP END
+17 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'niven.freenode.net',
+  server: 'niven.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '14', 'unknown connection(s)' ] }[0m
+17 Feb 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+17 Feb 00:00:13 - SEND: NICK beagleslackbot
+17 Feb 00:00:14 - SEND: JOIN #beagle
+17 Feb 00:00:14 - SEND: JOIN #beagle-gsoc
+17 Feb 00:00:15 - SEND: JOIN #beagle-support
+17 Feb 00:00:15 - SEND: JOIN #beagle-bonescript
+17 Feb 00:00:16 - SEND: JOIN #beagle-pro
+17 Feb 00:00:18 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+17 Feb 00:00:19 - SEND: NICK beagleslackbot2
+17 Feb 00:00:21 - SEND: NICK beagleslackbot3
+17 Feb 00:00:21 - SEND: NICK beagleslackbot4
+17 Feb 00:00:22 - SEND: NICK beagleslackbot5
+17 Feb 00:00:22 - NICK: beagleslackbot1 changes nick to beagleslackbot5
+17 Feb 00:02:38 - SEND: PONG niven.freenode.net
+17 Feb 00:03:43 - QUIT: eam21!~eam21@181.170.23.59 Quit: Leaving
+17 Feb 00:03:57 - QUIT: set_!set_@ip68-226-150-239.lf.br.cox.net Ping timeout: 248 seconds
+17 Feb 00:05:09 - SEND: PONG niven.freenode.net
+17 Feb 00:07:38 - SEND: PONG niven.freenode.net
+17 Feb 00:10:09 - SEND: PONG niven.freenode.net
+17 Feb 00:12:39 - SEND: PONG niven.freenode.net
+17 Feb 00:15:08 - SEND: PONG niven.freenode.net
+17 Feb 00:17:39 - SEND: PONG niven.freenode.net
+17 Feb 00:20:02 - QUIT: flebourse!5c595e9e@gateway/web/freenode/ip.92.89.94.158 Quit: Page closed
+17 Feb 00:20:09 - SEND: PONG niven.freenode.net
+17 Feb 00:22:38 - SEND: PONG niven.freenode.net
+17 Feb 00:25:09 - SEND: PONG niven.freenode.net
+17 Feb 00:27:38 - SEND: PONG niven.freenode.net
+17 Feb 00:30:09 - SEND: PONG niven.freenode.net
+17 Feb 00:32:39 - SEND: PONG niven.freenode.net
+17 Feb 00:35:08 - SEND: PONG niven.freenode.net
+17 Feb 00:37:39 - SEND: PONG niven.freenode.net
+17 Feb 00:39:01 - QUIT: Guest32960!~Eric@rrcs-98-6-73-50.sw.biz.rr.com Ping timeout: 256 seconds
+17 Feb 00:39:19 - QUIT: KimK!~KimK@2001:579:d00c:800:115a:2202:db74:a615 Ping timeout: 265 seconds
+17 Feb 00:39:24 - NICK: Eric changes nick to Guest67852
+17 Feb 00:40:09 - SEND: PONG niven.freenode.net
+17 Feb 00:42:38 - SEND: PONG niven.freenode.net
+17 Feb 00:45:09 - SEND: PONG niven.freenode.net
+17 Feb 00:46:37 - SEND: PRIVMSG #beagle-gsoc :<jkridner> ianuj03: did you stick around?
+17 Feb 00:48:38 - SEND: PONG niven.freenode.net
+17 Feb 00:51:09 - SEND: PONG niven.freenode.net
+17 Feb 00:53:38 - SEND: PONG niven.freenode.net
+17 Feb 00:56:08 - SEND: PONG niven.freenode.net
+17 Feb 00:58:39 - SEND: PONG niven.freenode.net
+17 Feb 00:59:19 - QUIT: pwm_with_pru!0e8ba0e3@gateway/web/freenode/ip.14.139.160.227 Quit: Page closed
+17 Feb 01:01:08 - SEND: PONG niven.freenode.net
+17 Feb 01:03:39 - SEND: PONG niven.freenode.net
+17 Feb 01:06:09 - SEND: PONG niven.freenode.net
+17 Feb 01:08:38 - SEND: PONG niven.freenode.net
+17 Feb 01:11:09 - SEND: PONG niven.freenode.net
+17 Feb 01:13:38 - SEND: PONG niven.freenode.net
+17 Feb 01:16:08 - SEND: PONG niven.freenode.net
+17 Feb 01:18:39 - SEND: PONG niven.freenode.net
+17 Feb 01:21:08 - SEND: PONG niven.freenode.net
+17 Feb 01:23:39 - SEND: PONG niven.freenode.net
+17 Feb 01:26:09 - SEND: PONG niven.freenode.net
+17 Feb 01:28:38 - SEND
