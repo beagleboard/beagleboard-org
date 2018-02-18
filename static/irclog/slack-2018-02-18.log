@@ -1,0 +1,82 @@
+[Sun Feb 18 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+18 Feb 00:00:02 - Sending irc NICK/USER
+18 Feb 00:00:02 - SEND: CAP REQ sasl
+18 Feb 00:00:03 - SEND: NICK beagleslackbot
+18 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+18 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'livingstone.freenode.net',
+  server: 'livingstone.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+18 Feb 00:00:13 - SEND: CAP END
+18 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'livingstone.freenode.net',
+  server: 'livingstone.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '12', 'unknown connection(s)' ] }[0m
+18 Feb 00:00:13 - MODE: beagleslackbot sets mode: +i
+18 Feb 00:00:14 - SEND: NICK beagleslackbot
+18 Feb 00:00:15 - SEND: JOIN #beagle
+18 Feb 00:00:15 - SEND: JOIN #beagle-gsoc
+18 Feb 00:00:16 - SEND: JOIN #beagle-support
+18 Feb 00:00:16 - SEND: JOIN #beagle-bonescript
+18 Feb 00:00:17 - SEND: JOIN #beagle-pro
+18 Feb 00:00:20 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+18 Feb 00:00:20 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+18 Feb 00:00:20 - SEND: MODE #beagle
+18 Feb 00:00:21 - SEND: MODE #beagle-gsoc
+18 Feb 00:00:21 - SEND: MODE #beagle-support
+18 Feb 00:00:22 - SEND: MODE #beagle-bonescript
+18 Feb 00:00:22 - SEND: MODE #beagle-pro
+18 Feb 00:02:38 - SEND: PONG livingstone.freenode.net
+18 Feb 00:04:35 - QUIT: knttl!~knttl@dyndsl-091-248-112-058.ewe-ip-backbone.de Ping timeout: 263 seconds
+18 Feb 00:05:14 - SEND: PONG livingstone.freenode.net
+18 Feb 00:07:50 - SEND: PONG livingstone.freenode.net
+18 Feb 00:10:26 - SEND: PONG livingstone.freenode.net
+18 Feb 00:13:02 - SEND: PONG livingstone.freenode.net
+18 Feb 00:15:38 - SEND: PONG livingstone.freenode.net
+18 Feb 00:18:14 - SEND: PONG livingstone.freenode.net
+18 Feb 00:20:50 - SEND: PONG livingstone.freenode.net
+18 Feb 00:23:23 - QUIT: moto-timo!~ttorling@fsf/member/moto-timo Remote host closed the connection
+18 Feb 00:23:26 - SEND: PONG livingstone.freenode.net
+18 Feb 00:26:02 - SEND: PONG livingstone.freenode.net
+18 Feb 00:28:38 - SEND: PONG livingstone.freenode.net
+18 Feb 00:31:14 - SEND: PONG livingstone.freenode.net
+18 Feb 00:33:50 - SEND: PONG livingstone.freenode.net
+18 Feb 00:36:26 - SEND: PONG livingstone.freenode.net
+18 Feb 00:39:02 - SEND: PONG livingstone.freenode.net
+18 Feb 00:41:38 - SEND: PONG livingstone.freenode.net
+18 Feb 00:44:14 - SEND: PONG livingstone.freenode.net
+18 Feb 00:46:50 - SEND: PONG livingstone.freenode.net
+18 Feb 00:49:26 - SEND: PONG livingstone.freenode.net
+18 Feb 00:52:02 - SEND: PONG livingstone.freenode.net
+18 Feb 00:52:28 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 248 seconds
+18 Feb 00:54:38 - SEND: PONG livingstone.freenode.net
+18 Feb 00:57:14 - SEND: PONG livingstone.freenode.net
+18 Feb 00:59:50 - SEND: PONG livingstone.freenode.net
+18 Feb 01:02:26 - SEND: PONG livingstone.freenode.net
+18 Feb 01:05:02 - SEND: PONG livingstone.freenode.net
+18 Feb 01:07:38 - SEND: PONG livingstone.freenode.net
+18 Feb 01:10:14 - SEND: PONG livingstone.freenode.net
+18 Feb 01:12:50 - SEND: PONG livingstone.freenode.net
+18 Feb 01:15:26 - SEND: PONG livingstone.freenode.net
+18 Feb 01:18:02 - SEND: PONG livingstone.freenode.net
+18 Feb 01:20:38 - SEND: PONG livingstone.freenode.net
+18 Feb 01:23:14 - SEND: PONG livingstone.freenode.net
+18 Feb 01:25:50 - SEND: PONG livingstone.freenode.net
+18 Feb 01:28:26 - SEND: PONG livingstone.freenode.net
+18 Feb 01:31:02 - SEND: PONG livingstone.freenode.net
+18 Feb 01:33:38 - SEND: PONG livingstone.freenode.net
+18 Feb 01:36:14 - SEND: PONG livingstone.freenode.net
+18 Feb 01:38:5
