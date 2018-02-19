@@ -20887,3 +20887,80 @@
 19 Feb 15:16:34 - SEND: PONG cherryh.freenode.net
 19 Feb 15:19:02 - SEND: PONG cherryh.freenode.net
 19 Feb 15:21:30 - SEND: PONG cherryh.freenode.net
+[Mon Feb 19 2018 15:22:33 GMT+0000 (UTC)] INFO Connecting...
+19 Feb 15:22:33 - Sending irc NICK/USER
+19 Feb 15:22:33 - SEND: CAP REQ sasl
+19 Feb 15:22:34 - SEND: NICK beagleslackbot
+19 Feb 15:22:34 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+19 Feb 15:22:43 - [01;31mUnhandled message: { prefix: 'barjavel.freenode.net',
+  server: 'barjavel.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+19 Feb 15:22:44 - SEND: CAP END
+19 Feb 15:22:44 - [01;31mUnhandled message: { prefix: 'barjavel.freenode.net',
+  server: 'barjavel.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '15', 'unknown connection(s)' ] }[0m
+19 Feb 15:22:44 - MODE: beagleslackbot sets mode: +i
+19 Feb 15:22:45 - SEND: NICK beagleslackbot
+19 Feb 15:22:45 - SEND: JOIN #beagle
+19 Feb 15:22:46 - SEND: JOIN #beagle-gsoc
+19 Feb 15:22:46 - SEND: JOIN #beagle-support
+19 Feb 15:22:47 - SEND: JOIN #beagle-bonescript
+19 Feb 15:22:47 - SEND: JOIN #beagle-pro
+19 Feb 15:22:50 - MODE: #beagle-support sets mode: +ns
+19 Feb 15:22:50 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+19 Feb 15:22:50 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+19 Feb 15:22:50 - MODE: #beagle-support sets mode: -o
+19 Feb 15:22:50 - MODE: #beagle-support sets mode: +ct-s
+19 Feb 15:22:50 - MODE: #beagle-support sets mode: +o
+19 Feb 15:22:51 - SEND: MODE #beagle
+19 Feb 15:22:51 - SEND: MODE #beagle-gsoc
+19 Feb 15:22:52 - SEND: MODE #beagle-support
+19 Feb 15:22:52 - SEND: MODE #beagle-bonescript
+19 Feb 15:22:53 - SEND: MODE #beagle-pro
+19 Feb 15:23:11 - QUIT: jkridner!~jkridner@pdpc/supporter/active/jkridner Remote host closed the connection
+19 Feb 15:24:27 - QUIT: Soheil!d52f2380@gateway/web/freenode/ip.213.47.35.128 Quit: Page closed
+19 Feb 15:24:48 - QUIT: Ionakka!~ionakka@62.183.198.241 Quit: -.-
+19 Feb 15:24:59 - SEND: PONG barjavel.freenode.net
+19 Feb 15:27:30 - SEND: PONG barjavel.freenode.net
+19 Feb 15:29:59 - SEND: PONG barjavel.freenode.net
+19 Feb 15:32:30 - SEND: PONG barjavel.freenode.net
+19 Feb 15:35:00 - SEND: PONG barjavel.freenode.net
+19 Feb 15:37:29 - SEND: PONG barjavel.freenode.net
+19 Feb 15:40:00 - SEND: PONG barjavel.freenode.net
+19 Feb 15:40:04 - QUIT: anhgiau!2a709897@gateway/web/freenode/ip.42.112.152.151 Ping timeout: 260 seconds
+19 Feb 15:42:30 - SEND: PONG barjavel.freenode.net
+19 Feb 15:44:59 - SEND: PONG barjavel.freenode.net
+19 Feb 15:46:29 - QUIT: ianuj03!~ianuj03@27.7.165.227 Read error: Connection reset by peer
+19 Feb 15:47:30 - SEND: PONG barjavel.freenode.net
+19 Feb 15:47:34 - QUIT: ianuj03!~ianuj03@27.7.165.227 Remote host closed the connection
+19 Feb 15:49:59 - SEND: PONG barjavel.freenode.net
+19 Feb 15:50:18 - QUIT: fred_tv!~fred_tv@host242-32-static.242-95-b.business.telecomitalia.it Quit: Leaving
+19 Feb 15:52:29 - SEND: PONG barjavel.freenode.net
+19 Feb 15:55:00 - SEND: PONG barjavel.freenode.net
+19 Feb 15:56:23 - QUIT: Retr0id!~Retr0id@unaffiliated/retr0id Quit: Leaving
+19 Feb 15:57:29 - SEND: PONG barjavel.freenode.net
+19 Feb 15:59:13 - QUIT: JetForMe!~JetForMe@cpe-104-32-239-147.socal.res.rr.com Ping timeout: 256 seconds
+19 Feb 16:00:00 - SEND: PONG barjavel.freenode.net
+19 Feb 16:02:30 - SEND: PONG barjavel.freenode.net
+19 Feb 16:04:25 - QUIT: ayjay_t!ajp@24-181-188-142.dhcp.nwtn.ct.charter.com Read error: Connection reset by peer
+19 Feb 16:04:59 - SEND: PONG barjavel.freenode.net
+19 Feb 16:07:30 - SEND: PONG barjavel.freenode.net
+19 Feb 16:08:39 - QUIT: ianuj03!~ianuj03@27.7.165.227 Remote host closed the connection
+19 Feb 16:09:59 - SEND: PONG barjavel.freenode.net
+19 Feb 16:12:15 - QUIT: jpsaman!~jpsaman@videolan/developer/jpsaman Quit: Leaving
+19 Feb 16:12:29 -
