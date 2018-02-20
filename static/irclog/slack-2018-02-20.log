@@ -1,0 +1,86 @@
+[Tue Feb 20 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+20 Feb 00:00:02 - Sending irc NICK/USER
+20 Feb 00:00:02 - SEND: CAP REQ sasl
+20 Feb 00:00:03 - SEND: NICK beagleslackbot
+20 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+20 Feb 00:00:09 - SEND: NICK beagleslackbot1
+20 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+20 Feb 00:00:10 - SEND: CAP END
+20 Feb 00:00:10 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '13', 'unknown connection(s)' ] }[0m
+20 Feb 00:00:10 - MODE: beagleslackbot1 sets mode: +i
+20 Feb 00:00:11 - SEND: NICK beagleslackbot
+20 Feb 00:00:11 - SEND: JOIN #beagle
+20 Feb 00:00:12 - SEND: JOIN #beagle-gsoc
+20 Feb 00:00:12 - SEND: JOIN #beagle-support
+20 Feb 00:00:13 - SEND: JOIN #beagle-bonescript
+20 Feb 00:00:13 - SEND: JOIN #beagle-pro
+20 Feb 00:00:16 - SEND: NICK beagleslackbot2
+20 Feb 00:00:16 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+20 Feb 00:00:18 - NICK: beagleslackbot1 changes nick to beagleslackbot2
+20 Feb 00:02:17 - SEND: PONG tolkien.freenode.net
+20 Feb 00:02:34 - QUIT: flebourse!5c595e9e@gateway/web/freenode/ip.92.89.94.158 Quit: Page closed
+20 Feb 00:04:25 - SEND: PONG tolkien.freenode.net
+20 Feb 00:05:45 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 264 seconds
+20 Feb 00:06:33 - SEND: PONG tolkien.freenode.net
+20 Feb 00:08:41 - SEND: PONG tolkien.freenode.net
+20 Feb 00:10:49 - SEND: PONG tolkien.freenode.net
+20 Feb 00:12:57 - SEND: PONG tolkien.freenode.net
+20 Feb 00:15:05 - SEND: PONG tolkien.freenode.net
+20 Feb 00:17:13 - SEND: PONG tolkien.freenode.net
+20 Feb 00:19:21 - SEND: PONG tolkien.freenode.net
+20 Feb 00:21:29 - SEND: PONG tolkien.freenode.net
+20 Feb 00:23:37 - SEND: PONG tolkien.freenode.net
+20 Feb 00:25:45 - SEND: PONG tolkien.freenode.net
+20 Feb 00:27:53 - SEND: PONG tolkien.freenode.net
+20 Feb 00:30:01 - SEND: PONG tolkien.freenode.net
+20 Feb 00:32:09 - SEND: PONG tolkien.freenode.net
+20 Feb 00:34:17 - SEND: PONG tolkien.freenode.net
+20 Feb 00:36:25 - SEND: PONG tolkien.freenode.net
+20 Feb 00:38:33 - SEND: PONG tolkien.freenode.net
+20 Feb 00:40:41 - SEND: PONG tolkien.freenode.net
+20 Feb 00:42:49 - SEND: PONG tolkien.freenode.net
+20 Feb 00:44:57 - SEND: PONG tolkien.freenode.net
+20 Feb 00:47:05 - SEND: PONG tolkien.freenode.net
+20 Feb 00:49:13 - SEND: PONG tolkien.freenode.net
+20 Feb 00:51:21 - SEND: PONG tolkien.freenode.net
+20 Feb 00:53:29 - SEND: PONG tolkien.freenode.net
+20 Feb 00:55:37 - SEND: PONG tolkien.freenode.net
+20 Feb 00:57:45 - SEND: PONG tolkien.freenode.net
+20 Feb 00:59:53 - SEND: PONG tolkien.freenode.net
+20 Feb 01:02:01 - SEND: PONG tolkien.freenode.net
+20 Feb 01:04:09 - SEND: PONG tolkien.freenode.net
+20 Feb 01:06:17 - SEND: PONG tolkien.freenode.net
+20 Feb 01:08:25 - SEND: PONG tolkien.freenode.net
+20 Feb 01:10:33 - SEND: PONG tolkien.freenode.net
+20 Feb 01:12:41 - SEND: PONG tolkien.freenode.net
+20 Feb 01:14:49 - SEND: PONG tolkien.freenode.net
+20 Feb 01:16:57 - SEND: PONG tolkien.freenode.net
+20 Feb 01:19:05 - SEND: PONG tolkien.freenode.net
+20 Feb 01:21:13 - SEND: PONG tolkien.freenode.net
+20 Feb 01:23:21 - SEND: PONG tolkien.freenode.net
+20 Feb 01:25:29 - SEND: PONG tolkien.freenode.net
+20 Feb 01:27:37 - SEND: PONG tolkien.freenode.net
+20 Feb 01:29:45 - SEND: PONG tolkien.freenode.net
+20 Feb 01:31:53 - SEND: PONG tolkien.freenode.net
+20 Feb 01:34:01 - SEND: PONG tolkien.freenode.net
+20 Feb 01:36:09 - SEND: PONG tolkien.freenode.net
+20 Feb 01:38:17 - SEND: P
