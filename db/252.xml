@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="252" name="board" prototype="Page" created="1216658260095" lastModified="1518997182525">
+  <hopobject id="252" name="board" prototype="Page" created="1216658260095" lastModified="1519229979396">
   <hop:parent idref="121" prototyperef="Page"/>
     <property propertyname="list_children value="></property>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -58,7 +58,7 @@
 </body>
     <pseudoparent idref="121" prototyperef="Page"/>
     <list_children>true</list_children>
-    <pvcount type="float">2602.0</pvcount>
+    <pvcount type="float">2608.0</pvcount>
     <email></email>
     <http_referer>http://beagleboard.org/support/board/edit</http_referer>
     <http_host>beagleboard.org</http_host>
@@ -274,5 +274,6 @@
     <hop:child idref="2841" prototyperef="Page"/>
     <hop:child idref="2843" prototyperef="Page"/>
     <hop:child idref="3163" prototyperef="Page"/>
+    <hop:child idref="4275" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
