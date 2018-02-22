@@ -1,0 +1,83 @@
+[Thu Feb 22 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+22 Feb 00:00:02 - Sending irc NICK/USER
+22 Feb 00:00:02 - SEND: CAP REQ sasl
+22 Feb 00:00:03 - SEND: NICK beagleslackbot
+22 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+22 Feb 00:00:12 - SEND: NICK beagleslackbot1
+22 Feb 00:00:12 - [01;31mUnhandled message: { prefix: 'verne.freenode.net',
+  server: 'verne.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+22 Feb 00:00:13 - SEND: CAP END
+22 Feb 00:00:13 - [01;31mUnhandled message: { prefix: 'verne.freenode.net',
+  server: 'verne.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '39', 'unknown connection(s)' ] }[0m
+22 Feb 00:00:13 - MODE: beagleslackbot1 sets mode: +i
+22 Feb 00:00:14 - SEND: NICK beagleslackbot
+22 Feb 00:00:14 - SEND: JOIN #beagle
+22 Feb 00:00:15 - SEND: JOIN #beagle-gsoc
+22 Feb 00:00:15 - SEND: JOIN #beagle-support
+22 Feb 00:00:16 - SEND: JOIN #beagle-bonescript
+22 Feb 00:00:16 - SEND: JOIN #beagle-pro
+22 Feb 00:00:19 - SEND: NICK beagleslackbot2
+22 Feb 00:00:19 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', '#beagle', 'http://beagleboard.org' ] }[0m
+22 Feb 00:00:21 - SEND: NICK beagleslackbot3
+22 Feb 00:00:22 - SEND: NICK beagleslackbot4
+22 Feb 00:00:22 - NICK: beagleslackbot1 changes nick to beagleslackbot4
+22 Feb 00:02:55 - SEND: PONG verne.freenode.net
+22 Feb 00:05:16 - SEND: PONG verne.freenode.net
+22 Feb 00:07:35 - SEND: PONG verne.freenode.net
+22 Feb 00:09:56 - SEND: PONG verne.freenode.net
+22 Feb 00:10:46 - QUIT: flebourse!4d8853f1@gateway/web/freenode/ip.77.136.83.241 Quit: Page closed
+22 Feb 00:12:05 - QUIT: spiritus!29cadb41@gateway/web/freenode/ip.41.202.219.65 Ping timeout: 260 seconds
+22 Feb 00:12:16 - SEND: PONG verne.freenode.net
+22 Feb 00:13:15 - QUIT: spiritus_!29cadb41@gateway/web/freenode/ip.41.202.219.65 Ping timeout: 260 seconds
+22 Feb 00:14:35 - SEND: PONG verne.freenode.net
+22 Feb 00:16:56 - SEND: PONG verne.freenode.net
+22 Feb 00:19:15 - SEND: PONG verne.freenode.net
+22 Feb 00:21:35 - SEND: PONG verne.freenode.net
+22 Feb 00:23:56 - SEND: PONG verne.freenode.net
+22 Feb 00:24:54 - QUIT: wa5qjh!~quassel@175.158.225.213 Changing host
+22 Feb 00:26:15 - SEND: PONG verne.freenode.net
+22 Feb 00:28:35 - SEND: PONG verne.freenode.net
+22 Feb 00:30:56 - SEND: PONG verne.freenode.net
+22 Feb 00:33:15 - SEND: PONG verne.freenode.net
+22 Feb 00:35:35 - SEND: PONG verne.freenode.net
+22 Feb 00:37:56 - SEND: PONG verne.freenode.net
+22 Feb 00:38:39 - QUIT: wa5qjh!~quassel@freebsd/user/wa5qjh Remote host closed the connection
+22 Feb 00:40:15 - SEND: PONG verne.freenode.net
+22 Feb 00:42:35 - SEND: PONG verne.freenode.net
+22 Feb 00:44:56 - SEND: PONG verne.freenode.net
+22 Feb 00:46:23 - QUIT: ayjay_t!ajp@24-181-188-142.dhcp.nwtn.ct.charter.com Read error: Connection reset by peer
+22 Feb 00:47:15 - SEND: PONG verne.freenode.net
+22 Feb 00:49:35 - SEND: PONG verne.freenode.net
+22 Feb 00:51:56 - SEND: PONG verne.freenode.net
+22 Feb 00:54:15 - SEND: PONG verne.freenode.net
+22 Feb 00:56:36 - SEND: PONG verne.freenode.net
+22 Feb 00:58:55 - SEND: PONG verne.freenode.net
+22 Feb 01:01:15 - SEND: PONG verne.freenode.net
+22 Feb 01:03:36 - SEND: PONG verne.freenode.net
+22 Feb 01:05:55 - SEND: PONG verne.freenode.net
+22 Feb 01:08:15 - SEND: PONG verne.freenode.net
+22 Feb 01:10:36 - SEND: PONG verne.freenode.net
+22 Feb 01:12:55 - SEND: PONG verne.freenode.net
+22 Feb 01:14:47 - QUIT: chomwitt!~chomwitt@2a02:587:dc08:a00:9d6c:1d0c:2780:b73f Ping timeout: 255 seconds
+22 Feb 01:15:15 - SEND: PONG verne.freenode.net
+22 Feb 01:17:36 - SEND: PONG verne.freenode.net
+22 Feb 01:19:55 - SEND: PONG verne.freenode.net
+22 Feb 01:22:15 - SEND: PONG verne.freenode.net
+22 Feb 01:24:36 - SE
