@@ -1,0 +1,1401 @@
+[Sun Feb 25 2018 00:00:02 GMT+0000 (UTC)] INFO Connecting...
+25 Feb 00:00:02 - Sending irc NICK/USER
+25 Feb 00:00:02 - SEND: CAP REQ sasl
+25 Feb 00:00:03 - SEND: NICK beagleslackbot
+25 Feb 00:00:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:00:13 - SEND: NICK beagleslackbot1
+25 Feb 00:00:14 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot1', 'SASL authentication failed' ] }[0m
+25 Feb 00:00:43 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:00:43 - Connection got "end" event
+25 Feb 00:00:43 - Connection got "close" event
+25 Feb 00:00:43 - Disconnected: reconnecting
+25 Feb 00:00:43 - Waiting 2000ms before retrying
+25 Feb 00:00:45 - Sending irc NICK/USER
+25 Feb 00:00:46 - SEND: CAP REQ sasl
+25 Feb 00:00:46 - SEND: NICK beagleslackbot
+25 Feb 00:00:47 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:00:55 - SEND: NICK beagleslackbot2
+25 Feb 00:00:55 - SEND: NICK beagleslackbot3
+25 Feb 00:00:56 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ '*', 'SASL authentication failed' ] }[0m
+25 Feb 00:00:56 - SEND: NICK beagleslackbot4
+25 Feb 00:00:57 - SEND: NICK beagleslackbot5
+25 Feb 00:00:58 - SEND: NICK beagleslackbot6
+25 Feb 00:01:36 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:01:36 - Connection got "end" event
+25 Feb 00:01:36 - Connection got "close" event
+25 Feb 00:01:36 - Disconnected: reconnecting
+25 Feb 00:01:36 - Waiting 2000ms before retrying
+25 Feb 00:01:38 - Sending irc NICK/USER
+25 Feb 00:01:38 - SEND: CAP REQ sasl
+25 Feb 00:01:39 - SEND: NICK beagleslackbot
+25 Feb 00:01:39 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:01:48 - SEND: NICK beagleslackbot7
+25 Feb 00:02:06 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot7', 'SASL authentication failed' ] }[0m
+25 Feb 00:02:20 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:02:20 - Connection got "end" event
+25 Feb 00:02:20 - Connection got "close" event
+25 Feb 00:02:20 - Disconnected: reconnecting
+25 Feb 00:02:20 - Waiting 2000ms before retrying
+25 Feb 00:02:22 - Sending irc NICK/USER
+25 Feb 00:02:22 - SEND: CAP REQ sasl
+25 Feb 00:02:22 - SEND: NICK beagleslackbot
+25 Feb 00:02:23 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:02:30 - SEND: NICK beagleslackbot8
+25 Feb 00:02:31 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot8', 'SASL authentication failed' ] }[0m
+25 Feb 00:03:12 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:03:12 - Connection got "end" event
+25 Feb 00:03:12 - Connection got "close" event
+25 Feb 00:03:12 - Disconnected: reconnecting
+25 Feb 00:03:12 - Waiting 2000ms before retrying
+25 Feb 00:03:14 - Sending irc NICK/USER
+25 Feb 00:03:14 - SEND: CAP REQ sasl
+25 Feb 00:03:15 - SEND: NICK beagleslackbot
+25 Feb 00:03:15 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:03:23 - SEND: NICK beagleslackbot9
+25 Feb 00:03:24 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot9', 'SASL authentication failed' ] }[0m
+25 Feb 00:04:01 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:04:01 - Connection got "end" event
+25 Feb 00:04:01 - Connection got "close" event
+25 Feb 00:04:01 - Disconnected: reconnecting
+25 Feb 00:04:01 - Waiting 2000ms before retrying
+25 Feb 00:04:04 - Sending irc NICK/USER
+25 Feb 00:04:04 - SEND: CAP REQ sasl
+25 Feb 00:04:04 - SEND: NICK beagleslackbot
+25 Feb 00:04:05 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:04:21 - SEND: NICK beagleslackbot10
+25 Feb 00:04:22 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot10', 'SASL authentication failed' ] }[0m
+25 Feb 00:04:36 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:04:36 - Connection got "end" event
+25 Feb 00:04:36 - Connection got "close" event
+25 Feb 00:04:36 - Disconnected: reconnecting
+25 Feb 00:04:36 - Waiting 2000ms before retrying
+25 Feb 00:04:38 - Sending irc NICK/USER
+25 Feb 00:04:38 - SEND: CAP REQ sasl
+25 Feb 00:04:39 - SEND: NICK beagleslackbot
+25 Feb 00:04:39 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:04:47 - SEND: NICK beagleslackbot11
+25 Feb 00:05:13 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:05:13 - Connection got "end" event
+25 Feb 00:05:13 - Connection got "close" event
+25 Feb 00:05:13 - Disconnected: reconnecting
+25 Feb 00:05:13 - Waiting 2000ms before retrying
+25 Feb 00:05:15 - Sending irc NICK/USER
+25 Feb 00:05:16 - SEND: CAP REQ sasl
+25 Feb 00:05:16 - SEND: NICK beagleslackbot
+25 Feb 00:05:17 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:05:23 - SEND: NICK beagleslackbot12
+25 Feb 00:05:41 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot12', 'SASL authentication failed' ] }[0m
+25 Feb 00:05:51 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:05:51 - Connection got "end" event
+25 Feb 00:05:51 - Connection got "close" event
+25 Feb 00:05:51 - Disconnected: reconnecting
+25 Feb 00:05:51 - Waiting 2000ms before retrying
+25 Feb 00:05:54 - Sending irc NICK/USER
+25 Feb 00:05:54 - SEND: CAP REQ sasl
+25 Feb 00:05:54 - SEND: NICK beagleslackbot
+25 Feb 00:05:55 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:06:05 - SEND: NICK beagleslackbot13
+25 Feb 00:06:11 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot13', 'SASL authentication failed' ] }[0m
+25 Feb 00:06:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:06:29 - Connection got "end" event
+25 Feb 00:06:29 - Connection got "close" event
+25 Feb 00:06:29 - Disconnected: reconnecting
+25 Feb 00:06:29 - Waiting 2000ms before retrying
+25 Feb 00:06:31 - Sending irc NICK/USER
+25 Feb 00:06:32 - SEND: CAP REQ sasl
+25 Feb 00:06:32 - SEND: NICK beagleslackbot
+25 Feb 00:06:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:06:43 - SEND: NICK beagleslackbot14
+25 Feb 00:06:43 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot14', 'SASL authentication failed' ] }[0m
+25 Feb 00:07:26 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:07:26 - Connection got "end" event
+25 Feb 00:07:26 - Connection got "close" event
+25 Feb 00:07:26 - Disconnected: reconnecting
+25 Feb 00:07:26 - Waiting 2000ms before retrying
+25 Feb 00:07:28 - Sending irc NICK/USER
+25 Feb 00:07:28 - SEND: CAP REQ sasl
+25 Feb 00:07:28 - SEND: NICK beagleslackbot
+25 Feb 00:07:29 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:07:37 - SEND: NICK beagleslackbot15
+25 Feb 00:07:38 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot15', 'SASL authentication failed' ] }[0m
+25 Feb 00:08:08 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:08:08 - Connection got "end" event
+25 Feb 00:08:08 - Connection got "close" event
+25 Feb 00:08:08 - Disconnected: reconnecting
+25 Feb 00:08:08 - Waiting 2000ms before retrying
+25 Feb 00:08:10 - Sending irc NICK/USER
+25 Feb 00:08:11 - SEND: CAP REQ sasl
+25 Feb 00:08:11 - SEND: NICK beagleslackbot
+25 Feb 00:08:12 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:08:17 - SEND: NICK beagleslackbot16
+25 Feb 00:08:18 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot16', 'SASL authentication failed' ] }[0m
+25 Feb 00:08:47 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:08:47 - Connection got "end" event
+25 Feb 00:08:47 - Connection got "close" event
+25 Feb 00:08:47 - Disconnected: reconnecting
+25 Feb 00:08:47 - Waiting 2000ms before retrying
+25 Feb 00:08:50 - Sending irc NICK/USER
+25 Feb 00:08:50 - SEND: CAP REQ sasl
+25 Feb 00:08:50 - SEND: NICK beagleslackbot
+25 Feb 00:08:51 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:09:00 - SEND: NICK beagleslackbot17
+25 Feb 00:09:01 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot17', 'SASL authentication failed' ] }[0m
+25 Feb 00:09:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:09:29 - Connection got "end" event
+25 Feb 00:09:29 - Connection got "close" event
+25 Feb 00:09:29 - Disconnected: reconnecting
+25 Feb 00:09:29 - Waiting 2000ms before retrying
+25 Feb 00:09:31 - Sending irc NICK/USER
+25 Feb 00:09:32 - SEND: CAP REQ sasl
+25 Feb 00:09:32 - SEND: NICK beagleslackbot
+25 Feb 00:09:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:09:43 - SEND: NICK beagleslackbot18
+25 Feb 00:09:45 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot18', 'SASL authentication failed' ] }[0m
+25 Feb 00:10:16 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:10:16 - Connection got "end" event
+25 Feb 00:10:16 - Connection got "close" event
+25 Feb 00:10:16 - Disconnected: reconnecting
+25 Feb 00:10:16 - Waiting 2000ms before retrying
+25 Feb 00:10:18 - Sending irc NICK/USER
+25 Feb 00:10:18 - SEND: CAP REQ sasl
+25 Feb 00:10:18 - SEND: NICK beagleslackbot
+25 Feb 00:10:19 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:10:27 - SEND: NICK beagleslackbot19
+25 Feb 00:10:28 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot19', 'SASL authentication failed' ] }[0m
+25 Feb 00:11:03 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:11:03 - Connection got "end" event
+25 Feb 00:11:03 - Connection got "close" event
+25 Feb 00:11:03 - Disconnected: reconnecting
+25 Feb 00:11:03 - Waiting 2000ms before retrying
+25 Feb 00:11:05 - Sending irc NICK/USER
+25 Feb 00:11:06 - SEND: CAP REQ sasl
+25 Feb 00:11:06 - SEND: NICK beagleslackbot
+25 Feb 00:11:07 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:11:16 - SEND: NICK beagleslackbot20
+25 Feb 00:11:17 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot20', 'SASL authentication failed' ] }[0m
+25 Feb 00:11:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:11:49 - Connection got "end" event
+25 Feb 00:11:49 - Connection got "close" event
+25 Feb 00:11:49 - Disconnected: reconnecting
+25 Feb 00:11:49 - Waiting 2000ms before retrying
+25 Feb 00:11:51 - Sending irc NICK/USER
+25 Feb 00:11:52 - SEND: CAP REQ sasl
+25 Feb 00:11:52 - SEND: NICK beagleslackbot
+25 Feb 00:11:53 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:12:03 - SEND: NICK beagleslackbot21
+25 Feb 00:12:03 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot21', 'SASL authentication failed' ] }[0m
+25 Feb 00:12:27 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:12:27 - Connection got "end" event
+25 Feb 00:12:27 - Connection got "close" event
+25 Feb 00:12:27 - Disconnected: reconnecting
+25 Feb 00:12:27 - Waiting 2000ms before retrying
+25 Feb 00:12:30 - Sending irc NICK/USER
+25 Feb 00:12:30 - SEND: CAP REQ sasl
+25 Feb 00:12:31 - SEND: NICK beagleslackbot
+25 Feb 00:12:31 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:12:41 - SEND: NICK beagleslackbot22
+25 Feb 00:12:41 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot22', 'SASL authentication failed' ] }[0m
+25 Feb 00:13:09 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:13:09 - Connection got "end" event
+25 Feb 00:13:09 - Connection got "close" event
+25 Feb 00:13:09 - Disconnected: reconnecting
+25 Feb 00:13:09 - Waiting 2000ms before retrying
+25 Feb 00:13:11 - Sending irc NICK/USER
+25 Feb 00:13:12 - SEND: CAP REQ sasl
+25 Feb 00:13:12 - SEND: NICK beagleslackbot
+25 Feb 00:13:13 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:13:23 - SEND: NICK beagleslackbot23
+25 Feb 00:13:24 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot23', 'SASL authentication failed' ] }[0m
+25 Feb 00:14:14 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:14:14 - Connection got "end" event
+25 Feb 00:14:14 - Connection got "close" event
+25 Feb 00:14:14 - Disconnected: reconnecting
+25 Feb 00:14:14 - Waiting 2000ms before retrying
+25 Feb 00:14:16 - Sending irc NICK/USER
+25 Feb 00:14:16 - SEND: CAP REQ sasl
+25 Feb 00:14:17 - SEND: NICK beagleslackbot
+25 Feb 00:14:17 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:14:23 - SEND: NICK beagleslackbot24
+25 Feb 00:14:25 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot24', 'SASL authentication failed' ] }[0m
+25 Feb 00:14:48 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:14:48 - Connection got "end" event
+25 Feb 00:14:48 - Connection got "close" event
+25 Feb 00:14:48 - Disconnected: reconnecting
+25 Feb 00:14:48 - Waiting 2000ms before retrying
+25 Feb 00:14:50 - Sending irc NICK/USER
+25 Feb 00:14:50 - SEND: CAP REQ sasl
+25 Feb 00:14:50 - SEND: NICK beagleslackbot
+25 Feb 00:14:51 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:15:00 - SEND: NICK beagleslackbot25
+25 Feb 00:15:02 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot25', 'SASL authentication failed' ] }[0m
+25 Feb 00:15:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:15:29 - Connection got "end" event
+25 Feb 00:15:29 - Connection got "close" event
+25 Feb 00:15:29 - Disconnected: reconnecting
+25 Feb 00:15:29 - Waiting 2000ms before retrying
+25 Feb 00:15:31 - Sending irc NICK/USER
+25 Feb 00:15:32 - SEND: CAP REQ sasl
+25 Feb 00:15:32 - SEND: NICK beagleslackbot
+25 Feb 00:15:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:15:42 - SEND: NICK beagleslackbot26
+25 Feb 00:15:43 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot26', 'SASL authentication failed' ] }[0m
+25 Feb 00:16:07 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:16:07 - Connection got "end" event
+25 Feb 00:16:07 - Connection got "close" event
+25 Feb 00:16:07 - Disconnected: reconnecting
+25 Feb 00:16:07 - Waiting 2000ms before retrying
+25 Feb 00:16:10 - Sending irc NICK/USER
+25 Feb 00:16:10 - SEND: CAP REQ sasl
+25 Feb 00:16:10 - SEND: NICK beagleslackbot
+25 Feb 00:16:11 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:16:20 - SEND: NICK beagleslackbot27
+25 Feb 00:16:22 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot27', 'SASL authentication failed' ] }[0m
+25 Feb 00:16:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:16:49 - Connection got "end" event
+25 Feb 00:16:49 - Connection got "close" event
+25 Feb 00:16:49 - Disconnected: reconnecting
+25 Feb 00:16:49 - Waiting 2000ms before retrying
+25 Feb 00:16:51 - Sending irc NICK/USER
+25 Feb 00:16:51 - SEND: CAP REQ sasl
+25 Feb 00:16:52 - SEND: NICK beagleslackbot
+25 Feb 00:16:52 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:17:03 - SEND: NICK beagleslackbot28
+25 Feb 00:17:04 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot28', 'SASL authentication failed' ] }[0m
+25 Feb 00:17:38 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:17:38 - Connection got "end" event
+25 Feb 00:17:38 - Connection got "close" event
+25 Feb 00:17:38 - Disconnected: reconnecting
+25 Feb 00:17:38 - Waiting 2000ms before retrying
+25 Feb 00:17:40 - Sending irc NICK/USER
+25 Feb 00:17:40 - SEND: CAP REQ sasl
+25 Feb 00:17:41 - SEND: NICK beagleslackbot
+25 Feb 00:17:41 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:17:49 - SEND: NICK beagleslackbot29
+25 Feb 00:18:22 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot29', 'SASL authentication failed' ] }[0m
+25 Feb 00:18:41 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:18:41 - Connection got "end" event
+25 Feb 00:18:41 - Connection got "close" event
+25 Feb 00:18:41 - Disconnected: reconnecting
+25 Feb 00:18:41 - Waiting 2000ms before retrying
+25 Feb 00:18:44 - Sending irc NICK/USER
+25 Feb 00:18:44 - SEND: CAP REQ sasl
+25 Feb 00:18:45 - SEND: NICK beagleslackbot
+25 Feb 00:18:45 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:18:52 - SEND: NICK beagleslackbot30
+25 Feb 00:18:55 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot30', 'SASL authentication failed' ] }[0m
+25 Feb 00:19:23 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:19:23 - Connection got "end" event
+25 Feb 00:19:23 - Connection got "close" event
+25 Feb 00:19:23 - Disconnected: reconnecting
+25 Feb 00:19:23 - Waiting 2000ms before retrying
+25 Feb 00:19:25 - Sending irc NICK/USER
+25 Feb 00:19:26 - SEND: CAP REQ sasl
+25 Feb 00:19:26 - SEND: NICK beagleslackbot
+25 Feb 00:19:27 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:19:35 - SEND: NICK beagleslackbot31
+25 Feb 00:19:47 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot31', 'SASL authentication failed' ] }[0m
+25 Feb 00:20:17 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:20:17 - Connection got "end" event
+25 Feb 00:20:17 - Connection got "close" event
+25 Feb 00:20:17 - Disconnected: reconnecting
+25 Feb 00:20:17 - Waiting 2000ms before retrying
+25 Feb 00:20:20 - Sending irc NICK/USER
+25 Feb 00:20:20 - SEND: CAP REQ sasl
+25 Feb 00:20:20 - SEND: NICK beagleslackbot
+25 Feb 00:20:21 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:20:27 - SEND: NICK beagleslackbot32
+25 Feb 00:20:28 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot32', 'SASL authentication failed' ] }[0m
+25 Feb 00:21:03 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:21:03 - Connection got "end" event
+25 Feb 00:21:03 - Connection got "close" event
+25 Feb 00:21:03 - Disconnected: reconnecting
+25 Feb 00:21:03 - Waiting 2000ms before retrying
+25 Feb 00:21:05 - Sending irc NICK/USER
+25 Feb 00:21:05 - SEND: CAP REQ sasl
+25 Feb 00:21:06 - SEND: NICK beagleslackbot
+25 Feb 00:21:06 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:21:13 - SEND: NICK beagleslackbot33
+25 Feb 00:21:14 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot33', 'SASL authentication failed' ] }[0m
+25 Feb 00:21:53 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:21:53 - Connection got "end" event
+25 Feb 00:21:53 - Connection got "close" event
+25 Feb 00:21:53 - Disconnected: reconnecting
+25 Feb 00:21:53 - Waiting 2000ms before retrying
+25 Feb 00:21:56 - Sending irc NICK/USER
+25 Feb 00:21:56 - SEND: CAP REQ sasl
+25 Feb 00:21:56 - SEND: NICK beagleslackbot
+25 Feb 00:21:57 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:22:03 - SEND: NICK beagleslackbot34
+25 Feb 00:22:04 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot34', 'SASL authentication failed' ] }[0m
+25 Feb 00:22:57 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:22:57 - Connection got "end" event
+25 Feb 00:22:57 - Connection got "close" event
+25 Feb 00:22:57 - Disconnected: reconnecting
+25 Feb 00:22:57 - Waiting 2000ms before retrying
+25 Feb 00:23:00 - Sending irc NICK/USER
+25 Feb 00:23:00 - SEND: CAP REQ sasl
+25 Feb 00:23:00 - SEND: NICK beagleslackbot
+25 Feb 00:23:01 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:23:08 - SEND: NICK beagleslackbot35
+25 Feb 00:23:09 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot35', 'SASL authentication failed' ] }[0m
+25 Feb 00:23:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:23:49 - Connection got "end" event
+25 Feb 00:23:49 - Connection got "close" event
+25 Feb 00:23:49 - Disconnected: reconnecting
+25 Feb 00:23:49 - Waiting 2000ms before retrying
+25 Feb 00:23:52 - Sending irc NICK/USER
+25 Feb 00:23:52 - SEND: CAP REQ sasl
+25 Feb 00:23:52 - SEND: NICK beagleslackbot
+25 Feb 00:23:53 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:24:03 - SEND: NICK beagleslackbot36
+25 Feb 00:24:04 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot36', 'SASL authentication failed' ] }[0m
+25 Feb 00:24:33 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:24:33 - Connection got "end" event
+25 Feb 00:24:33 - Connection got "close" event
+25 Feb 00:24:33 - Disconnected: reconnecting
+25 Feb 00:24:33 - Waiting 2000ms before retrying
+25 Feb 00:24:36 - Sending irc NICK/USER
+25 Feb 00:24:36 - SEND: CAP REQ sasl
+25 Feb 00:24:37 - SEND: NICK beagleslackbot
+25 Feb 00:24:37 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:24:43 - SEND: NICK beagleslackbot37
+25 Feb 00:24:44 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot37', 'SASL authentication failed' ] }[0m
+25 Feb 00:25:34 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:25:34 - Connection got "end" event
+25 Feb 00:25:34 - Connection got "close" event
+25 Feb 00:25:34 - Disconnected: reconnecting
+25 Feb 00:25:34 - Waiting 2000ms before retrying
+25 Feb 00:25:36 - Sending irc NICK/USER
+25 Feb 00:25:36 - SEND: CAP REQ sasl
+25 Feb 00:25:37 - SEND: NICK beagleslackbot
+25 Feb 00:25:37 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:25:43 - SEND: NICK beagleslackbot38
+25 Feb 00:25:44 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot38', 'SASL authentication failed' ] }[0m
+25 Feb 00:26:23 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:26:23 - Connection got "end" event
+25 Feb 00:26:23 - Connection got "close" event
+25 Feb 00:26:23 - Disconnected: reconnecting
+25 Feb 00:26:23 - Waiting 2000ms before retrying
+25 Feb 00:26:26 - Sending irc NICK/USER
+25 Feb 00:26:26 - SEND: CAP REQ sasl
+25 Feb 00:26:26 - SEND: NICK beagleslackbot
+25 Feb 00:26:27 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:26:55 - SEND: NICK beagleslackbot39
+25 Feb 00:26:56 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot39', 'SASL authentication failed' ] }[0m
+25 Feb 00:27:16 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: 52.26.75.20 (Connection timed out)' ] }[0m
+25 Feb 00:27:16 - Connection got "end" event
+25 Feb 00:27:16 - Connection got "close" event
+25 Feb 00:27:16 - Disconnected: reconnecting
+25 Feb 00:27:16 - Waiting 2000ms before retrying
+25 Feb 00:27:18 - Sending irc NICK/USER
+25 Feb 00:27:18 - SEND: CAP REQ sasl
+25 Feb 00:27:19 - SEND: NICK beagleslackbot
+25 Feb 00:27:19 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:27:26 - SEND: NICK beagleslackbot40
+25 Feb 00:27:27 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot40', 'SASL authentication failed' ] }[0m
+25 Feb 00:27:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:27:49 - Connection got "end" event
+25 Feb 00:27:49 - Connection got "close" event
+25 Feb 00:27:49 - Disconnected: reconnecting
+25 Feb 00:27:49 - Waiting 2000ms before retrying
+25 Feb 00:27:51 - Sending irc NICK/USER
+25 Feb 00:27:52 - SEND: CAP REQ sasl
+25 Feb 00:27:52 - SEND: NICK beagleslackbot
+25 Feb 00:27:53 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:27:59 - SEND: NICK beagleslackbot41
+25 Feb 00:28:00 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot41', 'SASL authentication failed' ] }[0m
+25 Feb 00:28:33 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:28:33 - Connection got "end" event
+25 Feb 00:28:33 - Connection got "close" event
+25 Feb 00:28:33 - Disconnected: reconnecting
+25 Feb 00:28:33 - Waiting 2000ms before retrying
+25 Feb 00:28:35 - Sending irc NICK/USER
+25 Feb 00:28:35 - SEND: CAP REQ sasl
+25 Feb 00:28:36 - SEND: NICK beagleslackbot
+25 Feb 00:28:36 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:28:43 - SEND: NICK beagleslackbot42
+25 Feb 00:28:44 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot42', 'SASL authentication failed' ] }[0m
+25 Feb 00:29:32 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:29:32 - Connection got "end" event
+25 Feb 00:29:32 - Connection got "close" event
+25 Feb 00:29:32 - Disconnected: reconnecting
+25 Feb 00:29:32 - Waiting 2000ms before retrying
+25 Feb 00:29:34 - Sending irc NICK/USER
+25 Feb 00:29:34 - SEND: CAP REQ sasl
+25 Feb 00:29:34 - SEND: NICK beagleslackbot
+25 Feb 00:29:35 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:29:43 - SEND: NICK beagleslackbot43
+25 Feb 00:29:44 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot43', 'SASL authentication failed' ] }[0m
+25 Feb 00:30:06 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:30:06 - Connection got "end" event
+25 Feb 00:30:06 - Connection got "close" event
+25 Feb 00:30:06 - Disconnected: reconnecting
+25 Feb 00:30:06 - Waiting 2000ms before retrying
+25 Feb 00:30:08 - Sending irc NICK/USER
+25 Feb 00:30:08 - SEND: CAP REQ sasl
+25 Feb 00:30:08 - SEND: NICK beagleslackbot
+25 Feb 00:30:09 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:30:17 - SEND: NICK beagleslackbot44
+25 Feb 00:30:18 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot44', 'SASL authentication failed' ] }[0m
+25 Feb 00:30:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:30:49 - Connection got "end" event
+25 Feb 00:30:49 - Connection got "close" event
+25 Feb 00:30:49 - Disconnected: reconnecting
+25 Feb 00:30:49 - Waiting 2000ms before retrying
+25 Feb 00:30:51 - Sending irc NICK/USER
+25 Feb 00:30:52 - SEND: CAP REQ sasl
+25 Feb 00:30:52 - SEND: NICK beagleslackbot
+25 Feb 00:30:53 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:30:59 - SEND: NICK beagleslackbot45
+25 Feb 00:31:01 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot45', 'SASL authentication failed' ] }[0m
+25 Feb 00:31:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:31:29 - Connection got "end" event
+25 Feb 00:31:29 - Connection got "close" event
+25 Feb 00:31:29 - Disconnected: reconnecting
+25 Feb 00:31:29 - Waiting 2000ms before retrying
+25 Feb 00:31:32 - Sending irc NICK/USER
+25 Feb 00:31:32 - SEND: CAP REQ sasl
+25 Feb 00:31:32 - SEND: NICK beagleslackbot
+25 Feb 00:31:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:31:40 - SEND: NICK beagleslackbot46
+25 Feb 00:31:43 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot46', 'SASL authentication failed' ] }[0m
+25 Feb 00:32:18 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:32:18 - Connection got "end" event
+25 Feb 00:32:18 - Connection got "close" event
+25 Feb 00:32:18 - Disconnected: reconnecting
+25 Feb 00:32:18 - Waiting 2000ms before retrying
+25 Feb 00:32:20 - Sending irc NICK/USER
+25 Feb 00:32:21 - SEND: CAP REQ sasl
+25 Feb 00:32:21 - SEND: NICK beagleslackbot
+25 Feb 00:32:22 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:32:31 - SEND: NICK beagleslackbot47
+25 Feb 00:32:32 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot47', 'SASL authentication failed' ] }[0m
+25 Feb 00:33:09 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:33:09 - Connection got "end" event
+25 Feb 00:33:09 - Connection got "close" event
+25 Feb 00:33:09 - Disconnected: reconnecting
+25 Feb 00:33:09 - Waiting 2000ms before retrying
+25 Feb 00:33:11 - Sending irc NICK/USER
+25 Feb 00:33:12 - SEND: CAP REQ sasl
+25 Feb 00:33:12 - SEND: NICK beagleslackbot
+25 Feb 00:33:13 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:33:19 - SEND: NICK beagleslackbot48
+25 Feb 00:33:20 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot48', 'SASL authentication failed' ] }[0m
+25 Feb 00:33:58 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:33:58 - Connection got "end" event
+25 Feb 00:33:58 - Connection got "close" event
+25 Feb 00:33:58 - Disconnected: reconnecting
+25 Feb 00:33:58 - Waiting 2000ms before retrying
+25 Feb 00:34:00 - Sending irc NICK/USER
+25 Feb 00:34:01 - SEND: CAP REQ sasl
+25 Feb 00:34:01 - SEND: NICK beagleslackbot
+25 Feb 00:34:02 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:34:08 - SEND: NICK beagleslackbot49
+25 Feb 00:34:09 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot49', 'SASL authentication failed' ] }[0m
+25 Feb 00:34:38 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:34:38 - Connection got "end" event
+25 Feb 00:34:38 - Connection got "close" event
+25 Feb 00:34:38 - Disconnected: reconnecting
+25 Feb 00:34:38 - Waiting 2000ms before retrying
+25 Feb 00:34:40 - Sending irc NICK/USER
+25 Feb 00:34:40 - SEND: CAP REQ sasl
+25 Feb 00:34:40 - SEND: NICK beagleslackbot
+25 Feb 00:34:41 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:34:51 - SEND: NICK beagleslackbot50
+25 Feb 00:35:06 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot50', 'SASL authentication failed' ] }[0m
+25 Feb 00:35:14 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:35:14 - Connection got "end" event
+25 Feb 00:35:14 - Connection got "close" event
+25 Feb 00:35:14 - Disconnected: reconnecting
+25 Feb 00:35:14 - Waiting 2000ms before retrying
+25 Feb 00:35:16 - Sending irc NICK/USER
+25 Feb 00:35:16 - SEND: CAP REQ sasl
+25 Feb 00:35:17 - SEND: NICK beagleslackbot
+25 Feb 00:35:17 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:35:24 - SEND: NICK beagleslackbot51
+25 Feb 00:35:25 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot51', 'SASL authentication failed' ] }[0m
+25 Feb 00:35:55 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:35:55 - Connection got "end" event
+25 Feb 00:35:55 - Connection got "close" event
+25 Feb 00:35:55 - Disconnected: reconnecting
+25 Feb 00:35:55 - Waiting 2000ms before retrying
+25 Feb 00:35:58 - Sending irc NICK/USER
+25 Feb 00:35:58 - SEND: CAP REQ sasl
+25 Feb 00:35:58 - SEND: NICK beagleslackbot
+25 Feb 00:35:59 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:36:04 - SEND: NICK beagleslackbot52
+25 Feb 00:36:05 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot52', 'SASL authentication failed' ] }[0m
+25 Feb 00:36:53 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:36:53 - Connection got "end" event
+25 Feb 00:36:53 - Connection got "close" event
+25 Feb 00:36:53 - Disconnected: reconnecting
+25 Feb 00:36:53 - Waiting 2000ms before retrying
+25 Feb 00:36:55 - Sending irc NICK/USER
+25 Feb 00:36:55 - SEND: CAP REQ sasl
+25 Feb 00:36:56 - SEND: NICK beagleslackbot
+25 Feb 00:36:56 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:37:04 - SEND: NICK beagleslackbot53
+25 Feb 00:37:05 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot53', 'SASL authentication failed' ] }[0m
+25 Feb 00:37:45 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:37:45 - Connection got "end" event
+25 Feb 00:37:45 - Connection got "close" event
+25 Feb 00:37:45 - Disconnected: reconnecting
+25 Feb 00:37:45 - Waiting 2000ms before retrying
+25 Feb 00:37:47 - Sending irc NICK/USER
+25 Feb 00:37:48 - SEND: CAP REQ sasl
+25 Feb 00:37:48 - SEND: NICK beagleslackbot
+25 Feb 00:37:49 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:37:55 - SEND: NICK beagleslackbot54
+25 Feb 00:37:55 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot54', 'SASL authentication failed' ] }[0m
+25 Feb 00:38:33 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:38:33 - Connection got "end" event
+25 Feb 00:38:33 - Connection got "close" event
+25 Feb 00:38:33 - Disconnected: reconnecting
+25 Feb 00:38:33 - Waiting 2000ms before retrying
+25 Feb 00:38:35 - Sending irc NICK/USER
+25 Feb 00:38:36 - SEND: CAP REQ sasl
+25 Feb 00:38:36 - SEND: NICK beagleslackbot
+25 Feb 00:38:37 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:38:43 - SEND: NICK beagleslackbot55
+25 Feb 00:38:44 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot55', 'SASL authentication failed' ] }[0m
+25 Feb 00:39:10 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:39:10 - Connection got "end" event
+25 Feb 00:39:10 - Connection got "close" event
+25 Feb 00:39:10 - Disconnected: reconnecting
+25 Feb 00:39:10 - Waiting 2000ms before retrying
+25 Feb 00:39:12 - Sending irc NICK/USER
+25 Feb 00:39:12 - SEND: CAP REQ sasl
+25 Feb 00:39:13 - SEND: NICK beagleslackbot
+25 Feb 00:39:13 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:39:19 - SEND: NICK beagleslackbot56
+25 Feb 00:39:19 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot56', 'SASL authentication failed' ] }[0m
+25 Feb 00:39:57 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:39:57 - Connection got "end" event
+25 Feb 00:39:57 - Connection got "close" event
+25 Feb 00:39:57 - Disconnected: reconnecting
+25 Feb 00:39:57 - Waiting 2000ms before retrying
+25 Feb 00:39:59 - Sending irc NICK/USER
+25 Feb 00:40:00 - SEND: CAP REQ sasl
+25 Feb 00:40:00 - SEND: NICK beagleslackbot
+25 Feb 00:40:01 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:40:09 - SEND: NICK beagleslackbot57
+25 Feb 00:40:16 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot57', 'SASL authentication failed' ] }[0m
+25 Feb 00:40:38 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:40:38 - Connection got "end" event
+25 Feb 00:40:38 - Connection got "close" event
+25 Feb 00:40:38 - Disconnected: reconnecting
+25 Feb 00:40:38 - Waiting 2000ms before retrying
+25 Feb 00:40:40 - Sending irc NICK/USER
+25 Feb 00:40:41 - SEND: CAP REQ sasl
+25 Feb 00:40:41 - SEND: NICK beagleslackbot
+25 Feb 00:40:42 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:40:49 - SEND: NICK beagleslackbot58
+25 Feb 00:40:50 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot58', 'SASL authentication failed' ] }[0m
+25 Feb 00:41:25 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:41:25 - Connection got "end" event
+25 Feb 00:41:25 - Connection got "close" event
+25 Feb 00:41:25 - Disconnected: reconnecting
+25 Feb 00:41:25 - Waiting 2000ms before retrying
+25 Feb 00:41:28 - Sending irc NICK/USER
+25 Feb 00:41:28 - SEND: CAP REQ sasl
+25 Feb 00:41:28 - SEND: NICK beagleslackbot
+25 Feb 00:41:29 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:41:56 - SEND: NICK beagleslackbot59
+25 Feb 00:41:57 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot59', 'SASL authentication failed' ] }[0m
+25 Feb 00:42:00 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: 52.26.75.20 (Connection timed out)' ] }[0m
+25 Feb 00:42:00 - Connection got "end" event
+25 Feb 00:42:00 - Connection got "close" event
+25 Feb 00:42:00 - Disconnected: reconnecting
+25 Feb 00:42:00 - Waiting 2000ms before retrying
+25 Feb 00:42:02 - Sending irc NICK/USER
+25 Feb 00:42:02 - SEND: CAP REQ sasl
+25 Feb 00:42:02 - SEND: NICK beagleslackbot
+25 Feb 00:42:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:42:11 - SEND: NICK beagleslackbot60
+25 Feb 00:42:12 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot60', 'SASL authentication failed' ] }[0m
+25 Feb 00:42:44 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:42:44 - Connection got "end" event
+25 Feb 00:42:44 - Connection got "close" event
+25 Feb 00:42:44 - Disconnected: reconnecting
+25 Feb 00:42:44 - Waiting 2000ms before retrying
+25 Feb 00:42:46 - Sending irc NICK/USER
+25 Feb 00:42:46 - SEND: CAP REQ sasl
+25 Feb 00:42:47 - SEND: NICK beagleslackbot
+25 Feb 00:42:47 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:42:54 - SEND: NICK beagleslackbot61
+25 Feb 00:42:58 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot61', 'SASL authentication failed' ] }[0m
+25 Feb 00:43:37 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:43:37 - Connection got "end" event
+25 Feb 00:43:37 - Connection got "close" event
+25 Feb 00:43:37 - Disconnected: reconnecting
+25 Feb 00:43:37 - Waiting 2000ms before retrying
+25 Feb 00:43:40 - Sending irc NICK/USER
+25 Feb 00:43:40 - SEND: CAP REQ sasl
+25 Feb 00:43:40 - SEND: NICK beagleslackbot
+25 Feb 00:43:41 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:43:50 - SEND: NICK beagleslackbot62
+25 Feb 00:43:51 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot62', 'SASL authentication failed' ] }[0m
+25 Feb 00:44:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:44:29 - Connection got "end" event
+25 Feb 00:44:29 - Connection got "close" event
+25 Feb 00:44:29 - Disconnected: reconnecting
+25 Feb 00:44:29 - Waiting 2000ms before retrying
+25 Feb 00:44:31 - Sending irc NICK/USER
+25 Feb 00:44:32 - SEND: CAP REQ sasl
+25 Feb 00:44:32 - SEND: NICK beagleslackbot
+25 Feb 00:44:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:44:42 - SEND: NICK beagleslackbot63
+25 Feb 00:44:43 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot63', 'SASL authentication failed' ] }[0m
+25 Feb 00:45:14 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:45:14 - Connection got "end" event
+25 Feb 00:45:14 - Connection got "close" event
+25 Feb 00:45:14 - Disconnected: reconnecting
+25 Feb 00:45:14 - Waiting 2000ms before retrying
+25 Feb 00:45:16 - Sending irc NICK/USER
+25 Feb 00:45:17 - SEND: CAP REQ sasl
+25 Feb 00:45:17 - SEND: NICK beagleslackbot
+25 Feb 00:45:18 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:45:25 - SEND: NICK beagleslackbot64
+25 Feb 00:45:27 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot64', 'SASL authentication failed' ] }[0m
+25 Feb 00:45:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:45:49 - Connection got "end" event
+25 Feb 00:45:49 - Connection got "close" event
+25 Feb 00:45:49 - Disconnected: reconnecting
+25 Feb 00:45:49 - Waiting 2000ms before retrying
+25 Feb 00:45:52 - Sending irc NICK/USER
+25 Feb 00:45:52 - SEND: CAP REQ sasl
+25 Feb 00:45:52 - SEND: NICK beagleslackbot
+25 Feb 00:45:53 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:46:00 - SEND: NICK beagleslackbot65
+25 Feb 00:46:01 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot65', 'SASL authentication failed' ] }[0m
+25 Feb 00:46:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:46:29 - Connection got "end" event
+25 Feb 00:46:29 - Connection got "close" event
+25 Feb 00:46:29 - Disconnected: reconnecting
+25 Feb 00:46:29 - Waiting 2000ms before retrying
+25 Feb 00:46:31 - Sending irc NICK/USER
+25 Feb 00:46:32 - SEND: CAP REQ sasl
+25 Feb 00:46:32 - SEND: NICK beagleslackbot
+25 Feb 00:46:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:46:42 - SEND: NICK beagleslackbot66
+25 Feb 00:46:44 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot66', 'SASL authentication failed' ] }[0m
+25 Feb 00:47:14 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:47:14 - Connection got "end" event
+25 Feb 00:47:14 - Connection got "close" event
+25 Feb 00:47:14 - Disconnected: reconnecting
+25 Feb 00:47:14 - Waiting 2000ms before retrying
+25 Feb 00:47:16 - Sending irc NICK/USER
+25 Feb 00:47:16 - SEND: CAP REQ sasl
+25 Feb 00:47:17 - SEND: NICK beagleslackbot
+25 Feb 00:47:17 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:47:25 - SEND: NICK beagleslackbot67
+25 Feb 00:47:27 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot67', 'SASL authentication failed' ] }[0m
+25 Feb 00:47:49 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:47:49 - Connection got "end" event
+25 Feb 00:47:49 - Connection got "close" event
+25 Feb 00:47:49 - Disconnected: reconnecting
+25 Feb 00:47:49 - Waiting 2000ms before retrying
+25 Feb 00:47:51 - Sending irc NICK/USER
+25 Feb 00:47:51 - SEND: CAP REQ sasl
+25 Feb 00:47:52 - SEND: NICK beagleslackbot
+25 Feb 00:47:52 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:48:01 - SEND: NICK beagleslackbot68
+25 Feb 00:48:03 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot68', 'SASL authentication failed' ] }[0m
+25 Feb 00:48:33 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:48:33 - Connection got "end" event
+25 Feb 00:48:33 - Connection got "close" event
+25 Feb 00:48:33 - Disconnected: reconnecting
+25 Feb 00:48:33 - Waiting 2000ms before retrying
+25 Feb 00:48:35 - Sending irc NICK/USER
+25 Feb 00:48:35 - SEND: CAP REQ sasl
+25 Feb 00:48:36 - SEND: NICK beagleslackbot
+25 Feb 00:48:36 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:48:45 - SEND: NICK beagleslackbot69
+25 Feb 00:48:58 - [01;31mUnhandled message: { prefix: 'verne.freenode.net',
+  server: 'verne.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot69', 'SASL authentication failed' ] }[0m
+25 Feb 00:49:06 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:49:06 - Connection got "end" event
+25 Feb 00:49:06 - Connection got "close" event
+25 Feb 00:49:06 - Disconnected: reconnecting
+25 Feb 00:49:06 - Waiting 2000ms before retrying
+25 Feb 00:49:08 - Sending irc NICK/USER
+25 Feb 00:49:08 - SEND: CAP REQ sasl
+25 Feb 00:49:09 - SEND: NICK beagleslackbot
+25 Feb 00:49:09 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:49:20 - SEND: NICK beagleslackbot70
+25 Feb 00:49:21 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot70', 'SASL authentication failed' ] }[0m
+25 Feb 00:49:51 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:49:51 - Connection got "end" event
+25 Feb 00:49:51 - Connection got "close" event
+25 Feb 00:49:51 - Disconnected: reconnecting
+25 Feb 00:49:51 - Waiting 2000ms before retrying
+25 Feb 00:49:54 - Sending irc NICK/USER
+25 Feb 00:49:54 - SEND: CAP REQ sasl
+25 Feb 00:49:54 - SEND: NICK beagleslackbot
+25 Feb 00:49:55 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:50:01 - SEND: NICK beagleslackbot71
+25 Feb 00:50:03 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot71', 'SASL authentication failed' ] }[0m
+25 Feb 00:50:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:50:29 - Connection got "end" event
+25 Feb 00:50:29 - Connection got "close" event
+25 Feb 00:50:29 - Disconnected: reconnecting
+25 Feb 00:50:29 - Waiting 2000ms before retrying
+25 Feb 00:50:31 - Sending irc NICK/USER
+25 Feb 00:50:32 - SEND: CAP REQ sasl
+25 Feb 00:50:32 - SEND: NICK beagleslackbot
+25 Feb 00:50:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:50:40 - SEND: NICK beagleslackbot72
+25 Feb 00:50:40 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot72', 'SASL authentication failed' ] }[0m
+25 Feb 00:51:03 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:51:03 - Connection got "end" event
+25 Feb 00:51:03 - Connection got "close" event
+25 Feb 00:51:03 - Disconnected: reconnecting
+25 Feb 00:51:03 - Waiting 2000ms before retrying
+25 Feb 00:51:05 - Sending irc NICK/USER
+25 Feb 00:51:06 - SEND: CAP REQ sasl
+25 Feb 00:51:06 - SEND: NICK beagleslackbot
+25 Feb 00:51:07 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:51:13 - SEND: NICK beagleslackbot73
+25 Feb 00:51:14 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot73', 'SASL authentication failed' ] }[0m
+25 Feb 00:51:38 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:51:38 - Connection got "end" event
+25 Feb 00:51:38 - Connection got "close" event
+25 Feb 00:51:38 - Disconnected: reconnecting
+25 Feb 00:51:38 - Waiting 2000ms before retrying
+25 Feb 00:51:40 - Sending irc NICK/USER
+25 Feb 00:51:40 - SEND: CAP REQ sasl
+25 Feb 00:51:41 - SEND: NICK beagleslackbot
+25 Feb 00:51:41 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:51:47 - SEND: NICK beagleslackbot74
+25 Feb 00:51:48 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot74', 'SASL authentication failed' ] }[0m
+25 Feb 00:52:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:52:29 - Connection got "end" event
+25 Feb 00:52:29 - Connection got "close" event
+25 Feb 00:52:29 - Disconnected: reconnecting
+25 Feb 00:52:29 - Waiting 2000ms before retrying
+25 Feb 00:52:31 - Sending irc NICK/USER
+25 Feb 00:52:32 - SEND: CAP REQ sasl
+25 Feb 00:52:32 - SEND: NICK beagleslackbot
+25 Feb 00:52:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:52:40 - SEND: NICK beagleslackbot75
+25 Feb 00:52:41 - [01;31mUnhandled message: { prefix: 'moon.freenode.net',
+  server: 'moon.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot75', 'SASL authentication failed' ] }[0m
+25 Feb 00:53:08 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:53:08 - Connection got "end" event
+25 Feb 00:53:08 - Connection got "close" event
+25 Feb 00:53:08 - Disconnected: reconnecting
+25 Feb 00:53:08 - Waiting 2000ms before retrying
+25 Feb 00:53:10 - Sending irc NICK/USER
+25 Feb 00:53:11 - SEND: CAP REQ sasl
+25 Feb 00:53:11 - SEND: NICK beagleslackbot
+25 Feb 00:53:12 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:53:20 - SEND: NICK beagleslackbot76
+25 Feb 00:53:21 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot76', 'SASL authentication failed' ] }[0m
+25 Feb 00:53:53 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:53:53 - Connection got "end" event
+25 Feb 00:53:53 - Connection got "close" event
+25 Feb 00:53:53 - Disconnected: reconnecting
+25 Feb 00:53:53 - Waiting 2000ms before retrying
+25 Feb 00:53:56 - Sending irc NICK/USER
+25 Feb 00:53:56 - SEND: CAP REQ sasl
+25 Feb 00:53:56 - SEND: NICK beagleslackbot
+25 Feb 00:53:57 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:54:07 - SEND: NICK beagleslackbot77
+25 Feb 00:54:08 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot77', 'SASL authentication failed' ] }[0m
+25 Feb 00:54:29 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connection timed out)' ] }[0m
+25 Feb 00:54:29 - Connection got "end" event
+25 Feb 00:54:29 - Connection got "close" event
+25 Feb 00:54:29 - Disconnected: reconnecting
+25 Feb 00:54:29 - Waiting 2000ms before retrying
+25 Feb 00:54:31 - Sending irc NICK/USER
+25 Feb 00:54:32 - SEND: CAP REQ sasl
+25 Feb 00:54:32 - SEND: NICK beagleslackbot
+25 Feb 00:54:33 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+25 Feb 00:54:40 - SEND: NICK beagleslackbot78
+25 Feb 00:54:42 - [01;31mUnhandled message: { prefix: 'leguin.freenode.net',
+  server: 'leguin.freenode.net',
+  command: '904',
+  rawCommand: '904',
+  commandType: 'normal',
+  args: [ 'beagleslackbot78', 'SASL authentication failed' ] }[0m
+25 Feb 00:55:21 - [01;31mUnhandled message: { command: 'ERROR',
+  rawCommand: 'ERROR',
+  commandType: 'normal',
+  args: [ 'Closing Link: ec2-52-26-75-20.us-west-2.compute.amazonaws.com (Connec
