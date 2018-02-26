@@ -22299,3 +22299,83 @@
   rawCommand: '904',
   commandType: 'normal',
   args: [ 'beagleslackbot1', 'SASL authentication failed' ] }[0m
+[Mon Feb 26 2018 15:16:13 GMT+0000 (UTC)] INFO Connecting...
+26 Feb 15:16:13 - Sending irc NICK/USER
+26 Feb 15:16:13 - SEND: CAP REQ sasl
+26 Feb 15:16:14 - SEND: NICK beagleslackbot
+26 Feb 15:16:14 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+26 Feb 15:16:21 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+26 Feb 15:16:22 - SEND: CAP END
+26 Feb 15:16:22 - [01;31mUnhandled message: { prefix: 'rajaniemi.freenode.net',
+  server: 'rajaniemi.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '17', 'unknown connection(s)' ] }[0m
+26 Feb 15:16:22 - MODE: beagleslackbot sets mode: +i
+26 Feb 15:16:23 - SEND: NICK beagleslackbot
+26 Feb 15:16:23 - SEND: JOIN #beagle
+26 Feb 15:16:24 - SEND: JOIN #beagle-gsoc
+26 Feb 15:16:24 - SEND: JOIN #beagle-support
+26 Feb 15:16:25 - SEND: JOIN #beagle-bonescript
+26 Feb 15:16:25 - SEND: JOIN #beagle-pro
+26 Feb 15:16:29 - MODE: #beagle-support sets mode: +ns
+26 Feb 15:16:29 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+26 Feb 15:16:29 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+26 Feb 15:16:29 - MODE: #beagle-support sets mode: -o
+26 Feb 15:16:29 - MODE: #beagle-support sets mode: +ct-s
+26 Feb 15:16:29 - MODE: #beagle-support sets mode: +o
+26 Feb 15:16:29 - SEND: MODE #beagle
+26 Feb 15:16:30 - SEND: MODE #beagle-gsoc
+26 Feb 15:16:30 - SEND: MODE #beagle-support
+26 Feb 15:16:31 - SEND: MODE #beagle-bonescript
+26 Feb 15:16:31 - SEND: MODE #beagle-pro
+26 Feb 15:18:00 - SEND: PRIVMSG #beagle-gsoc :<jkridner> testing.... should be down to 1 slackbot.
+26 Feb 15:19:18 - SEND: PRIVMSG #beagle-gsoc :<jkridner> whew
+26 Feb 15:21:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:23:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:26:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:28:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:29:05 - QUIT: majuk!~majuk@75-163-148-173.clsp.qwest.net 
+26 Feb 15:30:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:33:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:35:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:36:26 - NICK: Vasco_O changes nick to Vasco
+26 Feb 15:37:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:40:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:41:06 - MODE: #beagle sets mode: +o
+26 Feb 15:42:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:42:41 - QUIT: jyothirmayee!daf82e6b@gateway/web/freenode/ip.218.248.46.107 Quit: Page closed
+26 Feb 15:44:21 - QUIT: jkridner!~jkridner@pdpc/supporter/active/jkridner Ping timeout: 245 seconds
+26 Feb 15:44:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:47:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:49:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:51:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:52:36 - QUIT: c10ud!~c10ud@emesene/dictator/c10ud Read error: Connection reset by peer
+26 Feb 15:52:49 - QUIT: adjivas_!~adjivas@glo44-2-82-224-114-245.fbx.proxad.net Ping timeout: 268 seconds
+26 Feb 15:54:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:55:13 - QUIT: rob_w!~bob@unaffiliated/rob-w/x-1112029 Quit: Leaving
+26 Feb 15:55:29 - MODE: #beagle sets mode: +o
+26 Feb 15:56:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 15:58:06 - QUIT: jkridner|pd!~jkridner@pdpc/supporter/active/jkridner Ping timeout: 245 seconds
+26 Feb 15:58:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 16:01:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 16:03:27 - SEND: PONG rajaniemi.freenode.net
+26 Feb 16:05:47 - SEND: PONG rajaniemi.freenode.net
+26 Feb 16:08:07 - SEND: PONG rajaniemi.freenode.net
+26 Feb 16:10:27 - SEND: PONG rajaniemi.freenode.net
+26 
