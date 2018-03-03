@@ -119,3 +119,16 @@
 <li class="join">[<a href="#T10:56:13" id="T10:56:13"><abbr title="2018-03-03T10:56:13+00:00">10:56:13</abbr></a>] <span>* theAdib (~adib@dslb-094-223-156-005.094.223.pools.vodafone-ip.de) has joined #beagle</span></li>
 <li class="quit">[<a href="#T10:57:33" id="T10:57:33"><abbr title="2018-03-03T10:57:33+00:00">10:57:33</abbr></a>] <span>* wa5qjh (~quassel@freebsd/user/wa5qjh) Quit (Remote host closed the connection)</span></li>
 <li class="join">[<a href="#T10:58:36" id="T10:58:36"><abbr title="2018-03-03T10:58:36+00:00">10:58:36</abbr></a>] <span>* rizzo (~RizzoTheR@p54B6B698.dip0.t-ipconnect.de) has joined #beagle</span></li>
+<li class="join">[<a href="#T11:02:31" id="T11:02:31"><abbr title="2018-03-03T11:02:31+00:00">11:02:31</abbr></a>] <span>* wa5qjh (~quassel@175.158.225.217) has joined #beagle</span></li>
+<li class="quit">[<abbr title="2018-03-03T11:02:31+00:00">11:02:31</abbr>] <span>* wa5qjh (~quassel@175.158.225.217) Quit (Changing host)</span></li>
+<li class="join">[<abbr title="2018-03-03T11:02:31+00:00">11:02:31</abbr>] <span>* wa5qjh (~quassel@freebsd/user/wa5qjh) has joined #beagle</span></li>
+<li class="message">[<a href="#T11:10:26" id="T11:10:26"><abbr title="2018-03-03T11:10:26+00:00">11:10:26</abbr></a>] &lt;<cite>keesj</cite>&gt; <q>isn't ddr usefull for running a soft core?</q></li>
+<li class="quit">[<a href="#T11:17:56" id="T11:17:56"><abbr title="2018-03-03T11:17:56+00:00">11:17:56</abbr></a>] <span>* wa5qjh (~quassel@freebsd/user/wa5qjh) Quit (Remote host closed the connection)</span></li>
+<li class="message">[<a href="#T11:27:07" id="T11:27:07"><abbr title="2018-03-03T11:27:07+00:00">11:27:07</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>... why would you want to run a soft core on an fpga that's already connected to a SoC ?</q></li>
+<li class="message">[<a href="#T11:27:38" id="T11:27:38"><abbr title="2018-03-03T11:27:38+00:00">11:27:38</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>and it's not ddr, it's sdram</q></li>
+<li class="message">[<a href="#T11:28:20" id="T11:28:20"><abbr title="2018-03-03T11:28:20+00:00">11:28:20</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>oh it is ddr, nm</q></li>
+<li class="message">[<a href="#T11:28:37" id="T11:28:37"><abbr title="2018-03-03T11:28:37+00:00">11:28:37</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>is it? wait</q></li>
+<li class="message">[<a href="#T11:28:42" id="T11:28:42"><abbr title="2018-03-03T11:28:42+00:00">11:28:42</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>no it's not</q></li>
+<li class="message">[<a href="#T11:29:29" id="T11:29:29"><abbr title="2018-03-03T11:29:29+00:00">11:29:29</abbr></a>] &lt;<cite>zmatt</cite>&gt; <q>micron's page was confusing me for a bit</q></li>
+<li class="quit">[<a href="#T11:31:06" id="T11:31:06"><abbr title="2018-03-03T11:31:06+00:00">11:31:06</abbr></a>] <span>* NishanthMenon (~nmenon@unaffiliated/nishanthmenon) Quit (Quit: Am I a turtle?)</span></li>
+<li class="quit">[<a href="#T11:53:51" id="T11:53:51"><abbr title="2018-03-03T11:53:51+00:00">11:53:51</abbr></a>] <span>* lyakh (~lyakh@cable-84-44-204-122.netcologne.de) Quit (Quit: thanks, bye)</span></li>
