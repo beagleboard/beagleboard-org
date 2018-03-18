@@ -37515,4 +37515,80 @@
 18 Mar 07:14:01 - Sending irc NICK/USER
 18 Mar 07:14:02 - SEND: CAP REQ sasl
 18 Mar 07:14:02 - SEND: NICK beagleslackbot
-18 Mar 07:14:03 - SEND: USER beagleslackbo
+18 Mar 07:14:03 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+18 Mar 07:14:30 - SEND: NICK beagleslackbot1
+18 Mar 07:14:31 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot1',
+     'beagleslackbot1!beagleslac@52.26.75.20',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+18 Mar 07:14:31 - SEND: CAP END
+18 Mar 07:14:32 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot1', '165', 'unknown connection(s)' ] }[0m
+18 Mar 07:14:32 - MODE: beagleslackbot1 sets mode: +i
+18 Mar 07:14:32 - SEND: NICK beagleslackbot
+18 Mar 07:14:33 - SEND: JOIN #beagle
+18 Mar 07:14:33 - SEND: JOIN #beagle-gsoc
+18 Mar 07:14:34 - SEND: JOIN #beagle-support
+18 Mar 07:14:34 - SEND: JOIN #beagle-bonescript
+18 Mar 07:14:35 - SEND: JOIN #beagle-pro
+18 Mar 07:14:37 - NICK: beagleslackbot1 changes nick to beagleslackbot
+18 Mar 07:14:37 - MODE: #beagle-support sets mode: +ns
+18 Mar 07:14:37 - GOT NOTICE from "NickServ": "beagleslackbot1 is not a registered nickname."
+18 Mar 07:14:37 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+18 Mar 07:14:37 - MODE: #beagle-support sets mode: -o
+18 Mar 07:14:37 - MODE: #beagle-support sets mode: +ct-s
+18 Mar 07:14:37 - MODE: #beagle-support sets mode: +o
+18 Mar 07:14:37 - SEND: MODE #beagle
+18 Mar 07:14:38 - SEND: MODE #beagle-gsoc
+18 Mar 07:14:38 - MODE: #beagle-bonescript sets mode: +ns
+18 Mar 07:14:38 - SEND: MODE #beagle-support
+18 Mar 07:14:38 - MODE: #beagle-bonescript sets mode: -o
+18 Mar 07:14:38 - MODE: #beagle-bonescript sets mode: +ct-s
+18 Mar 07:14:38 - MODE: #beagle-bonescript sets mode: +o
+18 Mar 07:14:39 - SEND: MODE #beagle-bonescript
+18 Mar 07:14:39 - QUIT: signal11!esteban@abq.quaddro.net Ping timeout: 240 seconds
+18 Mar 07:14:39 - SEND: MODE #beagle-pro
+18 Mar 07:17:11 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:17:12 - QUIT: DevaamoBot!~supybot@2001:470:1f0b:54d::7 Ping timeout: 245 seconds
+18 Mar 07:18:15 - QUIT: Humpelstilzchen!erik@p4FD033E0.dip0.t-ipconnect.de Ping timeout: 260 seconds
+18 Mar 07:19:27 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:21:43 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:23:59 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:24:13 - QUIT: Wormo!~sjl@c-73-222-24-16.hsd1.ca.comcast.net Ping timeout: 240 seconds
+18 Mar 07:24:43 - QUIT: amatecha!sid10006@gateway/web/irccloud.com/x-uimnwlajewteinvu Ping timeout: 240 seconds
+18 Mar 07:25:39 - QUIT: gusnan!~gusnan@unaffiliated/gusnan Ping timeout: 240 seconds
+18 Mar 07:26:15 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:27:02 - QUIT: gusnan!~gusnan@213.112.200.126 Changing host
+18 Mar 07:27:28 - QUIT: florian!~florian_k@Maemo/community/contributor/florian Ping timeout: 268 seconds
+18 Mar 07:28:31 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:30:47 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:33:03 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:35:19 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:37:35 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:39:40 - QUIT: Waza!2d035269@gateway/web/freenode/ip.45.3.82.105 Ping timeout: 260 seconds
+18 Mar 07:39:51 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:42:07 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:44:23 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:46:39 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:46:49 - QUIT: Shadyman!~matthew@unaffiliated/shadyman Remote host closed the connection
+18 Mar 07:48:55 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:51:11 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:52:43 - QUIT: jsolano!~juan@aftr-185-17-207-150.dynamic.mnet-online.de Ping timeout: 240 seconds
+18 Mar 07:53:27 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:55:43 - SEND: PONG hitchcock.freenode.net
+18 Mar 07:57:59 - SEND: PONG hit
