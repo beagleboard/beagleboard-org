@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521659292369">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521659556136">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36</http_browser>
-    <time type="date">21.03.2018 19:07:56 UTC</time>
+    <time type="date">21.03.2018 19:12:36 UTC</time>
     <hopsession>127.0.0.xe477n7nqquo</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -45,7 +45,8 @@ mobile robots with the Blue fast, streamlined, affordable, and fun.
  &lt;div id=&quot;t2-c5b&quot;&gt;  
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity and sensors&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;Battery: 2-cell LiPo support with balancing, 9-18V charger input&lt;/li&gt;
+&lt;li&gt;Battery support: 2-cell LiPo with balancing &amp; LED monitor
+&lt;li&gt;Charger input: 9-18V&lt;/li&gt;
 &lt;li&gt;Wireless: 802.11bgn, Bluetooth 4.1 and BLE&lt;/li&gt;
 &lt;li&gt;Motor control: 8 6V servo out, 4 bidirectional DC motor out, 4 quadrature encoder in&lt;/li&gt;
 &lt;li&gt;Sensors: 9 axis IMU (accels, gyros, magnetometer), barometer, thermometer&lt;/li&gt;
@@ -284,18 +285,18 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">295808.0</pvcount>
+    <pvcount type="float">295812.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <sessionreferrer>beagleboard.org</sessionreferrer>
     <initiallandingpage>/p</initiallandingpage>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <http_referer>https://beagleboard.org/blue/edit</http_referer>
-    <initialreferrer>beagleboard.org</initialreferrer>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <http_host>127.0.0.1:8080</http_host>
+    <initialreferrer>beagleboard.org</initialreferrer>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
