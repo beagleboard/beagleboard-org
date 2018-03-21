@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521658164046">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521659277009">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36</http_browser>
-    <time type="date">21.03.2018 18:49:24 UTC</time>
+    <time type="date">21.03.2018 19:07:56 UTC</time>
     <hopsession>127.0.0.xe477n7nqquo</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -20,10 +20,13 @@
 
  &lt;div id=&quot;t2-c7-content&quot;&gt;
 &lt;div id=&quot;t2-c5d&quot;&gt;
-&lt;h2&gt;What is BeagleBone Blue?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;BeagleBone® Blue is a complete, 
-Linux-enabled robotics computer. Community-supported and fully open-source, the real-time 
-performance, flexible networking and rich set of robotics-oriented peripherals make building 
-mobile robots quick and affordable.
+&lt;h2&gt;What is BeagleBone® Blue?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;BeagleBone® Blue is an all-in-one 
+Linux-based computer for robotics, integrating onto a single board the Octavo OSD3358 microprocessor
+together with wifi/bluetooth, IMU, power regulation for a 2-cell LiPo, H-Bridges, and discrete
+connectors for 4 DC motors+encoders, 8 servos, and all of the commonly-needed buses for additional
+peripherals in embedded applications. Community-supported and fully open-source, the real-time 
+performance, flexible networking, and rich set of robotics-oriented capabilities make building 
+mobile robots with the Blue fast, streamlined, affordable, and fun.
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
@@ -44,11 +47,12 @@ mobile robots quick and affordable.
 &lt;ul class=&quot;square&quot;&gt;
 &lt;li&gt;Battery: 2-cell LiPo support with balancing, 9-18V charger input&lt;/li&gt;
 &lt;li&gt;Wireless: 802.11bgn, Bluetooth 4.1 and BLE&lt;/li&gt;
-&lt;li&gt;Motor control: 8 6V servo out, 4 DC motor out, 4 quadrature encoder in&lt;/li&gt;
-&lt;li&gt;Sensors: 9 axis IMU, barometer&lt;/li&gt;
+&lt;li&gt;Motor control: 8 6V servo out, 4 bidirectional DC motor out, 4 quadrature encoder in&lt;/li&gt;
+&lt;li&gt;Sensors: 9 axis IMU (accels, gyros, magnetometer), barometer, thermometer&lt;/li&gt;
 &lt;li&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/li&gt;
 &lt;li&gt;User interface: 11 user programmable LEDs, 2 user programmable buttons&lt;/li&gt;
-&lt;li&gt;Easy connect interfaces for adding additional sensors such as: GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs&lt;/li&gt;
+&lt;li&gt;Easy connect JST interfaces for adding additional buses and peripherals including:
+GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -280,18 +284,18 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">295800.0</pvcount>
+    <pvcount type="float">295807.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <sessionreferrer>beagleboard.org</sessionreferrer>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>https://beagleboard.org/blue/edit</http_referer>
-    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_host>127.0.0.1:8080</http_host>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <http_referer>https://beagleboard.org/blue/edit</http_referer>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
