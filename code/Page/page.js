@@ -19,21 +19,25 @@ function main_action ()
    }
 
   var alt = req.data["use_alt"];
-  var body, render_skin, skin_is_outer;
+  var body, render_skin, skin_is_outer, mimetype;
   if (alt && this.alt && this.alt[alt])
    {
     body = this.alt[alt].body;
     render_skin = this.alt[alt].render_skin;
     skin_is_outer = this.alt[alt].skin_is_outer;
+    mimetype = this.alt[alt].mimetype;
    }
   else
    {
     body = this.body;
     render_skin = this.render_skin;
     skin_is_outer = this.skin_is_outer;
+    mimetype = this.mimetype;
    }
 
   res.data.title = this.uri;
+  if (mimetype)
+   res.setContentType(mimetype);
   if (render_skin == "project" && this.pname)
    res.data.title = this.pname;
   if (render_skin == "homepage" || skin_is_outer)
@@ -63,9 +67,10 @@ function edit_action ()
 
   //if(this.edit_skin == 'edit_project') return(res.redirect());
 
-  if (true)
+  if (false)
    {
-    var targetURL = root.href("login") + "?target=" + this.href();
+    //var targetURL = root.href("login") + "?target=" + this.href();
+    var targetURL = this.href();
     res.redirect(targetURL);
     return;
    }
@@ -77,7 +82,7 @@ function edit_action ()
    )
    {
     this.user = "default";
-    if (false)
+    if (true)
      {
       saveEdit = true;
      }
