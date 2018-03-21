@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4280" name="meeting.ics" prototype="Page" created="1521658185407" lastModified="1521669258635">
+  <hopobject id="4280" name="meeting.ics" prototype="Page" created="1521658185407" lastModified="1521669279615">
   <hop:parent idref="1010" prototyperef="Page"/>
     <mimetype>text/calendar</mimetype>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -43,7 +43,7 @@ LOCATION:#beagle-gsoc on irc.freenode.net
 END:VEVENT
 END:VCALENDAR</body>
     <pseudoparent idref="1010" prototyperef="Page"/>
-    <pvcount type="float">15.0</pvcount>
+    <pvcount type="float">16.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
     <http_referer>https://beagleboard.org/gsoc/meeting.ics/edit</http_referer>
