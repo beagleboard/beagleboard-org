@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4280" name="meeting.ics" prototype="Page" created="1521658185407" lastModified="1521658185408">
+  <hop:parent idref="1010" prototyperef="Page"/>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.146 Chrome/65.0.3325.146 Safari/537.36</http_browser>
+    <lang>en-us</lang>
+    <uri>meeting.ics</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">21.03.2018 18:49:45 UTC</time>
+    <pseudoparent idref="1010" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
+    <user>default</user>
+    <body>EGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20180321T184310Z
+UID:20180321T184310Z-1251254564@beagleboard.org
+DTSTART;TZID=&quot;America/New_York&quot;:20180328T120000
+DTEND;TZID=&quot;America/New_York&quot;:20180328T130000
+SUMMARY:BeagleBoard.org Google Summer of Code Weekly Meeting
+URL:https%3A%2F%2Fbbb.io%2Fgsocchat
+LOCATION:#beagle-gsoc on irc.freenode.net
+END:VEVENT
+END:VCALENDAR
+</body>
+    <http_language>en-US,en;q=0.9</http_language>
+    <http_referer>http://beagleboard.org/gsoc/meeting.ics/edit</http_referer>
+  </hopobject>
+</xmlroot>
