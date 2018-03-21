@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521660700985">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1521661395896">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36</http_browser>
-    <time type="date">21.03.2018 19:31:40 UTC</time>
+    <time type="date">21.03.2018 19:43:15 UTC</time>
     <hopsession>127.0.0.xe477n7nqquo</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -32,14 +32,16 @@ mobile robots with the Blue fast, streamlined, affordable, and fun.
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
-    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x/&quot;&gt;Octavo Systems OSD3358 1GHz 
-    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x/&quot;&gt;Octavo Systems OSD3358&lt;/a&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
-&lt;li&gt;512MB DDR3 RAM integrated&lt;/li&gt;
+&lt;li&gt;AM335x 1GHz ARM® Cortex-A8 processor&lt;/li&gt;
+&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;4GB 8-bit eMMC flash storage&lt;/li&gt;
 &lt;li&gt;Integrated power management&lt;/li&gt;
 &lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
+&lt;li&gt;NEON floating-point accelerator&lt;/li&gt;
 &lt;li&gt;ARM Cortex-M3&lt;/li&gt;
-&lt;li&gt;On-board 4GB 8-bit eMMC flash storage&lt;/li&gt;
+&lt;li&gt;USB2 client for power &amp; communications, USB2 host&lt;/li&gt;
 &lt;li&gt;Programmed with Debian Linux&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -52,7 +54,6 @@ mobile robots with the Blue fast, streamlined, affordable, and fun.
 &lt;li&gt;Wireless: 802.11bgn, Bluetooth 4.1 and BLE&lt;/li&gt;
 &lt;li&gt;Motor control: 8 6V servo out, 4 bidirectional DC motor out, 4 quadrature encoder in&lt;/li&gt;
 &lt;li&gt;Sensors: 9 axis IMU (accels, gyros, magnetometer), barometer, thermometer&lt;/li&gt;
-&lt;li&gt;Connectivity: HighSpeed USB 2.0 client and host&lt;/li&gt;
 &lt;li&gt;User interface: 11 user programmable LEDs, 2 user programmable buttons&lt;/li&gt;
 &lt;li&gt;Easy connect JST interfaces for adding additional buses and peripherals including:
 GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs&lt;/li&gt;
@@ -287,7 +288,7 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">295833.0</pvcount>
+    <pvcount type="float">295837.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <sessionreferrer>beagleboard.org</sessionreferrer>
     <initiallandingpage>/p</initiallandingpage>
