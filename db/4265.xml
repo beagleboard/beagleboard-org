@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1522265796111">
+  <hopobject id="4265" name="pocket" prototype="Page" created="1505864905657" lastModified="1522265870262">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>pocket</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.146 Chrome/65.0.3325.146 Safari/537.36</http_browser>
-    <time type="date">28.03.2018 19:36:36 UTC</time>
+    <time type="date">28.03.2018 19:37:50 UTC</time>
     <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -27,7 +27,7 @@ PocketBeagle the ideal development board for beginners and professionals alike.
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
     &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x-sm&quot; class=&quot;external&quot;&gt;Octavo Systems OSD3358 1GHz 
     ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt; 
+&lt;ul class=&quot;square&quot;&gt;
 &lt;li&gt;512MB DDR3 RAM integrated&lt;/li&gt;
 &lt;li&gt;Integrated power management&lt;/li&gt;
 &lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
@@ -233,7 +233,7 @@ find all available hardware specifications such as:
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 &lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/products/pocketbeagle/embed?per_page=8&amp;col_class=col-sm-3&quot; 
 width=&quot;900&quot; 
-height=&quot;900&quot;
+height=&quot;700&quot;
   scrolling=&quot;no&quot;
   frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
@@ -280,16 +280,16 @@ height=&quot;900&quot;
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">225304.0</pvcount>
+    <pvcount type="float">225307.0</pvcount>
     <initiallandingpage>/p</initiallandingpage>
     <http_referer>https://beagleboard.org/pocket/edit</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_host>127.0.0.1:8080</http_host>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
