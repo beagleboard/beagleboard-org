@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1510680926934">
+  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1523302646650">
   <hop:parent idref="3268" prototyperef="Page"/>
-    <skin_is_outer>true</skin_is_outer>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
+    <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
-    <lang>en-us</lang>
-    <uri>bbbw</uri>
-    <mp_mixpanel__c>0</mp_mixpanel__c>
-    <initialreferrer>beagleboard.org</initialreferrer>
-    <http_language>en-US,en;q=0.8</http_language>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hackster_user_signed_in>1</hackster_user_signed_in>
-    <initiallandingpage>/p</initiallandingpage>
-    <hopsession>127.0.0.1tttp83nkbm6k</hopsession>
+    <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/dashboard/projects&quot;,&quot;Session landing page type&quot;: &quot;users#dashboard&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>bbbw</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
+    <time type="date">09.04.2018 19:37:26 UTC</time>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-bbbw&quot;&gt;
   &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;optgroup label=&quot;North America&quot;&gt;
@@ -29,7 +26,7 @@
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;South America (Brazil)&quot;&gt;
         &lt;option value=&quot;http://www.digikey.com/products/en?keywords=BBBWL-SC-562-ND&quot;&gt;Digi-Key&lt;/option&gt;
-        &lt;option value=&quot;http://br.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+        &lt;option value=&quot;https://br.mouser.com/ProductDetail/BeagleBoard-by-GHI/BBBWL-SC-562?qs=sGAEpiMZZMuWWq7rhECaKdOidKL%2fSCRSIOKAQ4EtsNA%3d&quot;&gt;Mouser&lt;/option&gt;
         &lt;option value=&quot;https://www.element14.com/community/docs/DOC-83315/l/beaglebone-black-wireless-coming-soon&quot;&gt;element14&lt;/option&gt;
     &lt;/optgroup&gt;
     &lt;optgroup label=&quot;Europe&quot;&gt;
@@ -60,18 +57,21 @@
 &lt;/select&gt;
 
 </body>
-    <http_referer>https://beagleboard.org/distributors/bbbw/edit</http_referer>
-    <user>jkridner.wordpress.com</user>
-    <http_host>127.0.0.1:8080</http_host>
     <pseudoparent idref="3268" prototyperef="Page"/>
-    <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">14.11.2017 17:35:26 UTC</time>
-    <userid>40774</userid>
-    <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/dashboard/projects&quot;,&quot;Session landing page type&quot;: &quot;users#dashboard&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">28.0</pvcount>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <render_skin>bare</render_skin>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <initiallandingpage>/p</initiallandingpage>
+    <skin_is_outer>true</skin_is_outer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <pvcount type="float">27.0</pvcount>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <http_referer>http://beagleboard.org/distributors/bbbw/edit</http_referer>
+    <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
+    <mp_mixpanel__c>0</mp_mixpanel__c>
+    <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
