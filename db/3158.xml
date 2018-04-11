@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1523473932853">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1523474057532">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
@@ -11,7 +11,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>boards</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 19:12:12 UTC</time>
+    <time type="date">11.04.2018 19:14:17 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1.5GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
@@ -201,7 +201,7 @@ $(document).ready(function(){
     &lt;td&gt;3x UART, 4x PWM, 2x SPI, 2x I2C, 8x A/D converter, 2x CAN bus (w/o PHY), 2x quadrature encoder, USB&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, 7x A/D converter, 2x CAN bus (w/o PHY), 
     LCD, 3x quadrature encoder, SD/MMC, GPMC&lt;/td&gt;
-    &lt;td&gt;5x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (w/ PHY), 8x 6V servo motor,
+    &lt;td&gt;4x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (w/ PHY), 8x 6V servo motor,
     4x DC motor, 4x quadrature encoder&lt;/td&gt;
     &lt;td&gt;4x UART, 2x PWM, I2C, CAN bus (w/o PHY), LCD, SD/MMC, parallel video in, 2x I2S, SATA, PCIe&lt;/td&gt;
   &lt;/tr&gt;
@@ -209,7 +209,7 @@ $(document).ready(function(){
     &lt;td&gt;&lt;strong&gt;On-board Sensors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;-&lt;/td&gt;
     &lt;td&gt;-&lt;/td&gt;
-    &lt;td&gt;9 axis IMU (accels, gyros, magnetometer), barometer, thermometer&lt;/td&gt;
+    &lt;td&gt;10 degree of freedom IMU (accelerometer, gyroscope, magnetometer, thermometer), barometer/thermometer&lt;/td&gt;
     &lt;td&gt;-&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
@@ -276,7 +276,7 @@ Google Research
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">465790.0</pvcount>
+    <pvcount type="float">465792.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <initiallandingpage>/p</initiallandingpage>
