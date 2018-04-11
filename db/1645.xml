@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1523474955853">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1523475340917">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 19:29:15 UTC</time>
+    <time type="date">11.04.2018 19:35:40 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
  &lt;!-- slider --&gt;
@@ -170,13 +170,14 @@ $(document).ready(function(){
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;/static/images/beaglebone_sm.jpg&quot; align=&quot;left&quot;/&gt;
-This previous generation Beagle is powered by a 720MHz ARM Cortex-A8 processor and includes power management, microSD card with Linux, built-in FTDI-based serial / JTAG and on-chip Ethernet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/bone-original&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
+&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbg_bullet_40.png&quot; align=&quot;left&quot; style=&quot;padding:10px;&quot;/&gt;
 Seeed&apos;s Grove connectors make IoT developers life simpler large family of Grove sensors and drivers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/green&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/beagle-blue-pck.png&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
+    Complete robotics computer ready to fly or rove. Flexible networking and rich set of robotics-oriented peripherals make building mobile robots quick and affordable.
+    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/blue&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
 &lt;/div&gt;
 &lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbe_bullet_40.png&quot; align=&quot;left&quot;/&gt;
@@ -187,8 +188,8 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
   &lt;tr&gt;
     &lt;th&gt; &lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone (original)&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SeeedStudio BeagleBone Green&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Blue&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SanCloud BeagleBone Enhanced&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
@@ -201,35 +202,35 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;720MHz (1GHz on latest)&lt;/td&gt;
+    &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;7&lt;/td&gt;
-    &lt;td&gt;7&lt;/td&gt;
-    &lt;td&gt;7&lt;/td&gt;
-    &lt;td&gt;7&lt;/td&gt;
+    &lt;td&gt;7 (1.8V)&lt;/td&gt;
+    &lt;td&gt;7 (1.8V)&lt;/td&gt;
+    &lt;td&gt;4 (1.8V)&lt;/td&gt;
+    &lt;td&gt;7 (1.8V)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
-    &lt;td&gt;65 (3.3V)&lt;/td&gt;
+    &lt;td&gt;24 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;256MB DDR2 (400MHz x 16), microSD card slot&lt;/td&gt;
+    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;1GB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;miniUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;miniUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
     &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
     &lt;td&gt;miniUSB 2.0 client port, 4 USB 2.0 Ports (2 A-type connectors, 2 on pin headers)&lt;/td&gt;
   &lt;/tr&gt;
@@ -237,35 +238,36 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;SPI displays&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;cape add-ons&lt;/td&gt;
+    &lt;td&gt;add-ons, Bluetooth&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
-    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers,&lt;br /&gt;FTDI USB to Serial, JTAG via USB&lt;/td&gt;
-    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers,&lt;br /&gt;2 Grove (I2C, UART)&lt;/td&gt;
-    &lt;td&gt;4x UART, 8x PWM, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2xCAN Bus, 4 Timers&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;br /&gt;2 Grove (I2C, UART)&lt;/td&gt;
+    &lt;td&gt;4x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (with PHY), 8x 6V servo motor,
+    4x DC motor, 4x quadrature encoder&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Sensors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
-    &lt;td&gt;n/a&lt;/td&gt;
+    &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
     &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
-    &lt;td&gt;$89&lt;/td&gt;
     &lt;td&gt;$39&lt;/td&gt;
+    &lt;td&gt;$79&lt;/td&gt;
     &lt;td&gt;$69&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -321,7 +323,7 @@ Google Research
 &lt;/div&gt;
 &lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">1242922.0</pvcount>
+    <pvcount type="float">1242929.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
