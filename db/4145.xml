@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4145" name="Page" prototype="Page" created="1448027841142" lastModified="1523470368379">
+  <hopobject id="4145" name="Page" prototype="Page" created="1448027841142" lastModified="1523470504410">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>enhanced</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 18:12:48 UTC</time>
+    <time type="date">11.04.2018 18:15:04 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>&lt;h1&gt;SanCloud BeagleBone Enhanced&lt;/h1&gt;
 
@@ -33,7 +33,7 @@
 &lt;/div&gt;
 
 &lt;/div&gt;&lt;!-- bnr_ss1 --&gt;
-
+&lt;!--
 &lt;script type=&quot;text/javascript&quot;&gt;
     
         $(document).ready(function() {
@@ -54,7 +54,7 @@
 		}); 
 	
 &lt;/script&gt;
-
+--&gt;
    &lt;/div&gt;
    &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
    
@@ -222,7 +222,7 @@ Browse the &lt;a href=&quot;http://www.sancloud.co.uk/?cat=6&quot; Class=&quot;e
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">55468.0</pvcount>
+    <pvcount type="float">55470.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
