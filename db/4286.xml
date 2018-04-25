@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4286" name="capes-new" prototype="Page" created="1524506244168" lastModified="1524695250862">
+  <hopobject id="4286" name="capes-new" prototype="Page" created="1524506244168" lastModified="1524696268801">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>capes-new</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">25.04.2018 22:27:30 UTC</time>
+    <time type="date">25.04.2018 22:44:28 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
@@ -201,7 +201,8 @@ your learning and design goals.
         &lt;/select&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&quot;/static/images/capes/600px/BeagleBonePowerCapeA2_Top.png&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot; title=&quot;Only $25 and just 56mm x 35mm x 5mm. See https://github.com/beagleboard/pocketbeagle/wiki for details.&quot;&gt;
+    &lt;a href=&quot;/static/images/capes/600px/BeagleBonePowerCapeA2_Top.png&quot; rel=&quot;lightbox&quot; 
+    name=&quot;Power Cape&quot; title=&quot;Complete power solution for BeagleBone&quot;&gt;
     &lt;img src=&quot;/static/images/capes/250px/BeagleBonePowerCapeA2_Top.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;    
 &lt;/div&gt;
@@ -212,10 +213,20 @@ your learning and design goals.
     &lt;div id=&quot;t2-c7-content&quot;&gt;
       &lt;div id=&quot;t2-c5d&quot;&gt;
         &lt;h2&gt;BeagleBoard.org Proto Cape&lt;/h2&gt;
-        &lt;p style=&quot;margin-right:75px;&quot;&gt;Description&lt;/p&gt;    
+        &lt;p style=&quot;margin-right:75px;&quot;&gt;Provides a blank slate to design any type 
+        of application that you can imagine. Along with plated through-holes for 
+        external component soldering, there are a few on-board components, such 
+        as buttons, a multi-colored LED, and a basic LED to assist in the design 
+        process. The ID EEPROM is also capable of having the address be re-assigned 
+        to allow for a seamless integration into the BeagleBone cape schema.&lt;/p&gt;    
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5a&quot;&gt;
-        &lt;p&gt;Features&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;2x push-buttons&lt;/li&gt;
+          &lt;li&gt;RGB LED&lt;/li&gt;
+          &lt;li&gt;single-color LED&lt;/li&gt;
+          &lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C EEPROM&lt;/li&gt;
+        &lt;/ul&gt;
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5c&quot;&gt;
         &lt;br /&gt;
@@ -230,7 +241,8 @@ your learning and design goals.
         &lt;/select&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneProtoCapeA2_Top.png&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot; title=&quot;Only $25 and just 56mm x 35mm x 5mm. See https://github.com/beagleboard/pocketbeagle/wiki for details.&quot;&gt;
+    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneProtoCapeA2_Top.png&quot; rel=&quot;lightbox&quot; 
+    name=&quot;Proto Cape&quot; title=&quot;Cape for prototyping on BeagleBone&quot;&gt;
     &lt;img src=&quot;/static/images/capes/250px/BeagleBoneProtoCapeA2_Top.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;    
 &lt;/div&gt;
@@ -259,7 +271,8 @@ your learning and design goals.
         &lt;/select&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneRelayCapeA2_Top.png&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot; title=&quot;Only $25 and just 56mm x 35mm x 5mm. See https://github.com/beagleboard/pocketbeagle/wiki for details.&quot;&gt;
+    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneRelayCapeA2_Top.png&quot; rel=&quot;lightbox&quot; 
+    name=&quot;Relay Cape&quot; title=&quot;&quot;&gt;
     &lt;img src=&quot;/static/images/capes/250px/BeagleBoneRelayCapeA2_Top.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;    
 &lt;/div&gt;
@@ -278,7 +291,8 @@ your learning and design goals.
       &lt;div id=&quot;t2-c5c&quot;&gt;
         &lt;br /&gt;
         &lt;br /&gt;
-        &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;&lt;a href=&quot;https://github.com/beagleboard/capes&quot; class=&quot;external&quot;&gt;Additional details&lt;/a&gt;&lt;/h3&gt;
+        &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;&lt;a href=&quot;https://github.com/beagleboard/capes&quot; 
+        class=&quot;external&quot;&gt;Additional details&lt;/a&gt;&lt;/h3&gt;
       &lt;/div&gt;
       &lt;div id=&quot;CTA&quot;&gt;
         &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
@@ -288,7 +302,8 @@ your learning and design goals.
         &lt;/select&gt;
       &lt;/div&gt;
     &lt;/div&gt;
-    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneServoCapeA2_Top.png&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot; title=&quot;Only $25 and just 56mm x 35mm x 5mm. See https://github.com/beagleboard/pocketbeagle/wiki for details.&quot;&gt;
+    &lt;a href=&quot;/static/images/capes/600px/BeagleBoneServoCapeA2_Top.png&quot; rel=&quot;lightbox&quot; 
+    name=&quot;Servo Cape&quot; title=&quot;&quot;&gt;
     &lt;img src=&quot;/static/images/capes/250px/BeagleBoneServoCapeA2_Top.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;    
 &lt;/div&gt;
@@ -383,7 +398,7 @@ height=&quot;925&quot;
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">97.0</pvcount>
+    <pvcount type="float">100.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
     <http_referer>https://beagleboard.org/capes-new/edit</http_referer>
