@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4286" name="capes-new" prototype="Page" created="1524506244168" lastModified="1524693940986">
+  <hopobject id="4286" name="capes-new" prototype="Page" created="1524506244168" lastModified="1524694686274">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>capes-new</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">25.04.2018 22:05:40 UTC</time>
+    <time type="date">25.04.2018 22:18:06 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
@@ -144,10 +144,12 @@ your learning and design goals.
     &lt;div id=&quot;t2-c7-content&quot;&gt;
       &lt;div id=&quot;t2-c5d&quot;&gt;
         &lt;h2&gt;BeagleBoard.org Motor Cape&lt;/h2&gt;
-        &lt;p style=&quot;margin-right:75px;&quot;&gt;Description&lt;/p&gt;    
+        &lt;p style=&quot;margin-right:75px;&quot;&gt;Drive DC motors with direction and PWM control.&lt;/p&gt;    
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5a&quot;&gt;
-        &lt;p&gt;Features&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;4x 3A motor outputs up to 46V&lt;/li&gt;
+        &lt;/ul&gt;
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5c&quot;&gt;  
         &lt;br /&gt;
@@ -173,10 +175,14 @@ your learning and design goals.
     &lt;div id=&quot;t2-c7-content&quot;&gt;
       &lt;div id=&quot;t2-c5d&quot;&gt;
         &lt;h2&gt;BeagleBoard.org Power Cape&lt;/h2&gt;
-        &lt;p style=&quot;margin-right:75px;&quot;&gt;Description&lt;/p&gt;    
+        &lt;p style=&quot;margin-right:75px;&quot;&gt;Complete power interface for your BeagleBone.
+        Provides regulated 3.3V and System out (Typically 5V) from the BeagleBone 
+        itself as well as an on-board regulator to provide a separate additional
+        3.3V (up to 1.0A) and 5V (up to 1.3A) out. The input voltage can go up to 
+        30V. It also includes an interface to the BeagleBone power button and system reset.&lt;/p&gt;    
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5a&quot;&gt;
-        &lt;p&gt;Features&lt;/p&gt;
+        &lt;li&gt;Input voltage: 7V-30V&lt;/li&gt;
       &lt;/div&gt;
       &lt;div id=&quot;t2-c5c&quot;&gt;
         &lt;br /&gt;
@@ -373,7 +379,7 @@ height=&quot;925&quot;
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">87.0</pvcount>
+    <pvcount type="float">94.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
     <http_referer>https://beagleboard.org/capes-new/edit</http_referer>
