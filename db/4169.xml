@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1525109126093">
+  <hopobject id="4169" name="Page" prototype="Page" created="1452358635678" lastModified="1525109377467">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">30.04.2018 17:25:26 UTC</time>
+    <time type="date">30.04.2018 17:29:37 UTC</time>
     <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Blue&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -104,6 +104,10 @@ $(document).ready(function(){
 &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
 &lt;a href=&quot;/static/images/600px/beagle-blue-pck.png&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone Blue&quot;&gt;
 &lt;img src=&quot;/static/images/250px/beagle-blue-pck.png&quot; border=&quot;0&quot;  style=&quot;width:250px;height:200px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;/edumip&quot; rel=&quot;lightbox&quot; name=&quot;EduMIP&quot;&gt;
+&lt;img src=&quot;/static/images/250px/edumip.jpeg&quot; border=&quot;1&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+
 &lt;!--
 &lt;iframe width=&quot;250&quot; height=&quot;141&quot; src=&quot;https://www.youtube.com/embed/GxmjygZlnJw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 --&gt;
@@ -288,7 +292,7 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">312280.0</pvcount>
+    <pvcount type="float">312284.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <sessionreferrer>beagleboard.org</sessionreferrer>
     <initiallandingpage>/p</initiallandingpage>
