@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1525282246356">
+  <hopobject id="4216" name="Page" prototype="Page" created="1474851336350" lastModified="1525282438518">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>black-wireless</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">02.05.2018 17:30:46 UTC</time>
+    <time type="date">02.05.2018 17:33:58 UTC</time>
     <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;BeagleBone Black Wireless&lt;/h1&gt;
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
@@ -157,10 +157,12 @@ $(document).ready(function(){
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c4-prod-details&quot;&gt;
 &lt;h2&gt;&lt;a href=&quot;/project&quot;&gt;BeagleBone Black Wireless Projects&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/p/beaglefriends-octavosystems/biometric-door-opener-with-facial-recognition-voice-output-b4d62e&quot; class=&quot;external&quot;&gt;Biometric Door Opener with Facial Recognition &amp; Voice Output&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/p/beaglefriends-octavosystems/biometric-door-opener-with-facial-recognition-voice-output-b4d62e&quot;&gt;Biometric Door Opener with Facial Recognition &amp; Voice Output&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
     Quickly automate any door with facial recognition, motion detection, motor control &amp; text to speech&lt;/p&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/p/guycole/android-beaglebone-interaction-via-bluetooth-rfcomm-da8dcf&quot; class=&quot;external&quot;&gt;Android Interaction via Bluetooth RFCOMM&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/p/guycole/android-beaglebone-interaction-via-bluetooth-rfcomm-da8dcf&quot;&gt;Android Interaction via Bluetooth RFCOMM&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
     How to connect between an Android phone and BeagleBone Black Wireless using Bluetooth RFCOMM&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/p/woody-stanford/uav-drone-project-eb1dc9&quot;&gt;UAV Drone Projectt&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    A flying software testing platform with which to develop new guidance methodologies&lt;/p&gt;
 &lt;a href=&quot;/p&quot;&gt;See More Projects&lt;/a&gt; »
 &lt;/div&gt;
 
@@ -224,7 +226,7 @@ find all available hardware specifications such as:
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">193203.0</pvcount>
+    <pvcount type="float">193206.0</pvcount>
     <http_referer>https://beagleboard.org/black-wireless/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
