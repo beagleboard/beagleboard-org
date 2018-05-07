@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1525655484404">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1525707924825">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -11,9 +11,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 19:35:40 UTC</time>
-    <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
+    <time type="date">07.05.2018 15:45:24 UTC</time>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
  &lt;!-- slider --&gt;
 
@@ -91,6 +91,14 @@
  &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
+ &lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
+    &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+    &lt;option value=&quot;https://www.arrow.com/en/products/bb-black/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
+    &lt;option value=&quot;https://www.digikey.com/product-detail/en/ghi-electronics-llc/BBB01-SC-505/BBB01-SC-505-ND/6210999&quot;&gt;Digi-Key&lt;/option&gt;
+    &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-GHI/BBB01-SC-505?qs=sGAEpiMZZMuG6%2fXKM6MUaQUPc9Y91hBEalrDTtma%2fpY%3d&quot;&gt;Mouser&lt;/option&gt;
+    &lt;option value=&quot;https://www.element14.com/community/docs/DOC-84108&quot;&gt;element14&lt;/option&gt;
+ &lt;/select&gt;
+&lt;!--
 &lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
@@ -128,7 +136,7 @@
     &lt;a href=&quot;http://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
     &lt;img src=&quot;http://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
    &lt;/a&gt;
-
+--&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
@@ -323,17 +331,18 @@ Google Research
 &lt;/div&gt;
 &lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">1257639.0</pvcount>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">1258079.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>https://beagleboard.org/bone/edit</http_referer>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <http_referer>https://beagleboard.org/bone/edit</http_referer>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
