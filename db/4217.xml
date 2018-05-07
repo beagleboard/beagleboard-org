@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1525655072409">
+  <hopobject id="4217" name="bbbw" prototype="Page" created="1474851775908" lastModified="1525655139848">
   <hop:parent idref="3268" prototyperef="Page"/>
     <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
@@ -10,12 +10,12 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bbbw</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">07.05.2018 01:04:32 UTC</time>
+    <time type="date">07.05.2018 01:05:39 UTC</time>
     <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-bbbw&quot;&gt;
   &lt;option&gt;Select a distributor to buy&lt;/option&gt;
     &lt;option value=&quot;http://www.digikey.com/products/en?lang=en&amp;site=us&amp;KeyWords=BBBWL-SC-562-ND&quot;&gt;Digi-Key&lt;/option&gt;
-    &lt;option value=&quot;http://www.mouser.com/ProductDetail/GHI-Electronics/BBBWL-SC-562&quot;&gt;Mouser&lt;/option&gt;
+    &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-GHI/BBBWL-SC-562?qs=sGAEpiMZZMuWWq7rhECaKdOidKL%2fSCRSIOKAQ4EtsNA%3d&quot;&gt;Mouser&lt;/option&gt;
     &lt;option value=&quot;https://www.element14.com/community/docs/DOC-83315/l/beaglebone-black-wireless-coming-soon&quot;&gt;element14&lt;/option&gt;
     &lt;option value=&quot;https://www.arrow.com/en/products/bbwireless/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
   &lt;/option&gt;
@@ -67,7 +67,7 @@
 </body>
     <pseudoparent idref="3268" prototyperef="Page"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">29.0</pvcount>
+    <pvcount type="float">30.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <render_skin>bare</render_skin>
