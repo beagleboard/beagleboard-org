@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1525736804768">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1525786490549">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
@@ -10,18 +10,30 @@
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>boards</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 19:16:25 UTC</time>
-    <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
+    <time type="date">08.05.2018 13:34:50 UTC</time>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1.5GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;Meet the most popular member of the open hardware Beagle family. &lt;br&gt;&lt;br&gt;Get the flexible and affordable workhorse with &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
+&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/pocket&quot;&gt;BeagleBoard.org&lt;sup&gt;&amp;reg;&lt;/sup PocketBeagle&lt;sup&gt;&amp;trade;&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-right:10px&quot;&gt;
+Ultra-tiny-yet-complete open-source USB-key-fob computer. PocketBeagle
+features an incredible low cost, slick design and simple usage, making 
+PocketBeagle the ideal development board for beginners and professionals alike.
+&lt;/p&gt;
    
 &lt;!--######################################--&gt;
  &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
+&lt;select class=&quot;dropdown&quot; id=&quot;buy-pb&quot;&gt;
+  &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+  &lt;option value=&quot;https://www.arrow.com/pocketbeagle&quot;&gt;Arrow&lt;/option&gt;
+  &lt;option value=&quot;https://www.digikey.com/pocketbeagle&quot;&gt;Digi-Key&lt;/option&gt;
+  &lt;option value=&quot;https://www.newark.com/beagleboard/bb-pocket/silicon-manufacturer-octave-systems/dp/45AC6372&quot;&gt;Element14&lt;/option&gt;
+  &lt;option value=&quot;https://www.mouser.com/pocketbeagle&quot;&gt;Mouser&lt;/option&gt;
+&lt;/select&gt;&lt;!--
 &lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
@@ -59,13 +71,13 @@
     &lt;a href=&quot;http://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
     &lt;img src=&quot;http://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
    &lt;/a&gt;
-
+--&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
-  if($(&apos;#buy-black&apos;).length) {
-    $.get(&apos;/distributors/black&apos;, function(data){
-        $(&apos;#buy-black&apos;).replaceWith(data);
+  if($(&apos;#buy-pb&apos;).length) {
+    $.get(&apos;/distributors/pb&apos;, function(data){
+        $(&apos;#buy-pb&apos;).replaceWith(data);
         $(&apos;select.dropdown&apos;).each(function(){
           var list = $(this);
           var action = list.attr(&apos;id&apos;); 
@@ -86,11 +98,17 @@ $(document).ready(function(){
 
 
 &lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.ti.com/ww/en/include/js/jquery.min.js&quot;&gt;&lt;/script&gt; 
-          &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.ti.com/ww/en/include/js/slimbox2.js&quot;&gt;&lt;/script&gt;
-          &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;http://www.ti.com/ww/en/include/css/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;a href=&quot;http://www.ti.com/ww/en/beagleboard/product_detail_black_lg.jpg&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot; name=&quot;BeagleBone Black Image&quot;&gt;
-&lt;img src=&quot;http://www.ti.com/ww/en/beagleboard/prod_black_sm.jpg&quot; border=&quot;0&quot;  /&gt;&lt;/a&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;/static/images/PocketBeagle_SizeCompare-medium.jpg&quot; rel=&quot;lightbox&quot; name=&quot;PocketBeagle&quot; title=&quot;Only $25 and just 56mm x 35mm x 5mm. See https://github.com/beagleboard/pocketbeagle/wiki for details.&quot;&gt;
+&lt;img src=&quot;/static/images/PocketBeagle-size-compare-small.jpg&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2&gt;&lt;img class=&quot;start&quot; src=&quot;/static/images/icon-beagle.png&quot; border=&quot;0&quot; /&gt;&lt;a href=&quot;https://github.com/beagleboard/pocketbeagle/wiki&quot; class=&quot;external&quot;&gt;Documentation &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/getting-started&quot;&gt;Quick Start &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/latest-images&quot;&gt;Latest Software Images &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/newsletter-subscribe&quot;&gt;Subscribe to Newsletter &lt;/a&gt; »&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c2&quot;&gt;&lt;h2&gt;What can these boards do?&lt;/h2&gt;
@@ -101,10 +119,11 @@ $(document).ready(function(){
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;/static/images/PocketBeagle-size-compare-small.jpg&quot; width=&quot;100&quot; align=&quot;left&quot; style=&quot;padding:10px;&quot;/&gt;
-    Ultra-tiny-yet-complete open-source USB-key-fob computer. Incredible low cost, slick design and simple usage, making PocketBeagle ideal for beginners and professionals alike.
-    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/pocket&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
+&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;PocketBeagle&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/ti/product_detail_black_sm.jpg&quot; width=&quot;100&quot; align=&quot;left&quot; style=&quot;padding:10px;&quot;/&gt;
+    UltraMeet the most popular member of the open hardware Beagle family. Get the flexible and affordable workhorse with &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
+
+    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/black&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/beagle-blue-pck.png&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
@@ -276,18 +295,18 @@ Google Research
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">471259.0</pvcount>
+    <pvcount type="float">471400.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <initiallandingpage>/p</initiallandingpage>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>http://beagleboard.org/boards/edit</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <http_referer>http://beagleboard.org/boards/edit</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
