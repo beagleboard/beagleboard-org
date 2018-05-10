@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1525924633348">
+  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1525950182577">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>pru</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">10.05.2018 03:57:13 UTC</time>
+    <time type="date">10.05.2018 11:03:02 UTC</time>
     <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;PRU-ICSS Resources&lt;/h1&gt;
 &lt;p&gt;This page is still in development. For now, visit &lt;a href=&quot;http://elinux.org/Ti_AM33XX_PRUSSv2&quot;&gt;http://elinux.org/Ti_AM33XX_PRUSSv2&lt;/a&gt;.&lt;/p&gt;
@@ -25,7 +25,7 @@ stepper motor drivers and much more. Having these controllers integrated is real
 handy to avoid throwing in another device to control or interface to a new peripheral.
 The real power comes when you need high-bandwidth between the main CPU and these
 controllers, such as in &lt;a href=&quot;http://beaglelogic.net&quot;&gt;BeagleLogic.net&lt;/a&gt;,
-&lt;a href=&quot;http://machinekit.io&quot;&gt;MachineKit&lt;/a&gt; or &lt;a href=&quot;https://trmm.net/Category:LEDscape#LEDscape&quot;&gt;LEDscape&lt;/a&gt;. Those are all supper cool projects to check out.
+&lt;a href=&quot;http://machinekit.io&quot;&gt;MachineKit&lt;/a&gt; or &lt;a href=&quot;https://trmm.net/Category:LEDscape#LEDscape&quot;&gt;LEDscape&lt;/a&gt;. Those are all super-cool projects to check out.
 &lt;/p&gt;
 &lt;h2&gt;Latest example&lt;/h2&gt;
 &lt;p&gt;The latest examples on getting started with PRU programming are at &lt;a class=&quot;external&quot; href=&quot;https://github.com/jadonk/bone101/tree/gh-pages/examples/extras/pru&quot;&gt;/examples/extras/pru in Bone101&lt;/a&gt;.
@@ -47,16 +47,16 @@ http://debian.beagleboard.org/images/20141104_pru_sensortag_workshop.img.7z&lt;/
 &lt;/p&gt;
 &lt;p&gt;To create the image, I roughly did the following steps&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Started with the 9/3/2014 &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot;&gt;Debian&lt;/a&gt;
+    &lt;li&gt;Started with the 9/3/2014 &lt;a class=&quot;external&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot;&gt;Debian&lt;/a&gt;
         image
     &lt;/li&gt;
     &lt;li&gt;Installed an &lt;a href=&quot;http://builds.beagleboard.org/builders/runtests/builds/54&quot;&gt;updated kernel that includes PRU Speak&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Installed PRU C compiler version 2.1.0 from &lt;a href=&quot;http://software-dl.ti.com/codegen/non-esd/downloads/download.htm#PRU&quot;&gt;http://software-dl.ti.com/codegen/non-esd/downloads/download.htm#PRU&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Installed PRU C compiler version 2.1.0 from &lt;a class=&quot;external&quot; href=&quot;http://software-dl.ti.com/codegen/non-esd/downloads/download.htm#PRU&quot;&gt;http://software-dl.ti.com/codegen/non-esd/downloads/download.htm#PRU&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;Processed bone101 with Jekyll&lt;/li&gt;
     &lt;li&gt;Installed PRU Speak built firmware, Python scripts and &apos;ply&apos; Python library
-        using &lt;a href=&quot;https://github.com/jadonk/pruspeak&quot;&gt;https://github.com/jadonk/pruspeak&lt;/a&gt;
+        using &lt;a class=&quot;external&quot; href=&quot;https://github.com/jadonk/pruspeak&quot;&gt;https://github.com/jadonk/pruspeak&lt;/a&gt;
     &lt;/li&gt;
-    &lt;li&gt;Installed node-red (you can modify it to start on opening port 1880 by using these &lt;a href=&quot;https://gist.github.com/jadonk/ad049193593539cea29e&quot;&gt;node-red systemd socket activation configuration files&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Installed node-red (you can modify it to start on opening port 1880 by using these &lt;a class=&quot;external&quot; href=&quot;https://gist.github.com/jadonk/ad049193593539cea29e&quot;&gt;node-red systemd socket activation configuration files&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;Installed node.js sensortag library&lt;/li&gt;
     &lt;li&gt;... more later ...&lt;/li&gt;
 &lt;/ul&gt;
@@ -148,11 +148,11 @@ var disqus_shortname = &apos;beagleboard-project&apos;;
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">76020.0</pvcount>
+    <pvcount type="float">76041.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415295641:X=1415299241</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>https://beagleboard.org/pru/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
