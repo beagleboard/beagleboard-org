@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1525921553541">
+  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1525924602223">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415295641:X=1415299241</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>pru</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">18.11.2016 03:46:04 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.192.168.5.bt8t7ewh4yuo</hopsession>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <user>jkridner.wordpress.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">76014.0</pvcount>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>pru</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
+    <time type="date">10.05.2018 03:56:42 UTC</time>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;h1&gt;PRU-ICSS Resources&lt;/h1&gt;
 &lt;p&gt;This page is still in development. For now, visit &lt;a href=&quot;http://elinux.org/Ti_AM33XX_PRUSSv2&quot;&gt;http://elinux.org/Ti_AM33XX_PRUSSv2&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Why PRUs&lt;/h2&gt;
@@ -30,6 +26,11 @@ handy to avoid throwing in another device to control or interface to a new perip
 The real power comes when you need high-bandwidth between the main CPU and these
 controllers, such as in &lt;a href=&quot;http://beaglelogic.net&quot;&gt;BeagleLogic.net&lt;/a&gt;,
 &lt;a href=&quot;http://machinekit.io&quot;&gt;MachineKit&lt;/a&gt; or &lt;a href=&quot;https://trmm.net/Category:LEDscape#LEDscape&quot;&gt;LEDscape&lt;/a&gt;. Those are all supper cool projects to check out.
+&lt;/p&gt;
+&lt;h2&gt;Latest example&lt;/h2&gt;
+&lt;p&gt;The latest examples on getting started with PRU programming are at &lt;a href=&quot;https://github.com/jadonk/bone101/tree/gh-pages/examples/extras/pru&quot;&gt;/examples/extras/pru in Bone101&lt;/a&gt;.
+The list of examples there should be growing soon and is a bit small right now. You can learn about the architecture with the resources below, but getting a new image and using
+the Bone101 examples should be the fastest path to getting your code compiled and running.
 &lt;/p&gt;
 &lt;h2&gt;Ron&apos;s presentation at ELC&lt;/h2&gt;
 &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/plCYsbmMbmY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -145,8 +146,13 @@ var disqus_shortname = &apos;beagleboard-project&apos;;
 })();
 &lt;/script&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/pru/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">76018.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415295641:X=1415299241</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <http_referer>https://beagleboard.org/pru/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
