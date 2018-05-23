@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4172" name="Page" prototype="Page" created="1455116692060" lastModified="1527032816383">
+  <hopobject id="4172" name="Page" prototype="Page" created="1455116692060" lastModified="1527098708312">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>e14-bbbi</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36</http_browser>
-    <time type="date">20.05.2018 08:44:18 UTC</time>
+    <time type="date">23.05.2018 18:05:08 UTC</time>
     <hopsession>127.0.0.vzezup8o4kq4</hopsession>
     <body>&lt;h1&gt;element14 BeagleBone Black Industrial&lt;/h1&gt;
 &lt;p&gt;Please see &lt;a href=&quot;https://www.element14.com/community/docs/DOC-78671/l/element14-beaglebone-black-industrial-4g&quot;&gt;element14&apos;s page&lt;/a&gt;.&lt;/p&gt;
@@ -70,7 +70,15 @@
  &lt;div id=&quot;t2-c7-content&quot;&gt;
 &lt;div id=&quot;t2-c5d&quot;&gt;
 &lt;a href=&quot;/logo&quot;&gt;&lt;img src=&quot;/static/images/BeagleBoardCompatible.png&quot; style=&quot;width:150px;float:right;&quot; /&gt;&lt;/a&gt;
-&lt;h2&gt;What is element14 BeagleBone Black Industrial?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;TBD
+&lt;h2&gt;What is element14 BeagleBone Black Industrial?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;
+The element14 BeagleBone Black Industrial answers the need for an industrial rated single board computer with extended temperature range. The element14 BeagleBone Black Industrial is also software and cape compatible with the original BeagleBone Black.
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Works with existing BeagleBone Black Capes&lt;/li&gt;
+&lt;li&gt;Software compatible with BeagleBone Black&lt;/li&gt;
+&lt;li&gt;Temperature range from -40°C to +85°C&lt;/li&gt;
+&lt;li&gt;BeagleBoard Compatible&lt;sup&gt;&amp;trade;&lt;/sup&gt; product&lt;/li&gt;  
+&lt;/ul&gt;
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
@@ -228,16 +236,17 @@ Browse the &lt;a href=&quot;TBD&quot; Class=&quot;external&quot;&gt;element14 Be
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">10840.0</pvcount>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">10863.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>http://beagleboard.org/e14-bbbi/edit</http_referer>
+    <http_referer>https://beagleboard.org/e14-bbbi/edit</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <initialreferrer>beagleboard.org</initialreferrer>
     <http_host>127.0.0.1:8080</http_host>
+    <initialreferrer>beagleboard.org</initialreferrer>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
