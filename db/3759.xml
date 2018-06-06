@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3759" name="esc" prototype="Page" created="1409688372117" lastModified="1528262132515">
+  <hopobject id="3759" name="esc" prototype="Page" created="1409688372117" lastModified="1528262233107">
   <hop:parent idref="3757" prototyperef="Page"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>esc</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36</http_browser>
-    <time type="date">06.06.2018 05:15:32 UTC</time>
+    <time type="date">06.06.2018 05:17:13 UTC</time>
     <hopsession>127.0.0.vzezup8o4kq4</hopsession>
     <body> &lt;style&gt;
 #toc_container {
@@ -36,15 +36,11 @@
 &lt;div id=&quot;toc_container&quot;&gt;
 &lt;p class=&quot;toc_title&quot;&gt;Contents&lt;/p&gt;
 &lt;ul class=&quot;toc_list&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#First_Point_Header&quot;&gt;1 First Point Header&lt;/a&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;#First_Sub_Point_1&quot;&gt;1.1 First Sub Point 1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#First_Sub_Point_2&quot;&gt;1.2 First Sub Point 2&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#boston-2011&quot;&gt;Boston 2011&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#Second_Point_Header&quot;&gt;2 Second Point Header&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#Third_Point_Header&quot;&gt;3 Third Point Header&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
  &lt;div id=&quot;boston-2011&quot;&gt;
   &lt;h2&gt;Boston 2011&lt;/h2&gt;
   &lt;div id=&quot;boston-2011-content&quot;&gt;
@@ -425,7 +421,6 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/div&gt;
-&lt;/div&gt;
 &lt;!--
  &lt;script language=&quot;javascript&quot; src=&quot;/static/jquery-1.4.2.min.js&quot;&gt;/* Do nothing */&lt;/script&gt;
  &lt;script language=&quot;javascript&quot;&gt;$list_of_tags = [&apos;#chicago-2011&apos;, &apos;#boston-2010&apos;,&apos;#chicago-2010&apos;, &apos;#france-2009&apos;, &apos;#boston-2009&apos;, &apos;#sv-2009&apos;, &apos;#boston-2008&apos;];
@@ -452,7 +447,7 @@ $(document).ready(
 </body>
     <pseudoparent idref="3757" prototyperef="Page"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">4593.0</pvcount>
+    <pvcount type="float">4594.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
