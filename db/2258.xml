@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1529602094407">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1529604770679">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -12,9 +12,9 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>latest-images</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36</http_browser>
-    <time type="date">21.06.2018 03:55:17 UTC</time>
-    <hopsession>127.0.0.vzezup8o4kq4</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.139 Chrome/66.0.3359.139 Safari/537.36</http_browser>
+    <time type="date">21.06.2018 18:12:50 UTC</time>
+    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
 &lt;img style=&quot;float:right;width:400px&quot; itemprop=&quot;image&quot; src=&quot;/static/images/beagleboard_org_logo.png&quot;&gt;
@@ -136,6 +136,55 @@
 &lt;p&gt;For testing, flasher and other Debian images, see &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot; class=&quot;external&quot;&gt;elinux.org/Beagleboard:BeagleBoneBlack_Debian&lt;/a&gt; and
     &lt;a href=&quot;https://debian.beagleboard.org/images&quot;&gt;debian.beagleboard.org/images&lt;/a&gt;.
 &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 style=&quot;color:black;&quot;&gt;&quot;Alpha&quot; Testing Debian images&lt;/h2&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-buster-iot-armhf-2018-06-17-4gb.img.xz&quot;&gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;Testing (Buster)&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-06-17&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;IoT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;9ed014714643f911582a8869c4477b9bd8548332e60641e60dd21e0b76ac3ffd&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-buster-iot-armhf-2018-06-17-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;Testing (Buster)&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-06-17&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;IoT&lt;/span&gt;
+        &lt;/a&gt;
+        image for 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;f74f4e743ad02201ef8d96dc9e0dd30b904c20d6ead08b8537a91caaa1c5a55d&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 style=&quot;color:black;&quot;&gt;Older Debian images&lt;/h2&gt;
 &lt;h3&gt;BeagleBone compatibles via microSD card (without flashing the eMMC)&lt;/h3&gt;
@@ -902,17 +951,17 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">1128442.0</pvcount>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <pvcount type="float">1128467.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>https://beagleboard.org/latest-images/edit</http_referer>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <http_referer>https://beagleboard.org/latest-images/edit</http_referer>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
