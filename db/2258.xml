@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1529552448630">
+  <hopobject id="2258" name="Page" prototype="Page" created="1353424864275" lastModified="1529552564605">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>latest-images</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36</http_browser>
-    <time type="date">21.06.2018 03:40:48 UTC</time>
+    <time type="date">21.06.2018 03:42:44 UTC</time>
     <hopsession>127.0.0.vzezup8o4kq4</hopsession>
     <body>&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot;&gt;
 &lt;h1 itemprop=&quot;name&quot; &gt;BeagleBoard.org Latest Firmware Images&lt;/h1&gt;
@@ -195,6 +195,34 @@
         -
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;8cab7b77a3da697aabbbde883fd9172d93daee398f9c7b88a90bfb53dfea5f5e&lt;/span&gt;
     &lt;/li&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-9.3-lxqt-armhf-2018-01-28-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.3&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-01-28&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;ace523522050e1848b1b69678170d071028eb8670c72398eee1f7719174364d2&lt;/span&gt;
+    &lt;/li&gt;    
     &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
         &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.2-iot-armhf-2017-10-10-4gb.img.xz&quot;
         &gt;
@@ -837,7 +865,7 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">1128044.0</pvcount>
+    <pvcount type="float">1128047.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425504464:X=1425508064</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
