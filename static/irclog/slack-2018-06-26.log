@@ -1,0 +1,82 @@
+[Tue Jun 26 2018 15:23:54 GMT+0000 (UTC)] INFO Connecting...
+26 Jun 15:23:54 - Sending irc NICK/USER
+26 Jun 15:23:54 - SEND: CAP REQ sasl
+26 Jun 15:23:55 - SEND: NICK beagleslackbot
+26 Jun 15:23:55 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+26 Jun 15:24:03 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+26 Jun 15:24:03 - SEND: CAP END
+26 Jun 15:24:03 - [01;31mUnhandled message: { prefix: 'weber.freenode.net',
+  server: 'weber.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '16', 'unknown connection(s)' ] }[0m
+26 Jun 15:24:03 - MODE: beagleslackbot sets mode: +i
+26 Jun 15:24:04 - SEND: NICK beagleslackbot
+26 Jun 15:24:05 - SEND: JOIN #beagle
+26 Jun 15:24:05 - SEND: JOIN #beagle-gsoc
+26 Jun 15:24:06 - SEND: JOIN #beagle-support
+26 Jun 15:24:06 - SEND: JOIN #beagle-bonescript
+26 Jun 15:24:07 - SEND: JOIN #beagle-pro
+26 Jun 15:24:09 - SEND: PRIVMSG #beagle :<jkridner> testing slack-to-irc bridge
+26 Jun 15:24:10 - MODE: #beagle-support sets mode: +ns
+26 Jun 15:24:10 - SEND: MODE #beagle
+26 Jun 15:24:10 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+26 Jun 15:24:10 - [01;31mUnhandled message: { prefix: 'services.',
+  server: 'services.',
+  command: '328',
+  rawCommand: '328',
+  commandType: 'normal',
+  args: [ 'beagleslackbot', '#beagle', 'http://beagleboard.org' ] }[0m
+26 Jun 15:24:10 - MODE: #beagle-support sets mode: -o
+26 Jun 15:24:10 - MODE: #beagle-support sets mode: +ct-s
+26 Jun 15:24:10 - MODE: #beagle-support sets mode: +o
+26 Jun 15:24:11 - SEND: MODE #beagle-gsoc
+26 Jun 15:24:11 - SEND: MODE #beagle-support
+26 Jun 15:24:12 - SEND: MODE #beagle-bonescript
+26 Jun 15:24:12 - SEND: MODE #beagle-pro
+26 Jun 15:26:14 - SEND: PRIVMSG #beagle :<jkridner> @rcn-ee we are talking about you and wishing you'd start an IRC client. ;)
+26 Jun 15:26:30 - QUIT: tdy!~tdy@unaffiliated/tdy Ping timeout: 256 seconds
+26 Jun 15:28:26 - SEND: PONG weber.freenode.net
+26 Jun 15:30:50 - SEND: PONG weber.freenode.net
+26 Jun 15:31:45 - QUIT: CoffeeBreakfast_!~CoffeeBre@190.173.198.74 Quit: WeeChat 1.6
+26 Jun 15:33:14 - SEND: PONG weber.freenode.net
+26 Jun 15:34:07 - QUIT: LarreaMikel!~Thunderbi@158.227.0.241 Ping timeout: 240 seconds
+26 Jun 15:35:38 - SEND: PONG weber.freenode.net
+26 Jun 15:38:02 - SEND: PONG weber.freenode.net
+26 Jun 15:40:26 - SEND: PONG weber.freenode.net
+26 Jun 15:42:50 - SEND: PONG weber.freenode.net
+26 Jun 15:44:42 - QUIT: Vasco_O!vasco_O@LOOK.MOM.I.AM.ON.TEH.INTARD.NET Read error: Connection reset by peer
+26 Jun 15:45:14 - SEND: PONG weber.freenode.net
+26 Jun 15:47:38 - SEND: PONG weber.freenode.net
+26 Jun 15:50:02 - SEND: PONG weber.freenode.net
+26 Jun 15:52:26 - SEND: PONG weber.freenode.net
+26 Jun 15:54:50 - SEND: PONG weber.freenode.net
+26 Jun 15:57:14 - SEND: PONG weber.freenode.net
+26 Jun 15:59:38 - SEND: PONG weber.freenode.net
+26 Jun 16:02:02 - SEND: PONG weber.freenode.net
+26 Jun 16:04:26 - SEND: PONG weber.freenode.net
+26 Jun 16:06:50 - SEND: PONG weber.freenode.net
+26 Jun 16:09:14 - SEND: PONG weber.freenode.net
+26 Jun 16:09:34 - QUIT: pac23!~pac23@103.218.102.109 Remote host closed the connection
+26 Jun 16:11:38 - SEND: PONG weber.freenode.net
+26 Jun 16:14:02 - SEND: PONG weber.freenode.net
+26 Jun 16:16:26 - SEND: PONG weber.freenode.net
+26 Jun 16:16:43 - QUIT: LarreaMikel!~Thunderbi@158.227.0.241 Remote host closed the connection
+26 Jun 16:18:50 - SEND: PONG weber.freenode.net
+26 Jun 16:21:14 - SEND: PONG weber.freenode.net
+26 Jun 16:23:38 - SEND: PONG weber.freenode.net
+26 Jun 16:26:02 - SEND: PONG weber.freenode.net
+26 Jun 16:28:26 - SEND: PONG weber.freenode.net
+26 Jun 16:30:50 - SEND: PONG weber.freenode.net
+26 Jun 16:33:14 - SEND: PONG weber.freenode.net
+26 Jun 16:35:38 - SEND: PONG weber.
