@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2486" name="black" prototype="Page" created="1366586743413" lastModified="1530143879971">
+  <hopobject id="2486" name="black" prototype="Page" created="1366586743413" lastModified="1530217614190">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -11,11 +11,10 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>black</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">11.04.2018 19:20:36 UTC</time>
-    <hopsession>127.0.0.i2bw8x6jeu3l</hopsession>
-    <body>
-   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36</http_browser>
+    <time type="date">28.06.2018 20:26:54 UTC</time>
+    <hopsession>127.0.0.ung0oj6aq9zc</hopsession>
+    <body>   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
  &lt;!-- slider --&gt;
 
 &lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
@@ -249,15 +248,16 @@ Read books to help you learn fundamental concepts
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c6-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual&quot; class=&quot;external&quot;&gt;Latest System Reference Manual&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot; Class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
 Browse the &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot; Class=&quot;external&quot;&gt;BeagleBone Black wiki&lt;/a&gt; to find all available hardware specifications such as:
 &lt;ul&gt;
-&lt;li&gt;Bill of Materials&lt;/li&gt;
-&lt;li&gt;PCB Files&lt;/li&gt;
-&lt;li&gt;MFG Files&lt;/li&gt;
-&lt;li&gt;Schematic (PDF)&lt;/li&gt;
-&lt;li&gt;Schematic (OrCAD)&lt;/li&gt;
-&lt;li&gt;System Reference Manual&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/blob/master/BBB_BOM.csv&quot; class=&quot;external&quot;&gt;Bill of Materials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/blob/master/ALLEGRO/BeagleBone_Black_RevB6_nologo.brd?raw=true&quot; class=&quot;external&quot;&gt;PCB Files&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/tree/master/MFG&quot; class=&quot;external&quot;&gt;MFG Files&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/blob/master/BBB_SCH.pdf&quot; class=&quot;external&quot;&gt;Schematic (PDF)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/blob/master/ALLEGRO/BEAGLEBONEBLK_C.DSN?raw=true&quot; class=&quot;external&quot;&gt;Schematic (OrCAD)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual&quot; class=&quot;external&quot;&gt;System Reference Manual&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;!--
 &lt;p&gt;&lt;a href=&quot;http://circuitco.com/support/index.php?title=BeagleBoneBlack#LATEST_PRODUCTION_FILES_.28A5A.29&quot; Class=&quot;external&quot;&gt;Rev A5A&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://circuitco.com/support/index.php?title=BeagleBoneBlack#REV_A4&quot; Class=&quot;external&quot;&gt;Rev A4&lt;/a&gt; &lt;/p&gt;
@@ -296,17 +296,17 @@ Browse the &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot; 
 
  </body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">3916073.0</pvcount>
+    <pvcount type="float">3917234.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=e8ffd4e0cddd09665866d67d8dc922ffb1839e11..fdee:I=1425323201:X=1425326801</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>https://beagleboard.org/black/edit</http_referer>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <http_referer>https://beagleboard.org/black/edit</http_referer>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
