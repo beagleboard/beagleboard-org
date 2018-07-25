@@ -2030,4 +2030,16 @@ server {
         proxy_pass http://buildbot/ws;
         proxy_read_timeout 6000s;
     }
+    location /linux {
+        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/linux;
+        autoindex on;
+    }
+    location /buildroot {
+        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/buildroot;
+        autoindex on;
+    }
+    location /image-builder {
+        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/image-builder;
+        autoindex on;
+    }
 }
