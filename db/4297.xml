@@ -1,0 +1,3243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4297" name="bbui.js" prototype="Page" created="1532674070740" lastModified="1532674070742">
+  <hop:parent idref="4296" prototyperef="Page"/>
+    <userid>40774</userid>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
+    <http_language>en-US,en;q=0.9</http_language>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36</http_browser>
+    <uri>bbui.js</uri>
+    <time type="date">27.07.2018 06:47:50 UTC</time>
+    <hopsession>127.0.0.14bcsx6pretqi</hopsession>
+    <body>/*
+ * Canvas provides the drawing surfaces.
+ *
+ * Use &apos;var canvas = Canvas.get();&apos; to fetch the canvas.
+ * canvas is an object keyed by the layer names.
+ * canvas[layer].e is the layer element.
+ * canvas[layer].ctx is the layer context.
+ */
+var Canvas = (function () {
+    var canvas;
+
+    function init() {
+        canvas = {};
+
+        var layers = {
+            &apos;Base&apos;: &apos;layer1&apos;, // canvas with bb and other unchanging elements
+            &apos;BTN&apos;: &apos;layer2&apos;, // canvas that draws buttons and corresponding elements
+            &apos;Active&apos;: &apos;layer3&apos;, // active canvas, constantly being cleared and redrawn by UI
+            &apos;LED0&apos;: &apos;layer4&apos;, // separate canvases for LEDs so they can redraw at different rates
+            &apos;LED1&apos;: &apos;layer5&apos;,
+            &apos;LED2&apos;: &apos;layer6&apos;,
+            &apos;LED3&apos;: &apos;layer7&apos;,
+            &apos;Bar&apos;: &apos;layer8&apos;, // canvas for slider bars
+            &apos;Graph&apos;: &apos;layer9&apos; // canvas for base drawings of graph (axis, labels, etc)
+        };
+
+        for (var layer in layers) {
+            canvas[layer] = {};
+            canvas[layer].e = document.getElementById(layers[layer]);
+            canvas[layer].ctx = canvas[layer].e.getContext(&quot;2d&quot;);
+        }
+
+        return (canvas);
+    }
+
+    function add(id, zIndex) {
+        var canvasdiv = document.getElementById(&apos;canvasdiv&apos;);
+        canvas[id] = {};
+        canvas[id].e = document.createElement(&apos;canvas&apos;);
+        canvas[id].e.width = canvas.Base.e.width;
+        canvas[id].e.height = canvas.Base.e.height;
+        canvas[id].e.style.zIndex = zIndex;
+        canvas[id].e.style.left = 0;
+        canvas[id].e.style.right = 0;
+        canvas[id].e.style.top = 0;
+        canvas[id].e.style.bottom = 0;
+        canvas[id].e.style.margin = &apos;auto&apos;;
+        canvas[id].e.style.position = &quot;absolute&quot;;
+        canvas[id].ctx = canvas[id].e.getContext(&quot;2d&quot;);
+        canvasdiv.appendChild(canvas[id].e);
+    }
+
+    return {
+        &apos;get&apos;: function () {
+            if (!canvas) {
+                canvas = init();
+            }
+            return canvas;
+        },
+        &apos;add&apos;: add
+    };
+})();
+//Hardware Functions
+var Hardware = (function () {
+    var hw;
+
+    function init() {
+        hw = {};
+        return hw;
+    }
+
+    function add(name, category, subCategory) {
+        try {
+            if (!hw.b) {
+                hw.b = require(&apos;bonescript&apos;);
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+        if (!hw.b) return;
+        if (category == &apos;digital&apos;) {
+            if (subCategory == &apos;output&apos;)
+                hw.b.pinMode(name, hw.b.OUTPUT);
+            else if (subCategory == &apos;pwm&apos;)
+                hw.b.pinMode(name, hw.b.ANALOG_OUTPUT);
+            else if (subCategory == &apos;input&apos;)
+                hw.b.pinMode(name, hw.b.INPUT);
+        }
+    }
+
+    function write(pin, callback) {
+        try {
+            if (!hw.b) {
+                hw.b = require(&apos;bonescript&apos;);
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+        if (!hw.b) return;
+        if (pin.category == &apos;led&apos;)
+            hw.b.digitalWrite(pin.name, pin.state, callback);
+        else if (pin.category == &apos;digital&apos;) {
+            if (pin.subType == &apos;output&apos;)
+                hw.b.digitalWrite(pin.name, pin.state, callback);
+            else if (pin.subType == &apos;pwm&apos;)
+                hw.b.analogWrite(pin.name, pin.freq * pin.state, 2000, callback);
+        }
+    }
+
+    function read(pin, callback) {
+        try {
+            if (!hw.b) {
+                hw.b = require(&apos;bonescript&apos;);
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+        if (!hw.b) return;
+        if (pin.category == &apos;analog&apos;) {
+            if (pin.power == &apos;on&apos;)
+                hw.b.analogRead(pin.name, callback);
+            else
+                callback(null, 0);
+        } else if (pin.category == &apos;thumbwheel&apos;)
+            hw.b.analogRead(&apos;P1_19&apos;, callback);
+        else if (pin.category == &apos;digital&apos;) {
+            if (pin.subType == &apos;input&apos;)
+                hw.b.digitalRead(pin.name, callback);
+            if (pin.subType == &apos;pwm&apos;)
+                callback(null, 3.3 * pin.freq);
+        } else
+            callback(null, 3.3 * pin.state);
+    }
+
+    function RCInit(pin) {
+        try {
+            if (!hw.b) {
+                hw.b = require(&apos;bonescript&apos;);
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+        if (!hw.b) return;
+        if (!hw.RCInitialized) {
+            hw.b.rcInitialize();
+            hw.RCInitialized = true;
+        }
+        if (pin.category == &apos;servo&apos;) {
+            if (!hw.RCServoInitialized &amp;&amp; pin.power == &apos;on&apos;) {
+                hw.b.rcServo(&apos;ENABLE&apos;);
+                hw.b.rcServo(&apos;POWER_RAIL_ENABLE&apos;);
+                hw.RCServoInitialized = true;
+            } else if (hw.RCServoInitialized &amp;&amp; pin.power == &apos;off&apos;) {
+                hw.b.rcServo(&apos;POWER_RAIL_DISABLE&apos;);
+                hw.b.rcServo(&apos;DISABLE&apos;);
+                hw.RCServoInitialized = false;
+            }
+        } else if (pin.category == &apos;motor&apos;) {
+            if (!hw.RCMotorInitialized &amp;&amp; pin.power == &apos;on&apos;) {
+                hw.b.rcMotor(&apos;ENABLE&apos;);
+                hw.RCMotorInitialized = true;
+            }
+        }
+    }
+
+    function RCWrite(pin) {
+        try {
+            if (!hw.b) {
+                hw.b = require(&apos;bonescript&apos;);
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+        if (!hw.b) return;
+        if (pin.category == &apos;servo&apos;) {
+            hw.b.rcServo(Number(pin.name.replace(&apos;ch&apos;, &apos;&apos;)), pin.pulse);
+        } else if (pin.category == &apos;motor&apos;) {
+            hw.b.rcMotor(Number(pin.name.replace(&apos;ch&apos;, &apos;&apos;)), pin.freq * pin.state)
+        }
+    }
+
+    return {
+        &apos;get&apos;: function () {
+            if (!hw) {
+                hw = init();
+            }
+            return hw;
+        },
+        &apos;add&apos;: add,
+        &apos;write&apos;: write,
+        &apos;read&apos;: read,
+        &apos;RCInit&apos;: RCInit,
+        &apos;RCWrite&apos;: RCWrite
+    };
+})();
+
+/*
+ * UI provides the user interface drawing and interaction logic.
+ * The events are registered, removed and transitioned by Events to help
+ * make it clear what events are currently registered and active.
+ *
+ * Use &apos;var ui = UI.get();&apos; to fetch the user interface object.
+ */
+var UI = (function () {
+    var ui;
+
+    function init() {
+        ui = {};
+        var hw = Hardware.get();
+        var canvas = Canvas.get();
+
+        // initialize global positions of some elements, all other elements based on these
+        // positions
+        var BBposX = 283;
+        var BBposY = 120;
+        var axisStartY = BBposY + 65;
+        var axisStartX = BBposX + 240;
+        var rect = {
+            x: 0,
+            y: BBposY - 70,
+            w: canvas.Base.e.width,
+            h: 523
+        };
+        var rectInner = {
+            x: rect.x + 20,
+            y: rect.y + 15,
+            w: 420,
+            h: 510
+        };
+        //the position of the probe inside the graph
+        var snapProbe = {
+            x: rect.x + 28,
+            y: rect.y + 25
+        };
+        //the position of colored lines of each probe beside axis
+        var graphLinePos = BBposY - 60;
+
+        // mousedown on a button state
+        ui.down = false;
+
+        // major buttons
+        ui.button = (function () {
+            var button = {};
+
+            // global buttons
+            var btnX = BBposX - 250;
+            var btnY = BBposY - 90;
+
+            var buttons = {
+                analog: {
+                    x: btnX + 156,
+                    y: btnY,
+                    endX: btnX + 231,
+                    endY: btnY + 15,
+                    color: &apos;rgb(51,153,255)&apos;,
+                    text: &quot;analog&quot;,
+                    s: 19,
+                    offColor: &apos;rgb(0,51,102)&apos;,
+                    warn: &quot;Do not supply more that 1.8 V to Analog Input pins&quot;,
+                    article: &quot;an analog pin&quot;,
+                    graphColors: [&apos;rgb(0,0,255)&apos;, &apos;rgb(0,01,53)&apos;, &apos;rgb(0,102,204)&apos;, &apos;rgb(0,51,102)&apos;],
+                    category: &quot;main&quot;
+                },
+                digital: {
+                    x: btnX + 234,
+                    y: btnY,
+                    endX: btnX + 309,
+                    endY: btnY + 15,
+                    color: &apos;rgb(102,204,51)&apos;,
+                    text: &quot;digital&quot;,
+                    s: 19,
+                    category: &quot;main&quot;
+                },
+                ground: {
+                    x: btnX,
+                    y: btnY,
+                    endX: btnX + 75,
+                    endY: btnY + 15,
+                    color: &apos;rgb(64,64,64)&apos;,
+                    text: &quot;ground&quot;,
+                    s: 19,
+                    category: &quot;main&quot;
+                },
+                power: {
+                    x: btnX + 78,
+                    y: btnY,
+                    endX: btnX + 153,
+                    endY: btnY + 15,
+                    color: &apos;rgb(255,51,51)&apos;,
+                    text: &quot;power&quot;,
+                    s: 19,
+                    category: &quot;main&quot;
+                },
+                led: {
+                    x: btnX + 312,
+                    y: btnY,
+                    endX: btnX + 387,
+                    endY: btnY + 15,
+                    color: &apos;rgb(255,153,51)&apos;,
+                    text: &quot;usr leds&quot;,
+                    s: 15,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;a user led&quot;,
+                    graphColors: [&apos;rgb(255,128,0)&apos;, &apos;rgb(164,60,0)&apos;, &apos;rgb(255,99,71)&apos;, &apos;rgb(255,69,0)&apos;],
+                    category: &quot;main&quot;
+                },
+                input: {
+                    x: btnX + 234,
+                    y: btnY + 20,
+                    endX: btnX + 309,
+                    endY: btnY + 35,
+                    color: &apos;rgb(0,153,0)&apos;,
+                    text: &quot;input&quot;,
+                    s: 22,
+                    offColor: &apos;rgb(0,81,36)&apos;,
+                    warn: &quot;Do not supply more that 3.3 V to Digital Input pins&quot;,
+                    article: &quot;a digital pin&quot;,
+                    graphColors: [&apos;rgb(0,51,0)&apos;, &apos;rgb(0,204,0)&apos;, &apos;rgb(51,102,0)&apos;, &apos;rgb(0,255,0)&apos;, &apos;rgb(128,255,0)&apos;],
+                    category: &quot;digital&quot;
+                },
+                output: {
+                    x: btnX + 234,
+                    y: btnY + 40,
+                    endX: btnX + 309,
+                    endY: btnY + 55,
+                    color: &apos;rgb(0,153,153)&apos;,
+                    text: &quot;output&quot;,
+                    s: 19,
+                    offColor: &apos;rgb(0,85,85)&apos;,
+                    barColor: &apos;rgb(153,255,255)&apos;,
+                    article: &quot;a digital pin&quot;,
+                    warn: &quot;Do not draw more that 4 mA from Digital Output Pins&quot;,
+                    graphColors: [&apos;rgb(60,179,113)&apos;, &apos;rgb(0,153,153)&apos;, &apos;rgb(0,255,255)&apos;, &apos;rgb(0,102,102)&apos;],
+                    category: &quot;digital&quot;
+                },
+                pwm: {
+                    x: btnX + 234,
+                    y: btnY + 60,
+                    endX: btnX + 309,
+                    endY: btnY + 75,
+                    color: &apos;rgb(153,0,153)&apos;,
+                    text: &quot;pwm&quot;,
+                    s: 23,
+                    offColor: &apos;rgb(51,0,102)&apos;,
+                    barColor: &apos;rgb(229,204,255)&apos;,
+                    warn: &quot;Do not draw more that 4 mA from Digital Output Pins&quot;,
+                    article: &quot;a pwm pin&quot;,
+                    graphColors: [&apos;rgb(102,0,102)&apos;, &apos;rgb(204,0,204)&apos;, &apos;rgb(255,102,255)&apos;, &apos;rgb(51,0,51)&apos;],
+                    category: &quot;digital&quot;
+                },
+                miscbtn1: {
+                    x: btnX + 532,
+                    y: btnY,
+                    endX: btnX + 607,
+                    endY: btnY + 15,
+                    color: &apos;rgb(76,25,81)&apos;,
+                    text: &quot;rgb LED&quot;,
+                    s: 15,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;rgb led&quot;,
+                    graphColors: [&apos;rgb(102,0,204)&apos;, &apos;rgb(0,1,53)&apos;, &apos;rgb(0,51,102)&apos;, &apos;rgb(151,0,120)&apos;],
+                    category: &quot;main&quot;,
+                    disabled: true
+                },
+                miscbtn2: {
+                    x: btnX + 612,
+                    y: btnY,
+                    endX: btnX + 712,
+                    endY: btnY + 15,
+                    color: &apos;rgb(4,32,76)&apos;,
+                    text: &quot;ThumbWheel&quot;,
+                    s: 5,
+                    offColor: &apos;rgb(2,16,38)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;thumbwheel&quot;,
+                    graphColors: [&apos;rgb(0,01,53)&apos;, &apos;rgb(0,102,204)&apos;, &apos;rgb(0,51,102)&apos;, &apos;rgb(151,0,120)&apos;],
+                    category: &quot;main&quot;,
+                    disabled: true
+                },
+                onOff: {
+                    x: snapProbe.x + 85,
+                    y: snapProbe.y,
+                    endX: snapProbe.x + 135,
+                    endY: snapProbe.y + 15,
+                    s: 6,
+                    e: 28
+                },
+                plus: {
+                    x: axisStartX + 54,
+                    y: axisStartY + 240,
+                    endX: axisStartX + 66,
+                    endY: axisStartY + 252 + 2,
+                    text: &quot;+&quot;,
+                    category: &quot;graph&quot;
+                },
+                minus: {
+                    x: axisStartX + 36,
+                    y: axisStartY + 240,
+                    endX: axisStartX + 48,
+                    endY: axisStartY + 252 + 3,
+                    text: &quot;-&quot;,
+                    category: &quot;graph&quot;
+                },
+                stop: {
+                    x: axisStartX + 18,
+                    y: axisStartY + 240,
+                    endX: axisStartX + 30,
+                    endY: axisStartY + 252,
+                    status: &quot;none&quot;,
+                    text: &quot;stop&quot;,
+                    category: &quot;graph&quot;
+                },
+                play: {
+                    x: axisStartX,
+                    y: axisStartY + 240,
+                    endX: axisStartX + 12,
+                    endY: axisStartY + 252,
+                    status: &quot;none&quot;,
+                    text: &quot;play&quot;,
+                    category: &quot;graph&quot;
+                },
+                exit: {
+                    x: canvas.Base.e.width / 2 + 250,
+                    y: canvas.Base.e.height / 4 + 13,
+                    endX: canvas.Base.e.width / 2 + 258,
+                    endY: canvas.Base.e.height / 4 + 25,
+                    category: &quot;welcome&quot;
+                },
+                digitalMenu: {
+                    // in the range of the digital buttons, but not on one
+                    x: btnX + 234,
+                    y: btnY,
+                    endX: btnX + 309,
+                    endY: btnY + 75,
+                    category: &quot;digitalMenu&quot;
+                },
+                beaglebone: {
+                    x: btnX + 252,
+                    y: btnY + 430,
+                    endX: btnX + 342,
+                    endY: btnY + 445,
+                    color: &apos;rgb(22,79,15)&apos;,
+                    text: &quot;BB Green&quot;,
+                    s: 15,
+                    state: &apos;green&apos;,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;Beaglebone Black&quot;,
+                    graphColors: [&apos;rgb(255,128,0)&apos;, &apos;rgb(164,60,0)&apos;, &apos;rgb(255,99,71)&apos;, &apos;rgb(255,69,0)&apos;],
+                    category: &quot;main&quot;
+                },
+                beagleblue: {
+                    x: btnX + 252,
+                    y: btnY + 450,
+                    endX: btnX + 342,
+                    endY: btnY + 465,
+                    color: &apos;rgb(0,40,104)&apos;,
+                    text: &quot;BB Blue&quot;,
+                    s: 15,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;Beaglebone Blue&quot;,
+                    graphColors: [&apos;rgb(255,128,0)&apos;, &apos;rgb(164,60,0)&apos;, &apos;rgb(255,99,71)&apos;, &apos;rgb(255,69,0)&apos;],
+                    category: &quot;main&quot;
+                },
+                pocketbeagle: {
+                    x: btnX + 352,
+                    y: btnY + 430,
+                    endX: btnX + 465,
+                    endY: btnY + 445,
+                    color: &apos;rgb(81,49,2)&apos;,
+                    text: &quot;PocketBeagle&quot;,
+                    s: 15,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;PocketBeagle&quot;,
+                    graphColors: [&apos;rgb(255,128,0)&apos;, &apos;rgb(164,60,0)&apos;, &apos;rgb(255,99,71)&apos;, &apos;rgb(255,69,0)&apos;],
+                    category: &quot;main&quot;
+                },
+                baconbits: {
+                    x: btnX + 352,
+                    y: btnY + 450,
+                    endX: btnX + 465,
+                    endY: btnY + 465,
+                    color: &apos;rgb(22,79,15)&apos;,
+                    text: &quot;BaconBits&quot;,
+                    s: 25,
+                    offColor: &apos;rgb(102,0,0)&apos;,
+                    barColor: &apos;rgb(255,204,153)&apos;,
+                    article: &quot;BaconBits&quot;,
+                    graphColors: [&apos;rgb(255,128,0)&apos;, &apos;rgb(164,60,0)&apos;, &apos;rgb(255,99,71)&apos;, &apos;rgb(255,69,0)&apos;],
+                    category: &quot;main&quot;
+                }
+            };
+
+            button.test = function (event) {
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+                //console.log(&quot;x: &quot; + x , &quot;, y: &quot; + y );
+
+                for (var b in buttons) {
+                    var minX = buttons[b].x;
+                    var minY = buttons[b].y;
+                    var maxX = buttons[b].endX;
+                    var maxY = buttons[b].endY;
+                    if (x &gt;= minX &amp;&amp; x &lt;= maxX &amp;&amp; y &gt;= minY &amp;&amp; y &lt;= maxY) {
+                        //console.log(&quot;button = &quot; + b);
+                        return b;
+                    }
+                }
+                //console.log(&quot;button = none&quot;);
+                return (&quot;none&quot;);
+            };
+
+            //highlight analog, digital, power, ground, led buttons
+            button.highlight = function (highlightButton) {
+                canvas.Active.ctx.fillStyle = &apos;rgba(255,255,255,0.7)&apos;;
+                for (var b in buttons) {
+                    if (buttons[b].category == &quot;main&quot;) {
+                        button.draw(b, canvas.Active.ctx, (highlightButton == b));
+                    }
+                }
+            };
+
+            //highlight input, output, pwm buttons
+            button.highlightDigital = function (highlightButton) {
+                canvas.Active.ctx.fillStyle = &apos;rgba(255,255,255,0.7)&apos;;
+                for (var b in buttons) {
+                    if (buttons[b].category == &quot;digital&quot;) {
+                        button.draw(b, canvas.Active.ctx, (highlightButton == b));
+                    }
+                }
+            };
+
+            button.highlightPlus = function (flag) {
+                if (flag)
+                    canvas.Graph.ctx.fillStyle = &quot;#FF4500&quot;;
+                else
+                    canvas.Graph.ctx.fillStyle = &quot;#000000&quot;;
+                canvas.Graph.ctx.font = &apos;bold 20pt Lucinda Grande&apos;;
+                canvas.Graph.ctx.fillText(&quot;+&quot;, buttons.plus.x, buttons.plus.endY);
+            };
+
+            button.highlightMinus = function (flag) {
+                if (flag)
+                    canvas.Graph.ctx.fillStyle = &quot;#FF4500&quot;;
+                else
+                    canvas.Graph.ctx.fillStyle = &quot;#000000&quot;;
+                canvas.Graph.ctx.font = &apos;30pt Lucinda Grande&apos;;
+                canvas.Graph.ctx.fillText(&quot;-&quot;, buttons.minus.x, buttons.minus.endY);
+            };
+
+            button.highlightStop = function (flag) {
+                if (flag)
+                    canvas.Graph.ctx.fillStyle = &quot;#FF4500&quot;;
+                else
+                    canvas.Graph.ctx.fillStyle = &quot;#000000&quot;;
+                canvas.Graph.ctx.beginPath();
+                canvas.Graph.ctx.moveTo(buttons.stop.x, buttons.stop.y);
+                canvas.Graph.ctx.lineTo(buttons.stop.x + 12, buttons.stop.y);
+                canvas.Graph.ctx.lineTo(buttons.stop.x + 12, buttons.stop.y + 12);
+                canvas.Graph.ctx.lineTo(buttons.stop.x, buttons.stop.y + 12);
+                canvas.Graph.ctx.fill();
+            };
+
+            button.highlightPlay = function (flag) {
+                if (flag)
+                    canvas.Graph.ctx.fillStyle = &quot;#FF4500&quot;;
+                else
+                    canvas.Graph.ctx.fillStyle = &quot;#000000&quot;;
+                canvas.Graph.ctx.beginPath();
+                canvas.Graph.ctx.moveTo(buttons.play.x, buttons.play.y);
+                canvas.Graph.ctx.lineTo(buttons.play.x + 10, buttons.play.y + 7);
+                canvas.Graph.ctx.lineTo(buttons.play.x, buttons.play.y + 14);
+                canvas.Graph.ctx.fill();
+            };
+
+            /*
+            the draw function is used to draw the main buttons and probes.
+            use highlight = true when dragging a button into graph otherwise the highlight is false.
+            */
+            button.draw = function (b, context, highlight, x, y) {
+                var radius = 1;
+                var btn = buttons[b];
+                if (btn.disabled) return;
+                var endX, endY;
+                if (!x || !y) {
+                    x = btn.x;
+                    y = btn.y;
+                    endX = btn.endX;
+                    endY = btn.endY;
+                } else {
+                    endX = x + (btn.endX - btn.x);
+                    endY = y + (btn.endY - btn.y);
+                }
+                var color = btn.color;
+                var text = btn.text;
+                var s = btn.s;
+                context.beginPath();
+                context.lineWidth = &quot;1&quot;;
+                context.moveTo(x + radius, y);
+                context.lineTo(endX - radius, y);
+                context.quadraticCurveTo(endX, y, endX, y + radius);
+                context.lineTo(endX, endY - radius);
+                context.quadraticCurveTo(endX, endY, endX - radius, endY);
+                context.lineTo(x + radius, endY);
+                context.quadraticCurveTo(x, endY, x, endY - radius);
+                context.lineTo(x, y + radius);
+                context.quadraticCurveTo(x, y, x + radius, y);
+                if (highlight === true) {
+                    context.strokeStyle = color;
+                    context.stroke();
+                    context.fillStyle = &apos;white&apos;;
+                    context.fill();
+                    context.fillStyle = color;
+                } else {
+                    context.strokeStyle = color;
+                    context.stroke();
+                    context.fillStyle = color;
+                    context.fill();
+                    context.fillStyle = &apos;white&apos;;
+                }
+                context.font = &apos;10pt Andale Mono&apos;;
+                context.fillText(text, x + s, y + 12);
+            };
+
+            button.createOutput = function () {
+                button.push(&apos;output&apos;, true);
+                var probes = Object.keys(buttons);
+                probeName = probes[probes.length - 22];
+                probe = buttons[probeName];
+                probe2 = buttons[probes[probes.length - 23]]
+                ui.wire.link(probe2, probe);
+                probe.input = &quot;on&quot;;
+                canvas.Active.ctx.fillStyle = &apos;red&apos;;
+                canvas.Active.ctx.font = &apos;12pt Andale Mono&apos;;
+                canvas.Active.ctx.fillText(&quot;select &quot; + probe.article, BBposX + 10, BBposY - 25);
+            };
+
+            //draw play, stop, zooming buttons
+            button.drawGraphbtn = function (b, context) {
+                var btn = buttons[b];
+                // zoom in
+                if (btn.text == &quot;+&quot;) {
+                    context.font = &apos;bold 20pt Lucinda Grande&apos;;
+                    context.fillText(btn.text, btn.x, btn.endY);
+                    context.save();
+                }
+
+                // zoom out
+                else if (btn.text == &quot;-&quot;) {
+                    context.font = &apos;30pt Lucinda Grande&apos;;
+                    context.fillText(btn.text, btn.x, btn.endY);
+                    context.save();
+                }
+
+                // play button
+                else if (btn.text == &quot;play&quot;) {
+                    context.beginPath();
+                    context.moveTo(btn.x, btn.y);
+                    context.lineTo(btn.x + 10, btn.y + 7);
+                    context.lineTo(btn.x, btn.y + 14);
+                    context.fill();
+                    context.restore();
+                    context.save();
+                }
+
+                // stop button
+                else {
+                    context.beginPath();
+                    context.moveTo(btn.x, btn.y);
+                    context.lineTo(btn.x + 12, btn.y);
+                    context.lineTo(btn.x + 12, btn.y + 12);
+                    context.lineTo(btn.x, btn.y + 12);
+                    context.fill();
+                    context.restore();
+                }
+            };
+
+            var probeIndex = 0
+            button.push = function (b, output) {
+                buttons[probeIndex] = {};
+                for (var prop in buttons[b]) {
+                    if (buttons[b].hasOwnProperty(prop)) {
+                        buttons[probeIndex][prop] = buttons[b][prop];
+                    }
+                }
+                buttons[probeIndex].name = b;
+                buttons[probeIndex].x = snapProbe.x;
+                buttons[probeIndex].y = snapProbe.y;
+                buttons[probeIndex].endX = snapProbe.x + 75;
+                buttons[probeIndex].endY = snapProbe.y + 15;
+                buttons[probeIndex].status = &quot;probe&quot;;
+                if (b == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;baconbits&apos;)
+                    buttons[probeIndex].endX += 24;
+                //ui.probe.push(buttons[probeIndex]);
+
+                //output is true if the input button selected.
+                if (output === true) {
+                    buttons[probeIndex].x = snapProbe.x + 75;
+                    buttons[probeIndex].endX = snapProbe.x + 150;
+                    button.draw(probeIndex, canvas.Base.ctx, false, snapProbe.x + 75, snapProbe.y);
+                } else {
+                    button.draw(probeIndex, canvas.Base.ctx, false);
+                }
+                snapProbe.y += 22;
+                if (b == &apos;miscbtn1&apos; &amp;&amp; ui.pin.board == &apos;baconbits&apos;)
+                    snapProbe.y += 44;
+                probeIndex++;
+            };
+
+            //removing a button and resetting snapProbe position.
+            button.pop = function () {
+                snapProbe.y -= 22;
+                probeIndex--;
+                var button = buttons[probeIndex];
+                delete buttons[probeIndex];
+                return button;
+            };
+
+            button.get = function () {
+                return buttons;
+            }
+
+            //draw initial buttons to the canvas
+            for (var b in buttons) {
+                if (buttons[b].category == &quot;main&quot;) {
+                    button.draw(b, canvas.Base.ctx, false);
+                } else if (buttons[b].category == &quot;graph&quot;) {
+                    button.drawGraphbtn(b, canvas.Graph.ctx);
+                }
+            }
+
+            return button;
+        })();
+
+        ui.bar = (function () {
+            var bar = {};
+            var bars = [];
+
+            // slider bar properties, not necessarily connected to led
+            bar.create = function (probe, pin) {
+                var bar = {
+                    color: probe.color,
+                    outline: probe.color,
+                    height: 15,
+                    length: 70,
+                    locX: probe.endX + 70,
+                    locY: probe.y,
+                    btn: probe,
+                    move: &quot;off&quot;,
+                    pin: pin,
+                    sliderX: 0,
+                    sliderY: 0,
+                    frequency: 0,
+                    setSliderX: function () {
+                        this.sliderX = this.locX + 2;
+                    },
+                    setSliderY: function () {
+                        this.sliderY = this.locY + 2;
+                    },
+                    setFrequency: function () {
+                        this.frequency = this.sliderX - this.locX - 2;
+                    },
+                    text: &quot;0 s&quot;,
+                    type: probe.name
+                };
+
+                bar.setSliderX();
+                bar.setSliderY();
+                bar.setFrequency();
+                if (bar.pin.category == &apos;servo&apos;)
+                    bar.text = &apos;-1.5&apos;;
+                else if (probe.name === &quot;pwm&quot; || probe.pinNum.category == &apos;motor&apos;) {
+                    bar.text = bar.frequency.toString();
+                } else {
+                    bar.text = (bar.frequency.toString() + &apos; s&apos;);
+                };
+
+                bars.push(bar);
+                return bars;
+            };
+            bar.createRGBBar = function (probe, pin) {
+                //Red Bar
+                var barR = {
+                    color: &apos;rgb(255,0,0)&apos;,
+                    outline: &apos;rgb(255,0,0)&apos;,
+                    height: 15,
+                    length: 70,
+                    locX: probe.endX + 70,
+                    locY: probe.y,
+                    btn: probe,
+                    move: &quot;off&quot;,
+                    pin: pin,
+                    sliderX: 0,
+                    sliderY: 0,
+                    frequency: 0,
+                    setSliderX: function () {
+                        this.sliderX = this.locX + 2;
+                    },
+                    setSliderY: function () {
+                        this.sliderY = this.locY + 2;
+                    },
+                    setFrequency: function () {
+                        this.frequency = this.sliderX - this.locX - 2;
+                    },
+                    text: &quot;0 s&quot;,
+                    type: &apos;rgbr&apos;
+                };
+
+                barR.setSliderX();
+                barR.setSliderY();
+                barR.setFrequency();
+                barR.text = barR.frequency.toString();
+
+                var barG = {
+                    color: &apos;rgb(0,255,0)&apos;,
+                    outline: &apos;rgb(0,255,0)&apos;,
+                    height: 15,
+                    length: 70,
+                    locX: probe.endX + 70,
+                    locY: probe.y + 18,
+                    btn: probe,
+                    move: &quot;off&quot;,
+                    pin: pin,
+                    sliderX: 0,
+                    sliderY: 0,
+                    frequency: 0,
+                    setSliderX: function () {
+                        this.sliderX = this.locX + 2;
+                    },
+                    setSliderY: function () {
+                        this.sliderY = this.locY + 2;
+                    },
+                    setFrequency: function () {
+                        this.frequency = this.sliderX - this.locX - 2;
+                    },
+                    text: &quot;0 s&quot;,
+                    type: &apos;rgbg&apos;
+                };
+
+                barG.setSliderX();
+                barG.setSliderY();
+                barG.setFrequency();
+                barG.text = barG.frequency.toString();
+
+                var barB = {
+                    color: &apos;rgb(0,0,255)&apos;,
+                    outline: &apos;rgb(0,0,255)&apos;,
+                    height: 15,
+                    length: 70,
+                    locX: probe.endX + 70,
+                    locY: probe.y + 36,
+                    btn: probe,
+                    move: &quot;off&quot;,
+                    pin: pin,
+                    sliderX: 0,
+                    sliderY: 0,
+                    frequency: 0,
+                    setSliderX: function () {
+                        this.sliderX = this.locX + 2;
+                    },
+                    setSliderY: function () {
+                        this.sliderY = this.locY + 2;
+                    },
+                    setFrequency: function () {
+                        this.frequency = this.sliderX - this.locX - 2;
+                    },
+                    text: &quot;0&quot;,
+                    type: &apos;rgbb&apos;
+                };
+
+                barB.setSliderX();
+                barB.setSliderY();
+                barB.setFrequency();
+                barB.text = barB.frequency.toString();
+
+                bars.push(barR);
+                bar.draw();
+                bars.push(barG);
+                bar.draw();
+                bars.push(barB);
+                bar.draw();
+                return bars;
+            };
+
+            bar.draw = function (index) {
+                var len = bars.length;
+                if (typeof index == &apos;undefined&apos;) index = len - 1;
+                //canvas.Bar.ctx.clearRect(0,0,canvas.Bar.e.width,canvas.Bar.e.height);
+                canvas.Bar.ctx.fillStyle = &apos;rgb(205,205,205)&apos;;
+                canvas.Bar.ctx.fillRect(bars[index].locX, bars[index].locY, bars[index].length, bars[index].height);
+                canvas.Bar.ctx.fillStyle = bars[index].barColor;
+                canvas.Bar.ctx.fillRect(bars[index].locX, bars[index].locY, bars[index].sliderX - bars[index].locX, 15);
+                canvas.Bar.ctx.fillStyle = &apos;rgb(30,30,30)&apos;;
+                canvas.Bar.ctx.fillRect(bars[index].sliderX - 2, bars[index].sliderY - 2, 14, 15); //width and height of slider
+                canvas.Bar.ctx.strokeStyle = bars[index].outline;
+                canvas.Bar.ctx.lineWidth = 2;
+                canvas.Bar.ctx.strokeRect(bars[index].locX, bars[index].locY, bars[index].length, bars[index].height);
+                canvas.Bar.ctx.fillStyle = &apos;black&apos;;
+                canvas.Bar.ctx.strokeStyle = &apos;rgb(225,225,225)&apos;;
+                canvas.Bar.ctx.lineWidth = 6;
+                canvas.Bar.ctx.font = &apos;8pt Andale Mono&apos;;
+                canvas.Bar.ctx.clearRect(bars[index].locX + bars[index].length + 3, bars[index].locY, 50, 15);
+                canvas.Bar.ctx.strokeText(bars[index].text, bars[index].length + bars[index].locX + 5,
+                    bars[index].height + bars[index].locY - 2);
+                canvas.Bar.ctx.fillText(bars[index].text, bars[index].length + bars[index].locX + 5,
+                    bars[index].height + bars[index].locY - 2);
+            };
+
+            bar.move = function (event) {
+                var coord = Position(event);
+                var x = coord[0];
+                var y = coord[1];
+                var i;
+                var len = bars.length;
+                for (i = 0; i &lt; len; i++) {
+                    if (bars[i].move === &apos;on&apos;) {
+                        bars[i].sliderX = x - 5;
+                        if (bars[i].sliderX &lt; bars[i].locX + 2) {
+                            bars[i].sliderX = bars[i].locX + 2;
+                            if (bars[i].pin.category == &apos;servo&apos;)
+                                bars[i].frequency = -1.5
+                            else
+                                bars[i].frequency = 0;
+                        } else if (bars[i].sliderX &gt; bars[i].length + bars[i].locX - 12) {
+                            bars[i].sliderX = bars[i].length + bars[i].locX - 12;
+                            if (bars[i].type === &quot;pwm&quot; || bars[i].type.indexOf(&apos;rgb&apos;) &gt;= 0 || bars[i].pin.category == &apos;motor&apos;) {
+                                bars[i].frequency = 1;
+                            } else if (bars[i].pin.category == &apos;servo&apos;) {
+                                bars[i].frequency = 1.5;
+                            } else {
+                                bars[i].frequency = 10;
+                            }
+                        } else {
+                            if (bars[i].type === &quot;pwm&quot; || bars[i].type.indexOf(&apos;rgb&apos;) &gt;= 0 || bars[i].pin.category == &apos;motor&apos;) {
+                                bars[i].frequency = ((bars[i].sliderX - bars[i].locX - 2) / 60).toPrecision(2);
+                            } else if (bars[i].pin.category == &apos;servo&apos;) {
+                                bars[i].frequency = ((bars[i].sliderX - bars[i].locX - 31) / 20).toPrecision(2);
+                            } else {
+                                bars[i].frequency = ((bars[i].sliderX - bars[i].locX - 2) / 6).toPrecision(2);
+                            }
+                        }
+                        if (bars[i].type === &quot;pwm&quot; || bars[i].type.indexOf(&apos;rgb&apos;) &gt;= 0 || bars[i].pin.category == &apos;servo&apos; || bars[i].pin.category == &apos;motor&apos;) {
+                            bars[i].pin.freq = bars[i].frequency;
+                            bars[i].text = bars[i].frequency.toString();
+                        } else {
+                            bars[i].pin.freq = bars[i].frequency * 1000;
+                            bars[i].text = bars[i].frequency.toString() + &apos; s&apos;;
+                        }
+                        bar.draw(i);
+                        if (bars[i].type.indexOf(&apos;rgb&apos;) &gt;= 0) {
+                            if (bars[i].type === &quot;rgbr&quot;) {
+                                bars[i].pin.red = bars[i].pin.freq;
+                            } else if (bars[i].type === &quot;rgbg&quot;) {
+                                bars[i].pin.green = bars[i].pin.freq;
+                            } else if (bars[i].type === &quot;rgbb&quot;) {
+                                bars[i].pin.blue = bars[i].pin.freq;
+                            }
+                            ui.pin.rgb(bars[i].pin);
+                            ui.pin.rgbgradientLight(bars[i].pin);
+                        } else if (bars[i].pin.category == &apos;servo&apos;) {
+                            bars[i].pin.pulse = bars[i].pin.freq * bars[i].pin.state;
+                            Hardware.RCWrite(bars[i].pin);
+                        } else if (bars[i].pin.category == &apos;motor&apos;) {
+                            Hardware.RCWrite(bars[i].pin);
+                        } else if (bars[i].pin.freq != 0 &amp;&amp; bars[i].pin.power === &apos;on&apos; &amp;&amp; pin.subType != &apos;pwm&apos;) {
+                            ui.pin.blink(bars[i].pin);
+                        }
+                        //calling socket; this should be done with Hardware object.
+                        else if (bars[i].pin.power === &apos;on&apos;) {
+                            clearInterval(bars[i].pin.blinking);
+                            ui.pin.blink(bars[i].pin);
+                        }
+                    }
+                }
+            };
+
+            bar.off = function () {
+                var len = bars.length;
+                for (i = 0; i &lt; len; i++) {
+                    if (bars[i].move === &apos;on&apos;) {
+                        bars[i].move = &apos;off&apos;;
+                    }
+                }
+            };
+
+            //returns the black square slider in slider bar.
+            bar.sliderTest = function (event) {
+                var coord = Position(event);
+                var x = coord[0];
+                var y = coord[1];
+                var i;
+                var len = bars.length;
+                bar.off();
+                for (i = 0; i &lt; len; i++) {
+                    if (x &lt;= (bars[i].sliderX + 12) &amp;&amp; x &gt;= bars[i].sliderX - 2 &amp;&amp; y &gt;= bars[i].sliderY - 2 &amp;&amp; y &lt;= (bars[i].sliderY + 13)) {
+                        bars[i].move = &apos;on&apos;;
+                        return &quot;slider&quot;;
+                    }
+                }
+            };
+
+            //returns the whole slider bar.
+            bar.test = function (event) {
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+                for (var i = 0; i &lt; bars.length; i++) {
+                    var minX = bars[i].locX;
+                    var minY = bars[i].locY;
+                    var maxX = minX + bars[i].length;
+                    var maxY = minY + bars[i].height;
+                    if (x &gt;= minX &amp;&amp; x &lt;= maxX &amp;&amp; y &gt;= minY &amp;&amp; y &lt;= maxY) {
+                        console.log(&quot;bar = &quot; + bars[i]);
+                        return &quot;slider&quot;;
+                    }
+                }
+                //console.log(&quot;button = none&quot;);
+                return (&quot;none&quot;);
+            };
+
+            return bar;
+        })();
+
+        ui.onOff = (function () {
+            var onOff = {};
+            var onOffs = [];
+            var buttons = ui.button.get();
+            // onOff button properties
+            onOff.create = function (probe, pin) {
+                var Onoff = {
+                    locX: probe.x + 85,
+                    locY: probe.y,
+                    height: 15,
+                    width: 50,
+                    probe: probe,
+                    pin: pin,
+                    type: probe.name
+                };
+                if (probe.text == &apos;thumbwheel&apos;)
+                    Onoff.locX += 24;
+                onOffs.push(Onoff);
+                onOff.on()
+                return onOffs;
+            };
+
+            onOff.on = function (index) {
+                var len = onOffs.length;
+                if (typeof index == &apos;undefined&apos;)
+                    index = len - 1;
+                var probe = onOffs[index].probe;
+                probe.pinNum.power = &quot;on&quot;;
+                probe.pinNum.state = 1;
+                if (ui.pin.board == &apos;beagleblue&apos;) {
+                    Hardware.RCInit(probe.pinNum);
+                    Hardware.RCWrite(probe.pinNum);
+                } else
+                    ui.pin.blink(onOffs[index].pin);
+                var btn = buttons[&apos;onOff&apos;];
+                var x = onOffs[index].locX;
+                var y = onOffs[index].locY;
+                var color = probe.color;
+                var offColor = probe.offColor;
+                var s = btn.s;
+                var e = btn.e;
+                var w = 50;
+                var h = 15;
+                var r = probe.endX + 60;
+                var b = probe.endY;
+                var radius = 1;
+
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.lineWidth = &quot;1&quot;;
+                canvas.BTN.ctx.moveTo(x + radius, y);
+                canvas.BTN.ctx.lineTo(r - radius, y);
+                canvas.BTN.ctx.quadraticCurveTo(r, y, r, y + radius);
+                canvas.BTN.ctx.lineTo(r, y + h - radius);
+                canvas.BTN.ctx.quadraticCurveTo(r, b, r - radius, b);
+                canvas.BTN.ctx.lineTo(x + radius, b);
+                canvas.BTN.ctx.quadraticCurveTo(x, b, x, b - radius);
+                canvas.BTN.ctx.lineTo(x, y + radius);
+                canvas.BTN.ctx.quadraticCurveTo(x, y, x + radius, y);
+                canvas.BTN.ctx.strokeStyle = color;
+                canvas.BTN.ctx.stroke();
+                canvas.BTN.ctx.fillStyle = color;
+                canvas.BTN.ctx.fill()
+                canvas.BTN.ctx.fillStyle = &apos;white&apos;;
+                canvas.BTN.ctx.font = &apos;10pt Andale Mono&apos;;
+                if (probe.category == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;beagleblue&apos;)
+                    canvas.BTN.ctx.fillText(&apos;F&apos;, x + s, y + 12);
+                else
+                    canvas.BTN.ctx.fillText(&apos;on&apos;, x + s, y + 12);
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(x + w / 2, y);
+                canvas.BTN.ctx.lineTo(r - radius, y);
+                canvas.BTN.ctx.quadraticCurveTo(r, y, r, y + radius);
+                canvas.BTN.ctx.lineTo(r, y + h - radius);
+                canvas.BTN.ctx.quadraticCurveTo(r, b, r - radius, b);
+                canvas.BTN.ctx.lineTo(x + w / 2, b);
+                canvas.BTN.ctx.fillStyle = offColor;
+                canvas.BTN.ctx.fill()
+                canvas.BTN.ctx.fillStyle = &apos;black&apos;;
+                canvas.BTN.ctx.font = &apos;10pt Andale Mono&apos;;
+                if (probe.category == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;beagleblue&apos;)
+                    canvas.BTN.ctx.fillText(&apos;R&apos;, x + e, y + 12);
+                else
+                    canvas.BTN.ctx.fillText(&apos;off&apos;, x + e, y + 12);
+            };
+
+            onOff.off = function (index) {
+                var len = onOffs.length;
+                if (typeof index == &apos;undefined&apos;)
+                    index = len - 1;
+                var probe = onOffs[index].probe;
+                onOffs[index].pin.power = &quot;off&quot;;
+                if (probe.category == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;beagleblue&apos;)
+                    onOffs[index].pin.state = -1;
+                else
+                    onOffs[index].pin.state = 0;
+                if (ui.pin.board == &apos;beagleblue&apos;) {
+                    Hardware.RCInit(probe.pinNum);
+                    Hardware.RCWrite(probe.pinNum)
+                } else
+                    ui.pin.blink(onOffs[index].pin);
+                var btn = buttons[&apos;onOff&apos;];
+                var x = onOffs[index].locX;
+                var y = onOffs[index].locY;
+                var color = probe.color;
+                var offColor = probe.offColor;
+                var s = btn.s;
+                var s = btn.s;
+                var e = btn.e;
+                var w = 50;
+                var h = 15;
+                var r = probe.endX + 60;
+                var b = probe.endY;
+                var radius = 1;
+
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.lineWidth = &quot;1&quot;;
+                canvas.BTN.ctx.moveTo(x + radius, y);
+                canvas.BTN.ctx.lineTo(r - radius, y);
+                canvas.BTN.ctx.quadraticCurveTo(r, y, r, y + radius);
+                canvas.BTN.ctx.lineTo(r, y + h - radius);
+                canvas.BTN.ctx.quadraticCurveTo(r, b, r - radius, b);
+                canvas.BTN.ctx.lineTo(x + radius, b);
+                canvas.BTN.ctx.quadraticCurveTo(x, b, x, b - radius);
+                canvas.BTN.ctx.lineTo(x, y + radius);
+                canvas.BTN.ctx.quadraticCurveTo(x, y, x + radius, y);
+                canvas.BTN.ctx.strokeStyle = color;
+                canvas.BTN.ctx.stroke();
+                canvas.BTN.ctx.fillStyle = color;
+                canvas.BTN.ctx.fill()
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(x + w / 2, b);
+                canvas.BTN.ctx.lineTo(x + radius, b);
+                canvas.BTN.ctx.quadraticCurveTo(x, b, x, b - radius);
+                canvas.BTN.ctx.lineTo(x, y + radius);
+                canvas.BTN.ctx.quadraticCurveTo(x, y, x + radius, y);
+                canvas.BTN.ctx.lineTo(x + w / 2, y);
+                canvas.BTN.ctx.fillStyle = offColor;
+                canvas.BTN.ctx.fill();
+                canvas.BTN.ctx.fillStyle = &apos;black&apos;;
+                canvas.BTN.ctx.font = &apos;10pt Andale Mono&apos;;
+                if (probe.category == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;beagleblue&apos;)
+                    canvas.BTN.ctx.fillText(&apos;F&apos;, x + s, y + 12);
+                else
+                    canvas.BTN.ctx.fillText(&apos;on&apos;, x + s, y + 12);
+                canvas.BTN.ctx.fillStyle = &apos;white&apos;;
+                canvas.BTN.ctx.font = &apos;10pt Andale Mono&apos;;
+                if (probe.category == &apos;miscbtn2&apos; &amp;&amp; ui.pin.board == &apos;beagleblue&apos;)
+                    canvas.BTN.ctx.fillText(&apos;R&apos;, x + e, y + 12);
+                else
+                    canvas.BTN.ctx.fillText(&apos;off&apos;, x + e, y + 12);
+            };
+
+            //returns the on or off button.
+            onOff.test = function (event) {
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+                for (var i = 0; i &lt; onOffs.length; i++) {
+                    var minXOn = onOffs[i].locX;
+                    var minY = onOffs[i].locY;
+                    var maxXOn = minXOn + onOffs[i].width / 2;
+                    var minXOff = maxXOn;
+                    var maxXOff = minXOff + onOffs[i].width / 2;
+                    var maxY = minY + onOffs[i].height;
+                    if (x &gt;= minXOn &amp;&amp; x &lt;= maxXOn &amp;&amp; y &gt;= minY &amp;&amp; y &lt;= maxY) {
+                        onOff.on(i);
+                        ui.pin.getVoltage(onOffs[i].pin)
+                        return &quot;probeon&quot;;
+                    } else if (x &gt;= minXOff &amp;&amp; x &lt;= maxXOff &amp;&amp; y &gt;= minY &amp;&amp; y &lt;= maxY) {
+                        onOff.off(i);
+                        return &quot;probeoff&quot;;
+                    }
+                }
+                return (&quot;none&quot;);
+            };
+            return onOff;
+        })();
+
+        //wire object is responsible for drawing all wires in graph
+        // wires are drawn in BTN canvas
+        ui.wire = (function () {
+            var wire = {};
+            var btnHeight = 15;
+
+            wire.led = function (pin, probe) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(probe.x + 75, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 143, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 143, rect.y + 10);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, rect.y + 10);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, pin.y);
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.stroke();
+            };
+
+            wire.analog = function (pin, probe) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(probe.x + 75, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.stroke();
+            };
+            wire.rgbled = function (pin, probe) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(probe.x + 75, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.stroke();
+            };
+            wire.thumbwheel = function (pin, probe) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(probe.x + 95, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 140, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.stroke();
+            };
+
+            wire.digital = function (pin, probe) {
+                canvas.BTN.ctx.beginPath();
+                if (pin.subType == &quot;input&quot;) {
+                    var s = -2;
+                } else if (pin.subType == &quot;output&quot;) {
+                    var s = -6;
+                } else {
+                    var s = -4;
+                }
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.moveTo(probe.x + 75, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 141 + s, probe.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(rectInner.w - 141 + s, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineTo(pin.x + pin.w / 2, pin.y + pin.h / 2);
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.stroke();
+            };
+
+            wire.link = function (btn1, btn2) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(btn1.endX / 2 + 15, btn1.y + btnHeight);
+                canvas.BTN.ctx.lineTo(btn1.endX / 2 + 15, btn2.y + btnHeight * 0.5);
+                canvas.BTN.ctx.lineTo(btn2.x, btn2.y + btnHeight * 0.5);
+                canvas.BTN.ctx.strokeStyle = &apos;rgb(0,153,110)&apos;;
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.stroke();
+            };
+
+            wire.drawToGraph = function (pin) {
+                canvas.BTN.ctx.beginPath();
+                canvas.BTN.ctx.moveTo(rectInner.w + 40, graphLinePos);
+                canvas.BTN.ctx.lineTo(rectInner.w + 70, graphLinePos);
+                canvas.BTN.ctx.strokeStyle = pin.color;
+                canvas.BTN.ctx.lineWidth = 2;
+                canvas.BTN.ctx.stroke();
+                graphLinePos += 4;
+            };
+
+            return wire;
+        })();
+
+        ui.pin = (function () {
+            var pin = {};
+            var pins;
+            pin.initialize = function (board) {
+                board = typeof board == &apos;undefined&apos; ? &apos;beaglebone&apos; : board;
+                pin.board = board;
+                BBpins = [
+                    // P9
+                    {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;VDD 3.3V&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;VDD 3.3V&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;VDD 5V&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;VDD 5V&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;SYS 5V&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;SYS 5V&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;PWR_BUT&apos;,
+                        category: &apos;reset&apos;
+                    }, {
+                        name: &apos;SYS_RESETn&apos;,
+                        category: &apos;reset&apos;
+                    }, {
+                        name: &apos;P9_11&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_12&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_13&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_14&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P9_15&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_16&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P9_17&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_18&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_19&apos;,
+                        category: &apos;i2c&apos;
+                    }, {
+                        name: &apos;P9_20&apos;,
+                        category: &apos;i2c&apos;
+                    }, {
+                        name: &apos;P9_21&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P9_22&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P9_23&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_24&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_25&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_26&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_27&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_28&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P9_29&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P9_30&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_31&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P9_32&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P9_33&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_34&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P9_35&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_36&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_37&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_38&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_39&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_40&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P9_41&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P9_42&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    },
+                    // P8
+                    {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;GND&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;P8_3&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_4&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_5&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_6&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_7&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_8&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_9&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_10&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_11&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_12&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_13&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P8_14&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_15&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_16&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_17&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_18&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_19&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P8_20&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_21&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_22&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_23&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_24&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_25&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_26&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P8_27&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_28&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_29&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_30&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_31&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_32&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_33&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_34&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_35&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_36&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_37&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_38&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_39&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_40&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_41&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_42&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_43&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_44&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_45&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P8_46&apos;,
+                        category: &apos;&apos;
+                    },
+                    // LEDs
+                    {
+                        name: &apos;USR3&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR2&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR1&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR0&apos;,
+                        category: &apos;led&apos;
+                    }
+                ];
+                PBpins = [
+                    // P1
+                    {
+                        name: &apos;P1_1&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_2&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_3&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_4&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_5&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_6&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_7&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_8&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_9&apos;,
+                        category: &apos;reset&apos;
+                    }, {
+                        name: &apos;P1_10&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_11&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_12&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_13&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_14&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;P1_15&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P1_16&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;P1_17&apos;,
+                        category: &apos;aref&apos;
+                    }, {
+                        name: &apos;P1_18&apos;,
+                        category: &apos;aref&apos;
+                    }, {
+                        name: &apos;P1_19&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P1_20&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_21&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P1_22&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;P1_23&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P1_24&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;P1_25&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P1_26&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_27&apos;,
+                        category: &apos;analog&apos;
+                    }, {
+                        name: &apos;P1_28&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_29&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_30&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_31&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_32&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_33&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P1_34&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_35&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P1_36&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    },
+                    // P2
+                    {
+                        name: &apos;P2_1&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P2_2&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_3&apos;,
+                        category: &apos;digital&apos;,
+                        PWM: true
+                    }, {
+                        name: &apos;P2_4&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_5&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_6&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_7&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_8&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_9&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_10&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_11&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_12&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P2_13&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;P2_14&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P2_15&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;P2_16&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P2_17&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_18&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_19&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_20&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_21&apos;,
+                        category: &apos;ground&apos;
+                    }, {
+                        name: &apos;P2_22&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_23&apos;,
+                        category: &apos;power&apos;
+                    }, {
+                        name: &apos;P2_24&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_25&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_26&apos;,
+                        category: &apos;&apos;
+                    }, {
+                        name: &apos;P2_27&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_28&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_29&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_30&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_31&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_32&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_33&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_34&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_35&apos;,
+                        category: &apos;digital&apos;
+                    }, {
+                        name: &apos;P2_36&apos;,
+                        category: &apos;analog&apos;
+                    },
+                    // LEDs
+                    {
+                        name: &apos;USR0&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR1&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR2&apos;,
+                        category: &apos;led&apos;
+                    }, {
+                        name: &apos;USR3&apos;,
+                        category: &apos;led&apos;
+                    }
+                ];
+                if (board == &apos;beaglebone&apos;) {
+                    pins = BBpins
+                    // initialize positions
+                    for (var i = 0; i &lt; 92; i++) {
+                        var x, y;
+                        // only compute base x/y on initial/even iterations
+                        if ((i % 2) === 0) {
+                            y = BBposY + 83.5 + 9.12 * ((i % 46) / 2);
+                            x = BBposX + 5;
+                            // P8
+                            if (i &gt;= 46) {
+                                x += 177.5;
+                            }
+                        }
+                        // offset x on odd iterations
+                        else {
+                            x += 9.5;
+                        }
+                        pins[i].x = x;
+                        pins[i].y = y;
+                        pins[i].w = 5;
+                        pins[i].h = 5;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    for (var i = 92; i &lt; 96; i++) {
+                        // var LEDpositions = [230.5, 241.75, 253, 264.25];
+                        var LEDpositions = [151.5, 158.5, 165.5, 171.5];
+                        pins[i].x = BBposX + LEDpositions[i - 92];
+                        pins[i].y = BBposY + 18;
+                        pins[i].w = 5;
+                        pins[i].h = 10;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                } else if (board == &apos;pocketbeagle&apos;) {
+                    pins = PBpins;
+                    // initialize positions
+                    for (var i = 0; i &lt; 72; i++) {
+                        var x, y;
+                        // only compute base x/y on initial/even iterations
+                        if ((i % 2) === 0) {
+                            y = BBposY + 34.50 + 15.18 * ((i % 36) / 2);
+                            x = BBposX + 16.95;
+                            // P2
+                            if (i &gt;= 36) {
+                                x += 147;
+                            }
+                        }
+                        // offset x on odd iterations
+                        else {
+                            x += 15;
+                        }
+                        pins[i].x = x;
+                        pins[i].y = y;
+                        pins[i].w = 8;
+                        pins[i].h = 8;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    for (var i = 72; i &lt; 76; i++) {
+                        // var LEDpositions = [230.5, 241.75, 253, 264.25];
+                        var LEDpositions = [58.5, 44.5, 30.5, 17];
+                        pins[i].x = BBposX + 52.5;
+                        pins[i].y = BBposY + LEDpositions[i - 72];
+                        pins[i].w = 10;
+                        pins[i].h = 5;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                } else if (board == &apos;baconbits&apos;) {
+                    pins = PBpins;
+                    pins.push({
+                        name: &apos;thumbwheel&apos;,
+                        category: &apos;thumbwheel&apos;
+                    })
+                    pins.push({
+                        name: &apos;rgbled&apos;,
+                        category: &apos;rgbled&apos;
+                    })
+                    // initialize positions
+                    for (var i = 0; i &lt; 72; i++) {
+                        var x, y;
+                        // only compute base x/y on initial/even iterations
+                        if ((i % 2) === 0) {
+                            y = BBposY + 51.50 + 13.72 * ((i % 36) / 2) - 0.03 * Math.pow(i % 36 / 2, 1.08);;
+                            x = BBposX + 14.95;
+                            // P2
+                            if (i &gt;= 36) {
+                                x += 147.5;
+                            }
+                        }
+                        // offset x on odd iterations
+                        else {
+                            x += 15;
+                        }
+                        pins[i].x = x;
+                        pins[i].y = y;
+                        pins[i].w = 8;
+                        pins[i].h = 8;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    for (var i = 72; i &lt; 76; i++) {
+                        // var LEDpositions = [230.5, 241.75, 253, 264.25];
+                        var LEDpositions = [68.5, 54.5, 40.5, 27];
+                        pins[i].x = BBposX + 52.5;
+                        pins[i].y = BBposY + LEDpositions[i - 72];
+                        pins[i].w = 10;
+                        pins[i].h = 5;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    //initialize position of ThumbWheel
+                    pins[76].x = BBposX + 107.5;
+                    pins[76].y = BBposY + 274;
+                    pins[76].w = 50;
+                    pins[76].h = 60;
+                    pins[76].s = 18;
+                    pins[76].select = &quot;off&quot;;
+                    //initialize position of RGB LED
+                    pins[77].x = BBposX + 89.5;
+                    pins[77].y = BBposY + 195;
+                    pins[77].w = 30;
+                    pins[77].h = 30;
+                    pins[77].s = 18;
+                    pins[77].select = &quot;off&quot;;
+                } else if (board == &apos;beaglegreen&apos;) {
+                    pins = BBpins
+                    // initialize positions
+                    for (var i = 0; i &lt; 92; i++) {
+                        var x, y;
+                        // only compute base x/y on initial/even iterations
+                        if ((i % 2) === 0) {
+                            y = BBposY + 85.5 + 9.02 * ((i % 46) / 2);
+                            x = BBposX + 12.5;
+                            // P8
+                            if (i &gt;= 46) {
+                                x += 162.5;
+                            }
+                        }
+                        // offset x on odd iterations
+                        else {
+                            x += 9.5;
+                        }
+                        pins[i].x = x;
+                        pins[i].y = y;
+                        pins[i].w = 5;
+                        pins[i].h = 5;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    for (var i = 92; i &lt; 96; i++) {
+                        // var LEDpositions = [230.5, 241.75, 253, 264.25];
+                        var LEDpositions = [153.5, 160.5, 167.5, 174.5];
+                        pins[i].x = BBposX + LEDpositions[i - 92];
+                        pins[i].y = BBposY + 34;
+                        pins[i].w = 5;
+                        pins[i].h = 10;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                } else if (board == &apos;beagleblue&apos;) {
+                    pins = [{
+                            name: &apos;GREEN&apos;,
+                            category: &apos;led&apos;
+                        }, {
+                            name: &apos;RED&apos;,
+                            category: &apos;led&apos;
+                        }, {
+                            name: &apos;USR0&apos;,
+                            category: &apos;led&apos;
+                        }, {
+                            name: &apos;USR1&apos;,
+                            category: &apos;led&apos;
+                        }, {
+                            name: &apos;USR2&apos;,
+                            category: &apos;led&apos;
+                        }, {
+                            name: &apos;USR3&apos;,
+                            category: &apos;led&apos;
+                        },
+                        {
+                            name: &apos;ch1&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch2&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch3&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch4&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch5&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch6&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch7&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch8&apos;,
+                            category: &apos;servo&apos;
+                        }, {
+                            name: &apos;ch1&apos;,
+                            category: &apos;motor&apos;
+                        }, {
+                            name: &apos;ch2&apos;,
+                            category: &apos;motor&apos;
+                        }, {
+                            name: &apos;ch3&apos;,
+                            category: &apos;motor&apos;
+                        }, {
+                            name: &apos;ch4&apos;,
+                            category: &apos;motor&apos;
+                        }
+                    ];
+                    //LED positions
+                    for (var i = 0; i &lt; 6; i++) {
+                        // var LEDpositions = [230.5, 241.75, 253, 264.25];
+                        var LEDpositions = [83.5, 90.5, 97.5, 104.5, 111.5, 118.5];
+                        pins[i].x = BBposX + 22.5;
+                        pins[i].y = BBposY + LEDpositions[i];
+                        pins[i].w = 10;
+                        pins[i].h = 5;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    // Servo Positions
+                    for (var i = 6; i &lt; 14; i++) {
+                        var Servopositions = [116.5, 125, 133.5, 142, 151.5, 160, 169.5, 178];
+                        pins[i].x = BBposX + Servopositions[i - 6] - 14;
+                        pins[i].y = BBposY + 257;
+                        pins[i].w = 6;
+                        pins[i].h = 24;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                    //Motor positions
+                    for (var i = 14; i &lt; 18; i++) {
+                        var MotorpositionsX = [47.5, 47.5, 65.5, 65.5];
+                        var MotorpositionsY = [303.5, 289.5, 289.5, 303.5];
+                        pins[i].x = BBposX + MotorpositionsX[i - 14];
+                        pins[i].y = BBposY + MotorpositionsY[i - 14];
+                        pins[i].w = 16;
+                        pins[i].h = 12;
+                        pins[i].s = 18;
+                        pins[i].select = &quot;off&quot;;
+                    }
+                }
+            }
+
+            pin.highlight = function (button, digitalHighlight) {
+                //the related pins for digital buttons is true by Default, except for hoverButton event.
+                if (digitalHighlight == undefined) {
+                    digitalHighlight = true;
+                }
+                if (button == &quot;none&quot;) return;
+
+                var category = button;
+                var pwm = false;
+                if (category == &quot;input&quot; &amp;&amp; digitalHighlight == true) category = &quot;digital&quot;;
+                if (category == &quot;output&quot; &amp;&amp; digitalHighlight == true) category = &quot;digital&quot;;
+                if (category == &quot;miscbtn1&quot;) {
+                    if (pin.board == &apos;baconbits&apos;)
+                        category = &quot;rgbled&quot;;
+                    else if (pin.board == &apos;beagleblue&apos;)
+                        category = &quot;servo&quot;
+                }
+                if (category == &quot;miscbtn2&quot;) {
+                    if (pin.board == &apos;baconbits&apos;)
+                        category = &quot;thumbwheel&quot;;
+                    else if (pin.board == &apos;beagleblue&apos;)
+                        category = &quot;motor&quot;
+                }
+
+                for (var i = 0; i &lt; pins.length; i++) {
+                    if (category == &quot;pwm&quot; &amp;&amp; digitalHighlight == true) pwm = pins[i].PWM;
+                    if (category == pins[i].category || pwm) {
+                        var p = pins[i];
+                        if (p.select !== &quot;on&quot;) {
+                            if (pin.board == &apos;beaglebone&apos; || pin.board == &apos;pocketbeagle&apos; || pin.board == &apos;beagleblue&apos;)
+                                canvas.Active.ctx.fillStyle = &apos;RGBA(0,255,0,0.5)&apos;;
+                            else
+                                canvas.Active.ctx.fillStyle = &apos;RGBA(255,0,255,0.7)&apos;;
+                            canvas.Active.ctx.fillRect(p.x, p.y, p.w, p.h);
+                            canvas.Active.ctx.save();
+                        }
+                    }
+                }
+            };
+
+            //change the pin color to light grey on hivering
+            pin.hover = function (pin) {
+                Canvas.get().Active.ctx.fillStyle = &apos;RGBA(255,255,255,.5)&apos;;
+                Canvas.get().Active.ctx.fillRect(pin.x, pin.y, pin.w, pin.h);
+            }
+            //animate the pin when active
+            pin.gradientLight = function (pin) {
+                if (ui.pin.board == &apos;beagleblue&apos;) return;
+                var x1 = pin.x + pin.w / 2; // x of 1. circle center point
+                var y1 = pin.y + pin.h / 2; // y of 1. circle center point
+                var r1 = 0.1; // radius of 1. circle
+                var x2 = x1; // x of 2. circle center point
+                var y2 = y1; // y of 2. circle center point
+                var r2 = 10; // radius of 2. circle
+                context = Canvas.get().LED0.ctx;
+                if (!pin.state)
+                    context.clearRect(pin.x - 0.1 * pin.w, pin.y - 0.6 * pin.h, pin.w * 1.2, pin.h * 1.8);
+                else {
+                    var radialGradient = context.createRadialGradient(x1, y1, r1, x2, y2, r2);
+                    context.save();
+                    context.translate(x1, y1);
+                    context.scale(1, 2);
+                    context.translate(-x1, -y1);
+                    radialGradient.addColorStop(0, &apos;rgba(0,  225, 255, 1)&apos;);
+                    radialGradient.addColorStop(.3, &apos;rgba(0,  125, 255, .7)&apos;);
+                    radialGradient.addColorStop(.5, &apos;rgba(0,  0, 255, .5)&apos;);
+                    radialGradient.addColorStop(1, &apos;rgba(0, 0, 255, 0)&apos;);
+                    context.fillStyle = radialGradient;
+                    context.fillRect(pin.x, pin.y, pin.w, pin.h);
+                    context.restore();
+                }
+            };
+
+            pin.rgbgradientLight = function (pin) {
+                var red = pin.red * 255;
+                var green = pin.green * 255;
+                var blue = pin.blue * 255;
+                var basecolor = &apos;rgba(&apos; + red + &apos;,&apos; + green + &apos;,&apos; + blue + &apos;,&apos;;
+                var shade1 = basecolor + &apos;1)&apos;;
+                var shade2 = basecolor + &apos;0.7)&apos;;
+                var shade3 = basecolor + &apos;0.5)&apos;;
+                var shade4 = basecolor + &apos;0)&apos;;
+                var x1 = pin.x + pin.w / 2; // x of 1. circle center point
+                var y1 = pin.y + pin.h / 2; // y of 1. circle center point
+                var r1 = 0.1; // radius of 1. circle
+                var x2 = x1; // x of 2. circle center point
+                var y2 = y1; // y of 2. circle center point
+                var r2 = 25; // radius of 2. circle
+                context = Canvas.get().LED0.ctx;
+                context.clearRect(x1 - pin.w, y1 - pin.h, 2 * pin.w, 2 * pin.h);
+                var radialGradient = context.createRadialGradient(x1, y1, r1, x2, y2, r2);
+                context.save();
+                context.translate(x1, y1);
+                context.scale(1, 2);
+                context.translate(-x1, -y1);
+                radialGradient.addColorStop(0, shade1);
+                radialGradient.addColorStop(.3, shade2);
+                radialGradient.addColorStop(.5, shade3);
+                radialGradient.addColorStop(1, shade4);
+                context.fillStyle = radialGradient;
+                context.fillRect(pin.x, pin.y + pin.h / 4, pin.w, pin.h / 2);
+                context.restore();
+            };
+
+            pin.test = function (event) {
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+
+                for (var p in pins) {
+                    if (x &gt;= pins[p].x &amp;&amp; x &lt;= pins[p].x + pins[p].w &amp;&amp; y &gt;= pins[p].y &amp;&amp;
+                        y &lt;= pins[p].y + pins[p].h) {
+                        //console.log(&quot;pin = &quot; + pins[p].name);
+                        return pins[p];
+                    }
+                }
+                return (&quot;none&quot;);
+            };
+
+            pin.getVoltage = function (pin) {
+                if (pin.category == &apos;rgbled&apos; || pin.category == &apos;servo&apos; || pin.category == &apos;motor&apos;) return;
+                if (!pin.getVoltage)
+                    pin.getVoltage = setInterval(function () {
+                        Hardware.read(pin, ongetVoltage)
+                    }, 100 / 3);
+
+                function ongetVoltage(x, value) {
+                    if (typeof x == &apos;object&apos; &amp;&amp; typeof value == &apos;undefined&apos;)
+                        value = x.value;
+                    if (pin.category == &apos;analog&apos; || pin.category == &apos;thumbwheel&apos;)
+                        value *= 1.8;
+                    else if (pin.subType == &apos;pwm&apos;)
+                        value *= pin.state;
+                    if (ui.xyAxis.playing) {
+                        if (ui.xyAxis.properties.currTime &lt; 3.3)
+                            ui.xyAxis.properties.currTime += 0.03;
+                        else {
+                            ui.xyAxis.properties.currTime = 0;
+                            ui.xyAxis.properties.interval += 300;
+                            ui.xyAxis.draw();
+                        }
+                        if (ui.xyAxis.properties.currTime &lt;= 0.3)
+                            pin.prevPoint = [ui.xyAxis.properties.axisStartX, value];
+                        ui.xyAxis.plot(ui.xyAxis.properties.currTime - 0.3, value, pin);
+                    }
+                }
+            };
+
+            pin.blink = function (pin) {
+                pin.freq = typeof pin.freq == &apos;undefined&apos; ? 0 : pin.freq;
+                if (pin.category == &apos;led&apos;)
+                    ui.pin.gradientLight(pin);
+                if (pin.freq != 0 &amp;&amp; pin.subType != &apos;pwm&apos;) {
+                    clearInterval(pin.blinking);
+                    pin.blinking = setInterval(function () {
+                        HWwrite(pin);
+                        if (pin.category == &apos;led&apos;)
+                            ui.pin.gradientLight(pin);
+                        pin.state = !(pin.state);
+                    }, pin.freq);
+                } else
+                    HWwrite(pin);
+
+                function HWwrite(pin) {
+                    Hardware.write(pin, function (x) {
+                        if (pin.power == &quot;off&quot;) {
+                            clearInterval(pin.blinking);
+                            pin.state = 0;
+                        }
+                    })
+                };
+            };
+            pin.rgb = function (pin) {
+                pinRed = {
+                    name: &quot;P2_1&quot;,
+                    category: &quot;digital&quot;,
+                    subType: &quot;pwm&quot;,
+                    freq: pin.red,
+                    state: pin.state
+                };
+                pinGreen = {
+                    name: &quot;P1_33&quot;,
+                    category: &quot;digital&quot;,
+                    subType: &quot;pwm&quot;,
+                    freq: pin.green,
+                    state: pin.state
+                };
+                pinBlue = {
+                    name: &quot;P1_36&quot;,
+                    category: &quot;digital&quot;,
+                    subType: &quot;pwm&quot;,
+                    freq: pin.blue,
+                    state: pin.state
+                }
+                Hardware.write(pinRed, function (x) {
+                    if (pin.power == &quot;off&quot;) {
+                        clearInterval(pin.blinking);
+                        pin.state = 0;
+                    }
+                });
+                Hardware.write(pinGreen, function (x) {
+                    if (pin.power == &quot;off&quot;) {
+                        clearInterval(pin.blinking);
+                        pin.state = 0;
+                    }
+                });
+                Hardware.write(pinBlue, function (x) {
+                    if (pin.power == &quot;off&quot;) {
+                        clearInterval(pin.blinking);
+                        pin.state = 0;
+                    }
+                });
+            };
+            pin.initialize();
+            return pin;
+        })();
+
+
+
+        // each inserted element is a &apos;probe&apos;
+        ui.probe = (function () {
+            var probe = {};
+            var probes = [];
+
+            var add = {};
+            add.type = &apos;none&apos;;
+
+            probe.push = function (button) {
+                probes.push(button);
+            };
+
+            probe.addStart = function (type) {
+                add.type = type;
+            };
+
+            //add new probe not the button object
+            probe.addTest = function (event) {
+                if (add.type == &apos;none&apos;) return (&apos;none&apos;);
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+                if (x &lt; rectInner.x || x &gt; rectInner.x + rectInner.w ||
+                    y &lt; rectInner.y || y &gt; rectInner.y + rectInner.h) {
+                    return (&apos;cancelled&apos;);
+                }
+                ui.button.push(add.type);
+                return (&apos;hoverPin&apos;);
+            };
+
+            //draw a button while dragging, and keep it highlighted.
+            probe.dragButton = function (event) {
+                ui.loop.clear();
+                var coords = Position(event);
+                var x = coords[0] - 50;
+                var y = coords[1] - 7.5;
+                ui.button.draw(add.type, canvas.Active.ctx, true, x, y);
+                ui.pin.highlight(add.type);
+            };
+
+            //clears the duplicate button after dragging button to graph.
+            probe.clearDrag = function (event) {
+                var coords = Position(event);
+                var x = coords[0] - 50;
+                var y = coords[1] - 7.5;
+                canvas.Active.ctx.clearRect(x - 1, y - 1, ui.button.get()[add.type].endX, ui.button.get()[add.type].endY);
+                canvas.Active.ctx.save();
+            };
+
+            probe.selectText = function () {
+                canvas.Active.ctx.fillStyle = &apos;red&apos;;
+                canvas.Active.ctx.font = &apos;12pt Andale Mono&apos;;
+                canvas.Active.ctx.fillText(&quot;select &quot; + ui.button.get()[add.type].article, BBposX + 10, BBposY - 25);
+                canvas.Active.ctx.fillStyle = &apos;blue&apos;;
+                canvas.Active.ctx.font = &apos;8pt Andale Mono&apos;;
+                if (ui.button.get()[add.type].warn != undefined)
+                    canvas.Active.ctx.fillText(ui.button.get()[add.type].warn, BBposX + 240, BBposY - 75);
+                canvas.Active.ctx.save();
+
+                add.type = &apos;none&apos;;
+            };
+
+            probe.add = function (pin) {
+                ui.graph.add(pin.name);
+            };
+
+            probe.test = function (event) {
+                var coords = Position(event);
+                var x = coords[0];
+                var y = coords[1];
+                var buttons = ui.button.get();
+
+                for (var b in buttons) {
+                    var minX = buttons[b].x;
+                    var minY = buttons[b].y;
+                    var maxX = buttons[b].endX;
+                    var maxY = buttons[b].endY;
+                    if (x &gt;= minX &amp;&amp; x &lt;= maxX &amp;&amp; y &gt;= minY &amp;&amp; y &lt;= maxY) {
+                        return buttons[b].name;
+                    }
+                }
+
+                return (&quot;none&quot;);
+            };
+
+            return probe;
+        })();
+
+        ui.loop = (function () {
+            var loop = {};
+
+            loop.clear = function () {
+                canvas.Active.ctx.clearRect(0, 0, canvas.Active.e.width, canvas.Active.e.height);
+            };
+
+            //to remove probe if not connected to pin.
+            loop.clearProbe = function () {
+                var btn = ui.button.pop();
+                canvas.Base.ctx.clearRect(btn.x - 1, btn.y - 1, btn.endX, btn.endY);
+            };
+
+            loop.clearBB = function () {
+                canvas.Active.ctx.clearRect(283, 120, canvas.Active.e.width, canvas.Active.e.height);
+            };
+
+            loop.welcome = function (button) {
+                var color = (button == &apos;exit&apos;) ? &apos;black&apos; : &apos;white&apos;;
+                var ctx = canvas.Active.ctx;
+                var width = canvas.Active.e.width;
+                var height = canvas.Active.e.height;
+                ctx.fillStyle = &apos;rgba(255,255,255,0.25)&apos;;
+                ctx.fillRect(0, 0, width - 10, height);
+                ctx.fillStyle = &apos;rgba(0,102,204,0.85)&apos;;
+                ctx.fillRect(width / 3.75, height / 4, width / 1.8, height / 2.85);
+                ctx.fillStyle = color;
+                ctx.font = &apos;12pt Arial&apos;;
+                ctx.fillText(&apos;X&apos;, width / 2 + 250, height / 4 + 25);
+                ctx.fillStyle = &apos;white&apos;;
+                ctx.font = &apos;14pt Arial&apos;;
+                ctx.fillText(&apos;Welcome to the beaglebone user interface!&apos;, width / 3.75 + 20, height / 4 + 30);
+                ctx.font = &apos;10pt Arial&apos;;
+                ctx.fillText(&apos;This interface allows you to play with analog to digital converters,&apos;, width / 3.75 + 25, height / 4 + 55);
+                ctx.fillText(&apos;digital pins (including inputs, outputs, and pwms), and the user leds&apos;, width / 3.75 + 25, height / 4 + 70);
+                ctx.fillText(&apos;located at the top of the board. Hovering over the buttons indicates&apos;, width / 3.75 + 25, height / 4 + 85);
+                ctx.fillText(&apos;which pins correspond to what type. Click and drag the button within&apos;, width / 3.75 + 25, height / 4 + 100);
+                ctx.fillText(&apos;the white rectangle and select a pin. The input button requires both an&apos;, width / 3.75 + 25, height / 4 + 115);
+                ctx.fillText(&apos;input and an output. The graph to the right will display the voltage&apos;, width / 3.75 + 25, height / 4 + 130);
+                ctx.fillText(&apos;of the corresponding pin. Use the zoom in or zoom out to alter the graph,&apos;, width / 3.75 + 25, height / 4 + 145);
+                ctx.fillText(&apos;stop to stop recording voltages, and play again to reset. Enjoy!&apos;, width / 3.75 + 25, height / 4 + 160);
+            };
+
+            loop.clear();
+            loop.welcome(&apos;white&apos;);
+
+            return loop;
+        })();
+
+        ui.base = (function () {
+            var base = {};
+            var beagleBone = new Image();
+            beagleBone.src = base_url + &apos;/static/images/beaglebone.png&apos;;
+            beagleBone.onload = function () {
+                canvas.Base.ctx.clearRect(BBposX, BBposY, beagleBone.width * 0.70, beagleBone.height * 0.70);
+                canvas.Base.ctx.drawImage(beagleBone, BBposX, BBposY, beagleBone.width * 0.65, beagleBone.height * 0.65);
+            };
+            base.changeBoard = function (board) {
+                beagleBone.src = base_url + &apos;/static/images/&apos; + board + &apos;.png&apos;;
+                beagleBone.onload();
+            }
+            return base;
+        })();
+
+        ui.graph = (function () {
+            var graph = {};
+            var bg = {
+                x: 0,
+                y: BBposY - 70,
+                w: canvas.Base.e.width,
+                h: 540
+            };
+
+            // draw gray background, buttons, and graph
+            //drawGraph(canvas, uiElements);
+            canvas.Base.ctx.fillStyle = &apos;rgb(225,225,225)&apos;;
+            canvas.Base.ctx.fillRect(bg.x, bg.y, bg.w, bg.h);
+            canvas.Base.ctx.strokeStyle = &apos;rgb(255,255,255)&apos;;
+            canvas.Base.ctx.lineWidth = 3;
+            canvas.Base.ctx.strokeRect(bg.x + 20, bg.y + 15, 250, 440);
+            //drawButtons(canvas, uiElements);
+
+            graph.add = function (pin) {
+                Canvas.add(pin + &apos; Graph&apos;, 10);
+
+            };
+
+            return graph;
+        })();
+
+        // time &amp; volt axis
+        ui.xyAxis = (function () {
+            var xyAxis = {};
+
+            //all graph properties
+            var graph = {
+                xWidth: 360,
+                yWidth: 297,
+                zeroX: axisStartX,
+                zeroY: axisStartY + 200,
+                interval: 0,
+                zoomVal: [1 / 3, 2 / 3, 1],
+                currTime: 0,
+                zoomIndex: 2,
+                zoom: function () {
+                    return this.zoomVal[this.zoomIndex];
+                }
+            }
+            xyAxis.properties = graph;
+            // time-x axis
+            xyAxis.draw = function () {
+                canvas.Graph.ctx.clearRect(graph.zeroX - 50, graph.zeroY - graph.yWidth - 50, graph.zeroX + graph.xWidth, graph.zeroY)
+                canvas.Graph.ctx.beginPath();
+                canvas.Graph.ctx.moveTo(graph.zeroX, graph.zeroY);
+                canvas.Graph.ctx.lineTo(graph.zeroX + graph.xWidth, graph.zeroY);
+                canvas.Graph.ctx.strokeStyle = &quot;#354b60&quot;;
+                canvas.Graph.ctx.lineWidth = 2;
+                canvas.Graph.ctx.stroke();
+                canvas.Graph.ctx.strokeStyle = &quot;black&quot;;
+                canvas.Graph.ctx.font = &apos;10pt Lucinda Grande&apos;;
+                canvas.Graph.ctx.fillText(&apos;Time [s]&apos;, axisStartX + 130, graph.zeroY + 50);
+                canvas.Graph.ctx.save();
+
+                // voltage-y axis
+                canvas.Graph.ctx.beginPath();
+                canvas.Graph.ctx.moveTo(graph.zeroX, graph.zeroY + 5);
+                canvas.Graph.ctx.lineTo(graph.zeroX, graph.zeroY - graph.yWidth - 10);
+                canvas.Graph.ctx.strokeStyle = &quot;black&quot;;
+                canvas.Graph.ctx.lineWidth = 2;
+                canvas.Graph.ctx.stroke();
+                canvas.Graph.ctx.save();
+
+                canvas.Graph.ctx.strokeStyle = &quot;black&quot;;
+                canvas.Graph.ctx.font = &apos;10pt Lucinda Grande&apos;;
+                canvas.Graph.ctx.fillText(&apos;Voltage [v]&apos;, graph.zeroX - 30, graph.zeroY - graph.yWidth - 20);
+
+                //x ticks
+                var x = 0;
+                var countX = 0;
+                var xnum = 95;
+                var time = 1;
+                var prec = Math.ceil(Math.log(Math.abs(graph.interval) / 100 + 1.1) / Math.LN10) + 1;
+                canvas.Graph.ctx.strokeStyle = &quot;black&quot;;
+                while (x &lt;= graph.xWidth + graph.interval) {
+                    if (graph.zeroX + x - graph.interval &gt;= graph.zeroX) {
+                        if (countX % 10 === 0) {
+                            canvas.Graph.ctx.beginPath();
+                            canvas.Graph.ctx.moveTo(graph.zeroX + x - graph.interval, graph.zeroY - 5);
+                            canvas.Graph.ctx.lineTo(graph.zeroX + x - graph.interval, graph.zeroY + 10);
+                            canvas.Graph.ctx.lineWidth = 2;
+                            canvas.Graph.ctx.stroke();
+                        } else {
+                            canvas.Graph.ctx.beginPath();
+                            canvas.Graph.ctx.moveTo(graph.zeroX + x - graph.interval, graph.zeroY - 5);
+                            canvas.Graph.ctx.lineTo(graph.zeroX + x - graph.interval, graph.zeroY + 5);
+                            canvas.Graph.ctx.lineWidth = 2;
+                            canvas.Graph.ctx.stroke();
+                        }
+                    }
+                    x += 10;
+                    countX += 1;
+                }
+                canvas.Graph.ctx.fillStyle = &quot;black&quot;;
+                canvas.Graph.ctx.font = &apos;8pt Lucinda Grande&apos;;
+                while (xnum &lt;= graph.xWidth + graph.interval) {
+                    if (axisStartX + xnum - graph.interval &gt;= graph.zeroX) {
+                        canvas.Graph.ctx.fillText(time.toPrecision(prec).toString(),
+                            axisStartX + xnum - graph.interval, graph.zeroY + 20);
+                    }
+                    xnum += 100;
+                    time = (xnum + 3) / 100;
+
+                }
+
+                //y ticks
+                var y = 0;
+                var countY = 0;
+                var ynum = 0;
+                var volt = 3.3;
+                var text;
+                while (y &lt;= graph.yWidth) {
+                    if (countY % 3 === 0) {
+                        canvas.Graph.ctx.beginPath();
+                        canvas.Graph.ctx.moveTo(graph.zeroX - 10, graph.zeroY - y);
+                        canvas.Graph.ctx.lineTo(graph.zeroX + 5, graph.zeroY - y);
+                        canvas.Graph.ctx.lineWidth = 2;
+                        canvas.Graph.ctx.stroke();
+                    } else {
+                        canvas.Graph.ctx.beginPath();
+                        canvas.Graph.ctx.moveTo(graph.zeroX - 5, graph.zeroY - y);
+                        canvas.Graph.ctx.lineTo(graph.zeroX + 5, graph.zeroY - y);
+                        canvas.Graph.ctx.lineWidth = 2;
+                        canvas.Graph.ctx.stroke();
+                    }
+                    if (countY &gt; 53)
+                        y += 9;
+                    else
+                        y += 3;
+                    countY += 1;
+                };
+                canvas.Graph.ctx.fillStyle = &quot;black&quot;;
+                canvas.Graph.ctx.font = &apos;8pt Lucinda Grande&apos;;
+                while (ynum &lt;= graph.yWidth &amp;&amp; volt &gt;= 0) {
+                    text = (volt * graph.zoom()).toFixed(1).toString();
+                    if (text == &quot;0.0&quot;) {
+                        canvas.Graph.ctx.fillText(text, graph.zeroX - 30, graph.zeroY - graph.yWidth + ynum + 5);
+                    } else {
+                        if (text == &quot;1.8&quot; || text == &quot;3.3&quot;) {
+                            canvas.Graph.ctx.fillStyle = &quot;blue&quot;;
+                            canvas.Graph.ctx.font = &apos;10pt Lucinda Grande&apos;;
+                        } else {
+                            canvas.Graph.ctx.fillStyle = &quot;black&quot;;
+                            canvas.Graph.ctx.font = &apos;8pt Lucinda Grande&apos;;
+                        }
+                        canvas.Graph.ctx.fillText(text, graph.zeroX - 30, graph.zeroY - graph.yWidth + ynum + 2);
+                    }
+                    ynum += 27;
+                    volt -= 0.3;
+                };
+            }
+            // plot the given point
+            xyAxis.plot = function (xPoint, yPoint, pin) {
+                var coord = scale(xPoint, yPoint);
+                var x = graph.zeroX + coord[0];
+                var y = graph.zeroY - coord[1];
+                canvas.Graph.ctx.beginPath();
+                canvas.Graph.ctx.moveTo(pin.prevPoint[0], pin.prevPoint[1]);
+                canvas.Graph.ctx.lineTo(x, y);
+                canvas.Graph.ctx.strokeStyle = pin.color;
+                canvas.Graph.ctx.lineWidth = 2;
+                canvas.Graph.ctx.stroke();
+                pin.prevPoint = [x, y];
+            };
+            // scale the point to reflect zoom
+            function scale(x, y) {
+                var xPoint = x * 100;
+                var yPoint = y * 90 / graph.zoom();
+                var coord = [xPoint, yPoint];
+                return coord;
+            };
+            xyAxis.draw();
+            xyAxis.playing = true;
+            return xyAxis;
+        })();
+
+        function Position(event) {
+            var rect = canvas.Base.e.getBoundingClientRect();
+            var coords = [];
+            // find position of mouse
+            if (event.x !== undefined &amp;&amp; event.y !== undefined) {
+                coords[0] = event.x;
+                coords[1] = event.y;
+            } else // Firefox method to get the position
+            {
+                coords[0] = event.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+                coords[1] = event.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+            }
+            //console.log(&quot;Position = &quot; + [x, y]);
+            //console.log(&quot;Offset = &quot; + [rect.left, rect.top]);
+            coords[0] -= rect.left;
+            coords[1] -= rect.top;
+
+            return (coords);
+        };
+
+        return ui;
+    } // end of ui&apos;s init()
+
+
+    return {
+        get: function () {
+            if (!ui) {
+                ui = init();
+            }
+            return ui;
+        }
+    };
+})();
+
+
+/* Events draw in a bit of logic to enable/disable event listeners, so it is stateful.
+ *
+ * Use &apos;e.ui&apos; to fetch UI objects
+ * New events should be defined with a type and function in events variable
+ * refer to state diagram for event sequence at http://jadonk.github.io/bone101/Support/bone101/UI/fsm/
+ *
+ */
+var Events = (function () {
+    var e;
+
+    //to use any object method inside events
+    function init() {
+        e = {};
+        e.ui = UI.get();
+        e.listeners = {};
+        e.start = function () {
+            listen(true, &apos;clickExit&apos;);
+            listen(true, &apos;hoverExit&apos;);
+        };
+        e.start();
+        return e;
+    }
+
+    function listen(enable, description) {
+        var events = {
+            &apos;clickExit&apos;: {
+                event: &apos;click&apos;,
+                func: clickExit
+            },
+            &apos;hoverExit&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverExit
+            },
+            &apos;hoverAddProbe&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverAddProbe
+            },
+            &apos;hoverDigital&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverDigital
+            },
+            &apos;hoverButton&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverButton
+            },
+            &apos;hoverPin&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverPin
+            },
+            &apos;clickPin&apos;: {
+                event: &apos;click&apos;,
+                func: clickPin
+            },
+            &apos;clickDown&apos;: {
+                event: &apos;mousedown&apos;,
+                func: clickDown
+            },
+            &apos;clickDownDigital&apos;: {
+                event: &apos;mousedown&apos;,
+                func: clickDownDigital
+            },
+            &apos;hoverSlider&apos;: {
+                event: &apos;mousemove&apos;,
+                func: hoverSlider
+            },
+            &apos;release&apos;: {
+                event: &apos;mouseup&apos;,
+                func: release
+            }
+        };
+
+        if (!(description in events)) {
+            //console.log(&quot;Listener for &quot; + description + &quot; doesn&apos;t exist&quot;);
+            return;
+        }
+        if ((description in e.listeners) &amp;&amp; enable) {
+            //console.log(&quot;Listener &quot; + description + &quot; already enabled, but requested to enable again&quot;);
+            return;
+        }
+        if (!(description in e.listeners) &amp;&amp; !enable) {
+            //console.log(&quot;Listener &quot; + description + &quot; was not previously enabled, but requested to disable again&quot;);
+            return;
+        }
+        //console.log((enable ? &quot;Enabling listener &quot; : &quot;Disabling listener &quot;) + description);
+
+        if (enable) e.listeners[description] = true;
+        else delete e.listeners[description];
+
+        var ev = events[description].event;
+        var func = events[description].func;
+        if (enable) document.addEventListener(ev, func, false);
+        else document.removeEventListener(ev, func, false);
+    }
+
+    function clickExit(event) {
+        var button = e.ui.button.test(event);
+        if (button == &quot;exit&quot;) {
+            e.ui.loop.clear();
+            listen(false, &apos;clickExit&apos;);
+            listen(false, &apos;hoverExit&apos;);
+            listen(true, &apos;clickDown&apos;);
+            listen(true, &apos;release&apos;);
+            listen(true, &apos;hoverButton&apos;);
+        }
+    }
+
+    function hoverExit(event) {
+        var button = e.ui.button.test(event);
+        //console.log(&quot;hoverExit: button = &quot; + button);
+        e.ui.loop.clear();
+        e.ui.loop.welcome(button);
+    }
+
+    //on button hover, highlight button and coressponding pins.
+    function hoverButton(event) {
+        e.ui.loop.clear();
+        //e.ui.pin.test(event);
+        var button = e.ui.button.test(event);
+        e.ui.button.highlight(button);
+        e.ui.pin.highlight(button, false);
+        switch (button) {
+        case &quot;digital&quot;:
+            listen(true, &apos;hoverDigital&apos;);
+            listen(true, &apos;clickDownDigital&apos;);
+            break;
+        default:
+            break;
+        }
+    }
+
+    function hoverDigital(event) {
+        var button = e.ui.button.test(event);
+        e.ui.button.highlightDigital(button);
+        e.ui.pin.highlight(button);
+        switch (button) {
+        case &quot;digital&quot;:
+        case &quot;input&quot;:
+        case &quot;output&quot;:
+        case &quot;pwm&quot;:
+        case &quot;digitalMenu&quot;:
+            break;
+        default:
+            listen(false, &apos;hoverDigital&apos;);
+            listen(false, &apos;clickDownDigital&apos;);
+            break;
+        }
+    }
+
+    // if clicked on global button, slider, graph, or probe-on/off button
+    function clickDown(event) {
+        var button = e.ui.button.test(event);
+        if (button == &quot;none&quot; || button == &quot;onOff&quot;) button = e.ui.onOff.test(event);
+        if (button == &quot;none&quot;) button = e.ui.bar.sliderTest(event);
+        if (button == &quot;none&quot;) button = e.ui.graph.test(event);
+        miscbtn1 = e.ui.button.get().miscbtn1
+        miscbtn2 = e.ui.button.get().miscbtn2
+        switch (button) {
+        case &quot;analog&quot;:
+        case &quot;led&quot;:
+        case &quot;miscbtn1&quot;:
+        case &quot;miscbtn2&quot;:
+            e.ui.probe.addStart(button);
+            listen(true, &apos;hoverAddProbe&apos;);
+            listen(false, &apos;hoverButton&apos;);
+            listen(false, &apos;clickDownDigital&apos;);
+            listen(false, &apos;clickDown&apos;);
+            break;
+        case &quot;beaglebone&quot;:
+            miscbtn1.disabled = true;
+            miscbtn2.disabled = true;
+            bbButton = e.ui.button.get().beaglebone
+            if (bbButton.state == &apos;green&apos;) {
+                e.ui.base.changeBoard(&apos;beaglegreen&apos;);
+                e.ui.pin.initialize(&apos;beaglegreen&apos;);
+                bbButton.state = &apos;black&apos;;
+                bbButton.text = &apos;BB Black&apos;
+                bbButton.color = &apos;rgb(50,50,50)&apos;
+            } else if (bbButton.state == &apos;black&apos;) {
+                e.ui.base.changeBoard(&apos;beaglebone&apos;);
+                e.ui.pin.initialize(&apos;beaglebone&apos;);
+                bbButton.state = &apos;green&apos;;
+                bbButton.text = &apos;BB Green&apos;
+                bbButton.color = &apos;rgb(22,79,15)&apos;
+            }
+            break;
+        case &quot;pocketbeagle&quot;:
+            miscbtn1.disabled = true;
+            miscbtn2.disabled = true;
+            e.ui.base.changeBoard(&apos;pocketbeagle&apos;);
+            e.ui.pin.initialize(&apos;pocketbeagle&apos;);
+            break;
+        case &quot;baconbits&quot;:
+            miscbtn1.text = &apos;RGB led&apos;;
+            miscbtn1.article = &apos;rgb led&apos;;
+            miscbtn1.s = 10;
+            miscbtn2.text = &apos;Thumbwheel&apos;;
+            miscbtn2.text = &apos;thumbwheel&apos;;
+            miscbtn2.s = 6;
+            miscbtn1.disabled = false;
+            miscbtn2.disabled = false;
+            e.ui.base.changeBoard(&apos;baconbits&apos;);
+            e.ui.pin.initialize(&apos;baconbits&apos;);
+            break;
+        case &quot;beagleblue&quot;:
+            miscbtn1.text = &apos;Servo&apos;;
+            miscbtn1.article = &apos;servo&apos;;
+            miscbtn1.s = 17;
+            miscbtn2.text = &apos;Motor&apos;;
+            miscbtn2.article = &apos;Motor&apos;;
+            miscbtn2.s = 20;
+            miscbtn1.disabled = false;
+            miscbtn2.disabled = false;
+            e.ui.base.changeBoard(&apos;beagleblue&apos;);
+            e.ui.pin.initialize(&apos;beagleblue&apos;);
+            break;
+        case &quot;plus&quot;: //graph zoom in
+            e.ui.button.highlightPlus(true);
+            if (e.ui.xyAxis.properties.zoomIndex &lt; 2)
+                e.ui.xyAxis.properties.zoomIndex++;
+            e.ui.xyAxis.draw();
+            break;
+        case &quot;minus&quot;: //graph zoom out
+            e.ui.button.highlightMinus(true);
+            if (e.ui.xyAxis.properties.zoomIndex &gt; 0)
+                e.ui.xyAxis.properties.zoomIndex--;
+            e.ui.xyAxis.draw();
+            break;
+        case &quot;stop&quot;:
+            e.ui.xyAxis.playing = false;
+            e.ui.button.highlightStop(true);
+            break;
+        case &quot;play&quot;:
+            e.ui.xyAxis.playing = true;
+            e.ui.button.highlightPlay(true);
+            break;
+        case &quot;slider&quot;:
+            //e.ui.state.down = &quot;slider&quot;;
+            listen(true, &apos;hoverSlider&apos;);
+            break;
+        case &quot;onOff&quot;:
+            break;
+        default:
+            break;
+        }
+    }
+
+    function clickDownDigital(event) {
+        var button = e.ui.button.test(event);
+        switch (button) {
+        case &quot;input&quot;:
+        case &quot;output&quot;:
+        case &quot;pwm&quot;:
+            e.ui.probe.addStart(button);
+            listen(true, &apos;hoverAddProbe&apos;);
+            listen(false, &apos;hoverButton&apos;);
+            listen(false, &apos;clickDownDigital&apos;);
+            listen(false, &apos;clickDown&apos;);
+            break;
+        default:
+            break;
+        }
+        listen(false, &apos;hoverDigital&apos;);
+    }
+
+    //drawing a button instance while dragging it to the graph
+    function hoverAddProbe(event) {
+        e.ui.probe.dragButton(event);
+    }
+
+    function release(event) {
+        var probeMode = e.ui.probe.addTest(event);
+        var button = e.ui.button.test(event);
+        if (probeMode == &apos;hoverPin&apos;) {
+            e.ui.probe.clearDrag(event);
+            listen(false, &apos;hoverAddProbe&apos;);
+            listen(true, &apos;hoverPin&apos;);
+            e.ui.probe.selectText();
+            var probe = e.ui.probe.test(event);
+            e.ui.pin.highlight(probe);
+            listen(true, &apos;clickDown&apos;);
+        } else if (probeMode == &apos;cancelled&apos;) {
+            listen(false, &apos;hoverAddProbe&apos;);
+            listen(true, &apos;hoverButton&apos;);
+            listen(true, &apos;clickDown&apos;);
+        }
+        switch (button) {
+        case &apos;plus&apos;:
+            e.ui.button.highlightPlus();
+            break;
+        case &apos;minus&apos;:
+            e.ui.button.highlightMinus();
+            break;
+        case &apos;play&apos;:
+            e.ui.button.highlightPlay();
+            break;
+        case &apos;stop&apos;:
+            e.ui.button.highlightStop();
+            break;
+        }
+        //e.ui.bar.off();
+        listen(false, &apos;hoverSlider&apos;);
+    }
+
+    function hoverPin(event) {
+        e.ui.loop.clearBB();
+        listen(true, &apos;clickPin&apos;);
+        pin = e.ui.pin.test(event);
+        var probes = Object.keys(e.ui.button.get());
+        probeName = probes[probes.length - 22];
+        probe = e.ui.button.get()[probeName];
+        e.ui.pin.highlight(probe.name);
+        probe.category = probe.name;
+        if (probe.name == &apos;input&apos; || probe.name == &apos;output&apos;) {
+            probe.category = &apos;digital&apos;;
+        }
+        pwm = false;
+        if (probe.name == &quot;pwm&quot;) pwm = pin.PWM;
+        if ((pin.category == probe.category || pwm) &amp;&amp; pin.select == &apos;off&apos;) {
+            probe.text = pin.name;
+            e.ui.button.draw(probeName, Canvas.get().Active.ctx, false);
+            e.ui.pin.hover(pin);
+        } else {
+            Canvas.get().Active.ctx.clearRect(probe.x, probe.y, probe.endX, probe.endY);
+        }
+    }
+
+    function clickPin(event) {
+        listen(false, &apos;hoverPin&apos;);
+        listen(false, &apos;clickPin&apos;);
+        var probes = Object.keys(e.ui.button.get());
+        probeName = probes[probes.length - 22];
+        probe = e.ui.button.get()[probeName];
+        pin = e.ui.pin.test(event);
+        //if pin isn&apos;t selected -&gt; clear probe and activate menus
+        if (pin.name === undefined) {
+            if (probe.input !== &quot;on&quot;) {
+                e.ui.loop.clearProbe();
+                listen(true, &apos;hoverButton&apos;);
+            } else {
+                listen(true, &apos;hoverPin&apos;);
+                listen(true, &apos;clickPin&apos;);
+            }
+        }
+        //check probe type and draw corresponding objects and wires.
+        else {
+            if (probe.name == &quot;pwm&quot;) pwm = pin.PWM;
+            if ((pin.category == probe.category || pwm) &amp;&amp; pin.select == &apos;off&apos;) {
+                e.ui.loop.clear();
+                probe.text = pin.name;
+                e.ui.button.draw(probeName, Canvas.get().BTN.ctx, false);
+                e.ui.pin.hover(pin);
+                pin.select = &apos;on&apos;;
+                pin.power = &apos;on&apos;;
+                pin.state = 1;
+                e.ui.probe.add(pin);
+                probe.pinNum = pin;
+                pin.prevPoint = [e.ui.xyAxis.properties.zeroX + 100 * (e.ui.xyAxis.properties.currTime - 0.3), e.ui.xyAxis.properties.zeroY - 297];
+
+                //LEDs
+                if (probe.name === &quot;led&quot; &amp;&amp; pin.select == &apos;on&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.led(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    //e.ui.button.off(probe);
+                    e.ui.bar.create(probe, pin);
+                    e.ui.bar.draw();
+                    listen(true, &apos;hoverButton&apos;);
+                }
+
+                //Analog
+                else if (probe.name === &quot;analog&quot; &amp;&amp; pin.select == &apos;on&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.analog(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    pin.prevPoint = [e.ui.xyAxis.properties.zeroX + 100 * (e.ui.xyAxis.properties.currTime - 0.3), e.ui.xyAxis.properties.zeroY - 160];
+                    //e.ui.button.off(probe);
+                    listen(true, &apos;hoverButton&apos;);
+                }
+
+                //Digital
+                else {
+                    pin.subType = probe.name;
+                    if (probe.name === &quot;input&quot;) {
+                        pin.color = probe.graphColors[0];
+                        probe.graphColors.splice(0, 1);
+                        e.ui.wire.digital(pin, probe);
+                        e.ui.onOff.create(probe, pin);
+                        //e.ui.button.off(probe);
+                        e.ui.button.createOutput();
+                        listen(true, &apos;hoverPin&apos;);
+                        listen(true, &apos;clickPin&apos;);
+                    } else if (probe.name === &quot;output&quot;) {
+                        pin.color = probe.graphColors[0];
+                        probe.graphColors.splice(0, 1);
+                        e.ui.wire.digital(pin, probe);
+                        //output button for input probe.
+                        if (probe.input === &quot;on&quot;) {
+                            listen(true, &apos;hoverButton&apos;);
+                        }
+                        //output probe.
+                        else {
+                            e.ui.onOff.create(probe, pin);
+                            pin.input = &quot;none&quot;;
+                            e.ui.bar.create(probe, pin);
+                            e.ui.bar.draw();
+                            listen(true, &apos;hoverButton&apos;);
+                        }
+                    } else {
+                        pin.color = probe.graphColors[0];
+                        probe.graphColors.splice(0, 1);
+                        e.ui.wire.digital(pin, probe);
+                        e.ui.onOff.create(probe, pin);
+                        //e.ui.button.off(probe);
+                        e.ui.bar.create(probe, pin);
+                        e.ui.bar.draw();
+                        listen(true, &apos;hoverButton&apos;);
+                    }
+                }
+                //draw wire line of current probe beside axis graph
+                e.ui.wire.drawToGraph(pin);
+                e.ui.pin.getVoltage(pin);
+                Hardware.add(pin.name, pin.category, pin.subType)
+            } else if (probe.name == &quot;miscbtn1&quot; &amp;&amp; pin.select == &quot;off&quot;) {
+                e.ui.loop.clear();
+                probe.text = pin.name;
+                e.ui.button.draw(probeName, Canvas.get().BTN.ctx, false);
+                e.ui.pin.hover(pin);
+                pin.select = &apos;on&apos;;
+                pin.power = &apos;on&apos;;
+                pin.red = 0;
+                pin.green = 0;
+                pin.blue = 0;
+                pin.state = 1;
+                e.ui.probe.add(pin);
+                probe.pinNum = pin;
+                if (e.ui.pin.board == &apos;baconbits&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.rgbled(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    e.ui.bar.createRGBBar(probe, pin);
+                    pin.prevPoint = [e.ui.xyAxis.properties.zeroX + 100 * (e.ui.xyAxis.properties.currTime - 0.3), e.ui.xyAxis.properties.zeroY - 160];
+                    Hardware.add(&apos;P2_1&apos;, &apos;digital&apos;, &apos;pwm&apos;);
+                    Hardware.add(&apos;P1_33&apos;, &apos;digital&apos;, &apos;pwm&apos;);
+                    Hardware.add(&apos;P1_36&apos;, &apos;digital&apos;, &apos;pwm&apos;);
+                    listen(true, &apos;hoverButton&apos;);
+                } else if (e.ui.pin.board == &apos;beagleblue&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.rgbled(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    e.ui.bar.create(probe, pin);
+                    e.ui.bar.draw();
+                    Hardware.RCInit(pin);
+                    listen(true, &apos;hoverButton&apos;);
+                }
+            } else if (probe.name == &quot;miscbtn2&quot; &amp;&amp; pin.select == &quot;off&quot;) {
+                e.ui.loop.clear();
+                probe.text = pin.name;
+                e.ui.button.draw(probeName, Canvas.get().BTN.ctx, false);
+                e.ui.pin.hover(pin);
+                pin.select = &apos;on&apos;;
+                pin.power = &apos;on&apos;;
+                pin.state = 1;
+                e.ui.probe.add(pin);
+                probe.pinNum = pin;
+                if (e.ui.pin.board == &apos;baconbits&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.thumbwheel(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    pin.prevPoint = [e.ui.xyAxis.properties.zeroX + 100 * (e.ui.xyAxis.properties.currTime - 0.3), e.ui.xyAxis.properties.zeroY - 160];
+                    e.ui.wire.drawToGraph(pin);
+                    e.ui.pin.getVoltage(pin);
+                    Hardware.add(&apos;P1_1&apos;, &apos;analog&apos;)
+                    listen(true, &apos;hoverButton&apos;);
+                } else if (e.ui.pin.board == &apos;beagleblue&apos;) {
+                    pin.color = probe.graphColors[0];
+                    probe.graphColors.splice(0, 1);
+                    e.ui.wire.rgbled(pin, probe);
+                    e.ui.onOff.create(probe, pin);
+                    e.ui.bar.create(probe, pin);
+                    e.ui.bar.draw();
+                    Hardware.RCInit(pin);
+                    listen(true, &apos;hoverButton&apos;)
+                }
+            }
+            //if user select a pin not related to the probe
+            else {
+                if (probe.input !== &quot;on&quot;) {
+                    e.ui.loop.clearProbe();
+                    listen(true, &apos;hoverButton&apos;);
+                } else {
+                    listen(true, &apos;hoverPin&apos;);
+                }
+            }
+        }
+    }
+
+    function hoverSlider(event) {
+        e.ui.bar.move(event);
+    }
+
+    function zooming(event) {
+
+    }
+
+    function stop(event) {
+
+    }
+
+    function record(event) {
+
+    }
+
+    return {
+        &apos;get&apos;: function () {
+            if (!e) {
+                e = init();
+            }
+            return e;
+        }
+    };
+})();
+
+function bbui() {
+    Events.get();
+}</body>
+    <pseudoparent idref="4296" prototyperef="Page"/>
+    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <initiallandingpage>/p</initiallandingpage>
+    <http_referer>https://beagleboard.org/support/bone101/UI/bbui.js/edit</http_referer>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
+    <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
+    <lang>en-us</lang>
+    <user>default</user>
+  </hopobject>
+</xmlroot>
