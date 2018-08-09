@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4301" name="Page" prototype="Page" created="1533818875854" lastModified="1533818875944">
+  <hopobject id="4301" name="Page" prototype="Page" created="1533818875854" lastModified="1533818890290">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -10,12 +10,12 @@
     <http_language>en-US,en;q=0.9</http_language>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36</http_browser>
     <uri>ardupilot</uri>
-    <time type="date">09.08.2018 12:47:55 UTC</time>
+    <time type="date">09.08.2018 12:48:10 UTC</time>
     <hopsession>127.0.0.14bcsx6pretqi</hopsession>
-    <body>&lt;acript&gt;goTracked(&apos;ardupilot&apos;, &apos;http://ardupilot.org/copter/docs/common-beagle-bone-blue.html&apos;);&lt;/acript&gt;
+    <body>&lt;script&gt;goTracked(&apos;ardupilot&apos;, &apos;http://ardupilot.org/copter/docs/common-beagle-bone-blue.html&apos;);&lt;/script&gt;
 &lt;a href=&quot;http://ardupilot.org/copter/docs/common-beagle-bone-blue.html&quot;&gt;ArduPilot on BeagleBone Blue&lt;/a&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
-    <pvcount type="float">1.0</pvcount>
+    <pvcount type="float">2.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpage>/p</initiallandingpage>
     <http_referer>http://beagleboard.org/ardupilot/edit</http_referer>
