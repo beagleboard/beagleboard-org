@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1820" name="kinect like 3D camera" prototype="Page" created="1325197141932" lastModified="1534770684833">
+  <hopobject id="1820" name="kinect like 3D camera" prototype="Page" created="1325197141932" lastModified="1534872692601">
   <hop:parent idref="20" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">c2VFNTNaRElIQzNmZm9mWmZlQzJaOEt1Z2l6dXFrTzdtVUJEUlFuUDZqSFpqY3Z5RDgrSjNRS29EVkFXNkdaeGI2azl1VmdRQWVrclR0NVNrVE1QN1dMQVdOKythbTdsa1BXRWROdEg3TkhOM2NJdmxRWk9Bc2lJd1UxZUFwNjFnVzljOW1rUTExbC9tdmdRaW9DVjBMSHdsTFN1YlR5OHYxSC9pWXBpYXgyWitVUkYrclFrZ1lERU95VXRLN3dDLS0vRkhTalR5dUU2VEhoQ01HTFp1SHVBPT0=--38e681d50ab556585202d91fca904564675f8716</property>
     <pname>Kinect like 3D camera</pname>
     <registrant>natron3.myopenid.com</registrant>
-    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
-    <http_language>en-US,en;q=0.9</http_language>
+    <prj_statusval>dev</prj_statusval>
+    <http_language>en-US,en;q=0.9,tr;q=0.8</http_language>
     <uri>kinect like 3D camera</uri>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36</http_browser>
-    <time type="date">18.08.2018 06:51:54 UTC</time>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36</http_browser>
+    <time type="date">21.08.2018 17:31:32 UTC</time>
     <updatetime type="date">29.12.2011 22:19:01 UTC</updatetime>
     <brd_black>bbblack</brd_black>
-    <hopsession>127.0.0.1gvqsiwgeiq78</hopsession>
+    <hopsession>127.0.0.pek37q3quj37</hopsession>
     <body>&lt;p&gt;There are many ways to perform 3D imaging. In this build, we use temporally encoded structured light to recreate a 3D scene using embedded hardware. The system is battery powered and easily portable. Place the camera in front of the scene, press the button to start the scan and after a few seconds a 3D point cloud is ready!&lt;/p&gt;</body>
     <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
-    <contactinfo>bashid</contactinfo>
-    <pvcount type="float">12218.0</pvcount>
+    <contactinfo>bashidx</contactinfo>
+    <pvcount type="float">12221.0</pvcount>
     <prj_status>dev</prj_status>
-    <cat_distro>distro</cat_distro>
     <boardtype>bbblack;</boardtype>
+    <cat_distro>distro</cat_distro>
     <category>distro;</category>
     <homepage>http://www.hackengineer.com/3dcam/</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/kinect%20like%203D%20camera/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
