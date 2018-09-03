@@ -274,8 +274,40 @@ server {
 		autoindex on;
 	}
 
+	# Short links for projects (prefix with '+')
 	location ~ ^/\+(.*)$ {
 		return 301 https://beagleboard.org/p/p/$1;
+	}
+
+	# Short links for blog posts (prefix with '@')
+	location ~ ^/\@(.*)$ {
+		return 301 https://beagleboard.org/blog/$1;
+	}
+
+	location /blog {
+		alias /mnt/wordpress;
+		index  index.php;
+		if (!-e $request_filename) {
+			#rewrite ^/blog/(\d+)/$ /blog/index.php?$1;
+			rewrite /wp-admin$ $scheme://$host$uri/;
+			rewrite ^/blog/([^/]+)[/]?$ /blog/index.php?$1 last;
+			rewrite ^(/[^/]+)?(/wp-.*) $2 last;
+			rewrite ^(/[^/]+)?(/.*\.php) $2 last;
+		}
+
+		#try_files $uri $uri/ /blog/index.php?$args /blog/index.php?q=$uri&$args;
+
+		location ~ \.php$ {
+			try_files $uri =404;
+			#fastcgi_split_path_info ^(/blog)(/.*)$;
+			#fastcgi_split_path_info ^/blog(.+\.php)\/?(.+)$;
+			fastcgi_split_path_info ^(.+\.php)(.+)$;
+			fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+			fastcgi_index index.php;
+			include fastcgi_params;
+			#fastcgi_param SCRIPT_FILENAME /mnt/wordpress/$fastcgi_script_name;
+			fastcgi_param SCRIPT_FILENAME $request_filename;
+		}
 	}
 
 	location /wp {
@@ -296,7 +328,6 @@ server {
 			fastcgi_param SCRIPT_FILENAME $request_filename;
 		}
 	}
-
 
 #	location ~ ^/assets {
 	location ~ ^/(p|assets)(/.*)*$ {
