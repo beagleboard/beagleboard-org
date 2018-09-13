@@ -1,7 +1,10 @@
 #!/bin/sh
+cd /home/ubuntu/beagleboard.org
+curl 'https://beagleboard.org/blog/wp-admin/export.php?content=all&download=true' > beagleboardorg.wordpress.xml
+git add beagleboardorg.wordpress.xml
+git commit --message="Blog updates" --author="Anonymous <anonymous@beagleboard.org>" beagleboardorg.wordpress.xml
 killall java
 killall -9 java
-cd /home/ubuntu/beagleboard.org
 git pull
 git add db
 git commit --message="Web updates" --author="Anonymous <anonymous@beagleboard.org>" db
