@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1539141688778">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1539143534759">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>getting-started</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">11.10.2017 17:10:24 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.8wl312r247vt</hopsession>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <user>jkridner.wordpress.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">ekdJemIxdGxqWldEZWRzcWdlTE9rdkpNV2o5aG9ZL2djdkMvSWc3eU5uSTM2bGFXVGlOQ0JaOWFaOEZEalVaclBjeVBKUllrRUV3aWdxVHhPeHgzbTVYQW0rVXhPdmlJa1RIa3JYWVF6b2FOY2xnbHB4OXlNNkNOVDlPeTA2cmNFWlN2RmxIRDZSQVlKbWNjb1FEYVdSNDRVN0ZBMnNOdnNDNmpmYkoyYlp6RERMZnpHRTRMV1pxdDBnc2ZLTmlKbjJpdWtDNjF6S3FLY1VxRHM1QjIrNjVPN0NWbzRSU2hLaHJ3RlIwTUwzS0M4U2V6U0QwckpMajg4ZmlXTVpLRlBobFFGWWVvQllxYm56R01rNldoMXd1bTgyaXVTQmpsM1RzeEpQcy9jNEhhMFBLYWtYNGRNdXVScFhaN2w4YjNib0xGbkpQbVNrZ3QveE1aNjJJU0JlU2llQkVnQTRoamRiNllMbnU0MWQ4PS0tQnFFTC9rTzdFTUZSMHpWanZUWWsyUT09--30db6c9b939e2b56c89ad590e47bac4c7197e881</property>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIVMTUzNjg1MzYxMC43MTc1OAY7AEY=--fa054daa85ca9be35e4230279c5118199e728a26</property>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">1704137.0</pvcount>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>getting-started</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36</http_browser>
+    <time type="date">10.10.2018 03:52:14 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <property propertyname="278d81]"></property>
+    <hopsession>127.0.0.1dq16yrkf7nlk</hopsession>
+    <tk_tc>OAVxVxDabwtfA2rX</tk_tc>
     <body> &lt;a href=&quot;https://github.com/beagleboard/beaglebone-getting-started&quot;&gt;&lt;img style=&quot;position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67&quot; alt=&quot;Fork me on GitHub&quot; data-canonical-src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png&quot;&gt;&lt;/a&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagle-ui.js&quot;&gt;&lt;/script&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;/static/bonescript.js&quot;&gt;&lt;/script&gt;
@@ -139,7 +140,8 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;h3&gt;&lt;em&gt;If any step fails, it is recommended to update to the &lt;a href=&quot;#update&quot;&gt;latest
     software image&lt;/a&gt; to use the instructions above.&lt;/em&gt;&lt;/h3&gt;
  
-    &lt;h3 id=&quot;step1&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step1.gif&quot; /&gt;
+    &lt;a id=&quot;step1&quot; /&gt;
+    &lt;h3&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step1.gif&quot; /&gt;
     &lt;strong&gt;Power and boot&lt;/strong&gt;&lt;/h3&gt;
  
     &lt;div&gt;
@@ -171,7 +173,8 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
    
     &lt;/div&gt;
 &lt;/br&gt;
-    &lt;h3 id=&quot;step2&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step2.gif&quot; /&gt;&lt;strong&gt;Enable a network connection&lt;/strong&gt;&lt;/h3&gt;
+    &lt;a id=&quot;step2&quot; /&gt;
+    &lt;h3&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step2.gif&quot; /&gt;&lt;strong&gt;Enable a network connection&lt;/strong&gt;&lt;/h3&gt;
     &lt;p&gt;If connected via USB, a network adapter should show up on your computer. Your Beagle should be running a DHCP server that will provide your computer with an IP address of either 192.168.7.1 or 192.168.6.1, depending on the type of USB network adapter supported by your computer&apos;s operating system. Your Beagle will reserve 192.168.7.2 or 192.168.6.2 for itself.&lt;/p&gt;
     &lt;p&gt;If your Beagle includes WiFi, an access point called &quot;BeagleBone-XXXX&quot; where &quot;XXXX&quot; varies between boards. The access point password defaults to &quot;BeagleBone&quot;. Your Beagle should be running a DHCP server that will provide your computer with an IP address in the 192.168.8.x range and reserve 192.168.8.1 for itself.&lt;/p&gt;
     &lt;p&gt;If your Beagle is connected to your local area network (LAN) via either Ethernet or WiFi, it will utilize &lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot; class=&quot;external&quot;&gt;mDNS&lt;/a&gt; to broadcast itself to your computer. If your computer supports mDNS, you should see your Beagle as beaglebone.local. &lt;em&gt;Non-BeagleBone boards will utilize alternate names. Multiple BeagleBone boards on the same network will add a suffix such as beaglebone-2.local.&lt;/em&gt;&lt;/p&gt;
@@ -268,7 +271,8 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
      &lt;a target=&quot;_blank&quot; class=&quot;external&quot; href=&quot;https://joshuawise.com/horndis&quot;&gt;joshuawise.com/horndis&lt;/a&gt;.
     &lt;/p&gt;
  
-    &lt;h3 id=&quot;step3&quot;&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step3.gif&quot; /&gt;&lt;strong&gt;Browse to your Beagle&lt;/strong&gt;&lt;/h3&gt;
+    &lt;a id=&quot;step3&quot; /&gt;
+    &lt;h3&gt;&lt;img class=&quot;steps&quot; src=&quot;/static/images/btn_step3.gif&quot; /&gt;&lt;strong&gt;Browse to your Beagle&lt;/strong&gt;&lt;/h3&gt;
     &lt;p&gt;Using either &lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt; or &lt;a target=&quot;_blank&quot; href=&quot;http://www.mozilla.org/firefox&quot; class=&quot;external&quot;&gt;Firefox&lt;/a&gt; (Internet Explorer will &lt;b&gt;NOT&lt;/b&gt; work), browse to the web server running on your board. It will load a presentation showing you the capabilities of the board. Use the arrow keys on your keyboard to navigate the presentation.&lt;/p&gt;
     &lt;ul class=&quot;arrow&quot;&gt;
      &lt;li&gt;Click here to launch: &lt;a id=&quot;bonelinktext&quot; class=&quot;bonelink external&quot; href=&quot;http://192.168.7.2&quot;&gt;http://192.168.7.2&lt;/a&gt;&lt;br /&gt;
@@ -354,8 +358,15 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
    &lt;!-- Content Area - END --&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>https://beagleboard.org/getting-started/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">1704161.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <projhids>[1615e0</projhids>
+    <projcnt>2</projcnt>
+    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
+    <http_referer>http://beagleboard.org/getting-started/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
