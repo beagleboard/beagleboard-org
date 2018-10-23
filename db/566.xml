@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="566" name="QNX Neutrino on OMAP" prototype="Page" created="1237474857572" lastModified="1540227913324">
+  <hopobject id="566" name="QNX Neutrino on OMAP" prototype="Page" created="1237474857572" lastModified="1540308091293">
   <hop:parent idref="20" prototyperef="Page"/>
     <brd_board>bboard</brd_board>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -33,14 +33,14 @@
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
     <contactinfo></contactinfo>
-    <pvcount type="float">69054.0</pvcount>
+    <pvcount type="float">69082.0</pvcount>
     <prj_status>complete</prj_status>
-    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
     <cat_distro>distro</cat_distro>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
     <category>distro;</category>
     <homepage>http://www.qnx.com/products/reference-design/ti-reference-design.html</homepage>
-    <edit_skin>edit_project</edit_skin>
     <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/QNX+Neutrino+on+OMAP/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
