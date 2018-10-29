@@ -1,31 +1,40 @@
-// Taken from zumbrunn (http://helma.zumbrunn.net/hopbot/2008-03-07)
-// Uses http://www.jibble.org/logbot/ and http://www.jibble.org/pircbot.php
-// Patched with http://rbach.priv.at/Patches/LogBot-20051116.diff
-// Built into mflogbot.jar.
+global.logdirLocation = '/home/ubuntu/helma-1.6.1/apps/beagle/static/irclog';
+global.logbot = false;
+
 function startLogbot() 
  {
-  var logdir = new java.io.File('/home/ubuntu/helma-1.6.1/apps/beagle/static/irclog');
+  var logdir = new java.io.File(global.logdirLocation);
   logdir.mkdirs();
   if (logdir.isDirectory()) 
    {
     var server = "irc.freenode.net";
-    var channels = ["#beagle"];
-    var nick = "BeagleBot";
+    var channel = java.lang.String("#beagle");
+    var nick = java.lang.String("BeagleBot");
     var passwd = 'BeNice';  // change password
-    var joinMessage = "This channel is logged: https://beagleboard.org/irclogs";
 
-    global.logbot = new Packages.org.jibble.logbot.LogBot(nick, logdir, joinMessage);
-    global.logbot.setUseSasl(true);
-    global.logbot.setSaslCredentials(nick, passwd);
-    global.logbot.connect(server);
-    for (var channel in channels) {
-     global.logbot.joinChannel(channels[channel]);
-    }
-    global.logbot.sendMessage('NickServ','IDENTIFY '+ passwd);
-    //for (var channel in channels) {
-     //global.logbot.sendMessage('ChanServ','OP '+ channels[channel]);
-    //}
-    //global.logbot.setTopic(channel,'Welcome to #Beagle | Discussion about the OMAP3 Beagle Board - http://beagleboard.org | Beagle search tools are on #dashboard at irc.gimp.org, NOT here ;) | Log is at http://beagleboard.org/chat');
+    var d = new Date();
+    var logdate = d.getFullYear() + "-" + ("0" + (d.getMonth()+1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+    var logname = global.logdirLocation + '/' + logdate + '.log';
+    try
+     {
+      var log = new java.io.File(logname);
+      var writer = new java.io.FileWriter(log);
+      var bufferedWriter = new java.io.BufferedWriter(writer);
+     }
+    catch (ex)
+     {
+     }
+
+    var authenticator = new Packages.org.pircbotx.cap.SASLCapHandler(nick, passwd);
+    var builder = new Packages.org.pircbotx.Configuration.Builder();
+    builder.addServer(server);
+    builder.setName(nick);
+    builder.setIdentServerEnabled(true);
+    builder.addAutoJoinChannel(channel);
+    builder.addCapHandler(authenticator);
+    var config = builder.buildConfiguration();
+    global.logbot = new Packages.org.pircbotx.PirkBotX(config);
+    global.logbot.startBot();
    }
   else
    global.logbot = "Couldn't create log directory";
@@ -62,7 +71,7 @@ function chat_action ()
    {
     var logdate = req.data["date"];
     res.data.title += " - " + logdate;
-    var logname = './apps/beagle/static/irclog/' + logdate + '.log';
+    var logname = global.logdirLocation + '/' + logdate + '.log';
     res.data.irclog = '<ol id="log">\n';
     try
      {
