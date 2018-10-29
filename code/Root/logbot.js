@@ -4,15 +4,15 @@
 // Built into mflogbot.jar.
 function startLogbot() 
  {
-  var logdir = new java.io.File('./apps/beagle/static/irclog');
+  var logdir = new java.io.File('/home/ubuntu/helma-1.6.1/apps/beagle/static/irclog');
   logdir.mkdirs();
   if (logdir.isDirectory()) 
    {
     var server = "irc.freenode.net";
-    var channels = ["#beagle", "#beagleboard", "#beaglebone"];
+    var channels = ["#beagle"];
     var nick = "BeagleBot";
     var passwd = 'BeNice';  // change password
-    var joinMessage = "This channel is logged: http://beagleboard.org/irclogs";
+    var joinMessage = "This channel is logged: https://beagleboard.org/irclogs";
 
     global.logbot = new Packages.org.jibble.logbot.LogBot(nick, logdir, joinMessage);
     global.logbot.setUseSasl(true);
@@ -22,9 +22,9 @@ function startLogbot()
      global.logbot.joinChannel(channels[channel]);
     }
     global.logbot.sendMessage('NickServ','IDENTIFY '+ passwd);
-    for (var channel in channels) {
-     global.logbot.sendMessage('ChanServ','OP '+ channels[channel]);
-    }
+    //for (var channel in channels) {
+     //global.logbot.sendMessage('ChanServ','OP '+ channels[channel]);
+    //}
     //global.logbot.setTopic(channel,'Welcome to #Beagle | Discussion about the OMAP3 Beagle Board - http://beagleboard.org | Beagle search tools are on #dashboard at irc.gimp.org, NOT here ;) | Log is at http://beagleboard.org/chat');
    }
   else
