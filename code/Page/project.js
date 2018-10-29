@@ -9,7 +9,7 @@ function updateViewCount_macro (param)
 		this.pvCount = 0;
 	}
 
-	this.pvCount = this.pvCount+1;
+	//this.pvCount = this.pvCount+1;
 
 	return this.pvCount;
  }
