@@ -12,9 +12,11 @@ function startLogbot()
     var channels = ["#beagle", "#beagleboard", "#beaglebone"];
     var nick = "BeagleBot";
     var passwd = 'BeNice';  // change password
-    var joinMessage = "This channel is logged: http://www.beagleboard.org/irclogs";
+    var joinMessage = "This channel is logged: http://beagleboard.org/irclogs";
 
     global.logbot = new Packages.org.jibble.logbot.LogBot(nick, logdir, joinMessage);
+    global.logbot.setUseSasl(true);
+    global.logbot.setSaslCredentials(nick, passwd);
     global.logbot.connect(server);
     for (var channel in channels) {
      global.logbot.joinChannel(channels[channel]);

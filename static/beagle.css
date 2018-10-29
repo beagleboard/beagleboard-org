@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6, p {
 a img { 
 	border: none;
 }
+
 a.external {
     background: url(/static/images/icon_offsite.gif) center right no-repeat;
     padding-right: 13px;
@@ -1610,4 +1611,15 @@ table.dataTable thead td:active {
 #mc_embed_signup #num-subscribers {font-size:1.1em;}
 #mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+a.featured-link {
+	font-size:20px;
+	color:blue;
+	text-decoration:underline;
+}
+
+a.featured-link:after {
+	content: "\a";
+	white-space: pre;
+}
 
