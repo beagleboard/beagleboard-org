@@ -45,7 +45,7 @@ if (!global.logbot)
   defineLibraryScope('logbot');
   try
    {
-    if (true)
+    if (false)
      startLogbot();
     else
      global.logbot = "disabled";
