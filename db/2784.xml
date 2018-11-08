@@ -1,108 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2784" name="demo_bmp085" prototype="Page" created="1371825704153" lastModified="1540816716676">
+  <hopobject id="2784" name="demo_bmp085" prototype="Page" created="1371825704153" lastModified="1541650519741">
   <hop:parent idref="2471" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5</http_browser>
     <lang>en-us</lang>
     <uri>demo_bmp085</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">19.12.2013 21:47:14 UTC</time>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">08.11.2018 04:15:19 UTC</time>
     <pseudoparent idref="2471" prototyperef="Page"/>
-    <http_remotehost>192.91.75.29</http_remotehost>
-    <hopsession>192.91.75.1opeze1cmz1ei</hopsession>
-    <user>jessica.lynne.callaway@gmail.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.usoq52xmxti3</hopsession>
+    <user>default</user>
     <pvcount type="float">23079.0</pvcount>
-    <body>&lt;script src=&quot;/static/bonescript-demo.js&quot;&gt;&lt;/script&gt;
-&lt;h2&gt;BoneScript&lt;/h2&gt;
-&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
-    &lt;ul class=&quot;left-menu&quot;&gt;
-        &lt;strong&gt;Navigation&lt;/strong&gt;
-        &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/menu/&quot;&gt;Menu contents&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;t3_content_1&quot;&gt;
-&lt;div id=&apos;connect-status&apos;&gt;&lt;/div&gt;
-&lt;div id=&quot;content_child&quot;&gt;
-
-&lt;h1&gt;Demo: BMP085 I2C Pressure/Temperature Sensor&lt;/h1&gt;
-&lt;p&gt;The BMP085 is a readily available pressure/temperature sensor using I2C.  It is directly supported by the Linux
-kernel, so all you have to do is ask the kernel to load the driver and then start reading values.&lt;/p&gt;
-&lt;h2&gt;Demo
- &lt;button class=&quot;dynlink&quot; onclick=&quot;demoRun(&apos;code&apos;)&quot;&gt;run&lt;/button&gt;
- &lt;button class=&quot;dynlink&quot; onclick=&quot;demoRestore(&apos;code&apos;)&quot;&gt;restore&lt;/button&gt;
-&lt;/h2&gt;
-&lt;pre id=&quot;code&quot; class=&quot;use-editor&quot; style=&quot;height:425px;&quot;&gt;
-var b = require(&apos;bonescript&apos;);
-var iic = &apos;/sys/class/i2c-adapter/i2c-1/&apos;; 
-
-//Sensor Locations on the BeagleBone Black
-var temperature = &apos;/sys/bus/i2c/drivers/bmp085/1-0077/temp0_input&apos;;
-var pressure = &apos;/sys/bus/i2c/drivers/bmp085/1-0077/pressure0_input&apos;;
-
-// We will initialize the driver for the BMP085 sensor located at I2C location 0x77
-b.writeTextFile(iic + &apos;new_device&apos;, &apos;bmp085 0x77&apos;);
-
-// Opens,reads, and prints pressure and temperature
-b.readTextFile(pressure, printPressure);
-b.readTextFile(temperature, printTemperature); 
-
-// Prints Pressure
-function printPressure(x) {
-   console.log(&quot;Pressure: &quot;, x.data/100 + &quot; millibar&quot;);
-}
-
-// Prints Temperature
-function printTemperature(x) {
-   // &apos;\xB0&apos; is the degree symbol in hexademical
-   console.log(&quot;Temperature: &quot;, x.data/10 + &apos;\xB0&apos; + &quot; Celcius&quot;);
-   x.data /= 10;
-   x.data *= 1.8;
-   x.data += 32;
-   console.log(&quot;or: &quot;, x.data + &apos;\xB0&apos; + &quot; Fahrenheit&quot;); 
-}&lt;/pre&gt;
-&lt;div readonly id=&apos;console-output&apos; style=&apos;height:110px;&apos;&gt;&lt;/div&gt;
-&lt;h2&gt;Build and execute instructions&lt;/h2&gt;
-&lt;img align=&quot;right&quot; height=&quot;500px&quot; src=&quot;http://beagleboard.org/static/uploads/BMP.png&quot;/&gt;
-
-&lt;!---/static/images/beaglebone_with_bmp085_bb.png --&gt;
-&lt;ul&gt;
- &lt;li&gt;Disconnect your board from power (including USB)&lt;/li&gt;
- &lt;li&gt;Connect BMP085 GND to P9_1&lt;/li&gt;
- &lt;li&gt;Connect BMP085 VCC to P9_3&lt;/li&gt;
- &lt;li&gt;Connect BMP085 SCL to P9_19&lt;/li&gt;
- &lt;li&gt;Connect BMP085 SDA to P9_20&lt;/li&gt;
- &lt;li&gt;Reapply power and refresh this page before running the demo code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;See also&lt;/h2&gt;
-&lt;h3&gt;Topics&lt;/h3&gt;
-&lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;/Support/bone101/#headers&quot;&gt;BeagleBone expansion headers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Related functions&lt;/h3&gt;
-&lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/#require&quot;&gt;require&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/readTextFile/&quot;&gt;readTextFile&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/writeTextFile/&quot;&gt;writeTextFile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Examples&lt;/h3&gt;
-&lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/demo_bmp085_graphing/&quot;&gt;BMP085 pressure/temperature
-  sensor graphing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Where to buy&lt;/h3&gt;
-&lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;http://www.adafruit.com/products/391&quot;&gt;BMP085 barometric/temperature/altitude sensor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11026&quot;&gt;Jumper wires&lt;/a&gt;&lt;/li&gt;
-
-&lt;/br&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear:both; padding-left:210px;&quot;&gt;&lt;h2&gt;See it in action&lt;/h2&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/z0Tm_4UzizU&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;</body>
+    <body>OdeZsW  &lt;a href=&quot;http://fkqfeizxsoyv.com/&quot;&gt;fkqfeizxsoyv&lt;/a&gt;, [url=http://pxrojbjlqfhx.com/]pxrojbjlqfhx[/url], [link=http://ekcfpraeipdq.com/]ekcfpraeipdq[/link], http://rjckwxykccbr.com/</body>
     <http_language>en-US,en;q=0.8,fr;q=0.6</http_language>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/Support/BoneScript/demo_bmp085/edit</http_referer>
