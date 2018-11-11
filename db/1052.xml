@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1052" name="Beagleboard Windows CE6.0 R3" prototype="Page" created="1271413764681" lastModified="1540775843637">
+  <hopobject id="1052" name="Beagleboard Windows CE6.0 R3" prototype="Page" created="1271413764681" lastModified="1541955894909">
   <hop:parent idref="20" prototyperef="Page"/>
+    <cat_robot>robotics</cat_robot>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <pname>Beagleboard Windows CE6.0 R3 Board Support Package</pname>
     <registrant>garry-clarkson.myopenid.com</registrant>
-    <http_language>en-gb,en;q=0.5</http_language>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-IN</http_language>
     <uri>Beagleboard Windows CE6.0 R3</uri>
-    <http_browser>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3</http_browser>
-    <time type="date">14.05.2010 12:40:14 UTC</time>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134</http_browser>
+    <time type="date">11.11.2018 17:04:54 UTC</time>
     <updatetime type="date">16.04.2010 10:29:24 UTC</updatetime>
-    <hopsession>127.0.0.81.2.99.1fk77u5dcujum</hopsession>
-    <body>MPC Data have developed a full Windows Embedded CE6.0 R3 board support package for the Beagleboard based on the TI OMAP3530 EVM sources (latest version 6.12.0).
-
-This is available for free in a binary evaluation version which enables the Windows CE 6.0 OS to be evaluated on the Beagleboard.  A low cost commercial license is available which provides all the source code and includes getting started support.
-
-Time limited evaluation versions of the Windows Embedded (Platform Builder) tools for Visual Studio are available for free from Microsoft and gives you everything you need to get started with development.</body>
+    <brd_black>bbblack</brd_black>
+    <hopsession>127.0.0.m6xlt1rgdyrk</hopsession>
+    <body>&lt;p&gt;MPC Data have developed a full Windows Embedded CE6.0 R3 board support package for the Beagleboard based on the TI OMAP3530 EVM sources (latest version 6.12.0). This is available for free in a binary evaluation version which enables the Windows CE 6.0 OS to be evaluated on the Beagleboard. A low cost commercial license is available which provides all the source code and includes getting started support. Time limited evaluation versions of the Windows Embedded (Platform Builder) tools for Visual Studio are available for free from Microsoft and gives you everything you need to get started with development.&lt;/p&gt;</body>
+    <imagefile>/static/graphics/coolboris.png</imagefile>
     <pseudoparent idref="20" prototyperef="Page"/>
     <rssfeed></rssfeed>
+    <contactinfo>dilipsilga@gmail.com</contactinfo>
     <pvcount type="float">12193.0</pvcount>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>robotics;</category>
     <homepage>http://www.mpcdata.com/ti-beagleboard-windows-embedded-ce-bsp/</homepage>
     <render_skin>project</render_skin>
     <edit_skin>edit_project</edit_skin>
     <http_referer>http://beagleboard.org/project/Beagleboard%20Windows%20CE6.0%20R3/edit</http_referer>
-    <http_host>beagleboard.org</http_host>
+    <http_host>127.0.0.1:8080</http_host>
     <errmsg></errmsg>
     <shortdesc>A complete Windows Embedded CE 6.0 R3 Board Support Package (BSP) specifically for the OMAP3530 based Beagleboard. Developed by Microsoft Gold Partners MPC Data.</shortdesc>
-    <user>garry-clarkson.myopenid.com</user>
+    <user>default</user>
   </hopobject>
 </xmlroot>
