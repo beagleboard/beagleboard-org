@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1010" name="gsoc" prototype="Page" created="1269468348142" lastModified="1540820177267">
+  <hopobject id="1010" name="gsoc" prototype="Page" created="1269468348142" lastModified="1542653671051">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">eGRSZThTbHE3dmlxRFQ5Y0F0OTZsNDV4dzU4UkR4K3NJa2l4aUtYanphUWxqalRiVzlsL3ZtTE1ic01kc0FLNUVRUkFOZTJUR3R1VXVXQWNhU3gxU1JlUjIrWmg0dWlXMGVORlozQU9FV2xkQnRlQnVMejhGR3dmallqY2oxd3F6NXhpTmlvdUhwOEtuNkhZdzRNN21UaHZVa0NmWWlER29vaCtXYjlCV1lBNDJVazRBOEpleTRrejJURWs1U2l1TlNEcEFoOFFMRkxaMm0waVE4T1JSeHZYeE9Bdm5zM1RJendDcnV6WUNJS204OEw4TXpsbTB3cGZPY2U2bEN2c0oyV2xCc1dncEVmc2d4aTdyNzRnZlhHdmYxdE40VENFYnBPU0dMeG91MjF4N3MvMSs3Vmd3OEFUS00waENUV2FOK29EN2k0ZmI1OGM3UzN4TXhpTmVMVHFId3NDZkp1SnFFYkowVzlxNmRJPS0tT3E1bTZFcnFCY1Frc1BIMVJUN0tHQT09--416fe12e3b95206d1874680840dd783331eadfa2</property>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIWMTU0MjI1Mzc4Ny41Mzg1NjEGOwBG--0121ceb7f865b40ab6b7cae9ddc26109bddb34f0</property>
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>gsoc</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.146 Chrome/65.0.3325.146 Safari/537.36</http_browser>
-    <time type="date">22.03.2018 17:18:21 UTC</time>
-    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
-    <body>&lt;h1&gt;BeagleBoard.org Google Summer of Code 2018&lt;/h1&gt;
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.77 Chrome/70.0.3538.77 Safari/537.36</http_browser>
+    <time type="date">19.11.2018 18:54:31 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <hopsession>127.0.0.iqtlhl1np2pv</hopsession>
+    <body>&lt;h1&gt;BeagleBoard.org Google Summer of Code&lt;/h1&gt;
 &lt;/p&gt;
  &lt;h3&gt;What is Google Summer of Code?&lt;/h3&gt;
  &lt;p&gt;&quot;Google Summer of Code is a global program that offers students stipends to write code for open source projects. We have worked with the open source community to 
@@ -29,10 +32,13 @@
 &lt;li&gt;Read and contribute to our ideas list at &lt;a href=&quot;http://bbb.io/gsocideas&quot;&gt;http://bbb.io/gsocideas&lt;/a&gt;.
 &lt;li&gt;Sign up on Google&apos;s system at &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;https://summerofcode.withgoogle.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3&gt;You can read about some previous years&apos; projects below&lt;/h3&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2018&lt;/h1&gt;
+&lt;h3&gt;2018 project intro videos&lt;/h3&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZreWjg2TLQDiUBdKGRy9TFVF&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h1&gt;BeagleBoard.org Google Summer of Code 2017&lt;/h1&gt;
 &lt;h3&gt;2017 project intro videos&lt;/h3&gt;
 &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZrcaT8qz2H38fUL3nlNI0lKX&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3&gt;You can read about some previous years&apos; projects below&lt;/h3&gt;
 &lt;h1&gt;BeagleBoard.org Google Summer of Code 2016&lt;/h1&gt;
 &lt;p&gt;Google Summer of Code 2016 has completed! Read about the projects at the
     &lt;a href=&quot;http://elinux.org/BeagleBoard/GSoC/2016_Projects&quot;&gt;2016 GSoC projects page&lt;/a&gt;.
@@ -168,10 +174,11 @@
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">56112.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <http_referer>https://beagleboard.org/gsoc/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="4280" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
