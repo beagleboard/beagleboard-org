@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4322" name="18x" prototype="Page" created="1543418052888" lastModified="1543418715230">
-  <hop:parent idref="0" prototyperef="Root"/>
+  <hopobject id="4325" name="blogpost" prototype="Page" created="1543418715230" lastModified="1543418715231">
+  <hop:parent idref="4322" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">V2UxTzBsQ1NuNjNUNkZwZUxOR3RkaFBHTE14UXUvNjBOeVVhT29RUW15Nm1MQ2ZKL1QwYlcyNWdpSWsycitna1ZuUmJmSGxyZFRtaTh2Sks2eStPaUlUZUh2VFZkTmVQeEx3YW9JM1JoRmtITjQzTFVHZ2liRjNscVVZcHRaUHl5K2FJTWM1Z3F1OVRacHp4b2tWdEpxNGFTSzdsTWw2dWo0eFY1SjJvWGo4MllkWDVkY3ZaYnNheVlhU2pUTmxlOVJCZ2hwVFNjTCtCVkNTd0g5eEZRam9wNE1vdURZQVJMd1RoVC9vMHlPdjViVnNSNEc2QXBCUW4xUWdLS0tFVWVLUUgwbVpYTjZFeGhLNDRTWTYzL3BEaWh0TUNheSsrR3ZwRGs3Ykt5WmhuZU9rR09QWVNMVGkvZ1lkYnBzVGg4TFI4WUN3dm5BcitwQWxsSkhuVVIzWk5GVU8zbWNKODNKSkpNdy9YQTNBPS0tcE0xUGVDL1VZZmRWWTd2eHBnQ1hkZz09--a3777563dbe16240f9c3d6aeadfbdd4c5179a1a0</property>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU0MzI4OTEzMS4wNjgzMTE1BjsARg==--5b3e66a835796359b8b29896cf2ea88644c11238</property>
     <http_language>en-US,en;q=0.9</http_language>
-    <uri>18x</uri>
+    <uri>blogpost</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.77 Chrome/70.0.3538.77 Safari/537.36</http_browser>
-    <time type="date">28.11.2018 15:19:11 UTC</time>
+    <time type="date">28.11.2018 15:25:15 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1cxmtmepchorx</hopsession>
-    <body>Tracking URLs for 2018 Christmas promo
-</body>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <list_children>true</list_children>
-    <pvcount type="float">0.0</pvcount>
-    <http_referer>https://beagleboard.org/18x/tide</http_referer>
+    <body>&lt;script&gt;
+    goTracked(&apos;18x&apos;, &apos;/@2094&apos;)
+&lt;/script&gt;</body>
+    <pseudoparent idref="4322" prototyperef="Page"/>
+    <http_referer>https://beagleboard.org/18x/blogpost/tide</http_referer>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
-    <hop:child idref="4323" prototyperef="Page"/>
-    <hop:child idref="4324" prototyperef="Page"/>
-    <hop:child idref="4325" prototyperef="Page"/>
+    <user>default</user>
   </hopobject>
 </xmlroot>
