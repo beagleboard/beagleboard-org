@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4337" name="ew" prototype="Page" created="1544458602019" lastModified="1544458845477">
+  <hopobject id="4337" name="ew" prototype="Page" created="1544458602019" lastModified="1544458897556">
   <hop:parent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">YTR3em5ObVloZlI0bjVFbm9qd0VjQ1R2eGVyOXkrTUxqLzJWRXpQTmdGUEZnMlZIOHZPNEFLTHQ1WkU5aWxuK1AzOURoNUpUQURqek81QnBzZk5VZFNiLzRFQnJBVjZMQm15emNmYkdIWmVzOVNldFVnWHYzTEJ2R0svbEV0UzB2TUxoRnpYZlg2aXpTZVpJUmpDSXgzZ1R2Z1R5bExRL0JUS0xUL3h5RnVSbWJGRzFuVjM0MnhOZmpZR3ovUHpSRTNDenBaVzBacTFhUWtUZE5jOXdTRXZVZ0FjZ2pDSjJpSnRPWHV2S1lXczdhTGpidGRFT3I4QnQzalFHSS9jUVNSSjhlTzBJY3M2cXhKV3NnRUVHaHV5VVUvOUwzNXpGK3gxMHNHWVF2L2U0L2FjaG13RVkzYkIxNjRMZFVNYjBGZ2pBLzRUNGxGNEtZVmlIUHdWWWU0eHMyOFVuZlNndWNVWm9BZFVBVWd3PS0tazliaHZLd0lsd0tPbEJtUVh5aTVVdz09--385c33a4c5a8587b0105e984936e8a21229d1ae2</property>
@@ -9,11 +9,13 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>ew</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.77 Chrome/70.0.3538.77 Safari/537.36</http_browser>
-    <time type="date">10.12.2018 16:20:45 UTC</time>
+    <time type="date">10.12.2018 16:21:37 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1cxmtmepchorx</hopsession>
-    <body>&lt;a href=&quot;https://www.embedded-world.de/en/ausstellerprodukte/embwld19/exhibitor-38827067/beagleboard-org-foundation&quot;&gt;Visit our Embedded World page&lt;/a&gt;
-&lt;a href=&quot;https://calendly.com/beagleboard/ew&quot;&gt;Schedule meeting at Embedded World&lt;/a&gt;
+    <body>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.embedded-world.de/en/ausstellerprodukte/embwld19/exhibitor-38827067/beagleboard-org-foundation&quot;&gt;Visit our Embedded World page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://calendly.com/beagleboard/ew&quot;&gt;Schedule meeting at Embedded World&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
 &lt;script&gt;
     goTracked(&apos;ew&apos;, &apos;https://www.embedded-world.de/en/ausstellerprodukte/embwld19/exhibitor-38827067/beagleboard-org-foundation&apos;);
