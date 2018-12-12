@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3901" name="newsletter" prototype="Page" created="1418540573040" lastModified="1541566728655">
+  <hopobject id="3901" name="newsletter" prototype="Page" created="1418540573040" lastModified="1544627438119">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -71,8 +71,8 @@
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=78f92f08121bd4828d687659d9f26b3482501c2f..2875:I=1422539207:X=1422542807</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <http_referer>http://beagleboard.org/newsletter/edit</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>jkridner.wordpress.com</user>
     <lang>en-us</lang>
+    <user>jkridner.wordpress.com</user>
     <hop:child idref="3902" prototyperef="Page"/>
     <hop:child idref="3916" prototyperef="Page"/>
     <hop:child idref="3962" prototyperef="Page"/>
@@ -91,5 +91,6 @@
     <hop:child idref="4303" prototyperef="Page"/>
     <hop:child idref="4314" prototyperef="Page"/>
     <hop:child idref="4319" prototyperef="Page"/>
+    <hop:child idref="4338" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
