@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4338" name="2018-12" prototype="Page" created="1544627438118" lastModified="1544627461225">
+  <hop:parent idref="3901" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">YTR3em5ObVloZlI0bjVFbm9qd0VjQ1R2eGVyOXkrTUxqLzJWRXpQTmdGUEZnMlZIOHZPNEFLTHQ1WkU5aWxuK1AzOURoNUpUQURqek81QnBzZk5VZFNiLzRFQnJBVjZMQm15emNmYkdIWmVzOVNldFVnWHYzTEJ2R0svbEV0UzB2TUxoRnpYZlg2aXpTZVpJUmpDSXgzZ1R2Z1R5bExRL0JUS0xUL3h5RnVSbWJGRzFuVjM0MnhOZmpZR3ovUHpSRTNDenBaVzBacTFhUWtUZE5jOXdTRXZVZ0FjZ2pDSjJpSnRPWHV2S1lXczdhTGpidGRFT3I4QnQzalFHSS9jUVNSSjhlTzBJY3M2cXhKV3NnRUVHaHV5VVUvOUwzNXpGK3gxMHNHWVF2L2U0L2FjaG13RVkzYkIxNjRMZFVNYjBGZ2pBLzRUNGxGNEtZVmlIUHdWWWU0eHMyOFVuZlNndWNVWm9BZFVBVWd3PS0tazliaHZLd0lsd0tPbEJtUVh5aTVVdz09--385c33a4c5a8587b0105e984936e8a21229d1ae2</property>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU0MzI4OTEzMS4wNjgzMTE1BjsARg==--5b3e66a835796359b8b29896cf2ea88644c11238</property>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>2018-12</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.77 Chrome/70.0.3538.77 Safari/537.36</http_browser>
+    <time type="date">12.12.2018 15:10:38 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <hopsession>127.0.0.1cxmtmepchorx</hopsession>
+    <body>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+
+&lt;head&gt;
+  &lt;title&gt;BeagleBoard.org - Monthly Dog Dish&lt;/title&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+  &lt;link rel=&quot;icon&quot; href=&quot;https://beagleboard.org/static/beagle.ico&quot; type=&quot;image/x-icon&quot; /&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    /* _layouts/november_2018.html */
+
+    /**********************************************
+    * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
+    **********************************************/
+
+    /* Client-specific Styles and Reset */
+
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      width: 100% !important;
+      min-width: 100%;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    #backgroundTable {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      line-height: 100% !important;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100%;
+      float: left;
+      clear: both;
+      display: block;
+    }
+
+    center {
+      width: 100%;
+      min-width: 580px;
+    }
+
+    a img {
+      border: none;
+    }
+
+    p {
+      margin: 0 0 0 10px;
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+
+    td {
+      word-break: break-word;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+      border-collapse: collapse !important;
+    }
+
+    table,
+    tr,
+    td {
+      padding: 0;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    hr {
+      color: #d9d9d9;
+      background-color: #d9d9d9;
+      height: 1px;
+      border: none;
+    }
+
+    /* Responsive Grid */
+
+    table.body {
+      height: 100%;
+      width: 100%;
+    }
+
+    table.container {
+      width: 580px;
+      margin: 0 auto;
+      text-align: inherit;
+    }
+
+    table.row {
+      padding: 0px;
+      width: 100%;
+      position: relative;
+    }
+
+    table.container table.row {
+      display: block;
+    }
+
+    td.wrapper {
+      padding: 10px 20px 0px 0px;
+      position: relative;
+    }
+
+    table.columns,
+    table.column {
+      margin: 0 auto;
+    }
+
+    table.columns td,
+    table.column td {
+      padding: 0px 0px 10px;
+    }
+
+    table.columns td.sub-columns,
+    table.column td.sub-columns,
+    table.columns td.sub-column,
+    table.column td.sub-column {
+      padding-right: 10px;
+    }
+
+    td.sub-column,
+    td.sub-columns {
+      min-width: 0px;
+    }
+
+    table.row td.last,
+    table.container td.last {
+      padding-right: 0px;
+    }
+
+    table.one {
+      width: 30px;
+    }
+
+    table.two {
+      width: 80px;
+    }
+
+    table.three {
+      width: 130px;
+    }
+
+    table.four {
+      width: 180px;
+    }
+
+    table.five {
+      width: 230px;
+    }
+
+    table.six {
+      width: 280px;
+    }
+
+    table.seven {
+      width: 330px;
+    }
+
+    table.eight {
+      width: 380px;
+    }
+
+    table.nine {
+      width: 430px;
+    }
+
+    table.ten {
+      width: 480px;
+    }
+
+    table.eleven {
+      width: 530px;
+    }
+
+    table.twelve {
+      width: 580px;
+    }
+
+    table.one center {
+      min-width: 30px;
+    }
+
+    table.two center {
+      min-width: 80px;
+    }
+
+    table.three center {
+      min-width: 130px;
+    }
+
+    table.four center {
+      min-width: 180px;
+    }
+
+    table.five center {
+      min-width: 230px;
+    }
+
+    table.six center {
+      min-width: 280px;
+    }
+
+    table.seven center {
+      min-width: 330px;
+    }
+
+    table.eight center {
+      min-width: 380px;
+    }
+
+    table.nine center {
+      min-width: 430px;
+    }
+
+    table.ten center {
+      min-width: 480px;
+    }
+
+    table.eleven center {
+      min-width: 530px;
+    }
+
+    table.twelve center {
+      min-width: 580px;
+    }
+
+    table.one .panel center {
+      min-width: 10px;
+    }
+
+    table.two .panel center {
+      min-width: 60px;
+    }
+
+    table.three .panel center {
+      min-width: 110px;
+    }
+
+    table.four .panel center {
+      min-width: 160px;
+    }
+
+    table.five .panel center {
+      min-width: 210px;
+    }
+
+    table.six .panel center {
+      min-width: 260px;
+    }
+
+    table.seven .panel center {
+      min-width: 310px;
+    }
+
+    table.eight .panel center {
+      min-width: 360px;
+    }
+
+    table.nine .panel center {
+      min-width: 410px;
+    }
+
+    table.ten .panel center {
+      min-width: 460px;
+    }
+
+    table.eleven .panel center {
+      min-width: 510px;
+    }
+
+    table.twelve .panel center {
+      min-width: 560px;
+    }
+
+    .body .columns td.one,
+    .body .column td.one {
+      width: 8.333333%;
+    }
+
+    .body .columns td.two,
+    .body .column td.two {
+      width: 16.666666%;
+    }
+
+    .body .columns td.three,
+    .body .column td.three {
+      width: 25%;
+    }
+
+    .body .columns td.four,
+    .body .column td.four {
+      width: 33.333333%;
+    }
+
+    .body .columns td.five,
+    .body .column td.five {
+      width: 41.666666%;
+    }
+
+    .body .columns td.six,
+    .body .column td.six {
+      width: 50%;
+    }
+
+    .body .columns td.seven,
+    .body .column td.seven {
+      width: 58.333333%;
+    }
+
+    .body .columns td.eight,
+    .body .column td.eight {
+      width: 66.666666%;
+    }
+
+    .body .columns td.nine,
+    .body .column td.nine {
+      width: 75%;
+    }
+
+    .body .columns td.ten,
+    .body .column td.ten {
+      width: 83.333333%;
+    }
+
+    .body .columns td.eleven,
+    .body .column td.eleven {
+      width: 91.666666%;
+    }
+
+    .body .columns td.twelve,
+    .body .column td.twelve {
+      width: 100%;
+    }
+
+    td.offset-by-one {
+      padding-left: 50px;
+    }
+
+    td.offset-by-two {
+      padding-left: 100px;
+    }
+
+    td.offset-by-three {
+      padding-left: 150px;
+    }
+
+    td.offset-by-four {
+      padding-left: 200px;
+    }
+
+    td.offset-by-five {
+      padding-left: 250px;
+    }
+
+    td.offset-by-six {
+      padding-left: 300px;
+    }
+
+    td.offset-by-seven {
+      padding-left: 350px;
+    }
+
+    td.offset-by-eight {
+      padding-left: 400px;
+    }
+
+    td.offset-by-nine {
+      padding-left: 450px;
+    }
+
+    td.offset-by-ten {
+      padding-left: 500px;
+    }
+
+    td.offset-by-eleven {
+      padding-left: 550px;
+    }
+
+    td.expander {
+      visibility: hidden;
+      width: 0px;
+      padding: 0 !important;
+    }
+
+    table.columns .text-pad,
+    table.column .text-pad {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    table.columns .left-text-pad,
+    table.columns .text-pad-left,
+    table.column .left-text-pad,
+    table.column .text-pad-left {
+      padding-left: 10px;
+    }
+
+    table.columns .right-text-pad,
+    table.columns .text-pad-right,
+    table.column .right-text-pad,
+    table.column .text-pad-right {
+      padding-right: 10px;
+    }
+
+    /* Block Grid */
+
+    .block-grid {
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .block-grid td {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .two-up td {
+      width: 270px;
+    }
+
+    .three-up td {
+      width: 173px;
+    }
+
+    .four-up td {
+      width: 125px;
+    }
+
+    .five-up td {
+      width: 96px;
+    }
+
+    .six-up td {
+      width: 76px;
+    }
+
+    .seven-up td {
+      width: 62px;
+    }
+
+    .eight-up td {
+      width: 52px;
+    }
+
+    /* Alignment and Visibility Classes */
+
+    table.center,
+    td.center {
+      text-align: center;
+    }
+
+    h1.center,
+    h2.center,
+    h3.center,
+    h4.center,
+    h5.center,
+    h6.center {
+      text-align: center;
+    }
+
+    span.center {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    img.center {
+      margin: 0 auto;
+      float: none;
+    }
+
+    .show-for-small,
+    .hide-for-desktop {
+      display: none;
+    }
+
+    /* Typography */
+
+    body,
+    table.body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    td {
+      color: #222222;
+      font-family: Arial, &apos;Helvetica Neue&apos;, Helvetica, sans-serif;
+      font-weight: normal;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      line-height: 102%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      word-break: normal;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 32px;
+    }
+
+    h4 {
+      font-size: 28px;
+    }
+
+    h5 {
+      font-size: 24px;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+
+    body,
+    table.body,
+    p,
+    td {
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    p.lead,
+    p.lede,
+    p.leed {
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    small {
+      font-size: 10px;
+    }
+
+    a {
+      color: #EE6826;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #EE6826 !important;
+    }
+
+    a:active {
+      color: #EE6826 !important;
+    }
+
+    a:visited {
+      color: #EE6826 !important;
+    }
+
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+      color: #EE6826;
+    }
+
+    h1 a:active,
+    h2 a:active,
+    h3 a:active,
+    h4 a:active,
+    h5 a:active,
+    h6 a:active {
+      color: #EE6826 !important;
+    }
+
+    h1 a:visited,
+    h2 a:visited,
+    h3 a:visited,
+    h4 a:visited,
+    h5 a:visited,
+    h6 a:visited {
+      color: #EE6826 !important;
+    }
+
+    /* Panels */
+
+    .panel {
+      background: #f2f2f2;
+      border: 1px solid #d9d9d9;
+      padding: 10px !important;
+    }
+
+    .sub-grid table {
+      width: 100%;
+    }
+
+    .sub-grid td.sub-columns {
+      padding-bottom: 0;
+    }
+
+    /* Buttons */
+
+    table.button,
+    table.tiny-button,
+    table.small-button,
+    table.medium-button,
+    table.large-button {
+      width: 50%;
+      overflow: hidden;
+    }
+
+    table.button td,
+    table.tiny-button td,
+    table.small-button td,
+    table.medium-button td,
+    table.large-button td {
+      display: block;
+      width: auto !important;
+      text-align: center;
+      background: #de7224;
+      border: 1px solid #353C3D;
+      color: #ffffff;
+      padding: 8px 0;
+    }
+
+    table.tiny-button td {
+      padding: 5px 0 4px;
+    }
+
+    table.small-button td {
+      padding: 8px 0 7px;
+    }
+
+    table.medium-button td {
+      padding: 12px 0 10px;
+    }
+
+    table.large-button td {
+      padding: 21px 0 18px;
+    }
+
+    table.button td a,
+    table.tiny-button td a,
+    table.small-button td a,
+    table.medium-button td a,
+    table.large-button td a {
+      font-weight: bold;
+      text-decoration: none;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    table.tiny-button td a {
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    table.small-button td a {
+      font-size: 16px;
+    }
+
+    table.medium-button td a {
+      font-size: 20px;
+    }
+
+    table.large-button td a {
+      font-size: 24px;
+    }
+
+    table.button:hover td,
+    table.button:visited td,
+    table.button:active td {
+      background: #2795b6 !important;
+    }
+
+    table.button:hover td a,
+    table.button:visited td a,
+    table.button:active td a {
+      color: #fff !important;
+    }
+
+    table.button:hover td,
+    table.tiny-button:hover td,
+    table.small-button:hover td,
+    table.medium-button:hover td,
+    table.large-button:hover td {
+      background: #C3641A !important;
+    }
+
+    table.button:hover td a,
+    table.button:active td a,
+    table.button td a:visited,
+    table.tiny-button:hover td a,
+    table.tiny-button:active td a,
+    table.tiny-button td a:visited,
+    table.small-button:hover td a,
+    table.small-button:active td a,
+    table.small-button td a:visited,
+    table.medium-button:hover td a,
+    table.medium-button:active td a,
+    table.medium-button td a:visited,
+    table.large-button:hover td a,
+    table.large-button:active td a,
+    table.large-button td a:visited {
+      color: #ffffff !important;
+    }
+
+    table.secondary td {
+      background: #e9e9e9;
+      border-color: #d0d0d0;
+      color: #555;
+    }
+
+    table.secondary td a {
+      color: #555;
+    }
+
+    table.secondary:hover td {
+      background: #d0d0d0 !important;
+      color: #555;
+    }
+
+    table.secondary:hover td a,
+    table.secondary td a:visited,
+    table.secondary:active td a {
+      color: #555 !important;
+    }
+
+    table.success td {
+      background: #5da423;
+      border-color: #457a1a;
+    }
+
+    table.success:hover td {
+      background: #457a1a !important;
+    }
+
+    table.alert td {
+      background: #c60f13;
+      border-color: #970b0e;
+    }
+
+    table.alert:hover td {
+      background: #970b0e !important;
+    }
+
+    table.radius td {
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+
+    table.round td {
+      -webkit-border-radius: 500px;
+      -moz-border-radius: 500px;
+      border-radius: 500px;
+    }
+
+    /* Outlook First */
+
+    body.outlook p {
+      display: inline !important;
+    }
+
+    /*  Media Queries */
+
+    @media only screen and (max-width: 600px) {
+
+      table[class=&quot;body&quot;] img {
+        width: auto !important;
+        height: auto !important;
+      }
+
+      table[class=&quot;body&quot;] center {
+        min-width: 0 !important;
+      }
+
+      table[class=&quot;body&quot;] .container {
+        width: 95% !important;
+      }
+
+      table[class=&quot;body&quot;] .row {
+        width: 100% !important;
+        display: block !important;
+      }
+
+      table[class=&quot;body&quot;] .wrapper {
+        display: block !important;
+        padding-right: 0 !important;
+      }
+
+      table[class=&quot;body&quot;] .columns,
+      table[class=&quot;body&quot;] .column {
+        table-layout: fixed !important;
+        float: none !important;
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        display: block !important;
+      }
+
+      table[class=&quot;body&quot;] .wrapper.first .columns,
+      table[class=&quot;body&quot;] .wrapper.first .column {
+        display: table !important;
+      }
+
+      table[class=&quot;body&quot;] table.columns td,
+      table[class=&quot;body&quot;] table.column td {
+        width: 100% !important;
+      }
+
+      table[class=&quot;body&quot;] .columns td.one,
+      table[class=&quot;body&quot;] .column td.one {
+        width: 8.333333% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.two,
+      table[class=&quot;body&quot;] .column td.two {
+        width: 16.666666% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.three,
+      table[class=&quot;body&quot;] .column td.three {
+        width: 25% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.four,
+      table[class=&quot;body&quot;] .column td.four {
+        width: 33.333333% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.five,
+      table[class=&quot;body&quot;] .column td.five {
+        width: 41.666666% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.six,
+      table[class=&quot;body&quot;] .column td.six {
+        width: 50% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.seven,
+      table[class=&quot;body&quot;] .column td.seven {
+        width: 58.333333% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.eight,
+      table[class=&quot;body&quot;] .column td.eight {
+        width: 66.666666% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.nine,
+      table[class=&quot;body&quot;] .column td.nine {
+        width: 75% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.ten,
+      table[class=&quot;body&quot;] .column td.ten {
+        width: 83.333333% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.eleven,
+      table[class=&quot;body&quot;] .column td.eleven {
+        width: 91.666666% !important;
+      }
+      table[class=&quot;body&quot;] .columns td.twelve,
+      table[class=&quot;body&quot;] .column td.twelve {
+        width: 100% !important;
+      }
+
+      table[class=&quot;body&quot;] td.offset-by-one,
+      table[class=&quot;body&quot;] td.offset-by-two,
+      table[class=&quot;body&quot;] td.offset-by-three,
+      table[class=&quot;body&quot;] td.offset-by-four,
+      table[class=&quot;body&quot;] td.offset-by-five,
+      table[class=&quot;body&quot;] td.offset-by-six,
+      table[class=&quot;body&quot;] td.offset-by-seven,
+      table[class=&quot;body&quot;] td.offset-by-eight,
+      table[class=&quot;body&quot;] td.offset-by-nine,
+      table[class=&quot;body&quot;] td.offset-by-ten,
+      table[class=&quot;body&quot;] td.offset-by-eleven {
+        padding-left: 0 !important;
+      }
+
+      table[class=&quot;body&quot;] table.columns td.expander {
+        width: 1px !important;
+      }
+
+      table[class=&quot;body&quot;] .right-text-pad,
+      table[class=&quot;body&quot;] .text-pad-right {
+        padding-left: 10px !important;
+      }
+
+      table[class=&quot;body&quot;] .left-text-pad,
+      table[class=&quot;body&quot;] .text-pad-left {
+        padding-right: 10px !important;
+      }
+
+      table[class=&quot;body&quot;] .hide-for-small,
+      table[class=&quot;body&quot;] .show-for-desktop {
+        display: none !important;
+      }
+
+      table[class=&quot;body&quot;] .show-for-small,
+      table[class=&quot;body&quot;] .hide-for-desktop {
+        display: inherit !important;
+      }
+    }
+  &lt;/style&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    table.facebook td {
+      background: #3b5998;
+      border-color: #2d4473;
+    }
+
+    table.facebook:hover td {
+      background: #2d4473 !important;
+    }
+
+    table.twitter td {
+      background: #00acee;
+      border-color: #0087bb;
+    }
+
+    table.twitter:hover td {
+      background: #0087bb !important;
+    }
+
+    table.google-plus td {
+      background-color: #DB4A39;
+      border-color: #CC0000;
+    }
+
+    table.google-plus:hover td {
+      background: #CC0000 !important;
+    }
+
+    .template-label {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 11px;
+    }
+
+    .callout .panel {
+      background: #ECF8FF;
+      border-color: #b9e5ff;
+    }
+
+    .header {
+      background-color: #de7224;
+    }
+
+    .footer .wrapper {
+      background: #ebebeb;
+    }
+
+    .footer h5 {
+      padding-bottom: 10px;
+    }
+
+    table.columns .text-pad {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    table.columns .left-text-pad {
+      padding-left: 10px;
+    }
+
+    table.columns .right-text-pad {
+      padding-right: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+      table[class=&quot;body&quot;] .right-text-pad {
+        padding-left: 10px !important;
+      }
+
+      table[class=&quot;body&quot;] .left-text-pad {
+        padding-right: 10px !important;
+      }
+    }
+  &lt;/style&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    .orange {
+      background-color: #de7224;
+    }
+
+    .orangetype {
+      color: #de7224;
+    }
+
+    .dkgreytype {
+      color: #353C3D;
+    }
+
+    .white {
+      background: #fff;
+    }
+
+    .panel1 {
+      background: #f2f2f2;
+      border: 1px solid #d9d9d9;
+      padding: 10px !important;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;background-color:#fff;&quot;&gt;
+  &lt;table class=&quot;body&quot;&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;center&quot; align=&quot;center&quot; valign=&quot;top&quot;&gt;
+        &lt;center&gt;
+
+          &lt;table class=&quot;row header&quot;&gt;
+            &lt;tr&gt;
+              &lt;td class=&quot;center&quot; align=&quot;center&quot;&gt;
+                &lt;center&gt;
+
+                  &lt;table class=&quot;container orange&quot;&gt;
+                    &lt;tr&gt;
+                      &lt;td class=&quot;wrapper last&quot;&gt;
+
+                        &lt;table class=&quot;twelve columns&quot;&gt;
+                          &lt;tr&gt;
+                            &lt;td class=&quot;six sub-columns&quot;&gt;
+                              &lt;a href=&quot;https://beagleboard.org/&quot;&gt;
+                                &lt;img src=&quot;https://beagleboard.org/static/newsletter/images/beagle-hd-logo_dd.png&quot; alt=&quot;BeagleBoard.org Foundation Logo&quot; /&gt;
+                              &lt;/a&gt;
+                            &lt;/td&gt;
+                            &lt;td class=&quot;six sub-columns last&quot; style=&quot;text-align:right; vertical-align:middle;&quot;&gt;
+                              &lt;h5 style=&quot;text-align:right;&quot;&gt;
+                                &lt;a href=&quot;https://beagleboard.org/newsletter/2018-12&quot; style=&quot;text-align:right;color:#fff;font-size: 20px;&quot;&gt;Tis the Season&lt;/a&gt;
+                              &lt;/h5&gt;
+                            &lt;/td&gt;
+                            &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                          &lt;/tr&gt;
+                        &lt;/table&gt;
+
+                      &lt;/td&gt;
+                    &lt;/tr&gt;
+                  &lt;/table&gt;
+
+                &lt;/center&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+
+          &lt;br /&gt;
+
+          &lt;table class=&quot;container white&quot;&gt;
+            &lt;tr&gt;
+              &lt;td&gt;
+                &lt;!-- From The Foundation --&gt;
+                &lt;table class=&quot;twelve columns&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;panel&quot;&gt;
+                      &lt;h6 class=&quot;dkgreytype&quot;&gt;from the foundation&lt;/h6&gt;
+                    &lt;/td&gt;
+                    &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;table class=&quot;row&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+
+                      &lt;table class=&quot;three columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;left-text-pad&quot;&gt;
+
+                            &lt;img height=&quot;130&quot; width=&quot;120&quot; src=&quot;https://beagleboard.org/static/newsletter/images/christinelong.jpg&quot; alt=&quot;Christine Long headshot&quot;
+                            /&gt;
+
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+
+                    &lt;/td&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+
+                      &lt;table class=&quot;nine columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;left-text-pad&quot;&gt;
+                            &lt;h6&gt;
+                              &lt;a href=&quot;https://beagleboard.org/newsletter/2018-12&quot;&gt;Tis the Season For Community&lt;/a&gt;
+                            &lt;/h6&gt;
+                            It’s always around the holidays people take a little extra time to express gratitude and also excitement about the upcoming year. We here at BeagleBoard.org want to say &lt;b&gt;Thanks!&lt;/b&gt; too.  &lt;a href=&quot;https://www.youtube.com/watch?v=_akd9dRLTbs&quot;&gt; Thanks for celebrating 10 years of community building with us&lt;/a&gt; and embracing our development platforms with your creative minds.  Thanks for supporting BeagleBoard.org’s OpenSource hardware and software vision allowing us to continue to learn and grow.&lt;/p&gt;In 2019 we are excited to help expand the potential of OpenSource hardware and software, help educators get function-able materials into the classrooms, and to help industry leaders actualize their goals.  We would love to hear about your ideas for the new year and how BeagleBoard.org can help.&lt;/p&gt;Join us at one of the many meet-ups or conferences in 2019, starting with Embedded World in Germany in February. &lt;br&gt;&amp;mdash;&lt;strong&gt;Christine Long&lt;/strong&gt;, &lt;em&gt;Executive Director&lt;/em&gt;&lt;/p&gt;
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+
+                &lt;!-- Blog Content start --&gt;
+
+                &lt;table class=&quot;row&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;wrapper&quot;&gt;
+
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;articles&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;p&gt;
+                        &lt;br /&gt;
+                      &lt;/p&gt;
+                                   &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;https://bbb.io/@2094&quot;&gt;Light Up Your Holidays With PocketBeagle®&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td&gt;
+               &lt;table class=&quot;six columns&quot;&gt;
+                &lt;tr&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Light Up Your Holidays With PocketBeagle®&quot; width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/christmas-beagle-280px.png&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+               &lt;/table&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               Master LEDs with easy BeagleBoard.org® Holiday projects.  From simple strands and matrices to complete home installations, a variety of programming methods help you get started.
+               &lt;p&gt;&lt;a href=&quot;https://bbb.io/@2094&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;https://beagleboard.org/p/moya-edge/iron-man-suit-with-tech-c8381c&quot;&gt;10 Year Anniversary Classic Project BeagleBoard® Iron Man Suit Has 7 Million Viewers and Counting&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td&gt;
+               &lt;table class=&quot;six columns&quot;&gt;
+                &lt;tr&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;10 Year Anniversary Classic Project BeagleBoard® Iron Man Suit Has 7 Million Viewers and Counting&quot; width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/ironman-280pix.png&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+               &lt;/table&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               Fueled by an energetic and creative father-son team, this project from 2008 brings engineering into superhero status.
+               &lt;p&gt;&lt;a href=&quot;https://beagleboard.org/p/moya-edge/iron-man-suit-with-tech-c8381c&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;https://bbb.io/@2113&quot;&gt;Educator Highlight Derek Molloy, Teaching With PocketBeagle® and More With New Book Edition&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td&gt;
+               &lt;table class=&quot;six columns&quot;&gt;
+                &lt;tr&gt;
+                 &lt;td class=&quot;left-text-pad&quot;&gt;&lt;img alt=&quot;Educator Highlight Derek Molloy, Teaching With PocketBeagle® and More With New Book Edition&quot; width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/molloy-collage-280px.png&quot; class=&quot;cke_focus&quot; /&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+               &lt;/table&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               In part 2 of our interview with Professor Molloy, he shares insights in choosing and incorporating new hardware into the classroom as well as revealing a new book revision, the first to incorporate PocketBeagle®.
+               &lt;p&gt;&lt;a href=&quot;https://bbb.io/@2113&quot;&gt;Read more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+ 
+                    &lt;/td&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel1&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;hot off the presses&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;row&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;wrapper&quot;&gt;
+
+                            &lt;table class=&quot;two columns&quot;&gt;
+                              &lt;tr&gt;
+                                &lt;td&gt;
+                                  &lt;a href=&quot;https://bbb.io/@2113&quot;&gt;
+                                    &lt;img width=&quot;80&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/HotoffthepressesDec18.jpg&quot; alt=&quot;Exploring BeagleBone® Tools and Techniques for Building with Embedded Linux 2nd Edition&quot; /&gt;
+                                  &lt;/a&gt;
+                                &lt;/td&gt;
+                                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                              &lt;/tr&gt;
+                            &lt;/table&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;wrapper last&quot;&gt;
+
+                            &lt;table class=&quot;four columns&quot;&gt;
+                              &lt;tr&gt;
+                                &lt;td&gt;
+                                  &lt;p&gt;
+                                    &lt;a href=&quot;https://bbb.io/@2113&quot;&gt;Exploring BeagleBone® Tools and Techniques for Building with Embedded Linux 2nd Edition&lt;/a&gt;
+                                  &lt;/p&gt;&lt;p&gt;By Derek Molloy.&lt;br&gt;&lt;br&gt;This popular book has now been updated to include both the PocketBeagle® and BeagleBone® Wireless in a second edition 20 percent larger than the first while detailing more well explained examples and applications.&lt;/p&gt;&lt;/td&gt;
+                                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                              &lt;/tr&gt;
+                            &lt;/table&gt;
+
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel1&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;cape corner&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;row&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;wrapper&quot;&gt;
+
+                            &lt;table class=&quot;two columns&quot;&gt;
+                              &lt;tr&gt;
+                                &lt;td&gt;
+                                  &lt;a href=&quot;https://beagleboard.org/capes&quot;&gt;
+                                    &lt;img width=&quot;80&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/comms-cape-80px.png&quot; alt=&quot;Comm Cape in stock now!&quot; /&gt;
+                                  &lt;/a&gt;
+                                &lt;/td&gt;
+                                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                              &lt;/tr&gt;
+                            &lt;/table&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;wrapper last&quot;&gt;
+
+                            &lt;table class=&quot;four columns&quot;&gt;
+                              &lt;tr&gt;
+                                &lt;td&gt;
+                                  &lt;p&gt;
+                                    &lt;a href=&quot;https://beagleboard.org/capes&quot;&gt;Comm Cape in stock now!&lt;/a&gt;
+                                  &lt;/p&gt;For industrial communication applications includes one RS485, one CAN, two analog 4–20 mA current loops, and two 3A 50V interfaces&lt;/td&gt;
+                                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                              &lt;/tr&gt;
+                            &lt;/table&gt;
+
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel1&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;events&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;left-text-pad&quot;&gt;
+                                            &lt;p&gt;&lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;Embedded World 2019 Exhibition &amp;amp; Conference, Nuremberg, Germany&lt;/a&gt;
+                 - February 26-28, 2019&lt;br /&gt;
+                 
+                 &lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
+                 &lt;p&gt;&lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;Linux Hands-On Workshop with PocketBeagle at Embedded World&lt;/a&gt;
+                 - February 27, 2019&lt;br /&gt;
+                 
+                 &lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
+                 &lt;p&gt;&lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;Want to schedule a meeting with Jason or Christine?&lt;/a&gt;
+                 - Schedule online&lt;br /&gt;
+                 
+                 &lt;a href=&quot;https://beagleboard.org/show/ew/&quot;&gt;more&amp;nbsp;»&lt;/a&gt;
+               &lt;/p&gt;
+ 
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;community topics&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td width=&quot;10&quot; class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;https://beagleboard.org/discuss?place=msg%2Fbeagleboard%2Fo-hFtWPUPeM%2FaiC1hDPnBQAJ&quot;&gt;Wanted Ideas for Google Summer of Code 2019&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               BeagleBoard.org® is looking for mentors and project ideas for Google Summer of Code 2019,  Join us!
+               &lt;p&gt;&lt;a href=&quot;https://beagleboard.org/discuss?place=msg%2Fbeagleboard%2Fo-hFtWPUPeM%2FaiC1hDPnBQAJ&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=topic%2Fbeagleboard%2FTAt0FWV5nxk%2Fdiscussion&quot;&gt;How to use Reserved Memory in Device Tree&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               Read this community thread from 5 users to gain insight into device tree use.
+               &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=topic%2Fbeagleboard%2FTAt0FWV5nxk%2Fdiscussion&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=msg%2Fbeagleboard%2FgoOORlttd2c%2FJtNjeXlmCAAJ&quot;&gt;Autorun on boot with Systemd&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               Wanting to launch a GUI on autorun on boot, check out this rich discussion with 4 members
+               &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=msg%2Fbeagleboard%2FgoOORlttd2c%2FJtNjeXlmCAAJ&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+              &lt;table class=&quot;six columns&quot;&gt;
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               &lt;h6&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=msg%2Fbeagleboard%2FWdGps-tbtaI%2FSUMKqvrKCAAJ&quot;&gt;Yet another BeagleBone® to be Launched into Space Tonight&lt;/a&gt;&lt;/h6&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+
+             &lt;tr&gt;
+              &lt;td class=&quot;left-text-pad&quot;&gt;
+               Read about a BeagleBone® that went up into space this past month in a rocket from India
+               &lt;p&gt;&lt;a href=&quot;http://beagleboard.org/discuss?place=msg%2Fbeagleboard%2FWdGps-tbtaI%2FSUMKqvrKCAAJ&quot;&gt;Read more &amp;raquo;&lt;/a&gt;
+               &lt;/p&gt;
+              &lt;/td&gt;
+             &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;br /&gt;
+ 
+
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+
+                &lt;table class=&quot;twelve columns&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;panel&quot;&gt;
+                      &lt;h6 class=&quot;dkgreytype&quot;&gt;featured projects&lt;/h6&gt;
+                    &lt;/td&gt;
+                    &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;br /&gt;
+                &lt;!-- Featured Projects --&gt;
+                &lt;table class=&quot;row&quot;&gt;
+                  &lt;tr&gt;
+
+                       
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                                  &lt;table class=&quot;six columns&quot;&gt;
+              &lt;tr&gt;
+                &lt;td class=&quot;left-text-pad&quot;&gt;
+&lt;img width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/christmas%20clock_280pix.jpg&quot; alt=&quot;Christmas Countdown Clock image&quot;/&gt;
+
+                
+                &lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td  class=&quot;left-text-pad&quot;&gt;&lt;h6 class=&quot;orangetype&quot;&gt;&lt;a href=&quot;https://bbb.io/+fc70c7&quot;&gt;Christmas Countdown Clock&lt;/a&gt;&lt;/h6&gt;
+                  Anticipate the holidays with BeagleBoard.org® PocketBeagle® with PocketScroller Cape, Falcon Player (FPP) and an RGB LED Matrix.
+                &lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;https://bbb.io/+fc70c7&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+                  &lt;table class=&quot;six columns&quot;&gt;
+              &lt;tr&gt;
+                &lt;td class=&quot;left-text-pad&quot;&gt;
+&lt;img width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/wreath-280.png&quot; alt=&quot;PocketBeagle® Motion Controlled Wreath Welcomes Visitors image&quot;/&gt;
+
+                
+                &lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td  class=&quot;left-text-pad&quot;&gt;&lt;h6 class=&quot;orangetype&quot;&gt;&lt;a href=&quot;https://bbb.io/+e568c4&quot;&gt;PocketBeagle® Motion Controlled Wreath Welcomes Visitors&lt;/a&gt;&lt;/h6&gt;
+                  A motion sensor plus PocketBeagle® will light up the Holidays when visitors arrive. This phython project is a great starter to build on.
+                &lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;https://bbb.io/+e568c4&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+                    &lt;/td&gt;
+                        
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                                  &lt;table class=&quot;six columns&quot;&gt;
+              &lt;tr&gt;
+                &lt;td class=&quot;left-text-pad&quot;&gt;
+&lt;img width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/coffeewarmerproject-280.jpg&quot; alt=&quot;Coffee Heater image&quot;/&gt;
+
+                
+                &lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td  class=&quot;left-text-pad&quot;&gt;&lt;h6 class=&quot;orangetype&quot;&gt;&lt;a href=&quot;https://bbb.io/+cbc2ff&quot;&gt;Coffee Heater&lt;/a&gt;&lt;/h6&gt;
+                  Keep Santa&apos;s cocoa or coffee at the perfect temperature this Holiday Season by building your own drink warmer with PocketBeagle®
+                &lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;https://bbb.io/+cbc2ff&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+                  &lt;table class=&quot;six columns&quot;&gt;
+              &lt;tr&gt;
+                &lt;td class=&quot;left-text-pad&quot;&gt;
+&lt;img width=&quot;270&quot; src=&quot;https://cathywicks.github.io/newsletter/static/images/christmaswearable-280px.png&quot; alt=&quot;PocketBeagle® Wearable Tops Off Your Holidays image&quot;/&gt;
+
+                
+                &lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td  class=&quot;left-text-pad&quot;&gt;&lt;h6 class=&quot;orangetype&quot;&gt;&lt;a href=&quot;https://bbb.io/+fd7a55&quot;&gt;PocketBeagle® Wearable Tops Off Your Holidays&lt;/a&gt;&lt;/h6&gt;
+                  Crazy Christmas Sweaters and other wearable projects are easy to make thanks to the small size and price of PocketBeagle®
+                &lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align=&quot;right&quot; class=&quot;left-text-pad&quot;&gt;&lt;table align=&quot;right&quot; class=&quot;tiny-button&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;https://bbb.io/+fd7a55&quot;&gt;More Details &amp;raquo;&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+                &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+                    &lt;/td&gt;
+                     
+
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;!-- Legal + Unsubscribe --&gt;
+
+                &lt;table class=&quot;row&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td rowspan=&quot;3&quot; class=&quot;wrapper&quot;&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel&quot;&gt;
+                            &lt;h6 class=&quot;dkgreytype&quot;&gt;resources&lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;text-pad&quot;&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://github.com/beagleboard&quot;&gt;Github&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;hr /&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://beagleboard.org/p&quot;&gt;Projects&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;hr /&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://hackaday.io/list/3562-beaglebone-projects&quot;&gt;Hackaday.io&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;hr /&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://www.hackster.io/beagleboard&quot;&gt;Hackster.io&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;hr /&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://beagleboard.org/capes&quot;&gt;Capes&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;hr /&gt;
+                            &lt;p&gt;
+                              &lt;a href=&quot;https://beagleboard.org/Support/BoneScript&quot;&gt;BoneScript Library&amp;nbsp;&amp;raquo;&lt;/a&gt;
+                            &lt;/p&gt;
+                            &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                    &lt;td colspan=&quot;2&quot; class=&quot;wrapper last&quot;&gt;
+                      &lt;table class=&quot;six columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;panel&quot;&gt;
+                            &lt;h6&gt;
+                              &lt;span class=&quot;dkgreytype&quot;&gt;connect with us&lt;/span&gt;
+                            &lt;/h6&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                      &lt;br /&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;wrapper&quot;&gt;
+                      &lt;table class=&quot;three columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;center&quot; style=&quot;background-color:#fff;&quot;&gt;
+                            &lt;center&gt;
+
+                              &lt;!-- Centered image --&gt;
+                              &lt;a href=&quot;https://facebook.com/beagleboard&quot;&gt;
+                                &lt;img src=&quot;https://beagleboard.org/static/newsletter/images/64-facebook.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;center&quot; alt=&quot;Facebook&quot;
+                                /&gt;
+                              &lt;/a&gt;
+
+                            &lt;/center&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                      &lt;table class=&quot;three columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;center&quot; style=&quot;background-color:#fff;&quot;&gt;
+                            &lt;center&gt;
+
+                              &lt;!-- Centered image --&gt;
+                              &lt;a href=&quot;http://twitter.com/beagleboardorg&quot;&gt;
+                                &lt;img src=&quot;https://beagleboard.org/static/newsletter/images/64-twitter.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;center&quot; alt=&quot;Twitter&quot;
+                                /&gt;
+                              &lt;/a&gt;
+
+                            &lt;/center&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;wrapper&quot;&gt;
+                      &lt;table class=&quot;three columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;center&quot; style=&quot;background-color:#fff;&quot;&gt;
+                            &lt;center&gt;
+
+                              &lt;!-- Centered image --&gt;
+                              &lt;a href=&quot;http://plus.google.com/+beagleboard&quot;&gt;
+                                &lt;img src=&quot;https://beagleboard.org/static/newsletter/images/64-googleplus.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;center&quot; alt=&quot;Google Plus&quot;
+                                /&gt;
+                              &lt;/a&gt;
+
+                            &lt;/center&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                      &lt;table class=&quot;three columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;center&quot; style=&quot;background-color:#fff;&quot;&gt;
+                            &lt;center&gt;
+
+                              &lt;!-- Centered image --&gt;
+                              &lt;a href=&quot;https://www.linkedin.com/groups/1474607&quot;&gt;
+                                &lt;img src=&quot;https://beagleboard.org/static/images/64-linkedin.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;center&quot; alt=&quot;LinkedIn&quot; /&gt;
+                              &lt;/a&gt;
+
+                            &lt;/center&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;table class=&quot;row&quot;&gt;
+                  &lt;tr&gt;
+                    &lt;td class=&quot;wrapper last&quot;&gt;
+                      &lt;table class=&quot;twelve columns&quot;&gt;
+                        &lt;tr&gt;
+                          &lt;td class=&quot;center panel&quot;&gt;
+                            &lt;center&gt;
+                              &lt;p style=&quot;text-align:center;&quot;&gt;
+                                The
+                                &lt;a href=&quot;http://beagleboard.org/&quot;&gt;BeagleBoard.org&lt;/a&gt;&lt;sup&gt;®&lt;/sup&gt; Foundation is a US-based 501 c3 non-profit existing to provide education
+                                in and collaboration around the design and use of open-source software and hardware in embedded
+                                computing.
+                                &lt;br /&gt;
+                                &lt;br /&gt;This e-mail was sent to *|EMAIL|*.
+                                &lt;br /&gt;You have received this email as a valued participant in the BeagleBoard community.
+                                &lt;br /&gt;To ensure delivery to your inbox, please add newsletter@beagleboard.org to your address book
+                                or safe sender list. If you no longer wish to receive emails from us, you may
+                                &lt;br /&gt;
+                                &lt;a href=&quot;*|UNSUB|*&quot;&gt;unsubscribe here&lt;/a&gt;.&lt;/p&gt;
+                              *|REWARDS|*
+                              &lt;p style=&quot;text-align:center;&quot;&gt;
+                                &lt;a href=&quot;https://beagleboard.org/terms&quot;&gt;Terms&lt;/a&gt; |
+                                &lt;a href=&quot;http://beagleboard.org/privacy&quot;&gt;Privacy&lt;/a&gt; |
+                                &lt;a href=&quot;http://beagleboard.org/newsletter-subscribe&quot;&gt;Subscribe&lt;/a&gt; |
+                                &lt;a href=&quot;http://beagleboard.org/newsletter-unsubscribe&quot;&gt;Unsubscribe&lt;/a&gt;
+                              &lt;/p&gt;
+                            &lt;/center&gt;
+                          &lt;/td&gt;
+                          &lt;td class=&quot;expander&quot;&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;!-- container end below --&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/center&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</body>
+    <pseudoparent idref="3901" prototyperef="Page"/>
+    <pvcount type="float">0.0</pvcount>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
+    <http_referer>https://beagleboard.org/newsletter/2018-12/tide</http_referer>
+    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
+    <http_host>127.0.0.1:8080</http_host>
+    <lang>en-us</lang>
+    <user>default</user>
+  </hopobject>
+</xmlroot>
