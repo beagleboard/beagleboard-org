@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2469" name="Hardware Support" prototype="Page" created="1366427005144" lastModified="1545180894397">
+  <hopobject id="2469" name="Hardware Support" prototype="Page" created="1366427005144" lastModified="1545180941546">
   <hop:parent idref="121" prototyperef="Page"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>Hardware Support</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36</http_browser>
-    <time type="date">19.12.2018 00:54:54 UTC</time>
+    <time type="date">19.12.2018 00:55:41 UTC</time>
     <hopsession>127.0.0.31wnk3vxipz8</hopsession>
     <body>&lt;h1&gt;Hardware Support&lt;/h1&gt;
 
@@ -92,7 +92,7 @@ Merchandise Authorization) Form&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-
+&lt;!--
 &lt;div id=&quot;hard-sup-materials&quot;&gt;
 &lt;h2&gt;Additional Materials&lt;/h2&gt;
 &lt;div id=&quot;hard-sup-materials-a&quot;&gt;
@@ -123,6 +123,7 @@ Merchandise Authorization) Form&lt;/a&gt;&lt;/li&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
+--&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;</body>
     <pseudoparent idref="121" prototyperef="Page"/>
     <pvcount type="float">120379.0</pvcount>
