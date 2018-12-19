@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1545179533507">
+  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1545179590262">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -14,7 +14,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>support</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36</http_browser>
-    <time type="date">19.12.2018 00:32:13 UTC</time>
+    <time type="date">19.12.2018 00:33:10 UTC</time>
     <hopsession>127.0.0.31wnk3vxipz8</hopsession>
     <body>&lt;h1&gt;Support&lt;/h1&gt;
 &lt;p&gt;BeagleBoard.org products are supported via the on-line community resources. We
@@ -42,7 +42,9 @@
      &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/buildroot/releases&quot;&gt;Beagle Tester image releases&lt;/a&gt;&lt;/li&gt;
  &lt;/ul&gt;
  &lt;h1&gt;Consulting and other resources&lt;/h1&gt;
+ &lt;ul&gt;
  &lt;li&gt;&lt;a href=&quot;/resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
  &lt;h1&gt;Repairs&lt;/h1&gt;
  &lt;p&gt;Repairs and replacements only provided on unmodified boards purchased via an authorized distributor within the first 90 days.  All repaired board will have their flash reset to factory contents.  For repairs and replacements, please contact &apos;support&apos; at BeagleBoard.org using the RMA form:&lt;/p&gt;
  &lt;ul&gt;
