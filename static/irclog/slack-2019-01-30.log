@@ -1,0 +1,78 @@
+[Wed Jan 30 2019 17:23:15 GMT+0000 (UTC)] INFO Connecting...
+30 Jan 17:23:15 - Sending irc NICK/USER
+30 Jan 17:23:15 - SEND: CAP REQ sasl
+30 Jan 17:23:16 - SEND: NICK beagleslackbot
+30 Jan 17:23:16 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+30 Jan 17:23:21 - [01;31mUnhandled message: { prefix: 'tepper.freenode.net',
+  server: 'tepper.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+30 Jan 17:23:22 - SEND: CAP END
+30 Jan 17:23:22 - [01;31mUnhandled message: { prefix: 'tepper.freenode.net',
+  server: 'tepper.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '21', 'unknown connection(s)' ] }[0m
+30 Jan 17:23:22 - MODE: beagleslackbot sets mode: +i
+30 Jan 17:23:22 - GOT NOTICE from "freenode-connect": "Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified."
+30 Jan 17:23:23 - SEND: NICK beagleslackbot
+30 Jan 17:23:23 - SEND: JOIN #beagle-gsoc
+30 Jan 17:23:24 - SEND: JOIN #beagle-support
+30 Jan 17:23:24 - SEND: JOIN #beagle-bonescript
+30 Jan 17:23:25 - SEND: JOIN #beagle-pro
+30 Jan 17:23:28 - MODE: #beagle-support sets mode: +ns
+30 Jan 17:23:28 - MODE: #beagle-bonescript sets mode: +ns
+30 Jan 17:23:28 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+30 Jan 17:23:28 - MODE: #beagle-support sets mode: -o
+30 Jan 17:23:28 - MODE: #beagle-support sets mode: +ct-s
+30 Jan 17:23:28 - MODE: #beagle-support sets mode: +o
+30 Jan 17:23:28 - MODE: #beagle-bonescript sets mode: -o
+30 Jan 17:23:28 - MODE: #beagle-bonescript sets mode: +ct-s
+30 Jan 17:23:28 - MODE: #beagle-bonescript sets mode: +o
+30 Jan 17:23:28 - SEND: MODE #beagle-gsoc
+30 Jan 17:23:29 - SEND: MODE #beagle-support
+30 Jan 17:23:29 - SEND: MODE #beagle-bonescript
+30 Jan 17:23:30 - SEND: MODE #beagle-pro
+30 Jan 17:24:17 - SEND: PRIVMSG #beagle-gsoc :<jkridner> bot arrive?
+30 Jan 17:26:39 - SEND: PONG tepper.freenode.net
+30 Jan 17:28:49 - SEND: PONG tepper.freenode.net
+30 Jan 17:30:21 - SEND: PRIVMSG #beagle-gsoc :<jkridner> pinging @channel on Slack
+30 Jan 17:32:43 - SEND: PONG tepper.freenode.net
+30 Jan 17:34:53 - SEND: PONG tepper.freenode.net
+30 Jan 17:37:03 - SEND: PONG tepper.freenode.net
+30 Jan 17:39:13 - SEND: PONG tepper.freenode.net
+30 Jan 17:41:23 - SEND: PONG tepper.freenode.net
+30 Jan 17:43:33 - SEND: PONG tepper.freenode.net
+30 Jan 17:45:43 - SEND: PONG tepper.freenode.net
+30 Jan 17:47:53 - SEND: PONG tepper.freenode.net
+30 Jan 17:49:55 - SEND: PRIVMSG #beagle-gsoc :<rcn-ee> Didn't drew briefly look at CircuitPython for Adafruit, so somethings may have started.
+30 Jan 17:52:13 - SEND: PONG tepper.freenode.net
+30 Jan 17:54:23 - SEND: PONG tepper.freenode.net
+30 Jan 17:55:51 - SEND: PRIVMSG #beagle-gsoc :<wicks.cathy> will do
+30 Jan 17:58:17 - SEND: PONG tepper.freenode.net
+30 Jan 18:00:27 - SEND: PONG tepper.freenode.net
+30 Jan 18:02:37 - SEND: PONG tepper.freenode.net
+30 Jan 18:04:47 - SEND: PONG tepper.freenode.net
+30 Jan 18:06:57 - SEND: PONG tepper.freenode.net
+30 Jan 18:09:07 - SEND: PONG tepper.freenode.net
+30 Jan 18:10:05 - QUIT: cwicks!6041f8ed@gateway/web/freenode/ip.96.65.248.237 Quit: Page closed
+30 Jan 18:11:17 - SEND: PONG tepper.freenode.net
+30 Jan 18:13:27 - SEND: PONG tepper.freenode.net
+30 Jan 18:15:37 - SEND: PONG tepper.freenode.net
+30 Jan 18:17:47 - SEND: PONG tepper.freenode.net
+30 Jan 18:19:57 - SEND: PONG tepper.freenode.net
+30 Jan 18:22:07 - SEND: PONG tepper.freenode.net
+30 Jan 18:24:17 - SEND: PONG tepper.freenode.net
+30 Jan 18:26:27 - SEND: PONG tepper.freenode.net
+30 Jan 18:28:37 - SEND: PONG tepper.freenode.net
+30 Jan 18:30:47 - SEND: PONG tepper.freenode.net
+30 Jan 18:32:57 - SEND: PONG tepper.freenode.net
+30 Jan 18:35:07 - SEND: PONG tepper.freenode.net
+30 Jan 18:37:17 - SEND: PONG te
