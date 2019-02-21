@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4344" name="elc" prototype="Page" created="1550771825038" lastModified="1550771825131">
+  <hopobject id="4344" name="elc" prototype="Page" created="1550771825038" lastModified="1550771831542">
   <hop:parent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">ejlkNVZRdmk1Q0FaNXlzcGZTUVpvOEhXSEtrSG9pNXZERldyNmIwYmhWblFNN1kzdndLUUZuQmlQcS9Kc1RJU3hjQ0N5SVdPRjhpcDJZWGd2aVNSN09rQVVRSHNkWmk1bEJ4Ty9hRmgwbVVBWTBsLzcwcG9qdnFEaS9HVmd4L25ycTJFTUNPMEdmWWpTL0hUNDlVcGRvdHk0MzRRbzNaR1RVemk0TnU4Rkd0bWpBQmVmb3JEWTlMTXBielNtcGVxd1doOFVHTG9SZ2QvNHNUNlVMTkRlNEZDR1luRTNJVHhsaG1BYmZXUkxpRzJtSGtPYit3cTdOQjdWY1RYM2N0eWVvREllQTd5d3AzakpMMDVNVDk5eWUrdjZBcWVQS2pEdjBBYkR3a3haL3BROTZoN0E4bmhhUm1xMWFFdnQyVmlHWm94QUZXdFhHVkZhLzV6RE1UUTlVRHRUQkE2Z2FPNER6eXdaQ0NRMFp3PS0tNWNlR1RTZTJMbjlyNXJpTW5VOUYwdz09--de0d2d4ea1d519454c9259bd5006b315f4fa4e94</property>
@@ -20,5 +20,6 @@
     <http_host>127.0.0.1:8080</http_host>
     <lang>en-us</lang>
     <user>default</user>
+    <hop:child idref="4345" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
