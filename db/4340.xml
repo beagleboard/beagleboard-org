@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4340" name="TechLab" prototype="Page" created="1548153846846" lastModified="1551141426030">
+  <hopobject id="4340" name="TechLab" prototype="Page" created="1548153846846" lastModified="1551141918065">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">ejlkNVZRdmk1Q0FaNXlzcGZTUVpvOEhXSEtrSG9pNXZERldyNmIwYmhWblFNN1kzdndLUUZuQmlQcS9Kc1RJU3hjQ0N5SVdPRjhpcDJZWGd2aVNSN09rQVVRSHNkWmk1bEJ4Ty9hRmgwbVVBWTBsLzcwcG9qdnFEaS9HVmd4L25ycTJFTUNPMEdmWWpTL0hUNDlVcGRvdHk0MzRRbzNaR1RVemk0TnU4Rkd0bWpBQmVmb3JEWTlMTXBielNtcGVxd1doOFVHTG9SZ2QvNHNUNlVMTkRlNEZDR1luRTNJVHhsaG1BYmZXUkxpRzJtSGtPYit3cTdOQjdWY1RYM2N0eWVvREllQTd5d3AzakpMMDVNVDk5eWUrdjZBcWVQS2pEdjBBYkR3a3haL3BROTZoN0E4bmhhUm1xMWFFdnQyVmlHWm94QUZXdFhHVkZhLzV6RE1UUTlVRHRUQkE2Z2FPNER6eXdaQ0NRMFp3PS0tNWNlR1RTZTJMbjlyNXJpTW5VOUYwdz09--de0d2d4ea1d519454c9259bd5006b315f4fa4e94</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>TechLab</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36</http_browser>
-    <time type="date">26.02.2019 00:37:06 UTC</time>
+    <time type="date">26.02.2019 00:45:18 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.31wnk3vxipz8</hopsession>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt; &lt;font color=&quot;#de7224&quot;&gt;Tech&lt;/font&gt;Lab Cape&lt;/h1&gt;
@@ -32,30 +32,22 @@ from &lt;a href=&quot;https://training.linuxfoundation.org/training/course-catal
 &lt;/p&gt;    
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
-    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
-    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x-sm&quot; class=&quot;external&quot;&gt;Octavo Systems OSD3358 1GHz 
-    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Features:&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;512MB DDR3 RAM integrated&lt;/li&gt;
-&lt;li&gt;Integrated power management&lt;/li&gt;
-&lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
-&lt;li&gt;ARM Cortex-M3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Key Features&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;Low cost Linux computer with tremendous expansibility&lt;/li&gt;
-&lt;li&gt;Opportunity to learn many programming aspects from educators on-line&lt;/li&gt;
-&lt;li&gt;Openness and flexibility tear-down limits on your imagination&lt;/li&gt;
+&lt;li&gt;USB-to-serial (micro B connector)&lt;/li&gt;
+&lt;li&gt;USB host (A connector)&lt;/li&gt;
+&lt;li&gt;Reset button&lt;/li&gt;
+&lt;li&gt;2 push buttons (L and R) (via GPIO)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c5c&quot;&gt;  
-&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Technical Specifications&lt;/h3&gt;
-&lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;Based on new Octavo Systems OSD3358-SM 21mm x 21mm system-in-package that includes 512MB DDR3 RAM, 1-GHz ARM Cortex-A8 CPU, 2x 200-MHz PRUs, ARM Cortex-M3, 3D accelerator, power/battery management and EEPROM&lt;/li&gt;
-  &lt;li&gt;72 expansion pin headers with power and battery I/Os, high-speed USB, 8 analog inputs, 44 digital I/Os and numerous digital interface peripherals&lt;/li&gt;
-  &lt;li&gt;microUSB host/client and microSD connectors&lt;/li&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;Light sensor (via ADC)&lt;/li&gt;
+&lt;li&gt;Tri-color LED (via PWM)&lt;/li&gt;
+&lt;li&gt;2-digit 7-segment display (via SPI)&lt;/li&gt;
+&lt;li&gt;Accelerometer (via I2C)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/click&quot;&gt;mikroBus header&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
