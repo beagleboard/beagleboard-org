@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1553138814658">
+  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1553138868975">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -15,7 +15,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>support</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36</http_browser>
-    <time type="date">21.03.2019 03:26:54 UTC</time>
+    <time type="date">21.03.2019 03:27:48 UTC</time>
     <hopsession>127.0.0.py6qe9i0nmph</hopsession>
     <body>&lt;h1&gt;Support&lt;/h1&gt;
 &lt;p&gt;BeagleBoard.org products and &lt;a href=&quot;https://www.oshwa.org/definition/&quot; class=&quot;external&quot;&gt;open hardware&lt;/a&gt; designs are supported via the on-line community resources. We
@@ -42,9 +42,9 @@
  &lt;h1&gt;Diagnostic resources&lt;/h1&gt;
  &lt;p&gt;Best to be prepared with good diagnostic information to aide with support.&lt;/p&gt;
  &lt;ul&gt;
-     &lt;li&gt;&lt;a href=&quot;https://groups.google.com/d/msg/beagleboard/4oo4oL20BEs/MVwxfR-XCAAJ&quot;&gt;Example run of &apos;version.sh&apos; script needed for support requests&lt;/a&gt;&lt;/li&gt;
-     &lt;li&gt;&lt;a href=&quot;https://github.com/jadonk/beagle-tester&quot;&gt;Beagle Tester source&lt;/a&gt;&lt;/li&gt;
-     &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/buildroot/releases&quot;&gt;Beagle Tester image releases&lt;/a&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/d/msg/beagleboard/4oo4oL20BEs/MVwxfR-XCAAJ&quot;&gt;Example run of &apos;version.sh&apos; script needed for support requests&lt;/a&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/jadonk/beagle-tester&quot;&gt;Beagle Tester source&lt;/a&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/buildroot/releases&quot;&gt;Beagle Tester image releases&lt;/a&gt;&lt;/li&gt;
  &lt;/ul&gt;
  &lt;h1&gt;Consulting and other resources&lt;/h1&gt;
  &lt;p&gt;Need timely response or contract resources because you are building a product?&lt;/p&gt;
