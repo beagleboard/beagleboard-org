@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1553533025159">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1553533272360">
   <hop:parent idref="0" prototyperef="Root"/>
     <skin_is_outer>1</skin_is_outer>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36</http_browser>
@@ -170,7 +170,7 @@ $(document).ready(function(){
 
 &lt;/div&gt;&lt;/div&gt;&lt;!-- hp-c3 --&gt;
 &lt;div id=&quot;hp-c2&quot; style=&quot;background-color: #f1f1f1; padding: 10px; width: 250px; border-radius: 5px 5px 5px 5px;&quot;&gt;
-&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/beagleboardorg?ref_src=twsrc%5Etfw&quot;&gt;
+&lt;a class=&quot;twitter-timeline&quot; data-width=&quot;230&quot; data-height=&quot;495&quot; data-dnt=&quot;true&quot; href=&quot;https://twitter.com/beagleboardorg?ref_src=twsrc%5Etfw&quot;&gt;
 &lt;h1 style=&quot;margin-top: 0px&quot;&gt;Community Activity&lt;/h1&gt;
 &lt;/a&gt;
 &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -316,7 +316,7 @@ BeagleBoardToys
     <oauth2-token></oauth2-token>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="hck.usi">1</property>
-    <time type="date">25.03.2019 16:57:05 UTC</time>
+    <time type="date">25.03.2019 17:01:12 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
