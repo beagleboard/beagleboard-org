@@ -41,3 +41,82 @@
 27 Mar 16:13:37 - SEND: MODE #beagle-support
 27 Mar 16:13:37 - SEND: MODE #beagle-bonescript
 27 Mar 16:13:38 - SEND: MODE #beagle-pro
+[Wed Mar 27 2019 16:18:11 GMT+0000 (UTC)] INFO Connecting...
+27 Mar 16:18:11 - Sending irc NICK/USER
+27 Mar 16:18:11 - SEND: CAP REQ sasl
+27 Mar 16:18:12 - SEND: NICK beagleslackbot
+27 Mar 16:18:12 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+27 Mar 16:18:22 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+27 Mar 16:18:23 - SEND: CAP END
+27 Mar 16:18:23 - [01;31mUnhandled message: { prefix: 'tolkien.freenode.net',
+  server: 'tolkien.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '17', 'unknown connection(s)' ] }[0m
+27 Mar 16:18:23 - MODE: beagleslackbot sets mode: +i
+27 Mar 16:18:24 - SEND: NICK beagleslackbot
+27 Mar 16:18:24 - GOT NOTICE from "freenode-connect": "Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified."
+27 Mar 16:18:24 - SEND: JOIN #beagle-gsoc
+27 Mar 16:18:25 - SEND: JOIN #beagle-support
+27 Mar 16:18:25 - SEND: JOIN #beagle-bonescript
+27 Mar 16:18:26 - SEND: JOIN #beagle-pro
+27 Mar 16:18:30 - MODE: #beagle-support sets mode: +ns
+27 Mar 16:18:30 - MODE: #beagle-bonescript sets mode: +ns
+27 Mar 16:18:30 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+27 Mar 16:18:30 - MODE: #beagle-support sets mode: -o
+27 Mar 16:18:30 - SEND: MODE #beagle-gsoc
+27 Mar 16:18:30 - MODE: #beagle-support sets mode: +ct-s
+27 Mar 16:18:30 - MODE: #beagle-support sets mode: +o
+27 Mar 16:18:30 - MODE: #beagle-bonescript sets mode: -o
+27 Mar 16:18:30 - MODE: #beagle-bonescript sets mode: +ct-s
+27 Mar 16:18:30 - MODE: #beagle-bonescript sets mode: +o
+27 Mar 16:18:30 - SEND: MODE #beagle-support
+27 Mar 16:18:31 - SEND: MODE #beagle-bonescript
+27 Mar 16:18:31 - SEND: MODE #beagle-pro
+27 Mar 16:20:45 - SEND: PONG tolkien.freenode.net
+27 Mar 16:23:13 - SEND: PONG tolkien.freenode.net
+27 Mar 16:25:40 - SEND: PONG tolkien.freenode.net
+27 Mar 16:28:09 - SEND: PONG tolkien.freenode.net
+27 Mar 16:30:37 - SEND: PONG tolkien.freenode.net
+27 Mar 16:33:04 - SEND: PONG tolkien.freenode.net
+27 Mar 16:35:33 - SEND: PONG tolkien.freenode.net
+27 Mar 16:38:01 - SEND: PONG tolkien.freenode.net
+27 Mar 16:40:29 - SEND: PONG tolkien.freenode.net
+27 Mar 16:42:57 - SEND: PONG tolkien.freenode.net
+27 Mar 16:45:24 - SEND: PONG tolkien.freenode.net
+27 Mar 16:47:53 - SEND: PONG tolkien.freenode.net
+27 Mar 16:50:21 - SEND: PONG tolkien.freenode.net
+27 Mar 16:52:48 - SEND: PONG tolkien.freenode.net
+27 Mar 16:55:17 - SEND: PONG tolkien.freenode.net
+27 Mar 16:56:20 - QUIT: dastaan!~dastaan@2620:0:e50:1401:acfd:b11b:2991:e011 
+27 Mar 16:57:45 - SEND: PONG tolkien.freenode.net
+27 Mar 17:00:13 - SEND: PONG tolkien.freenode.net
+27 Mar 17:02:41 - SEND: PONG tolkien.freenode.net
+27 Mar 17:05:08 - SEND: PONG tolkien.freenode.net
+27 Mar 17:07:37 - SEND: PONG tolkien.freenode.net
+27 Mar 17:10:05 - SEND: PONG tolkien.freenode.net
+27 Mar 17:12:32 - SEND: PONG tolkien.freenode.net
+27 Mar 17:15:01 - SEND: PONG tolkien.freenode.net
+27 Mar 17:17:29 - SEND: PONG tolkien.freenode.net
+27 Mar 17:19:57 - SEND: PONG tolkien.freenode.net
+27 Mar 17:22:25 - SEND: PONG tolkien.freenode.net
+27 Mar 17:24:52 - SEND: PONG tolkien.freenode.net
+27 Mar 17:27:21 - SEND: PONG tolkien.freenode.net
+27 Mar 17:29:49 - SEND: PONG tolkien.freenode.net
+27 Mar 17:30:40 - QUIT: embden!~embden@2001:638:708:30da:b987:f301:7e7c:58d Quit: Leaving
+27 Mar 17:32:16 - SEND: PONG tolkien.freenode.net
+27 Mar 17:34:45 - SEND: PONG tolkien.freenode.net
+27 Mar 17:37:12 - SEND: PONG tolkien.freenode.net
+27 Mar 17:37:13 - QUIT: hendersa!~hendersa@pool-74-111-12-73.syrcny.fios.verizon.net Quit: Leaving
+27 Mar 17:39:41 - SEND: PONG tolkien.freenode.net
+27 Mar 17:42:09 - SEND: PONG tolkien.fr
