@@ -1,0 +1,43 @@
+[Wed Mar 27 2019 16:13:19 GMT+0000 (UTC)] INFO Connecting...
+27 Mar 16:13:19 - Sending irc NICK/USER
+27 Mar 16:13:19 - SEND: CAP REQ sasl
+27 Mar 16:13:20 - SEND: NICK beagleslackbot
+27 Mar 16:13:20 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+27 Mar 16:13:26 - SEND: PRIVMSG #beagle-gsoc :<jkridner> ping 2
+27 Mar 16:13:29 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+27 Mar 16:13:29 - SEND: CAP END
+27 Mar 16:13:30 - [01;31mUnhandled message: { prefix: 'orwell.freenode.net',
+  server: 'orwell.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '41', 'unknown connection(s)' ] }[0m
+27 Mar 16:13:30 - MODE: beagleslackbot sets mode: +i
+27 Mar 16:13:30 - GOT NOTICE from "freenode-connect": "Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified."
+27 Mar 16:13:31 - SEND: NICK beagleslackbot
+27 Mar 16:13:31 - SEND: JOIN #beagle-gsoc
+27 Mar 16:13:32 - SEND: JOIN #beagle-support
+27 Mar 16:13:32 - SEND: JOIN #beagle-bonescript
+27 Mar 16:13:33 - SEND: JOIN #beagle-pro
+27 Mar 16:13:36 - MODE: #beagle-support sets mode: +ns
+27 Mar 16:13:36 - MODE: #beagle-bonescript sets mode: +ns
+27 Mar 16:13:36 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+27 Mar 16:13:36 - MODE: #beagle-support sets mode: -o
+27 Mar 16:13:36 - MODE: #beagle-support sets mode: +ct-s
+27 Mar 16:13:36 - MODE: #beagle-support sets mode: +o
+27 Mar 16:13:36 - MODE: #beagle-bonescript sets mode: -o
+27 Mar 16:13:36 - MODE: #beagle-bonescript sets mode: +ct-s
+27 Mar 16:13:36 - MODE: #beagle-bonescript sets mode: +o
+27 Mar 16:13:36 - SEND: MODE #beagle-gsoc
+27 Mar 16:13:37 - SEND: MODE #beagle-support
+27 Mar 16:13:37 - SEND: MODE #beagle-bonescript
+27 Mar 16:13:38 - SEND: MODE #beagle-pro
