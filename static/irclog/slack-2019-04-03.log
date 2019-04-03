@@ -1,0 +1,79 @@
+[Wed Apr 03 2019 16:22:49 GMT+0000 (UTC)] INFO Connecting...
+3 Apr 16:22:49 - Sending irc NICK/USER
+3 Apr 16:22:50 - SEND: CAP REQ sasl
+3 Apr 16:22:50 - SEND: NICK beagleslackbot
+3 Apr 16:22:51 - SEND: USER beagleslackbot 8 * :BeagleBoard.org Slack Bot
+3 Apr 16:23:01 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: '900',
+  rawCommand: '900',
+  commandType: 'normal',
+  args: 
+   [ 'beagleslackbot',
+     'beagleslackbot!beagleslac@ec2-52-26-75-20.us-west-2.compute.amazonaws.com',
+     'beagleslackbot',
+     'You are now logged in as beagleslackbot.' ] }[0m
+3 Apr 16:23:02 - SEND: CAP END
+3 Apr 16:23:02 - [01;31mUnhandled message: { prefix: 'hitchcock.freenode.net',
+  server: 'hitchcock.freenode.net',
+  command: 'rpl_luserunknown',
+  rawCommand: '253',
+  commandType: 'reply',
+  args: [ 'beagleslackbot', '57', 'unknown connection(s)' ] }[0m
+3 Apr 16:23:02 - MODE: beagleslackbot sets mode: +i
+3 Apr 16:23:03 - SEND: NICK beagleslackbot
+3 Apr 16:23:03 - GOT NOTICE from "freenode-connect": "Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified."
+3 Apr 16:23:03 - SEND: JOIN #beagle-gsoc
+3 Apr 16:23:04 - SEND: JOIN #beagle-support
+3 Apr 16:23:04 - SEND: JOIN #beagle-bonescript
+3 Apr 16:23:05 - SEND: JOIN #beagle-pro
+3 Apr 16:23:08 - MODE: #beagle-support sets mode: +ns
+3 Apr 16:23:08 - MODE: #beagle-bonescript sets mode: +ns
+3 Apr 16:23:08 - GOT NOTICE from "NickServ": "You are already logged in as beagleslackbot."
+3 Apr 16:23:08 - MODE: #beagle-support sets mode: -o
+3 Apr 16:23:08 - MODE: #beagle-support sets mode: +ct-s
+3 Apr 16:23:08 - MODE: #beagle-support sets mode: +o
+3 Apr 16:23:08 - MODE: #beagle-bonescript sets mode: -o
+3 Apr 16:23:08 - MODE: #beagle-bonescript sets mode: +ct-s
+3 Apr 16:23:08 - MODE: #beagle-bonescript sets mode: +o
+3 Apr 16:23:08 - SEND: MODE #beagle-gsoc
+3 Apr 16:23:09 - SEND: MODE #beagle-support
+3 Apr 16:23:09 - SEND: MODE #beagle-bonescript
+3 Apr 16:23:10 - SEND: MODE #beagle-pro
+3 Apr 16:25:29 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:27:34 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:29:39 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:31:44 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:33:49 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:35:54 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:37:59 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:40:04 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:42:09 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:44:14 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:46:19 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:48:24 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:50:29 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:52:34 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:54:39 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:56:44 - SEND: PONG hitchcock.freenode.net
+3 Apr 16:58:49 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:00:54 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:02:59 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:05:04 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:07:09 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:09:14 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:11:19 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:13:24 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:15:29 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:17:34 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:18:59 - QUIT: hendersa!~hendersa@pool-74-111-12-73.syrcny.fios.verizon.net Quit: Leaving
+3 Apr 17:19:39 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:21:44 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:23:49 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:25:54 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:27:59 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:30:04 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:32:09 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:33:51 - QUIT: embden!~embden@2001:638:708:30da:ba2a:72ff:feed:ee2f Remote host closed the connection
+3 Apr 17:34:14 - SEND: PONG hitchcock.freenode.net
+3 Apr 17:36:19 - SEND: PONG hitch
