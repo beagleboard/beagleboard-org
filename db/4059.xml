@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4059" name="Page" prototype="Page" created="1431189990773" lastModified="1536167108224">
+  <hopobject id="4059" name="Page" prototype="Page" created="1431189990773" lastModified="1554317434727">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.146 Chrome/65.0.3325.146 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>education</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">27.03.2018 16:14:30 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
-    <user>default</user>
-    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">262.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">ajl2b2NVTmlaVGN1SUJhRGQvWHBFaHpMNXBmUHREbG11Rm9EamFOdHNiUjJNWG5yK0VKNE9oK3FPUzBpSzdBWWNaOUFzWXhMSnV1cmd1eGdIWXFwVVpBcGQrUzVKdllQY0tsSTZDWWkwZmZIUmhDRitGZ3QvSGFhS0pqS08vMHdoWlpSdGRoWWdGUDgwM0U5SzI2aGdoUlI0eHRNenorQ3o1OWVIaWZZdnlvM2xNSFFEVWsybVhSeHVVaWVHUmUyTmpoeUdGNitqNmw2U3Q5a2R3SjlPYTNuVGVEc2hVVkxNUCs4UFlQRVg0dUhUYkJXbEtXK3pDZnRHSHhUOHZGQWc5c2lrMHVNdTdKNXVsQUU0b0N6Z3VONjFkdGhqanZCVWJBemVFL2RMTEJFYVRvWkViQW1oL2V0RmVtd0FPVzZKUERXZEVud21QYnU3d29jc0c3WjBVRmNyZ0dYNE9WNzFtdXRqTHdoMWxJPS0tQXhtTGlFUkhVc1NhOHFHeERoQkgxZz09--0b60e2f364100f9a1b20d9d46bf55859dc59e39b</property>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>education</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36</http_browser>
+    <time type="date">03.04.2019 18:50:34 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <hopsession>127.0.0.py6qe9i0nmph</hopsession>
+    <tk_tc>L0gU18NIIrfMw6n9</tk_tc>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
  &lt;ul class=&quot;left-menu&quot;&gt;
   &lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/li&gt;
@@ -29,8 +30,8 @@
   &lt;li&gt;&lt;a href=&quot;#ti&quot;&gt;Engage TI&lt;/a&gt;&lt;/li&gt;  
   &lt;li&gt;&lt;a href=&quot;#educator&quot;&gt;Discover &quot;Educator&quot;&lt;/a&gt;&lt;/li&gt;  
   &lt;li&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Discussion&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Discover&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#eduprojects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
  &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;t3_content_1&quot;&gt;
@@ -119,6 +120,7 @@ setting up university labs.&lt;/p&gt;
     base on embedded Linux suitable for working with any hardware that will
     run Linux.
 &lt;/p&gt;
+&lt;!--
 &lt;h2 id=&quot;educator&quot;&gt;BeagleBone Educator&lt;/h2&gt;
 &lt;img src=&quot;/static/images/BeagleBoneEducator_block1.png&quot; style=&quot;float:right;width:25%;&quot; alt=&quot;BeagleBone Educator&quot; /&gt;
 &lt;p&gt;The BeagleBone Educator is a platform under development derived from 
@@ -132,34 +134,23 @@ cost-optimized all-in-one solution is on-going.
 the mailing list sign-up preferences.
 &lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://bit.ly/1P8R8Ea&quot; class=&quot;external&quot;&gt;Sign up page&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;/div&gt;
+&lt;/div
+--&gt;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
-&lt;h1 id=&quot;disqus&quot;&gt;Discussion&lt;/h1&gt;
-&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-/**
-* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-*/
-
-var disqus_config = function () {
-this.page.url = &apos;https://beagleboard.org/education&apos;; // Replace PAGE_URL with your page&apos;s canonical URL variable
-//this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&apos;s unique identifier variable
-};
-
-(function() { // DON&apos;T EDIT BELOW THIS LINE
-var d = document, s = d.createElement(&apos;script&apos;);
-
-s.src = &apos;//beagleboard.disqus.com/embed.js&apos;;
-
-s.setAttribute(&apos;data-timestamp&apos;, +new Date());
-(d.head || d.body).appendChild(s);
-})();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
-    <http_language>en-US,en;q=0.9</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>https://beagleboard.org/education/edit</http_referer>
+&lt;h1 id=&quot;eduproject&quot;&gt;Projects&lt;/h1&gt;
+&lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/projects/embed?category_id=104&amp;per_page=8&amp;col_class=col-sm-3&quot; 
+width=&quot;900&quot; 
+height=&quot;925&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+&lt;div sytle=&quot;clear:both;&quot;&gt;&lt;/div&gt;</body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">262.0</pvcount>
+    <http_referer>http://beagleboard.org/education/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
