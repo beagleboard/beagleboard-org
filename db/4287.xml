@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4287" name="e14-webinar" prototype="Page" created="1525105363343" lastModified="1540767617240">
+  <hopobject id="4287" name="e14-webinar" prototype="Page" created="1525105363343" lastModified="1555465216451">
   <hop:parent idref="3757" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>e14-webinar</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">30.04.2018 16:25:03 UTC</time>
-    <pseudoparent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
-    <user>default</user>
-    <hackster_user_signed_in>1</hackster_user_signed_in>
-    <pvcount type="float">1091.0</pvcount>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>e14-webinar</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36</http_browser>
+    <time type="date">17.04.2019 01:40:16 UTC</time>
+    <hopsession>127.0.0.10.0.104.9n1blcvhxd02</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;a href=&quot;https://www.element14.com/community/docs/DOC-89480/l/beaglebone-6-part-webinar-series&quot;&gt;&lt;img src=&quot;https://beagleboard.org/static/images/BBB6webApr27v2.png&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.element14.com/community/docs/DOC-89480/l/beaglebone-6-part-webinar-series&quot;&gt;Element14 Webinar page&lt;/a&gt;&lt;/p&gt;
+&lt;!--
 &lt;script&gt;
     goTracked(&apos;e14-webinar&apos;,&apos;https://www.element14.com/community/docs/DOC-89480/l/beaglebone-6-part-webinar-series&apos;);    
 &lt;/script&gt;
-</body>
-    <http_language>en-US,en;q=0.9</http_language>
-    <http_referer>http://beagleboard.org/show/e14-webinar/edit</http_referer>
+--&gt;</body>
+    <pseudoparent idref="3757" prototyperef="Page"/>
+    <hackster_user_signed_in>1</hackster_user_signed_in>
+    <pvcount type="float">1091.0</pvcount>
+    <http_referer>https://beagleboard.org/show/e14-webinar/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
