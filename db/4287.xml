@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4287" name="e14-webinar" prototype="Page" created="1525105363343" lastModified="1557117065930">
+  <hopobject id="4287" name="e14-webinar" prototype="Page" created="1525105363343" lastModified="1557117104140">
   <hop:parent idref="3757" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>e14-webinar</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36</http_browser>
-    <time type="date">06.05.2019 04:31:05 UTC</time>
+    <time type="date">06.05.2019 04:31:44 UTC</time>
     <hopsession>127.0.0.1v516cv0lmp62</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;a href=&quot;https://www.element14.com/community/docs/DOC-89480/l/beaglebone-6-part-webinar-series&quot;&gt;&lt;img src=&quot;https://beagleboard.org/static/images/BBB6webApr27v2.png&quot; /&gt;&lt;/a&gt;
@@ -31,22 +31,27 @@
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5783826024001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_01_Introduction_to_BeagleBone.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&quot;/static/pdf.js/viewer.html?file=%2Fstatic%2Fpresentations%2FBeagleBone_Webinar_01_Introduction_to_BeagleBone.pdf&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;hr /&gt;
 &lt;h2 name=&quot;linux&quot;&gt;BeagleBone for Linux Users&lt;/h2&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5789646756001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_02_BeagleBone_for_Linux_Users.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&quot;/static/pdf.js/viewer.html?file=%2Fstatic%2Fpresentations%2FBeagleBone_Webinar_02_BeagleBone_for_Linux_Users.pdf&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;hr /&gt;
 &lt;h2 name=&quot;embed&quot;&gt;BeagleBone for Embedded Developers&lt;/h2&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5795261223001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_03_BeagleBone_for_Embedded_Developers.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&quot;/static/pdf.js/viewer.html?file=%2Fstatic%2Fpresentations%2FBeagleBone_Webinar_03_BeagleBone_for_Embedded_Developers.pdf&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;hr /&gt;
 &lt;h2 name=&quot;web&quot;&gt;BeagleBone for Web Developers&lt;/h2&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5802144301001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_04_BeagleBone_for_Web_Developers.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&quot;/static/pdf.js/viewer.html?file=%2Fstatic%2Fpresentations%2FBeagleBone_Webinar_04_BeagleBone_for_Web_Developers.pdf&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;hr /&gt;
 &lt;h2 name=&quot;robotics&quot;&gt;BeagleBone Blue for Robotics&lt;/h2&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5823472637001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_05_BeagleBone_Blue_for_Robotics.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&quot;/static/pdf.js/viewer.html?file=%2Fstatic%2Fpresentations%2FBeagleBone_Webinar_05_BeagleBone_Blue_for_Robotics.pdff&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;hr /&gt;
 &lt;h2 name=&quot;classroom&quot;&gt;BeagleBone in the Classroom&lt;/h2&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;450&quot; src=&apos;https://players.brightcove.net/1362235890001/NkxiVJdjx_default/index.html?videoId=5848094774001&amp;&amp;autostart=0&amp;autostart=false&amp;wmode=opaque&apos; allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;h3&gt;&lt;a href=&quot;/static/presentations/BeagleBone_Webinar_06_BeagleBone_in_the_Classroom.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/h3&gt;
