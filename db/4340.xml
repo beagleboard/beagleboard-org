@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4340" name="TechLab" prototype="Page" created="1548153846846" lastModified="1554916415423">
+  <hopobject id="4340" name="TechLab" prototype="Page" created="1548153846846" lastModified="1560194333156">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">ejlkNVZRdmk1Q0FaNXlzcGZTUVpvOEhXSEtrSG9pNXZERldyNmIwYmhWblFNN1kzdndLUUZuQmlQcS9Kc1RJU3hjQ0N5SVdPRjhpcDJZWGd2aVNSN09rQVVRSHNkWmk1bEJ4Ty9hRmgwbVVBWTBsLzcwcG9qdnFEaS9HVmd4L25ycTJFTUNPMEdmWWpTL0hUNDlVcGRvdHk0MzRRbzNaR1RVemk0TnU4Rkd0bWpBQmVmb3JEWTlMTXBielNtcGVxd1doOFVHTG9SZ2QvNHNUNlVMTkRlNEZDR1luRTNJVHhsaG1BYmZXUkxpRzJtSGtPYit3cTdOQjdWY1RYM2N0eWVvREllQTd5d3AzakpMMDVNVDk5eWUrdjZBcWVQS2pEdjBBYkR3a3haL3BROTZoN0E4bmhhUm1xMWFFdnQyVmlHWm94QUZXdFhHVkZhLzV6RE1UUTlVRHRUQkE2Z2FPNER6eXdaQ0NRMFp3PS0tNWNlR1RTZTJMbjlyNXJpTW5VOUYwdz09--de0d2d4ea1d519454c9259bd5006b315f4fa4e94</property>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>TechLab</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36</http_browser>
-    <time type="date">10.04.2019 17:13:35 UTC</time>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</http_browser>
+    <time type="date">10.06.2019 19:18:53 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.16liyierd7m4f</hopsession>
+    <hopsession>127.0.0.ve321novumjl</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt; &lt;font color=&quot;#de7224&quot;&gt;Tech&lt;/font&gt;Lab Cape&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -93,7 +93,11 @@ $(document).ready(function(){
 &lt;br /&gt;
 &lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
 &lt;h2&gt;Learn to program&lt;/h2&gt;
-&lt;p&gt;(Work in progress via Node-RED+Blockly and Makecode)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Bonescript Node.js library: &lt;a href=&quot;https://github.com/beagleboard/cloud9-examples/tree/master/PocketBeagle/TechLab&quot; class=&quot;external&quot;&gt;Workshop materials  »&lt;/a&gt; &lt;a href=&quot;https://debian.beagleboard.org/images/techlab-workshop-2019-01-24.img.xz&quot; class=&quot;external&quot;&gt;Workshop SD card image »&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Work in progress via Node-RED+Blockly&lt;/li&gt;
+&lt;li&gt;Work in progress via Makecode&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Learn about embedded Linux&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/cloud9-examples/tree/master/PocketBeagle/TechLab&quot; class=&quot;external&quot;&gt;Workshop materials  »&lt;/a&gt;&lt;/li&gt;
@@ -290,10 +294,10 @@ height=&quot;925&quot;
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
-    <http_referer>https://beagleboard.org/TechLab/tide</http_referer>
+    <http_referer>https://beagleboard.org/techlab/tide</http_referer>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
