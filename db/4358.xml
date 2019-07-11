@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4358" name="Page" prototype="Page" created="1562767546160" lastModified="1562767546309">
+  <hopobject id="4358" name="Page" prototype="Page" created="1562767546160" lastModified="1562829941424">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.9</http_language>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36</http_browser>
     <uri>tamuworkshop</uri>
-    <time type="date">10.07.2019 14:05:46 UTC</time>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36</http_browser>
+    <time type="date">11.07.2019 07:25:41 UTC</time>
     <hopsession>127.0.0.ijbyzrxsrjni</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>&lt;script&gt;
-    goTracked(&apos;tamuworkshop&apos;, &quot;https://docs.google.com/document/d/1CSPHU11L-RBk7_kiKZ7DNxjvVB45xsrezY8gJ_1fzSo/edit?usp=sharing&quot;);
-&lt;/script&gt;</body>
+    <body>&lt;h1&gt;TAMU BeagleBone Blue Workshop&lt;/h1&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1CSPHU11L-RBk7_kiKZ7DNxjvVB45xsrezY8gJ_1fzSo/edit?usp=sharing&quot;&gt;Google Doc&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://drive.google.com/open?id=1nZdXAvfTE1UvENzlEZ3QuQWWDnFSSVib&quot;&gt;Main slide deck&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/cloud9-examples/blob/master/PocketBeagle/TechLab/workshop-slides.pdf&quot;&gt;More Linux slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
     <http_referer>http://beagleboard.org/tamuworkshop/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
