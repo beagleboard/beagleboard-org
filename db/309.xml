@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1540821135051">
+  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1563826115099">
   <hop:parent idref="121" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36</http_browser>
-    <lang>en-us</lang>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.9</http_language>
     <uri>faq</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">08.05.2014 00:46:59 UTC</time>
-    <pseudoparent idref="121" prototyperef="Page"/>
-    <http_remotehost>98.250.189.79</http_remotehost>
-    <hopsession>98.250.189.imp6zwvuk42r</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">163667.0</pvcount>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36</http_browser>
+    <time type="date">22.07.2019 20:08:35 UTC</time>
+    <hopsession>127.0.0.yfv0r1glujcs</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;  
     &lt;ul class=&quot;left-menu&quot;&gt;
         &lt;li&gt;&lt;a href=&quot;#gq&quot;&gt;General Board Questions&lt;/a&gt;&lt;/li&gt;
@@ -27,7 +26,9 @@
         &lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#Software&quot;&gt;Software&lt;/a&gt;
             &lt;ul&gt;
+&lt;!--
                 &lt;li&gt;&lt;a href=&quot;#Ångström&quot;&gt;Ångström&lt;/a&gt;&lt;/li&gt;
+--&gt;
                 &lt;li&gt;&lt;a href=&quot;#Ubuntu&quot;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;#Android&quot;&gt;Android&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href=&quot;#StarterWare&quot;&gt;StarterWare&lt;/a&gt;&lt;/li&gt;
@@ -44,6 +45,49 @@
  
   &lt;h3&gt;What are the Beagles?&lt;/h3&gt;
    &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;PocketBeagle&lt;/strong&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/pocket&quot;&gt;PocketBeagle page&lt;/a&gt; - quick overview&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/pocketbeagle/wiki&quot;&gt;
+            PocketBeagle support wiki&lt;/a&gt; - additional details&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/pocketbeagle&quot;&gt;
+            PocketBeagle section of the Forums
+            &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;br&gt;
+    &lt;li&gt;&lt;strong&gt;BeagleBone AI&lt;/strong&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI page&lt;/a&gt; - quick overview&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-ai/wiki&quot;&gt;
+            BeagleBone AI support wiki&lt;/a&gt; - additional details&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-ai&quot;&gt;
+            BeagleBone AI section of the Forums
+            &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;br&gt;
+   &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;BeagleBone Blue&lt;/strong&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue page&lt;/a&gt; - quick overview&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-blue/wiki&quot;&gt;
+            BeagleBone Blue support wiki&lt;/a&gt; - additional details&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-blue&quot;&gt;
+            BeagleBone Blue section of the Forums
+            &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;br&gt;
+   &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;BeagleBone Black Wireless&lt;/strong&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless page&lt;/a&gt; - quick overview&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-black-wireless/wiki&quot;&gt;
+            BeagleBone Black Wireless support wiki&lt;/a&gt; - additional details&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-black-wireless&quot;&gt;
+            BeagleBone Black Wireless section of the Forums
+            &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;br&gt;
+   &lt;ul&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone Black&lt;/strong&gt;&lt;/li&gt;
         BeagleBone Black is the newest member of the open hardware Beagle family.
         Incorporating Texas Instruments’ 1GHz AM335x ARM® Cortex-A8 processor, 
@@ -51,15 +95,15 @@
         Additional expanded peripherals, low power consumption and open-source 
         software compatibility make this Beagle stand out among the pack. 
             &lt;ul&gt;
-                &lt;li&gt;&lt;a href=&quot;/Products/BeagleBone Black&quot;&gt;BeagleBone 
+                &lt;li&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone 
         Black page&lt;/a&gt; - quick overview&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack&quot;&gt;
+                &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-black/wiki&quot;&gt;
             BeagleBone Black support wiki
         &lt;/a&gt; - additional details&lt;/li&gt;
-             &lt;li&gt;&lt;a href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-black&quot;&gt;
+             &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-black&quot;&gt;
             BeagleBone Black section of the Forums
         &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
-             &lt;/ul&gt;
+    &lt;/ul&gt;
     &lt;br&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone&lt;/strong&gt;&lt;/li&gt;
         BeagleBone is a bare-bones Beagle board that acts as a USB or Ethernet 
@@ -74,6 +118,17 @@
             BeagleBone section of the Forums
         &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
         &lt;br&gt;
+   &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;BeagleBoard-X15&lt;/strong&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/X15&quot;&gt;BeagleBoard-X15 page&lt;/a&gt; - quick overview&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beagleboard-x15/wiki&quot;&gt;
+            BeagleBoard-X15 support wiki&lt;/a&gt; - additional details&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beagleboard-x15&quot;&gt;
+            BeagleBoard-X15 section of the Forums
+            &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;br&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBoard-xM&lt;/strong&gt;&lt;/li&gt;
         Designed with the community inputs in mind, this open hardware design improves 
         upon the laptop-like performance and expandability, while keeping at hand-held 
@@ -425,10 +480,14 @@
  &lt;/ol&gt;
 --&gt; 
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/Support/FAQ/edit</http_referer>
-    <beagleirclog>000000</beagleirclog>
+    <pseudoparent idref="121" prototyperef="Page"/>
+    <pvcount type="float">163667.0</pvcount>
+    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <g_enabled_idps>google</g_enabled_idps>
+    <http_referer>https://beagleboard.org/Support/FAQ/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="324" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
