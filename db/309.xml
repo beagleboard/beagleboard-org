@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1563826711081">
+  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1563827086966">
   <hop:parent idref="121" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>faq</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36</http_browser>
-    <time type="date">22.07.2019 20:18:31 UTC</time>
+    <time type="date">22.07.2019 20:24:46 UTC</time>
     <hopsession>127.0.0.yfv0r1glujcs</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;  
@@ -65,7 +65,6 @@
             &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
    &lt;/ul&gt;
    &lt;br&gt;
-   &lt;ul&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone Blue&lt;/strong&gt;&lt;/li&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue page&lt;/a&gt; - quick overview&lt;/li&gt;
@@ -76,7 +75,6 @@
             &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
    &lt;/ul&gt;
    &lt;br&gt;
-   &lt;ul&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone Black Wireless&lt;/strong&gt;&lt;/li&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless page&lt;/a&gt; - quick overview&lt;/li&gt;
@@ -87,7 +85,6 @@
             &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
    &lt;/ul&gt;
    &lt;br&gt;
-   &lt;ul&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone Black&lt;/strong&gt;&lt;/li&gt;
         BeagleBone Black is the newest member of the open hardware Beagle family.
         Incorporating Texas Instruments’ 1GHz AM335x ARM® Cortex-A8 processor, 
@@ -486,8 +483,8 @@
     <g_enabled_idps>google</g_enabled_idps>
     <http_referer>https://beagleboard.org/support/faq/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="324" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
