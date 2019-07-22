@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1563826115099">
+  <hopobject id="309" name="faq" prototype="Page" created="1218456920368" lastModified="1563826711081">
   <hop:parent idref="121" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>faq</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36</http_browser>
-    <time type="date">22.07.2019 20:08:35 UTC</time>
+    <time type="date">22.07.2019 20:18:31 UTC</time>
     <hopsession>127.0.0.yfv0r1glujcs</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;  
@@ -103,7 +103,7 @@
              &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/forum/?fromgroups#!categories/beagleboard/beaglebone-black&quot;&gt;
             BeagleBone Black section of the Forums
         &lt;/a&gt; - ask questions and find the latest answers&lt;/li&gt;
-    &lt;/ul&gt;
+   &lt;/ul&gt;&lt;/li&gt;
     &lt;br&gt;
     &lt;li&gt;&lt;strong&gt;BeagleBone&lt;/strong&gt;&lt;/li&gt;
         BeagleBone is a bare-bones Beagle board that acts as a USB or Ethernet 
@@ -484,10 +484,10 @@
     <pvcount type="float">163667.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
-    <http_referer>https://beagleboard.org/Support/FAQ/tide</http_referer>
+    <http_referer>https://beagleboard.org/support/faq/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
     <hop:child idref="324" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
