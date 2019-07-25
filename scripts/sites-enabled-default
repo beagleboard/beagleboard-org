@@ -295,7 +295,7 @@ server {
 			rewrite /wp-admin$ $scheme://$host$uri/ last;
 			rewrite ^(/[^/]+)(/wp-.*) $2 last;
 			rewrite ^(/[^/]+)(/.*\.php) $2 last;
-			rewrite ^(/[^/]+)/([^/]+)[/]?$ /blog/index.php?$2 last;
+			rewrite ^(/[^/]+)/(.*)$ /blog/index.php?$2 last;
 		}
 
 		#try_files $uri $uri/ /blog/index.php?$args;
