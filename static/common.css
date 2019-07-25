@@ -50,7 +50,8 @@ table#projects {width:875px; padding-top:0px; padding-left:0px; width: 897px;}
 table.tblstandard {width:875px; padding-top:50px; padding-left:20px; }
 table h3, table h4 {margin:0;}
 table h4 {font-size:1em;}
-dt span, h2 span {text-align:right; float:right; color:#3F8BFE;}
+/* dt span, h2 span {text-align:right; float:right; color:#3F8BFE;} */
+dt span, h2 span {color:#3F8BFE;}
 dt span a:link, h2 span a:link {color:#758DFF;}
 h2 p {margin:2px 0 5px 0;}
 hr {border:1px solid #C5CBD4;}
