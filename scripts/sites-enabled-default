@@ -288,17 +288,20 @@ server {
 		alias /mnt/wordpress;
 		index  index.php;
 		if (!-e $request_filename) {
+			rewrite_log on;
+			#rewrite ^(/[^/]+)(/wp-.*) /blog$2 last;
+			#rewrite ^(/[^/]+)(/.*\.php)(.*) /blog$2$3 last;
 			#rewrite ^/blog/(\d+)/$ /blog/index.php?$1;
-			rewrite /wp-admin$ $scheme://$host$uri/;
-			rewrite ^/blog/([^/]+)[/]?$ /blog/index.php?$1 last;
-			rewrite ^(/[^/]+)?(/wp-.*) $2 last;
-			rewrite ^(/[^/]+)?(/.*\.php) $2 last;
+			rewrite /wp-admin$ $scheme://$host$uri/ last;
+			rewrite ^(/[^/]+)(/wp-.*) $2 last;
+			rewrite ^(/[^/]+)(/.*\.php) $2 last;
+			rewrite ^(/[^/]+)/([^/]+)[/]?$ /blog/index.php?$2 last;
 		}
 
-		#try_files $uri $uri/ /blog/index.php?$args /blog/index.php?q=$uri&$args;
+		#try_files $uri $uri/ /blog/index.php?$args;
 
 		location ~ \.php$ {
-			try_files $uri =404;
+			#try_files $uri =404;
 			#fastcgi_split_path_info ^(/blog)(/.*)$;
 			#fastcgi_split_path_info ^/blog(.+\.php)\/?(.+)$;
 			fastcgi_split_path_info ^(.+\.php)(.+)$;
