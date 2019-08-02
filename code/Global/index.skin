@@ -8,7 +8,6 @@
   <link href="https://feeds.feedburner.com/BeagleBoard" rel="alternate" title="Beagle Board news feed" type="application/atom+xml" />
   <link rel="icon" href="/static/beagle.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/static/beagle.ico" type="image/x-icon" />
-  <link rel="publisher" href="https://plus.google.com/109587204186717390991" />
   <style type="text/css" media="screen">@import "/static/common.css";</style>
   <style type="text/css" media="screen">@import "/static/login.css";</style>
   <style type="text/css" media="screen">@import "/static/beagle.css";</style>
@@ -26,7 +25,6 @@
     <span style="padding-left:8px"><a href="https://twitter.com/beagleboardorg"><img src="/static/images/icon_twitter.png" style="width:27;height:28;border:0" alt="twitter"/></a></span>
     <span style="padding-left:8px"><a href="https://www.linkedin.com/groups/BeagleBoardorg-1474607?gid=1474607"><img src="/static/images/icon_linkedin.png" style="width:27;height:28;border:0" alt="linkedin" /></a></span>
     <span style="padding-left:8px"><a href="https://www.youtube.com/user/jadonk"><img src="/static/images/youTube-icon.png" style="width:27;height:28;border:0" alt="YouTube" /></a></span>
-    <span style="padding-left:8px"><a href="https://plus.google.com/+beagleboard"><img src="/static/images/icon_google+.png" style="width:27;height:28;border:0" alt="google+"/></a></span>
   </div> 
 </div>
    </div>
@@ -135,7 +133,6 @@
     <span style="padding-left:8px"><a href="https://twitter.com/beagleboardorg"><img src="/static/images/icon_twitter.png" style="width:27;height:28;border:0;" alt="twitter" /></a></span>
     <span style="padding-left:8px"><a href="https://www.linkedin.com/groups/BeagleBoardorg-1474607?gid=1474607"><img src="/static/images/icon_linkedin.png" style="width:27;height:28;border:0" alt="linkedin" /></a></span>
     <span style="padding-left:8px"><a href="https://www.youtube.com/user/jadonk"><img src="/static/images/youTube-icon.png" style="width:27;height:28;border:0;" alt="YouTube" /></a></span>
-    <span style="padding-left:8px"><a href="https://plus.google.com/+beagleboard"><img src="/static/images/icon_google+.png" style="width:27;height:28;border:0;" alt="google+" /></a></span>
   </div> 
 <div id="login">
 </div>
@@ -178,32 +175,6 @@
      + '  </form>'
      + $('#prompt_form').html()
     );
-  </script>
-  <script type="text/javascript">
-   $(document).ready(
-    function() {
-     var indexID = 0;
-     $('.wants-g-plusone').each(function() {
-      $(this).attr('id', 'gp' + indexID);
-      var gp = document.createElement('script');
-      gp.type = 'text/javascript';
-      gp.async = true;
-      var args = {"size":"small"};
-      var href = $(this).attr('data-href');
-      if(href) args.href = href;
-      gp.text = 'setTimeout(function() {' +
-       'gapi.plusone.render(gp' + 
-       indexID +
-       ', ' +
-       JSON.stringify(args) +
-       ');}, ' +
-       (indexID * 800) +
-       ');';
-      $('#footer').append(gp);
-      indexID++;
-     });
-    }
-   );
   </script>
 <div id="fb-root"></div>
 </body>
