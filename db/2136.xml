@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564747290725">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564747369804">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">02.08.2019 12:01:30 UTC</time>
+    <time type="date">02.08.2019 12:02:49 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -121,8 +121,8 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
  
     &lt;h3&gt;Step #0.B: Install SD card programming utility&lt;/h3&gt;
     &lt;p&gt;Download and install &lt;a target=&quot;_blank&quot; href=&quot;https://etcher.io/&quot;&gt;Etcher&lt;/a&gt;.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/download-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
-    &lt;img src=&quot;/static/images/install-etcher.png&quot; width=&quot;50%&quot; /&gt;&lt;br /&gt;
+    &lt;img src=&quot;/static/images/download-etcher.png&quot; align=&quot;middle&quot; width=&quot;75%&quot; /&gt;&lt;br /&gt;
+    &lt;img src=&quot;/static/images/install-etcher.png&quot; align=&quot;middle&quot; width=&quot;75%&quot; /&gt;&lt;br /&gt;
     &lt;p&gt;Some general help on programming SD cards can be found on the &lt;a target=&quot;_blank&quot; href=&quot;http://help.ubuntu.com/community/Installation/FromImgFiles&quot;&gt;Ubuntu Image Writer page&lt;/a&gt;.
  
     &lt;h3&gt;Step #0.C: Connect SD card to your computer&lt;/h3&gt;
@@ -130,7 +130,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
  
     &lt;h3&gt;Step #0.D: Write the image to your SD card&lt;/h3&gt;
     &lt;p&gt;Use Etcher to write the image to your SD card. Etcher will transparently decompress the image on-the-fly before writing it to the SD card.&lt;/p&gt;
-    &lt;img src=&quot;/static/images/write-latestimage.png&quot; width=&quot;50%&quot; /&gt;
+    &lt;img src=&quot;/static/images/write-latestimage.png&quot; align=&quot;middle&quot; width=&quot;75%&quot; /&gt;
  
     &lt;h3&gt;Step #0.E: Eject the SD card&lt;/h3&gt;
     &lt;p&gt;Eject the newly programmed SD card.&lt;/p&gt;
