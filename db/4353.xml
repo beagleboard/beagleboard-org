@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4353" name="Page" prototype="Page" created="1557773755891" lastModified="1564854394659">
+  <hopobject id="4353" name="Page" prototype="Page" created="1557773755891" lastModified="1564856067684">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">MHZlTkYyYlhZL1NlK0Y5d1QzT2VDc3E4UHNCRTFpbk1GWjhRZ2pOQVkxdWhiSUU0U3lqOWJlUytmU2NDUzN4NVdmbkxTVC9aMFB0WnhQc2h4aCtGTWxjOUtUWHVvajhmK2liNXJyNStvVVdVMHlIeUpyYlEwVEZVWW1mV1BQM3JiUjVlN1hnR0lodnA1Nkd3SThVZzFRSWkxaDczSHJUSzljSXE2T1RTWTg3d0hmNTdFdDZBaFlhU3orWHJ0QU1hLS0xdi9zTlVJa3BOQkpCenk2OTRtb09nPT0=--a4526943d1bdb5e7048b31bcc1c70d56bec27328</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>testconn.htm</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 17:46:34 UTC</time>
+    <time type="date">03.08.2019 18:14:27 UTC</time>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;html&gt;
@@ -25,13 +25,17 @@ function get(name) {
  return decodeURIComponent(name[1]);
 }
 
+var host = get(&apos;host&apos;);
+var frameId = get(&apos;frame&apos;);
+
 function onconnect() {
-  console.log(&quot;Connected to &quot; + host);
-  $(&quot;div#status&quot;).html(&apos;&lt;a href=&quot;http://&apos; + host + &apos;&quot; class=&quot;external&quot; target=&quot;_top&quot;&gt;&lt;em&gt;Active&lt;/em&gt;&lt;/a&gt;&apos;);
-  if(typeof parent.foundBone == &quot;function&quot;) parent.foundBone(host);
+ console.log(&quot;Connected to &quot; + host);
+ $(&quot;div#status&quot;).html(&apos;&lt;a href=&quot;http://&apos; + host + &apos;&quot; class=&quot;external&quot; target=&quot;_top&quot;&gt;&lt;em&gt;Active&lt;/em&gt;&lt;/a&gt;&apos;);
+ var frame = document.getElementById(frameId);
+ frame.contentWindow.postMessage({&quot;host&quot;: host}, &apos;*&apos;); 
+ //if(typeof parent.foundBone == &quot;function&quot;) parent.foundBone(host);
 }
 
-var host = get(&apos;host&apos;);
 setTargetAddress(host, onconnect);
 setTargetAddress(host+&quot;:8000&quot;, onconnect);
 
@@ -46,7 +50,7 @@ setTargetAddress(host+&quot;:8000&quot;, onconnect);
     <pvcount type="float">0.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
-    <http_referer>http://beagleboard.org/testconn.htm/tide</http_referer>
+    <http_referer>https://beagleboard.org/testconn.htm/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
     <lang>en-us</lang>
