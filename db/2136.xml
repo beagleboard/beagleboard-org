@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564857426295">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564857507669">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 18:37:06 UTC</time>
+    <time type="date">03.08.2019 18:38:27 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -214,7 +214,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
       &lt;td&gt;192.168.7.2&lt;/td&gt;
       &lt;td&gt;USB&lt;/td&gt;
       &lt;td&gt;Windows&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock&quot; id=&quot;19272&quot; src=&quot;http://beagleboard.org/testconn.htm?host=192.168.7.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; src=&quot;http://beagleboard.org/testconn.htm?host=192.168.7.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;192.168.6.2&lt;/td&gt;
@@ -232,13 +232,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
       &lt;td&gt;beaglebone.local&lt;/td&gt;
       &lt;td&gt;all&lt;/td&gt;
       &lt;td&gt;mDNS enabled&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; id=&quot;bblocal&quot; src=&quot;http://beagleboard.org/testconn.htm?host=beaglebone.local&amp;frame=bblocal&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
-     &lt;/tr&gt;
-     &lt;tr&gt;
-      &lt;td&gt;beaglebone.local&lt;/td&gt;
-      &lt;td&gt;all&lt;/td&gt;
-      &lt;td&gt;mDNS enabled&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts allow-top-navigatio allow-pointer-lockn&quot; src=&quot;http://beagleboard.org/testconn.htm?host=beaglebone.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; src=&quot;http://beagleboard.org/testconn.htm?host=beaglebone.local&amp;frame=bblocal&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;beaglebone-2.local&lt;/td&gt;
