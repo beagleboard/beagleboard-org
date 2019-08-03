@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564854613507">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564854705806">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 17:50:13 UTC</time>
+    <time type="date">03.08.2019 17:51:45 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -193,7 +193,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;p&gt;If connected via USB, a network adapter should show up on your computer. Your Beagle should be running a DHCP server that will provide your computer with an IP address of either 192.168.7.1 or 192.168.6.1, depending on the type of USB network adapter supported by your computer&apos;s operating system. Your Beagle will reserve 192.168.7.2 or 192.168.6.2 for itself.&lt;/p&gt;
     &lt;p&gt;If your Beagle includes WiFi, an access point called &quot;BeagleBone-XXXX&quot; where &quot;XXXX&quot; varies between boards. The access point password defaults to &quot;BeagleBone&quot;. Your Beagle should be running a DHCP server that will provide your computer with an IP address in the 192.168.8.x range and reserve 192.168.8.1 for itself.&lt;/p&gt;
     &lt;p&gt;If your Beagle is connected to your local area network (LAN) via either Ethernet or WiFi, it will utilize &lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot; class=&quot;external&quot;&gt;mDNS&lt;/a&gt; to broadcast itself to your computer. If your computer supports mDNS, you should see your Beagle as beaglebone.local. &lt;em&gt;Non-BeagleBone boards will utilize alternate names. Multiple BeagleBone boards on the same network will add a suffix such as beaglebone-2.local.&lt;/em&gt;&lt;/p&gt;
-    &lt;p&gt;The below table summarizes the typical addresses and should dynamically update to indicate an active connection. &lt;em&gt;Note that you must load &lt;a href=&quot;http://beagleboard.org/getting-started&quot;&gt;this page&lt;/a&gt; without HTTPS security for the automatic detection to work.&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;The below table summarizes the typical addresses and should dynamically update to indicate an active connection. &lt;em&gt;Note that you must &quot;load unsafe scripts&quot; or load &lt;a href=&quot;http://beagleboard.org/getting-started&quot;&gt;this page&lt;/a&gt; without HTTPS security for the automatic detection to work.&lt;/em&gt;&lt;/p&gt;
     &lt;table border=&quot;0&quot;&gt;
      &lt;tr&gt;
       &lt;th&gt;IP Address&lt;/th&gt;
