@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564854057440">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564854563574">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 17:40:57 UTC</time>
+    <time type="date">03.08.2019 17:49:23 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -205,31 +205,31 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
       &lt;td&gt;192.168.7.2&lt;/td&gt;
       &lt;td&gt;USB&lt;/td&gt;
       &lt;td&gt;Windows&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/testconn.htm?host=192.168.7.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;https://beagleboard.org/testconn.htm?host=192.168.7.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;192.168.6.2&lt;/td&gt;
       &lt;td&gt;USB&lt;/td&gt;
       &lt;td&gt;Mac OS X, Linux&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/testconn.htm?host=192.168.6.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=https://beagleboard.org/testconn.htm?host=192.168.6.2&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;192.168.8.1&lt;/td&gt;
       &lt;td&gt;WiFi&lt;/td&gt;
       &lt;td&gt;all&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/testconn.htm?host=192.168.8.1&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;https://beagleboard.org/testconn.htm?host=192.168.8.1&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;beaglebone.local&lt;/td&gt;
       &lt;td&gt;all&lt;/td&gt;
       &lt;td&gt;mDNS enabled&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/testconn.htm?host=beaglebone.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;https://beagleboard.org/testconn.htm?host=beaglebone.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
      &lt;tr&gt;
       &lt;td&gt;beaglebone-2.local&lt;/td&gt;
       &lt;td&gt;all&lt;/td&gt;
       &lt;td&gt;mDNS enabled&lt;/td&gt;
-      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;/testconn.htm?host=beaglebone-2.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;iframe style=&quot;height:15px;width:90px;&quot; frameborder=&quot;0&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; src=&quot;https://beagleboard.org/testconn.htm?host=beaglebone-2.local&quot;&gt;Inactive&lt;/iframe&gt;&lt;/td&gt;
      &lt;/tr&gt;
     &lt;/table&gt;
 
@@ -380,7 +380,7 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427680774:X=1427684374</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <projhids>[1615e0</projhids>
     <projcnt>2</projcnt>
-    <http_referer>http://beagleboard.org/getting-started/tide</http_referer>
+    <http_referer>https://beagleboard.org/getting-started/tide</http_referer>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <http_host>127.0.0.1:8080</http_host>
     <lang>en-us</lang>
