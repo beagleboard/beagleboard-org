@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564855269186">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564855764402">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 18:01:09 UTC</time>
+    <time type="date">03.08.2019 18:09:24 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -44,7 +44,16 @@ function testForCompletedSteps() {
   }
  }
 }
- 
+
+function messageFromIframe(event) { 
+ if (~event.origin.indexOf(&apos;http://beagleboard.org&apos;)) {
+  console.log(event.data); 
+ } else { 
+  return; 
+ } 
+};
+window.addEventListener(&apos;message&apos;, messageFromIframe);
+
 function foundBone(host) {
  console.log(&quot;Found BeagleBone at &quot; + host);
  $(&apos;a.bonelink&apos;).each(function(i){ $(this).attr(&apos;href&apos;,&quot;http://&quot;+host); });
