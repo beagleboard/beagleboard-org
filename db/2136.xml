@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564857940403">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1564859337593">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
-    <time type="date">03.08.2019 18:45:40 UTC</time>
+    <time type="date">03.08.2019 19:08:57 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -203,7 +203,7 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;p&gt;If your Beagle includes WiFi, an access point called &quot;BeagleBone-XXXX&quot; where &quot;XXXX&quot; varies between boards. The access point password defaults to &quot;BeagleBone&quot;. Your Beagle should be running a DHCP server that will provide your computer with an IP address in the 192.168.8.x range and reserve 192.168.8.1 for itself.&lt;/p&gt;
     &lt;p&gt;If your Beagle is connected to your local area network (LAN) via either Ethernet or WiFi, it will utilize &lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot; class=&quot;external&quot;&gt;mDNS&lt;/a&gt; to broadcast itself to your computer. If your computer supports mDNS, you should see your Beagle as beaglebone.local. &lt;em&gt;Non-BeagleBone boards will utilize alternate names. Multiple BeagleBone boards on the same network will add a suffix such as beaglebone-2.local.&lt;/em&gt;&lt;/p&gt;
     &lt;p&gt;The below table summarizes the typical addresses and should dynamically update to indicate an active connection.&lt;/&gt;
-    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;You must &quot;load unsafe scripts&quot; or load &lt;a href=&quot;http://beagleboard.org/getting-started&quot;&gt;this page&lt;/a&gt; without HTTPS security for the automatic detection to work.&lt;/small&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;small&gt;&lt;b&gt;Note:&lt;/b&gt; You must &quot;load unsafe scripts&quot; or load &lt;a href=&quot;http://beagleboard.org/getting-started&quot;&gt;this page&lt;/a&gt; without HTTPS security for the automatic detection to work.&lt;/small&gt;&lt;/p&gt;
     &lt;table border=&quot;0&quot;&gt;
      &lt;tr&gt;
       &lt;th&gt;IP Address&lt;/th&gt;
@@ -350,8 +350,10 @@ serial access to older boards, links to the old drivers are below.&lt;/p&gt;
      &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beagleboard-x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;,
      &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone&quot;&gt;BeagleBone&lt;/a&gt;,
      &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-black&quot;&gt;BeagleBone Black&lt;/a&gt;,
-     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;, and
-     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-blue&quot;&gt;BeagleBone Blue&lt;/a&gt;.&lt;/p&gt;
+     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/pocketbeagle&quot;&gt;PocketBeagle&lt;/a&gt;, and
+     &lt;a class=&quot;external&quot; href=&quot;https://github.com/beagleboard/beaglebone-ai&quot;&gt;BeagleBone AI&lt;/a&gt;.&lt;/p&gt;
     &lt;p&gt;Other links to design materials for various releases can be found at
      &lt;a class=&quot;external&quot; href=&quot;https://beagleboard.org/hardware/design&quot;&gt;beagleboard.org/hardware/design&lt;/a&gt;.&lt;/p&gt;
    
