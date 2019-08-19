@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3032" name="Page" prototype="Page" created="1377291915523" lastModified="1539587308739">
+  <hopobject id="3032" name="Page" prototype="Page" created="1377291915523" lastModified="1566241457727">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36</http_browser>
-    <lang>en-us</lang>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">WlczOGx1Tm52RUJWWStKS2h4ODJrakoveE1ERVEvZUVEMnNBK2ZzbG4xbU9JZlJRNzZsVUlMWlFoSnJWTitVZ05GWUNzMmR6MklNZ2lieFJHMGZQeWRwQ1ZneUtwWFJacmE1VlJRYW9GdFlhS0lZeDlPZDNaNmlmZTBLTGxwYzYzak1OZytxbXQxZUxQMFpFQWI0TGMxT09MMDNVdmcvbzJ2R1d6Y3ErNDZDYkRpZE0zbTY1MXJxRlVuR1FpOWZHLS0xTjJLRVl4UlBmbWhaaVI3TWk1ejJBPT0=--de37e4d4b464849152ccc1b931d0a715b83bbea2</property>
+    <http_language>en-US,en;q=0.9</http_language>
     <uri>bmp085</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">23.08.2013 21:05:15 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>192.94.94.105</http_remotehost>
-    <hopsession>192.94.94.172.24.0.34haw4nzbjms</hopsession>
-    <user>jkridner@gmail.com</user>
-    <pvcount type="float">74.0</pvcount>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.87 Chrome/76.0.3809.87 Safari/537.36</http_browser>
+    <time type="date">19.08.2019 19:04:17 UTC</time>
+    <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;BMP085&lt;/h1&gt;
 &lt;script&gt;window.location=&quot;/support/BoneScript/demo_bmp085/&quot;;&lt;/script&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/bmp085/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">74.0</pvcount>
+    <http_referer>http://beagleboard.org/bmp085/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
