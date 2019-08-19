@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2784" name="demo_bmp085" prototype="Page" created="1371825704153" lastModified="1566238238250">
+  <hopobject id="2784" name="demo_bmp085" prototype="Page" created="1371825704153" lastModified="1566238396240">
   <hop:parent idref="2471" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>demo_bmp085</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.87 Chrome/76.0.3809.87 Safari/537.36</http_browser>
-    <time type="date">19.08.2019 18:10:38 UTC</time>
+    <time type="date">19.08.2019 18:13:16 UTC</time>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;script src=&quot;/static/processing.js&quot;&gt;&lt;/script&gt;
@@ -18,7 +18,88 @@
 
     &lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
      &lt;ul class=&quot;left-menu&quot;&gt;
-      &lt;strong&gt;Navigation&lt;/strong&gt;
+      &lt;strong&gt;Navigation&lt;/strong&gt;  &lt;div id=&quot;content&quot;&gt;
+   &lt;div id=&quot;contentbuffer&quot;&gt;
+    &lt;h2&gt;BoneScript&lt;/h2&gt;
+&lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
+    &lt;ul class=&quot;left-menu&quot;&gt;&lt;strong&gt;Navigation&lt;/strong&gt;
+        &lt;li&gt;&lt;a href=&quot;/bone101/Support/BoneScript/menu/index.html&quot;&gt;Menu contents&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;t3_content_1&quot;&gt;
+&lt;div id=&apos;connect-status&apos;&gt;&lt;/div&gt;
+&lt;div id=&quot;content_child&quot;&gt;
+
+&lt;h1&gt;BMP085 I2C pressure/temperature sensor demo&lt;/h1&gt;
+&lt;p&gt;The BMP085 is a readily available pressure/temperature sensor using I2C.  It is directly supported by the Linux
+kernel, so all you have to do is ask the kernel to load the driver and then start reading values.&lt;/p&gt;
+&lt;h2&gt;Demo
+ &lt;button class=&quot;dynlink&quot; onclick=&quot;demoRun(&apos;code&apos;)&quot;&gt;run&lt;/button&gt;
+ &lt;button class=&quot;dynlink&quot; onclick=&quot;demoRestore(&apos;code&apos;)&quot;&gt;restore&lt;/button&gt;
+&lt;/h2&gt;
+&lt;pre id=&quot;code&quot; class=&quot;use-editor&quot; style=&quot;height:425px;&quot;&gt;
+var b = require(&apos;bonescript&apos;);
+var bus = 1;
+// uncomment if using SeeedStudio Grove sensor
+// bus = 2;
+var iic = &apos;/sys/class/i2c-adapter/i2c-&apos; + bus + &apos;/&apos;;
+
+//Sensor Locations on the BeagleBone Black
+var temperature = &apos;/sys/bus/i2c/drivers/bmp085/&apos; + bus + &apos;-0077/temp0_input&apos;;
+var pressure = &apos;/sys/bus/i2c/drivers/bmp085/&apos; + bus + &apos;-0077/pressure0_input&apos;;
+
+// We will initialize the driver for the BMP085 sensor located at I2C location 0x77
+b.writeTextFile(iic + &apos;new_device&apos;, &apos;bmp085 0x77&apos;);
+
+// Opens,reads, and prints pressure and temperature
+b.readTextFile(pressure, printPressure);
+b.readTextFile(temperature, printTemperature); 
+
+// Prints Pressure
+function printPressure(x) {
+   console.log(&quot;Pressure: &quot;, x.data/100 + &quot; millibar&quot;);
+}
+
+// Prints Temperature
+function printTemperature(x) {
+   // &apos;\xB0&apos; is the degree symbol in hexademical
+   console.log(&quot;Temperature: &quot;, x.data/10 + &apos;\xB0&apos; + &quot; Celcius&quot;);
+   x.data /= 10;
+   x.data *= 1.8;
+   x.data += 32;
+   console.log(&quot;or: &quot;, x.data + &apos;\xB0&apos; + &quot; Fahrenheit&quot;); 
+}&lt;/pre&gt;
+&lt;div readonly id=&apos;console-output&apos; style=&apos;height: 80px;&apos;&gt;&lt;/div&gt;
+&lt;h2&gt;Build and execute instructions&lt;/h2&gt;
+&lt;img align=&quot;right&quot; height=&quot;500px&quot; src=&quot;/bone101/static/images/beaglebone_with_bmp085_bb.png&quot; /&gt;
+&lt;ul&gt;
+ &lt;li&gt;Disconnect your board from power (including USB)&lt;/li&gt;
+ &lt;li&gt;Connect BMP085 GND to P9_1&lt;/li&gt;
+ &lt;li&gt;Connect BMP085 VCC to P9_3&lt;/li&gt;
+ &lt;li&gt;Connect BMP085 SCL to P9_19&lt;/li&gt;
+ &lt;li&gt;Connect BMP085 SDA to P9_20&lt;/li&gt;
+ &lt;li&gt;Reapply power and refresh this page before running the demo code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;See also&lt;/h2&gt;
+&lt;h3&gt;Topics&lt;/h3&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href=&quot;/bone101/Support/bone101/#headers&quot;&gt;BeagleBone expansion headers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Related functions&lt;/h3&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href=&quot;/bone101/Support/BoneScript/#require&quot;&gt;require&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;/bone101/Support/BoneScript/readTextFile/&quot;&gt;readTextFile&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;/bone101/Support/BoneScript/writeTextFile/&quot;&gt;writeTextFile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Examples&lt;/h3&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;a href=&quot;/bone101/Support/BoneScript/demo_bmp085_graphing/&quot;&gt;BMP085 pressure/temperature
+  sensor graphing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;&lt;/div&gt;
       &lt;li&gt;&lt;a href=&quot;/Support/BoneScript/menu/&quot;&gt;Menu contents&lt;/a&gt;&lt;/li&gt;
      &lt;/ul&gt;
     &lt;/div&gt;
