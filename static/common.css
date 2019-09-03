@@ -6,17 +6,17 @@ body {
 	background:#7886D1;
 	color: #333;
 	background: #fcf7ed; url();
-	font-family:Arial, Helvetica, Verdana, sans-serif; color:#525252; font-size: 71%; 
+	font-family:Arial, Helvetica, Verdana, sans-serif; color:#525252; font-size: 130%; 
 	}
 a:link {color:#de7224; text-decoration:none;}
 a:visited {color:#de7224; text-decoration:none;}
 a:hover {text-decoration:underline;}
-ul.default {list-style-type:none; margin:0; padding:0 0 0 1.3em;font-size:1.1em; line-height:1.1em; max-width:550px;}
+ul.default {list-style-type:none; margin:0; padding:0 0 0 1.3em;font-size:1.4em; line-height:1.4em; max-width:550px;}
 ul.default li {background: url(images/beagle-bullet-list-dot.gif) no-repeat 0 .7em;padding:.3em 0 .3em 1em;}
-ul.arrow {list-style-type:none; margin:0; padding:0 0 0 1.3em; line-height:1em;}
+ul.arrow {list-style-type:none; margin:0; padding:0 0 0 1.3em; line-height:1.3em;}
 ul.arrow li {background: url(images/beagle-bullet-list-arrow.gif) no-repeat 0 .5em;padding:.3em 0 .3em 1em;}
-ul.subitem {list-style-type:none; margin:0; padding:0 0 0 1.3em; font-size:1em; line-height:1em;}
-ul.subitem li {background: url(images/beagle-bullet-list-dot.gif) no-repeat 0 .7em;padding:.5em 0 .3em 1em;}
+ul.subitem {list-style-type:none; margin:0; padding:0 0 0 1.3em; font-size:1.3em; line-height:1.3em;}
+ul.subitem li {background: url(images/beagle-bullet-list-dot.gif) no-repeat 0 .7em;padding:.5em 0 .3em 1.3em;}
 h1 {font-size:2.0em;font-family: "Arial", Verdana, Helvetica, sans-serif; color:#b4a279;}
 #bg {visibility:hidden; height:1px; font-size:0.1em; background:#5B5F63; margin:0;}
 h1 h2 {margin:5px 0 5px 0;}
@@ -28,7 +28,7 @@ h3, h4 {font-size:1.2em;font-family: "Arial", Verdana, Helvetica, sans-serif; co
 #news h3 a:link, #news h3 a:visited, #news h3 a:hover {font-family: "Arial", Verdana, Helvetica, sans-serif;background: url(none);font-size:.9em; font-weight:normal;}
 #news div.pipesTitle {font-weight:normal;}
 #news div.pipesTitle a:hover {font-weight:normal; text-decoration:underline;}
-h5, h6, p {font-size:1.1em;line-height:1.3em; }
+h5, h6, p {font-size:1.3em;line-height:1.5em; }
 p.action a:link, p.action a:visited {text-decoration:none; padding-right:15px;
 background:url(images/beagle-alink-action-arrow.gif) right no-repeat;}
 p.action a:hover {background: url(images/beagle-alink-action-arrow.gif) right no-repeat; padding-right:15px;text-decoration:underline;}
@@ -36,7 +36,7 @@ p.breadcrumb {margin-top:0; padding-top:0; font-size:1em;}
 p.breadcrumb a:link, p.breadcrumb a:visited, p.breadcrumb a:hover {color:#f56203; text-decoration:none;}
 p.breadcrumb a:hover {text-decoration:underline;}
 td {
-font-size:.9em;
+font-size:1.3em;
 padding:10px;
 border:0px;
 background-color:#f1f1f1;
@@ -49,13 +49,13 @@ background-color:#de7224;}
 table#projects {width:875px; padding-top:0px; padding-left:0px; width: 897px;}
 table.tblstandard {width:875px; padding-top:50px; padding-left:20px; }
 table h3, table h4 {margin:0;}
-table h4 {font-size:1em;}
+table h4 {font-size:1.3em;}
 /* dt span, h2 span {text-align:right; float:right; color:#3F8BFE;} */
 dt span, h2 span {color:#3F8BFE;}
 dt span a:link, h2 span a:link {color:#758DFF;}
 h2 p {margin:2px 0 5px 0;}
 hr {border:1px solid #C5CBD4;}
-input, select, textarea {font:1em Verdana, Helvetica, sans-serif;}
+input, select, textarea {font:1.3em Verdana, Helvetica, sans-serif;}
 div#wrapper {text-align:left; background:#fff url(none) repeat-y; width:948px; margin: 0 auto;}
 div#header {width:948px; height:80px; margin:0; padding:0;}
 div#logo {width:201px; margin:10px 0 0 10px; float:left;}
@@ -150,7 +150,7 @@ html>body ul.pdf li {background-position:0 .4em;}
 	cursor:hand; 
 	color:#fff;
 	font-weight:bold; 
-	font-size:1em;
+	font-size:1.3em;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	border:1px solid;
 	overflow:visible; 
