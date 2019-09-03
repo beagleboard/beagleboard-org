@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4363" name="Page" prototype="Page" created="1567105253731" lastModified="1567191750979">
+  <hopobject id="4363" name="Page" prototype="Page" created="1567105253731" lastModified="1567524686127">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">WUNadGhCUENnalgxVklyOUhWL28vMnhKME5tQytCTDc2dWN0R1RRSWVtL3dia1ZvTUd0ZkFBWXlQS21ySmYyRklTeXZaSGlXSXdVbER2Rm5pOS9iY1FJQ0ZzL0NmU2xYTWkzNmVleU5iWE5MRHl5NDRZelJzY2kwUWMzVjNJeFJ5WktzaXRqY1pNTDJRTzA4T2ZCWGtsREV0ZWxTU3l1cXFqbUZzWnJYU0M3Ky83bGgrSDN6TXFnZElYbzM2OHgwLS1NYW1jcmZrcTJNeUhtb0VIRUZJTXNnPT0=--33d527692ee5652f5f2a94c1006174922365d819</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>ai-preview</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">30.08.2019 19:02:30 UTC</time>
-    <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
+    <time type="date">03.09.2019 15:31:26 UTC</time>
+    <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; AI&lt;/h1&gt;
 &lt;div id=&quot;t2-c7&quot;&gt;
@@ -31,29 +31,32 @@ home applications.
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
-    &lt;a href=&quot;http://octavosystems.com/octavo_products/osd335x-sm&quot; class=&quot;external&quot;&gt;Octavo Systems OSD3358 1GHz 
-    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+    &lt;a href=&quot;https://www.ti.com/am5729&quot; class=&quot;external&quot;&gt;Texas Instruments Sitara AM5729&lt;/a&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;512MB DDR3 RAM integrated&lt;/li&gt;
-&lt;li&gt;Integrated power management&lt;/li&gt;
-&lt;li&gt;2×32-bit 200-MHz programmable real-time units (PRUs)&lt;/li&gt;
-&lt;li&gt;ARM Cortex-M3&lt;/li&gt;
+&lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;B&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;D&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Key Features&lt;/h3&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Feature Highlights&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;Low cost Linux computer with tremendous expansibility&lt;/li&gt;
-&lt;li&gt;Opportunity to learn many programming aspects from educators on-line&lt;/li&gt;
-&lt;li&gt;Openness and flexibility tear-down limits on your imagination&lt;/li&gt;
+    &lt;li&gt;BeagleBone Black mechanical and header compatibility&lt;/li&gt;
+    &lt;li&gt;TI AM5729 processor featuring 2x A15 CPU, 2x C66 DSP, 4x M4 MCU, 2x SGX544 3D, GC320 2D, IVA-HD, 4x PRU and 4x EVE&lt;/li&gt;
+    &lt;li&gt;1GB RAM and 16GB on-board eMMC flash with high-speed interface&lt;/li&gt;
+    &lt;li&gt;USB type-C for power and superspeed dual-role controller; and USB type-A host&lt;/li&gt;
+    &lt;li&gt;Gigabit Ethernet, 2.4/5GHz WiFi, and Bluetooth&lt;/li&gt;
+    &lt;li&gt;microHDMI&lt;/li&gt;
+    &lt;li&gt;Zero-download out-of-box software experience&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;t2-c5c&quot;&gt;  
-&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Summary of Technical Specifications&lt;/h3&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Extras a b c d e f g h i j&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt; 
-  &lt;li&gt;Based on new Octavo Systems OSD3358-SM 21mm x 21mm system-in-package that includes 512MB DDR3 RAM, 1-GHz ARM Cortex-A8 CPU, 2x 200-MHz PRUs, ARM Cortex-M3, 3D accelerator, power/battery management and EEPROM&lt;/li&gt;
-  &lt;li&gt;72 expansion pin headers with power and battery I/Os, high-speed USB, 8 analog inputs, 44 digital I/Os and numerous digital interface peripherals&lt;/li&gt;
-  &lt;li&gt;microUSB host/client and microSD connectors&lt;/li&gt;
+  &lt;li&gt;A&lt;/li&gt;
+  &lt;li&gt;B&lt;/li&gt;
+  &lt;li&gt;C&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
