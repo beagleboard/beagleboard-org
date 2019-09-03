@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1567519594913">
+  <hopobject id="2136" name="Page" prototype="Page" created="1349711280472" lastModified="1567519674771">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>getting-started</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">03.09.2019 14:06:34 UTC</time>
+    <time type="date">03.09.2019 14:07:54 UTC</time>
     <property propertyname="hck.usi">1</property>
     <property propertyname="278d81]"></property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
@@ -150,7 +150,14 @@ Browse to web server on Beagle&lt;/a&gt;&lt;/li&gt;
     &lt;h3&gt;Step #0.F: Boot your board off of the SD card&lt;/h3&gt;
     &lt;p&gt;Insert SD card into your (powered-down) board, hold down the USER/BOOT button (if using Black) and apply power, either by the USB cable or 5V adapter.&lt;/p&gt;
     &lt;p&gt;If using an original BeagleBone or PocketBeagle, you are done.&lt;/p&gt;
-    &lt;p&gt;If using BeagleBone Black, BeagleBone Blue, BeagleBone AI or other board with on-board eMMC flash and you desire to write the image to your on-board eMMC, you&apos;ll need to follow the instructions at &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian flasher images automatically power down the board upon completion.  &lt;em&gt;This can take up to 45 minutes.&lt;/em&gt;  Power-down your board, remove the SD card and apply power again to finish.&lt;/p&gt;
+    &lt;p&gt;If using BeagleBone Black, BeagleBone Blue, BeagleBone AI or other board 
+    with on-board eMMC flash and you desire to write the image to your on-board 
+    eMMC, you&apos;ll need to follow the instructions at
+    &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&quot;&gt;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC&lt;/a&gt;. 
+    When the flashing is complete, all 4 USRx LEDs will be steady on or off. The latest Debian 
+    flasher images automatically power down the board upon completion.  &lt;em&gt;This 
+    can take up to 45 minutes.&lt;/em&gt;  Power-down your board, &lt;em&gt;remove the SD card&lt;/em&gt;
+    and apply power again to finish.&lt;/p&gt;
  
  
 &lt;h1&gt;Start your Beagle&lt;/h1&gt;
