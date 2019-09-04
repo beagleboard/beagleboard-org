@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4244" name="blue" prototype="Page" created="1488834572744" lastModified="1546979611927">
+  <hopobject id="4244" name="blue" prototype="Page" created="1488834572744" lastModified="1567631642443">
   <hop:parent idref="3268" prototyperef="Page"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -11,12 +11,12 @@
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU0MzI4OTEzMS4wNjgzMTE1BjsARg==--5b3e66a835796359b8b29896cf2ea88644c11238</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>blue</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36</http_browser>
-    <time type="date">08.01.2019 20:33:31 UTC</time>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
+    <time type="date">04.09.2019 21:14:02 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.1cxmtmepchorx</hopsession>
+    <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-blue&quot;&gt;
-    &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+    &lt;option&gt;Select distributor to buy&lt;/option&gt;
         &lt;option value=&quot;https://www.digikey.com/product-detail/en/ghi-electronics-llc/BBBLE-SC-568/BBBLE-SC-568-ND/7071862&quot;&gt;Digi-Key&lt;/option&gt;
         &lt;option value=&quot;http://www.element14.com/beagleboneblue&quot;&gt;Element14&lt;/option&gt;
         &lt;option value=&quot;http://www.mouser.com/new/beagleboardorg/beaglebone-blue/&quot;&gt;Mouser&lt;/option&gt;
@@ -26,18 +26,18 @@
     <pseudoparent idref="3268" prototyperef="Page"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">11.0</pvcount>
-    <render_skin>bare</render_skin>
     <initiallandingpage>/p</initiallandingpage>
+    <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
-    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>http://beagleboard.org/distributors/blue/tide</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <http_referer>http://beagleboard.org/distributors/blue/tide</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
