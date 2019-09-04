@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4229" name="x15" prototype="Page" created="1476988866210" lastModified="1523898678844">
+  <hopobject id="4229" name="x15" prototype="Page" created="1476988866210" lastModified="1567631719889">
   <hop:parent idref="3268" prototyperef="Page"/>
     <userid>40774</userid>
     <http_remotehost>127.0.0.1</http_remotehost>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>x15</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">03.04.2018 14:16:55 UTC</time>
-    <hopsession>127.0.0.eoiduscfyey1</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
+    <time type="date">04.09.2019 21:15:19 UTC</time>
+    <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-x15&quot;&gt;
-    &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+    &lt;option&gt;Select distributor to buy&lt;/option&gt;
     &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardx15/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
     &lt;option value=&quot;https://www.digikey.com/product-detail/en/precision-technology-inc/BEAGLEBOARD-X15/1777-1001-ND&quot;&gt;Digi-Key&lt;/option&gt;
     &lt;option value=&quot;https://www.mouser.com/ProductDetail/Beagleboard-by-PTI/BeagleBoard-X15?qs=uj7TeyS2Sj8estI5sHZOxA%3d%3d&quot;&gt;Mouser&lt;/option&gt;
@@ -29,13 +29,13 @@
     <render_skin>bare</render_skin>
     <initiallandingpage>/p</initiallandingpage>
     <skin_is_outer>true</skin_is_outer>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>https://beagleboard.org/distributors/x15/edit</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <http_referer>http://beagleboard.org/distributors/x15/tide</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
