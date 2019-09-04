@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1567634515839">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1567636219669">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
@@ -12,7 +12,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>boards</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
-    <time type="date">04.09.2019 22:01:55 UTC</time>
+    <time type="date">04.09.2019 22:30:19 UTC</time>
     <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
@@ -137,9 +137,9 @@ $(document).ready(function(){
     Complete robotics computer ready to fly or rove. Flexible networking and rich set of robotics-oriented peripherals make building mobile robots quick and affordable.
     &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/blue&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
 &lt;/div&gt;
-&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;/static/images/BeagleBoard-X15.png&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
-    The top performing power-users’ dream board with a core tailored for every computing task and a highspeed interface for every connectivity need.
+&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/images/BB_AI_BeautyAngle_800px.jpg&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
+    TheMultitude of powerful processing cores for diverse embedded computing needs.
     &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/x15&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
@@ -150,14 +150,14 @@ $(document).ready(function(){
     &lt;th width=&quot;130px&quot;&gt;PocketBeagle&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBone Black&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBone Blue&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;&lt;span style=&quot;white-space:nowrap;&quot;&gt;BeagleBoard-X15&lt;/span&gt;&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBone AI&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;AM5728 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
+    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
@@ -178,49 +178,49 @@ $(document).ready(function(){
     &lt;td&gt;2 (3.3V), 6 (1.8V)&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
     &lt;td&gt;4 (1.8V)&lt;/td&gt;
-    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;7 (3.3V)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;44 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;24 (3.3V)&lt;/td&gt;
-    &lt;td&gt;157 (3.3V)&lt;/td&gt;
+    &lt;td&gt;72 (3.3V) (7 shared with analog)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;2GB DDR3 (4x 512Mx16, dual-channel), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;1GB DDR3 (2x 512Mx16, dual-channel), 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 on expansion header&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
-    &lt;td&gt;3x USB 3.0 5Gbps Host, USB 2.0 480Mbps Host/Client Port&lt;/td&gt;
+    &lt;td&gt;USB 3.0 5Gbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Network&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;add-ons&lt;/td&gt;
     &lt;td&gt;10/100 Ethernet&lt;/td&gt;
-    &lt;td&gt;WiFi, Bluetooth 4.1, BLE&lt;/td&gt;
-    &lt;td&gt;2x 10/100/1000 Ethernet&lt;/td&gt;
+    &lt;td&gt;2.4GHz WiFi, Bluetooth, BLE&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, 2.4/5GHz WiFi, Bluetooth, BLE&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;SPI displays&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;SPI displays&lt;/td&gt;
-    &lt;td&gt;HDMI, add-on boards with parallel video data in/out&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;add-ons, Bluetooth&lt;/td&gt;
-    &lt;td&gt;3.5mm stereo in/out jacks&lt;/td&gt;
+    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Expansion Interfaces&lt;/strong&gt;&lt;/td&gt;
@@ -229,21 +229,22 @@ $(document).ready(function(){
     LCD, 3x quadrature encoder, SD/MMC, GPMC&lt;/td&gt;
     &lt;td&gt;4x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (w/ PHY), 8x 6V servo motor,
     4x DC motor, 4x quadrature encoder&lt;/td&gt;
-    &lt;td&gt;4x UART, 2x PWM, I2C, CAN bus (w/o PHY), LCD, SD/MMC, parallel video in, 2x I2S, SATA, PCIe&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, 7x A/D converter, CAN bus (w/o PHY), 
+    LCD, 3x quadrature encoder, SD/MMC&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;On-board Sensors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;-&lt;/td&gt;
     &lt;td&gt;-&lt;/td&gt;
     &lt;td&gt;10 degree of freedom IMU (accelerometer, gyroscope, magnetometer, thermometer), barometer/thermometer&lt;/td&gt;
-    &lt;td&gt;-&lt;/td&gt;
+    &lt;td&gt;on-die temperature&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$25&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$79&lt;/td&gt;
-    &lt;td&gt;$249&lt;/td&gt;
+    &lt;td&gt;$99&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
