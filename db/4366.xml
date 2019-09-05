@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4366" name="alpha" prototype="Page" created="1567697830336" lastModified="1567697940592">
+  <hop:parent idref="4363" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">QjhTQ1JCM2w5US9aZWlGRWpxL1B1QnZGMzFWdTUrMjFucHFkR01LSDhCTEdpZnFMZ1JOT0RqeEVZeGw0UHYzcTdRMVVMNW9DbkU3anVVYThzUE5BZTVkVWZ2cnkyT3hhR3ozRjNRQjVXWkdmM0NTRUpSU090a2daS2lYaVhrOGZpS1pBeGlVWldkKzVXSFQzMDhZNXZ3Tkdyb1lEQnhVVmRsazJ6d0NiTDFwWERSNDFydUxRLzhhUCtUeXB4RDhXLS1UMG1NNStEaVIxU1E1THpUTFZDczFBPT0=--4be118f72a295b028b551363fa18f11a40992542</property>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>alpha</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
+    <time type="date">05.09.2019 15:39:00 UTC</time>
+    <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body>&lt;h1&gt;BeagleBone AI alpha developers page&lt;/h1&gt;
+&lt;p&gt;This is an invite-only alpha program. &lt;em&gt;This page should not be externally linked or shared.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://drive.google.com/open?id=1HplxPKma7QFCHaSoHOBAToxQQIWJqWWn&quot;&gt;Documents and Hi-res images&lt;/a&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://drive.google.com/open?id=1W3CY8L0TnBsJNeR7ksl2882Bx-ebxlj4&quot;&gt;Quick Start Guide&lt;/a&gt; --&lt;b&gt; start here&lt;/b&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Support/discussion&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/beagle-alpha&quot;&gt;Forum / Mailing List&lt;/a&gt; contact &lt;a href=&quot;/about/jkridner&quot;&gt;Jason&lt;/a&gt; for access&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:beagle-alpha@googlegroups.com&quot;&gt;E-mail to Forum / Mailing List&lt;/a&gt; - should work even if not subscribed, but might take a day&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:beaglertm@list.ti.com&quot;&gt;TI Hosted List&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/give&quot;&gt;Board request link&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai&quot;&gt;Github Repository&lt;/a&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/Frequently-Asked-Questions&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/System-Reference-Manual&quot;&gt;SRM&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Examples&lt;br /&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/cloud9-examples&quot;&gt;cloud9-example library&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Software compatibility Links&lt;br /&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec&quot;&gt;Cape dev symlinks&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;TI internal links&lt;br /&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://bitbucket.itg.ti.com/projects/BEAG/repos/beaglebone-ai/browse&quot;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Software Images&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://debian.beagleboard.org/images/bbai-pilot-20190408.img.xz&quot;&gt;2019-04-08 pilot-run eMMC image&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://debian.beagleboard.org/images/am57xx-eMMC-flasher-debian-9.9-lxqt-armhf-2019-08-03-4gb.img.xz&quot;&gt;2019-08-03 production-run eMMC flasher image (Debian 9.9)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Key accessories&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/product-detail/en/cts-thermal-management-products/BDN10-3CB-A01/294-1098-ND/272736&quot;&gt;Heatsink&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/product-detail/en/digi-key-electronics/X15FANKIT/X15FANKIT-ND/5822502&quot;&gt;Fan&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/products/en?keywords=BBCAI-ND&quot;&gt;Serial cable&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <pseudoparent idref="4363" prototyperef="Page"/>
+    <pvcount type="float">0.0</pvcount>
+    <http_referer>https://beagleboard.org/AI/alpha/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
+  </hopobject>
+</xmlroot>
