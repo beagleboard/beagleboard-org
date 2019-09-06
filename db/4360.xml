@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1567748435763">
+  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1567748555491">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">RGxmL3U1VW9GN0xjamQyeUpOV3hnWFhxWndpZERsQ0dnbzFBdkl0RnB5TkRwc2o4Nlk1N0pRbFdTMlFmbExHNHcxVTVoUWUzS2FhZ3RSdXZ0eVlzQlVONUJLcGM2bUw2YlV0cGc2WkZiWGNOSFpDZFg3L2VxeGYvQW9DUWFYelhrSG8yMW1lQXBNOGRMekw1L0pDMnNYUGZkYjhJZHU5V1VPYTFPRWRHaTJJVUVydXQ3SU1iSDRzSStXb2hNRkZMb3Q1UGJyWDRyd0F3Z0VzaGFRSC9HbmdMNXovaWlDcGw4akZZWk9GUkd5LzlkTkVwRjgrTjZSblpvQ29LRmpjZUNXWUJHU3liSnJrK1l1ajgxSDJLdC9GZDc4UFNDMHNkWmE3dGRwdFZWM3BoY1c2SUdBNmI5Q0dVdXdUVjhETnpwSGprYTdOMGE0OUtLMUVPTFVuZFFxUllYdk0rRC80V1NpK3J4UGhnV0VBPS0tcURlSE9RdXdZKytxS2xwRE1nNENrUT09--64f20196133800b66ff1e3b2e939fd5bd0df259a</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>upgrade</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">06.09.2019 05:40:35 UTC</time>
+    <time type="date">06.09.2019 05:42:35 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -231,7 +231,7 @@ Passphrase= PASSWORD
 Restart the connman service and check if the connection was successful
 &lt;/p&gt;
 &lt;pre&gt;
-debian@beaglebone:/var/lib/cloud9$ sudo systemctl restart connman
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo systemctl restart connman&lt;/b&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;ifconfig wlan0&lt;/b&gt;
 wlan0: flags=-28605&lt;UP,BROADCAST,RUNNING,MULTICAST,DYNAMIC&gt;  mtu 1500
         inet 192.168.0.193  netmask 255.255.255.0  broadcast 192.168.0.255
@@ -277,7 +277,7 @@ The following packages will be upgraded:
 23 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
 Need to get 10.3 MB of archives.
 After this operation, 41.0 kB of additional disk space will be used.
-Do you want to continue? [Y/n]&lt;b&gt; &lt;/b&gt;
+Do you want to continue? [Y/n] &lt;b&gt;y&lt;/b&gt;
 Get:1 http://deb.debian.org/debian stretch-updates/main armhf tzdata all 2019b-0+deb9u1 [275 kB]
 Get:2 http://repos.rcn-ee.com/debian stretch/main armhf bonescript armhf 0.7.3-git20190822.0-0rcnee1~stretch+20190903 [5,463 kB]
 Get:3 http://deb.debian.org/debian-security stretch/updates/main armhf libcpupower1 armhf 4.9.168-1+deb9u5 [637 kB]
