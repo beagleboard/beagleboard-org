@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1567748232036">
+  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1567748397112">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">RGxmL3U1VW9GN0xjamQyeUpOV3hnWFhxWndpZERsQ0dnbzFBdkl0RnB5TkRwc2o4Nlk1N0pRbFdTMlFmbExHNHcxVTVoUWUzS2FhZ3RSdXZ0eVlzQlVONUJLcGM2bUw2YlV0cGc2WkZiWGNOSFpDZFg3L2VxeGYvQW9DUWFYelhrSG8yMW1lQXBNOGRMekw1L0pDMnNYUGZkYjhJZHU5V1VPYTFPRWRHaTJJVUVydXQ3SU1iSDRzSStXb2hNRkZMb3Q1UGJyWDRyd0F3Z0VzaGFRSC9HbmdMNXovaWlDcGw4akZZWk9GUkd5LzlkTkVwRjgrTjZSblpvQ29LRmpjZUNXWUJHU3liSnJrK1l1ajgxSDJLdC9GZDc4UFNDMHNkWmE3dGRwdFZWM3BoY1c2SUdBNmI5Q0dVdXdUVjhETnpwSGprYTdOMGE0OUtLMUVPTFVuZFFxUllYdk0rRC80V1NpK3J4UGhnV0VBPS0tcURlSE9RdXdZKytxS2xwRE1nNENrUT09--64f20196133800b66ff1e3b2e939fd5bd0df259a</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>upgrade</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">06.09.2019 05:37:12 UTC</time>
+    <time type="date">06.09.2019 05:39:57 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -117,6 +117,11 @@ debian@beaglebone:/var/lib/cloud9$
 
 &lt;hr /&gt;
 &lt;h2&gt;Get connected to the Internet&lt;/h2&gt;
+&lt;p&gt;There are many ways to get BeagleBone AI onto the Internet. Ethernet, WiFi
+    and USB-based methods are described below. Getting an Internet connection
+    and performing the distribution, examples and kernel updates below is the
+    fastest way to get BeagleBone AI up-to-date.
+&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;h3&gt;Ethernet&lt;/h3&gt;
