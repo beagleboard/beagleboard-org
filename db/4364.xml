@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4364" name="ai" prototype="Page" created="1567177966012" lastModified="1568745109440">
+  <hopobject id="4364" name="ai" prototype="Page" created="1567177966012" lastModified="1568862607038">
   <hop:parent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <property propertyname="hck.sssn">SnI5M0ZITFEwcW9IMEVFMkdSbnc1ZHVVVDNPbWExcVIyRVBBNFdncE5tNUlQdHg2UlBKQXNuTFlHTGxTQWh6Y0xtUDVsYnhYZzkvdDVHZU0wcURWWC9lRTROYzNXWjlUeE5EWlhMMDhWQUZSUFd5c1hDVWRXdUdMRXc0S056Y2lJTFJtOU1zeXRBTUVwU2lCM3RrNGdqVHBpUjF1MlZKeThpWnBSMER1RFJaSWRBQUZJS2pKZnZxeHBPcmttaUFNYWVVeGh0RzlPZ0VnZ3hudzlyWnpGcGRIWVRyUnRuN0x6UjlKODlnSTVENEwzU1Zza2FZM2RjYUdJSzNnZHpjNTc0SmVONGNiOFJvOTBXd283M3hYUDVyRDIrUmREWStkZnFPWUpuSFJJbkVjaEgzZEtZYlB6VVNjRVpQMDFNanFXK2g3UVBPVEhReVY0M1JjWE95NTg2c2pURFdCYW4zaTRSeXZPMzhmeER3PS0tV1E1NFlycE5YOEV3ZlNqTGR3VWU2dz09--5ef6861f5b5ebcf98da8b8a9e726c52ffbe13a75</property>
+    <property propertyname="hck.sssn">Uk9lbHZHM2VDekNaUjhaZ0dNL256amkrQTlMZmNSK0dZM3F2RXlhTUUrM2VyZVloOFlWMk10bzUxcTVJY0lqc3ZWVU1DcGxCVEtmTU45NWt2YStycGtIeTR5V2dISWkxNkd5emdIeXVxRVVSSjNsUjUveXN2a2FqdHZqblFWdGdCQnJNcFF3a2JDazEyVWtIdGltTUlDK2FkU0JJZ0dVZ21lcFM0emlMU1NGdFVvY0wwOXBNM1ErQ2tYRklLS3orUzE4SWtNZzFsTUtudUREWXYyWXJHWTRxcm1JY0RYcTBCTXcrelZDQTJKSmhwb1FUWEZsRXdFa3FaeXhYQUs5S0pOemhvRFlRZm1PL0hBdmpDSlZXYlAxK1pncGQ3eGg4UDZORnhITTVpdGlZbnNlZnZFRjg0MitwU1VTZGt2dWxucEplOHVIUWk5d0VlTWFLSjdqVkdQNGNBUi9OMURqd0ZFYmR3eGFYZDhVPS0tU1lqRmNyOTdjMWllaG92Uis2b2JJdz09--2f98b25a6f7d588b97721594850ee70e5f84e883</property>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU2ODczMzU4Ni40ODQ5ODU0BjsARg==--711a801a6a561986adfa8f215a428458c139456c</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>ai</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">17.09.2019 18:31:49 UTC</time>
+    <time type="date">19.09.2019 03:10:07 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1ctydwl09yy13</hopsession>
+    <tk_tc>QHtknzMp8cj3h+TI</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-ai&quot;&gt;
   &lt;option&gt;Select distributor to buy&lt;/option&gt;
   &lt;option value=&quot;https://www.okdo.com/us/shop/sbc-iot/sbc-iot-development-tools/99130411-sbc-som/bbone-ai/&quot;&gt;OKdo&lt;/option&gt;
-  &lt;option value=&quot;https://www.newark.com/10AH2651&quot;&gt;Newark&lt;/option&gt;
   &lt;option value=&quot;https://www.mouser.com/new/beagleboardorg/beaglebone-ai/&quot;&gt;Mouser&lt;/option&gt;
   &lt;option value=&quot;https://www.arrow.com/en/products/bbone-ai/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
+  &lt;option value=&quot;https://www.newark.com/10AH2651&quot;&gt;Newark&lt;/option&gt;
 &lt;/select&gt;
 &lt;!--
   &lt;option value=&quot;https://www.digikey.com/en/product-highlight/t/texas-instruments/beagleboard&quot;&gt;Digi-Key&lt;/option&gt;
@@ -30,7 +31,7 @@
     <skin_is_outer>true</skin_is_outer>
     <http_referer>http://beagleboard.org/distributors/ai/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
