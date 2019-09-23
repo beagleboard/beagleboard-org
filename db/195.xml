@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1569269740531">
+  <hopobject id="195" name="default" prototype="Page" created="1214843673324" lastModified="1569269824937">
   <hop:parent idref="0" prototyperef="Root"/>
     <skin_is_outer>1</skin_is_outer>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
@@ -110,7 +110,8 @@
 &lt;b&gt;What can yours do? &lt;/b&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;hp-c3&quot;&gt;
+&lt;div id=&quot;hp-c3&quot;&gt;&lt;div&gt;
+
 &lt;h2&gt;What is BeagleBone&lt;sup&gt;®&lt;/sup&gt; AI?&lt;/h2&gt;
 &lt;p&gt;Built on the proven BeagleBoard.org® open source Linux approach, BeagleBone® 
 AI fills the gap between small SBCs and more powerful industrial computers. Based 
@@ -147,7 +148,6 @@ home applications.
     &lt;li&gt;microHDMI&lt;/li&gt;
     &lt;li&gt;Zero-download out-of-box software experience with Debian GNU/Linux&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
 
     
 &lt;div id=&quot;CTA&quot;&gt;
@@ -387,7 +387,7 @@ BeagleBoardToys
     <oauth2-token></oauth2-token>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="hck.usi">1</property>
-    <time type="date">23.09.2019 20:15:40 UTC</time>
+    <time type="date">23.09.2019 20:17:04 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;6fd69d4290a58e400160b98269f42247&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
