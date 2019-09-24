@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2819" name="Ultrasonic_Sensor" prototype="Page" created="1372690591672" lastModified="1569344182048">
+  <hopobject id="2819" name="Ultrasonic_Sensor" prototype="Page" created="1372690591672" lastModified="1569344298227">
   <hop:parent idref="2471" prototyperef="Page"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -10,7 +10,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>Ultrasonic_Sensor</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">24.09.2019 16:56:22 UTC</time>
+    <time type="date">24.09.2019 16:58:18 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1ctydwl09yy13</hopsession>
     <tk_tc>QHtknzMp8cj3h+TI</tk_tc>
@@ -75,7 +75,7 @@ function printStatus(x) {
 &lt;h2&gt;Build and execute instructions&lt;/h2&gt;
 &lt;ul&gt;
  &lt;li&gt;Connect the &quot;GND&quot; pin from the sensor to P9_1 of the board&lt;/li&gt;
- &lt;li&gt;Connect the &quot;+3.3V&quot; pin from the sensor to P9_3 of the board&lt;/li&gt;
+ &lt;li&gt;Connect the &quot;+5V&quot; pin from the sensor to P9_3 (3.3V) of the board&lt;/li&gt;
  &lt;li&gt;Connect the 1.2kohm resistor to the AN pin of the supersonic sensor.&lt;/li&gt;
  &lt;li&gt;Connect the 3k ohm resistor in series with the 1.2k ohm resistor and tie the bottom to ground, as shown in the diagram.&lt;/li&gt;
  &lt;li&gt;Connect P9_40 of BeagleBone in series with the 3k ohm and 1.k ohm resistor.&lt;/li&gt;
@@ -104,7 +104,7 @@ function printStatus(x) {
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SFdKIRi7T3s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</body>
     <pseudoparent idref="2471" prototyperef="Page"/>
     <pvcount type="float">21518.0</pvcount>
-    <http_referer>http://beagleboard.org/Support/BoneScript/Ultrasonic_Sensor/tide</http_referer>
+    <http_referer>http://beagleboard.org/support/BoneScript/Ultrasonic_Sensor/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
     <lang>en-us</lang>
