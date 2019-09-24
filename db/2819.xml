@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2819" name="Ultrasonic_Sensor" prototype="Page" created="1372690591672" lastModified="1540820695396">
+  <hopobject id="2819" name="Ultrasonic_Sensor" prototype="Page" created="1372690591672" lastModified="1569344182048">
   <hop:parent idref="2471" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36</http_browser>
-    <lang>en-us</lang>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.sssn">YWhJWW84QURYQmY5T0hjdTJBUDcvRm1hSFVicXhxR2ZiRkpab1J2OFVIcmU1UW82R0lOQm5mcERWdzRoZkhjYldnWE1rYmpZVk1GYW9qVzZJN0Fva1p5eHBDYVFpOFM0MkRRVkw5YXFEdXIwVk1CM3IxblJPY0l2QVhnZ2F1OHRCSkdGa1N1MU9XVTdvcm02VC85Z1Rodk1RakFLNU1rR29jNExJbTh6R0JXdDZkQ1lyU0NhamF4aFNQZUJwZGVLdEliNnJUWXh3K2JWWGhYQTgydXlBOTZHZjg1Mmh4VFIvLy8vVmQzcVRrK2p5YnZYRUdZTGplUDF5eGVDODlwakFRSWpGWjZUdHppa2dzV0h0NlpSSGZ5dWx0c2k4V2wrbXRRK2hEcC81RTN0ZjNUMSsvUzdEYkQ4S01wSFFNMUdZVmdHS1lnZ3NtbG92MnZ3VDNWNTJpd24xczU0ZXdlblFZOHBHc2x2RVhVPS0tZTQ2ZVQvSlJLdVRNQlJPckhnaTVIZz09--b8210cd144c069ace8c5cb93ab2203e3aa9ee43c</property>
+    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU2ODczMzU4Ni40ODQ5ODU0BjsARg==--711a801a6a561986adfa8f215a428458c139456c</property>
+    <http_language>en-US,en;q=0.9</http_language>
     <uri>Ultrasonic_Sensor</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">19.12.2013 21:36:57 UTC</time>
-    <pseudoparent idref="2471" prototyperef="Page"/>
-    <http_remotehost>192.94.94.105</http_remotehost>
-    <hopsession>192.94.94.9otttzsp6btn</hopsession>
-    <user>jessica.lynne.callaway@gmail.com</user>
-    <pvcount type="float">21518.0</pvcount>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
+    <time type="date">24.09.2019 16:56:22 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <hopsession>127.0.0.1ctydwl09yy13</hopsession>
+    <tk_tc>QHtknzMp8cj3h+TI</tk_tc>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;script src=&quot;/static/bonescript-demo.js&quot;&gt;&lt;/script&gt;
 &lt;div id=&apos;side-menu&apos; class=&quot;t3_sidebar&quot;&gt;
     &lt;ul class=&quot;left-menu&quot;&gt;&lt;strong&gt;Navigation&lt;/strong&gt;
@@ -68,12 +70,12 @@ function printStatus(x) {
 &lt;/pre&gt;
 &lt;div readonly id=&apos;console-output&apos; style=&quot;height:100px;&quot;&gt;&lt;/div&gt;
 &lt;br&gt;&lt;/br&gt;
-&lt;img align=&quot;right&quot; width=&quot;60%&quot; src=&quot;http://beagleboard.org/static/uploads/VD%20Ultrasonic%20Sensor.PNG&quot;/&gt;
+&lt;!-- &lt;img align=&quot;right&quot; width=&quot;60%&quot; src=&quot;http://beagleboard.org/static/uploads/VD%20Ultrasonic%20Sensor.PNG&quot;/&gt; --&gt;
 &lt;br&gt;&lt;/br&gt;
 &lt;h2&gt;Build and execute instructions&lt;/h2&gt;
 &lt;ul&gt;
  &lt;li&gt;Connect the &quot;GND&quot; pin from the sensor to P9_1 of the board&lt;/li&gt;
- &lt;li&gt;Connect the &quot;+5&quot; pin from the sensor to P9_3 of the board&lt;/li&gt;
+ &lt;li&gt;Connect the &quot;+3.3V&quot; pin from the sensor to P9_3 of the board&lt;/li&gt;
  &lt;li&gt;Connect the 1.2kohm resistor to the AN pin of the supersonic sensor.&lt;/li&gt;
  &lt;li&gt;Connect the 3k ohm resistor in series with the 1.2k ohm resistor and tie the bottom to ground, as shown in the diagram.&lt;/li&gt;
  &lt;li&gt;Connect P9_40 of BeagleBone in series with the 3k ohm and 1.k ohm resistor.&lt;/li&gt;
@@ -100,8 +102,11 @@ function printStatus(x) {
 
 &lt;h2&gt;See it in action&lt;/h2&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SFdKIRi7T3s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</body>
-    <http_language>en-US,en;q=0.8,fr;q=0.6</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/support/BoneScript/Ultrasonic_Sensor/edit</http_referer>
+    <pseudoparent idref="2471" prototyperef="Page"/>
+    <pvcount type="float">21518.0</pvcount>
+    <http_referer>http://beagleboard.org/Support/BoneScript/Ultrasonic_Sensor/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
