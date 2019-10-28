@@ -61,7 +61,7 @@ function constructor(user, uri, body)
   this.time = new Date();
  }
 
-function edit_action ()
+function tide_action ()
  {
   var saveEdit = false;
 
