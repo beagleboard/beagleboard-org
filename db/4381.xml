@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4381" name="techlab" prototype="Page" created="1572255922017" lastModified="1572255922019">
+  <hopobject id="4381" name="techlab" prototype="Page" created="1572255922017" lastModified="1572255922234">
   <hop:parent idref="4286" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTNNVGcwTVRjNE15NDJNVEl5TVRrMkJqc0FSZz09IiwiZXhwIjoiMjAyMC0xMC0yM1QxNDo0MzowMy42MTJaIiwicHVyIjpudWxsfX0=--936053629e8e4253ba4d51dc7b7f1a8512fe65ba</property>
@@ -17,6 +17,7 @@
     &lt;li&gt;&lt;a href=&quot;https://cm.e-ale.org/2019/ELCE2019/techlab/&quot; class=&quot;external&quot;&gt;Materials&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</body>
     <pseudoparent idref="4286" prototyperef="Page"/>
+    <pvcount type="float">0.0</pvcount>
     <http_referer>https://beagleboard.org/capes/techlab/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <lang>en-us</lang>
