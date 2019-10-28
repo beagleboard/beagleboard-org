@@ -212,3 +212,16 @@ table.cape-table {
 .cape-table-col3 {
 	width: 412px;
 }
+
+@media only screen and (max-width: 500px) {
+  div#wrapper {
+    width: 398px;
+  }
+  div#header {
+    width: 398px;
+  }
+  div#logo {
+    width:201px;
+  }
+}
+

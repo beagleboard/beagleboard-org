@@ -456,7 +456,7 @@ ul.left-menu a:hover{
 }
 
 .t3_content_1 {
-	width:650px;
+	width: 650px;
 	float: left;
 	padding-left:30px;
 }
@@ -819,6 +819,7 @@ float:left;
 #CTA
 {
                background-color:#de7224;
+               overflow:visible;
                width:225px;
                height:72px;
                display:block;
@@ -1125,7 +1126,7 @@ float:left;
 #footer-col1 {
 	list-style:none;
 	display: block; 
-	width: 280px;
+	width: 25%;
 	float:left;
 	margin-left:0px;
 	padding-top:0px;
@@ -1144,7 +1145,7 @@ float:left;
 }
 #footer-col2 {
 	list-style:none;
-	width: 280px;
+	width: 25%;
 	display: block;
 	float:left;
 	margin-left:30px;
@@ -1165,7 +1166,7 @@ float:left;
 
 #footer-col3 {
 	list-style:none;
-	width: 280px;
+	width: 25%;
 	display: block;
 	float:left;
 	margin-left:30px;
@@ -1201,7 +1202,8 @@ float:left;
 }
 
 div#cc {
-	padding:20px 0 0 25px; 
+	padding:10px 0 0 25px; 
+	display: inline-flex;
 	float:left;
 	font-size:11px;
 }
@@ -1623,3 +1625,62 @@ a.featured-link:after {
 	white-space: pre;
 }
 
+#t2-c7-left {
+  float: left;
+  width: 250px;
+}
+
+@media only screen and (max-width: 500px) {
+  .top {
+    display: none;
+    width: 400px;
+  }
+  .top-header {
+    display: none;
+    width: 100%;
+  }
+  .container {
+    width: 400px;
+  }
+  .social {
+    display: none;
+    width: 400px;
+    margin-right: 100px;
+  }
+  #cssmenu {
+    width: 400px;
+  }
+  .noscript .tislides {
+    width: 400px;
+  }
+  .tislides ul li a img {
+    width: 400px;
+  }
+  div.tisscontrols {
+    width: 400px;
+  }
+  .footer-links {
+    width: 400px;
+  }
+  .footer {
+    width: 400px;
+  }
+  #t2-c7 {
+    border: 1px solid #B4A279;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-bottom: 20px;
+    padding: 5px 0px 0px 5px;
+    width: 345px;
+  }
+  #t2-c7-left {
+    padding: 5px 0px 15px 5px;
+  }
+  #t2-c7-content {
+    width: 338px;
+  }
+  #t2-c5d {
+    float: left;   
+    width: 325px;
+  }
+}
