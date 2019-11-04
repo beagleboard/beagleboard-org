@@ -129,13 +129,20 @@ server {
 	server_name bbb.io;
 	return 301 https://beagleboard.org$request_uri;
 #	return 301 https://beagleboard.org$new_uri;
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
 	listen 443;
 	server_name bbb.io;
-	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
 	return 301 https://beagleboard.org$request_uri;
 #	return 301 https://beagleboard.org$new_uri;
 }
@@ -149,8 +156,8 @@ server {
 server {
 	listen 443;
 	server_name beagleb.one;
-	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
 	return 301 https://beagleboard.org$request_uri;
 }
 
@@ -163,8 +170,8 @@ server {
 server {
 	listen 443;
 	server_name beagleboard.cn;
-	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
 	return 301 https://beagleboard.org$request_uri;
 }
 
@@ -177,31 +184,38 @@ server {
 server {
 	listen 443;
 	server_name beaglebone.cn;
-	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem;
 	return 301 https://beagleboard.org$request_uri;
 }
 
 server {
 	listen 80;
-	server_name www.beagleboard.net 52.26.75.20;
+	server_name www.beagleboard.net 44.226.162.25;
 	return 301 https://beagleboard.net$request_uri;
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
-	listen 443 ssl;
-	server_name www.beagleboard.net 52.26.75.20;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	#listen 443 ssl;
+	server_name www.beagleboard.net 44.226.162.25;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
 	return 301 https://beagleboard.net$request_uri;
 }
 
 server {
 	listen 80;
-	listen 443 ssl;
+	#listen 443 ssl;
 	server_name beagleboard.net;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
 
 	location / {
 		proxy_pass	http://127.0.0.1:8080;
@@ -218,31 +232,52 @@ server {
 		}
 	}
 
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
 	listen 80;
-	listen 443 ssl;
+	#listen 443 ssl;
 	server_name	debexpo.beagleboard.net;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
 
 	location / {
 		proxy_pass	http://127.0.0.1:5000;
 	}
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
 	listen 80;
-	listen 443 ssl;
+	#listen 443 ssl;
 	server_name	debian.beagleboard.net;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
 	root /mnt/debian/;
 
 	location / {
 		autoindex on;
 	}
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
@@ -254,19 +289,22 @@ server {
 server {
 	listen 443;
 	server_name www.beagleboard.org;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 	return 301 https://beagleboard.org$request_uri;
+
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 }
 
 server {
 	listen 80;
 	listen [::]:80 ipv6only=on;
-	listen 443 ssl;
-	listen [::]:443 ssl ipv6only=on;
+	#listen 443 ssl;
+	#listen [::]:443 ssl ipv6only=on;
 	server_name beagleboard.org;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 
 	location ~ ^/~(.+?)(/.*)?$ {
 		alias /home/$1/public_html$2;
@@ -1993,43 +2031,64 @@ server {
 		}
 	}
 
+
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
 	listen 80;
 	listen 443;
 	server_name	debexpo.beagleboard.org;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 
 	location / {
 		proxy_pass	http://127.0.0.1:5000;
 	}
+
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 }
 
 server {
 	listen 80;
 	listen 443;
 	server_name	debian.beagleboard.org;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 	root /mnt/debian/;
 
 	location / {
 		autoindex on;
 	}
+
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 }
 
 server {
 	listen 80;
-	listen 443 ssl;
+	#listen 443 ssl;
 	server_name	builds.beagleboard.net;
-	ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
+	#ssl_certificate /etc/letsencrypt/live/beagleboard.net/fullchain.pem;
+	#ssl_certificate_key /etc/letsencrypt/live/beagleboard.net/privkey.pem;
 
 	location / {
 		proxy_pass	http://127.0.0.1:8010;
 	}
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 upstream buildbot {
@@ -2040,18 +2099,25 @@ server {
     listen 80 default_server;
     server_name builds.beagleboard.org;
     return 301 https://$host$request_uri;
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
-    listen 443 ssl http2 default_server;
+    #listen 443 ssl http2 default_server;
     server_name builds.beagleboard.org;
 
     root html;
     index index.html index.htm;
 
-    ssl on;
-    ssl_certificate         /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
-    ssl_certificate_key     /etc/letsencrypt/live/beagleboard.org/privkey.pem;
+    #ssl on;
+    #ssl_certificate         /etc/letsencrypt/live/beagleboard.org/fullchain.pem;
+    #ssl_certificate_key     /etc/letsencrypt/live/beagleboard.org/privkey.pem;
 
     ssl_session_cache      shared:SSL:10m;
     ssl_session_timeout  1440m;
