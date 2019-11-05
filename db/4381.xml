@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4381" name="TechLab" prototype="Page" created="1572255922017" lastModified="1572968162863">
+  <hopobject id="4381" name="TechLab" prototype="Page" created="1572255922017" lastModified="1572970138786">
   <hop:parent idref="4286" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">jZ9C2MBt1gH8qWeKB0iSdqNdn6CtrsSUo3taXGHfh4rhhBSLRnNM2ycjD7UjhF+KoQXLFeHnzodbdFsmaX5Ab0P2eTjOZNa90xGzN1ow8TcubRGshX6KVyWaUv/pPA1DOxKE0wNTCizSuVaLRUy8br0/SGpctaz3FZpvAuz2rooG+NfnAhRI/4J2Fy1nwOJYGG8SLTmoB5+Y/2OjZHGTGMH+sy4lfTTAX2uSM47hX4mmheh1xidGM8SUkC5bnrXPqzr3CZgiw+bL7N+m0AbkRiQp0u3BVHGfGo9D/UmZipABrD9YXbtHBKAucBRFn8CqTxsyAp/TG+5987PfdcYtqehG--DeTVR/pUbXod4CRS--Vg3D1nnijMq5RlS3XrTNjA==</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>TechLab</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/77.0.3865.90 Chrome/77.0.3865.90 Safari/537.36</http_browser>
-    <time type="date">05.11.2019 15:36:02 UTC</time>
+    <time type="date">05.11.2019 16:08:58 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1q8uoln5zedv8</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -113,6 +113,8 @@ $(document).ready(function(){
         &lt;a href=&quot;https://github.com/beagleboard/capes/tree/master/pocketbeagle/TechLab&quot; class=&quot;external&quot;&gt;Design files »&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
+&lt;a href=&quot;/Capes/TechLab&quot; name=&quot;TechLab&quot;&gt;
+&lt;img src=&quot;/static/images/250px/edumip_2000_hsqVyMJrIe.jpeg&quot; style=&quot;width:250px;border-style:solid;border-width:3px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;    
@@ -306,7 +308,7 @@ height=&quot;925&quot;
 </body>
     <pseudoparent idref="4286" prototyperef="Page"/>
     <pvcount type="float">0.0</pvcount>
-    <http_referer>https://beagleboard.org/capes/techlab/tide</http_referer>
+    <http_referer>https://beagleboard.org/Capes/TechLab/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
     <lang>en-us</lang>
