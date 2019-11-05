@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4381" name="techlab" prototype="Page" created="1572255922017" lastModified="1572350313120">
+  <hopobject id="4381" name="techlab" prototype="Page" created="1572255922017" lastModified="1572968025611">
   <hop:parent idref="4286" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">jZ9C2MBt1gH8qWeKB0iSdqNdn6CtrsSUo3taXGHfh4rhhBSLRnNM2ycjD7UjhF+KoQXLFeHnzodbdFsmaX5Ab0P2eTjOZNa90xGzN1ow8TcubRGshX6KVyWaUv/pPA1DOxKE0wNTCizSuVaLRUy8br0/SGpctaz3FZpvAuz2rooG+NfnAhRI/4J2Fy1nwOJYGG8SLTmoB5+Y/2OjZHGTGMH+sy4lfTTAX2uSM47hX4mmheh1xidGM8SUkC5bnrXPqzr3CZgiw+bL7N+m0AbkRiQp0u3BVHGfGo9D/UmZipABrD9YXbtHBKAucBRFn8CqTxsyAp/TG+5987PfdcYtqehG--DeTVR/pUbXod4CRS--Vg3D1nnijMq5RlS3XrTNjA==</property>
@@ -9,11 +9,257 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>techlab</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/77.0.3865.90 Chrome/77.0.3865.90 Safari/537.36</http_browser>
-    <time type="date">29.10.2019 11:58:33 UTC</time>
+    <time type="date">05.11.2019 15:33:45 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.13i6jqgum4tjs</hopsession>
+    <hopsession>127.0.0.1q8uoln5zedv8</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>&lt;h1&gt;Embedded OS Essentials&lt;/h1&gt;
+    <body>&lt;h1&gt;&lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt; &lt;font color=&quot;#de7224&quot;&gt;Tech&lt;/font&gt;Lab Cape&lt;/h1&gt;
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is &lt;font color=&quot;#de7224&quot;&gt;Pocket&lt;/font&gt;Beagle&lt;sup&gt;®&lt;/sup&gt; &lt;font color=&quot;#de7224&quot;&gt;Tech&lt;/font&gt;Lab Cape?&lt;/h2&gt;
+&lt;p style=&quot;margin-right:75px;&quot;&gt;BeagleBoard.org PocketBeagle TechLab Cape was
+designed from lessons-learned in teaching hundreds of individuals getting their
+first introduction to programming, Linux, and ultimately hacking the kernel
+itself. TechLab has taken inspiration from the &lt;a href=&quot;https://www.ghielectronics.com/products/brainpad&quot; class=&quot;external&quot;&gt;GHI Electronics BrainPad&lt;/a&gt; as
+well as the &lt;a href=&quot;https://beagleboard.org/p/mwelling/baconbits-f09ee9&quot; class=&quot;external&quot;&gt;QWERTY Embedded Design BaconBits Cape&lt;/a&gt;, maintaining
+complete pinout compatibility with BaconBits such that users can follow along
+with the excellent introduction to Linux kernel programming provided in the
+&lt;a href=&quot;https://e-ale.org&quot; class=&quot;external&quot;&gt;Embedded Apprentice Linux Engineer seminars&lt;/a&gt; and
+useful for associated follow-on training available 
+from &lt;a href=&quot;https://training.linuxfoundation.org/training/course-catalog/?_sft_topic_area=embedded-development&quot; class=&quot;external&quot;&gt;The Linux Foundation&lt;/a&gt; .
+&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Features:&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;USB-to-serial (micro B connector)&lt;/li&gt;
+&lt;li&gt;USB host (A connector)&lt;/li&gt;
+&lt;li&gt;Reset button&lt;/li&gt;
+&lt;li&gt;2 push buttons (L and R) (via GPIO)&lt;/li&gt;
+&lt;li&gt;Light sensor (via ADC)&lt;/li&gt;
+&lt;li&gt;Tri-color LED (via PWM)&lt;/li&gt;
+&lt;li&gt;2-digit 7-segment display (via SPI)&lt;/li&gt;
+&lt;li&gt;Accelerometer (via I2C)&lt;/li&gt;
+&lt;li&gt;EEPROM (write-protected) (via I2C)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/click&quot;&gt;mikroBus header&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c5c&quot;&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img width=&quot;250px&quot; src=&quot;/static/images/PocketBeagle_TechLab_ANGLE_250.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+
+  &lt;div id=&quot;CTA&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;select class=&quot;dropdown&quot; id=&quot;buy-cape-techlab&quot;&gt;
+      &lt;option&gt;Select a distributor to buy&lt;/option&gt;
+      &lt;option value=&quot;https://www.digikey.com/products/en?mpart=TLAB-PBCAPE&quot;&gt;Digi-Key&lt;/option&gt;
+      &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-GHI/TLAB-PBCAPE?qs=sGAEpiMZZMv2%252BZSKX%252BIFbYdlfL%252B8pAB%2Fq7OTn%2FhHAddD93i4ponElA%3D%3D&quot;&gt;Mouser&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+    $(&apos;select.dropdown&apos;).each(function(){
+      var list = $(this);
+      var action = list.attr(&apos;id&apos;); 
+      list.change(function(){
+       $(&apos;option:selected&apos;, this).each(function(){
+        var label = $(this).text();
+        var link = $(this).val();
+        goTracked(action, link, label);
+       });
+      });
+    });
+});
+&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;/static/images/PocketBeagle_TechLab_x800.png&quot; rel=&quot;lightbox&quot; name=&quot;TechLab&quot; title=&quot;The easiest way to learn about Linux and programming embedded systems.&quot;&gt;
+&lt;img src=&quot;/static/images/PocketBeagle_TechLab_x250.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2&gt;Learn to program&lt;/h2&gt;
+&lt;p&gt;Embedded Linux turns physical hardware into files you can simply read and write&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Bonescript Node.js library
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/cloud9-examples/tree/master/PocketBeagle/TechLab&quot; class=&quot;external&quot;&gt;Workshop materials  »&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://debian.beagleboard.org/images/techlab-workshop-2019-01-24.img.xz&quot; class=&quot;external&quot;&gt;Workshop SD card image »&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Work in progress using Node-RED+Blockly&lt;/li&gt;
+&lt;li&gt;Work in progress using Makecode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Learn to program the Linux kernel&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://e-ale.org&quot; class=&quot;external&quot;&gt;Embedded Apprentice Linux Engineer seminars »&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Hardware info&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://github.com/beagleboard/capes/tree/master/pocketbeagle/TechLab&quot; class=&quot;external&quot;&gt;Design files »&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;    
+&lt;/div&gt;
+
+&lt;!-- slider --&gt;
+&lt;!--
+&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
+&lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;script src=&quot;/static/ti/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/jquery-ui-1.10.2.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+&lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-blue&quot; href=&quot;http://eepurl.com/-410j&quot;&gt;&lt;img src=&quot;/static/images/beaglebonebluecountercard.png&quot; width=&quot;950&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+                    debug:false,
+                	controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+&lt;!-- /slider --&gt;
+
+&lt;!--
+&lt;div id=&quot;t2-c4-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;/project&quot;&gt;BeagleBone Blue Projects&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mirkix/ardupilotblue&quot; class=&quot;external&quot;&gt;ArduPilot&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    Mirko Denecke describes how he runs ArduCopter. You can also look how Jason built &lt;a href=&quot;https://gist.github.com/jadonk/6080ca92d6e225eb89d33ad7744e1775&quot; class=&quot;external&quot;&gt;his&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hackster.io/renaissance-robotics/edumip-13a29c&quot; class=&quot;external&quot;&gt;EduMIP&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    is the world’s most extensible low-cost open platform for learning embedded control &amp; robotics.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://dscl.lcsr.jhu.edu/edumip-ros/&quot; class=&quot;external&quot;&gt;EduMIP ROS&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    Using Robot Operating System (ROS) with a balancing robot (EduMIP).&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gist.github.com/jadonk/d05d96243bc26b3c08a5293d29f78839&quot; class=&quot;external&quot;&gt;Bluetooth speaker&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    Connect a Bluetooth speaker.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gist.github.com/jadonk/51a4d83c8180e259bcb5661002712166&quot; class=&quot;external&quot;&gt;Robot controlled webcam&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    Automatically start mjpg-streamer.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gist.github.com/jadonk/0e4a190fc01dc5723d1f183737af1d83&quot; class=&quot;external&quot;&gt;Add 2.4&quot; LCD&lt;/a&gt;&lt;/strong&gt;
+    Connect and configure an Adafruit 2.4&quot; LCD breakout board.&lt;/p&gt;
+&lt;a href=&quot;/project&quot;&gt;See More Projects&lt;/a&gt; »
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c5-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue/wiki/Frequently-Asked-Questions-(FAQ)&quot;&gt;BeagleBone Blue Support&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue/wiki/Frequently-Asked-Questions-(FAQ)&quot; class=&quot;external&quot;&gt;Frequently asked questions (FAQ)&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+First step: connect your Beagle to this site  
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/discuss&quot;&gt;Hardware, Software and Ecosystem Discussion Groups&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Collaborate and find support on the Beagle community forum
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/chat&quot;&gt;IRC Group Chat&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Live chat with other open-source enthusiasts
+&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a class=&quot;external&quot; href=&quot;/books&quot;&gt;Books&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Read books to help you learn fundamental concepts. Be sure to check out the code examples
+for &lt;a href=&quot;https://github.com/jadonk/BeagleBone-Robotic-Projects-Second-Edition&quot; class=&quot;external&quot;&gt;BeagleBone Robotics Projects, Second Edition&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c6-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue&quot; class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
+Browse the &lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue&quot; class=&quot;external&quot;&gt;BeagleBone Blue Github page&lt;/a&gt; to
+find all available hardware specifications such as:
+&lt;ul&gt;
+&lt;li&gt;Bill of materials&lt;/li&gt;
+&lt;li&gt;PCB source files&lt;/li&gt;
+&lt;li&gt;Manufacturing files&lt;/li&gt;
+&lt;li&gt;Schematic (PDF and source)&lt;/li&gt;
+&lt;li&gt;System Reference Manual&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.strawsondesign.com/#!manual-install&quot; class=&quot;external&quot;&gt;Robotics hardware API (libroboticscape)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue/wiki/Accessories&quot; class=&quot;external&quot;&gt;Recommended accessories&lt;/a&gt;&lt;/p&gt;
+&lt;!--
+&lt;p&gt;&lt;a href=&quot;/logo&quot;&gt;&lt;img src=&quot;/static/images/BeagleBoardCompatible.png&quot; style=&quot;width:200px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+--&gt;
+&lt;!--
+&lt;p&gt;&lt;a href=&quot;http://www.autodesk.com/products/eagle/free-download&quot; class=&quot;external&quot;&gt;Autodesk EAGLE CAD&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;h2&gt;Videos &lt;/h2&gt;
+&lt;div id=&quot;t2-video-1&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/GxmjygZlnJw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Overview&lt;/h3&gt;
+&lt;p&gt;A quick exploration of BeagleBone Blue prepared for Embedded World 2017.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/pTpUMajQS_U&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Getting Started&lt;/h3&gt;
+&lt;p&gt;Laura Hughes of Arrow walks you through the out-of-box experience along with several current quirks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-video-1&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/DNu33mV13LI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;Educational Robots and Linux&lt;/h3&gt;
+&lt;p&gt;Jason Kridner describes why educational robotics are critical for the future of Linux&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/T15D7U2BOf4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Introduction at CES&lt;/h3&gt;
+&lt;p&gt;Tom Bewley of UCSD shares a brief introduction to BeagleBone Blue.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-video-1&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/yMhZRutjHSI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Webinar with Autodesk&lt;/h3&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/TBD&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;BeagleBone Blue Webinar with Autodesk part 2&lt;/h3&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;/div&gt;
+--&gt;
+&lt;!--
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/products/pocketbeagle/embed?per_page=8&amp;col_class=col-sm-3&quot; 
+width=&quot;900&quot; 
+height=&quot;925&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+--&gt;
+
+
+&lt;h1&gt;Embedded OS Essentials&lt;/h1&gt;
 &lt;h3&gt;Introduction (TechLab and learning embedded Linux through SYSFS)&lt;/h3&gt;
 &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;https://e-ale.org/elce2019/&quot; class=&quot;external&quot;&gt;Schedule&lt;/a&gt;&lt;/li&gt;
@@ -23,9 +269,41 @@
     &lt;li&gt;username: &lt;b&gt;debian&lt;/b&gt;   password: &lt;b&gt;temppwd&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;The LED Backpack&lt;/h3&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It won&amp;#39;t be hard to spot &lt;a href=&quot;https://twitter.com/Jadon?ref_src=twsrc%5Etfw&quot;&gt;@Jadon&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/beagleboardorg?ref_src=twsrc%5Etfw&quot;&gt;@beagleboardorg&lt;/a&gt; at the Embedded Linux Conference! &lt;a href=&quot;https://twitter.com/hashtag/OSSummit?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OSSummit&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/lfelc?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#lfelc&lt;/a&gt; &lt;a href=&quot;https://t.co/W4Yienptcm&quot;&gt;pic.twitter.com/W4Yienptcm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Drew Fustini &amp;#10145;&amp;#65039; ELC-E &amp;#128039;&amp;#127467;&amp;#127479; (@pdp7) &lt;a href=&quot;https://twitter.com/pdp7/status/1188784685394153472?ref_src=twsrc%5Etfw&quot;&gt;October 28, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It won&apos;t be hard to spot &lt;a href=&quot;https://twitter.com/Jadon?ref_src=twsrc%5Etfw&quot;&gt;@Jadon&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/beagleboardorg?ref_src=twsrc%5Etfw&quot;&gt;@beagleboardorg&lt;/a&gt; at the Embedded Linux Conference! &lt;a href=&quot;https://twitter.com/hashtag/OSSummit?src=hash&amp;ref_src=twsrc%5Etfw&quot;&gt;#OSSummit&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/lfelc?src=hash&amp;ref_src=twsrc%5Etfw&quot;&gt;#lfelc&lt;/a&gt; &lt;a href=&quot;https://t.co/W4Yienptcm&quot;&gt;pic.twitter.com/W4Yienptcm&lt;/a&gt;&lt;/p&gt;— Drew Fustini &amp;#10145;&amp;#65039; ELC-E &amp;#128039;&amp;#127467;&amp;#127479; (@pdp7) &lt;a href=&quot;https://twitter.com/pdp7/status/1188784685394153472?ref_src=twsrc%5Etfw&quot;&gt;October 28, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;p&gt;I&apos;d love to say I made this, but I&apos;m way too lazy. I bought it from &lt;a href=&quot;https://www.aliexpress.com/wholesale?catId=200003211&amp;initiative_id=AS_20191029034949&amp;SearchText=led+backpack&quot; class=&quot;external&quot;&gt;Aliexpress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It is the mechanical stuff that I really don&apos;t want to mess with, but this is the same type of panel supported by &lt;a href=&quot;/+fc70c7&quot;&gt;PocketScroller&lt;/a&gt;.&lt;/p&gt;</body>
+&lt;p&gt;It is the mechanical stuff that I really don&apos;t want to mess with, but this is the same type of panel supported by &lt;a href=&quot;/+fc70c7&quot;&gt;PocketScroller&lt;/a&gt;.&lt;/p&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;560&quot; src=&quot;https://www.youtube.com/embed/jvgDwkkKtBA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+
+&lt;iframe id=&quot;forum_embed&quot;
+  src=&quot;https://groups.google.com/forum/embed/?parenturl=https://beagleboard.org/techlab&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=forum/beagleboard#!categories/beagleboard/pocketbeagle&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;
+  width=&quot;900&quot;
+  height=&quot;850&quot;&gt;
+&lt;/iframe&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var place = &apos;forum/beagleboard#!categories/beagleboard/pocketbeagle-capes&apos;;
+  var a = $(&apos;&lt;a&gt;&apos;, { href: window.location.href });
+  var params = a.prop(&apos;search&apos;).substr(1).split(&apos;&amp;&apos;)
+    .reduce((params, param) =&gt; {
+      let [ key, value ] = param.split(&apos;=&apos;);
+      params[key] = value ? decodeURIComponent(value.replace(/\+/g, &apos; &apos;)) : &apos;&apos;;
+      return params;
+    }, { });
+  if(typeof params[&apos;place&apos;] !== &apos;undefined&apos;) place = params[&apos;place&apos;];
+  document.getElementById(&apos;forum_embed&apos;).src =
+     &apos;https://groups.google.com/forum/embed/?&amp;parenturl=&apos; 
+     + encodeURIComponent(window.location.href)
+     + &apos;&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;place=&apos;
+     + place;
+&lt;/script&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+</body>
     <pseudoparent idref="4286" prototyperef="Page"/>
     <pvcount type="float">0.0</pvcount>
     <http_referer>https://beagleboard.org/capes/techlab/tide</http_referer>
