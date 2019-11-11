@@ -325,18 +325,25 @@ server {
 	location /blog {
 		alias /mnt/wordpress;
 		index  index.php;
+
 		if (!-e $request_filename) {
 			rewrite_log on;
-			#rewrite ^(/[^/]+)(/wp-.*) /blog$2 last;
-			#rewrite ^(/[^/]+)(/.*\.php)(.*) /blog$2$3 last;
-			#rewrite ^/blog/(\d+)/$ /blog/index.php?$1;
-			rewrite /wp-admin$ $scheme://$host$uri/ last;
-			rewrite ^(/[^/]+)(/wp-.*) $2 last;
-			rewrite ^(/[^/]+)(/.*\.php) $2 last;
-			rewrite ^(/[^/]+)/(.*)$ /blog/index.php?$2 last;
+                	rewrite ^(/[^/]+)?(/wp-.*) /blog/$2 break;
+                	rewrite ^/blog/(.*)$ /blog/index.php?q=$1 last;
 		}
 
-		#try_files $uri $uri/ /blog/index.php?$args;
+#		if (!-e $request_filename) {
+#			rewrite_log on;
+#			#rewrite ^(/[^/]+)(/wp-.*) /blog$2 last;
+#			#rewrite ^(/[^/]+)(/.*\.php)(.*) /blog$2$3 last;
+#			#rewrite ^/blog/(\d+)/$ /blog/index.php?$1;
+#			rewrite /blog/wp-admin$ $scheme://$host$uri/ last;
+#			rewrite ^(/[^/]+)?(/wp-.*) $2 last;
+#			rewrite ^(/[^/]+)?(/.*\.php) $2 last;
+#			rewrite ^/blog/(.*)$ /blog/index.php?$1 last;
+#		}
+
+		try_files $uri $uri/ /index.php?$args;
 
 		location ~ \.php$ {
 			#try_files $uri =404;
