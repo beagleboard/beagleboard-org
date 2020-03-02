@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1583109564662">
+  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1583109778480">
   <hop:parent idref="4385" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">cSRlYNxSIqTWoJSwFLWjH8jPqZ4/fYCXT5gasy9m+SD2xFSRN3XcZ1R3/Pi82XyhmnE6BLcG0E/pOq5LnKIRuKivX1OOdMf19OmMxwE9Yi+UUQm4MDRXHAlC0hf1VzHBIvjp+w0JRh3idfLD9Tk05rDE/zy7thKtyge6I3wHRqk8ha5UbSjdCmttH4SptNCHVFeuMpJO5SS08KnRAgvxqQlRr1SQfx2R7uqFy3TbWBOgbwIw3ZSTiuy0nuy37D+0wYUGNBsWAtn6s7sU+YDebrUdZrw8Y/MNPya+jgB1feCrohDuh554HhRmpVKj9amcFPHxh2v+y/EjHneJOEa+r9WQ7g==--O8m1xbIiWGpbjCq3--NbG0oWlbphvL6DZspWCjNw==</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>Grove</uri>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36</http_browser>
-    <time type="date">02.03.2020 00:39:24 UTC</time>
+    <time type="date">02.03.2020 00:42:58 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.1vidlb0l9o9q5</hopsession>
     <tk_tc>SLbXkWte5SGCqRk6</tk_tc>
@@ -106,21 +106,15 @@ $(document).ready(function(){
 &lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
 &lt;h2&gt;Learn to use Grove sensors and actuators&lt;/h2&gt;
 &lt;p&gt;Embedded Linux turns physical hardware into files you can simply read and write&lt;/p&gt;
-&lt;ul&gt;
 &lt;h2&gt;Hardware info&lt;/h2&gt;
 &lt;ul&gt;
     &lt;li&gt;
-        &lt;a href=&quot;https://github.com/beagleboard/capes/tree/master/PocketBeagle/Grove&quot; class=&quot;external&quot;&gt;Design files »&lt;/a&gt;
+        &lt;a href=&quot;https://github.com/beagleboard/capes/tree/master/pocketbeagle&quot; class=&quot;external&quot;&gt;Design files »&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2&gt;Shopping list&lt;/h2&gt;
- &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.digikey.com/short/p01cj1&quot; class=&quot;external&quot;&gt;Digi-Key Cart&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-
-&lt;/div&gt;    
-&lt;/div&gt;
+&lt;/div&gt;&lt;!-- product-gettingStarted --&gt;
+&lt;/div&gt;&lt;!-- t2-c7-content --&gt;
+&lt;/div&gt;&lt;!-- t2-c7 --&gt;
 
 &lt;!-- slider --&gt;
 &lt;!--
