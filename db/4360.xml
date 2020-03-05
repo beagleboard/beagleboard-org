@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1583437135546">
+  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1583437270538">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">SUpsV2xvQVkzSFdSdGdLYW1zUGJhdjBONlVWVnFlekwxUW40c24wdlFyaVVCektLVStRMXlsc0NoVDJoTG0veFI0MjczTVZFM01JY2ZUeUNaVjV0ZkVwVUd0a2RneGNpR0RLaDJjaUJzbUhCQ2xxRDNvRklGdkJIcWJJc2ZBNzRJcWhoa2pBQ2dqV0FrSlNXTTNQbTZCMXZWU1pUV2xVUXM2ZXRmN1hxY1hGem43V2dGTGovYmtvMUhTMW1lV0FJQWNsTzVaYlNsV0lzcHI4ekQwSnBiY1prMzl1QXdoaFp1bGN2OElrSVFVbkwzYitONUZ1NG84TngvMENUN3dzeWhYbk51Z1IwSnU1RVkwZm9jRHhtZ3hqU3pWelVuajBCQlZWa2lwT1JXQXlyYk9BQU9Fa29kUTFwYmkzSWxJUlQ4RUsyc0NPU2pJLzlyZmswYXQyaE84L2F0YWRyZXdsVUdWRDN1dFQ2ZzNRPS0tU04xVWVtLzRVcmF6UVR0Y0s4bEQ3QT09--ebb952b96f4b04dabee1a293ba226b8771bfa4c0</property>
@@ -9,7 +9,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>upgrade</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/80.0.3987.87 Chrome/80.0.3987.87 Safari/537.36</http_browser>
-    <time type="date">05.03.2020 19:38:55 UTC</time>
+    <time type="date">05.03.2020 19:41:10 UTC</time>
     <property propertyname="hck.usi">1</property>
     <hopsession>127.0.0.ckgby7bcs6lt</hopsession>
     <tk_tc>xLmpZuxNag0NvXiB</tk_tc>
@@ -69,7 +69,7 @@
 &lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;h2 name=&quot;connect&quot;&gt;Get connected to the Internet&lt;/h2&gt;
+&lt;h2 id=&quot;connect&quot;&gt;Get connected to the Internet&lt;/h2&gt;
 &lt;p&gt;There are many ways to get BeagleBone AI onto the Internet. Ethernet, WiFi
     and USB-based methods are described below. Getting an Internet connection
     and performing the distribution, examples and kernel updates below is the
@@ -221,7 +221,7 @@ sudo dhclient usb0
 &lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;h2 name=&quot;kernel&quot;&gt;Update the boot-up scripts and Linux kernel&lt;/h2&gt;
+&lt;h2 id=&quot;kernel&quot;&gt;Update the boot-up scripts and Linux kernel&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;cd /opt/scripts&lt;/b&gt;
 debian@beaglebone:/opt/scripts$ &lt;b&gt;git pull&lt;/b&gt;
@@ -262,7 +262,7 @@ debian@beaglebone:/opt/scripts$ &lt;b&gt;sudo shutdown -r now&lt;/b&gt;
 &lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;h2 name=&quot;distro&quot;&gt;Update distribution components&lt;/h2&gt;
+&lt;h2 id=&quot;distro&quot;&gt;Update distribution components&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt update&lt;/b&gt;
 [sudo] password for debian:&lt;b&gt;&lt;em&gt;temppwd&lt;/em&gt;&lt;/b&gt;
@@ -299,7 +299,7 @@ debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt install -y ti-tidl mjpg-str
 &lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;h2 name=&quot;examples&quot;&gt;Update examples in the Cloud9 IDE workspace&lt;/h2&gt;
+&lt;h2 id=&quot;examples&quot;&gt;Update examples in the Cloud9 IDE workspace&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;cd /var/lib/cloud9&lt;/b&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;git pull&lt;/b&gt;
@@ -308,7 +308,7 @@ debian@beaglebone:/var/lib/cloud9$
 &lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;h2&gt;Test installed versions&lt;/h2&gt;
+&lt;h2 id=&quot;test&quot;&gt;Test installed versions&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo /opt/scripts/tools/version.sh&lt;/b&gt;
 [sudo] password for debian:&lt;b&gt;&lt;em&gt;temppwd&lt;/em&gt;&lt;/b&gt;
@@ -394,7 +394,7 @@ debian@beaglebone:/var/lib/cloud9$
     <pvcount type="float">0.0</pvcount>
     <http_referer>https://beagleboard.org/upgrade/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
