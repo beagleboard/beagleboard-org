@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584630871826">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584631590399">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <tk_qs></tk_qs>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36</http_browser>
-    <time type="date">19.03.2020 15:14:31 UTC</time>
+    <time type="date">19.03.2020 15:26:30 UTC</time>
     <hopsession>127.0.0.4ziieps8fjr4</hopsession>
     <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -206,86 +206,100 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;th&gt; &lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SeeedStudio BeagleBone Green&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Blue&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SanCloud BeagleBone Enhanced&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone AI&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;1GHz&lt;/td&gt;
+    &lt;td&gt;1.5GHz&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Co-processors&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;4x200-MHz PRUs, 2x ARM Cortex-M4, 2x SGX PowerVR, 2x HD video&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
-    &lt;td&gt;4 (1.8V)&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
+    &lt;td&gt;7 (3.3V)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
-    &lt;td&gt;24 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
+    &lt;td&gt;72 (3.3V) (7 shared with analog)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;1GB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;1GB DDR3 (2x 512Mx16, dual-channel), 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;miniUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;miniUSB 2.0 client port, 4 USB 2.0 Ports (2 A-type connectors, 2 on pin headers)&lt;/td&gt;
+    &lt;td&gt;mini-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;micro-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;mini-AB USB 2.0 client port, 2x Type-A USB 2.0 host ports, 2x pin header USB 2.0 host ports&lt;/td&gt;
+    &lt;td&gt;Type-C USB 3.0 5Gbps Host/Client port, Type-A USB 2.0 host port&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Network&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;add-ons&lt;/td&gt;
+    &lt;td&gt;10/100 Ethernet&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, 2.4GHz WiFi, Bluetooth, BLE&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, 2.4/5GHz WiFi, Bluetooth, BLE&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;SPI displays&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;add-ons, Bluetooth&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;br /&gt;2 Grove (I2C, UART)&lt;/td&gt;
-    &lt;td&gt;4x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (with PHY), 8x 6V servo motor,
-    4x DC motor, 4x quadrature encoder&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, 7x A/D converter, CAN bus (w/o PHY), 
+    LCD, 3x quadrature encoder, SD/MMC&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;strong&gt;Sensors&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;On-board Sensors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
     &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
-    &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
+    &lt;td&gt;on-die temperature&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$39&lt;/td&gt;
-    &lt;td&gt;$79&lt;/td&gt;
     &lt;td&gt;$69&lt;/td&gt;
+    &lt;td&gt;$99&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
