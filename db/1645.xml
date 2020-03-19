@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584631773506">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584632001356">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <tk_qs></tk_qs>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36</http_browser>
-    <time type="date">19.03.2020 15:29:33 UTC</time>
+    <time type="date">19.03.2020 15:33:21 UTC</time>
     <hopsession>127.0.0.4ziieps8fjr4</hopsession>
     <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -90,7 +90,8 @@
    &lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
+&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     --&gt;
+&lt;!-- &lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     --&gt;
    
 &lt;!--######################################--&gt;
  &lt;div id=&quot;CTA&quot;&gt;
@@ -126,8 +127,8 @@ $(document).ready(function(){
 &lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
 &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;a href=&quot;/static/ti/product_detail_black_lg.jpg&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone Black Image&quot;&gt;
-&lt;img src=&quot;/static/ti/product_detail_black_sm.jpg&quot; border=&quot;0&quot;  /&gt;&lt;/a&gt;
+&lt;a href=&quot;/static/images/BB_AI_BeautyAngle_800px.jpg&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone AI Image&quot;&gt;
+&lt;img src=&quot;/static/images/BB_AI_BeautyAngle_800px.jpg&quot; border=&quot;0&quot; style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c2&quot;&gt;&lt;h2&gt;What can these boards do?&lt;/h2&gt;
