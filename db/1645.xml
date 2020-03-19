@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584632001356">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584632389680">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <tk_qs></tk_qs>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36</http_browser>
-    <time type="date">19.03.2020 15:33:21 UTC</time>
+    <time type="date">19.03.2020 15:39:49 UTC</time>
     <hopsession>127.0.0.4ziieps8fjr4</hopsession>
     <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -90,9 +90,12 @@
    &lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     --&gt;
-&lt;!-- &lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     --&gt;
-   
+&lt;div id=&quot;t2-c1&quot;&gt;
+&lt;div&gt;
+&lt;div id=&quot;t2-c1-content&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-right:10px&quot;&gt;Multitude of powerful processing cores for diverse embedded computing needs.&lt;br /&gt;&lt;br /&gt; &lt;a href=&quot;/ai&quot;&gt;Learn more »&lt;/a&gt;
+
 &lt;!--######################################--&gt;
  &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
@@ -139,7 +142,12 @@ $(document).ready(function(){
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
+&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/images/BB_AI_BeautyAngle_800px.jpg&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
+    The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.
+    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/black&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbg_bullet_40.png&quot; align=&quot;left&quot; style=&quot;padding:10px;&quot;/&gt;
 Seeed&apos;s Grove connectors make IoT developers life simpler large family of Grove sensors and drivers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/green&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
 &lt;/div&gt;
@@ -148,14 +156,9 @@ Seeed&apos;s Grove connectors make IoT developers life simpler large family of G
     Complete robotics computer ready to fly or rove. Flexible networking and rich set of robotics-oriented peripherals make building mobile robots quick and affordable.
     &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/blue&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
 &lt;/div&gt;--&gt;
-&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/h2&gt;
+&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbe_bullet_40.png&quot; align=&quot;left&quot;/&gt;
 With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Bluetooth option, make this the ultimate Bone.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/enhanced&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/images/BB_AI_BeautyAngle_800px.jpg&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
-    Multitude of powerful processing cores for diverse embedded computing needs.
-    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/ai&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
-&lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c1a&quot;&gt;&lt;h2&gt;Product Comparison Table&lt;/h2&gt;
  &lt;table width=&quot;588&quot; border=&quot;0&quot; cellpadding=&quot;3px&quot;&gt;
