@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584631590399">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584631773506">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <tk_qs></tk_qs>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36</http_browser>
-    <time type="date">19.03.2020 15:26:30 UTC</time>
+    <time type="date">19.03.2020 15:29:33 UTC</time>
     <hopsession>127.0.0.4ziieps8fjr4</hopsession>
     <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -96,58 +96,13 @@
  &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
- &lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-    &lt;option&gt;Select a distributor to buy&lt;/option&gt;
-    &lt;option value=&quot;https://www.arrow.com/en/products/bb-black/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
-    &lt;option value=&quot;https://www.digikey.com/product-detail/en/ghi-electronics-llc/BBB01-SC-505/BBB01-SC-505-ND/6210999&quot;&gt;Digi-Key&lt;/option&gt;
-    &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-GHI/BBB01-SC-505?qs=sGAEpiMZZMuG6%2fXKM6MUaQUPc9Y91hBEalrDTtma%2fpY%3d&quot;&gt;Mouser&lt;/option&gt;
-    &lt;option value=&quot;https://www.element14.com/community/docs/DOC-84108&quot;&gt;element14&lt;/option&gt;
- &lt;/select&gt;
-&lt;!--
-&lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://specialcomp.com/beaglebone/&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.adafruit.com/products/1278&quot;&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.makershed.com/BeagleBoard_BeagleBone_Black_p/mkcce3.htm?Click=142528&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://parts.arrow.com/item/detail/circuitco/bb-bblk-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://avnetexpress.avnet.com/store/em/EMController?action=products&amp;catalogId=500201&amp;storeId=500201&amp;N=0&amp;langId=-1&amp;slnk=b&amp;term=BB-BBLK-000&amp;hrf=http%3A%2F%2Fwww.em.avnet.com%2Fen-us%2Fdesign%2Fdrc%2FPages%2FCircuitco-BeagleBone-Black-Open-Source-Hardware-Platform.aspx&amp;intcmp=EMA-BUY-BB-BBLK-000&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176149_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.openhacks.com/page/productos/id/359&quot;&gt;Openhacks.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tigal.com/product/3406&quot;&gt;Tigal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.conrad.biz/bb/&quot;&gt;Conrad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.watterott.com/de/BeagleBone-Black&quot;&gt;Watterott&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://store.techshare.jp/shopbrand/006/Y/&quot;&gt;TechShare Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.electroshopdendermonde.be/index.php/webshop/beaglebone/beaglebone-black&quot;&gt;Electroshop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chipsee.com/product/evm/beagle.html&quot;&gt;Chipsee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.exp-tech.de/Mainboards/BeagleBone-Black.html&quot;&gt;EXP Tech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.abra-electronics.com/products/BeagleBone-Black-Single%252dBoard-Computer-Development-Board-.html&quot;&gt;Abra Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://embeddedcomputer.nl/beagleboard/beagleboard-beaglebone.html&quot;&gt;EmbeddedComputer.nl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rpelectronics.com/bb-bblk-000-beaglebone-black-development-board.html&quot;&gt;RP Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.active123.com/BeagleBone-Black-Development-Board-Prodview.html&quot;&gt;Active&lt;/a&gt;&lt;/li&gt; 
-  &lt;li&gt;&lt;a href=&quot;http://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.logicsupply.com/products/bb_bblk_000&quot;&gt;Logic Supply&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.lextronic.fr/P28675-platine-beaglebone-black-rev-a5a.html&quot;&gt;Lextronic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1061&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.robotistan.com/BeagleBone-Black,PR-1523.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.embest-tech.cn/shop/star/beaglebone-black.html&quot;&gt;Embest Version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;a href=&quot;http://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
-    &lt;img src=&quot;http://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
-   &lt;/a&gt;
---&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-ai&quot;&gt;&lt;/ul&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
-  if($(&apos;#buy-black&apos;).length) {
-    $.get(&apos;/distributors/black&apos;, function(data){
-        $(&apos;#buy-black&apos;).replaceWith(data);
+  if($(&apos;#buy-ai&apos;).length) {
+    $.get(&apos;/distributors/ai&apos;, function(data){
+        $(&apos;#buy-ai&apos;).replaceWith(data);
         $(&apos;select.dropdown&apos;).each(function(){
           var list = $(this);
           var action = list.attr(&apos;id&apos;); 
@@ -163,6 +118,7 @@ $(document).ready(function(){
   }
 });
 &lt;/script&gt;
+
 &lt;/div&gt;
 &lt;!-- #######################################################--&gt;
 
