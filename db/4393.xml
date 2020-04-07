@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4393" name="2020-04-06" prototype="Page" created="1586278001956" lastModified="1586294796333">
+  <hopobject id="4393" name="2020-04-06" prototype="Page" created="1586278001956" lastModified="1586294850068">
   <hop:parent idref="2258" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0</http_browser>
-    <lang>en-us</lang>
-    <uri>2020-04-06</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.04.2020 21:26:36 UTC</time>
-    <pseudoparent idref="2258" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>2020-04-06</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0</http_browser>
+    <time type="date">07.04.2020 21:27:30 UTC</time>
     <hopsession>127.0.0.omoq73jw2qhi</hopsession>
-    <user>default</user>
-    <pvcount type="float">0.0</pvcount>
     <body>&lt;h2 style=&quot;color:black;&quot;&gt;Recommended Debian Images&lt;/h2&gt;
 &lt;h3&gt;Buster IoT TIDL (without graphical desktop and with machine learning acceleration tools) for 
     &lt;a href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt; and
@@ -27,7 +23,7 @@
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
             &lt;span itemprop=&quot;version&quot;&gt;10.3&lt;/span&gt;
             &lt;span itemprop=&quot;datePublished&quot;&gt;2020-04-06&lt;/span&gt;
-            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;6GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;8GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;IoT TIDL&lt;/span&gt;
         &lt;/a&gt;
         image for 
@@ -246,7 +242,11 @@ on-board eMMC flashing via microSD card&lt;/h3&gt;
         sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;dcd36dcd330d2c6959f86ed13ce88c79515052dcd5c184dd75b0f19ec6c2be02&lt;/span&gt;
     &lt;/li&gt;
 &lt;/ul&gt;</body>
-    <http_language>en-US,en;q=0.5</http_language>
+    <pseudoparent idref="2258" prototyperef="Page"/>
+    <pvcount type="float">0.0</pvcount>
     <http_referer>https://beagleboard.org/latest-images/2020-04-06/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
