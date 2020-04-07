@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4393" name="2020-04-06" prototype="Page" created="1586278001956" lastModified="1586281057379">
+  <hop:parent idref="2258" prototyperef="Page"/>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0</http_browser>
+    <lang>en-us</lang>
+    <uri>2020-04-06</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">07.04.2020 17:37:37 UTC</time>
+    <pseudoparent idref="2258" prototyperef="Page"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.omoq73jw2qhi</hopsession>
+    <user>default</user>
+    <pvcount type="float">0.0</pvcount>
+    <body>&lt;h2 style=&quot;color:black;&quot;&gt;Recommended Debian Images&lt;/h2&gt;
+&lt;h3&gt;Buster TIDL IoT (without graphical desktop and with machine learning acceleration tools) for 
+    &lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a class=&quot;featured-link&quot; itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/am57xx-debian-10.3-iot-tidl-armhf-2020-04-06-6gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;10.3&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2020-04-06&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;b9ac77af8be8156144b6192ed5d94404e381f19c0611042b26aadff18f49530e&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
+&lt;h3&gt;Buster IoT (without graphical desktop) for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; and &lt;a href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt; via microSD card&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a class=&quot;featured-link&quot; itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.9-iot-armhf-2019-08-03-4gb.img.xz&quot;&gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.9&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2019-08-03&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;IoT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;0c2afa722979b5ebc835c6b7063584edc959a70fc6cf64f39714869a0ba7fc99&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Stretch LXQT (with graphical desktop) for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; via microSD card&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a class=&quot;featured-link&quot; itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bone-debian-9.9-lxqt-armhf-2019-08-03-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.9&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2019-08-03&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;ff4af8aa309b7842de0759cf1f732c09a80b4ade1e89157a442f1bf93a359318&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
+&lt;h3&gt;Stretch for 
+    &lt;a href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbx15-debian-9.5-lxqt-armhf-2018-10-07-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.5&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-10-07&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/x15&quot;&gt;BeagleBoard-X15&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;db3f2b6a1305de715d33c1cb330ae51fbefe15379d4bd797ed3c1aa685b9729d&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
+&lt;h3&gt;Stretch for 
+    &lt;a href=&quot;/beagleboard&quot;&gt;BeagleBoard&lt;/a&gt;
+    via microSD card
+&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/bbxm-debian-9.5-lxqt-xm-armhf-2018-10-07-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.5&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-10-07&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;LXQT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/beagleboard&quot;&gt;BeagleBoard&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/xM&quot;&gt;BeagleBoard-xM&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://beagleboard.org/project/debian&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;2a29626ab7c20890109a0eea4ea6e88e4e31d01d8a447b38eaac5953d8eb9ece&lt;/span&gt;
+    &lt;/li&gt;    
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 style=&quot;color:black;&quot;&gt;&quot;Flasher&quot; Debian images&lt;/h2&gt;
+&lt;h3&gt;Stretch IoT (without graphical desktop) for &lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt; on-board eMMC flashing via microSD card&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a class=&quot;featured-link&quot; itemprop=&quot;downloadURL&quot; href=&quot;https://debian.beagleboard.org/images/BBB-blank-debian-9.5-iot-armhf-2018-10-07-4gb.img.xz&quot;&gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.5&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-10-07&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB eMMC&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;IoT Flasher&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/e14-bbbi&quot;&gt;element14 BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;dcd36dcd330d2c6959f86ed13ce88c79515052dcd5c184dd75b0f19ec6c2be02&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</body>
+    <http_language>en-US,en;q=0.5</http_language>
+    <http_referer>http://beagleboard.org/latest-images/2020-04-06/tide</http_referer>
+  </hopobject>
+</xmlroot>
