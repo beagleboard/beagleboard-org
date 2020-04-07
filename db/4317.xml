@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4317" name="Page" prototype="Page" created="1541455957298" lastModified="1541456464054">
+  <hopobject id="4317" name="Page" prototype="Page" created="1541455957298" lastModified="1586293559039">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <uri>black-industrial</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.67 Chrome/70.0.3538.67 Safari/537.36</http_browser>
-    <time type="date">05.11.2018 22:21:04 UTC</time>
-    <hopsession>127.0.0.16c5cgf25lrm2</hopsession>
-    <body>&lt;h1&gt;BeagleBone&lt;sup&gt;&amp;reg;&lt;/sup&gt; Black Industrial&lt;/h1&gt;
-Coming soon.</body>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0</http_browser>
+    <time type="date">07.04.2020 21:05:59 UTC</time>
+    <hopsession>127.0.0.omoq73jw2qhi</hopsession>
+    <body>&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; Black Industrial&lt;/h1&gt;
+Coming soon.&lt;br /&gt;
+In the meantime, visit &lt;a href=&quot;/e14-bbbi&quot;&gt;/e14-bbbi&lt;/a&gt;.
+&lt;script&gt;
+    goTracked(&apos;black-industrial&apos;, &quot;/e14-bbbi&quot;);
+&lt;/script&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
-    <http_referer>http://beagleboard.org/black-industrial/edit</http_referer>
+    <http_referer>https://beagleboard.org/black-industrial/tide</http_referer>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
