@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4393" name="2020-04-06" prototype="Page" created="1586278001956" lastModified="1586294401069">
+  <hopobject id="4393" name="2020-04-06" prototype="Page" created="1586278001956" lastModified="1586294692908">
   <hop:parent idref="2258" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0</http_browser>
     <lang>en-us</lang>
     <uri>2020-04-06</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.04.2020 21:20:01 UTC</time>
+    <time type="date">07.04.2020 21:24:52 UTC</time>
     <pseudoparent idref="2258" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.omoq73jw2qhi</hopsession>
@@ -101,7 +101,7 @@
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 style=&quot;color:black;&quot;&gt;Special release Debian images&lt;/h2&gt;
-&lt;h3&gt;Buster IoT for Grove Kit (without graphical desktop) for 
+&lt;h3&gt;Buster IoT for (without graphical desktop) for 
 &lt;a href=&quot;/kit/grove&quot;&gt;PocketBeagle Grove Kit&lt;/a&gt;
 via microSD card&lt;/h3&gt;
 &lt;ul class=&quot;arrow&quot;&gt;
@@ -112,11 +112,45 @@ via microSD card&lt;/h3&gt;
             &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
             &lt;span itemprop=&quot;version&quot;&gt;10.3&lt;/span&gt;
             &lt;span itemprop=&quot;datePublished&quot;&gt;2018-10-07&lt;/span&gt;
-            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB eMMC&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
             &lt;span itemprop=&quot;featureList&quot;&gt;Grove IoT&lt;/span&gt;
         &lt;/a&gt;
         image for
         &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;
+        -
+        &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
+            more info
+        &lt;/a&gt;
+        -
+        sha256sum: &lt;span itemprop=&quot;sha256sum&quot;&gt;dcd36dcd330d2c6959f86ed13ce88c79515052dcd5c184dd75b0f19ec6c2be02&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Stretch ImgTec (with Imagination Technologies 3D developer kit) for 
+&lt;a href=&quot;/bone&quot;&gt;BeagleBone&lt;/a&gt;
+via microSD card&lt;/h3&gt;
+&lt;ul class=&quot;arrow&quot;&gt;
+    &lt;li itemscope itemtype=&quot;https://schema.org/SoftwareApplication&quot;&gt;
+        &lt;a class=&quot;featured-link&quot; itemprop=&quot;downloadURL&quot; 
+            href=&quot;https://debian.beagleboard.org/images/BBB-blank-debian-9.5-iot-armhf-2018-10-07-4gb.img.xz&quot;
+        &gt;
+            &lt;span itemprop=&quot;name&quot;&gt;Debian&lt;/span&gt;
+            &lt;span itemprop=&quot;version&quot;&gt;9.12&lt;/span&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2018-10-07&lt;/span&gt;
+            &lt;span itemprop=&quot;memoryRequirements&quot;&gt;4GB SD&lt;/span&gt;
+            &lt;span itemprop=&quot;featureList&quot;&gt;ImgTec IoT&lt;/span&gt;
+        &lt;/a&gt;
+        image for
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/pocket&quot;&gt;PocketBeagle&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/bone-original&quot;&gt;BeagleBone&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-wireless&quot;&gt;BeagleBone Black Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/black-industrial&quot;&gt;BeagleBone Black Industrial&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/green-wireless&quot;&gt;SeeedStudio BeagleBone Green Wireless&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;,
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/arrowbbbi&quot;&gt;Arrow BeagleBone Black Industrial&lt;/a&gt; and 
+        &lt;a itemprop=&quot;availableOnDevice&quot; href=&quot;/usomiq&quot;&gt;Mentorel BeagleBone uSomIQ&lt;/a&gt;
         -
         &lt;a itemprop=&quot;url&quot; href=&quot;https://debian.beagleboard.org&quot;&gt;
             more info
