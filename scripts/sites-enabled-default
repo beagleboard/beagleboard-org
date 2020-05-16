@@ -1958,6 +1958,22 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 }
 
+upstream yacy {
+	server 127.0.0.1:8090;
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	search.beagleboard.org;
+
+	location / {
+        	proxy_pass http://yacy;
+	}
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+}
+
 upstream buildbot {
 	server 127.0.0.1:8010;
 }
