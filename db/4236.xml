@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4236" name="Page" prototype="Page" created="1486498135622" lastModified="1590161712041">
+  <hopobject id="4236" name="Page" prototype="Page" created="1486498135622" lastModified="1590161792297">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:76.0) Gecko/20100101 Firefox/76.0</http_browser>
     <lang>en-us</lang>
     <uri>gsocmeet</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">22.05.2020 15:35:12 UTC</time>
+    <time type="date">22.05.2020 15:36:32 UTC</time>
     <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.apxeix0qltub</hopsession>
@@ -20,9 +20,9 @@
     recordings back to the IRC channel.
 &lt;/p&gt;
 &lt;table&gt;
-    &lt;th&gt;
-        &lt;td&gt;Meeting&lt;/td&gt;&lt;td&gt;US Pacific&lt;/td&gt;&lt;td&gt;US Eastern&lt;/td&gt;&lt;td&gt;CEST&lt;/td&gt;&lt;td&gt;IST&lt;/td&gt;
-    &lt;/th&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Meeting&lt;/th&gt;&lt;th&gt;US Pacific&lt;/th&gt;&lt;th&gt;US Eastern&lt;/th&gt;&lt;th&gt;CEST&lt;/th&gt;&lt;th&gt;IST&lt;/th&gt;
+    &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Whole team&lt;/td&gt;&lt;td&gt;Wed 09:30&lt;/td&gt;&lt;td&gt;Wed 12:30&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
