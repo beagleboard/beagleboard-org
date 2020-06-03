@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1568724192942">
+  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1591197999897">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,9 +13,9 @@
     <beagleirclog>000000</beagleirclog>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>resources</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/76.0.3809.100 Chrome/76.0.3809.100 Safari/537.36</http_browser>
-    <time type="date">17.09.2019 12:43:12 UTC</time>
-    <hopsession>127.0.0.1ctydwl09yy13</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36</http_browser>
+    <time type="date">03.06.2020 15:26:39 UTC</time>
+    <hopsession>127.0.0.pcpanpqylycx</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body> &lt;h1&gt;Resource Links for the BeagleBoard.org Community&lt;/h1&gt;
  &lt;p&gt;The open-source BeagleBoard.org designs are perfect for rapidly building
@@ -47,9 +47,16 @@
   &lt;/ul&gt;
   &lt;h3&gt;Manufacturing Partners&lt;/h3&gt;
   &lt;ul&gt;
+&lt;!--
       &lt;li&gt;&lt;a href=&quot;https://app.smartsheet.com/b/form?EQBCT=093142fcddb74845b1bca5101f82973c&quot; class=&quot;external&quot;&gt;Element14&lt;/a&gt;
           - Manufacturer of the largest number of BeagleBones, Element14 has a design-services entity that
           can help you source BeagleBone varients with your own custom requirements.
+      &lt;/li&gt;
+--&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.seeedstudio.com/contacts&quot; class=&quot;external&quot;&gt;SeeedStudio&lt;/a&gt;
+          - Located in Shenzhen, China, Seeed is a supporter and enabler of open hardware, including
+          BeagleBoard.org design and manufacturing. Reach out to Erin Linke in regards to BeagleBoard.org
+          related projects.
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.ghielectronics.com/contact&quot; class=&quot;external&quot;&gt;GHI Electronics&lt;/a&gt;
           - Located in Michigan, U.S.A., GHI Electronics has been working with the &lt;a href=&quot;/sip&quot;&gt;Octavo Systems OSD3358
@@ -86,10 +93,12 @@
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">37903.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <http_referer>http://beagleboard.org/resources/tide</http_referer>
+    <g_enabled_idps>google</g_enabled_idps>
+    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/resources/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
     <hop:child idref="314" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
