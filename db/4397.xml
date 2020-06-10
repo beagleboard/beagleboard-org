@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4397" name="Page" prototype="Page" created="1591760376022" lastModified="1591760376329">
+  <hop:parent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>black-industriali</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0</http_browser>
+    <time type="date">10.06.2020 03:39:36 UTC</time>
+    <hopsession>127.0.0.om2a52t5ps7</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body>&lt;h1&gt;BeagleBoard.org BeagleBone Black Industrial&lt;/h1&gt;
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
+ &lt;!-- slider --&gt;
+
+&lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;script src=&quot;/static/ti/jquery-1.7.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/jquery-ui-1.10.2.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+
+&lt;!--
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+&lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+--&gt;
+&lt;!-- TBD add banners here. --&gt;
+&lt;!--
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+--&gt;
+&lt;!-- bnr_ss1 --&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+                    debug:false,
+					controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+
+   &lt;/div&gt;
+   &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+   
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is BeagleBoard.org BeagleBone Black Industrial?&lt;/h2&gt;&lt;p style=&quot;margin-right:75px;&quot;&gt;
+BeagleBoard.org BeagleBone Black Industrial answers the need for an industrial 
+rated single board computer with extended temperature range. BeagleBoard.org
+BeagleBone Black Industrial is also software and cape compatible with the original
+BeagleBone Black.
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Works with existing BeagleBone Black Capes&lt;/li&gt;
+&lt;li&gt;Software compatible with BeagleBone Black&lt;/li&gt;
+&lt;li&gt;Temperature range from -40°C to +85°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;AM335x 1GHz 
+    ARM® Cortex-A8&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+&lt;li&gt;512MB DDR3 RAM&lt;/li&gt;
+&lt;li&gt;4GB 8-bit eMMC on-board flash storage&lt;/li&gt;
+&lt;li&gt;3D graphics accelerator&lt;/li&gt;
+&lt;li&gt;NEON floating-point accelerator&lt;/li&gt;
+&lt;li&gt;2x PRU 32-bit microcontrollers&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+ &lt;div id=&quot;t2-c5b&quot;&gt;  
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Connectivity&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;USB client for power &amp; communications&lt;/li&gt;
+  &lt;li&gt;USB host&lt;/li&gt;
+  &lt;li&gt;Ethernet&lt;/li&gt;
+  &lt;li&gt;2x 46 pin headers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+ &lt;div id=&quot;t2-c5c&quot;&gt;
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Software Compatibility&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt; 
+  &lt;li&gt;Debian&lt;/li&gt;
+  &lt;li&gt;Android&lt;/li&gt;
+  &lt;li&gt;Ubuntu&lt;/li&gt;
+  &lt;li&gt;Cloud9 IDE on Node.js w/ BoneScript library&lt;/li&gt;
+  &lt;li&gt;plus much more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;CTA&quot;&gt;
+  &lt;a href=&quot;TBD&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;p style=&quot;background-color:#EEEEEE;border-radius:6px;
+  padding: 2px 2px 2px 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;&quot;&gt;
+  &lt;a id=&quot;buy-bbbi&quot; style=&quot;color:black;font-size:16px;&quot; 
+   href=&quot;TBD&quot;
+   class=&quot;external&quot;&gt;Order from TBD&lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+  if($(&apos;#buy-bbbi&apos;).length) {
+    $.get(&apos;/distributors/bbbi&apos;, function(data){
+        $(&apos;#buy-bbbi&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            XXX.push([&apos;_trackEvent&apos;, &apos;exit&apos;, action, label]);
+            setTimeout(&apos;document.location = &quot;&apos; + link + &apos;&quot;&apos;, 100)
+           });
+          });
+        });
+    });
+  }
+});
+&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;/static/images/element14_BeagleBone_Black_Industrial_4G.png&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone Black Industrial Image&quot;&gt;
+&lt;img src=&quot;/static/images/element14_BeagleBone_Black_Industrial_4G_small.png&quot; border=&quot;0&quot; alt=&quot;BeagleBone Black Industrial&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+&lt;div id=&quot;t2-c4-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;/project&quot;&gt;BeagleBone Black Industrial Projects&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;TBD&quot; class=&quot;external&quot;&gt;Project #1&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+    Project #1 description.&lt;/p&gt;
+&lt;a href=&quot;/project&quot;&gt;See More Projects&lt;/a&gt; »
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c5-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;/support/bone101&quot;&gt;BeagleBone Black Industrial Support&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+First step: connect your Beagle to this site  
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/discuss&quot;&gt;Software and Ecosystem Discussion Groups&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Collaborate on the Beagle community forum
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/chat&quot;&gt;IRC Group Chat&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Live chat with other open-source enthusiasts
+&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/books&quot;&gt;Books&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Read books to help you learn fundamental concepts
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;t2-c6-prod-details&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black&quot; Class=&quot;external&quot;&gt;Hardware Specs and Materials&lt;/a&gt;&lt;/h2&gt;
+Browse the BeagleBone Black Github repository page to find all available hardware specifications such as:
+&lt;ul&gt;
+&lt;li&gt;Bill of Materials&lt;/li&gt;
+&lt;li&gt;PCB Files&lt;/li&gt;
+&lt;li&gt;MFG Files&lt;/li&gt;
+&lt;li&gt;Schematic (PDF and source)&lt;/li&gt;
+&lt;li&gt;System Reference Manual&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;/approved&quot;&gt;Approved accessories&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/cape&quot;&gt;Capes&lt;/a&gt; &lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;h2&gt;Videos &lt;/h2&gt;
+&lt;div id=&quot;t2-video-1&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/TBD&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;Learn about BeagleBone Black Industrial&lt;/h3&gt;
+&lt;p&gt;Learn about BeagleBone Black Industrial.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-video-2&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;236&quot; src=&quot;https://www.youtube.com/embed/TBD&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;TBD&lt;/h3&gt;
+&lt;p&gt;TBD&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
+&lt;!-- end Content Area --&gt;
+
+
+
+
+ </body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">0.0</pvcount>
+    <http_referer>https://beagleboard.org/black-industriali/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
+  </hopobject>
+</xmlroot>
