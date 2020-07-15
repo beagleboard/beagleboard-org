@@ -1,0 +1,892 @@
+include::../header.adoc[]
+
+== Case Studies - Introduction
+
+It's an exciting time to be making projects that use embedded processors.  
+Make:'s https://makezine.com/comparison/boards/[Makers' Guide to Boards] shows
+many of the options that are available and groups them into different types.  
+_Single board computers_ (SBCs) generally run Linux on some sort of https://www.arm.com/[ARM]
+processor.  Examples are the BeagleBoard and the Raspberry Pi.  Another type
+is the _microcontroller_, of which the https://www.arduino.cc/[Arduino] is 
+popular.  
+
+The SBCs are used because they have an operating system to manage files, I/O, 
+and schedule when things are run, all while possibly talking to the Internet.  
+Microcontrollers shine when things 
+being interfaced require careful timing and can't afford to have an OS preempt an 
+operation.
+
+But what if you have a projcet that needs the flexibility of an OS and the timing 
+of a microcontroller?  This is where the BeagleBoard excells since it has both 
+an ARM procssor running Linux and two footnote:[Four if you are on the BeagleBone AI];
+**P**rogrammable **R**eal-Time **U**nits (PRUs).
+The PRUs have 32-bit cores which run
+independently of the ARM processor, therefore they can
+be programmed to respond quickly to inputs and produce very precisely timed 
+outputs. 
+
+* TODO Update link
+
+There are many projects that use the PRU (http://processors.wiki.ti.com/index.php/PRU_Projects) to do things that can't be 
+done with just a SBC or just a microcontroller. Here we present some case studies that give a high-level view of using the PRUs.  In later
+chapters you will see the details of how they work.
+
+Here we present
+
+* Robotics Control Library <http://strawsondesign.com/docs/roboticscape/>
+* BeagleLogic <https://github.com/abhishek-kakkar/BeagleLogic/wiki>
+* NeoPixels - 5050 RGB LEDs with Integrated Drivers (LEDscape) <https://github.com/Yona-Appletree/LEDscape>
+* RGB LED Matrix (Falcon Christmas) <http://falconchristmas.com>
+// * MachineKit <http://www.machinekit.io/>
+// * ArduPilot <http://ardupilot.org/>, <http://ardupilot.org/dev/docs/beaglepilot.html>
+// * BeagleScope <https://github.com/ZeekHuge/BeagleScope>
+
+The following are resources used in this chapter.
+
+.Resources
+
+* https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual#673_PRUICSS_Pin_Access[Pocket Beagle System Reference Manual]
+* https://github.com/derekmolloy/exploringBB/blob/master/chp06/docs/BeagleboneBlackP8HeaderTable.pdf[BeagleBone Black P8 Header Table]
+* https://github.com/derekmolloy/exploringBB/blob/master/chp06/docs/BeagleboneBlackP9HeaderTable.pdf[BeagleBone Black P9 Header Table]
+* https://github.com/beagleboard/beaglebone-ai/wiki/System-Reference-Manual[BeagleBone AI System Reference Manual]
+
+
+=== Robotics Control Library
+Robotics is an embedded application that often requires both an SBC to control the 
+high-level tasks (such as path planning, line following, communicating with the user)
+_and_ a microcontroller to handle the low-level tasks (such as telling motors how fast
+to turn, or how to balance in response to an IMU input).  The 
+https://www.ucsdrobotics.org/edumip[EduMIP] balancing 
+https://www.hackster.io/edumip/edumip-13a29c[robot] 
+demonstrates that by using the PRU, the Blue can handle both the high 
+and low -level tasks without an additional microcontroller. The EduMIP is shown 
+in <<case_blue>>.
+
+[[case_blue]]
+.Blue balancing
+image:figures/blue.png[Blue balancing]
+
+The http://strawsondesign.com/docs/roboticscape/[Robotics Control Library] is a 
+package that is already installed on the Blue, Black and Pocket, 
+
+* TODO AI too?
+
+that contains a C library and example/testing programs. It uses the PRU to extend the 
+real-time hardware of the Bone by adding eight addional servo channels and one 
+addition real-time encoder input.
+
+The following examples show how easy it is to use the PRU for robotics.
+
+==== Controlling Eight Servos
+===== Problem
+You need to control eight servos, but the Bone doesn't have enough pulse width 
+modulation (PWM) channels
+and you don't want to add hardware.  
+
+===== Solution
+The Robotics Control Library provides eight additional PWM channels via the PRU that can be used out of the box. 
+
+[NOTE]
+====
+The I/O pins on the Beagles have a mutliplexer that lets you select what I/O 
+appears on a given pin.  The Blue has the mux already configured to to run these
+examples.  Follow the instructions in 
+<<../03details/details.adocs#details_configure_servos, Configuring Pins for Controlling Servos>> 
+to configure the pins for the Black and the Pocket.
+====
+
+* TODO - verify these commands
+
+Just run:
+[source]
+[subs=+quotes]
+----
+bone$ *sudo rc_test_servos -f 10 -p 1.5*
+----
+
+The `-f 10` says to use a frequency of 10 Hz and the `-p 1.5` says to set the position to `1.5`.  The range of positions is
+`-1.5` to `1.5`.   Run `rc_test_servos -h` to see all the options.
+
+[source]
+[subs=+quotes]
+----
+bone$ *rc_test_servos -h*
+
+ Options
+ -c {channel}   Specify one channel from 1-8.
+                Otherwise all channels will be driven equally
+ -f {hz}        Specify pulse frequency, otherwise 50hz is used
+ -p {position}  Drive servo to a position between -1.5 & 1.5
+ -w {width_us}  Send pulse width in microseconds (us)
+ -s {limit}     Sweep servo back/forth between +- limit
+                Limit can be between 0 & 1.5
+ -r {ch}        Use DSM radio channel {ch} to control servo
+ -h             Print this help messege 
+
+sample use to center servo channel 1:
+   rc_test_servo -c 1 -p 0.0
+----
+
+===== Discussion
+The BeagleBone Blue sends these eight outputs to it's servo channels.  The Black and the Pocket use the pins shown in the 
+<<_register_to_pin_table,Register to pin table>>.
+
+.PRU register to pin table
+|===
+|PRU pin    |Blue pin|Black pin|Pocket pin|AI pin
+
+|pru1_r30_8 |1       |P8_27    |P2.35     |
+|pru1_r30_10|2       |P8_28    |P1.35     |P9_42
+|pru1_r30_9 |3       |P8_29    |P1.02     |P8_14
+|pru1_r30_11|4       |P8_30    |P1.04     |P9_27
+|pru1_r30_6 |5       |P8_39    |          |P8_19
+|pru1_r30_7 |6       |P8_40    |          |P8_13
+|pru1_r30_4 |7       |P8_41    |          |
+|pru1_r30_5 |8       |P8_42    |          |P8_18
+|===
+
+You can find these details in the 
+https://github.com/derekmolloy/exploringBB/blob/master/chp06/docs/BeagleboneBlackP8HeaderTable.pdf[P8 Header Table], 
+https://github.com/derekmolloy/exploringBB/blob/master/chp06/docs/BeagleboneBlackP9HeaderTable.pdf[P9 Header Table], 
+https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual#673_PRUICSS_Pin_Access[Pocket Beagle System Reference Manual] 
+(Here is a more usable version of the https://docs.google.com/spreadsheets/d/1FRGvYOyW1RiNSEVprvstfJAVeapnASgDXHtxeDOjgqw/edit?usp=sharing[table].)
+and
+https://github.com/beagleboard/beaglebone-ai/wiki/System-Reference-Manual[BeagleBone AI System Reference Manual].
+(Here is a more usable version of the https://docs.google.com/spreadsheets/d/1dFSBVem86vAUD7MLXvqdS-N0Efi8_g_O1iTqzql8DAo/edit#gid=0[table].)
+
+
+Be default the PRUs are already loaded with the code needed to run the
+servos.  All you have to do is run the command.
+
+//[/opt/source/Robotics_Cape_Installer/pru_firmware/src/pru1-servo.asm]
+
+==== Controlling Individual Servos
+===== Problem
+`rc_test_servos` is nice, but I need to control the servos individually.
+
+===== Solution
+You can modify `rc_test_servos.c`.  You'll find it on the bone at
+`/opt/source/Robotics_Cape_Installer/examples/src/rc_test_servos.c`, or online at
+<https://github.com/StrawsonDesign/Robotics_Cape_Installer/blob/master/examples/src/rc_test_servos.c>.
+
+Just past line 250 you'll find a `while` loop that has calls to `rc_servo_send_pulse_normalized(ch,servo_pos)` and
+`rc_servo_send_pulse_us(ch, width_us)`.  The first call sets the pulse width relative to the pulse period; the other
+sets the width to an absolute time.  Use whichever works for you.
+
+==== Controlling More Than Eight Channels
+===== Problem
+I need more than eight PWM channels, or I need less jitter on the off time.
+
+===== Solution
+This is a more advanced problem and required reprograming the PRUs.  See 
+<<../05blocks/blocks.html#blocks_pwm, PWM Generator>> for an example.
+// ToDo, fill in XXXXX
+
+
+==== Reading Hardware Encoders
+===== Problem
+I want to use four encoders to measure four motors, but I only see hardware for three.
+
+===== Solution
+The forth encoder can be implemented on the PRU. If you run `rc_test_encoders_eqep` on the Blue, you will see the output of 
+encoders E1-E3 which are connected to the eEQP hardware.
+[source]
+[subs=+quotes]
+----
+bone$ *rc_test_encoders_eqep* 
+
+Raw encoder positions
+      E1   |      E2   |      E3   | 
+         0 |         0 |         0 |^C
+----
+You can also access these hardware encoders on the Black and Pocket using the 
+pins shown in <<case_pin_mapping>>.
+
+[[case_pin_mapping]]
+.eQEP to pin mapping
+|===
+|eQEP|Blue pin|Black pin A|Black pin B|AI pin A|AI pin B|Pocket pin A|Pocket pin B
+
+|0   |E1      |P9_42B     |P9_27      |        |        |P1.31       |P2.24       
+|1   |E2      |P8_35      |P8_33      |P8_35   |P8_33   |P2.10       |
+|2   |E3      |P8_12      |P8_11      |P8_12   |P8_11   |P2.24       |P2.33       
+|2   |        |P8_41      |P8_42      |P9_19   |P9_41   |            |
+|    |E4      |P8_16      |P8_15      |        |        |P2.09       |P2.18       
+|3   |        |           |           |P8_25   |P8_24   |            |
+|3   |        |           |           |P9_42   |P9_27   |            |
+|===
+
+[NOTE]
+====
+The I/O pins on the Beagles have a mutliplexer that lets you select what I/O 
+appears on a given pin.  The Blue has the mux already configured to to run these
+examples.  Follow the instructions in 
+<<../03details/details.adocs#details_configure_encoders, Configuring Pins for Controlling Encoders>> 
+to configure the pins for the Black and the Pocket.
+====
+
+==== Reading PRU Encoder
+===== Problem
+I want to access the PRU encoder.
+
+===== Solution
+The forth encoder is implemented on the PRU and accessed with `sudo rc_test_encoders_pru`  
+[NOTE]
+====
+This command
+needs root permission, so the `sudo` is needed.  
+====
+Here's what you will see
+[source]
+[subs=+quotes]
+----
+bone$ *sudo rc_test_encoders_pru*
+[sudo] password for debian: 
+
+Raw encoder position
+      E4   | 
+         0 |^C
+----
+
+[NOTE]
+====
+If you aren't running the Blue you will have to configure the pins as shown 
+in the note above.  
+====
+
+=== BeagleLogic - a 14-channel Logic Analyzer
+
+==== Problem
+I need a 100Msps, 14-channel logic analyzer
+
+==== Solution
+https://beaglelogic.readthedocs.io/en/latest/[BeagleLogic] is a 100Msps, 
+14-channel logic analyzer that runs on the Beagle. 
+
+[verse,https://github.com/abhishek-kakkar/BeagleLogic/wiki]
+____
+BeagleLogic turns your BeagleBone [Black] into a 14-channel, 100Msps Logic Analyzer. Once loaded, it presents itself as a character device node */dev/beaglelogic*.
+
+The core of the logic analyzer is the 'beaglelogic' kernel module that reserves memory for and drives the two Programmable Real-Time Units (PRU) via the remoteproc interface wherein the PRU directly writes logic samples to the System Memory (DDR RAM) at the configured sample rate one-shot or continuously without intervention from the ARM core.
+____
+
+The quickest solution is to get the https://github.com/abhishek-kakkar/BeagleLogic/wiki/BeagleLogic-%22no-setup-required%22-setup:-Introducing-System-Image![no-setup-required image].  It runs on an older image (15-Apr-2016) but should still work.
+
+If you want to be running a newer image, there are instructions on the site for https://beaglelogic.readthedocs.io/en/latest/install.html[installing BeagleLogic], but I had to do the additional steps in <<case_installing_beaglelogic>>.
+
+* TODO - Recheck
+
+[[case_installing_beaglelogic]]
+.Installing BeagleLogic
+[source,linenums]
+[subs=+quotes]
+----
+bone$ *git clone https://github.com/abhishek-kakkar/BeagleLogic*
+bone$ *cd BeagleLogic/kernel*
+bone$ *mv beaglelogic-00A0.dts beaglelogic-00A0.dts.orig*
+bone$ *wget https://gist.githubusercontent.com/abhishek-kakkar/0761ef7b10822cff4b3efd194837f49c/raw/eb2cf6cfb59ff5ccb1710dcd7d4a40cc01cfc050/beaglelogic-00A0.dts*
+bone$ *make overlay*
+bone$ *sudo cp beaglelogic-00A0.dtbo /lib/firmware/*
+bone$ *sudo update-initramfs -u -k \`uname -r`*
+bone$ *sudo reboot*
+----
+
+// TODO <strong> is showing up here
+
+Once the Bone has rebooted, browse to 192.168.7.2:4000 where you'll see
+<<case_beaglelogic_capture>>.  Here you can easily select the sample
+rate, number of samples, and which pins to sample. 
+Then click *Begin Capture* to capture your data, at up to 100 MHz!
+
+[[case_beaglelogic_capture]]
+.BeagleLogic Data Capture
+image::figures/beaglelogic_capture.png[BeagleLogic Data Capture]
+
+
+==== Discussion
+BeagleLogic is a complete system that includes firmware for the PRUs, 
+a kernel module and a web interface that create a powerful 100 MHz 
+logic analyzer on the Bone with no additional hardware needed.
+
+[TIP]
+====
+If you need buffered inputs, consider
+http://standalone.beaglelogic.net/en/latest/[BeagleLogic Standalone],
+a turnkey Logic Analyzer built on top of BeagleLogic.
+====
+
+The kernel interface makes it easy to control the PRUs through the
+command line.  For example
+
+[subs=+quotes]
+----
+bone$ *dd if=/dev/beaglelogic of=mydump bs=1M count=1*
+----
+will capture a binary dump from the PRUs. The sample rate and number of 
+bits per sample can be controlled through `/sys/`.
+
+[subs=+quotes]
+----
+bone$ *cd /sys/devices/virtual/misc/beaglelogic*
+bone$ *ls*
+buffers      filltestpattern  power       state         uevent
+bufunitsize  lasterror        samplerate  subsystem
+dev          memalloc         sampleunit  triggerflags
+bone$ *cat samplerate*
+1000
+bone$ *cat sampleunit*
+8bit
+----
+You can set the sample rate by simply writing to `samplerate`.
+[subs=+quotes]
+----
+bone$ *echo 100000000 > samplerate*
+----
+
+https://beaglelogic.readthedocs.io/en/latest/sysfs_attributes.html[sysfs attributes Reference]
+has more details on configuring via sysfs.
+
+If you run `dmesg -Hw` in another window you can see when a capture 
+is started and stopped.
+
+[subs=+quotes]
+----
+bone$ *dmesg -Hw*
+[Jul25 08:46] misc beaglelogic: capture started with sample rate=100000000 Hz, sampleunit=1, triggerflags=0
+[  +0.086261] misc beaglelogic: capture session ended
+----
+
+BeagleLogic uses the two PRUs to sample at 100Msps.  Getting a PRU running at 200Hz to sample at 100Msps is a slick trick.
+http://theembeddedkitchen.net/beaglelogic-building-a-logic-analyzer-with-the-prus-part-1/449[The Embedded Kitchen] has a nice article 
+explaining how the PRUs get this type of performance.   
+
+// In section 
+// <<../05blocks/blocks.html#blocks_ws2812, Building Blocks>> we'll give an overview of the technique.
+
+// Todo:  Fill in XXXXX
+
+
+=== NeoPixels - 5050 RGB LEDs with Integrated Drivers (LEDScape)
+==== Problem
+((("displays", "NeoPixel LED strings")))
+((("outputs", "NeoPixel LED strings")))
+((("Adafruit Neopixel LED strings")))
+((("Neopixel LED strings")))
+((("LEDs", "Adafruit Neopixel LED strings")))
+You have an http://www.adafruit.com/products/1138[Adafruit NeoPixel LED string],
+http://www.adafruit.com/products/1487[Adafruit NeoPixel LED matrix] or
+any other type of 
+https://cdn-shop.adafruit.com/datasheets/WS2812.pdf[WS2812 LED]
+and want to light it up.
+
+==== Solution
+You can either write your own code 
+(See <<../05blocks/blocks.adoc#blocks_ws2812, WS2812 Driver>>), or
+use https://github.com/Yona-Appletree/LEDscape[LEDscape] which
+is a library for controlling NeoPixels using http://openpixelcontrol.org/[Open 
+Pixel Control].
+
+[verse, https://github.com/Yona-Appletree/LEDscape]
+____
+LEDscape is a library and service for controlling individually addressable LEDs from a Beagle Bone Black or Beagle Bone Green using the onboard PRUs. It currently supports WS281x (WS2811, WS2812, WS2812b), WS2801 and initial support for DMX.
+
+It can support up to 48 connected strings and can drive them with very little load on the main processor.
+
+Background
+LEDscape was originally written by Trammell Hudson (http://trmm.net/Category:LEDscape) for controlling WS2811-based LEDs. Since his original work, his version (https://github.com/osresearch/LEDscape) has been repurposed to drive a different type of LED panel (e.g. http://www.adafruit.com/products/420).
+
+This version of the library was forked from his original WS2811 work. Various improvements have been made in the attempt to make an accessible and powerful LED driver based on the BBB. Many thanks to Trammell for his excellent work in scaffolding the BBB and PRUs for driving LEDs.
+____
+
+LEDscape can drive 48 strings of LEDs that are arbitary length with no addional
+hardware!  Here's how to install it.
+
+[NOTE]
+====
+LEDscape uses UIO, an older method for talking to the PRU.  See
+<<../06io/io.adoc#io_uio,Configuring for UIO Instead of RemoteProc>> to configure your Bone to use UIO.
+====
+
+First install LEDscape and openpixelcontrol.
+
+[source]
+[subs=+quotes]
+----
+bone$ *git clone https://github.com/Yona-Appletree/LEDscape.git*
+bone$ *git clone https://github.com/zestyping/openpixelcontrol*
+----
+Next find which channels are on which pins
+
+[source]
+[subs=+quotes]
+----
+bone$ *node LEDscape/pru/pinmap.js*
+Using mapping: Original LEDscape from original-ledscape
+                       Internal Channel Index                      
+ Row  Pin#           P9            Pin#  |  Pin#           P8            Pin# Row 
+  1    1                            2    |   1                            2    1  
+  2    3                            4    |   3                            4    2  
+  3    5                            6    |   5                            6    3  
+  4    7                            8    |   7       25          26       8    4  
+  5    9                            10   |   9       28          27       10   5  
+  6    11      13          23       12   |   11      16          15       12   6  
+  7    13      14          21       14   |   13      10          11       14   7  
+  8    15      19          22       16   |   15      18          17       16   8  
+  9    17                           18   |   17      12          24       18   9  
+  10   19                           20   |   19       9                   20   10 
+  11   21       1           *0       22*   |   21                           22   11 
+  12   23      20                   24   |   23                           24   12 
+  13   25                   7       26   |   25                           26   13 
+  14   27                  47       28   |   27      41                   28   14 
+  15   29      45          46       30   |   29      42          43       30   15 
+  16   31      44                   32   |   31       5           6       32   16 
+  17   33                           34   |   33       4          40       34   17 
+  18   35                           36   |   35       3          39       36   18 
+  19   37                           38   |   37      37          38       38   19 
+  20   39                           40   |   39      35          36       40   20 
+  21   41       8           2       42   |   41      33          34       42   21 
+  22   43                           44   |   43      31          32       44   22 
+  23   45                           46   |   45      29          30       46   23 
+----
+LEDscape supports up to 48 channels (strings) of LEDs.  The above table shows 
+how the channel numbers map to BeagleBone Black pins.  We'll use channel 0 
+which maps to P9_22. Wire your LED string to P9_22.
+
+[WARNING]
+====
+The following is a hack, but it makes it work.
+====
+We need to edit `ledsacpe.c` and `opc-server.c` to make them work.
+
+[source]
+[subs=+quotes]
+----
+bone$ *cd LEDscape*
+----
+Now edit `opc-server.c` and comment out line 723.
+
+----
+// pthread_create(&g_threads.e131_server_thread.handle, NULL, e131_server_thread, NULL
+----
+Next edit `ledscape.c` and comment out lines 29-44
+
+----
+// static const uint8_t gpios0[] = {
+// 	// 2, 3, 7, 8, 9, 10, 11, 14, 20, 22, 23, 26, 27, 30, 31
+// 	3, 7, 8, 9, 10, 11, 14, 20, 22, 23, 26, 27, 30, 31
+// };
+
+// static const uint8_t gpios1[] = {
+// 	12, 13, 14, 15, 16, 17, 18, 19, 28, 29
+// };
+
+// static const uint8_t gpios2[] = {
+// 	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 22, 23, 24, 25,
+// };
+
+// static const uint8_t gpios3[] = {
+// 	14, 15, 16, 17, 19, 21
+// };
+----
+
+And also lines 176-184
+
+----
+// Configure all of our output pins.
+// for (unsigned i = 0 ; i < ARRAY_COUNT(gpios0) ; i++)
+// 	pru_gpio(0, gpios0[i], 1, 0);
+// for (unsigned i = 0 ; i < ARRAY_COUNT(gpios1) ; i++)
+// 	pru_gpio(1, gpios1[i], 1, 0);
+// for (unsigned i = 0 ; i < ARRAY_COUNT(gpios2) ; i++)
+// 	pru_gpio(2, gpios2[i], 1, 0);
+// for (unsigned i = 0 ; i < ARRAY_COUNT(gpios3) ; i++)
+// 	pru_gpio(3, gpios3[i], 1, 0);
+----
+
+Now configure P9_22 and run `make`.
+
+[source]
+[subs=+quotes]
+----
+bone$ *config-pin P9_22 out*
+bone$ *config-pin -q P9_22*
+P9_22 Mode: gpio Direction: out Value: 0
+bone$ *make*
+----
+Now run `sudo opc-server`.
+
+[source]
+[subs=+quotes]
+----
+bone$ *sudo ./opc-server*
+[main] Starting server on ports (tcp=7890, udp=7890) for 176 pixels on 48 strips
+[main] Demo Mode Enabled
+Allocating buffers for 8448 pixels (202752 bytes)
+[main] Initializing / Updating server...frame_size1=8448
+Starting demo data thread
+[udp] Starting UDP server on port 7890
+[render] Starting render thread for 8448 total pixels
+[main] Starting LEDscape...pru_init: PRU 0: data 0xb4d5d000 @ 8192 bytes,  DMA 0xb4cdd000 / 9c940000 @ 262144 bytes
+pru_init: PRU 1: data 0xa4c5f000 @ 8192 bytes,  DMA 0xa4bdd000 / 9c940000 @ 262144 bytes
+String PRU0 with pru/bin/ws281x-original-ledscape-pru0.bin... OK
+String PRU1 with pru/bin/ws281x-original-ledscape-pru1.bin... OK
+[tcp] Starting TCP server on 7890
+[demo] Starting Demo: fade
+{
+	"outputMode": "ws281x",
+	"outputMapping": "original-ledscape",
+	"demoMode": "fade",
+	"ledsPerStrip": 176,
+	"usedStripCount": 48,
+	"colorChannelOrder": "BRG",
+	"opcTcpPort": 7890,
+	"opcUdpPort": 7890,
+	"enableInterpolation": true,
+	"enableDithering": true,
+	"enableLookupTable": true,
+	"lumCurvePower": 2.0000,
+	"whitePoint": {
+		"red": 0.9000,
+		"green": 1.0000,
+		"blue": 1.0000
+	}
+}
+[render] fps_info={frame_avg_usec: 1924, possible_fps: 519.75, actual_fps: 0.10, sample_frames: 1}
+----
+
+You should now see "a pleasing pattern of rotating color hues".  
+
+==== Discussion
+LEDscape is higly configurable.  When you run `opc-server` it first prints out 
+its configuration.  If it doesn't receive any data after three seconds it 
+will go into demo mode.  In this configuration, `demoMode` is set to `fade` 
+which produces the nice pattern you are seeing.  (You can set `demoMode` 
+to `none` if you would rather not see anything.  See README.md for
+other options.)
+
+Notice it's currently configured to drive 48 strings (`usedStripCount`) with 
+176 LEDS (`ledsPerStrip`). It's also set to interpolate (`enableInterpolation`) 
+colors, that is, rather than abruptly switching to a new color, it will 
+smoothly fade between the two.  With this configuration it uses about 26% 
+of the ARM CPU.
+
+Let's write a configuration file that fits our LEDs string. Copy the default
+configuration and edit it.
+
+[source]
+[subs=+quotes]
+----
+bone$ *cp configs/ws281x-config.json my-config.json*
+----
+Now edit it to match <<case_config>>.
+
+[[case_config]]
+.my-config.json
+[source]
+[subs=+quotes]
+----
+include::code/my-config.json[]
+----
+
+Run this with:
+[source]
+[subs=+quotes]
+----
+bone$ *sudo ./opc-server --config my-config.json*
+----
+
+Now we are only using about 7% of the ARM CPU.
+
+You can now run a program that sends data to the string.  <<case_circle>> is 
+a simple python example that sequencies an LED through the entire string.  It 
+uses `opc.py` which is included in the `code` directory.
+
+[[case_circle]]
+.circle.py
+[source,python,linenums]
+[subs=+quotes]
+----
+include::code/circle.py[]
+----
+
+
+[[case_rgb_matrix]]
+=== RGB LED Matrix - No Integrated Drivers (Falcon Christmas)
+==== Problem
+You want to use a RGB LED Matrix display that doesn't have integrated
+drivers such as the 
+https://www.adafruit.com/product/2277[64x32 RGB LED Matrix] by Adafuit
+shown in <<case_adfruit_matrix>>.
+
+[[case_adfruit_matrix]]
+.Adafruit LED Matrix
+image::figures/ledmatrix.jpg[Adafruit LED Matrix]
+
+==== Solution
+http://falconchristmas.com[Falcon Christmas] makes a software package
+called 
+http://falconchristmas.com/forum/index.php/board,8.0.html[Falcon Player] (FPP) which can drive such displays.
+
+[verse, http://www.falconchristmas.com/wiki/FPP:FAQ#What_is_FPP.3F]
+____
+The Falcon Player (FPP) is a lightweight, optimized, feature-rich sequence player designed to run on low-cost SBC's (Single Board Computers).
+FPP is a software solution that you download and install on hardware which can be purchased from numerous sources around the internet. FPP aims to be controller agnostic, it can talk E1.31, DMX, Pixelnet, and Renard to hardware from multiple hardware vendors, including controller hardware from Falcon Christmas available via COOPs or in the store on FalconChristmas.com.
+____
+
+===== Hardware
+The Beagle hardware can be either a BeagleBone Black with the 
+https://oshpark.com/shared_projects/7mSHNZcD[Octoscroller Cape], or a 
+PocketBeagle with the 
+https://www.hackster.io/daniel-kulp/pocketscroller-led-panel-cape-for-pocketbeagle-fe12a6[PocketScroller LED Panel Cape]. 
+(See https://www.tindie.com/products/dkulp/pocketscroller-led-panel-cape-for-pocketbeagle/[to purchase].)
+https://www.diychristmas.org/wiki/index.php?title=Building_an_Octoscroller_Matrix_Display[Building and Octoscroller Matrix Display] 
+gives details for using the BeagleBone Black. 
+
+<<case_pocket>> shows how to attach the PocketBeagle to the P5 LED matrix 
+and where to attach the 5V power.  If you are going to turn on all the LEDs 
+to full white at the same time you will need at least a 4A supply.
+
+[[case_pocket]]
+.Pocket Beagle Driving a P5 RGB LED Matrix via the PocketScroller Cape
+image::figures/pocketscroller.jpg[Pocket Beagle Driving a P5 RGB LED Matrix via the PocketScroller Cape]
+
+
+===== Software
+The FPP software is most easily installed by downloading the 
+http://dankulp.com/bbb/[current FPP image], flashing an SD card and 
+booting from it. 
+
+[TIP]
+====
+The really brave can install it on a already running image.  See details at
+<https://github.com/FalconChristmas/fpp/blob/master/SD/FPP_Install.sh>
+====
+
+Assuming the PocketBeagle is attached via the USB cable, 
+on your host computer browse to <http://192.168.7.2/> and you will see 
+<<case_fpp_program_control>>.
+
+[[case_fpp_program_control]]
+.Falcon Play Program Control
+image::figures/fpp_program_control.png[Falcon Play Program Control]
+
+You can test the display by first setting up the Channel Outputs and then 
+going to *Display Testing*.  <<case_channel_outputs_menu>> shows where to 
+select Channel Outputs and <<case_channel_outputs>> shows which settings to use.
+
+[[case_channel_outputs_menu]]
+.Selecting Channel Outputs
+image::figures/fpp_channel_outputs_menu.png[Selecting Channel Outputs]
+
+[[case_channel_outputs]]
+.Channel Outputs Settings
+image::figures/fpp_channel_outputs.png[Channel Outputs Settings]
+
+Click on the *LED Panels* tab and then the only changes I made was 
+to select the *Single Panel Size* to be
+*64x32* and to check the *Enable LED Panel Output*.
+
+Next we need to test the display.  Select *Display Testing* shown in
+<<case_display_testing_menu>>.
+
+[[case_display_testing_menu]]
+.Selecting Display Testing
+image::figures/fpp_display_testing_menu.png[Selecting Display Testing]
+
+Set the *End Channel* to *6144*. (6144 is 3*64*32)  
+Click *Enable Test Mode* and your matrix should light up.  Try the different 
+testing patterns shown in <<case_display_testing>>.
+
+[[case_display_testing]]
+.Display Testing Options
+image::figures/fpp_display_testing.png[Display Testing Options]
+
+===== xLights - Creating Content for the Display
+
+Once you are sure your LED Matrix is working correctly you can program it 
+with a sequence.  
+[verse, https://xlights.org/]
+____
+xLights is a free and open source program that enables you to design, create and play amazing lighting displays through the use of DMX controllers, E1.31 Ethernet controllers and more.
+
+With it you can layout your display visually then assign effects to the various items throughout your sequence. This can be in time to music (with beat-tracking built into xLights) or just however you like.
+xLights runs on Windows, OSX and Linux
+____
+xLights can be installed on your host computer (not the Beagle) by
+following instructions at 
+<https://code.launchpad.net/~chris-debenham/+archive/ubuntu/xlights>.
+
+Run xLights and you'll see <<case_xlights_setup>>.
+
+[source]
+[subs=+quotes]
+----
+host$ *apt install xlights*
+host$ *xLights*
+----
+
+[[case_xlights_setup]]
+.xLights Setup
+image::figures/xlights_setup.png[xLights Setup]
+
+We'll walk you through a simple setup to get an animation to display on the 
+RGB Matrix.  xLights can use a protocol called E1.31 to send information to 
+the display.  Setup xLights by clicking on *Add E1.31* and entering the values 
+shown in <<case_xlights_setup_e1_31>>.
+
+[[case_xlights_setup_e1_31]]
+.Setting Up E1.31
+image::figures/xlights_setup_e1_31.png[Setting Up E1.31]
+
+The *IP Address* is the Bone's address as seen from the host computer. 
+Each LED is one channel, so one RGB LED is three channels.  The P5 board 
+has 3*64*32 or 6144 channels.  These are grouped into universes of 512 
+channels each.  This gives 6144/512 = 12 universes. See the 
+https://www.doityourselfchristmas.com/wiki/index.php?title=E1.31_(Streaming-ACN)_Protocol#Configuring_Sequencing_Software_to_use_E1.31_Output[E.13 documentation] 
+for more details.
+
+Your setup should look like <<case_xlights_setup_done>>.  Click the
+*Save Setup* button to save.
+
+[[case_xlights_setup_done]]
+.xLights setup for P5 display
+image::figures/xlights_setup_done.png[xLights setup for P5 display]
+
+Next click on the *Layout* tab.  Click on the *Matrix* button as shown in 
+<<case_xlights_matrix>>, then click on the black area where you want your 
+matrix to appear.
+
+[[case_xlights_matrix]]
+.Setting up the Matrix Layout
+image::figures/xlights_layout.png[Setting up the Matrix Layout]
+
+<<case_xlights_layout_details>> shows the setting to use for the P5 matrix. 
+
+[[case_xlights_layout_details]]
+.Layout details for P5 matrix
+image::figures/xlights_layout_details.png[Layout details for P5 matrix]
+
+All I changed was *# Strings*, *Nodes/String*, *Starting Location* and most 
+importantly, expand *String Properties* and select at *String Type* of 
+*RGB Nodes*.  Above the seeting you should see that *Start Chan* is 1 and 
+the *End Chan* is 6144, which is the total number of individual LEDs (3*63*32). 
+xLights now knows we are working with a P5 matrix, now on to the sequencer. 
+
+Now click on the *Sequencer* tab and then click on the *New Sequence* button
+(<<case_seq_new>>).
+
+[[case_seq_new]]
+.Starting a new sequence
+image::figures/xlights_seq_new.png[Starting a new sequence]
+
+Then click on *Animation*, *20fps (50ms)*, and *Quick Start*. Learning how to 
+do sequences is beyond the scope of this cookbook, however I'll shown you how
+do simple sequence just to be sure xLights is talking to the Bone.
+
+===== Setting Up E1.31 on the Bone
+First we need to setup FPP to take input from xLights.  Do this by going to 
+the *Input/Output Setup* menu and selecting *Channel Inputs*.  Then 
+enter *12* for *Universe Count* and click *set* and you will see 
+<<case_inputs_setup>>.
+
+[[case_inputs_setup]]
+.E1.31 Bridge Mode Universes
+image::figures/fpp_inputs_setup.png[.E1.31 Bridge Mode Universes]
+
+Click on the *Save* button above the table.  Then go to the *Status Control* 
+menu and select *Status Page*.  Set the *FPPD Mode:* to *Bridge* as shown 
+in <<case_mode_bridge>>.
+
+[[case_mode_bridge]]
+.Bridge Mode
+image::figures/fpp_mode_bridge.png[Bridge Mode]
+
+===== Testing the xLights Connection
+The Bone is now listening for commands from xLights via the E1.31 protocol.
+A quick way to verify everything is t o return to xLights and go to the 
+*Tools* menu and select *Test* (<<case_xlights_test>>).  
+
+[[case_xlights_test]]
+.xLights test page
+image::figures/xlights_test.png[xLights test page]
+
+Click the box under *Select channels...*, click *Output to lights* and 
+select *Twinkle 50%*.  You matrix should have a colorful twinkle pattern
+(<<case_xlights_twinkle>>).
+
+[[case_xlights_twinkle]]
+.xLights Twinkle test pattern
+image::figures/xlights_twinkle.jpg[xLights Twinkle test pattern]
+
+===== A Simple xLights Sequence
+Now that the xLights to FPP link is tested you can generate a sequence to 
+play.  Close the Test window and click on the *Sequencer* tab.  Then drag 
+an effect from the *Effects* box to the timeline that below it.  Drop it to 
+the right of the *Matrix* label (<<case_seq_drag>>).  The click 
+*Output To Lights* which is the yellow lightbulb to the right on the top 
+toolbar.  Your matrix should now be displaying your effect.
+
+[[case_seq_drag]]
+.Drag an effect to the timeline
+image:figures/xlights_seq_drag.png[Drag an effect to the timeline]
+
+The setup requires the host computer to send the animation data to the Bone. 
+The next section shows how to save the sequence and play it on the Bone 
+standalone.
+
+===== Saving a Sequence and Playing it Standalone
+In xLights save your sequence by hitting Ctrl-S and giving it a name.  I called 
+mine *fire* since I used a fire effect.  Now, switch back to FPP and select 
+the *Content Setup* menu and select *File Manager*.  Click the blue
+*Select Files* button and select your sequence file that ends in *.fseq*
+(<<case_file_manager>>).
+
+[[case_file_manager]]
+.FPP file manager
+image:figures/fpp_file_manager.png[FPP file manager]
+
+Once your sequence is uploaded, got to *Content Steup* and select *Playlists*. 
+Enter you playlist name (I used *fire*) and click *Add*.  Then go down to 
+the *New Playlist Entry* section and select *Sequence Only* 
+(<<case_playlist>>), then click *Add*. 
+
+[[case_playlist]]
+.Adding a new playlist to FPP
+image::figures/fpp_playlist.png[Adding a new playlist to FPP]
+
+Be sure to click *Save* under *Playlist Details*. Now return to 
+*Status/Control* and *Status Page* and make sure *FPPD Mode:* is set 
+to *Player (Standalone)*.  You should see your playlist.  Click the *Play* 
+button at the bottom of the page and your sequence will play.
+
+The beauty of the PRU is that the Beagle can play a detailed sequence at 
+20 frames per second and the ARM procossor is only 15% used.  The PRUs 
+are doing all the work.
+
+=== MachineKit
+http://www.machinekit.io/[MachineKit] is a platform for machine control 
+applications.  It can control 
+machine tools, robots, or other automated devices. It can control servo 
+motors, stepper motors, relays, and other devices related to machine tools.
+
+[verse, http://www.machinekit.io/about/]
+____
+Machinekit is portable across a wide range of hardware platforms and real-time environments, and delivers excellent performance at low cost. It is based on the HAL component architecture, an intuitive and easy to use circuit model that includes over 150 building blocks for digital logic, motion, control loops, signal processing, and hardware drivers. Machinekit supports local and networked UI options, including ubiquitous platforms like phones or tablets.
+____
+
+=== ArduPilot
+http://ardupilot.org/[ArduPilot] is a open source autopilot system supporting multi-copters, traditional helicopters, fixed wing aircraft and rovers. 
+ArduPilot runs on a many 
+http://ardupilot.org/copter/docs/common-autopilots.html[hardware platforms] 
+including the
+http://ardupilot.org/dev/docs/building-for-beaglebone-black-on-linux.html#building-for-beaglebone-black-on-linux[BeagleBone Black] and the 
+http://ardupilot.org/copter/docs/common-beagle-bone-blue.html[BeagleBone Blue].
+
+
+[verse, http://www.machinekit.io/about/]
+____
+Ardupilot is the most advanced, full-featured and reliable open source autopilot software available. It has been developed over 5+ years by a team of diverse professional engineers and computer scientists. It is the only autopilot software capable of controlling any vehicle system imaginable, from conventional airplanes, multirotors, and helicopters, to boats and even submarines. And now being expanded to feature support for new emerging vehicle types such as quad-planes and compound helicopters.
+Installed in over 1,000,000 vehicles world-wide, and with its advanced data-logging, analysis and simulation tools, Ardupilot is the most tested and proven autopilot software. The open-source code base means that it is rapidly evolving, always at the cutting edge of technology development. With many peripheral suppliers creating interfaces, users benefit from a broad ecosystem of sensors, companion computers and communication systems. Finally, since the source code is open, it can be audited to ensure compliance with security and secrecy requirements.
+
+The software suite is installed in aircraft from many OEM UAV companies, such as 3DR, jDrones, PrecisionHawk, AgEagle and Kespry. It is also used for testing and development by several large institutions and corporations such as NASA, Intel and Insitu/Boeing, as well as countless colleges and universities around the world.
+____

@@ -1,0 +1,76 @@
+= PRU Cookbook
+:author: Mark A. Yoder
+:email:	Mark.A.Yoder@Rose-Hulman.edu
+
+:sectnums:
+:sectids:
+:sectlinks:
+:toc:
+:toclevels: 2
+// :source-highlighter: rouge
+:source-highlighter: coderay
+
+== Style
+
+Here are some notes what style to use.
+
+=== Including code
+
+.Title
+[source,bash,linenums]
+[subs=+quotes]
+----
+include::04debug/code/uart_setup.sh[lines=1..22]
+----
+
+=== Including figures
+
+.Caption
+image:01start/figures/debianImages.png[Latest Debian images]
+
+You can also give the image an id, a title (i.e., caption), set its dimensions (i.e., width and height) and make it a link:
+
+[#img-sunset]
+.A mountain sunset
+[link=http://www.flickr.com/photos/javh/5448336655]
+image::sunset.jpg[Sunset,300,200]
+
+
+[cols="1,9"]
+|===
+|===
+
+=== Names
+* PocketBeagle
+* BeagleBone
+* GPIO
+* `P9`
+* TODO
+
+[TIP]
+====
+Here is a test.
+====
+
+[[tag]]
+<<05blocks/blocks.html#, Building Blocks - Applications>>
+
+=== Copyright
+[source,c,linenums]
+.copyright.c
+----
+include::code/copyright.c[copyright.c]
+----
+
+=== Index
+((Include term))
+(((Don't include term)))
+
+=== Callouts
+<1>
+
+=== Verse
+[verse, https://github.com/Yona-Appletree/LEDscape]
+____
+LEDscape
+____
