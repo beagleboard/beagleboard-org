@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1593013828999">
+  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1596121077754">
   <hop:parent idref="4385" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">cSRlYNxSIqTWoJSwFLWjH8jPqZ4/fYCXT5gasy9m+SD2xFSRN3XcZ1R3/Pi82XyhmnE6BLcG0E/pOq5LnKIRuKivX1OOdMf19OmMxwE9Yi+UUQm4MDRXHAlC0hf1VzHBIvjp+w0JRh3idfLD9Tk05rDE/zy7thKtyge6I3wHRqk8ha5UbSjdCmttH4SptNCHVFeuMpJO5SS08KnRAgvxqQlRr1SQfx2R7uqFy3TbWBOgbwIw3ZSTiuy0nuy37D+0wYUGNBsWAtn6s7sU+YDebrUdZrw8Y/MNPya+jgB1feCrohDuh554HhRmpVKj9amcFPHxh2v+y/EjHneJOEa+r9WQ7g==--O8m1xbIiWGpbjCq3--NbG0oWlbphvL6DZspWCjNw==</property>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTRNalUyTXpBME55NHdPVGt6TWpJMkJqc0FSZz09IiwiZXhwIjoiMjAyMS0wMi0yNFQxNjo1MDo0Ny4wOTlaIiwicHVyIjpudWxsfX0=--30fd35d85f1cef6dbbafc1c54323c856bed0368c</property>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <uri>Grove</uri>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36</http_browser>
-    <time type="date">24.06.2020 15:50:28 UTC</time>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:77.0) Gecko/20100101 Firefox/77.0</http_browser>
+    <time type="date">30.07.2020 14:57:57 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.1kwdmr5kess6q</hopsession>
-    <tk_tc>SLbXkWte5SGCqRk6</tk_tc>
+    <hopsession>127.0.0.a6eu4bgndojb</hopsession>
+    <tk_tc>ATlwEp+cwKpRwbHn</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;style&gt;
 #overlay {
@@ -29,9 +29,11 @@
   cursor: pointer;
 }
 &lt;/style&gt;
+&lt;!--
 &lt;div id=&quot;overlay&quot; onclick=&quot;off()&quot;&gt;
 &lt;img src=&quot;/static/images/coming-soon-3008776_960_720.webp&quot; /&gt;
 &lt;/div&gt;
+--&gt;
 &lt;script&gt;
 function on() {
   document.getElementById(&quot;overlay&quot;).style.display = &quot;block&quot;;
@@ -76,8 +78,9 @@ function off() {
     &lt;br /&gt;
     &lt;select class=&quot;dropdown&quot; id=&quot;buy-kit-grove&quot;&gt;
       &lt;option&gt;Select a distributor to buy&lt;/option&gt;
-&lt;!--      &lt;option value=&quot;https://www.arrow.com/en/products/pocketbeagle-grove-kit/beagleboardorg&quot;&gt;Arrow&lt;/option&gt; --&gt;
       &lt;option value=&quot;https://www.mouser.com/ProductDetail/Seeed-Studio/110061161?qs=%2Fha2pyFaduiZ9rSvTHw7RNsUSKevMrWBBI2QR78SBLLnZz%2FrxcKMZ7L%252BRQnNUXtt&quot;&gt;Mouser&lt;/option&gt;
+      &lt;option value=&quot;https://www.digikey.com/products/en?keywords=2820-110061161-ND&quot;&gt;DigiKey&lt;/option&gt;
+      &lt;option value=&quot;https://www.arrow.com/en/products/pocketbeagle-grove-kit/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
     &lt;/select&gt;
   &lt;/div&gt;
 
@@ -297,10 +300,10 @@ height=&quot;925&quot;
     <pvcount type="float">0.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
-    <http_referer>https://beagleboard.org/kits/grove/tide</http_referer>
     <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/Kits/Grove/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
