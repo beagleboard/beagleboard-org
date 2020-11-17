@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4400" name="Page" prototype="Page" created="1605302463301" lastModified="1605302853041">
+  <hopobject id="4400" name="Page" prototype="Page" created="1605302463301" lastModified="1605630101162">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>donate</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:82.0) Gecko/20100101 Firefox/82.0</http_browser>
-    <time type="date">13.11.2020 21:27:33 UTC</time>
+    <time type="date">17.11.2020 16:21:41 UTC</time>
     <hopsession>127.0.0.o4ro4m2m5joo</hopsession>
     <tk_tc>QC8hFld9vuOExIt/</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Donate&lt;/h1&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.patreon.com/bePatron?u=45515393&quot;&gt;Patreon&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://paypal.me/beagleboard&quot;&gt;PayPal.me&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/sponsors/beagleboard&quot;&gt;Github Sponsors&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://smile.amazon.com/ch/47-4980860&quot;&gt;Amazon Smile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Badges&lt;/h2&gt;
 &lt;a href=&quot;https://www.patreon.com/bePatron?u=45515393&quot; data-patreon-widget-type=&quot;become-patron-button&quot;&gt;Become a Patron!&lt;/a&gt;&lt;script async src=&quot;https://c6.patreon.com/becomePatronButton.bundle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- &lt;a href=&quot;https://paypal.me/beagleboard&quot;&gt;PayPal.me/BeagleBoard&lt;/a&gt; --&gt;</body>
+&lt;div id=&quot;amznCharityBanner&quot;&gt;&lt;script type=&quot;text/javascript&quot;&gt;(function() {var iFrame = document.createElement(&apos;iframe&apos;); iFrame.style.display = &apos;none&apos;; iFrame.style.border = &quot;none&quot;; iFrame.width = 310; iFrame.height = 256; iFrame.setAttribute &amp;&amp; iFrame.setAttribute(&apos;scrolling&apos;, &apos;no&apos;); iFrame.setAttribute(&apos;frameborder&apos;, &apos;0&apos;); setTimeout(function() {var contents = (iFrame.contentWindow) ? iFrame.contentWindow : (iFrame.contentDocument.document) ? iFrame.contentDocument.document : iFrame.contentDocument; contents.document.open(); contents.document.write(decodeURIComponent(&quot;%3Cdiv%20id%3D%22amznCharityBannerInner%22%3E%3Ca%20href%3D%22https%3A%2F%2Fsmile.amazon.com%2Fch%2F47-4980860%22%20target%3D%22_blank%22%3E%3Cdiv%20class%3D%22text%22%20height%3D%22%22%3E%3Cdiv%20class%3D%22support-wrapper%22%3E%3Cdiv%20class%3D%22support%22%20style%3D%22font-size%3A%2025px%3B%20line-height%3A%2028px%3B%20margin-top%3A%201px%3B%20margin-bottom%3A%201px%3B%22%3ESupport%20%3Cspan%20id%3D%22charity-name%22%20style%3D%22display%3A%20inline-block%3B%22%3EBeagleboard%20Org%20Foundation.%3C%2Fspan%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cp%20class%3D%22when-shop%22%3EWhen%20you%20shop%20at%20%3Cb%3Esmile.amazon.com%2C%3C%2Fb%3E%3C%2Fp%3E%3Cp%20class%3D%22donates%22%3EAmazon%20donates.%3C%2Fp%3E%3C%2Fdiv%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cstyle%3E%23amznCharityBannerInner%7Bbackground-image%3Aurl(https%3A%2F%2Fm.media-amazon.com%2Fimages%2FG%2F01%2Fx-locale%2Fpaladin%2Fcharitycentral%2Fbanner-background-image._CB485922134_.png)%3Bwidth%3A300px%3Bheight%3A250px%3Bposition%3Arelative%7D%23amznCharityBannerInner%20a%7Bdisplay%3Ablock%3Bwidth%3A100%25%3Bheight%3A100%25%3Bposition%3Arelative%3Bcolor%3A%23000%3Btext-decoration%3Anone%7D.text%7Bposition%3Aabsolute%3Btop%3A20px%3Bleft%3A15px%3Bright%3A15px%3Bbottom%3A100px%7D.support-wrapper%7Boverflow%3Ahidden%3Bmax-height%3A86px%7D.support%7Bfont-family%3AArial%2Csans%3Bfont-weight%3A700%3Bline-height%3A28px%3Bfont-size%3A25px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D.when-shop%7Bfont-family%3AArial%2Csans%3Bfont-size%3A15px%3Bfont-weight%3A400%3Bline-height%3A25px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D.donates%7Bfont-family%3AArial%2Csans%3Bfont-size%3A15px%3Bfont-weight%3A400%3Bline-height%3A21px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D%3C%2Fstyle%3E&quot;)); contents.document.close(); iFrame.style.display = &apos;block&apos;;}); document.getElementById(&apos;amznCharityBanner&apos;).appendChild(iFrame); })(); &lt;/script&gt;&lt;/div&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
     <wpstg_hide_feedback>1</wpstg_hide_feedback>
     <http_referer>https://beagleboard.org/donate/pangea</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
