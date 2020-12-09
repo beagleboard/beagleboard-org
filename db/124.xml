@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="124" name="chat" prototype="Page" created="1211119922104" lastModified="1564783621365">
+  <hopobject id="124" name="chat" prototype="Page" created="1211119922104" lastModified="1607545657943">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36</http_browser>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0</http_browser>
     <projhids>[1615e0</projhids>
     <registrant>blog.hangerhead.com</registrant>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <lang>en-us</lang>
     <uri>chat</uri>
     <initialreferrer>beagleboard.org</initialreferrer>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <http_remotehost>127.0.0.1</http_remotehost>
     <initiallandingpage>/p</initiallandingpage>
     <property propertyname="hck.sssn">SVROYytnZHQwdS80aUY5RVVqN2pRUGlXYzZJeGpOeHRXL1F2WW1vRW1ITVdsdkE2K29oVXRmakZMdDFlZktmN3g4MWhsaFpYclgyM3R3MVJUbGZpSG41MTZQVk5IN2hHa3hITkh5YStjUXo0aGJWZ1RIb3ZUbGhhRm41emZkWDNHTlZtZ3pQUU9LK0pRaEF1eVorUTAvdTM3d3Y0QW50MGV3TEZuRGh0N0RVRVVFU3F4U0FYbXlPS0Nlay9ZQmtRLS1KYkRYamczR21nQ3ltRzBKNStvbnB3PT0=--4625fa5cd3693174863335c3fc44f82e5b357980</property>
-    <hopsession>127.0.0.ptuox4hyv5j4</hopsession>
+    <hopsession>127.0.0.1g74zrg3b5ey4</hopsession>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <is_xhtml type="boolean">true</is_xhtml>
     <tk_tc>OAVxVxDabwtfA2rX</tk_tc>
@@ -48,10 +48,12 @@
   &lt;a class=&quot;external&quot; href=&quot;http://logs.nslu2-linux.org/livelogs/beagle/&quot;&gt;http://logs.nslu2-linux.org/livelogs/beagle/.&lt;/a&gt;
  &lt;/p&gt;
  &lt;h2&gt;Live chat&lt;/h2&gt;
+ &lt;a href=&quot;https://webchat.freenode.net/?channels=beagle&quot; class=&quot;external&quot;&gt;&lt;h3&gt;Click Here!&lt;/h3&gt;&lt;/a&gt;
 &lt;!-- &lt;iframe src=&quot;http://webchat.freenode.net?randomnick=1&amp;channels=%23beagle&quot; width=&quot;647&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;--&gt;
- &lt;object data=&quot;https://webchat.freenode.net/?channels=beagle&quot; width=&quot;800&quot; height=&quot;600&quot;&gt;
+ &lt;!-- &lt;object data=&quot;https://webchat.freenode.net/?channels=beagle&quot; width=&quot;800&quot; height=&quot;600&quot;&gt;
   &lt;br/&gt;
  &lt;/object&gt;
+ --&gt;
  &lt;div&gt;
   &lt;p&gt;Beagle IRC channel: join #beagle on irc.freenode.net&lt;/p&gt;
   &lt;ul&gt;
@@ -63,7 +65,8 @@
    &lt;/li&gt;
   &lt;/ul&gt;
  &lt;/div&gt;</body>
-    <http_referer>https://beagleboard.org/chat/tide</http_referer>
+    <http_referer>https://beagleboard.org/chat/pangea</http_referer>
+    <doxygen_width>300</doxygen_width>
     <user>default</user>
     <prev idref="80" prototyperef="Page"/>
     <http_host>127.0.0.1:8080</http_host>
@@ -73,12 +76,12 @@
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="278d81]"></property>
     <property propertyname="hck.usi">1</property>
-    <time type="date">02.08.2019 22:07:01 UTC</time>
+    <time type="date">09.12.2020 20:27:37 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/patrickpoirier51/pocketpilot-a-new-linux-fc-based-on-the-25-pocketbeagle-1fa14b&quot;,&quot;Session landing page type&quot;: &quot;projects#show&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">1597.0</pvcount>
-    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <pvcount type="float">1597.0</pvcount>
   </hopobject>
 </xmlroot>
