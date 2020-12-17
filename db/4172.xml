@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4172" name="Page" prototype="Page" created="1455116692060" lastModified="1540816752719">
+  <hopobject id="4172" name="Page" prototype="Page" created="1455116692060" lastModified="1595363325518">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -9,10 +9,18 @@
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>e14-bbbi</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36</http_browser>
-    <time type="date">23.05.2018 18:05:08 UTC</time>
-    <hopsession>127.0.0.vzezup8o4kq4</hopsession>
-    <body>&lt;h1&gt;element14 BeagleBone Black Industrial&lt;/h1&gt;
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36</http_browser>
+    <time type="date">21.07.2020 20:28:45 UTC</time>
+    <hopsession>127.0.0.w0fa6qlq7ln9</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body>&lt;script&gt;
+    goTracked(&apos;e14-bbbi&apos;, &quot;/black-industrial&quot;);
+&lt;/script&gt;
+
+&lt;h1&gt;Please see &lt;a href=&quot;/black-industrial&quot;&gt;BeagleBoard.org BeagleBone Black Industrial&lt;/a&gt;&lt;/h1&gt;
+
+
+&lt;h1&gt;element14 BeagleBone Black Industrial&lt;/h1&gt;
 &lt;p&gt;Please see &lt;a href=&quot;https://www.element14.com/community/docs/DOC-78671/l/element14-beaglebone-black-industrial-4g&quot;&gt;element14&apos;s page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div style=&quot;clear:both&quot; /&gt;&lt;/div&gt;
@@ -77,7 +85,7 @@ The element14 BeagleBone Black Industrial answers the need for an industrial rat
 &lt;li&gt;Works with existing BeagleBone Black Capes&lt;/li&gt;
 &lt;li&gt;Software compatible with BeagleBone Black&lt;/li&gt;
 &lt;li&gt;Temperature range from -40°C to +85°C&lt;/li&gt;
-&lt;li&gt;BeagleBoard Compatible&lt;sup&gt;&amp;trade;&lt;/sup&gt; product&lt;/li&gt;  
+&lt;li&gt;BeagleBoard Compatible&lt;sup&gt;™&lt;/sup&gt; product&lt;/li&gt;  
 &lt;/ul&gt;
 &lt;/p&gt;    
  &lt;/div&gt;
@@ -239,14 +247,16 @@ Browse the &lt;a href=&quot;TBD&quot; Class=&quot;external&quot;&gt;element14 Be
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">14592.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <g_enabled_idps>google</g_enabled_idps>
     <initiallandingpage>/p</initiallandingpage>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>https://beagleboard.org/e14-bbbi/edit</http_referer>
+    <doxygen_width>300</doxygen_width>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <initialreferrer>beagleboard.org</initialreferrer>
+    <http_referer>https://beagleboard.org/e14-bbbi/tide</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <http_host>127.0.0.1:8080</http_host>
+    <initialreferrer>beagleboard.org</initialreferrer>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>

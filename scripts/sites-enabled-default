@@ -137,6 +137,15 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+
+
+
+
+
 }
 
 server {
@@ -150,6 +159,8 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
 }
 
 server {
@@ -162,6 +173,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
@@ -174,6 +186,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
@@ -186,6 +199,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
@@ -1931,6 +1945,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }
 
 server {
@@ -1943,6 +1958,7 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
 }
 
 server {
@@ -1952,10 +1968,34 @@ server {
 	root /mnt/debian/;
 
 	location / {
-		autoindex on;
+		fancyindex on;
+		fancyindex_header "/static/fi-theme/header.html";
+		fancyindex_footer "/static/fi-theme/footer.html";
+		fancyindex_ignore "fi-theme";
+		fancyindex_ignore "Nginx-Fancyindex-Theme";
+		fancyindex_name_length 255;
+		fancyindex_localtime on;
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
+}
+
+upstream yacy {
+	server 127.0.0.1:8090;
+}
+
+server {
+	listen 80;
+	listen 443;
+	server_name	search.beagleboard.org;
+
+	location / {
+        	proxy_pass http://yacy;
+	}
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
 }
 
 upstream buildbot {
@@ -2012,4 +2052,5 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 }

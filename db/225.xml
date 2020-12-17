@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="225" name="search" prototype="Page" created="1215747531033" lastModified="1540817922200">
+  <hopobject id="225" name="search" prototype="Page" created="1215747531033" lastModified="1579104169887">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>search</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">04.02.2016 15:59:57 UTC</time>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.8rworrylh1fb</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">10308.0</pvcount>
-    <body>&lt;script&gt;
+    <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFPMWVBUkpJa0VrTW1Fa01UQWtMMUV6TW1Gek5uUkZWWFZ2ZFRaMmRXZ3hhVGxqWlc5NlNGSk1UWHAxU0dGMFVXZHZkbE5uZERWU01tdGpObGRDTURKdlEwOEdPZ1pGVkVraUZ6RTFOemcxTWpZMU5USXVNRE00TkRrNE5nWTdBRVk9IiwiZXhwIjoiMjAyMS0wMS0wOFQyMzozNTo1Mi4wMzhaIiwicHVyIjpudWxsfX0=--75a38e9f2aee628d3479c646d6218b244ea12abb</property>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.9</http_language>
+    <uri>search</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36</http_browser>
+    <time type="date">15.01.2020 16:02:49 UTC</time>
+    <hopsession>127.0.0.1h71q203d4yjs</hopsession>
+    <tk_tc>SLbXkWte5SGCqRk6</tk_tc>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body>      &lt;iframe name=&quot;target3&quot;
+       src=&quot;https://search.beagleboard.org/yacyinteractive.html?display=2&quot;
+       width=&quot;100%&quot;
+       height=&quot;500&quot;
+       frameborder=&quot;1&quot;
+       scrolling=&quot;auto&quot;
+       id=&quot;target3&quot;&gt; 
+      &lt;/iframe&gt;  
+&lt;script&gt;
   (function() {
     var cx = &apos;001071468846613058269:xd-gxvzmbq4&apos;;
     var gcse = document.createElement(&apos;script&apos;);
@@ -25,9 +35,12 @@
   })();
 &lt;/script&gt;
 &lt;gcse:search&gt;&lt;/gcse:search&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/search/edit</http_referer>
-    <beagleirclog>000000</beagleirclog>
+    <pvcount type="float">10308.0</pvcount>
+    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <g_enabled_idps>google</g_enabled_idps>
+    <http_referer>https://beagleboard.org/search/tide</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>

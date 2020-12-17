@@ -66,6 +66,7 @@ function tide_action ()
   var saveEdit = false;
 
   //if(this.edit_skin == 'edit_project') return(res.redirect());
+  return;
 
   if (false)
    {

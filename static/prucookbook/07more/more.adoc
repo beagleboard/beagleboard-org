@@ -1,0 +1,404 @@
+include::../header.adoc[]
+
+== More Performance
+
+So far in all our examples we've been able to meet our timing goals by writing
+our code in the C programming language. The C compiler does a suprisingly
+good job at generating code, most the time.  However there are times
+when very precise timing is needed and the compiler isn't doing it.
+
+At these times you need to write in assembly language.  This chapter
+introduces the PRU assembler and shows how to call assembly code from
+C. Detailing on how to program in assembly are beyond the scope of this text.
+
+The following are resources used in this chapter.
+
+.Resources
+* http://www.ti.com/lit/ug/spruhv7b/spruhv7b.pdf[PRU Optimizing C/C++ Compiler, v2.2, User's Guide]
+* http://www.ti.com/lit/ug/spruhv6b/spruhv6b.pdf[PRU Assembly Language Tools User's Guide]
+* http://www.ti.com/lit/ug/spruij2/spruij2.pdf[PRU Assembly Instruction User Guide]
+
+=== Calling Assembly from C
+==== Problem
+You have some C code and you want to call an assembly language routine from
+it.
+
+==== Solution
+You need to do two things, write the assembler file and modify the `Makefile`
+to include it. For example, let's write our own `my_delay_cycles` routine in
+in assembly.  The intrinsic `pass:[__]delay_cycles` must be passed a compile time
+constant.  Our new `delay_cycles` can take a runtime delay value.
+
+<<more_delay-test>> is much like our other c code, but on line 10 we declare 
+`my_delay_cycles` and then on lines 24 and 26 we'll call it with an argument
+of 1.
+[[more_delay-test]]
+.delay-test..pru0.c
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/delay-test.pru0.c[]
+----
+
+<<more_delay>> is the assembly code.
+[[more_delay]]
+.delay.pru0.asm
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/delay.pru0.asm[]
+----
+
+The `Makefile` has one addition that needs to be made to compile both <<more_delay-test>>
+and <<more_delay>>.
+If you look in the local `Makefile` you'll see:
+[[more_makefile]]
+.Makefile
+[source,makefile]
+----
+include::code/Makefile[]
+----
+
+This Makefle includes a common Makfile at  `/var/lib/cloud9/common/Makefile`,
+this the Makefile you need to edit. 
+Edit `/var/lib/cloud9/common/Makefile` and go to line 197.
+
+[source,makefile]
+[subs=+quotes]
+----
+$(GEN_DIR)/%.out: $(GEN_DIR)/%.o *$(GEN_DIR)/$(TARGETasm).o*
+	@mkdir -p $(GEN_DIR)
+	@echo 'LD	$^'
+	$(eval $(call target-to-proc,$@))
+	$(eval $(call proc-to-build-vars,$@))
+	@$(LD) $@ $^ $(LDFLAGS) 
+----
+Add `*(GEN_DIR)/$(TARGETasm).o*` as shown in bold above.  You will want to remove
+this addition once you are done with this example since it will break the other examples.
+
+The following will compile and run everything.
+[source,bash]
+[subs=+quotes]
+----
+bone$ *config-pin P9_31 pruout*
+bone$ *make TARGET=delay-test.pru0 TARGETasm=delay.pru0*
+/var/lib/cloud9/common/Makefile:29: MODEL=TI_AM335x_BeagleBone_Black,TARGET=delay-test.pru0
+-    Stopping PRU 0
+-	copying firmware file /tmp/cloud9-examples/delay-test.pru0.out to /lib/firmware/am335x-pru0-fw
+write_init_pins.sh
+-    Starting PRU 0
+MODEL   = TI_AM335x_BeagleBone_Black
+PROC    = pru
+PRUN    = 0
+PRU_DIR = /sys/class/remoteproc/remoteproc1
+----
+
+The resulting output is shown in <<more_my_delay_cycles>>.
+
+[[more_my_delay_cycles]]
+.Output of my_delay_cycles()
+image:figures/my_delay_cycles.png[Output of my_delay_cycles()]
+
+Notice the on time is about 35ns and the off time is 30ns.
+
+==== Discission
+There is much to explain here.  Let's start with <<more_delay>>.
+
+.Line-by-line of delays.asm
+[cols="1,9"]
+|===
+|Line |Explanation
+
+|3    |Declare `my_delay_cycles` to be global so the linker can find it.
+|4    |Label the starting point for `my_delay_cycles`.
+|5    |Label for our delay loop.
+|6    |The first argument is passed in register `r14`.  Page 111 of
+http://www.ti.com/lit/ug/spruhv7b/spruhv7b.pdf[PRU Optimizing C/C++ Compiler, v2.2, User's Guide]
+gives the argument passing convention.  Registers `r14` to `r29` are used
+to pass arguments, if there are more arguments, the argument stack (`r4`)
+is used.  The other register conventions are found on page 108.
+
+Here we subtract 1 from `r14` and save it back into `r14`.
+|7    |`qbne` is a quick branch if not equal.
+|9    |Once we've delayed enough we drop through the quick branch and 
+hit the jump.  The upper bits of register `r3` has the return address,
+therefore we return to the c code.
+|===
+
+<<more_my_delay_cycles>> shows the _on_ time is 35ns and the off time is 30ns.
+With 5ns/cycle this gives 7 cycles on and 6 off. These times make sense 
+because each instruction takes a cycle and you have, set `R30`, jump to
+`my_delay_cycles`, `sub`, `qbne`, `jmp`. Plus the instruction (not seen) that
+initilizes `r14` to the passed value.  That's a total of six instructions.
+The extra instruction is the branch at the bottom of the `while` loop.
+
+
+=== Returning a Value from Assembly
+==== Problem
+Your assembly code needs to return a value.
+
+==== Solution
+`R14` is how the return value is passed back.  <<more_test2>> shows the c
+code.
+
+[[more_test2]]
+.delay-test2.pru0.c
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/delay-test2.pru0.c[]
+----
+
+<<more_delay2>> is the assembly code.
+[[more_delay2]]
+.delay2.pru0.asm
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/delay2.pru0.asm[]
+----
+
+An additional feature is shown in line 4 of <<more_delay2>>.  The
+`.cdecls "delay-test2.pru0.c"` says to include any defines from `delay-test2.pru0.c`
+In this example, line 6 of <<more_test2>> `#defines` TEST and line 12 of 
+<<more_delay2>> reference it.
+
+
+=== Using the Built-In Counter for Timing
+==== Problem
+I want to count how many cycles my routine takes.
+
+==== Solution
+Each PRU has a `CYCLE` register which counts the number of cycles since
+the PRU was enabled. They also have a `STALL` register that counts how
+many times the PRU stalled fetching an instruction.
+<<more_cycle>> shows they are used.
+
+[[more_cycle]]
+.cycle.pru0.c - Code to count cycles.
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/cycle.pru0.c[]
+----
+
+==== Discission
+The code is mostly the same as other examples. 
+`cycle` and `stall` end up in registers which
+we can read using prudebug.
+<<more_cycle_lines>> is the Line-by-line.
+
+[[more_cycle_lines]]
+[cols="1,9"]
+.Line-by-line for cycle.pru0.c
+|===
+|Line|Explanation
+
+|4   |Include needed to reference `CYCLE` and `STALL`. 
+|16  |Declaring `cycle` and `stall`.  The compiler will optimize these and just
+keep them in registers.  We'll have to look at the `cycle.pru0.lst` file to see where
+they are stored.
+|21  |Enables `CYCLE`.
+|26  |Reset `CYCLE`. It ignores the value assigned to it and always sets it
+to 0.  `cycle` is on the right hand side to make the compiler give it it's own
+register.
+|28, 29|Reads the `CYCLE` and `STALL` values into registers.
+|===
+
+You can see where `cycle` and `stall` are stored by looking into 
+<<more_cycle_list0>>.
+[[more_cycle_list0]]
+./tmp/cloud9-examples/cycle.pru0.lst Lines 113..119
+[source,asm,linenums]
+[subs=+quotes]
+----
+include::code/cycle.pru0.lst[lines=113..119]
+----
+Here the `LDI32` instruction loads the address `0x22000` into `r0`.  
+This is the offset to the `CTRL` registers. 
+ Later in the file we see <<more_cycle_list1>>.
+ 
+[[more_cycle_list1]]
+./tmp/cloud9-examples/cycle.pru0.lst Lines 146..152
+[source,asm,linenums]
+[subs=+quotes]
+----
+include::code/cycle.pru0.lst[lines=146..152]
+----
+The first `LBBO` takes the contents of `r0` and adds the offset 12 to it and
+copies 4 bytes into `r1`.  This points to `CYCLE`, so `r1` has the contents of
+`CYCLE`.
+
+The second `LBBO` does the same, but with offset 16, which points to `STALL`,
+thus `STALL` is now  in `r0`.
+
+Now fire up ((prudebug)) and look at those registers. 
+[source,bash]
+[subs=+quotes]
+----
+bone$ *sudo prudebug*
+PRU0> *r*
+r
+r
+Register info for PRU0
+    Control register: 0x00000009
+      Reset PC:0x0000  STOPPED, FREE_RUN, COUNTER_ENABLED, NOT_SLEEPING, PROC_DISABLED
+
+    Program counter: 0x0012
+      Current instruction: HALT
+
+    R00: *0x00000005*    R08: 0x00000200    R16: 0x000003c6    R24: 0x00110210
+    R01: *0x00000003*    R09: 0x00000000    R17: 0x00000000    R25: 0x00000000
+    R02: 0x000000fc    R10: 0xfff4ea57    R18: 0x000003e6    R26: 0x6e616843
+    R03: 0x0004272c    R11: 0x5fac6373    R19: 0x30203020    R27: 0x206c656e
+    R04: 0xffffffff    R12: 0x59bfeafc    R20: 0x0000000a    R28: 0x00003033
+    R05: 0x00000007    R13: 0xa4c19eaf    R21: 0x00757270    R29: 0x02100000
+    R06: 0xefd30a00    R14: 0x00000005    R22: 0x0000001e    R30: 0xa03f9990
+    R07: 0x00020024    R15: 0x00000003    R23: 0x00000000    R31: 0x00000000
+ 
+----
+So `cycle` is 3 and `stall` is 5. It must be one cycle to clear the GPIO
+and 2 cycles to read the `CYCLE` register and save it in the register. 
+It's interesting there are 5 `stall` cycles. 
+
+If you switch the order of
+lines 30 and 31 you'll see `cycle` is 7 and `stall` is 2. `cycle` now
+includes the time needed to read `stall` and `stall` no longer includes
+the time to read `cycle`.
+
+
+
+=== Xout and Xin - Transfering Between PRUs
+==== Problem
+I need to transfer data between PRUs quickly.
+
+==== Solution
+The `pass:[__]xout()` and `pass:[__]xin()` intrinsics are able to transfer up to 30 registers between
+PRU 0 and PRU 1 quickly.  <<more_xout>> shows how `xout()` running on PRU 0 
+transfers six registers to PRU 1.
+
+[[more_xout]]
+.xout.pru0.c
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/xout.pru0.c[]
+----
+
+PRU 1 waits at line 42 until PRU 0 signals it.  <<more_xin>> sends sends an
+interupt to PRU 0 and waits for it to send the data.
+
+[[more_xin]]
+.xin.pru1.c
+[source,c,linenums]
+[subs=+quotes]
+----
+include::code/xin.pru1.c[]
+----
+
+Use `prudebug` to see registers R5-R10 are transfered from PRU 0 to PRU 1.
+
+[source,c,linenums]
+[subs=+quotes]
+----
+PRU0> *r*
+Register info for PRU0
+    Control register: 0x00000001
+      Reset PC:0x0000  STOPPED, FREE_RUN, COUNTER_DISABLED, NOT_SLEEPING, PROC_DISABLED
+
+    Program counter: 0x0026
+      Current instruction: HALT
+
+    R00: 0x00000012    *R08: 0xbbbbbbbb*    R16: 0x000003c6    R24: 0x00110210
+    R01: 0x00020000    *R09: 0x87654321*    R17: 0x00000000    R25: 0x00000000
+    R02: 0x000000e4    *R10: 0xcccccccc*    R18: 0x000003e6    R26: 0x6e616843
+    R03: 0x0004272c    R11: 0x5fac6373    R19: 0x30203020    R27: 0x206c656e
+    R04: 0xffffffff    R12: 0x59bfeafc    R20: 0x0000000a    R28: 0x00003033
+    *R05: 0xdeadbeef*    R13: 0xa4c19eaf    R21: 0x00757270    R29: 0x02100000
+    *R06: 0xaaaaaaaa*    R14: 0x00000005    R22: 0x0000001e    R30: 0xa03f9990
+    *R07: 0x12345678*    R15: 0x00000003    R23: 0x00000000    R31: 0x00000000
+
+PRU0> *pru 1*
+pru 1
+Active PRU is PRU1.
+
+PRU1> *r*
+r
+Register info for PRU1
+    Control register: 0x00000001
+      Reset PC:0x0000  STOPPED, FREE_RUN, COUNTER_DISABLED, NOT_SLEEPING, PROC_DISABLED
+
+    Program counter: 0x000b
+      Current instruction: HALT
+
+    R00: 0x00000100    *R08: 0xbbbbbbbb*    R16: 0xe9da228b    R24: 0x28113189
+    R01: 0xe48cdb1f    *R09: 0x87654321*    R17: 0x66621777    R25: 0xddd29ab1
+    R02: 0x000000e4    *R10: 0xcccccccc*    R18: 0x661f83ea    R26: 0xcf1cd4a5
+    R03: 0x0004db97    R11: 0xdec387d5    R19: 0xa85adb78    R27: 0x70af2d02
+    R04: 0xa90e496f    R12: 0xbeac3878    R20: 0x048fff22    R28: 0x7465f5f0
+    *R05: 0xdeadbeef*    R13: 0x5777b488    R21: 0xa32977c7    R29: 0xae96b530
+    *R06: 0xaaaaaaaa*    R14: 0xffa60550    R22: 0x99fb123e    R30: 0x52c42a0d
+    *R07: 0x12345678*    R15: 0xdeb2142d    R23: 0xa353129d    R31: 0x00000000
+
+----
+
+==== Discussion
+<<more_zout_lines>> shows the line-by-line for `xout.pru0.c`
+
+[[more_zout_lines]]
+.xout.pru0.c Line-by-line
+[cols="1,9"]
+|===
+|Line |Explanation
+
+|3    |A different resource so PRU 0 can receive a signal from PRU 1.
+|9-16 |`dmemBuf` holds the data to be sent to PRU 1.  Each will be transfered
+to its corresponding register by `xout()`.
+|21-22|Define the interupts we're using.
+|27-28|Clear the interrupts.
+|31-36|Initialize dmemBuf with easy to recognize values.
+|40   |Wait for PRU 1 to signal.
+|45   |`pass:[__]xout()` does a direct transfer to PRU 1. 
+Page 92 of 
+http://www.ti.com/lit/ug/spruhv7b/spruhv7b.pdf[PRU Optimizing C/C++ Compiler, v2.2, User's Guide]
+shows how to use `xout()`. The first argument, 14, says to do a direct 
+transfer to PRU 1.  If the
+first argument is 10, 11 or 12, the data is transfered to one of three 
+scratchpad memories that PRU 1 can access later. 
+
+The second argument, 5, says to start transfering
+with register `r5` and use as many regsiters as needed to transfer all of
+`dmemBuf`.
+
+The third argument, 0, says to not use remapping. (See the User's Guide for
+details.)
+
+The final argument is the data to be transfered.
+|48   |Clear the interupt so it can go again.
+|===
+
+<<more_xin_lines>> shows the line-by-line for `xin.pru1.c`.
+
+[[more_xin_lines]]
+.xin.pru1.c Line-by-line
+[cols="1,9"]
+|===
+|Line |Explanation
+
+|8-15 |Place to put the received data.
+|26   |Signal PRU 0
+|30   |Receive the data. The arguments are the same as `xout()`,  
+14 says to get the data directly from PRU 0. 
+5 says to start with register `r5`.  
+`dmemBuf` is where to put the data.
+|===
+
+If you really need speed, considering using `pass:[__]xout()` and 
+`pass:[__]xin()` in assembly.
+
+=== Copyright
+[source,c,linenums]
+.copyright.c
+----
+include::code/copyright.c[copyright.c]
+----

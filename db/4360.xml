@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1572994161527">
+  <hopobject id="4360" name="Page" prototype="Page" created="1564783384669" lastModified="1583437270538">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">SUpsV2xvQVkzSFdSdGdLYW1zUGJhdjBONlVWVnFlekwxUW40c24wdlFyaVVCektLVStRMXlsc0NoVDJoTG0veFI0MjczTVZFM01JY2ZUeUNaVjV0ZkVwVUd0a2RneGNpR0RLaDJjaUJzbUhCQ2xxRDNvRklGdkJIcWJJc2ZBNzRJcWhoa2pBQ2dqV0FrSlNXTTNQbTZCMXZWU1pUV2xVUXM2ZXRmN1hxY1hGem43V2dGTGovYmtvMUhTMW1lV0FJQWNsTzVaYlNsV0lzcHI4ekQwSnBiY1prMzl1QXdoaFp1bGN2OElrSVFVbkwzYitONUZ1NG84TngvMENUN3dzeWhYbk51Z1IwSnU1RVkwZm9jRHhtZ3hqU3pWelVuajBCQlZWa2lwT1JXQXlyYk9BQU9Fa29kUTFwYmkzSWxJUlQ4RUsyc0NPU2pJLzlyZmswYXQyaE84L2F0YWRyZXdsVUdWRDN1dFQ2ZzNRPS0tU04xVWVtLzRVcmF6UVR0Y0s4bEQ3QT09--ebb952b96f4b04dabee1a293ba226b8771bfa4c0</property>
-    <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTNNak13T1RnM05pNHpNRFk0TnpJeEJqc0FSZz09IiwiZXhwIjoiMjAyMC0xMC0yOVQwMDo0NDozNi4zMDZaIiwicHVyIjpudWxsfX0=--be7f93fc59bb0ea09d243ab9a1be81247f87e46b</property>
+    <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTNOemN5T1RreE1pNHhNREF5TkRjNUJqc0FSZz09IiwiZXhwIjoiMjAyMC0xMi0zMFQxODoxODozMi4xMDBaIiwicHVyIjpudWxsfX0=--4a97bee64c92790d030dca4f43b0b21a044ed16d</property>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>upgrade</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/77.0.3865.90 Chrome/77.0.3865.90 Safari/537.36</http_browser>
-    <time type="date">05.11.2019 22:49:21 UTC</time>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/80.0.3987.87 Chrome/80.0.3987.87 Safari/537.36</http_browser>
+    <time type="date">05.03.2020 19:41:10 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.1d0pgw6wev13</hopsession>
-    <tk_tc>QHtknzMp8cj3h+TI</tk_tc>
+    <hopsession>127.0.0.ckgby7bcs6lt</hopsession>
+    <tk_tc>xLmpZuxNag0NvXiB</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;style&gt;
     h1 { font-size: 28px; }
@@ -46,10 +46,10 @@
     There are 4 main steps to updating the software on BeagleBone AI:
 &lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Get connected to the Internet&lt;/li&gt;
-    &lt;li&gt;Update distribution components&lt;/li&gt;
-    &lt;li&gt;Update examples in the Cloud9 IDE workspace&lt;/li&gt;
-    &lt;li&gt;Update the boot-up scripts and Linux kernel&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#connect&quot;&gt;Get connected to the Internet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#kernel&quot;&gt;Update the boot-up scripts and Linux kernel&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#distro&quot;&gt;Update distribution components&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#examples&quot;&gt;Update examples in the Cloud9 IDE workspace&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
     The distribution components includes all of the on-board software utilizing
@@ -69,7 +69,7 @@
 &lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;h2&gt;Get connected to the Internet&lt;/h2&gt;
+&lt;h2 id=&quot;connect&quot;&gt;Get connected to the Internet&lt;/h2&gt;
 &lt;p&gt;There are many ways to get BeagleBone AI onto the Internet. Ethernet, WiFi
     and USB-based methods are described below. Getting an Internet connection
     and performing the distribution, examples and kernel updates below is the
@@ -221,53 +221,7 @@ sudo dhclient usb0
 &lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;h2&gt;Update distribution components&lt;/h2&gt;
-&lt;pre&gt;
-debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt update&lt;/b&gt;
-[sudo] password for debian:&lt;b&gt;&lt;em&gt;temppwd&lt;/em&gt;&lt;/b&gt;
-Ign:1 http://deb.debian.org/debian stretch InRelease
-Hit:2 http://deb.debian.org/debian stretch-updates InRelease
-Hit:3 http://deb.debian.org/debian-security stretch/updates InRelease
-.
-.
-.
-debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt upgrade&lt;/b&gt;
-.
-.
-.
-  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpq5 linux-cpupower linux-libc-dev nginx nginx-common nginx-full tzdata
-23 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
-Need to get 10.3 MB of archives.
-After this operation, 41.0 kB of additional disk space will be used.
-Do you want to continue? [Y/n] &lt;b&gt;y&lt;/b&gt;
-Get:1 http://deb.debian.org/debian stretch-updates/main armhf tzdata all 2019b-0+deb9u1 [275 kB]
-Get:2 http://repos.rcn-ee.com/debian stretch/main armhf bonescript armhf 0.7.3-git20190822.0-0rcnee1~stretch+20190903 [5,463 kB]
-Get:3 http://deb.debian.org/debian-security stretch/updates/main armhf libcpupower1 armhf 4.9.168-1+deb9u5 [637 kB]
-.
-.
-.
-Setting up libiio-utils (0.16-1rcnee0~stretch+20190812) ...
-Setting up libnginx-mod-http-echo (1.10.3-1+deb9u3) ...
-Setting up linux-cpupower (4.9.168-1+deb9u5) ...
-Setting up nginx-full (1.10.3-1+deb9u3) ...
-[ ok ] Upgrading binary: nginx.
-Setting up nginx (1.10.3-1+deb9u3) ...
-Processing triggers for initramfs-tools (0.130) ...
-update-initramfs: Generating /boot/initrd.img-4.14.108-ti-r116
-debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt install -y ti-tidl mjpg-streamer-opencv-python&lt;/b&gt;
-&lt;/pre&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Update examples in the Cloud9 IDE workspace&lt;/h2&gt;
-&lt;pre&gt;
-debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;cd /var/lib/cloud9&lt;/b&gt;
-debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;git pull&lt;/b&gt;
-Already up-to-date.
-debian@beaglebone:/var/lib/cloud9$
-&lt;/pre&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Update the boot-up scripts and Linux kernel&lt;/h2&gt;
+&lt;h2 id=&quot;kernel&quot;&gt;Update the boot-up scripts and Linux kernel&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;cd /opt/scripts&lt;/b&gt;
 debian@beaglebone:/opt/scripts$ &lt;b&gt;git pull&lt;/b&gt;
@@ -308,7 +262,53 @@ debian@beaglebone:/opt/scripts$ &lt;b&gt;sudo shutdown -r now&lt;/b&gt;
 &lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;h2&gt;Test installed versions&lt;/h2&gt;
+&lt;h2 id=&quot;distro&quot;&gt;Update distribution components&lt;/h2&gt;
+&lt;pre&gt;
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt update&lt;/b&gt;
+[sudo] password for debian:&lt;b&gt;&lt;em&gt;temppwd&lt;/em&gt;&lt;/b&gt;
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Hit:2 http://deb.debian.org/debian stretch-updates InRelease
+Hit:3 http://deb.debian.org/debian-security stretch/updates InRelease
+.
+.
+.
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt upgrade&lt;/b&gt;
+.
+.
+.
+  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpq5 linux-cpupower linux-libc-dev nginx nginx-common nginx-full tzdata
+23 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Need to get 10.3 MB of archives.
+After this operation, 41.0 kB of additional disk space will be used.
+Do you want to continue? [Y/n] &lt;b&gt;y&lt;/b&gt;
+Get:1 http://deb.debian.org/debian stretch-updates/main armhf tzdata all 2019b-0+deb9u1 [275 kB]
+Get:2 http://repos.rcn-ee.com/debian stretch/main armhf bonescript armhf 0.7.3-git20190822.0-0rcnee1~stretch+20190903 [5,463 kB]
+Get:3 http://deb.debian.org/debian-security stretch/updates/main armhf libcpupower1 armhf 4.9.168-1+deb9u5 [637 kB]
+.
+.
+.
+Setting up libiio-utils (0.16-1rcnee0~stretch+20190812) ...
+Setting up libnginx-mod-http-echo (1.10.3-1+deb9u3) ...
+Setting up linux-cpupower (4.9.168-1+deb9u5) ...
+Setting up nginx-full (1.10.3-1+deb9u3) ...
+[ ok ] Upgrading binary: nginx.
+Setting up nginx (1.10.3-1+deb9u3) ...
+Processing triggers for initramfs-tools (0.130) ...
+update-initramfs: Generating /boot/initrd.img-4.14.108-ti-r116
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo apt install -y ti-tidl mjpg-streamer-opencv-python&lt;/b&gt;
+&lt;/pre&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;examples&quot;&gt;Update examples in the Cloud9 IDE workspace&lt;/h2&gt;
+&lt;pre&gt;
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;cd /var/lib/cloud9&lt;/b&gt;
+debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;git pull&lt;/b&gt;
+Already up-to-date.
+debian@beaglebone:/var/lib/cloud9$
+&lt;/pre&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;test&quot;&gt;Test installed versions&lt;/h2&gt;
 &lt;pre&gt;
 debian@beaglebone:/var/lib/cloud9$ &lt;b&gt;sudo /opt/scripts/tools/version.sh&lt;/b&gt;
 [sudo] password for debian:&lt;b&gt;&lt;em&gt;temppwd&lt;/em&gt;&lt;/b&gt;

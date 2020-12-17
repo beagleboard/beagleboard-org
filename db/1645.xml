@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1540821567085">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1584632668164">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
+    <tk_qs></tk_qs>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -11,9 +12,11 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.9</http_language>
     <uri>bone</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36</http_browser>
-    <time type="date">07.05.2018 16:07:47 UTC</time>
-    <hopsession>127.0.0.4mvxxuf27uoa</hopsession>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36</http_browser>
+    <time type="date">19.03.2020 15:44:28 UTC</time>
+    <hopsession>127.0.0.4ziieps8fjr4</hopsession>
+    <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>   &lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
  &lt;!-- slider --&gt;
 
@@ -26,10 +29,12 @@
 
 &lt;div class=&quot;tislides&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-pocket&quot; href=&quot;/pocket&quot;&gt;&lt;img src=&quot;/static/images/pocket-beagle-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-ai&quot; href=&quot;/ai&quot;&gt;&lt;img src=&quot;/static/images/beaglebone-ai-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-blue&quot; href=&quot;/blue&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Blue-Banner-Ads950-267.gif&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-black-wireless&quot; href=&quot;/black-wireless&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Black-Banner-Ads950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-ai2&quot; href=&quot;/ai&quot;&gt;&lt;img src=&quot;/static/images/beaglebone-ai-banner-v2-950x267-ads-2.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-pocket&quot; href=&quot;/pocket&quot;&gt;&lt;img src=&quot;/static/images/pocket-beagle-banner-950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;!--
+&lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-black-wireless&quot; href=&quot;/black-wireless&quot;&gt;&lt;img src=&quot;/static/images/Beaglebone-Black-Banner-Ads950x267.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-replicape&quot; href=&quot;https://beagleboard.org/project/replicape&quot;&gt;&lt;img src=&quot;/static/ti/950x267_beagleboard_clone_wars.jpg&quot; alt=&quot;Replicape&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-musictech&quot; href=&quot;https://www.element14.com/community/community/design-challenges/musictech?ICID=BBB-ORG&quot;&gt;&lt;img src=&quot;/static/images/TW_950x267_MusicTech.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; data-action=&quot;promo-green-wireless&quot; href=&quot;/green-wireless&quot;&gt;&lt;img src=&quot;/static/images/BBGW_HomepageBanner.png&quot; width=&quot;950&quot; height=&quot;267&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
@@ -85,64 +90,24 @@
    &lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt;&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
 
-&lt;div id=&quot;t2-c1&quot;&gt;&lt;div&gt;&lt;div id=&quot;t2-c1-content&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;padding-right:10px&quot;&gt;The benchmark for open hardware Linux computers. &lt;br&gt;&lt;br&gt;Get the workhorse &lt;a href=&quot;http://www.ti.com/product/am3358&quot;&gt;1GHz AM335x ARM® Cortex-A8 processor&lt;/a&gt;, expanded peripherals, low power consumption and open source software compatibility.&lt;/p&gt; &lt;a href=&quot;/black&quot;&gt;Learn more&lt;/a&gt; »     
-   
+&lt;div id=&quot;t2-c1&quot;&gt;
+&lt;div&gt;
+&lt;div id=&quot;t2-c1-content&quot;&gt;
+&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-right:10px&quot;&gt;Multitude of powerful processing cores for diverse embedded computing needs
+in the familiar BeagleBone form-factor with more performance, memory and networking.&lt;br /&gt;&lt;br /&gt; &lt;a href=&quot;/ai&quot;&gt;Learn more »&lt;/a&gt;
+
 &lt;!--######################################--&gt;
  &lt;div id=&quot;CTA&quot;&gt;
     &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
  &lt;br /&gt;
- &lt;select class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-    &lt;option&gt;Select a distributor to buy&lt;/option&gt;
-    &lt;option value=&quot;https://www.arrow.com/en/products/bb-black/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
-    &lt;option value=&quot;https://www.digikey.com/product-detail/en/ghi-electronics-llc/BBB01-SC-505/BBB01-SC-505-ND/6210999&quot;&gt;Digi-Key&lt;/option&gt;
-    &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-GHI/BBB01-SC-505?qs=sGAEpiMZZMuG6%2fXKM6MUaQUPc9Y91hBEalrDTtma%2fpY%3d&quot;&gt;Mouser&lt;/option&gt;
-    &lt;option value=&quot;https://www.element14.com/community/docs/DOC-84108&quot;&gt;element14&lt;/option&gt;
- &lt;/select&gt;
-&lt;!--
-&lt;ul class=&quot;dropdown&quot; id=&quot;buy-black&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.element14.com/nextgenbeaglebone&quot;&gt;Element14 - Farnell/Newark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/texas-instruments-beagleboard/685#beagleboneNext&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BB-BBLK-000/?qs=%2fha2pyFadugh6wNMONnDuAbTwbrIHVw4R%2f%252bth5Q2M%2fX2Gs60muroNw%3d%3d&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://specialcomp.com/beaglebone/&quot;&gt;Special Computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.adafruit.com/products/1278&quot;&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.makershed.com/BeagleBoard_BeagleBone_Black_p/mkcce3.htm?Click=142528&quot;&gt;Maker Shed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://parts.arrow.com/item/detail/circuitco/bb-bblk-000&quot;&gt;Arrow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://avnetexpress.avnet.com/store/em/EMController?action=products&amp;catalogId=500201&amp;storeId=500201&amp;N=0&amp;langId=-1&amp;slnk=b&amp;term=BB-BBLK-000&amp;hrf=http%3A%2F%2Fwww.em.avnet.com%2Fen-us%2Fdesign%2Fdrc%2FPages%2FCircuitco-BeagleBone-Black-Open-Source-Hardware-Platform.aspx&amp;intcmp=EMA-BUY-BB-BBLK-000&quot;&gt;Avnet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.jameco.com/webapp/wcs/stores/servlet/Product_10001_10001_2176149_-1&quot;&gt;Jameco&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.openhacks.com/page/productos/id/359&quot;&gt;Openhacks.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tigal.com/product/3406&quot;&gt;Tigal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.conrad.biz/bb/&quot;&gt;Conrad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.watterott.com/de/BeagleBone-Black&quot;&gt;Watterott&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://store.techshare.jp/shopbrand/006/Y/&quot;&gt;TechShare Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.electroshopdendermonde.be/index.php/webshop/beaglebone/beaglebone-black&quot;&gt;Electroshop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chipsee.com/product/evm/beagle.html&quot;&gt;Chipsee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tenettech.com/product/2912/beaglebone-black&quot;&gt;Tenet Technetronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.exp-tech.de/Mainboards/BeagleBone-Black.html&quot;&gt;EXP Tech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.abra-electronics.com/products/BeagleBone-Black-Single%252dBoard-Computer-Development-Board-.html&quot;&gt;Abra Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://embeddedcomputer.nl/beagleboard/beagleboard-beaglebone.html&quot;&gt;EmbeddedComputer.nl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rpelectronics.com/bb-bblk-000-beaglebone-black-development-board.html&quot;&gt;RP Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.active123.com/BeagleBone-Black-Development-Board-Prodview.html&quot;&gt;Active&lt;/a&gt;&lt;/li&gt; 
-  &lt;li&gt;&lt;a href=&quot;http://robosavvy.com/store/product_info.php/products_id/3910&quot;&gt;RoboSavvy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shop.sumeetinstruments.com/index.php?route=product/product&amp;path=49_87&amp;product_id=965&quot;&gt;Sumeet Instruments&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.logicsupply.com/products/bb_bblk_000&quot;&gt;Logic Supply&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.lextronic.fr/P28675-platine-beaglebone-black-rev-a5a.html&quot;&gt;Lextronic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://garagelabstore.com/store/embedded/beagle-bone-black.html&quot;&gt;GarageLab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dynamoelectronics.com/dynamo-tienda-virtual.html?page=shop.product_details&amp;flypage=dynamo.tpl&amp;product_id=1061&amp;category_id=130&quot;&gt;Dynamo Electronics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/7753805/&quot;&gt;RS Components&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.robotistan.com/BeagleBone-Black,PR-1523.html&quot;&gt;Robotistan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.embest-tech.cn/shop/star/beaglebone-black.html&quot;&gt;Embest Version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;a href=&quot;http://ad.doubleclick.net/jump/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot;&gt;
-    &lt;img src=&quot;http://ad.doubleclick.net/ad/N4481.115138.5376011835521/B3997865;sz=1x1;ord=[timestamp]?&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; alt=&quot;Click Here&quot;/&gt;
-   &lt;/a&gt;
---&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-ai&quot;&gt;&lt;/ul&gt;
 
 &lt;script&gt;
 $(document).ready(function(){
-  if($(&apos;#buy-black&apos;).length) {
-    $.get(&apos;/distributors/black&apos;, function(data){
-        $(&apos;#buy-black&apos;).replaceWith(data);
+  if($(&apos;#buy-ai&apos;).length) {
+    $.get(&apos;/distributors/ai&apos;, function(data){
+        $(&apos;#buy-ai&apos;).replaceWith(data);
         $(&apos;select.dropdown&apos;).each(function(){
           var list = $(this);
           var action = list.attr(&apos;id&apos;); 
@@ -158,6 +123,7 @@ $(document).ready(function(){
   }
 });
 &lt;/script&gt;
+
 &lt;/div&gt;
 &lt;!-- #######################################################--&gt;
 
@@ -165,8 +131,8 @@ $(document).ready(function(){
 &lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
 &lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
-&lt;a href=&quot;/static/ti/product_detail_black_lg.jpg&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone Black Image&quot;&gt;
-&lt;img src=&quot;/static/ti/product_detail_black_sm.jpg&quot; border=&quot;0&quot;  /&gt;&lt;/a&gt;
+&lt;a href=&quot;/static/images/BB_AI_BeautyAngle_800px.jpg&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone AI Image&quot;&gt;
+&lt;img src=&quot;/static/images/BB_AI_BeautyAngle_800px.jpg&quot; border=&quot;0&quot; style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c2&quot;&gt;&lt;h2&gt;What can these boards do?&lt;/h2&gt;
@@ -177,15 +143,20 @@ $(document).ready(function(){
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
+&lt;div id=&quot;t2-c4&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/black&quot;&gt;BeagleBone Black&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/ti/product_detail_black_sm.jpg&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
+    The benchmark for open hardware Linux computers. 
+    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/black&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbg_bullet_40.png&quot; align=&quot;left&quot; style=&quot;padding:10px;&quot;/&gt;
 Seeed&apos;s Grove connectors make IoT developers life simpler large family of Grove sensors and drivers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/green&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;&lt;/h2&gt;
+&lt;!--&lt;div id=&quot;t2-c5&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/blue&quot;&gt;BeagleBone Blue&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/beagle-blue-pck.png&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
     Complete robotics computer ready to fly or rove. Flexible networking and rich set of robotics-oriented peripherals make building mobile robots quick and affordable.
     &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/blue&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
-&lt;/div&gt;
+&lt;/div&gt;--&gt;
 &lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/enhanced&quot;&gt;SanCloud BeagleBone Enhanced&lt;/a&gt;&lt;/h2&gt;
     &lt;p&gt;&lt;img src=&quot;/static/images/bbe_bullet_40.png&quot; align=&quot;left&quot;/&gt;
 With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Bluetooth option, make this the ultimate Bone.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/enhanced&quot;&gt; Learn more&lt;/a&gt;  » &lt;/p&gt;&lt;/div&gt;
@@ -196,86 +167,100 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;th&gt; &lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SeeedStudio BeagleBone Green&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Blue&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SanCloud BeagleBone Enhanced&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone AI&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
+    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;1GHz&lt;/td&gt;
+    &lt;td&gt;1.5GHz&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Co-processors&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
+    &lt;td&gt;4x200-MHz PRUs, 2x ARM Cortex-M4, 2x SGX PowerVR, 2x HD video&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
-    &lt;td&gt;4 (1.8V)&lt;/td&gt;
     &lt;td&gt;7 (1.8V)&lt;/td&gt;
+    &lt;td&gt;7 (3.3V)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Digital Pins&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
-    &lt;td&gt;24 (3.3V)&lt;/td&gt;
     &lt;td&gt;65 (3.3V)&lt;/td&gt;
+    &lt;td&gt;72 (3.3V) (7 shared with analog)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;1GB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;1GB DDR3 (2x 512Mx16, dual-channel), 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;miniUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;microUSB 2.0 client port, USB 2.0 host port&lt;/td&gt;
-    &lt;td&gt;miniUSB 2.0 client port, 4 USB 2.0 Ports (2 A-type connectors, 2 on pin headers)&lt;/td&gt;
+    &lt;td&gt;mini-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;micro-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;mini-AB USB 2.0 client port, 2x Type-A USB 2.0 host ports, 2x pin header USB 2.0 host ports&lt;/td&gt;
+    &lt;td&gt;Type-C USB 3.0 5Gbps Host/Client port, Type-A USB 2.0 host port&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Network&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;10/100 Ethernet&lt;/td&gt;
+    &lt;td&gt;10/100 Ethernet&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, 2.4GHz WiFi, Bluetooth, BLE&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, 2.4/5GHz WiFi, Bluetooth, BLE&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;SPI displays&lt;/td&gt;
+    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
-    &lt;td&gt;add-ons, Bluetooth&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
+    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;br /&gt;2 Grove (I2C, UART)&lt;/td&gt;
-    &lt;td&gt;4x UART, 2-cell LiPo, 2x SPI, I2C, 4x A/D converter, CAN bus (with PHY), 8x 6V servo motor,
-    4x DC motor, 4x quadrature encoder&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
+    &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, 7x A/D converter, CAN bus (w/o PHY), 
+    LCD, 3x quadrature encoder, SD/MMC&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;&lt;strong&gt;Sensors&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;On-board Sensors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
     &lt;td&gt;n/a&lt;/td&gt;
     &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
-    &lt;td&gt;Barometer, Accelerometer, Gyro, Temperature&lt;/td&gt;
+    &lt;td&gt;on-die temperature&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;MSRP&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$39&lt;/td&gt;
-    &lt;td&gt;$79&lt;/td&gt;
     &lt;td&gt;$69&lt;/td&gt;
+    &lt;td&gt;$99&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -335,13 +320,13 @@ Google Research
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <initiallandingpage>/p</initiallandingpage>
-    <http_referer>https://beagleboard.org/bone/edit</http_referer>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <http_referer>http://beagleboard.org/bone/tide</http_referer>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
