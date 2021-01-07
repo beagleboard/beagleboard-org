@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="193" name="discuss" prototype="Page" created="1214843511799" lastModified="1610048055135">
+  <hopobject id="193" name="discuss" prototype="Page" created="1214843511799" lastModified="1610052632879">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -13,7 +13,7 @@
     <http_language>en-US,en;q=0.5</http_language>
     <uri>discuss</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">07.01.2021 19:34:15 UTC</time>
+    <time type="date">07.01.2021 20:50:32 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Forums &amp; Mailing Lists&lt;/h1&gt;
@@ -24,6 +24,7 @@
 
 &lt;div id=&quot;comm-mail-list-groups&quot;&gt;
 
+&lt;!--
 &lt;iframe id=&quot;board_forum_embed&quot;
   src=&quot;javascript:void(0)&quot;
   scrolling=&quot;no&quot;
@@ -53,6 +54,8 @@
      + &apos;&amp;hideforumtitle=true&apos;
      + &apos;&amp;parenturl=&apos; + encodeURIComponent(window.location.href);
 &lt;/script&gt;
+
+--&gt;
 
 &lt;/div&gt;
 
