@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4402" name="Page" prototype="Page" created="1610478425081" lastModified="1610478425186">
+  <hopobject id="4402" name="Page" prototype="Page" created="1610478425081" lastModified="1610478554578">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>beaglev-staging</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">12.01.2021 19:07:05 UTC</time>
+    <time type="date">12.01.2021 19:09:14 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
     <body>  &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/beagleV/style/beagleV.css&quot;&gt;
   &lt;script src=&quot;/static/beagleV/js/jquery.min.js&quot;&gt;&lt;/script&gt;
@@ -338,10 +338,10 @@
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt;Processor&lt;/span&gt;&lt;/div&gt;
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;
                               &lt;ul class=&quot;s7-col-list&quot;&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; RISC-V U74 Dual core with 2MB L2 cache @ 1.0GHz&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; Vision DSP Tensilica-VP6 for computing vision&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; NVDLA Engine 1 core (configuration 2048 MACs@800MHz )&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; Neural Network Engine (1024MACs@500MHz)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• RISC-V U74 Dual core with 2MB L2 cache @ 1.0GHz&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Vision DSP Tensilica-VP6 for computing vision&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• NVDLA Engine 1 core (configuration 2048 MACs@800MHz )&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Neural Network Engine (1024MACs@500MHz)&lt;/span&gt;&lt;/li&gt;
                               &lt;/ul&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
@@ -350,7 +350,7 @@
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt;Memory&lt;/span&gt;&lt;/div&gt;
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;
                               &lt;ul class=&quot;s7-col-list&quot;&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; 8GB LPDDR4 (2 x 4GB LPDDR4 SDRAM)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• 8GB LPDDR4 (2 x 4GB LPDDR4 SDRAM)&lt;/span&gt;&lt;/li&gt;
                               &lt;/ul&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
@@ -359,12 +359,12 @@
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt; Video &lt;br&gt; Processing&lt;/span&gt;&lt;/div&gt;
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;
                               &lt;ul class=&quot;s7-col-list&quot;&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; Video Decoder (H264/H265) up to 4K@60FPS; Support Dual stream decoding for 2K@30FPS each&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; Dual channels of ISP, each channel support up to 4K@30FPS&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; 2 x MIPI-CSI, 1 x MIPI-DSI&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; 1 x HDMI support up to 1080P@30fps&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; Support MIPI-CSI TX for video output after ISP and AI processing&lt;/span&gt;&lt;/li&gt;
-                                &lt;li&gt;&lt;span&gt;&amp;bull; JPEG encoder/decoder&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Video Decoder (H264/H265) up to 4K@60FPS; Support Dual stream decoding for 2K@30FPS each&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Dual channels of ISP, each channel support up to 4K@30FPS&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• 2 x MIPI-CSI, 1 x MIPI-DSI&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• 1 x HDMI support up to 1080P@30fps&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Support MIPI-CSI TX for video output after ISP and AI processing&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• JPEG encoder/decoder&lt;/span&gt;&lt;/li&gt;
                               &lt;/ul&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
@@ -374,17 +374,17 @@
                             &lt;div class=&quot;s7-table-col-td&quot;&gt;
                               &lt;ul class=&quot;s7-col-list&quot;&gt;
 
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 4 x USB 3.0 Ports&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 1 x Gigabit Ethernet &lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 1 x 3.5mm Audio jack&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; Support TRNG and OTP&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; Support DMAC, QSPI and other peripheral&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; Dedicated Audio Processing DSP and sub-system&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 40 Pin GPIO Header (28 x GPIO, I2C, I2S, SPI, UART)&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; System boot from SD card&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 1 x Wi-Fi 2.4GHz b/g/n and Bluetooth 4.2&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; Power with USB Type-C (5V@3A)&lt;/span&gt;&lt;/li&gt;
-                                 &lt;li&gt;&lt;span&gt;&amp;bull; 1 x Reset button and 1 x Power Button&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 4 x USB 3.0 Ports&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Gigabit Ethernet &lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x 3.5mm Audio jack&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Support TRNG and OTP&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Support DMAC, QSPI and other peripheral&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Dedicated Audio Processing DSP and sub-system&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 40 Pin GPIO Header (28 x GPIO, I2C, I2S, SPI, UART)&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• System boot from SD card&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Wi-Fi 2.4GHz b/g/n and Bluetooth 4.2&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Power with USB Type-C (5V@3A)&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Reset button and 1 x Power Button&lt;/span&gt;&lt;/li&gt;
 
                               &lt;/ul&gt;
                             &lt;/div&gt;
@@ -506,7 +506,7 @@
                     &lt;div class=&quot;s8-line&quot; id=&quot;s8-line-ani&quot;&gt;
                       &lt;div class=&quot;s8-line-item&quot;&gt;
                         &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021/01/13&lt;/span&gt;&lt;/div&gt;
-                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;BeagleV&amp;trade; launch&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;BeagleV™ launch&lt;/span&gt;&lt;/div&gt;
                       &lt;/div&gt;
                       &lt;div class=&quot;s8-line-item&quot;&gt;
                         &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021/03/05&lt;/span&gt;&lt;/div&gt;
@@ -518,7 +518,7 @@
                       &lt;/div&gt;
                       &lt;div class=&quot;s8-line-item&quot;&gt;
                         &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021 April&lt;/span&gt;&lt;/div&gt;
-                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;Pilot Run For Community&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;Pilot Run For &lt;br&gt; Community&lt;/span&gt;&lt;/div&gt;
                       &lt;/div&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
