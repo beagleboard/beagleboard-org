@@ -1,0 +1,181 @@
+/* 
+ @font-face{
+  font-family: 'OpenSans-Bold';
+  src : url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+@font-face{
+  font-family: 'OpenSans-BoldItalic';
+  src : url('../fonts/OpenSans/OpenSans-BoldItalic.ttf');
+}
+@font-face{
+  font-family: 'OpenSans-Semibold';
+  src : url('../fonts/OpenSans/OpenSans-Semibold.ttf');
+}  */
+
+// font-family: DINPro-Medium, DINPro;
+@font-face{
+  font-family: 'DINPro';
+  src : url('../fonts/Din/DIN-Alternate-Bold.ttf');
+} 
+@font-face{
+  font-family: 'DINPro-Medium';
+  src : url('../fonts/Din/DIN-Alternate-Bold.ttf');
+} 
+@font-face{
+  font-family: 'DINPro-Bold';
+  src : url('../fonts/Din/DIN-Bold.otf');
+} 
+@font-face{
+  font-family: 'DINCond-Medium';
+  src : url('../fonts/Din/DINCond-Medium.otf');
+} 
+$active_cl:#00946c;
+
+
+
+// 初始化元素
+@mixin divInit($w:100%, $h:auto, $padding:0 0, $margin:0 0) {
+  width: $w;
+  height: $h;
+  padding: $padding;
+  margin: $margin;
+  box-sizing: border-box;
+}
+// 文本溢出
+@mixin textOverflow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+// line-clamp
+@mixin lineClamp($num) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+   -webkit-line-clamp:$num;            /*设置p元素最大4行，父元素需填写宽度才明显*/
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+
+// 居中
+@mixin divCenter($left:50%,$top:50%,$trLeft:-50%,$trTop:-50%){
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform:translate3D($trLeft,$trTop,0);
+}
+
+// 解决移动端滚动卡顿
+@mixin mScroll(){
+  -webkit-overflow-scrolling:touch;
+  overflow-scrolling: touch;
+}
+
+
+@keyframes linearAnimation {
+  0% {
+   background-position:  0 200%;
+ }
+100% {
+  background-position: 0 0;
+ }
+}
+
+// Description 
+@mixin lazyBg{
+  animation-name: linearAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  background: linear-gradient(0deg, #fff 0%,rgba(0,0,0,.1) 50% , #ffffff 100%);
+  background-size: 100% 200%;
+  background-position: 0 200%;
+}
+ @mixin scrollStyle ($width,$height,$color){
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: $width;
+    /*滚动条宽度*/
+    height: $height;
+    /*滚动条高度*/ }
+  
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #eee;
+    border-radius: 10px;
+    /*滚动条的背景区域的圆角*/
+    background-color: rgba(255, 255, 255, 0.8);
+    /*滚动条的背景颜色*/ }
+  
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /*滚动条的圆角*/
+    -webkit-box-shadow: inset 0 0 6px #333;
+    background-color: $color;
+    /*滚动条的背景颜色*/ 
+  }
+ }
+
+@mixin absFullImg($w:100%,$h:100%,$fit:cover){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $w;
+  height: $h;
+  vertical-align: middle;
+  object-fit: $fit;
+}
+
+@mixin fullImg($w:100%,$h:100%,$fit:cover){
+  width: $w;
+  height: $h;
+  vertical-align: middle;
+  object-fit: $fit;
+}
+
+@mixin inlineBlock($v:middle){
+  display: inline-block;
+  vertical-align: $v;
+}
+@keyframes alertTipAni{
+  40%{
+      top: 10%;
+      opacity: 1;
+      max-width:100%;
+  }
+  100%{
+      top:10%;
+      opacity: 1;
+      max-width:100%;
+  }
+}
+
+@keyframes btnAni{
+  to{
+    transform: translateX(0);
+  }
+    
+}
+
+@keyframes shareAni{
+  to{
+    opacity: 1;
+    bottom: calc(100% + 10px);
+  }
+}
+
+@keyframes backbtnAni{
+  from{
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    position: relative;
+    opacity: 1;
+  }   
+}
+#maincontent{
+  max-width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}

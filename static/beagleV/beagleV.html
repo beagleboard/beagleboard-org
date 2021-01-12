@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/beagleV.css">
+
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/ScrollMagic.js"></script>
+  <script src="./js/gsap.min.js"></script>
+  <script src="./js/animation.gsap.js"></script>
+	<script type="text/javascript" src="./js/debug.addIndicators.js"></script>
+
+</head>
+<body>
+  <div id="maincontent">
+
+    <!-- html -->
+    <div id="beagleV-page" >
+        <div class="beagleV-page-container">
+
+            <!-- s1 -->
+            <section class="beagle-section beagle-s1"  id="trigger-s1" >
+              <div class="beagle-section-wrapper">
+                <div class="s1-bg" id="s1-V-ani"><img src="./img/s1-bg-V.png" alt=""></div>
+                <div class="s1-content" >
+                  <div id="s1-title-ani"  class="s1-title"><img src="./img/s1-title.png" alt=""></div>
+                  <div id="s1-intro-ani" class="s1-intro" >
+                    <span>The First Affordable  RISC-V<br> Computer Designed to Run Linux</span>
+                    <!-- <span>The World's First Card-size <br>RISC-V Architecture Single Board <br> Computer designed for the Linux Users</span> -->
+                  </div>
+                  <div id="s1-finger-ani" class="s1-finger"><img src="./img/s1-finger.png" alt=""></div>
+                  
+                  <!-- Truly Open Source -->
+                  <div class="s1-icon-list-box">
+                    
+                    <div id="s1-icons-trigger"> </div>
+                    <div class="s1-icon-list-wrap" >
+                      <div class="s1-icon-list-title" id="s1-icons-title-ani"><span>Truly Open Source</span></div>
+                      <div class="s1-icon-list" id="s1-icons-list-ani">
+                        <div class="s1-icon-item">
+                          <div class="s1-icon-img" ><img src="./img/s1-icon1.png" alt=""></div>
+                          <div class="s1-icon-title"><span>Open Source Software</span></div>
+                        </div>
+                        <div class="s1-icon-item">
+                          <div class="s1-icon-img"><img src="./img/s1-icon2.png" alt=""></div>
+                          <div class="s1-icon-title"><span>Based on RISC-V Open Architecture</span></div>
+                        </div>
+                        <div class="s1-icon-item">
+                          <div class="s1-icon-img"><img src="./img/s1-icon3.png" alt=""></div>
+                          <div class="s1-icon-title"><span>Open Hardware Design</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <script>
+              var s1Controller = new ScrollMagic.Controller();
+        
+              //  section 1 
+        
+                //---标题动画----
+                var tl_s1Title = new TimelineLite();
+                tl_s1Title.fromTo("#s1-title-ani",.5 ,{scale:0.8},{scale:1});
+                tl_s1Title.fromTo("#s1-intro-ani",1.0 ,{scale:0.8},{scale:1},"-=0.4");
+                new ScrollMagic.Scene({
+                    triggerElement: "#trigger-s1",
+                    reverse:true,
+                    duration:40,
+                    triggerHook:0,
+                    // offset
+                  })
+                  .setTween(tl_s1Title) 
+                      //.addIndicators({"name":"s1-title-ani"})
+                  .addTo(s1Controller);
+        
+              // ---手指动画----
+                var tl_s1Finger = new TimelineLite();
+                tl_s1Finger.fromTo("#s1-finger-ani",.8 ,{translateY:80,scale:1.5},{translateY:0,scale:1,ease:Power0.easeIn});   
+                
+                    new ScrollMagic.Scene({
+                        // triggerElement: "#s1-title-ani",
+                        triggerElement: "#trigger-s1",
+                        reverse:true,
+                        duration:244,
+                        triggerHook:0,
+                        // offset
+                      })
+                      .setTween(tl_s1Finger) 
+                      // .addIndicators({"name":"s1-finger-ani"})
+                      .addTo(s1Controller);
+
+                
+                //----icon 动画-----
+                var tl_s1Icons = new TimelineLite();
+                tl_s1Icons.fromTo("#s1-icons-title-ani",4 ,{opacity:0},{opacity:1,ease:Power0.easeInOut});
+                tl_s1Icons.fromTo("#s1-icons-list-ani",4,{opacity:0},{opacity:1,ease:Power0.easeInOut},"-=2.65");
+                
+                    new ScrollMagic.Scene({
+                        triggerElement: "#s1-icons-trigger",
+                        reverse:true,
+                        duration:parseInt($("#s1-icons-trigger").height()),
+                        triggerHook:1,
+                        // offset
+                      })
+                      .setTween(tl_s1Icons) 
+                      //.addIndicators({"name":"s1-icons-trigger"})
+                      .addTo(s1Controller);  
+              
+            </script>
+
+            <!-- s2 -->
+            <section class="beagle-section beagle-s2"  id="trigger-s2" >
+              <div class="beagle-section-wrapper" id="s2-fixed-target">
+                <div class="s2-content" >
+                  <div class="s2-content-bg"><img src="./img/s2-bg.png" alt=""></div>
+                  <div class="s2-title-box" >
+                    <div id="trigger-s2-title"></div>
+                      <div class="s2-title" id="s2-title-ani"> 
+                        <span >Powerful and <br>
+                          Rich AI Features</span>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="s2-circle-box" >
+                      <div class="s2-circle-frame" >
+                        <div class="s2-circle-ic" id="s2-ic-ani"><img src="./img/s2-ic.png" alt=""></div>
+                        <div class="s2-circle-board" id="s2-board-ani"><img src="./img/s2-board.png" alt=""></div>
+                        <div class="s2-circle-tip" id="s2-tip-ani"><img src="./img/s2-tips.png" alt=""></div>
+                      </div>
+                    </div>
+                    <div id="trigger-s2-circle" ></div>
+
+                  </div>
+
+                  
+              </div>
+            </section>
+
+            <script>
+            
+            /* new fixed */
+              var s2Controller = new ScrollMagic.Controller();
+              var s2_fixedController = new ScrollMagic.Controller();
+              var tl_s2Title = new TimelineLite();
+              var tl_s2Circle = new TimelineLite();
+              tl_s2Title.fromTo("#s2-title-ani",6,{opacity:0,scale:0.7,ease:Power0.easeInOut},{opacity:1,scale:1.2,ease:Power0.easeInOut});
+                new ScrollMagic.Scene({
+                    triggerElement: "#trigger-s2-title",
+                    reverse:true,
+                    duration:$("#trigger-s2-title").height(),
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s2Title) 
+                  //.addIndicators({"name":"s2-title-ani"})
+                  .addTo(s2Controller);
+
+
+                  new ScrollMagic.Scene({
+                    triggerElement: "#s2-fixed-target",
+                    reverse:true,
+                    duration:$("#s2-fixed-target").height()*1.4,
+                    triggerHook:0
+                  })
+                  .setPin("#s2-fixed-target",{pushFollowers: true})
+                  // .addIndicators({"name":"s2-fixed-ani",color:'#00b2bf'})
+                  .addTo(s2_fixedController);
+
+                  tl_s2Circle.fromTo("#s2-ic-ani",2,{scale:3.2,x:-41,y:30},{y:-20});
+                  tl_s2Circle.to("#s2-ic-ani",11,{x:0,y:0,scale:1},"+=1");
+                  tl_s2Circle.fromTo("#s2-board-ani",6,{opacity:0},{opacity:1},'-=10');
+                  tl_s2Circle.fromTo("#s2-board-ani",8,{y:60},{y:0},'-=12');
+                  tl_s2Circle.fromTo("#s2-tip-ani",3,{opacity:0,ease:Power2.easeIn},{opacity:1,ease:Power2.easeIn},"-=4");
+                  
+                  new ScrollMagic.Scene({
+                    triggerElement: "#s2-fixed-target",
+                    reverse:true,
+                    duration:$("#s2-fixed-target").height()*1.4,
+                    triggerHook:0.05
+                  })
+                  .setTween(tl_s2Circle) 
+                  // .addIndicators({"name":"s2-circle-ani",color:'#00b2bf'})
+                  .addTo(s2_fixedController);
+
+
+
+            </script>
+
+            <!-- s3 -->
+            <section class="beagle-section beagle-s3"   >
+              <div class="beagle-section-wrapper">
+                <div class="s3-bg"><img src="./img/s3-bg.png" alt=""></div>
+                <div class="s3-content">
+                  <div class="s3-title" id="s3-title-ani"> 
+                    <span>Ready for Mass <br> Production</span>
+                  </div>
+                  <div class="s3-intro" id="s3-intro-ani"> 
+                    <div class="s3-intro-item" ><span>Boards and SoC designed and built for <br> the mass production</span></div>  
+                    <div class="s3-intro-item"><span>Customization Ready</span></div>  
+                    <div class="s3-intro-item"><span>Integrated with  <a href="https://www.seeedstudio.com/fusion.html" target="_blank">Seeed Fusion Service</a> </span></div>  
+                  </div>
+                </div>
+                <div id="trigger-s3-title"></div>
+            </div>
+            </section>
+            <script>
+              var s3Controller = new ScrollMagic.Controller();
+             var tl_s3Title = new TimelineLite();
+             tl_s3Title.fromTo("#s3-title-ani",7,{opacity:0,y:80},{opacity:1,y:0,ease:Power0.easeIn});
+             tl_s3Title.fromTo("#s3-intro-ani",4,{opacity:0,y:80},{opacity:0.2,y:30,ease:Power0.easeIn},'-=4');
+             tl_s3Title.to("#s3-intro-ani",3,{opacity:1,y:0,ease:Power0.easeIn});
+              new ScrollMagic.Scene({
+                  triggerElement: "#trigger-s3-title",
+                  reverse:true,
+                  duration:$("#trigger-s3-title").height(),
+                  triggerHook:100,
+                })
+                .setTween(tl_s3Title) 
+                //.addIndicators({"name":"s3-title-ani"})
+                .addTo(s3Controller);
+            </script>
+
+
+            <!-- s4 -->
+            <section class="beagle-section beagle-s4"   >
+              <div class="beagle-section-wrapper">
+                <div class="s4-content">
+                  <div class="s4-title" id="s4-title-ani"> 
+                    <span>Software Compatibility</span>
+                  </div>
+                  <div class="s4-intro" id="s4-intro-ani"> 
+                    <div class="s4-intro-item"><span>Open Source BSP Support</span></div>  
+                    <div class="s4-intro-item"><span>Operating System Support on its way </span></div>  
+                  </div>
+                  <div class="s4-brand">
+                    <div class="s4-brand-wrapper">
+                      <div class="s4-brand-list">
+                        <div class="s4-brand-item"><img src="./img/s4-brand-1.png" alt=""></div>
+                        <div class="s4-brand-item"><img src="./img/s4-brand-2.png" alt=""></div>
+                        <div class="s4-brand-item"><img src="./img/s4-brand-3.png" alt=""></div>
+                        <div class="s4-brand-item"><img src="./img/s4-brand-4.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </section>
+            
+            
+            <div class="fixed-btn beagle-apply-btn" id="fixed-button-ani">
+              <span>Click to Apply</span>
+            </div>
+             <!-- s5 -->
+             <section class="beagle-section beagle-s5"   >
+              <div class="beagle-section-wrapper">
+                <div class="s5-content">
+                  <div class="s5-title" id="s5-title-ani"> 
+                    <span>Be the first one to break free from <br/> hardware to software now</span>
+                  </div>
+                  
+                  <div class="s5-apply-button beagle-apply-btn" id="s5-button-ani">
+                    <span>Click to Apply</span>
+                  </div>
+                  <div id="trigger-button-fixed"></div>
+                  <div id="trigger-s5-button" ></div> 
+                </div>
+              </div>
+            </section>
+            <script>
+              var s5Controller = new ScrollMagic.Controller();
+              var tl_s5Btn = new TimelineLite();
+              var tl_s5BtnFixed = new TimelineLite();
+              tl_s5Btn.fromTo("#s5-title-ani",5,{opacity:0,y:20},{opacity:1,y:0});
+              tl_s5Btn.fromTo("#s5-button-ani",4,{opacity:0,y:80},{opacity:1,y:0,ease:Power4.easeOut});
+               
+              tl_s5BtnFixed.fromTo("#fixed-button-ani",10,{x:-380},{x:-40});
+            
+              new ScrollMagic.Scene({
+                    triggerElement: "#trigger-s5-button",
+                    reverse:true,
+                    duration:$("#trigger-s5-button").height(),
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s5Btn) 
+                  // .addIndicators({"name":"s5-button-ani"})
+                  .addTo(s5Controller);
+               
+             
+              new ScrollMagic.Scene({
+                triggerElement: "#trigger-button-fixed",
+                reverse:true,
+                duration:100,
+                triggerHook:0,
+              })
+              .setTween(tl_s5BtnFixed) 
+              //.addIndicators({"name":"s5-button-fixed"})
+              .addTo(s5Controller);
+
+              $(document).off("click",".beagle-apply-btn").on("click",".beagle-apply-btn",function(){window.open("https://forms.gle/ohAQxtSWnF3P1b7m9","_blank")})
+            </script>
+
+            <!-- s6 -->
+            <section class="beagle-section beagle-s6"   >
+              <div class="beagle-section-wrapper">
+                <div class="s6-bg"><img src="./img/s6-bg.png" alt=""></div>
+                <div class="s6-content">
+                  <div class="s6-title" id="s6-title-ani"> 
+                    <span>Hardware Overview</span>
+                  </div>
+                  <div class="s6-board"><img src="./img/s6-board.png" alt=""></div>
+                </div>
+                <div id="trigger-s6-title"></div>
+              </div>
+            </section>
+
+            <!-- s7 -->
+            <section class="beagle-section beagle-s7"   >
+              <div class="beagle-section-wrapper">
+                <div class="s7-content">
+                  <div class="s7-table">
+                    <div class="s7-table-col s7-table-col1">
+                      <div class="s7-table-col-wrapper">
+                        <div class="s7-table-col-title"><span>Specifications</span></div>
+                        <div class="s7-table-col-body">
+                          <!-- 行1 -->
+                          <div class="s7-table-col-tr">
+                            <div class="s7-table-col-td"><span>Processor</span></div>
+                            <div class="s7-table-col-td">
+                              <ul class="s7-col-list">
+                                <li><span>• RISC-V U74 Dual core with 2MB L2 cache @ 1.0GHz</span></li>
+                                <li><span>• Vision DSP Tensilica-VP6 for computing vision</span></li>
+                                <li><span>• NVDLA Engine 1 core (configuration 2048 MACs@800MHz )</span></li>
+                                <li><span>• Neural Network Engine (1024MACs@500MHz)</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 行2 -->
+                          <div class="s7-table-col-tr">
+                            <div class="s7-table-col-td"><span>Memory</span></div>
+                            <div class="s7-table-col-td">
+                              <ul class="s7-col-list">
+                                <li><span>• 8GB LPDDR4 (2 x 4GB LPDDR4 SDRAM)</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 行3 -->
+                          <div class="s7-table-col-tr">
+                            <div class="s7-table-col-td"><span> Video <br> Processing</span></div>
+                            <div class="s7-table-col-td">
+                              <ul class="s7-col-list">
+                                <li><span>• Video Decoder (H264/H265) up to 4K@60FPS; Support Dual stream decoding for 2K@30FPS each</span></li>
+                                <li><span>• Dual channels of ISP, each channel support up to 4K@30FPS</span></li>
+                                <li><span>• 2 x MIPI-CSI, 1 x MIPI-DSI</span></li>
+                                <li><span>• 1 x HDMI support up to 1080P@30fps</span></li>
+                                <li><span>• Support MIPI-CSI TX for video output after ISP and AI processing</span></li>
+                                <li><span>• JPEG encoder/decoder</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 行4 -->
+                          <div class="s7-table-col-tr">
+                            <div class="s7-table-col-td"><span>Peripherals</span></div>
+                            <div class="s7-table-col-td">
+                              <ul class="s7-col-list">
+
+                                 <li><span>• 4 x USB 3.0 Ports</span></li>
+                                 <li><span>• 1 x Gigabit Ethernet </span></li>
+                                 <li><span>• 1 x 3.5mm Audio jack</span></li>
+                                 <li><span>• Support TRNG and OTP</span></li>
+                                 <li><span>• Support DMAC, QSPI and other peripheral</span></li>
+                                 <li><span>• Dedicated Audio Processing DSP and sub-system</span></li>
+                                 <li><span>• 40 Pin GPIO Header (28 x GPIO, I2C, I2S, SPI, UART)</span></li>
+                                 <li><span>• System boot from SD card</span></li>
+                                 <li><span>• 1 x Wi-Fi 2.4GHz b/g/n and Bluetooth 4.2</span></li>
+                                 <li><span>• Power with USB Type-C (5V@3A)</span></li>
+                                 <li><span>• 1 x Reset button and 1 x Power Button</span></li>
+
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s7-table-col s7-table-col2">
+                      <div class="s7-table-col-wrapper">
+                        <div class="s7-table-col-title"><span>Pinout</span></div>
+                        <div class="s7-table-col-body">
+                          <div class="pinout-list-box">
+                            <ul class="pinout-list">
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(192, 149, 84, .65) ;">3.3V Power</span> <span class="pin-circle"></span>  </li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(192, 120, 120, 77) ;">5V Power</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO48 (I2C SDA)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(192, 120, 120, 77)" >5V Power</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO47 (I2C SCL)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND </span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO46</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO14 (UART TX)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO13 (UART RX)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO44</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO45</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO22</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND </span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO20</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO21</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(192, 149, 84, .65) ;">3.3V Power</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO19</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO18 (SPI MOSI)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;" >GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO16 (SPI MISO)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO17</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO12 (SPI SCLK)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO15 (SPI CE0)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO11 (SPI CE1)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO9</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO10</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO8</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO6</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO7 (PWM0)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO5 (PWM1)</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO3</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO4</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO1</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO2</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item pinout-title"> <span class="pin-text" style="background-color:rgba(220, 220, 220, 1) ;">GND</span> <span class="pin-circle"></span></li>
+                              <li class="pinout-list-item"> <span class="pin-text">GPIO0</span> <span class="pin-circle"></span></li>
+
+
+
+
+                            </ul>
+                            <div class="pinout-note">
+                              <div class="pinout-note-content"> 
+                                <span> Note: </span> <br>
+                                <span>All GPIOs can be configured to different functions including but<br> not limited to SDIO, Audio, SPI, I2C, UART and PWM</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <table cellpadding="0" border="2">
+                    <thead>
+                      <tr>
+                        <td>  <div class="td-content">SPECIFICATIONS</div>   </td>
+                        <td> <div class="td-content">PINOUT</div> </td>
+                      </tr>
+                    </thead>
+                  <tbody>
+                    <tr class="level1">
+                      <td></td>
+                      <td>
+                        
+                        
+                      </td>
+                    </tr>
+                  </tbody>
+                  </table> -->
+                </div>
+              </div>
+            </section>
+
+            <!-- s8 -->
+             <section class="beagle-section beagle-s8"  id="trigger-s8" >
+              <div class="beagle-section-wrapper" id="s8-fixed-target">
+                <div class="s8-bg"><img src="./img/s8-bg.png" alt=""></div>
+                <div class="s8-content" >
+                  <div class="s8-title-box" >
+                    <div id="trigger-s8-title"></div>
+                    <div class="s8-title" id="s8-title-ani"> 
+                      <span >Strategy Partners</span>
+                    </div>
+                  </div>
+                  <div class="s8-circle-box">
+                    <div class="s8-circle-frame" > 
+                      <div id="trigger-s8-circle"></div>
+                      <div class="s8-circle" id="s8-circle-ani"><img src="./img/s8-circle.png" alt=""></div>
+                      <div class="s8-circle-tip" id="s8-tip-ani"><img src="./img/s8-tips.png" alt=""></div>
+                    </div>
+                  </div>
+
+                  <div class="s8-title-box" >
+                    <div class="s8-title" id="s8-title2-ani"> 
+                      <span >Launch Plans</span>
+                    </div>
+                    <div id="trigger-s8-title2"></div>
+                  </div>
+
+                  <div class="s8-line-box">
+                    <div class="s8-line" id="s8-line-ani">
+                      <div class="s8-line-item">
+                        <div class="line-item-date"><span>2021/01/13</span></div>
+                        <div class="line-item-title"><span>BeagleV™ launch</span></div>
+                      </div>
+                      <div class="s8-line-item">
+                        <div class="line-item-date"><span>2021/03/05</span></div>
+                        <div class="line-item-title"><span>NPI Finish</span></div>
+                      </div>
+                      <div class="s8-line-item">
+                        <div class="line-item-date"><span>2021 End of March</span></div>
+                        <div class="line-item-title"><span>Hardware Testing <br> Production Ready <br> System Integration Testing <br> MP Software Package</span></div>
+                      </div>
+                      <div class="s8-line-item">
+                        <div class="line-item-date"><span>2021 April</span></div>
+                        <div class="line-item-title"><span>Pilot Run For Community</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <script>
+               var s8Controller = new ScrollMagic.Controller();
+
+                  var tl_s8Title2 = new TimelineLite();
+                      tl_s8Title2.fromTo("#s8-title2-ani",4,{opacity:0,y:50},{opacity:1,y:0,ease:Power1.easeIn});
+                      tl_s8Title2.fromTo("#s8-line-ani",3,{opacity:0,y:10},{opacity:1,y:0,ease:Power1.easeIn},"+=1"); 
+                  
+
+                  new ScrollMagic.Scene({
+                    triggerElement: "#trigger-s8-title2",
+                    reverse:true,
+                    duration:250,
+                    offset : 100,
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s8Title2) 
+                  // .addIndicators({"name":"s8-line-ani"})
+                  .addTo(s8Controller); 
+
+
+                  var s8_fixedController = new ScrollMagic.Controller();
+
+
+                  var tl_s8Circle = new TimelineLite();  
+
+                  
+                  tl_s8Circle.fromTo("#s8-title-ani",2,{opacity:0,y:40},{opacity:0.4,y:0,ease:Expo.easeIn});
+                  tl_s8Circle.to("#s8-title-ani",3,{opacity:1});
+                  tl_s8Circle.fromTo("#s8-circle-ani",5,{opacity:0,y:100,scale:1.3,rotate:-12},{y:0,opacity:1});
+                      // tl_s8Circle.to("#s8-circle-ani",3,{y:0});
+                      tl_s8Circle.to("#s8-circle-ani",2,{rotate:0,scale:1});
+                      tl_s8Circle.fromTo("#s8-tip-ani",2,{opacity:0,y:40},{opacity:1,y:0,ease:Power1.easeIn},"-=1");
+                      // tl_s8Circle.to("#s8-tip-ani",4,{y:0});
+                  new ScrollMagic.Scene({
+                      triggerElement: "#s8-fixed-target",
+                      reverse:true,
+                      duration:$("#s8-fixed-target").height()/2,
+                      offset:0,
+                      triggerHook:0,
+                    })
+                    .setPin("#s8-fixed-target")
+                    // .addIndicators({"name":"s8-fixed-ani"})
+                    .addTo(s8_fixedController);
+
+                  new ScrollMagic.Scene({
+                      triggerElement: "#s8-fixed-target",
+                      reverse:true,
+                      duration:$("#s8-fixed-target").height()/2,
+                      offset:($("#s8-fixed-target").height()/10 )* -1,
+                      triggerHook:0,
+                    })
+                    .setTween(tl_s8Circle) 
+                    // .addIndicators({"name":"s8-circle-ani"})
+                    .addTo(s8_fixedController);
+
+            </script>
+        </div>
+      </div>
+
+  </div>
+</body>
+</html>
