@@ -1,16 +1,593 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610456114181">
+  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610543022107">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>BeagleV</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">12.01.2021 12:55:14 UTC</time>
+    <time type="date">13.01.2021 13:03:42 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
     <body>&lt;h1&gt;BeagleV&lt;sup&gt;™&lt;/sup&gt;&lt;/h1&gt;
-&lt;p style=&quot;font-size: 2em;&quot;&gt;&lt;a href=&quot;https://forms.gle/BQ2Y69hE4SYdijex9&quot; class=&quot;external&quot;&gt;Register your interest&lt;/a&gt;&lt;/p&gt;</body>
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/beagleV/style/beagleV.css&quot;&gt;
+  &lt;script src=&quot;/static/beagleV/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;/static/beagleV/js/ScrollMagic.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;/static/beagleV/js/gsap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;/static/beagleV/js/animation.gsap.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;/static/beagleV/js/debug.addIndicators.js&quot;&gt;&lt;/script&gt;
+  &lt;div id=&quot;maincontent&quot;&gt;
+
+    &lt;!-- html --&gt;
+    &lt;div id=&quot;beagleV-page&quot; &gt;
+        &lt;div class=&quot;beagleV-page-container&quot;&gt;
+
+            &lt;!-- s1 --&gt;
+            &lt;section class=&quot;beagle-section beagle-s1&quot;  id=&quot;trigger-s1&quot; &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s1-bg&quot; id=&quot;s1-V-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-bg-V.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;s1-content&quot; &gt;
+                  &lt;div id=&quot;s1-title-ani&quot;  class=&quot;s1-title&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-title.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                  &lt;div id=&quot;s1-intro-ani&quot; class=&quot;s1-intro&quot; &gt;
+                    &lt;span&gt;The First Affordable RISC-V&lt;br&gt; Computer Designed to Run Linux&lt;/span&gt;
+                    &lt;!-- &lt;span&gt;The World&apos;s First Card-size &lt;br&gt;RISC-V Architecture Single Board &lt;br&gt; Computer designed for the Linux Users&lt;/span&gt; --&gt;
+                  &lt;/div&gt;
+                  &lt;div id=&quot;s1-finger-ani&quot; class=&quot;s1-finger&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-finger.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                  
+                  &lt;!-- Truly Open Source --&gt;
+                  &lt;div class=&quot;s1-icon-list-box&quot;&gt;
+                    
+                    &lt;div id=&quot;s1-icons-trigger&quot;&gt; &lt;/div&gt;
+                    &lt;div class=&quot;s1-icon-list-wrap&quot; &gt;
+                      &lt;div class=&quot;s1-icon-list-title&quot; id=&quot;s1-icons-title-ani&quot;&gt;&lt;span&gt;Truly Open Source&lt;/span&gt;&lt;/div&gt;
+                      &lt;div class=&quot;s1-icon-list&quot; id=&quot;s1-icons-list-ani&quot;&gt;
+                        &lt;div class=&quot;s1-icon-item&quot;&gt;
+                          &lt;div class=&quot;s1-icon-img&quot; &gt;&lt;img src=&quot;/static/beagleV/img/s1-icon1.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                          &lt;div class=&quot;s1-icon-title&quot;&gt;&lt;span&gt;Open Source Software&lt;/span&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;s1-icon-item&quot;&gt;
+                          &lt;div class=&quot;s1-icon-img&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-icon2.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                          &lt;div class=&quot;s1-icon-title&quot;&gt;&lt;span&gt;Based on RISC-V Open Architecture&lt;/span&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;s1-icon-item&quot;&gt;
+                          &lt;div class=&quot;s1-icon-img&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-icon3.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                          &lt;div class=&quot;s1-icon-title&quot;&gt;&lt;span&gt;Open Hardware Design&lt;/span&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;script&gt;
+              var s1Controller = new ScrollMagic.Controller();
+        
+              //  section 1 
+        
+                //---&amp;#26631;&amp;#39064;&amp;#21160;&amp;#30011;----
+                var tl_s1Title = new TimelineLite();
+                tl_s1Title.fromTo(&quot;#s1-title-ani&quot;,.5 ,{scale:0.8},{scale:1});
+                tl_s1Title.fromTo(&quot;#s1-intro-ani&quot;,1.0 ,{scale:0.8},{scale:1},&quot;-=0.4&quot;);
+                new ScrollMagic.Scene({
+                    triggerElement: &quot;#trigger-s1&quot;,
+                    reverse:true,
+                    duration:40,
+                    triggerHook:0,
+                    // offset
+                  })
+                  .setTween(tl_s1Title) 
+                      //.addIndicators({&quot;name&quot;:&quot;s1-title-ani&quot;})
+                  .addTo(s1Controller);
+        
+              // ---&amp;#25163;&amp;#25351;&amp;#21160;&amp;#30011;----
+                var tl_s1Finger = new TimelineLite();
+                tl_s1Finger.fromTo(&quot;#s1-finger-ani&quot;,.8 ,{translateY:80,scale:1.5},{translateY:0,scale:1,ease:Power0.easeIn});   
+                
+                    new ScrollMagic.Scene({
+                        // triggerElement: &quot;#s1-title-ani&quot;,
+                        triggerElement: &quot;#trigger-s1&quot;,
+                        reverse:true,
+                        duration:244,
+                        triggerHook:0,
+                        // offset
+                      })
+                      .setTween(tl_s1Finger) 
+                      // .addIndicators({&quot;name&quot;:&quot;s1-finger-ani&quot;})
+                      .addTo(s1Controller);
+
+                
+                //----icon &amp;#21160;&amp;#30011;-----
+                var tl_s1Icons = new TimelineLite();
+                tl_s1Icons.fromTo(&quot;#s1-icons-title-ani&quot;,4 ,{opacity:0},{opacity:1,ease:Power0.easeInOut});
+                tl_s1Icons.fromTo(&quot;#s1-icons-list-ani&quot;,4,{opacity:0},{opacity:1,ease:Power0.easeInOut},&quot;-=2.65&quot;);
+                
+                    new ScrollMagic.Scene({
+                        triggerElement: &quot;#s1-icons-trigger&quot;,
+                        reverse:true,
+                        duration:parseInt($(&quot;#s1-icons-trigger&quot;).height()),
+                        triggerHook:1,
+                        // offset
+                      })
+                      .setTween(tl_s1Icons) 
+                      //.addIndicators({&quot;name&quot;:&quot;s1-icons-trigger&quot;})
+                      .addTo(s1Controller);  
+              
+            &lt;/script&gt;
+
+            &lt;!-- s2 --&gt;
+            &lt;section class=&quot;beagle-section beagle-s2&quot;  id=&quot;trigger-s2&quot; &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot; id=&quot;s2-fixed-target&quot;&gt;
+                &lt;div class=&quot;s2-content&quot; &gt;
+                  &lt;div class=&quot;s2-content-bg&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-bg.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;s2-title-box&quot; &gt;
+                    &lt;div id=&quot;trigger-s2-title&quot;&gt;&lt;/div&gt;
+                      &lt;div class=&quot;s2-title&quot; id=&quot;s2-title-ani&quot;&gt; 
+                        &lt;span &gt;Powerful and &lt;br&gt;
+                          Rich AI Features&lt;/span&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    
+                    
+                    
+                    
+                    &lt;div class=&quot;s2-circle-box&quot; &gt;
+                      &lt;div class=&quot;s2-circle-frame&quot; &gt;
+                        &lt;div class=&quot;s2-circle-ic&quot; id=&quot;s2-ic-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-ic.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s2-circle-board&quot; id=&quot;s2-board-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-board.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s2-circle-tip&quot; id=&quot;s2-tip-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-tips.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id=&quot;trigger-s2-circle&quot; &gt;&lt;/div&gt;
+
+                  &lt;/div&gt;
+
+                  
+              &lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;script&gt;
+            
+            /* new fixed */
+              var s2Controller = new ScrollMagic.Controller();
+              var s2_fixedController = new ScrollMagic.Controller();
+              var tl_s2Title = new TimelineLite();
+              var tl_s2Circle = new TimelineLite();
+              tl_s2Title.fromTo(&quot;#s2-title-ani&quot;,6,{opacity:0,scale:0.7,ease:Power0.easeInOut},{opacity:1,scale:1.2,ease:Power0.easeInOut});
+                new ScrollMagic.Scene({
+                    triggerElement: &quot;#trigger-s2-title&quot;,
+                    reverse:true,
+                    duration:$(&quot;#trigger-s2-title&quot;).height(),
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s2Title) 
+                  //.addIndicators({&quot;name&quot;:&quot;s2-title-ani&quot;})
+                  .addTo(s2Controller);
+
+
+                  new ScrollMagic.Scene({
+                    triggerElement: &quot;#s2-fixed-target&quot;,
+                    reverse:true,
+                    duration:$(&quot;#s2-fixed-target&quot;).height()*1.4,
+                    triggerHook:0
+                  })
+                  .setPin(&quot;#s2-fixed-target&quot;,{pushFollowers: true})
+                  // .addIndicators({&quot;name&quot;:&quot;s2-fixed-ani&quot;,color:&apos;#00b2bf&apos;})
+                  .addTo(s2_fixedController);
+
+                  tl_s2Circle.fromTo(&quot;#s2-ic-ani&quot;,2,{scale:3.2,x:-41,y:30},{y:-20});
+                  tl_s2Circle.to(&quot;#s2-ic-ani&quot;,11,{x:0,y:0,scale:1},&quot;+=1&quot;);
+                  tl_s2Circle.fromTo(&quot;#s2-board-ani&quot;,6,{opacity:0},{opacity:1},&apos;-=10&apos;);
+                  tl_s2Circle.fromTo(&quot;#s2-board-ani&quot;,8,{y:60},{y:0},&apos;-=12&apos;);
+                  tl_s2Circle.fromTo(&quot;#s2-tip-ani&quot;,3,{opacity:0,ease:Power2.easeIn},{opacity:1,ease:Power2.easeIn},&quot;-=4&quot;);
+                  
+                  new ScrollMagic.Scene({
+                    triggerElement: &quot;#s2-fixed-target&quot;,
+                    reverse:true,
+                    duration:$(&quot;#s2-fixed-target&quot;).height()*1.4,
+                    triggerHook:0.05
+                  })
+                  .setTween(tl_s2Circle) 
+                  // .addIndicators({&quot;name&quot;:&quot;s2-circle-ani&quot;,color:&apos;#00b2bf&apos;})
+                  .addTo(s2_fixedController);
+
+
+
+            &lt;/script&gt;
+
+            &lt;!-- s3 --&gt;
+        &lt;!--
+            &lt;section class=&quot;beagle-section beagle-s3&quot;   &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s3-bg&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s3-bg.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;s3-content&quot;&gt;
+                  &lt;div class=&quot;s3-title&quot; id=&quot;s3-title-ani&quot;&gt; 
+                    &lt;span&gt;Ready for Mass &lt;br&gt; Production&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;s3-intro&quot; id=&quot;s3-intro-ani&quot;&gt; 
+                    &lt;div class=&quot;s3-intro-item&quot; &gt;&lt;span&gt;Boards and SoC designed and built for &lt;br&gt; the mass production&lt;/span&gt;&lt;/div&gt;  
+                    &lt;div class=&quot;s3-intro-item&quot;&gt;&lt;span&gt;Customization Ready&lt;/span&gt;&lt;/div&gt;  
+                    &lt;div class=&quot;s3-intro-item&quot;&gt;&lt;span&gt;Integrated with  &lt;a href=&quot;https://www.seeedstudio.com/fusion.html&quot; target=&quot;_blank&quot;&gt;Seeed Fusion Service&lt;/a&gt; &lt;/span&gt;&lt;/div&gt;  
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;trigger-s3-title&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/section&gt;
+            &lt;script&gt;
+              var s3Controller = new ScrollMagic.Controller();
+             var tl_s3Title = new TimelineLite();
+             tl_s3Title.fromTo(&quot;#s3-title-ani&quot;,7,{opacity:0,y:80},{opacity:1,y:0,ease:Power0.easeIn});
+             tl_s3Title.fromTo(&quot;#s3-intro-ani&quot;,4,{opacity:0,y:80},{opacity:0.2,y:30,ease:Power0.easeIn},&apos;-=4&apos;);
+             tl_s3Title.to(&quot;#s3-intro-ani&quot;,3,{opacity:1,y:0,ease:Power0.easeIn});
+              new ScrollMagic.Scene({
+                  triggerElement: &quot;#trigger-s3-title&quot;,
+                  reverse:true,
+                  duration:$(&quot;#trigger-s3-title&quot;).height(),
+                  triggerHook:100,
+                })
+                .setTween(tl_s3Title) 
+                //.addIndicators({&quot;name&quot;:&quot;s3-title-ani&quot;})
+                .addTo(s3Controller);
+            &lt;/script&gt;
+            --&gt;
+
+            &lt;!-- s4 --&gt;
+        &lt;!--
+            &lt;section class=&quot;beagle-section beagle-s4&quot;   &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s4-content&quot;&gt;
+                  &lt;div class=&quot;s4-title&quot; id=&quot;s4-title-ani&quot;&gt; 
+                    &lt;span&gt;Software Compatibility&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;s4-intro&quot; id=&quot;s4-intro-ani&quot;&gt; 
+                    &lt;div class=&quot;s4-intro-item&quot;&gt;&lt;span&gt;Open Source BSP Support&lt;/span&gt;&lt;/div&gt;  
+                    &lt;div class=&quot;s4-intro-item&quot;&gt;&lt;span&gt;Operating System Support on its way &lt;/span&gt;&lt;/div&gt;  
+                  &lt;/div&gt;
+                  &lt;div class=&quot;s4-brand&quot;&gt;
+                    &lt;div class=&quot;s4-brand-wrapper&quot;&gt;
+                      &lt;div class=&quot;s4-brand-list&quot;&gt;
+                        &lt;div class=&quot;s4-brand-item&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s4-brand-1.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s4-brand-item&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s4-brand-2.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s4-brand-item&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s4-brand-3.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s4-brand-item&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s4-brand-4.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/section&gt;
+            --&gt;
+            
+            &lt;div class=&quot;fixed-btn beagle-apply-btn&quot; id=&quot;fixed-button-ani&quot;&gt;
+              &lt;span&gt;Register Interest&lt;/span&gt;
+            &lt;/div&gt;
+             &lt;!-- s5 --&gt;
+             &lt;section class=&quot;beagle-section beagle-s5&quot;   &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s5-content&quot;&gt;
+                  &lt;div class=&quot;s5-title&quot; id=&quot;s5-title-ani&quot;&gt; 
+                    &lt;span&gt;Be the first one to break free &lt;br&gt; with open source &lt;br&gt; software and hardware&lt;/span&gt;
+                  &lt;/div&gt;
+                  
+                  &lt;div class=&quot;s5-apply-button beagle-apply-btn&quot; id=&quot;s5-button-ani&quot;&gt;
+                    &lt;span&gt;Register Interest&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div id=&quot;trigger-button-fixed&quot;&gt;&lt;/div&gt;
+                  &lt;div id=&quot;trigger-s5-button&quot; &gt;&lt;/div&gt; 
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+            &lt;script&gt;
+              var s5Controller = new ScrollMagic.Controller();
+              var tl_s5Btn = new TimelineLite();
+              var tl_s5BtnFixed = new TimelineLite();
+              tl_s5Btn.fromTo(&quot;#s5-title-ani&quot;,5,{opacity:0,y:20},{opacity:1,y:0});
+              tl_s5Btn.fromTo(&quot;#s5-button-ani&quot;,4,{opacity:0,y:80},{opacity:1,y:0,ease:Power4.easeOut});
+               
+              tl_s5BtnFixed.fromTo(&quot;#fixed-button-ani&quot;,10,{x:-380},{x:-40});
+            
+              new ScrollMagic.Scene({
+                    triggerElement: &quot;#trigger-s5-button&quot;,
+                    reverse:true,
+                    duration:$(&quot;#trigger-s5-button&quot;).height(),
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s5Btn) 
+                  // .addIndicators({&quot;name&quot;:&quot;s5-button-ani&quot;})
+                  .addTo(s5Controller);
+               
+             
+              new ScrollMagic.Scene({
+                triggerElement: &quot;#trigger-button-fixed&quot;,
+                reverse:true,
+                duration:100,
+                triggerHook:0,
+              })
+              .setTween(tl_s5BtnFixed) 
+              //.addIndicators({&quot;name&quot;:&quot;s5-button-fixed&quot;})
+              .addTo(s5Controller);
+
+              $(document).off(&quot;click&quot;,&quot;.beagle-apply-btn&quot;).on(&quot;click&quot;,&quot;.beagle-apply-btn&quot;,function(){window.open(&quot;https://forms.gle/BQ2Y69hE4SYdijex9&quot;,&quot;_blank&quot;)})
+            &lt;/script&gt;
+
+            &lt;!-- s6 --&gt;
+            &lt;section class=&quot;beagle-section beagle-s6&quot;   &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s6-bg&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s6-bg.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;s6-content&quot;&gt;
+                  &lt;div class=&quot;s6-title&quot; id=&quot;s6-title-ani&quot;&gt; 
+                    &lt;span&gt;Hardware Overview&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;s6-board&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s6-board.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;trigger-s6-title&quot;&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;!-- s7 --&gt;
+            &lt;section class=&quot;beagle-section beagle-s7&quot;   &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot;&gt;
+                &lt;div class=&quot;s7-content&quot;&gt;
+                  &lt;div class=&quot;s7-table&quot;&gt;
+                    &lt;div class=&quot;s7-table-col s7-table-col1&quot;&gt;
+                      &lt;div class=&quot;s7-table-col-wrapper&quot;&gt;
+                        &lt;div class=&quot;s7-table-col-title&quot;&gt;&lt;span&gt;Specifications&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s7-table-col-body&quot;&gt;
+                          &lt;!-- &amp;#34892;1 --&gt;
+                          &lt;div class=&quot;s7-table-col-tr&quot;&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt;Processor&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;
+                              &lt;ul class=&quot;s7-col-list&quot;&gt;
+                                &lt;li&gt;&lt;span&gt;• RISC-V U74 Dual core with 2MB L2 cache @ 1.0GHz&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Vision DSP Tensilica-VP6 for computing vision&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• NVDLA Engine 1 core (configuration 2048 MACs@800MHz )&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Neural Network Engine (1024MACs@500MHz)&lt;/span&gt;&lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- &amp;#34892;2 --&gt;
+                          &lt;div class=&quot;s7-table-col-tr&quot;&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt;Memory&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;
+                              &lt;ul class=&quot;s7-col-list&quot;&gt;
+                                &lt;li&gt;&lt;span&gt;• 8GB LPDDR4 (2 x 4GB LPDDR4 SDRAM)&lt;/span&gt;&lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- &amp;#34892;3 --&gt;
+                          &lt;div class=&quot;s7-table-col-tr&quot;&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt; Video &lt;br&gt; Processing&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;
+                              &lt;ul class=&quot;s7-col-list&quot;&gt;
+                                &lt;li&gt;&lt;span&gt;• Video Decoder (H264/H265) up to 4K@60FPS; Support Dual stream decoding for 2K@30FPS each&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Dual channels of ISP, each channel support up to 4K@30FPS&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• 2 x MIPI-CSI, 1 x MIPI-DSI&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• 1 x HDMI support up to 1080P@30fps&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• Support MIPI-CSI TX for video output after ISP and AI processing&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span&gt;• JPEG encoder/decoder&lt;/span&gt;&lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- &amp;#34892;4 --&gt;
+                          &lt;div class=&quot;s7-table-col-tr&quot;&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;&lt;span&gt;Peripherals&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class=&quot;s7-table-col-td&quot;&gt;
+                              &lt;ul class=&quot;s7-col-list&quot;&gt;
+
+                                 &lt;li&gt;&lt;span&gt;• 4 x USB 3.0 Ports&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Gigabit Ethernet &lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x 3.5mm Audio jack&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Support TRNG and OTP&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Support DMAC, QSPI and other peripheral&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Dedicated Audio Processing DSP and sub-system&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 40 Pin GPIO Header (28 x GPIO, I2C, I2S, SPI, UART)&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• System boot from SD card&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Wi-Fi 2.4GHz b/g/n and Bluetooth 4.2&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• Power with USB Type-C (5V@3A)&lt;/span&gt;&lt;/li&gt;
+                                 &lt;li&gt;&lt;span&gt;• 1 x Reset button and 1 x Power Button&lt;/span&gt;&lt;/li&gt;
+
+                              &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;s7-table-col s7-table-col2&quot;&gt;
+                      &lt;div class=&quot;s7-table-col-wrapper&quot;&gt;
+                        &lt;div class=&quot;s7-table-col-title&quot;&gt;&lt;span&gt;Pinout&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s7-table-col-body&quot;&gt;
+                          &lt;div class=&quot;pinout-list-box&quot;&gt;
+                            &lt;ul class=&quot;pinout-list&quot;&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(192, 149, 84, .65) ;&quot;&gt;3.3V Power&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;  &lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(192, 120, 120, 77) ;&quot;&gt;5V Power&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO48 (I2C SDA)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(192, 120, 120, 77)&quot; &gt;5V Power&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO47 (I2C SCL)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND &lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO46&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO14 (UART TX)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO13 (UART RX)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO44&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO45&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO22&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND &lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO20&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO21&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(192, 149, 84, .65) ;&quot;&gt;3.3V Power&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO19&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO18 (SPI MOSI)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot; &gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO16 (SPI MISO)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO17&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO12 (SPI SCLK)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO15 (SPI CE0)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO11 (SPI CE1)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO9&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO10&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO8&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO6&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO7 (PWM0)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO5 (PWM1)&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO3&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO4&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO1&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO2&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item pinout-title&quot;&gt; &lt;span class=&quot;pin-text&quot; style=&quot;background-color:rgba(220, 220, 220, 1) ;&quot;&gt;GND&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+                              &lt;li class=&quot;pinout-list-item&quot;&gt; &lt;span class=&quot;pin-text&quot;&gt;GPIO0&lt;/span&gt; &lt;span class=&quot;pin-circle&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+
+
+
+
+                            &lt;/ul&gt;
+                            &lt;div class=&quot;pinout-note&quot;&gt;
+                              &lt;div class=&quot;pinout-note-content&quot;&gt; 
+                                &lt;span&gt; Note: &lt;/span&gt; &lt;br&gt;
+                                &lt;span&gt;All GPIOs can be configured to different functions including but&lt;br&gt; not limited to SDIO, Audio, SPI, I2C, UART and PWM&lt;/span&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;!-- &lt;table cellpadding=&quot;0&quot; border=&quot;2&quot;&gt;
+                    &lt;thead&gt;
+                      &lt;tr&gt;
+                        &lt;td&gt;  &lt;div class=&quot;td-content&quot;&gt;SPECIFICATIONS&lt;/div&gt;   &lt;/td&gt;
+                        &lt;td&gt; &lt;div class=&quot;td-content&quot;&gt;PINOUT&lt;/div&gt; &lt;/td&gt;
+                      &lt;/tr&gt;
+                    &lt;/thead&gt;
+                  &lt;tbody&gt;
+                    &lt;tr class=&quot;level1&quot;&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                      &lt;td&gt;
+                        
+                        
+                      &lt;/td&gt;
+                    &lt;/tr&gt;
+                  &lt;/tbody&gt;
+                  &lt;/table&gt; --&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;!-- s8 --&gt;
+             &lt;section class=&quot;beagle-section beagle-s8&quot;  id=&quot;trigger-s8&quot; &gt;
+              &lt;div class=&quot;beagle-section-wrapper&quot; id=&quot;s8-fixed-target&quot;&gt;
+                &lt;div class=&quot;s8-bg&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s8-bg.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;s8-content&quot; &gt;
+                  &lt;div class=&quot;s8-title-box&quot; &gt;
+                    &lt;div id=&quot;trigger-s8-title&quot;&gt;&lt;/div&gt;
+                    &lt;div class=&quot;s8-title&quot; id=&quot;s8-title-ani&quot;&gt; 
+                      &lt;span &gt;Strategy Partners&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;s8-circle-box&quot;&gt;
+                    &lt;div class=&quot;s8-circle-frame&quot; &gt; 
+                      &lt;div id=&quot;trigger-s8-circle&quot;&gt;&lt;/div&gt;
+                      &lt;div class=&quot;s8-circle&quot; id=&quot;s8-circle-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s8-circle.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                      &lt;div class=&quot;s8-circle-tip&quot; id=&quot;s8-tip-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s8-tips.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;s8-title-box&quot; &gt;
+                    &lt;div class=&quot;s8-title&quot; id=&quot;s8-title2-ani&quot;&gt; 
+                      &lt;span &gt;Launch Plans&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div id=&quot;trigger-s8-title2&quot;&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;s8-line-box&quot;&gt;
+                    &lt;div class=&quot;s8-line&quot; id=&quot;s8-line-ani&quot;&gt;
+                      &lt;div class=&quot;s8-line-item&quot;&gt;
+                        &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021/01/13&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;BeagleV™ launch&lt;/span&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;s8-line-item&quot;&gt;
+                        &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021/03/05&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;NPI Finish&lt;/span&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;s8-line-item&quot;&gt;
+                        &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021 End of March&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;Hardware Testing &lt;br&gt; Production Ready &lt;br&gt; System Integration Testing &lt;br&gt; MP Software Package&lt;/span&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&quot;s8-line-item&quot;&gt;
+                        &lt;div class=&quot;line-item-date&quot;&gt;&lt;span&gt;2021 April&lt;/span&gt;&lt;/div&gt;
+                        &lt;div class=&quot;line-item-title&quot;&gt;&lt;span&gt;Pilot Run For &lt;br&gt; Community&lt;/span&gt;&lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+
+            &lt;script&gt;
+               var s8Controller = new ScrollMagic.Controller();
+
+                  var tl_s8Title2 = new TimelineLite();
+                      tl_s8Title2.fromTo(&quot;#s8-title2-ani&quot;,4,{opacity:0,y:50},{opacity:1,y:0,ease:Power1.easeIn});
+                      tl_s8Title2.fromTo(&quot;#s8-line-ani&quot;,3,{opacity:0,y:10},{opacity:1,y:0,ease:Power1.easeIn},&quot;+=1&quot;); 
+                  
+
+                  new ScrollMagic.Scene({
+                    triggerElement: &quot;#trigger-s8-title2&quot;,
+                    reverse:true,
+                    duration:250,
+                    offset : 100,
+                    triggerHook:100,
+                  })
+                  .setTween(tl_s8Title2) 
+                  // .addIndicators({&quot;name&quot;:&quot;s8-line-ani&quot;})
+                  .addTo(s8Controller); 
+
+
+                  var s8_fixedController = new ScrollMagic.Controller();
+
+
+                  var tl_s8Circle = new TimelineLite();  
+
+                  
+                  tl_s8Circle.fromTo(&quot;#s8-title-ani&quot;,2,{opacity:0,y:40},{opacity:0.4,y:0,ease:Expo.easeIn});
+                  tl_s8Circle.to(&quot;#s8-title-ani&quot;,3,{opacity:1});
+                  tl_s8Circle.fromTo(&quot;#s8-circle-ani&quot;,5,{opacity:0,y:100,scale:1.3,rotate:-12},{y:0,opacity:1});
+                      // tl_s8Circle.to(&quot;#s8-circle-ani&quot;,3,{y:0});
+                      tl_s8Circle.to(&quot;#s8-circle-ani&quot;,2,{rotate:0,scale:1});
+                      tl_s8Circle.fromTo(&quot;#s8-tip-ani&quot;,2,{opacity:0,y:40},{opacity:1,y:0,ease:Power1.easeIn},&quot;-=1&quot;);
+                      // tl_s8Circle.to(&quot;#s8-tip-ani&quot;,4,{y:0});
+                  new ScrollMagic.Scene({
+                      triggerElement: &quot;#s8-fixed-target&quot;,
+                      reverse:true,
+                      duration:$(&quot;#s8-fixed-target&quot;).height()/2,
+                      offset:0,
+                      triggerHook:0,
+                    })
+                    .setPin(&quot;#s8-fixed-target&quot;)
+                    // .addIndicators({&quot;name&quot;:&quot;s8-fixed-ani&quot;})
+                    .addTo(s8_fixedController);
+
+                  new ScrollMagic.Scene({
+                      triggerElement: &quot;#s8-fixed-target&quot;,
+                      reverse:true,
+                      duration:$(&quot;#s8-fixed-target&quot;).height()/2,
+                      offset:($(&quot;#s8-fixed-target&quot;).height()/10 )* -1,
+                      triggerHook:0,
+                    })
+                    .setTween(tl_s8Circle) 
+                    // .addIndicators({&quot;name&quot;:&quot;s8-circle-ani&quot;})
+                    .addTo(s8_fixedController);
+
+            &lt;/script&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;/div&gt;
+</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
     <http_referer>https://beagleboard.org/BeagleV/pangea</http_referer>
