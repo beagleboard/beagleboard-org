@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610553977727">
+  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610554092977">
   <hop:parent idref="0" prototyperef="Root"/>
     <tk_qs></tk_qs>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>BeagleV</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">13.01.2021 16:06:17 UTC</time>
+    <time type="date">13.01.2021 16:08:12 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
     <tk_tc>hqezbOancTUZ9PaW</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -525,8 +525,22 @@
                   &lt;div class=&quot;s8-circle-box&quot;&gt;
                     &lt;div class=&quot;s8-circle-frame&quot; &gt; 
                       &lt;div id=&quot;trigger-s8-circle&quot;&gt;&lt;/div&gt;
-                      &lt;div class=&quot;s8-circle&quot; id=&quot;s8-circle-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s8-circle.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-                      &lt;div class=&quot;s8-circle-tip&quot; id=&quot;s8-tip-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s8-tips.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                      &lt;div class=&quot;s8-circle&quot; id=&quot;s8-circle-ani&quot;&gt;
+                  &lt;picture&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s8-circle.webp&quot; type=&quot;image/webp&quot;&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s8-circle.png&quot; type=&quot;image/png&quot;&gt;
+                      &lt;img src=&quot;/static/beagleV/img/s8-circle.png&quot; alt=&quot;&quot;&gt;
+                  &lt;/picture&gt;
+                          
+                      &lt;/div&gt;
+                      &lt;div class=&quot;s8-circle-tip&quot; id=&quot;s8-tip-ani&quot;&gt;
+                  &lt;picture&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s8-tips.webp&quot; type=&quot;image/webp&quot;&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s8-tips.png&quot; type=&quot;image/png&quot;&gt;
+                      &lt;img src=&quot;/static/beagleV/img/s8-tips.png&quot; alt=&quot;&quot;&gt;
+                  &lt;/picture&gt;
+                          
+                      &lt;/div&gt;
                     &lt;/div&gt;
                   &lt;/div&gt;
 
