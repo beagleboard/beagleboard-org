@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610553687869">
+  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610553851344">
   <hop:parent idref="0" prototyperef="Root"/>
     <tk_qs></tk_qs>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>BeagleV</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">13.01.2021 16:01:27 UTC</time>
+    <time type="date">13.01.2021 16:04:11 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
     <tk_tc>hqezbOancTUZ9PaW</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -37,7 +37,7 @@
                   &lt;/div&gt;
                   &lt;div id=&quot;s1-finger-ani&quot; class=&quot;s1-finger&quot;&gt;
                   &lt;picture&gt;
-                  &lt;source srcset=&quot;/static/beagleV/img/s1-finger.png&quot; type=&quot;image/webp&quot;&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s1-finger.webp&quot; type=&quot;image/webp&quot;&gt;
                   &lt;source srcset=&quot;/static/beagleV/img/s1-finger.png&quot; type=&quot;image/png&quot;&gt;
                   &lt;img src=&quot;/static/beagleV/img/s1-finger.png&quot; alt=&quot;&quot;&gt;
                   &lt;/picture&gt;
@@ -129,7 +129,13 @@
             &lt;section class=&quot;beagle-section beagle-s2&quot;  id=&quot;trigger-s2&quot; &gt;
               &lt;div class=&quot;beagle-section-wrapper&quot; id=&quot;s2-fixed-target&quot;&gt;
                 &lt;div class=&quot;s2-content&quot; &gt;
-                  &lt;div class=&quot;s2-content-bg&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-bg.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;s2-content-bg&quot;&gt;
+                  &lt;picture&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s2-bg.webp&quot; type=&quot;image/webp&quot;&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s2-bg.png&quot; type=&quot;image/png&quot;&gt;
+                  &lt;img src=&quot;/static/beagleV/img/s2-bg.png&quot; alt=&quot;&quot;&gt;
+                  &lt;/picture&gt;
+                  &lt;/div&gt;
                   &lt;div class=&quot;s2-title-box&quot; &gt;
                     &lt;div id=&quot;trigger-s2-title&quot;&gt;&lt;/div&gt;
                       &lt;div class=&quot;s2-title&quot; id=&quot;s2-title-ani&quot;&gt; 
@@ -144,7 +150,13 @@
                     &lt;div class=&quot;s2-circle-box&quot; &gt;
                       &lt;div class=&quot;s2-circle-frame&quot; &gt;
                         &lt;div class=&quot;s2-circle-ic&quot; id=&quot;s2-ic-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-ic.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-                        &lt;div class=&quot;s2-circle-board&quot; id=&quot;s2-board-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-board.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;s2-circle-board&quot; id=&quot;s2-board-ani&quot;&gt;
+                          &lt;picture&gt;
+                          &lt;source srcset=&quot;/static/beagleV/img/s2-board.webp&quot; type=&quot;image/webp&quot;&gt;
+                          &lt;source srcset=&quot;/static/beagleV/img/s2-board.png&quot; type=&quot;image/png&quot;&gt;
+                          &lt;img src=&quot;/static/beagleV/img/s2-board.png&quot; alt=&quot;&quot;&gt;
+                          &lt;/picture&gt;
+                        &lt;/div&gt;
                         &lt;div class=&quot;s2-circle-tip&quot; id=&quot;s2-tip-ani&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s2-tips.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
                       &lt;/div&gt;
                     &lt;/div&gt;
@@ -599,7 +611,7 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
-    <http_referer>https://beagleboard.org/beaglev/pangea</http_referer>
+    <http_referer>https://beagleboard.org/BeagleV/pangea</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
