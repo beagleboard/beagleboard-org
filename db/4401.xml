@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610543022107">
+  <hopobject id="4401" name="Page" prototype="Page" created="1610419942720" lastModified="1610553687869">
   <hop:parent idref="0" prototyperef="Root"/>
+    <tk_qs></tk_qs>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>BeagleV</uri>
     <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0</http_browser>
-    <time type="date">13.01.2021 13:03:42 UTC</time>
+    <time type="date">13.01.2021 16:01:27 UTC</time>
     <hopsession>127.0.0.13853necq4vnt</hopsession>
+    <tk_tc>hqezbOancTUZ9PaW</tk_tc>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;BeagleV&lt;sup&gt;™&lt;/sup&gt;&lt;/h1&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/beagleV/style/beagleV.css&quot;&gt;
   &lt;script src=&quot;/static/beagleV/js/jquery.min.js&quot;&gt;&lt;/script&gt;
@@ -32,7 +35,13 @@
                     &lt;span&gt;The First Affordable RISC-V&lt;br&gt; Computer Designed to Run Linux&lt;/span&gt;
                     &lt;!-- &lt;span&gt;The World&apos;s First Card-size &lt;br&gt;RISC-V Architecture Single Board &lt;br&gt; Computer designed for the Linux Users&lt;/span&gt; --&gt;
                   &lt;/div&gt;
-                  &lt;div id=&quot;s1-finger-ani&quot; class=&quot;s1-finger&quot;&gt;&lt;img src=&quot;/static/beagleV/img/s1-finger.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                  &lt;div id=&quot;s1-finger-ani&quot; class=&quot;s1-finger&quot;&gt;
+                  &lt;picture&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s1-finger.png&quot; type=&quot;image/webp&quot;&gt;
+                  &lt;source srcset=&quot;/static/beagleV/img/s1-finger.png&quot; type=&quot;image/png&quot;&gt;
+                  &lt;img src=&quot;/static/beagleV/img/s1-finger.png&quot; alt=&quot;&quot;&gt;
+                  &lt;/picture&gt;
+                  &lt;/div&gt;
                   
                   &lt;!-- Truly Open Source --&gt;
                   &lt;div class=&quot;s1-icon-list-box&quot;&gt;
@@ -590,7 +599,7 @@
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
-    <http_referer>https://beagleboard.org/BeagleV/pangea</http_referer>
+    <http_referer>https://beagleboard.org/beaglev/pangea</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
