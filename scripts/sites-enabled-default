@@ -121,7 +121,37 @@
 
 server {
 	listen 80;
+	listen 443 ssl;
+	server_name beaglev.org;
+	server_name beagle5.org;
+	server_name beaglev.com;
+	server_name beagle5.com;
+	server_name beagle-v.org;
+	server_name beagle-5.org;
+	server_name beagle-v.com;
+	server_name beagle-5.com;
+	server_name beaglefive.org;
+	server_name beaglefive.com;
+	server_name beagle-five.org;
+	#server_name beagle-five.com;
+	server_name beagleriscv.org;
+	server_name beagleriscv.com;
+	server_name riskyboard.net;
+	server_name riskyboard.info;
+	server_name riskyboard.org;
+	server_name riskyboard.com;
+	server_name riskyboards.org;
+	server_name riskyboards.com;
+	return 303 https://beagleboard.org/beaglev;
+
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+}
+
+server {
+	listen 80;
 	server_name bbb.io;
+	server_name beagle.cc;
 	server_name www.beagleboard.org;
 	server_name beagleb.one;
 	server_name beagleboard.cn;
@@ -141,19 +171,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 server {
@@ -167,9 +184,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
 }
 
 server {
@@ -182,10 +196,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
 }
 
 server {
@@ -198,10 +208,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
 }
 
 server {
@@ -214,10 +220,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
 }
 
 server {
@@ -1974,9 +1976,6 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-
-
-
 }
 
 server {
@@ -3684,10 +3683,10 @@ server {
 			proxy_pass	http://127.0.0.1:8080/static/prucookbook;
 		}
 	}
+    ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 
 
-	ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
 }
 
 server {
@@ -3700,7 +3699,6 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
-
 }
 
 server {
@@ -3720,9 +3718,6 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
-
-
-
 
 }
 
@@ -3748,8 +3743,6 @@ server {
       proxy_set_header X-Forwarded-For $remote_addr;
     }
 
-
-
 }
 
 server {
@@ -3773,9 +3766,6 @@ server {
       proxy_pass http://127.0.0.1:8008;
       proxy_set_header X-Forwarded-For $remote_addr;
     }
-
-
-
 }
 
 upstream yacy {
@@ -3792,10 +3782,6 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
-
-
-
-
 }
 
 upstream buildbot {
@@ -3858,43 +3844,43 @@ server {
 # https://github.com/WebThingsIO/registration_server
 # HTTP version of the main registration server. We redirect to TLS port 8443 to
 # avoid conflicting with tunneled domains.
-server {
-    listen 80;
-    listen [::]:80;
-    server_name api.beagle.cc;
-    return 301 https://$server_name:8443$request_uri;
-}
+#server {
+#    listen 80;
+#    listen [::]:80;
+#    server_name api.beagle.cc;
+#    return 301 https://$server_name:443$request_uri;
+#}
 
 # This default server handles tunneled domains, i.e. myhost.mydomain.org.
-server {
-    listen 80 default_server;
-    listen [::]:80 default_server;
-    server_name *.beagle.cc;
-    return 301 https://$host$request_uri;
-}
+#server {
+#    listen 80 default_server;
+#    listen [::]:80 default_server;
+#    server_name *.beagle.cc;
+#    return 301 https://$host:4443$request_uri;
+#}
 
 # This is the main registration server.
 #
 # This section assumes you're using Let's Encrypt to generate a host
 # certificate. Adjust accordingly if necessary.
-server {
-    listen 8443 ssl http2 default_server;
-    listen [::]:8443 ssl http2 default_server;
-    server_name api.beagle.cc;
-
-    # It is *strongly* recommended to generate unique DH parameters
-    # Generate them with: openssl dhparam -out /etc/pki/nginx/dhparams.pem 2048
-    ssl_dhparam "/etc/pki/nginx/dhparams.pem";
-    ssl_session_cache shared:SSL:1m;
-    ssl_session_timeout  10m;
-    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-    ssl_ciphers HIGH:SEED:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!RSAPSK:!aDH:!aECDH:!EDH-DSS-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA:!SRP;
-    ssl_prefer_server_ciphers on;
-
-    location / {
-        proxy_set_header Host $http_host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://127.0.0.1:4141;
-    }
-}
+#server {
+#    listen 443 ssl http2 default_server;
+#    listen [::]:443 ssl http2 default_server;
+#    server_name api.beagle.cc;
+#
+#    # It is *strongly* recommended to generate unique DH parameters
+#    # Generate them with: openssl dhparam -out /etc/pki/nginx/dhparams.pem 2048
+#    ssl_dhparam "/etc/pki/nginx/dhparams.pem";
+#    ssl_session_cache shared:SSL:1m;
+#    ssl_session_timeout  10m;
+#    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+#    ssl_ciphers HIGH:SEED:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!RSAPSK:!aDH:!aECDH:!EDH-DSS-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA:!SRP;
+#    ssl_prefer_server_ciphers on;
+#
+#    location / {
+#        proxy_set_header Host $http_host;
+#        proxy_set_header X-Real-IP $remote_addr;
+#        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+#        proxy_pass http://127.0.0.1:4141;
+#    }
+#}
