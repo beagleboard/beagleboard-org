@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3227" name="Page" prototype="Page" created="1383858187007" lastModified="1384986332559">
+  <hopobject id="3227" name="Page" prototype="Page" created="1383858187007" lastModified="1611677776034">
   <hop:parent idref="0" prototyperef="Root"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_remotehost>192.91.75.30</http_remotehost>
-    <http_language>en-US,en;q=0.8,fr;q=0.6</http_language>
-    <uri>newsletter-signup</uri>
     <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36</http_browser>
-    <time type="date">20.11.2013 16:25:32 CST</time>
+    <lang>en-us</lang>
+    <uri>newsletter-signup</uri>
+    <http_host>beagleboard.org</http_host>
+    <time type="date">20.11.2013 22:25:32 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>192.91.75.30</http_remotehost>
     <hopsession>192.91.75.vmdgjb34tqw</hopsession>
+    <user>jessica.lynne.callaway@gmail.com</user>
+    <pvcount type="float">0.0</pvcount>
     <body>&lt;h1&gt;BeagleBoard.org Quarterly Newsletter Sign-up&lt;/h1&gt;
 &lt;br&gt;
 Sign up for the quarterly BeagleBoard.org newsletter to get a concise and timely snapshot of the exciting things that have been happening in the Beagle world over the last three months. Newsletters include blog posts, highlighted media coverage, featured projects and step-by-step “how-tos.” Register today.
@@ -19,10 +22,8 @@ Sign up for the quarterly BeagleBoard.org newsletter to get a concise and timely
   &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
 &lt;/iframe&gt;
 </body>
-    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_language>en-US,en;q=0.8,fr;q=0.6</http_language>
+    <is_xhtml type="boolean">true</is_xhtml>
     <http_referer>http://beagleboard.org/newsletter-signup/edit</http_referer>
-    <http_host>beagleboard.org</http_host>
-    <user>jessica.lynne.callaway@gmail.com</user>
-    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
