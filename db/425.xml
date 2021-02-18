@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="425" name="alternatives" prototype="Page" created="1226067789146" lastModified="1226067789168">
+  <hopobject id="425" name="alternatives" prototype="Page" created="1226067789146" lastModified="1613578495148">
   <hop:parent idref="212" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3</http_browser>
     <lang>en-us</lang>
     <uri>alternatives</uri>
     <http_host>beagleboard.org</http_host>
-    <time type="date">07.11.2008 08:23:09 CST</time>
+    <time type="date">07.11.2008 14:23:09 UTC</time>
     <pseudoparent idref="212" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.192.91.75.3ut8whdro4vy</hopsession>
     <user>blog.hangerhead.com</user>
+    <pvcount type="float">0.0</pvcount>
     <body>
  &lt;p&gt;
   There are many alternative OMAP35x-based boards that you can look at for your development.  There is a summary of
@@ -19,7 +20,7 @@
  &lt;/p&gt;
 </body>
     <http_language>en-us,en;q=0.8,en-gb;q=0.5,ja;q=0.3</http_language>
-    <http_referer>http://beagleboard.org/hardware/alternatives/edit</http_referer>
     <beagleirclog>000000</beagleirclog>
+    <http_referer>http://beagleboard.org/hardware/alternatives/edit</http_referer>
   </hopobject>
 </xmlroot>
