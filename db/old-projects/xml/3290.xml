@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3290" name="octoscroller" prototype="Page" created="1386790530896" lastModified="1540811129770">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Octoscroller and LEDscape</pname>
+    <registrant>jkridner</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>demo</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>octoscroller</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36</http_browser>
+    <time type="date">22.08.2014 23:27:02 UTC</time>
+    <updatetime type="date">11.12.2013 19:35:30 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <hopsession>127.0.0.1id7mzpqto4kh</hopsession>
+    <body>&lt;p&gt;From&amp;nbsp;http://beagleboard.org/blog/2013-10-22-project-spotlight-octoscroller/:&lt;/p&gt;
+&lt;div id=&quot;page&quot; style=&quot;color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 12px;&quot;&gt;
+&lt;div style=&quot;float: left; width: 100%;&quot;&gt;
+&lt;h1 style=&quot;font-family: Arial, Verdana, Helvetica, sans-serif; color: #b4a279;&quot;&gt;BeagleBone Black project spotlight:&lt;br /&gt;The Octoscroller&lt;/h1&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;By Tara Stratton&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;New York is one of the brightest places on Earth. Times Square is definitely a large factor, but now a new BeagleBone Black-based project&amp;mdash;the Octoscroller&amp;mdash;is adding to the glow.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/VINl9ZE.jpgg&quot; alt=&quot;&quot; width=&quot;100%&quot; height=&quot;170&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;The Octoscroller, which you may have seen at Maker Faire New York a few weeks ago, is a project created by NYC Resistor&amp;rsquo;s Trammel Hudson and Matt Mets. The Octoscroller is a classic message alert polygon featuring eight 16x32 RGB LED matrix panels. It features LEDS at eight to 16 levels of brightness for each color (producing approximately 12-bit color). The userspace application renders images into a shared memory frame buffer or can receive UDP packets containing video images from the&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;../../blog/2013-10-15-project-spotlight-disorient-pyramid/&quot;&gt;Disorient Pyramid&lt;/a&gt;&amp;nbsp;transmitter.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/Oce4HhQ.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; height=&quot;298&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;The BeagleBone Black open-source computer, based on TI&apos;s Sitara AM335x processor, is the brains behind the operation. The LEDscape custom firmware runs on the AM335x processor&amp;rsquo;s programmable real-time unit (PRU)&amp;mdash;two separate real-time microcontrollers built into the die, with full access to the GPIO lines and cache-coherent access to the main memory. The&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;https://github.com/osresearch/LEDscape/blob/master/matrix.p&quot;&gt;LEDscape custom firmware&lt;/a&gt;&amp;nbsp;allows the user application render into a frame buffer, which is then driven to the Octoscroller&amp;rsquo;s panels by the PRU.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;Trammel and Matt purchased the&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://www.adafruit.com/products/420&quot;&gt;16&amp;times;32 RGB panels&lt;/a&gt;&amp;nbsp;on the Octoscoller from Adafruit Industries. The panels are very inexpensive since they require continuous refresh by an external driver. With LEDscape, BeagleBone Black can drive up to four chains of four panels, each at 0 percent CPU load. The panels are built as six parallel shift registers, each with 32 bits and 12 16-channel constant current LED drivers. The connectors have six data inputs and six control inputs each: F1, G1, B1, R2, G2 and B2; and A, B, C, CLK, LTC and OE. The three address select lines (A, B and C) select which two rows are currently displayed. On each falling edge of the CLK line, a new bit is shifted in on the six data inputs. On the falling edge of the LAT line, the new data is latched and, when OE is held low, displayed. To save on GPIO lines, the PRU shares the control lines between all output chains and only needs the six additional data lines per chain. If the HDMI hardware is disabled, four chains can be driven by a single BeagleBone Black. The panels and BeagleBone Black are powered by a&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://www.adafruit.com/products/658&quot;&gt;5V 10A DC supply&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;If you missed Trammell and Matt&amp;rsquo;s Octoscroller at Maker Faire New York, find out more about it from Trammell&amp;rsquo;s&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://www.nycresistor.com/2013/09/12/octoscroller/&quot;&gt;recent blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em;&quot;&gt;&lt;iframe class=&quot;vine-embed loaded &quot; src=&quot;https://vine.co/v/h17j6QuqXxP/embed/simple&quot; width=&quot;100%&quot; height=&quot;400px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div id=&quot;list&quot; style=&quot;color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;&quot;&gt;&amp;nbsp;&lt;/div&gt;</body>
+    <imagefile>3290.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">65028.0</pvcount>
+    <prj_status>demo</prj_status>
+    <categories>library,cape,demo</categories>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>https://github.com/osresearch/LEDscape</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/octoscroller/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Message alert polygon featuring eight 16x32 RGB LED matrix panels and PRU library for feeding graphics and video to those panels---also a cape design</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3872" name="BBConsole" prototype="Page" created="1416326291799" lastModified="1540735774235">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>BBConsole - Bluetooth 4.0 Console Adapter for BeagleBone Black </pname>
+    <registrant>patildg@gmail.com</registrant>
+    <uri>BBConsole</uri>
+    <time type="date">18.11.2014 15:58:11 UTC</time>
+    <updatetime type="date">18.11.2014 15:58:11 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;BBConsole lets you connect Linux console of BeagleBone Black to any latest Android device with Bluetooth Low Energy, or an iOS device (iPhone or iPad/iPod).&lt;br /&gt; &lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;Access the console on your smartphone or PC via Bluetooth 4.0 (you don&apos;t need another monitor!)&lt;/li&gt;
+&lt;li&gt;Works with Bluetooth 4.0 enabled Android and iOS smartphones&lt;/li&gt;
+&lt;li&gt;Designed for BeagleBone Black&lt;/li&gt;
+&lt;li&gt;Simply plug it into J1 Port (Console Port) and start using it.&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>3872.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">21918.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;cape;</category>
+    <homepage>http://www.openelectrons.com/pages/83</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Bluetooth 4.0 Console Adapter for BeagleBone Black </shortdesc>
+    <user>patildg@gmail.com</user>
+  </hopobject>
+</xmlroot>

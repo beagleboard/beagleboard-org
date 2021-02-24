@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4158" name="fbtft-drivers-for-linux-38" prototype="Page" created="1449019212779" lastModified="1540779426157">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>BeagleBone Black: build fbtft drivers for latest Linux 3.8 kernel</pname>
+    <registrant>pdp7.blogspot.com</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>fbtft-drivers-for-linux-38</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0</http_browser>
+    <time type="date">02.12.2015 01:21:52 UTC</time>
+    <updatetime type="date">02.12.2015 01:20:12 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.kfg0waceb9zs</hopsession>
+    <body>&lt;div class=&quot;jive-rendered-content&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21836-232894/bbb1.jpg&quot;&gt;&lt;img class=&quot;image-1 jive-image&quot; style=&quot;height: 465px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21836-232894/bbb1.jpg&quot; alt=&quot;bbb1.jpg&quot; width=&quot;1091&quot; height=&quot;818&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+My previous post showed how to use small TFT LCDs as a Linux framebuffer on a BeagleBone Black:&lt;/div&gt;
+&lt;div class=&quot;jive-rendered-content&quot;&gt;&lt;a class=&quot;jive-link-blog-small&quot; href=&quot;http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2015/11/18/beaglebone-black-lcds-with-prebuilt-fbtft-drivers&quot; data-containerid=&quot;10470&quot; data-containertype=&quot;37&quot; data-objectid=&quot;21712&quot; data-objecttype=&quot;38&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;BeagleBone Black LCDs with Prebuilt FBTFT drivers&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;jive-rendered-content&quot;&gt;
+&lt;p&gt;I showed how to use pre-built &lt;strong&gt;fbtft&lt;/strong&gt; kernel modules to provide the necessary Linux device driver.&amp;nbsp; However, what if you want to use &lt;strong&gt;fbtft&lt;/strong&gt; modules with a newer version of the Linux kernel?&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The BeagleBone Black &lt;a class=&quot;jive-link-external-small&quot; href=&quot;../../latest-images&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;currently ships&lt;/a&gt; with a &lt;strong&gt;Linux 3.8&lt;/strong&gt; kernel built from &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/RobertCNelson/bb-kernel/tree/am33x-v3.8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Robert C. Nelson&apos;s &lt;strong&gt;am33x-v3.8&lt;/strong&gt; branch&lt;/a&gt;.&amp;nbsp; I do also have &lt;strong&gt;fbtft&lt;/strong&gt; working on the &lt;strong&gt;BBB&lt;/strong&gt; with newer kernels such as &lt;strong&gt;TI&apos;s 4.1 branch&lt;/strong&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;mainline 4.4-rc1&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;, but I will focus on Linux 3.8 for this post.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Here is how I built FBTFT for &lt;strong&gt;Linux 3.8.13-bone79&lt;/strong&gt; kernel:&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;em&gt;(for my complete transcript see this &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/2fba066dcf23b049781a&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GitHub Gist&lt;/a&gt;)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 1: Clone repo &amp;amp; checkout branch&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;Clone bb-kernel repo &amp;amp; checkout &lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;am33x-v3.8&lt;/span&gt; branch&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ git clone &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/RobertCNelson/bb-kernel&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;https://github.com/RobertCNelson/bb-kernel&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier; font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;$ cd bb-kernel&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ git checkout am33x-v3.8&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Already on &apos;am33x-v3.8&apos;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Your branch is up-to-date with &apos;origin/am33x-v3.8&apos;.&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16px; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 2: Run build script&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Move into the new branch directory &amp;amp; run the build kernel script:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ ./build_kernel.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-----------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;make -j4 ARCH=arm LOCALVERSION=-bone79 CROSS_COMPILE=&quot;ccache /home/afustini/dev/bbb/bb-kernel/dl/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-&quot; dtbs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-----------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier; font-size: 10pt; line-height: 1.5em;&quot;&gt;Script Complete&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 3: Add fbtft drivers&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;Add fbtft drivers into Linux kernel source &lt;/span&gt;based on &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft/blob/master/README&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;instructions from fbtft README&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;F&lt;span style=&quot;font-size: 13.3333px; line-height: 1.5em;&quot;&gt;rom within the &lt;strong&gt;bb-kernel&lt;/strong&gt; dir:&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ cd KERNEL/drivers/video&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ git clone &lt;/strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;https://github.com/notro/fbtft&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Cloning into &apos;fbtft&apos;...&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;remote: Counting objects: 1170, done.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;remote: Total 1170 (delta 0), reused 0 (delta 0), pack-reused 1170&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Receiving objects: 100% (1170/1170), 526.16 KiB | 0 bytes/s, done.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Resolving deltas: 100% (726/726), done.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Checking connectivity... done.&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Add to &lt;strong&gt;KERNEL/drivers/video/Kconfig&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;source &quot;drivers/video/fbtft/Kconfig&quot;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Add to &lt;strong&gt;KERNEL/drivers/video/Makefile&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;obj-y += fbtft/&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Verify files were modified correctly&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ git diff&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;diff --git a/drivers/video/Kconfig b/drivers/video/Kconfig&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;index a0c757a..50c5d62 100644&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #800000; font-family: &apos;courier new&apos;, courier;&quot;&gt;--- a/drivers/video/Kconfig&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;+++ b/drivers/video/Kconfig&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #575757; font-family: &apos;courier new&apos;, courier;&quot;&gt;@@ -2494,4 +2494,6 @@ config FB_SSD1307&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&amp;nbsp; This driver implements support for the Solomon SSD1307&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&amp;nbsp; OLED controller over I2C.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;+source &quot;drivers/video/fbtft/Kconfig&quot;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;+&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;endmenu&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;diff --git a/drivers/video/Makefile b/drivers/video/Makefile&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;index 28bfbca..6bd03af 100644&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #800000; font-family: &apos;courier new&apos;, courier;&quot;&gt;--- a/drivers/video/Makefile&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;+++ b/drivers/video/Makefile&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;@@ -174,3 +174,6 @@ obj-$(CONFIG_DISPLAY_TIMING) += display_timing.o&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;obj-$(CONFIG_OF_DISPLAY_TIMING) += of_display_timing.o&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;obj-$(CONFIG_VIDEOMODE) += videomode.o&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;obj-$(CONFIG_OF_VIDEOMODE) += of_videomode.o&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;+&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;+obj-y += fbtft/&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #339966; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;+&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;; font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 4: Rebuild kernel&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now run the rebuild script to compile the fbtft modules:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ ./tools/rebuild.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;+ Detected build host [&quot;Fedora release 22 (Twenty Two)&quot;]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;+ host: [x86_64]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;+ git HEAD commit: [a50680ea2cc2fc4519353dee4c1cbb47e475d8b2]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The kernel config menu should appear shortly after starting the rebuild script.&amp;nbsp; Follow these &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://plus.google.com/photos/+DrewFustini/albums/6212972642625921345&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;screenshots to select the fbtft drivers&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21836-232895/step1.png&quot;&gt;&lt;img class=&quot;jive-image image-2&quot; style=&quot;height: 455px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21836-232895/step1.png&quot; alt=&quot;step1.png&quot; width=&quot;1172&quot; height=&quot;860&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21836-232896/step2.png&quot;&gt;&lt;img class=&quot;jive-image image-3&quot; style=&quot;height: 455px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21836-232896/step2.png&quot; alt=&quot;step2.png&quot; width=&quot;1115&quot; height=&quot;818&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21836-232897/step3.png&quot;&gt;&lt;img class=&quot;jive-image image-4&quot; style=&quot;height: 455px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21836-232897/step3.png&quot; alt=&quot;step3.png&quot; width=&quot;1115&quot; height=&quot;818&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21836-232898/test4.png&quot;&gt;&lt;img class=&quot;jive-image image-5&quot; style=&quot;height: 455px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21836-232898/test4.png&quot; alt=&quot;test4.png&quot; width=&quot;1115&quot; height=&quot;818&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After exit the kernel config menu, the rebuild script should continue:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&amp;lsquo;.config&amp;rsquo; -&amp;gt; &amp;lsquo;/home/afustini/dev/bbb/bb-kernel/patches/defconfig&amp;rsquo;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-----------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;make -j4 ARCH=arm LOCALVERSION=-bone79 CROSS_COMPILE=&quot;ccache /home/afustini/dev/bbb/bb-kernel/dl/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-&quot; zImage modules&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-----------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;scripts/kconfig/conf --silentoldconfig Kconfig&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Script Complete&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Verify in bb-kernel dir that fbtft modules were compiled:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ find |grep fbtft |grep ko$&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;./KERNEL/drivers/video/fbtft/fb_upd161704.ko&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;./KERNEL/drivers/video/fbtft/fb_ili9486.ko&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em; font-family: &apos;courier new&apos;, courier;&quot;&gt;./KERNEL/drivers/video/fbtft/fb_pcd8544.ko&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;./KERNEL/drivers/video/fbtft/fb_tls8204.ko&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Verify in bb-kernel/deploy that kernel and tarballs were created&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ ls -ltar deploy/&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-rwxrwxr-x 1 afustini afustini 5552136 Oct 31 13:01 3.8.13-bone79.zImage&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-rw-rw-r-- 1 afustini afustini 110207 Oct 31 13:01 config-3.8.13-bone79&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-rw-rw-r-- 1 afustini afustini 11690719 Oct 31 13:01 3.8.13-bone79-modules.tar.gz&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-rw-rw-r-- 1 afustini afustini 1263879 Oct 31 13:01 3.8.13-bone79-firmware.tar.gz&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;-rw-rw-r-- 1 afustini afustini 39642 Oct 31 13:01 3.8.13-bone79-dtbs.tar.gz&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;; font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 5: Install new kernel on SD Card &lt;em&gt;(from Linux host)&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;My SD card already had been imaged with:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://debian.beagleboard.org/images/bone-debian-7.8-lxde-4gb-armhf-2015-03-01-4gb.img.xz&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;Debian (BeagleBone, BeagleBone Black - 4GB SD) 2015-03-01&lt;/strong&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;md5: c848627722b7a5f7bc89791cc8949e3b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;From within bb-kernel dir&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo ./tools/install_kernel.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;ERROR: MMC is not defined in system.sh&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Edit script to specify which device is your SD card:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ vi system.sh&lt;/strong&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Install new kernel onto microSD card:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo ./tools/install_kernel.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Installing 3.8.13-bone79-modules.tar.gz to /dev/sdd2&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em; font-family: &apos;courier new&apos;, courier;&quot;&gt;info: [3.8.13-bone79] now installed...&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;This script has finished...&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;For verification, always test this media with your end device...&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16px; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 6: Boot new kernel&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Boot BBB with the updated microSD card:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ dmesg| head&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;[ 0.000000] Booting Linux on physical CPU 0x0&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;[ 0.000000] Initializing cgroup subsys cpu&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;[ 0.000000] Linux version 3.8.13-bone79 (XXXX@YYYY) (gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) ) #4 SMP Sat Oct 31 13:00:55 CDT 2015&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ uname -a&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Linux beaglebone 3.8.13-bone79 #4 SMP Sat Oct 31 13:00:55 CDT 2015 armv7l GNU/Linux&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ find /lib/modules/3.8.13-bone79/|grep fbtft&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;/lib/modules/3.8.13-bone79/kernel/drivers/video/fbtft&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;/lib/modules/3.8.13-bone79/kernel/drivers/video/fbtft/fb_pcd8544.ko&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;/lib/modules/3.8.13-bone79/kernel/drivers/video/fbtft/fb_ili9486.ko&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier; font-size: 10pt; line-height: 1.5em;&quot;&gt;/lib/modules/3.8.13-bone79/kernel/drivers/video/fbtft/fbtft.ko&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Edit u-boot config file &lt;strong&gt;uEnv.txt&lt;/strong&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; so the SPIDEV1 loads at boot and HDMI &amp;amp; eMMC are not loaded&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;cape_disable=capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN,BB-BONE-EMMC-2G&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;cape_enable=capemgr.enable_partno=BB-SPIDEV1&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For reference, this is &lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/59868d226605e4d36e87&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;my uEnv.txt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Verify that HDMI &amp;amp; eMMC are not loaded and SPIDEV1 is loaded:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE: My BBB has no need for HDMI or eMMC. I&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;t may not be completely necessary to disable, but&lt;/span&gt;&lt;/em&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;em&gt; I did not investigated this.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ cat /sys/devices/bone_capemgr.9/slots&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;0: 54:PF---&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;1: 55:PF---&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;2: 56:PF---&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;3: 57:PF---&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;4: ff:P-O-- Bone-LT-eMMC-2G,00A0,Texas Instrument,BB-BONE-EMMC-2G&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;5: ff:P-O-- Bone-Black-HDMI,00A0,Texas Instrument,BB-BONELT-HDMI&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;6: ff:P-O-- Bone-Black-HDMIN,00A0,Texas Instrument,BB-BONELT-HDMIN&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;7: ff:P-O-L Override Board Name,00A0,Override Manuf,BB-SPIDEV1&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16px; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 7: Load fbtft driver &amp;amp; test display:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://plus.google.com/photos/+DrewFustini/albums/6212972642625921345&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;Photos of breadboard wiring&lt;/strong&gt;&lt;/a&gt; using SPI1 (CS0, MOSI, SCLK), D/C, RESET.&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Load &lt;strong&gt;fbtft st7735r&lt;/strong&gt; driver for &lt;strong&gt;adafruit18&lt;/strong&gt; &lt;em&gt;(Adafruit 1.8&quot; TFT LCD display):&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo modprobe fbtft_device busnum=1 name=adafruit18 debug=7 verbose=3 gpios=dc:48,reset:60&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Console should now appear on the display. Refer to &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://plus.google.com/photos/+DrewFustini/albums/6212972642625921345&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;photos&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;NOTE: if you have not already done, so run script to make sure all the free space on SD card can be utilized&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo /opt/scripts/tools/grow_partition.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;NOTE: apt-get may fail with warning&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; &quot;There is no public key available for the following key IDs&quot;. &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;Fix by running running:&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo apt-get install debian-keyring debian-archive-keyring&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudoe apt-get update&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Display image file on the display with &lt;strong&gt;fbi&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo apt-get install fbi&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ wget &lt;/strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://kernel.org/theme/images/logos/tux.png&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;https://kernel.org/theme/images/logos/tux.png&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo fbi -d /dev/fb0 -T 1 -a tux.png&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;using &quot;DejaVu Sans Mono-16&quot;, pixelsize=16.67 file=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Play video clip on the display with &lt;strong&gt;mplayer&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo apt-get install mplayer&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ wget &lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://hubblesource.stsci.edu/sources/video/clips/details/images/hst_1.mpg&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://hubblesource.stsci.edu/sources/video/clips/details/images/hst_1.mpg&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo mplayer -nolirc -vo fbdev:/dev/fb0 scale=WIDTH:128 hst_1.mpg&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;Kernel log with &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;verbose debug output fo&lt;/span&gt;r &lt;strong&gt;adafruit18:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/ce4a3deb43f3e7e0214d&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/pdp7/ce4a3deb43f3e7e0214d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/c3ecf2cf4b39a62a4192&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/pdp7/c3ecf2cf4b39a62a4192&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;If using the Adafruit 2.2&quot; TFT LCD display, then &lt;/span&gt;specify&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;adafruit22a&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;em&gt; [note: the &quot;&lt;strong&gt;a&lt;/strong&gt;&quot; suffix is important]&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;$ sudo modprobe fbtft_device busnum=1 name=adafruit22a debug=7 verbose=3 gpios=dc:48,reset:60&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;fbi and mplayer all work OK for &lt;/span&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;strong&gt;adafruit22a&lt;/strong&gt;&lt;/span&gt;.&amp;nbsp; Kernel log with &lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;verbose debug output for &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;adafruit22a&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/c62f54573992dfafd003&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/pdp7/c62f54573992dfafd003&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;; font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft/wiki/BeagleBone-Black&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;FBTFT on BeagleBone Black running Debian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft/wiki&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;FBTFT Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://git.kernel.org/cgit/linux/kernel/git/gregkh/staging.git/tree/drivers/staging/fbtft?h=staging-testing&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;FBTFT drivers are now in the Linux kernel staging tree&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Development in the github repo has ceased&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://plus.google.com/photos/+DrewFustini/albums/6211546193314906001&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;My photos of fbtft working for 1.8&quot; &amp;amp; 2.2&quot; TFT LCDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://plus.google.com/photos/+DrewFustini/albums/6212972642625921345&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;My screenshots of kernel config for fbtft drivers in BeagleBone kernel v3.8.13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</body>
+    <imagefile>4158.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed>http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/feeds</rssfeed>
+    <contactinfo>drew@pdp7.com</contactinfo>
+    <pvcount type="float">15545.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2015/11/19/beaglebone-black-build-fbtft-drivers-for-latest-linux-3813-kernel</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/fbtft-drivers-for-linux-38/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Use small TFT LCDs displays as Linux framebuffer on BeagleBone Black using fbtft drivers for Linux 3.8 kernel</shortdesc>
+    <user>pdp7.blogspot.com</user>
+  </hopobject>
+</xmlroot>

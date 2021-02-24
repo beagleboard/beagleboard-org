@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4153" name="babymonitor" prototype="Page" created="1448912506525" lastModified="1540718859295">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>MIMO Smart Baby Monitor</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>babymonitor</uri>
+    <time type="date">30.11.2015 19:41:46 UTC</time>
+    <updatetime type="date">30.11.2015 19:41:46 UTC</updatetime>
+    <projstatus>demo</projstatus>
+    <body>&lt;p style=&quot;border: 0px; font-family: Lato, sans-serif; font-size: 16px; margin: 0px 0px 24px; outline: 0px; padding: 0px; vertical-align: baseline; color: #2b2b2b; line-height: 24px;&quot;&gt;I&amp;rsquo;m a new dad and consider myself a technology innovator, so it is probably to be expected that I&amp;rsquo;d look for high-tech ways to monitor my baby, beyond the standard remote cameras. Of course, not all the ways I want to monitor are really easy to reproduce, but the folks at Rest Devices have done something scalable. They created the MIMO Smart Baby Monitor. It uses Bluetooth Low Energy to send data back from the sensor, making it very easy to connect to a BeagleBone Black (or SeeedStudio BeagleBone Green) using a BLE dongle (such as&amp;nbsp;&lt;a style=&quot;border: 0px; font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: #24890d;&quot; href=&quot;http://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI&quot; rel=&quot;nofollow&quot;&gt;http://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI&lt;/a&gt;&amp;nbsp;as we did in&amp;nbsp;&lt;a href=&quot;https://jkridner.wordpress.com/2014/07/08/ibm-tutorial-on-using-ti-sensortag-with-beaglebone-black/&quot;&gt;https://jkridner.wordpress.com/2014/07/08/ibm-tutorial-on-using-ti-sensortag-with-beaglebone-black/&lt;/a&gt;).&lt;/p&gt;
+&lt;p style=&quot;border: 0px; font-family: Lato, sans-serif; font-size: 16px; margin: 0px 0px 24px; outline: 0px; padding: 0px; vertical-align: baseline; color: #2b2b2b; line-height: 24px;&quot;&gt;Read more at&amp;nbsp;&lt;a href=&quot;http://wp.me/p4fYyM-32&quot;&gt;http://wp.me/p4fYyM-32&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&quot;gist27940193&quot; class=&quot;gist&quot; style=&quot;border: 0px; font-family: Lato, sans-serif; font-size: 16px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: #333333; direction: ltr; line-height: 24px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p style=&quot;border: 0px; font-family: Lato, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; margin: 0px 0px 24px; outline: 0px; padding: 0px; vertical-align: baseline; color: #2b2b2b; font-variant: normal; letter-spacing: normal; line-height: 24px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>4153.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">8690.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://wp.me/p4fYyM-32</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Connect BeagleBone to a MIMO Smart Baby Monitor using Bluetooth Low Energy</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

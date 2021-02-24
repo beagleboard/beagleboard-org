@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="485" name="BeagleBot" prototype="Page" created="1230816256852" lastModified="1540651873227">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeagleBot - Beagle powered robot</pname>
+    <registrant>antti.seppanen.myopenid.com</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>BeagleBot</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 14:37:18 UTC</time>
+    <updatetime type="date">01.01.2009 13:24:16 UTC</updatetime>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;Goal of the project is to create a robot running embedded Linux. Some of the robot controls will be autonomous (e.g. avoidin collisions using ultrasonic range sensor).&lt;/p&gt;</body>
+    <imagefile>485.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <pvcount type="float">12189.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>complete</prj_status>
+    <boardtype>bboard;</boardtype>
+    <category>documentation;demo;robotics;</category>
+    <homepage>http://www.hervanta.com/stuff/Beaglebot</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/BeagleBot/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>A small experimental robot with Beagle Board as it&apos;s heart.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

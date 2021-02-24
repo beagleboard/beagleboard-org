@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="1093" name="usbsniffer" prototype="Page" created="1273649722769" lastModified="1540808012201">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>USB sniffer</pname>
+    <registrant>drinkcat.myopenid.com</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>usbsniffer</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 15:48:23 UTC</time>
+    <updatetime type="date">12.05.2010 07:35:22 UTC</updatetime>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;The host computer would be connected to the slave USB port of the BeagleBoard, and the device to be sniffed on the host USB port. The BeagleBoard would then forward USB data, while logging it. This presents the following advantages over a software-based solution: No software modification is required; support of proprietary OSes; allows debugging of new USB stacks; and possibly lower-level debugging of USB frames...&lt;/p&gt;</body>
+    <imagefile>1093.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://beagleboard-usbsniffer.blogspot.com/feeds/posts/default</rssfeed>
+    <pvcount type="float">20286.0</pvcount>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <prj_status>complete</prj_status>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>library;gsoc;</category>
+    <homepage>http://www.elinux.org/BeagleBoard/GSoC/USBSniffer</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/usbsniffer/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>The goal of this project is to use the BeagleBoard as an USB sniffer.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

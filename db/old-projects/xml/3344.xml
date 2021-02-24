@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3344" name="BeaglePilot" prototype="Page" created="1388338491455" lastModified="1540595543270">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeaglePilot</pname>
+    <registrant>v.mayoralv</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>dev</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>BeaglePilot</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36</http_browser>
+    <time type="date">25.06.2014 17:47:46 UTC</time>
+    <updatetime type="date">10.02.2014 14:25:35 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1pbhjzxppi4iv</hopsession>
+    <body>&lt;p&gt;BeaglePilot project aims to create the first Linux-based autopilot for flying robots using the BeagleBone and the BeagleBone Black as the &quot;hardware blueprint&quot;. For this purpose the project will focus on integrating ArduPilot (most popular autopilot) in the BeagleBone (Black). The main tasks performed will be userspace drivers development, the Robot Operative System Integration (ROS), web IDE exploration and security assessment.&lt;/p&gt;</body>
+    <imagefile>3344.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">23149.0</pvcount>
+    <categories>robotics</categories>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>robotics;gsoc;</category>
+    <homepage>https://github.com/BeaglePilot</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/BeaglePilot/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>An autopilot for Linux-based computers based on the BeagleBone (Black).</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

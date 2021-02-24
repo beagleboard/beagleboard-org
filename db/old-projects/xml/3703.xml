@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3703" name="libbulldog" prototype="Page" created="1406579106900" lastModified="1540758096368">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>93.228.95.108</http_remotehost>
+    <pname>libbulldog</pname>
+    <registrant>datenheld</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4</http_language>
+    <uri>libbulldog</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36</http_browser>
+    <time type="date">16.08.2014 09:19:34 UTC</time>
+    <updatetime type="date">28.07.2014 20:25:06 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>93.228.95.b1tsvov0snxn</hopsession>
+    <body>&lt;p&gt;libbulldog provides a Java API for the Beaglebone Black including the following features:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 13px;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed for platform independence&lt;/li&gt;
+&lt;li&gt;Memory Mapping in Java&lt;/li&gt;
+&lt;li&gt;Memory mapped GPIO (toggle speed ~1.8MHz iirc)&lt;/li&gt;
+&lt;li&gt;Event driven IO and Interrupts via epoll&lt;/li&gt;
+&lt;li&gt;All PWMs simultaneously usable&lt;/li&gt;
+&lt;li&gt;I2C fully accessible via Java&lt;/li&gt;
+&lt;li&gt;UARTs fully accessible via Java&lt;/li&gt;
+&lt;li&gt;SPI working, although you will have to roll your own chip selects&lt;/li&gt;
+&lt;li&gt;ADC is mostly working but has got some flaws&lt;/li&gt;
+&lt;li&gt;Some devices readily supported (e.g. HD44780 LCD)&lt;/li&gt;
+&lt;li&gt;Extensive Servo API with eased movements&lt;/li&gt;
+&lt;li&gt;and more ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</body>
+    <imagefile>3703.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">16588.0</pvcount>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>http://libbulldog.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/libbulldog/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Java API for the Beaglebone Black</shortdesc>
+    <user>datenheld@gmail.com</user>
+  </hopobject>
+</xmlroot>

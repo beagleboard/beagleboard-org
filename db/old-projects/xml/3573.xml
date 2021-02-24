@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3573" name="bbb-bicolor-matrix" prototype="Page" created="1397197690777" lastModified="1540534078891">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>206.221.127.34</http_remotehost>
+    <pname>BeagleBone Black: plot analog sensor on Adafruit bi-color LED matrix</pname>
+    <registrant>pdp7pdp7</registrant>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>bbb-bicolor-matrix</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0</http_browser>
+    <time type="date">12.04.2014 00:32:58 UTC</time>
+    <updatetime type="date">11.04.2014 06:28:10 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>206.221.127.1c8yz32lv6aph</hopsession>
+    <body>&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;SETUP:&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I&apos;ve previously had great results connecting Adafruit 8x8 LED matrix displays to the BeagleBone Black via I2C:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.element14.com/community/community/knode/single-board_computers/next-gen_beaglebone/blog/2013/11/22/adafruit-8x8-led-matrix-controlled-by-beaglebone-black&quot;&gt;Adafruit 8x8 LED matrix controlled by BeagleBone Black&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.element14.com/community/community/knode/single-board_computers/next-gen_beaglebone/blog/2013/12/30/led-ticker-beaglebone-black-multiple-adafruit-8x8-displays&quot;&gt;LED ticker: BeagleBone Black &amp;amp; multiple Adafruit 8x8 displays&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I decided to try out the&amp;nbsp;&lt;a href=&quot;https://learn.adafruit.com/adafruit-led-backpack/bi-color-8x8-matrix&quot;&gt;Adafruit bi-color 8x8 LED matrix&lt;/a&gt;&amp;nbsp;and hooked it up with the same I2C pins as before.&amp;nbsp; You&apos;ll need to setup the Adafruit_BBIO Python library if you haven&apos;t already:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/overview&quot;&gt;https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/overview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You&apos;ll also want to grab the Adafruit Python libraries for the Raspberry Pi since they work on BeagleBone Black, too:&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code&quot; href=&quot;https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code&quot;&gt;https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;BASIC DEMO:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Here is the BegaleBone Black running the demo program&amp;nbsp;&lt;a title=&quot;ex_8x8_color_pixels.py&quot; href=&quot;https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code/blob/master/Adafruit_LEDBackpack/ex_8x8_color_pixels.py&quot;&gt;ex_8x8_color_pixels.py&lt;/a&gt;&amp;nbsp;from the repo:&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;https://www.youtube.com/watch?v=vnHC6bVj5bc&quot; href=&quot;https://www.youtube.com/watch?v=vnHC6bVj5bc&quot;&gt;https://www.youtube.com/watch?v=vnHC6bVj5bc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/vnHC6bVj5bc&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;CODE:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I thought it would be interesting to plot the readings from a sensor over time on the matrix with different colors representing the magnitude of the reading. &amp;nbsp;I hooked up a pot to the analog input to simulate a sensor.&amp;nbsp; Here&apos;s the Python script:&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;https://github.com/pdp7/beaglebackpack/blob/master/plot.py&quot; href=&quot;https://github.com/pdp7/beaglebackpack/blob/master/plot.py&quot;&gt;https://github.com/pdp7/beaglebackpack/blob/master/plot.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is Invoked by this shell script so that PYTHONPATH will be set:&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;https://github.com/pdp7/beaglebackpack/blob/master/plot.sh&quot; href=&quot;https://github.com/pdp7/beaglebackpack/blob/master/plot.sh&quot;&gt;https://github.com/pdp7/beaglebackpack/blob/master/plot.sh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;VIDEO: BeagleBone Black: plot analog sensor on Adafruit bi-color LED matrix&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;https://www.youtube.com/watch?v=QQNqxHQDj5E&quot; href=&quot;https://www.youtube.com/watch?v=QQNqxHQDj5E&quot;&gt;https://www.youtube.com/watch?v=QQNqxHQDj5E&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/QQNqxHQDj5E&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/pdp7&quot;&gt;Drew (@pdp7)&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3573.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <pvcount type="float">12775.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://twitter.com/pdp7</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/bbb-bicolor-matrix/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Plot the readings from a sensor over time on the matrix with different colors representing the magnitude of the reading</shortdesc>
+    <user>pdp7pdp7@gmail.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2918" name="Beagle-Solar-A-Car" prototype="Page" created="1374806493038" lastModified="1540649464321">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Autonomous Solar Car</pname>
+    <registrant>aditya3vt</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>Beagle-Solar-A-Car</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">27.03.2014 02:49:42 UTC</time>
+    <updatetime type="date">26.07.2013 02:41:33 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;&lt;span style=&quot;color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 12px; line-height: 15.4375px;&quot;&gt;The aim of this project is to build a solar energy powered autonomous car. Resistive matching has been employed to extract maximum energy from a solar panel, with minimal complications. This is done in order to maximize the amount of energy that is transferred from the solar cell into a Li-ion battery. This battery is used to drive an H-bridge motor controller which is controlled through the BeagleBone.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>2918.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">17868.0</pvcount>
+    <prj_status>demo</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://bbsolarcar.blogspot.com/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/Beagle-Solar-A-Car/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>This project is an entry in the Texas Instruments Intern Design Challenge 2013. It is a cape for the BeagleBone to create a autonomous solar powered car.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

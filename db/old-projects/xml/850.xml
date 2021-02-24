@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="850" name="XBMC" prototype="Page" created="1257458289851" lastModified="1540640121477">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>XBMC</pname>
+    <registrant>openid.atlastechnologiesinc.com/theuni</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>XBMC</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 16:56:05 UTC</time>
+    <updatetime type="date">05.11.2009 21:58:09 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;XBMC is a full-featured multimedia center that runs on many current operating systems and platforms. There is currently work underway to get it working on ARM via OpenGL ES2.0. There exists a POC of XBMC running on the BeagleBoard seen here: &lt;a href=&quot;http://www.youtube.com/watch?v=CYq7f-CrnOc&quot;&gt;http://www.youtube.com/watch?v=CYq7f-CrnOc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Optimizations were done as a part of the Google Summer of Code and are described at &lt;a href=&quot;http://elinux.org/BeagleBoard/GSoC/2010_Projects/XBMC&quot;&gt;http://elinux.org/BeagleBoard/GSoC/2010_Projects/XBMC.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An updated version of XBMC on the BeagleBoard-xM can be viewed below.&lt;/p&gt;
+&lt;p&gt;&lt;object width=&quot;640&quot; height=&quot;385&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/80Uia6FkvnA?fs=1&amp;amp;hl=en_US&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;
+  &lt;embed src=&quot;http://www.youtube.com/v/80Uia6FkvnA?fs=1&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;385&quot; /&gt;
+ &lt;/object&gt;&lt;/p&gt;</body>
+    <imagefile>850.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">52518.0</pvcount>
+    <prj_status>production</prj_status>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>library;gsoc;</category>
+    <homepage>http://xbmc.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/XBMC/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>XBMC is a full-featured multimedia center that runs on many current operating systems and platforms</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

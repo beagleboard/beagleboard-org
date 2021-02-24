@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2773" name="botspeak" prototype="Page" created="1371756071455" lastModified="1540699967654">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>BotSpeak</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>dev</prj_statusval>
+    <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>botspeak</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36</http_browser>
+    <time type="date">02.12.2014 23:03:30 UTC</time>
+    <updatetime type="date">20.06.2013 19:21:11 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>127.0.0.6yrekvmm6alj</hopsession>
+    <body>&lt;p&gt;From &lt;a href=&quot;http://botspeak.org&quot;&gt;botspeak.org:&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;The popularity of robotic platforms as a learning tool for STEM education together with the growing maker community caused an increased availability of low-cost embedded system platforms. This gives teachers and makers the freedom to pick the best suited one for their purpose. Each platform, however, has its individual hardware specifications as well as proprietary software interfaces. This causes much effort, since the user has to familiarize himself with the new platform.&amp;nbsp;&lt;strong&gt;With BotSpeak, a universal robotics programming language, we try to reduce this effort such that teachers, students and makers can rapidly prototype their ideas.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 style=&quot;margin: 10px 0px; font-family: Abel, Verdana, Geneva, sans-serif; font-size: 31.5px; line-height: 40px; color: inherit; text-rendering: optimizelegibility;&quot;&gt;Current Situation:&lt;/h2&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;There is a large number of educational robots and microprocessor platforms available.&amp;nbsp;&lt;strong&gt;Every platform, however, speaks its own language.&lt;/strong&gt;&amp;nbsp;Switching between systems requires setup and familiarization with proprietary user interfaces and/or programming languages.&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;&lt;img class=&quot;size-large wp-image-106 aligncenter&quot; style=&quot;max-width: 100%; vertical-align: middle; border: 0px; height: auto; display: block; float: none; margin-left: auto !important; margin-right: auto !important; margin-bottom: 12px;&quot; src=&quot;http://botspeak.org/wp-content/uploads/2013/10/CurrentSituation-1024x589.png&quot; alt=&quot;CurrentSituation&quot; width=&quot;550&quot; height=&quot;316&quot; /&gt;&lt;/p&gt;
+&lt;h2 style=&quot;margin: 10px 0px; font-family: Abel, Verdana, Geneva, sans-serif; font-size: 31.5px; line-height: 40px; color: inherit; text-rendering: optimizelegibility;&quot;&gt;&amp;nbsp;&lt;/h2&gt;
+&lt;h2 style=&quot;margin: 10px 0px; font-family: Abel, Verdana, Geneva, sans-serif; font-size: 31.5px; line-height: 40px; color: inherit; text-rendering: optimizelegibility;&quot;&gt;New Situation with BotSpeak:&lt;/h2&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;Each target platform runs an individual BotSpeak interpreter.&amp;nbsp;&lt;strong&gt;Only one programming application is required to generate BotSpeak commands, since all platforms understand BotSpeak.&lt;/strong&gt;&amp;nbsp;BotSpeak commands can be executed on the target platform in direct mode (tethered) or scripting mode.&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;&lt;a style=&quot;color: #ff6644; outline: none; border: none; text-decoration: none; transition: all 0.3s ease; -webkit-transition: all 0.3s ease;&quot; href=&quot;http://botspeak.org/wp-content/uploads/2013/10/SituationWithBotSpeak.png&quot;&gt;&lt;img class=&quot;size-large wp-image-107 aligncenter&quot; style=&quot;max-width: 100%; vertical-align: middle; border: 0px; height: auto; display: block; float: none; margin-left: auto !important; margin-right: auto !important; margin-bottom: 12px;&quot; src=&quot;http://botspeak.org/wp-content/uploads/2013/10/SituationWithBotSpeak-1024x757.png&quot; alt=&quot;SituationWithBotSpeak&quot; width=&quot;550&quot; height=&quot;406&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 style=&quot;margin: 10px 0px; font-family: Abel, Verdana, Geneva, sans-serif; font-size: 31.5px; line-height: 40px; color: inherit; text-rendering: optimizelegibility;&quot;&gt;&amp;nbsp;&lt;/h2&gt;
+&lt;h2 style=&quot;margin: 10px 0px; font-family: Abel, Verdana, Geneva, sans-serif; font-size: 31.5px; line-height: 40px; color: inherit; text-rendering: optimizelegibility;&quot;&gt;Architecture:&lt;/h2&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;Each target platform (e.g. RaspberryPI, LEGO, Arduino) needs to run a system specific BotSpeak interpreter, which is part of the BotSpeak release package.&amp;nbsp;&lt;strong&gt;The interpreter runs on the target platform, receives and executes BotSpeak commands&lt;/strong&gt;, such as &amp;ldquo;SET DIO[1],1&amp;Prime; or &amp;ldquo;WAIT 1.2&amp;Prime;. The native functions are called by the BotSpeak interpreter, scripts can be saved and executed.&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;The target platform receives and returns BotSpeak commands consisting of string messages.&amp;nbsp;&lt;strong&gt;Any communication technology supported by the target platform can be used, e.g. serial, TCP/IP, Bluetooth, etc.&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;Any BotSpeak-enabled programming application (e.g. LabVIEW) can send BotSpeak commands to the target platform.&lt;/strong&gt;&amp;nbsp;BotSpeak-enabled means, that the integrated development environment (IDE) has to generate BotSpeak language (the string commands). These plugins are part of the BotSpeak release package.&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px; text-align: center;&quot;&gt;&lt;a style=&quot;color: #ff6644; outline: none; border: none; text-decoration: none; transition: all 0.3s ease; -webkit-transition: all 0.3s ease;&quot; href=&quot;http://botspeak.org/wp-content/uploads/2013/10/botspeakArchitecture.png&quot;&gt;&lt;img class=&quot; wp-image-124 aligncenter&quot; style=&quot;max-width: 100%; vertical-align: middle; border: 0px; display: block; float: none; margin-left: auto !important; margin-right: auto !important; margin-bottom: 12px;&quot; src=&quot;http://botspeak.org/wp-content/uploads/2013/10/botspeakArchitecture-1024x595.png&quot; alt=&quot;botspeakArchitecture&quot; width=&quot;614&quot; height=&quot;357&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;line-height: 1.8em; font-family: Abel, Verdana, Geneva, sans-serif; color: #545252; margin: 0px 0px 10px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;clear&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp;&lt;/div&gt;</body>
+    <imagefile>2773.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">17600.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1417561184:X=1417564784</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <prj_status>dev</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;library;</category>
+    <homepage>http://botspeak.org/supported-platforms/beaglebone/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/botspeak/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>BotSpeak is a simple language for microprocessors using a small virtual machine and talking to National Instruments LabVIEW as a host language</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

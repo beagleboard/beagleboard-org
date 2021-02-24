@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3988" name="zigbee_ha" prototype="Page" created="1425996468675" lastModified="1540820516706">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Zigbee Home Automation Gateway</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>zigbee_ha</uri>
+    <time type="date">10.03.2015 14:07:48 UTC</time>
+    <updatetime type="date">10.03.2015 14:07:48 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;div id=&quot;description&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;
+&lt;h5 id=&quot;description&quot; class=&quot;larger&quot; style=&quot;box-sizing: border-box; margin: 1em 0px 0.5em; color: #333333; font-size: 1.6em;&quot;&gt;Description&lt;/h5&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 60em;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 60em;&quot;&gt;A gateway is a bridge that connects wireless devices to the Internet. This Linux-based Home Automation Gateway enables remote monitoring and control of ZigBee&amp;reg; powered nodes and devices inside the home. This gateway reference design includes ZigBee Home Automation (HA 1.2) certified software stack and tens of APIs that simplify ZigBee integration and application development in a Linux system.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 60em;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;additionalInfo&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div id=&quot;features&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: #118899; outline: 0px;&quot; name=&quot;Features&quot;&gt;&lt;/a&gt;
+&lt;h5 id=&quot;Features&quot; class=&quot;larger&quot; style=&quot;box-sizing: border-box; margin: 1em 0px 0.5em; color: #333333; font-size: 1.6em;&quot;&gt;Features&lt;/h5&gt;
+&lt;ul style=&quot;box-sizing: border-box; list-style-type: none; padding: 0px; margin: 0px 0px 1em 1em;&quot;&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Simple API for home automation, incorporating TCP/IP to ZigBee bridge and enabling faster development of applications and easier integration of low power connectivity solutions&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;CC2531-based USB Dongle running ZigBee Home Automation (HA 1.2) certified Protocol Stack, MAC &amp;amp; PHY and extensively tested for interoperability&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Based on the Sitara AM335x BeagleBone Black low-cost, open source, community-supported development platform and the SimpleLink&amp;trade; ZigBee CC2531 wireless MCU based on small form-factor USB dongle&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;All system hardware components available via TI&apos;s eStore or through authorized distributors. Wiki-based user guides also available to generate and compile Linux open-source components&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Off-the-shelf Linux-based system software &amp;amp; hardware implementation for connecting ZigBee sensors to TCP/IP applications via Ethernet, including all application, Linux middleware, ZigBee stack and firmware components&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Z-Stack&amp;trade; Linux Gateway installer package for the BeagleBone Black and the ZigBee Home Automation stack for the SimpleLink CC2531 dongle are free and available for download&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;below&lt;/strong&gt;&amp;nbsp;or through TI&apos;s&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #aa6666; text-decoration: none; outline: 0px;&quot; href=&quot;http://www.ti.com/tool/z-stack&quot;&gt;Z-Stack&amp;trade; software&lt;/a&gt;&amp;nbsp;page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</body>
+    <imagefile>3988.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">30342.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;demo;</category>
+    <homepage>http://www.ti.com/tool/CC2531EM-IOT-HOME-GATEWAY-RD</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Texas Instruments (TI) ZigBee Home Automation Gateway reference design</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

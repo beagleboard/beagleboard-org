@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3948" name="escape" prototype="Page" created="1423558884766" lastModified="1540815396227">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>EScape</pname>
+    <registrant>hne</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>de,en-US;q=0.7,en;q=0.3</http_language>
+    <uri>escape</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.1; rv:35.0) Gecko/20100101 Firefox/35.0</http_browser>
+    <time type="date">10.02.2015 13:56:53 UTC</time>
+    <updatetime type="date">10.02.2015 09:01:24 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>dev</projstatus>
+    <hopsession>127.0.0.6p50vhwte3j8</hopsession>
+    <body>&lt;p&gt;We started evaluation of BBB at the beginning of 2015 ... We found out, the main weakness of BBB board is the vulnerability of its port-pins! So we decided to design an easy and helpful interface between BBB and External Signals &amp;ndash; the idea of our &amp;ldquo;EScape&amp;rdquo; was born.&lt;/p&gt;
+&lt;p&gt;We defined some free ports for our solutions that should be protected! Then we added some useful things that are important to make real solutions with BBB in the world of process technology:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Industrial connectors (external Power-Supply)&lt;/li&gt;
+&lt;li&gt;Overvoltage and reverse protection&lt;/li&gt;
+&lt;li&gt;LEDs for power-supply int/ext&lt;/li&gt;
+&lt;li&gt;Fits perfect between 7&amp;rdquo;LCD-cape and BBB&lt;/li&gt;
+&lt;li&gt;Direct Stackable or with dual P8+P9 (male/female)&lt;/li&gt;
+&lt;li&gt;RTC-chip DS1307 with battery&lt;/li&gt;
+&lt;li&gt;LM75 temperature sensor&lt;/li&gt;
+&lt;li&gt;FAN controller output with FET&lt;/li&gt;
+&lt;li&gt;Output for System Debug-Terminal&lt;/li&gt;
+&lt;li&gt;3x Input for data wheel with pushbutton&lt;/li&gt;
+&lt;li&gt;2x complete microBUS-slots (3V3 and! 5V compatible)&lt;/li&gt;
+&lt;li&gt;16x External Signals 13x I/O, 1x Ser, 1x Analog&lt;/li&gt;
+&lt;li&gt;Analog ports with divider and OV protection&lt;/li&gt;
+&lt;li&gt;Standard 100mil dual row headers for easy connection&lt;/li&gt;
+&lt;li&gt;All external signals with bidirectional level translation and protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project is in the prototype phase now, we are waiting for the pcb-samples ...&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3948.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://ngneers.de/feed/</rssfeed>
+    <pvcount type="float">9821.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>cape;</category>
+    <homepage>www.ngneers.com</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/escape/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>External Signal Cape - protecting Your vulnerable BBB IO-Ports by level-conversion and protection elements.</shortdesc>
+    <user>hne@neumark.de</user>
+  </hopobject>
+</xmlroot>

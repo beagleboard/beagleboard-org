@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2818" name="SensorCape" prototype="Page" created="1372652469783" lastModified="1540610365198">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>SensorCape</pname>
+    <registrant>maybeillrememberit</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>SensorCape</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 19:28:00 UTC</time>
+    <updatetime type="date">01.07.2013 04:21:09 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;The SensorCape is a BeagleBone Black add-on cape that provides extensive sensing capability to the already very capable BeagleBone Black platform.&amp;nbsp;The SensorCape was developed for the &lt;a title=&quot;TI Design Competition Wiki&quot; href=&quot;http://ti.com/design2013&quot;&gt;Texas Instruments Intern Design Competition (2013)&lt;/a&gt;. I wanted to design an add-on that was as versatile and capable as the BeagleBone itself. Accomplishing this meant adding general functionality not included with the BeagleBone that would be useful in a wide variety of contexts. The simplest way to add functionality is to increase the possibilities for interacting with the BeagleBone. For me, this meant adding various sensors to enable the BeagleBone to know more about the world around it.&lt;img title=&quot;More...&quot; src=&quot;http://www.michaelhleonard.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;SensorCape Hardware&lt;/h3&gt;
+&lt;p&gt;Some broad requirements set for the SensorCape were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wide range of sensing capability&lt;/li&gt;
+&lt;li&gt;Relatively low power draw as compared to similar sensing products&lt;/li&gt;
+&lt;li&gt;Fast enough sensing to be useful in a broad range of applications&lt;/li&gt;
+&lt;li&gt;Minimal use of the BeagleBone GPIO pins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Starting off, I knew that I wanted to add some type of motion sensing as well as a temperature sensor. After browsing around Mouser and DigiKey I decided on a set of sensors that give the SensorCape the following capability:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3-axis gyroscope&lt;/li&gt;
+&lt;li&gt;3-axis accelerometer&lt;/li&gt;
+&lt;li&gt;3-axis compass&lt;/li&gt;
+&lt;li&gt;Ambient light sensor&lt;/li&gt;
+&lt;li&gt;Ambient temperature sensor&lt;/li&gt;
+&lt;li&gt;Non-contact temperature sensor&lt;/li&gt;
+&lt;li&gt;Humidity sensor&lt;/li&gt;
+&lt;li&gt;Pressure sensor (Can detect changes in altitude)&lt;/li&gt;
+&lt;li&gt;38 kHz IR sensor (Interfaces with common consumer electronics)&lt;/li&gt;
+&lt;li&gt;4 push-buttons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to these sensors, the SensorCape has also been designed with four user configurable LED&apos;s and a production ready cape EEPROM which conforms to the requirements set in the&amp;nbsp;&lt;a title=&quot;BeagleBone Black System Reference Manual&quot; href=&quot;http://circuitco.com/support/index.php?title=BeagleBoneBlack&quot; target=&quot;_blank&quot;&gt;BeagleBone Black System Reference Manual&lt;/a&gt;. For more details on the sensors included on the SensorCape and how to use them you are referred to the &lt;a title=&quot;SensorCape Reference Manual&quot; href=&quot;http://www.michaelhleonard.com/sensorcape-reference/&quot;&gt;SensorCape reference manual&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;SensorCape Software Library&lt;/h3&gt;
+&lt;p&gt;In addition to designing the hardware, I wanted to provide a software library that would allow users of the SensorCape to easily interact with the various sensors on the board. I believe that one of the greatest assets of the Arduino environment is the incredible amount of libraries the community has provided, I hope that the BeagleBone community can meet that demand in the same way. The software project is underway and &lt;a title=&quot;SensorCape software library on GitHub&quot; href=&quot;https://github.com/Michael0310/SensorCape&quot;&gt;is hosted at&amp;nbsp;this repository&amp;nbsp;on GitHub&lt;/a&gt;. The SensorCape library will eventually support both C and Python, with initial development focused on C. The intent is to finish developing the C library and to add a Python wrapper afterwards.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/pDhNsOiMf9o&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>2818.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">94387.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;library;cape;</category>
+    <homepage>http://michaelhleonard.com/projects/sensorcape</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/SensorCape/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Add powerful sensors to your next project! What will you make next? The SensorCape adds a crazy amount of sensors to your BeagleBone or BeagleBone Black. Combine the versatility of these sensors with the power of the BeagleBone to make something innovative.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3681" name="trackingcape" prototype="Page" created="1405705495351" lastModified="1540792626512">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Tracking cape for BeagleBone</pname>
+    <registrant>camilorojas@usantotomas.edu.co</registrant>
+    <uri>trackingcape</uri>
+    <time type="date">18.07.2014 17:44:55 UTC</time>
+    <updatetime type="date">18.07.2014 17:44:55 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;&lt;span style=&quot;color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22px;&quot;&gt;The Tracking Cape provides tracking capabilities to the Beagle Bone with GPS and GPRS/GSM modules. It also allows to make/answer calls, to send/receive SMS and to get GPS data. Its main components are the M95 and L20 Quectel modules.&lt;/span&gt;&lt;br style=&quot;color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22px;&quot; /&gt;&lt;br style=&quot;color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22px;&quot; /&gt;&lt;span style=&quot;color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22px;&quot;&gt;The Tracking Cape works with both the original BeagleBone and the BeagleBone Black. This cape supports the Quad band GSM/GPRS (850MHz, 900MHz, 1800MHz and 1900MHz).&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>3681.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">25150.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://ciudadoscura.com/beaglebonecape</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone with tracking capabilities.</shortdesc>
+    <user>camilorojas@usantotomas.edu.co</user>
+  </hopobject>
+</xmlroot>

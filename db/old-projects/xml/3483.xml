@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3483" name="T-bone" prototype="Page" created="1393967426324" lastModified="1540683491484">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>T-bone motion control cape</pname>
+    <registrant>tbone-cape.myopenid.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>T-bone</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">26.03.2014 15:51:35 UTC</time>
+    <updatetime type="date">04.03.2014 21:10:26 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;T-Bone is a BeagleBone cape for motion control applications . It provides several hard- and software layers to create more powerful applications with less development effort. Easy expandable by additional capes for more axis, extruders, other actuators and sensors.&lt;/p&gt;
+&lt;p&gt;The T-Bone is using an UART port as interface to the BeagleBone. No need to access the PRU for real-time operations. On the T-Bone a Arduino-based controller is used to send, receive and buffer commands from the BeagleBone. Real-time motion control operations are done by dedicated motion control units.&lt;/p&gt;
+&lt;p&gt;Basic features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5 stepper motor driver&lt;/li&gt;
+&lt;li&gt;6 inputs for end switches&lt;/li&gt;
+&lt;li&gt;3 inputs for incremental encoders (3 axis supporting closed loop control)&lt;/li&gt;
+&lt;li&gt;3 inputs for thermistors&lt;/li&gt;
+&lt;li&gt;1-wire interface for digital tempsensors&lt;/li&gt;
+&lt;li&gt;2 high power outputs (for extruder and heatbed)&lt;/li&gt;
+&lt;li&gt;2 mid power output (for fans, LEDs, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Power supply for the BeagleBone (3.3V and 5V)&lt;/li&gt;
+&lt;li&gt;Open source hard and software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/BNOKeyhrzLM&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>3483.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">12465.0</pvcount>
+    <categories>cape</categories>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://tbone.cc</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/T-bone/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>T-Bone is an opensource project for 3D printers and similar applications. Easy and powerful control for stepper motors and other related actuators.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

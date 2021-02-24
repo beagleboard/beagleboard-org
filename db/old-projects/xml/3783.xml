@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3783" name="prduino" prototype="Page" created="1410901099083" lastModified="1540770717129">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>PRdUino</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>prduino</uri>
+    <time type="date">16.09.2014 20:58:19 UTC</time>
+    <updatetime type="date">16.09.2014 20:58:19 UTC</updatetime>
+    <projstatus>dev</projstatus>
+    <body>&lt;p&gt;See &lt;a href=&quot;https://github.com/lucas-ti/PRdUino&quot;&gt;https://github.com/lucas-ti/PRdUino&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3783.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9552.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;</category>
+    <homepage>https://github.com/lucas-ti/PRdUino</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>This is a port of the Energia platform based on the Arduino framework allowing you to use Arduino software libraries on PRU.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

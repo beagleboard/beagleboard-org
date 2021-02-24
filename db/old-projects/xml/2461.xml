@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2461" name="beaglesnes" prototype="Page" created="1365294145327" lastModified="1540810996047">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>64.134.174.113</http_remotehost>
+    <pname>BeagleSNES</pname>
+    <registrant>hendersa</registrant>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>beaglesnes</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36</http_browser>
+    <time type="date">15.08.2014 15:44:56 UTC</time>
+    <updatetime type="date">07.04.2013 00:22:25 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>64.134.174.29vuksmprz9k</hopsession>
+    <body>&lt;p&gt;The BeagleSNES project is a complete filesystem image that turns the ARM-based BeagleBoard-xM or BeagleBone Black into an embedded appliance capable of playing Super Nintendo game titles. BeagleSNES uses a modified version of the SDL port of SNES9X as its emulator, boots into a GUI front-end for selecting game titles, and uses USB gamepads as the controllers. Most titles run quite well on the platform, though some performance-intensive titles and titles that use special hardware (such as titles that use the SuperFX chip) will run too slowly to be playable. Individual BeagleSNES components (bootloader, kernel, GUI/emulator) have been broken out of the filesystem image in order to allow interested developers to examine them without having to examine the full filesystem image. Full filesystem images, as well as images containing only the BeagleSNES binary and data files, are available.&lt;/p&gt;</body>
+    <imagefile>2461.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">62784.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_distro>distro</cat_distro>
+    <boardtype>bbblack;bbxm;</boardtype>
+    <category>distro;library;</category>
+    <homepage>http://www.beaglesnes.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/beaglesnes/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>BeagleSNES turns the BeagleBoard-xM into an embedded Linux-based appliance that is capable of playing Super Nintendo game titles.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

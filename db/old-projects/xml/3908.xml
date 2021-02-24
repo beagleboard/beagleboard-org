@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3908" name="ViFFF-024" prototype="Page" created="1419624369020" lastModified="1540751686397">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>ViFFF-024 camera for Beagleboard XM</pname>
+    <registrant>laftchiev.wordpress.com</registrant>
+    <uri>ViFFF-024</uri>
+    <time type="date">26.12.2014 20:06:09 UTC</time>
+    <updatetime type="date">26.12.2014 20:06:09 UTC</updatetime>
+    <projstatus>demo</projstatus>
+    <body>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; align=&quot;CENTER&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;strong&gt;ViFFF-024 camera&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; align=&quot;CENTER&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;em&gt;a camera board, for Beagleboard XM&lt;/em&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;You plug it - it works! You program it - it delivers!&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;No more hardware worries with Beagleboard camera boards!&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;The most sensitive camera board for the Beagleboard XM on the market. A brand new product.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;Camera boards and capes for current mass produced dev-boards (Raspberry Pi, Beaglebone, Beagleboard XM) are tricky. Frequently, the camera chips deliver low quality videos (256bits/color) or do not fulfill &quot;frame per second&quot; specifications. The problem is in the lack of ISP or appropriate drivers for it. Frequently, to branch it and to achieve respectable framerate and quality for machine vision applications is problematic.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;In our case, you have the best ISP for this class of microporcessor boards - the ISP* of OMAP3, and modern CMOS image sensor with a modern Media Controller V4L2 driver. This allows capture of high quality video images (discretization with 4096 levels of gray/color per pixel, and transfer to the processor at 10-bit format - 1024 levels of gray/color) with possibility to use the advanced properties of the TI OMAP 3 processors ISP*.&lt;font color=&quot;#000080&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background: #00ff00;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;Ideal for engineers, scientists, educators, enthusiasts, students. Oriented toward computer vision applications use. Possible product uses: CCTV, NIR photography or helping hyperspectral image anaysis *, for educational purposes, etc.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; lang=&quot;en-US&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;Ready to work out of the box - no installation difficulties. You are able to develop your C/OpenCV application, from a simple example code. Just plug the camera and the SD card into the Beagle and it functions! &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Angstrom&lt;/span&gt; Linux distribution &lt;span lang=&quot;en-US&quot;&gt;in the SD-card&lt;/span&gt;, working drivers installed. Ready to use with OpenCV &lt;span lang=&quot;en-US&quot;&gt;installed on the SD card.&lt;/span&gt; &lt;span lang=&quot;en-US&quot;&gt;Small OpenCV based example program helping to begin your own development effort. You can choose also to use even more advanced properties in the sensor by changing the GPL licensed driver by yourself.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;The sensor (known as Aptina &lt;/span&gt;&lt;/font&gt;&lt;a href=&quot;https://www.aptina.com/products/image_sensors/mt9v024ia7xtm/&quot;&gt;MT9V024&lt;/a&gt; &lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;or - a variant of MT9V034) is a WVGA (752x480) CMOS 1/3 inch sensor with sensitivity, allowing&lt;/span&gt;&lt;/font&gt; &lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;applications &lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;to recognize objects in &lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;a &lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;video stream even at quarter moon illumination (i.e. 0.1 &lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Lux for 5 fps for the monochrome variant without NIR filter).&lt;/span&gt;&lt;/font&gt; &lt;font face=&quot;Arial, sans-serif&quot;&gt;High dynamic range (&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt; &lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;110 dB&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;), very configurable &lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;to an extent where, for most tasks, &lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;you don&apos;t need external iris for the 0.1 - &lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;6&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;0000 Lux range&lt;/font&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;. It is a very low power consuming device, even for the embedded world.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;western&quot; style=&quot;margin-bottom: 0cm;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;You can find more at : &lt;a href=&quot;visensi.org&quot;&gt;ViSensi&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3908.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">19300.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbxm;</boardtype>
+    <category>robotics;</category>
+    <homepage>visensi.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Beagleboard XM, camera, low light CMOS sensor, OpenCV, machine vision, plug and play, Angstrom Linux Distribution,</shortdesc>
+    <user>laftchiev.wordpress.com</user>
+  </hopobject>
+</xmlroot>

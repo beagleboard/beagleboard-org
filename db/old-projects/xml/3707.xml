@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3707" name="internetspeed" prototype="Page" created="1406918396758" lastModified="1539428181071">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Internet Speedometer</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>internetspeed</uri>
+    <time type="date">01.08.2014 18:39:56 UTC</time>
+    <updatetime type="date">01.08.2014 18:39:56 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/lBYf4l41nRo&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>3707.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">25824.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://makezine.com/projects/internet-speedometer/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>This Make Magazine weekend project uses LED strips from Radio Shack to indicate the speed of your Internet connection. Uses the PRUSS to drive the LEDs.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

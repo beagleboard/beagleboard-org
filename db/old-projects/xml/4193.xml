@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4193" name="swift bones" prototype="Page" created="1462239016065" lastModified="1540800636725">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>SwiftyBones</pname>
+    <registrant>hoffmanjon.wordpress.com</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-us</http_language>
+    <uri>swift bones</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17</http_browser>
+    <time type="date">19.06.2016 17:02:15 UTC</time>
+    <updatetime type="date">03.05.2016 01:30:16 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>127.0.0.1i3vkc03uyz37</hopsession>
+    <body>&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;SwiftyBones GitHub page is here: &amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;Swift 2: &amp;nbsp;&lt;a href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;https://github.com/hoffmanjon/SwiftyBones&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;Swift 3: &amp;nbsp;&lt;a href=&quot;https://github.com/hoffmanjon/SwiftyBones3&quot;&gt;https://github.com/hoffmanjon/SwiftyBones3&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;SwiftyBones&lt;/a&gt;&amp;nbsp;is a modular Swift library for interacting with both the digital GPIO, PWM and Analog pins on the BeagleBone Black.&amp;nbsp;&amp;nbsp;This library is written to make it easy to write Swift applications that run on the Beaglebone Black that interacts with external sensors, LED or any device connected to the Digital GPIO and/or Analog pins.&amp;nbsp;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;Since&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;SwiftyBones&lt;/a&gt;&amp;nbsp;is a modular library you only need to include the functionality required for your projects rather than all of the functionality.&amp;nbsp;&amp;nbsp;Currently&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;SwiftyBones&lt;/a&gt;&amp;nbsp;supports both digital GPIO, PWM and Analog. &amp;nbsp;There is also a component library that makes it easy to add specific components like LED, buttons, H-Bridge and several other componenents. &amp;nbsp;I will be adding additional components and I use them for my projects. &amp;nbsp;Please feel free to contribute components that you make.&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;SwiftyBones&lt;/a&gt;&amp;nbsp;comes with a script called swiftybuild.sh that will help you build swift projects with multiple files.&amp;nbsp;&amp;nbsp;This script comes in very handy since&amp;nbsp;&lt;a style=&quot;text-decoration: none; color: #7c93a1;&quot; href=&quot;https://github.com/hoffmanjon/SwiftyBones&quot;&gt;SwiftyBones&lt;/a&gt;&amp;nbsp;itself contains multiple files.&amp;nbsp;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;There are several example projects (with Fritzing diagrams) included with SwiftyBones to help you get started using Swift and SwiftyBones with your next IoT, Robotic or any other project you are working on with the Beaglebone Black.&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;MsoNormal&quot; style=&quot;color: #222222; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 13px;&quot;&gt;SwiftyBones has been updated to work with Swift 3. &amp;nbsp;The repository is here&amp;nbsp;&lt;a href=&quot;https://github.com/hoffmanjon/SwiftyBones3&quot;&gt;https://github.com/hoffmanjon/SwiftyBones3&lt;/a&gt;&lt;/div&gt;</body>
+    <imagefile>4193.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">7465.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>SwiftyBones GitHub page is here:  https://github.com/hoffmanjon/SwiftyBones3</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/swift%20bones/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>SwiftyBones is a modular Swift library for interacting with both the digital GPIO and Analog pins on the BeagleBone Black. </shortdesc>
+    <user>hoffmanjon.wordpress.com</user>
+  </hopobject>
+</xmlroot>

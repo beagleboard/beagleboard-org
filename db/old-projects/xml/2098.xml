@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2098" name="stache" prototype="Page" created="1347463134138" lastModified="1540724000842">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>BeagleStache</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <oauth2-token></oauth2-token>
+    <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>stache</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36</http_browser>
+    <time type="date">12.11.2014 22:44:54 UTC</time>
+    <updatetime type="date">12.09.2012 15:18:54 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>127.0.0.1otngbzkpu1wt</hopsession>
+    <body>&lt;p&gt;This application builds on an OpenCV face detection sample, but adds a black mustache on the faces detected and (now) uploads the picture to Twitter!&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/BeagleStache&quot; data-widget-id=&quot;281231963107495936&quot;&gt;Tweets by @BeagleStache&lt;/a&gt;&lt;/p&gt;
+&lt;script&gt;// &lt;![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href=&quot;https://plus.google.com/u/1/104712705716996155416/posts/8FXA3CfCGLF&quot;&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-W6CK1Y5796Y/UBWCQKhU2FI/AAAAAAAAA1k/H_kPA894L4c/s777/34c4d75b18ad001d621c853fb33a7ecc.png&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can see it in action in a &lt;a href=&quot;http://www.engineeringtv.com/video/BeagleBone-and-Some-Fun-Applica;Only-Engineering-TV-Videos&quot;&gt;video interview at DESIGN East&lt;/a&gt;:&lt;br /&gt; &lt;iframe src=&quot;http://www.engineeringtv.com/video/BeagleBone-and-Some-Fun-Applica/player?layout=&amp;amp;read_more=1&quot; width=&quot;420&quot; height=&quot;300&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;There was also a video taken at CES 2013&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/usITuaAsQek&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;BeagleStache premiered at &lt;a href=&quot;http://east.ubmdesign.com/expo/design-east-theater&quot;&gt;DESIGN East Theater during the Gadget Freak DIY Lab&lt;/a&gt; on Sep 19, 2012 (&lt;a href=&quot;https://github.com/jadonk/stache/raw/master/presentations/DesignEast-GadgetFreak-DIY-Lab-BeagleStache.pdf&quot;&gt;slides&lt;/a&gt;). More information about how it was created is referenced below.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://plus.google.com/102344295024422039483/posts/bY9qMwqszVD&quot;&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/-AiusjzEhdOs/UFi8ZrTcNQI/AAAAAAAAB4E/D3yNDwX9S1I/s634/12+-+1&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The BeagleStache was also featured at &lt;a href=&quot;http://blog.makezine.com/2012/09/29/mini-mustache-machine/&quot;&gt;Maker Faire NY 2012&lt;/a&gt;:&lt;br /&gt; &lt;img src=&quot;http://makezineblog.files.wordpress.com/2012/09/beaglebone-mustache.jpg?w=598&amp;amp;h=424&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Drew Fustini also did a very nice &lt;a href=&quot;http://www.element14.com/community/community/knode/single-board_computers/next-gen_beaglebone/blog/2013/06/01/boothstache-facial-hair-fun-with-beaglebone-black&quot;&gt;&quot;BoothStache&quot; using BeagleBone Black at DesignWest 2013&lt;/a&gt; and did a very nice write-up.&lt;a href=&quot;http://www.element14.com/community/community/knode/single-board_computers/next-gen_beaglebone/blog/2013/06/01/boothstache-facial-hair-fun-with-beaglebone-black&quot;&gt;&lt;img src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-11795-151764/450-337/20130506_144729.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How to build one&lt;/h2&gt;
+&lt;p&gt;Follow the instructions on &lt;a href=&quot;https://docs.google.com/presentation/d/1rb1Rvw05c1sFOoZiJ8Re86VVsU_-I90Ac0il8ZbXWD0/edit?usp=sharing&quot;&gt;the Google Doc presentation&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Buy &lt;a href=&quot;../../buy&quot;&gt;BeagleBone&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Buy PS3 Eye.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://elinux.org/CircuitCo:BeagleBone_LCD3&quot;&gt;Buy BeagleBone LCD3 Cape&lt;/a&gt; or another power source.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://elinux.org/CircuitCo:BeagleBone_Battery&quot;&gt;Buy BeagleBone Battery Cape&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;For tweeting, buy &lt;a href=&quot;http://www.iogear.com/product/GWU627/&quot;&gt;Iogear GWU627 Ethernet-to-WiFi adapter&lt;/a&gt; and tether it to WiFi. To overcome the limitations of the small screen, you should probably configure it separately to the WiFi and then connect it to your board.&lt;/li&gt;
+&lt;li&gt;Assemble it together into some kind of case.&lt;/li&gt;
+&lt;li&gt;You might want to &lt;a href=&quot;../../Getting+Started#update&quot;&gt;update BeagleBone to latest image&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Boot board and login to console, perhaps using &lt;a href=&quot;../../getting-started&quot;&gt;the built-in USB networking and Gate One&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone repository and build:
+&lt;pre&gt;root@beagleboard:~# git clone git://github.com/jadonk/stache
+root@beagleboard:~# cd stache
+root@beagleboard:~/stache# make &amp;amp;&amp;amp; make install
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Edit config.js to include your tweet message, location of your LED control files and API keys for your Twitter account. To acquire your keys:
+&lt;ul&gt;
+&lt;li&gt;Sign in at &lt;a href=&quot;https://dev.twitter.com/&quot;&gt;dev.twitter.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create an application on the &lt;a href=&quot;https://dev.twitter.com/apps&quot;&gt;&quot;my applications&quot; page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Set the access level to &quot;read and write&quot;.&lt;/li&gt;
+&lt;li&gt;Create your access token.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make sure the date/time is set properly because Twitter requires it.&lt;/li&gt;
+&lt;li&gt;Double-click the BeagleStache icon to execute &apos;runstache&apos; and start the app running. Be patient and try not to start it up multiple times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Alternatively building on BeagleBoard-xM, instead of BeagleBone&lt;/h3&gt;
+&lt;p&gt;I believe I used &lt;a href=&quot;http://angstrom.s3.amazonaws.com/demo/beagleboard/Angstrom-TI-GNOME-image-eglibc-ipk-v2012.01-core-beagleboard-2012.01.11.img.gz&quot;&gt;this SD card image&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;root@beagleboard:~# opkg install --force-overwrite task-native-sdk cpp libstdc++6 opencv opencv-dev opencv-apps
+root@beagleboard:~# opkg install --force-overwrite libopencv-imgproc-dev libopencv-highgui-dev libopencv-ml-dev
+root@beagleboard:~# opkg install --force-overwrite libopencv-video-dev libopencv-features2d-dev libopencv-core-dev
+root@beagleboard:~# opkg install --force-overwrite libopencv-calib3d-dev libopencv-objdetect-dev libopencv-contrib-dev
+root@beagleboard:~# opkg install --force-overwrite libopencv-legacy-dev libopencv-flann-dev
+root@beagleboard:~# git clone git://github.com/jadonk/stache
+root@beagleboard:~# cd stache
+root@beagleboard:~/stache# make &amp;amp;&amp;amp; make install
+&lt;/pre&gt;
+&lt;p&gt;For reference, below is my version information:&lt;/p&gt;
+&lt;pre&gt;root@beagleboard:~# cat /etc/version 
+Angstrom v2012.01-core
+root@beagleboard:~# ls -l /etc/version
+-rw-r--r--    1 root     root            23 Jan 11 18:31 /etc/version
+root@beagleboard:~# cat /etc/angstrom-version 
+Angstrom v2012.01-core (Core edition)
+Built from branch: angstrom-staging
+Revision: a9fe47faf2f4241a2b80c26d3d38ec8694c71c08
+Target system: arm-angstrom-linux-gnueabi
+root@beagleboard:~# cat /etc/angstrom-build-info
+Configured Openembedded layers:
+meta-angstrom     = master:f0f99ea3cd132a6a69a9f4bad22da55403f9f940
+meta-oe
+meta-efl
+meta-gpe
+meta-gnome
+meta-xfce         = master:c65139cd012231db6c3994481d11fe118773afab
+meta-java         = master:bce529e9cde236a1814d8596bb93aed406680a28
+meta-ti           = master:f9f283ea3cbd24cc9ba7c5ba830f10e30da5ea82
+meta-ettus        = master:f097bb61772d07610d84a668dc19a47e180962b3
+meta-efikamx      = master:2ef47fdd4e8232d766c0c63d9427253ee56e31d0
+meta-nslu2        = master:17853811179f2760791c6b138f96e9dd15493517
+meta-htc
+meta-nokia
+meta-openmoko
+meta-palm         = master:6031c4359af9cea72c983df23e3c0cc9579cb126
+meta-sugarbay
+meta-crownbay
+meta-emenlow
+meta-fishriver
+meta-jasperforest
+meta-n450         = master:7c3db7010479970f3f92501349827c517de3c36a
+meta              = angstrom-staging:a9fe47faf2f4241a2b80c26d3d38ec8694c71c08
+&lt;/pre&gt;</body>
+    <imagefile>2098.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed>https://github.com/jadonk/stache/commits/master.atom</rssfeed>
+    <pvcount type="float">46442.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=6c2d97012982b47ab576de3202fcc0fa482fd6a0..463e:I=1415832158:X=1415835758</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;demo;</category>
+    <homepage>https://github.com/jadonk/stache</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/stache/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>OpenCV-based face detection sample with added mustache</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

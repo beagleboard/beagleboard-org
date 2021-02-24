@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3785" name="tor" prototype="Page" created="1411051100400" lastModified="1540228036114">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>BeagleBone Tor Relay and Bridge</pname>
+    <registrant>jbdatko.wordpress.com</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>tor</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36</http_browser>
+    <time type="date">30.09.2014 19:35:12 UTC</time>
+    <updatetime type="date">18.09.2014 14:38:20 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>production</projstatus>
+    <hopsession>127.0.0.lfdzkjwkuj21</hopsession>
+    <body>&lt;p&gt;Tor is an anonymity network that consists of thousands of nodes. These nodes are servers that provide bandwidth for the network and are often run by volunteers. The BBB, due to its capable performance and low power consumption, is an ideal candidate as a Tor relay.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Note: This project is for running a relay or bridge, NOT a transparent proxy like the Onion Pi.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Links for additional information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Josh Datko&apos;s blog &lt;a href=&quot;http://datko.net/?s=tor&quot;&gt;posts&lt;/a&gt; on Tor and the BeagleBone&lt;/li&gt;
+&lt;li&gt;Josh&apos;s &lt;a href=&quot;http://datko.net/2014/07/19/hopex-slides/&quot;&gt;HOPEX Slides&lt;/a&gt; describing the project&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.packtpub.com/hardware-and-creative/beaglebone-secret-agents&quot;&gt;BeagleBone for Secret Agents, Chapter 2&lt;/a&gt;, describes in detail how to run a Tor bridge and create a custom front panel.&lt;/li&gt;
+&lt;li&gt;Torrc and code for running a Bridge on a BeagleBone. [&lt;a href=&quot;https://github.com/jbdatko/beagle-bone-for-secret-agents/tree/master/ch2&quot;&gt;GitHub&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;List of BeagleBone Black relays (by fingerprint, links to Atlas):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://atlas.torproject.org/#details/EFE9BC81FBCE1CC52E1DCA97E760723CAD622E1C&quot;&gt;EFE9BC81FBCE1CC52E1DCA97E760723CAD622E1C&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://atlas.torproject.org/#details/6B09AD650CF0A2D27B2C4F2853E190DDD409BC76&quot;&gt;6B09AD650CF0A2D27B2C4F2853E190DDD409BC76&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>3785.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">23591.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>https://www.torproject.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/tor/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Use the BeagleBone to help protect privacy an anonymity online as a Tor relay or bridge.</shortdesc>
+    <user>jbdatko.wordpress.com</user>
+  </hopobject>
+</xmlroot>

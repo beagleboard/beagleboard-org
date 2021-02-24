@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4008" name="erle-brain" prototype="Page" created="1427056278475" lastModified="1540608921835">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Erle-Brain</pname>
+    <registrant>v.mayoralv@gmail.com</registrant>
+    <uri>erle-brain</uri>
+    <time type="date">22.03.2015 20:31:18 UTC</time>
+    <updatetime type="date">22.03.2015 20:31:18 UTC</updatetime>
+    <projstatus>production</projstatus>
+    <body>&lt;p&gt;Erle-brain is an open hardware and open source Linux-based autopilot for drones based on the BBB and that has more than 30 sensors.&lt;/p&gt;</body>
+    <imagefile>4008.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9806.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>robotics;</category>
+    <homepage>http://erlerobotics.com/blog/product/erle-brain/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>A brain for creating drones based on the BeagleBone Black</shortdesc>
+    <user>v.mayoralv@gmail.com</user>
+  </hopobject>
+</xmlroot>

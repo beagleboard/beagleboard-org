@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3956" name="GPS" prototype="Page" created="1423845650498" lastModified="1540785740671">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Beaglebone Black – Mobile Streaming GPS</pname>
+    <registrant>raymond</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>GPS</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36</http_browser>
+    <time type="date">13.02.2015 16:48:01 UTC</time>
+    <updatetime type="date">13.02.2015 16:40:50 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.11162jhyffyti</hopsession>
+    <body>&lt;p&gt;&lt;span style=&quot;color: #545454; font-family: &apos;Droid Sans&apos;; font-size: 16px; line-height: 30.3999996185303px;&quot;&gt;I wrote about&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;border: 0px; margin: 0px; padding: 0px; text-decoration: none; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in; color: #303030; font-family: &apos;Droid Sans&apos;; font-size: 16px; line-height: 30.3999996185303px;&quot; title=&quot;Raspberry Pi: Completely Mobile GPS Streamer&quot; href=&quot;http://blog.initialstate.com/pi-mobile-gps-streamer/&quot; target=&quot;_blank&quot;&gt;turning a Raspberry Pi into a completely mobile GPS streamer&lt;/a&gt;&lt;span style=&quot;color: #545454; font-family: &apos;Droid Sans&apos;; font-size: 16px; line-height: 30.3999996185303px;&quot;&gt;, so I felt like it was time to show the Beaglebone Black some love. I applied&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;border: 0px; margin: 0px; padding: 0px; text-decoration: none; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in; color: #303030; font-family: &apos;Droid Sans&apos;; font-size: 16px; line-height: 30.3999996185303px;&quot; href=&quot;http://www.adafruit.com/product/746&quot; target=&quot;_blank&quot;&gt;Adafruit&amp;rsquo;s Ultimate GPS Breakout Board&lt;/a&gt;&lt;span style=&quot;color: #545454; font-family: &apos;Droid Sans&apos;; font-size: 16px; line-height: 30.3999996185303px;&quot;&gt;&amp;nbsp;to the BBB to try out using UART without the USB to TTL serial cable. There were two reasons for this: 1) I really wanted to try out the UART ports, and 2) the BBB only has one USB port and I didn&amp;rsquo;t want to waste it on a serial cable.....................&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>3956.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">18235.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=f2e6cf3c56c28372f5ed9d24ca0af3e75819264d.RjnBNbkgWqfSjjZW.b9a9:I=1423845881:X=1423932281</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <prj_status></prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://blog.initialstate.com/beaglebone-black-gps-mobile/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/GPS/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Make your BeagleBone Black GPS mobile while streaming your location, speed, and altitude data.</shortdesc>
+    <user>raymond@initialstate.com</user>
+  </hopobject>
+</xmlroot>

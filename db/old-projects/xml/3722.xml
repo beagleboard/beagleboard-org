@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3722" name="Oled" prototype="Page" created="1408033755780" lastModified="1540383497385">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>BeagleBone Black 0.96&quot; OLED Display</pname>
+    <registrant>0miker0@gmail.com</registrant>
+    <uri>Oled</uri>
+    <time type="date">14.08.2014 16:29:15 UTC</time>
+    <updatetime type="date">14.08.2014 16:29:15 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-0.96&quot; OLED SPI Display (3.3V)&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-SPI interface for fast graphics and animations.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-Vin = 3.3V&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-display colour is white.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-current draw varies with brightness and pixels lit. The display draws between 8mA - 12mA.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-dimensions are 26.7mm from right to left, 26mm from top to bottom.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-data sheet for the glass is at: http://www.buy-display.com/default/oled-display-module.html&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 18px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;-I&apos;ve had success installing the code onto the latest Angstrom and Debian located here: http://guy.carpenter.id.au/gaugette/2014/01/28/spi-ssd1306-oled-for-beaglebone-black/&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; color: #787f87; font-family: adelle, Georgia, &apos;Times New Roman&apos;, Times, serif; font-size: 18px; line-height: 30px;&quot;&gt;I&apos;ve also installed a service on Angstrom only that runs the python script on boot up located here:http://stackoverflow.com/questions/11152657/angstrom-start-up-processes-beaglebone&lt;/p&gt;</body>
+    <imagefile>3722.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">12872.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>cape;</category>
+    <homepage>https://www.tindie.com/products/miker/beaglebone-black-096-oled-display/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone Black 0.96&quot; OLED Display 128x64 pixels</shortdesc>
+    <user>0miker0@gmail.com</user>
+  </hopobject>
+</xmlroot>

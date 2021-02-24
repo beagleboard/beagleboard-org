@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="495" name="freebsd-bgb" prototype="Page" created="1231446129621" lastModified="1540791685083">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>FreeBSD port to the BeagleBoard</pname>
+    <registrant>asqyzeron.myopenid.com</registrant>
+    <prj_statusval>obsolete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>freebsd-bgb</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">27.03.2014 18:37:47 UTC</time>
+    <updatetime type="date">08.01.2009 20:22:09 UTC</updatetime>
+    <hopsession>98.250.189.o78tvogn3rdg</hopsession>
+    <body>&lt;p&gt;Check out this &lt;a href=&quot;https://wiki.freebsd.org/SummerOfCode2012/FreeBSDonBeagleBoardxM&quot;&gt;BeagleBoard Google Summer of Code project&lt;/a&gt; to get FreeBSD running on BeagleBoard-xM.&lt;/p&gt;
+&lt;p&gt;Also, check out &lt;a href=&quot;../freebsd&quot;&gt;FreeBSD on BeagleBone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There is an obsolete project at: http://code.google.com/p/freebsd-bgb/&lt;/p&gt;</body>
+    <imagefile>495.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9865.0</pvcount>
+    <prj_status>demo</prj_status>
+    <cat_distro>distro</cat_distro>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>distro;</category>
+    <homepage>https://wiki.freebsd.org/SummerOfCode2012/FreeBSDonBeagleBoardxM</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/freebsd-bgb/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Aims at porting FreeBSD to the BeagleBoard</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3899" name="picknpaste" prototype="Page" created="1418528043564" lastModified="1540809125286">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2243.2 Safari/537.36</http_browser>
+    <homepage>http://pnp.carbidelabs.com/</homepage>
+    <registrant>jkridner.wordpress.com</registrant>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <updatetime type="date">14.12.2014 03:34:03 UTC</updatetime>
+    <uri>picknpaste</uri>
+    <boardtype>bbblack;</boardtype>
+    <http_language>en-US,en;q=0.8</http_language>
+    <category>distro;cape;case;robotics;</category>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.1qj17bz4pymhz</hopsession>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=0da08b59fe7a114cec9747a7115f2c120fb94060..ec84:I=1418534203:X=1418537803</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <shortdesc>A desktop electronic pick and place machine with a solder paste extrusion system to streamline circuit fabrication built on top of LinuxCNC</shortdesc>
+    <rssfeed></rssfeed>
+    <projstatus>dev</projstatus>
+    <edit_skin>edit_project</edit_skin>
+    <imagefile>3899.jpeg</imagefile>
+    <body>&lt;p&gt;From their &lt;a href=&quot;../../blog/2014-11-25-project-spotlight-picknpaste/&quot;&gt;Project Spotlight&lt;/a&gt;:&lt;/p&gt;
+&lt;h1 style=&quot;font-family: Arial, Verdana, Helvetica, sans-serif; color: #b4a279;&quot;&gt;BeagleBone Black project spotlight:&lt;br /&gt;Pick &amp;lsquo;n Paste&lt;/h1&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;By Natalie Nelms&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;Not only man&amp;rsquo;s best friend, the Pick &amp;lsquo;n Paste is now a maker&amp;rsquo;s best friend!&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;Carbide Labs, a startup out of Philadelphia, is developing a desktop circuit assembly tool that is enough to melt any maker&amp;rsquo;s heart thanks to its capability to cut both the time and cost of a prototyping project. Not only does the Pick &amp;lsquo;n Paste place components on an unpopulated board for you, but it also goes one step further by applying solder paste, which can be used to secure the components through a separate baking step. All you have to do is place your board and components in the work area, input information about the prototype&amp;rsquo;s design, perform a quick calibration and voil&amp;agrave; &amp;ndash; your project is on its way to completion!&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://imgur.com/m8SbJZV&quot;&gt;&lt;img style=&quot;border: none;&quot; title=&quot;source: imgur.com&quot; src=&quot;http://i.imgur.com/m8SbJZV.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;&amp;ldquo;The device is targeted towards users doing R&amp;amp;D work, iterative testing/prototyping, hobbyists, hackerspaces, educational users, etc.,&amp;rdquo; explained Bob Sherbert, a Carbide team member. &amp;ldquo;Basically anyone who needs to do many unique designs or frequent iterations on a single design when they have a lot of small components involved would benefit from our device. It&apos;s built to cut out the high cost and lead times associated with doing mail away or hand assembly at low volumes.&amp;rdquo;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;Some of the components that make the Pick &apos;n Paste possible:&lt;br /&gt;&amp;bull; TI&amp;rsquo;s&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://www.ti.com/pro-arm-bborgblog-e2e-lp&quot;&gt;Sitara-processor-powered&lt;/a&gt;&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;../../Products/BeagleBone%20Black&quot;&gt;BeagleBone Black&lt;/a&gt;&amp;nbsp;&lt;br /&gt;&amp;bull; Linear bearings and precision 8mm shaft&amp;nbsp;&lt;br /&gt;&amp;bull; Small stepper motors (NEMA 17 and 11 sizes)&amp;nbsp;&lt;br /&gt;&amp;bull; HTD belting for low backlash&amp;nbsp;&lt;br /&gt;&amp;bull; Standard CP-6 vacuum tips&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;&amp;ldquo;We were inspired by homebrew pick-and-place machines using CNC routers and 3D printer frames, which showed that it was possible to do pick and place on a small scale with inexpensive equipment,&amp;rdquo; Sherbert detailed further. &amp;ldquo;We were also excited to utilize the BeagleBone Black thanks to the presence of the PRUs, high I/O count and overall community enthusiasm for motion control capes and supporting software.&amp;rdquo;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;Beyond solving the physical manipulation of the components, there were a few other challenges the team had to overcome. First among these was the issue of correcting position errors among the boards and components. To compensate for this, the team added an OpenCV based vision system. The vision system, along with a low-current stepper driver and microstepping implementation allowed for the rotation of parts to align with pads.&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1em; line-height: 1.3em; color: #525252; font-family: Arial, Helvetica, Verdana, sans-serif;&quot;&gt;For more information on the Pick &amp;lsquo;n Paste and to keep track of what Carbide is up to next, visit:&amp;nbsp;&lt;a style=&quot;color: #de7224; text-decoration: none;&quot; href=&quot;http://pnp.carbidelabs.com/&quot;&gt;http://pnp.carbidelabs.com&lt;/a&gt;!&lt;/p&gt;</body>
+    <errmsg></errmsg>
+    <cat_distro>distro</cat_distro>
+    <http_referer>http://beagleboard.org/project/picknpaste/edit</http_referer>
+    <user>jkridner.wordpress.com</user>
+    <http_host>127.0.0.1:8080</http_host>
+    <pname>Pick and Paste</pname>
+    <cat_robot>robotics</cat_robot>
+    <cat_cape>cape</cat_cape>
+    <cat_case>case</cat_case>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <brd_black>bbblack</brd_black>
+    <time type="date">14.12.2014 05:18:43 UTC</time>
+    <prj_statusval></prj_statusval>
+    <g_authuser_h2>0</g_authuser_h2>
+    <render_skin>project</render_skin>
+    <prj_status>dev</prj_status>
+    <pvcount type="float">17079.0</pvcount>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3523" name="novus" prototype="Page" created="1395776940601" lastModified="1540585444892">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>198.228.217.173</http_remotehost>
+    <pname>Novus Robotics Cape</pname>
+    <registrant>jkridner</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>dev</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>novus</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">01.04.2014 18:23:38 UTC</time>
+    <updatetime type="date">25.03.2014 19:49:00 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>dev</projstatus>
+    <hopsession>198.228.217.1wuvvqnqzknon</hopsession>
+    <body>&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/wvMA10NuZG8&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;Technical Specifications&lt;/h1&gt;
+&lt;ul style=&quot;font-family: Times; font-size: medium; list-style: none;&quot;&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;9-axis IMU: Accelerometer, Gyro, Magnetometer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;6 PWM connectors to power Servos or brushless ESCs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Power your Beaglebone with 5V 2A Switching Voltage Regulator from 12v input or Battery Pack&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;2 User-accessible Buttons and 2 LEDs to Test GPIO functionality and to test PRU0 GPIO functions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Cell Balancer &amp;amp; Overvoltage Protector&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;H-bridges to drive 6 DC Motors (each 1.2A continuous, 3.2A peak)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Connectors for three quadrature encoder equipped motors&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Plug and play connection supported:&lt;/p&gt;
+&lt;ul class=&quot;a&quot;&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;I2C, UART, CAN, SPI&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Serial GPS Module&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Spektrum&amp;trade; RC Satellite Receiver&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;font-family: &apos;Segoe UI&apos;, Frutiger, &apos;Frutiger Linotype&apos;, &apos;Dejavu Sans&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif; font-size: 14px;&quot;&gt;Quadrature Encoder Inputs&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>3523.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">16098.0</pvcount>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;cape;</category>
+    <homepage>http://www.strawsondesign.com/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/novus/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>The Novus Robotics Cape from Strawson Design in partnership with UCSD has Open Source Libraries, Sample Code, and detailed documentation to facilitate developers that want to get their projects working quickly.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

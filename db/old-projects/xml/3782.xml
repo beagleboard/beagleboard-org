@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3782" name="SoilAnalyzer" prototype="Page" created="1410894205203" lastModified="1540755799703">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>SoilAnalyzer</pname>
+    <registrant>peer23peer.wordpress.com</registrant>
+    <prj_statusval>dev</prj_statusval>
+    <g_authuser_h2>0</g_authuser_h2>
+    <http_language>nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4</http_language>
+    <uri>SoilAnalyzer</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</http_browser>
+    <time type="date">17.01.2015 17:35:11 UTC</time>
+    <updatetime type="date">16.09.2014 19:03:25 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>127.0.0.175hhdjns4idz</hopsession>
+    <body>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;Project for my Bachelor Minor -&amp;gt; Embedded Vision Design @ University of Applied Sciences HAN Arnhem en Nijmegen.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;The goal of this project to build a small portable lab, with which you can analyze Soil Sample in the field. It will give you results on Particle Size Distribution (PSD), Shape classification and color (in CIE La&lt;em style=&quot;box-sizing: border-box;&quot;&gt;b&lt;/em&gt;&amp;nbsp;an Redness Index colorspace). The analyse is performed on a Beaglebone Black rev C. with the following image Linux arm 3.8.13-bone68 #1 SMP Sat Nov 22 06:51:58 UTC 2014 armv7l armv7l armv7l GNU/Linux&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;The soil is analyzed using it optical properties. This is done with an 5MP USB webcam with a maximum magnification of 300x. It has an custom cape with which the user can control the device.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;Although it uses openCV most Vision algorithms are custom written (part of my Minor demand). openCV is used for camera aquisition and picture storage mostly.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; margin-bottom: 0px !important;&quot;&gt;More info to come.&lt;/p&gt;</body>
+    <imagefile>3782.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">11776.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=4ab9ace327ec06b48768846411146c7e1802421b..c3ae:I=1421515909:X=1421519509</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>https://github.com/peer23peer/VisionSoilAnalyzer</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/SoilAnalyzer/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>a small portable lab, with which you can analyze Soil Sample in the field. It will give you results on Particle Size Distribution (PSD), Shape classification and color (in CIE Lab and Redness Index colorspace). The analyse is performed on a Beaglebone Black with a USB Microscope</shortdesc>
+    <user>peer23peer.wordpress.com</user>
+  </hopobject>
+</xmlroot>

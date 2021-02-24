@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="292" name="angstrom" prototype="Page" created="1217401045310" lastModified="1540739788163">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>65.183.15.82</http_remotehost>
+    <pname>Ångström Distribution</pname>
+    <registrant>koenkooi.myopenid.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>production</prj_statusval>
+    <oauth2-token></oauth2-token>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>angstrom</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36</http_browser>
+    <time type="date">29.05.2014 17:30:39 UTC</time>
+    <updatetime type="date">30.07.2008 06:57:25 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>65.183.15.1ath7695qbuti</hopsession>
+    <body>&lt;p&gt;The &lt;a href=&quot;http://www.angstrom-distribution.org&quot;&gt;Angstrom Distribution&lt;/a&gt; releases demo images that ship with the with the boards and are used in the process of validating the boards and diagnostics for users. Of course, they have many uses beyond validation and diagnostics, but there are many other distributions of Linux and other non-Linux software systems you might want to run.&lt;/p&gt;
+&lt;p&gt;Because this validation and diagnostic function is so important, we&apos;ve chosen to mirror the Angstrom Distribution demo images:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BeagleBoard and BeagleBoard-xM: &lt;a href=&quot;http://downloads.angstrom-distribution.org/demo/beagleboard&quot;&gt;primary,&lt;/a&gt; &lt;a href=&quot;http://www.beagleboard.org/angstrom-mirror/www.angstrom-distribution.org/demo/beagleboard/&quot;&gt;BeagleBoard.org mirror&lt;/a&gt; and &lt;a href=&quot;http://angstrom.s3.amazonaws.com/demo/beagleboard/index.html&quot;&gt;Amazon S3 mirror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BeagleBone: &lt;a href=&quot;http://downloads.angstrom-distribution.org/demo/beaglebone&quot;&gt;primary,&lt;/a&gt; &lt;a href=&quot;http://www.beagleboard.org/angstrom-mirror/www.angstrom-distribution.org/demo/beaglebone/&quot;&gt;BeagleBoard.org mirror&lt;/a&gt; and &lt;a href=&quot;http://angstrom.s3.amazonaws.com/demo/beaglebone/index.html&quot;&gt;Amazon S3 mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;Aring;ngstr&amp;ouml;m was started by a small group of people who worked on the OpenEmbedded, OpenZaurus and OpenSimpad projects to unify their effort to make a stable and userfriendly distribution for embedded devices like handhelds, set top boxes and network-attached storage devices and more.&lt;/p&gt;
+&lt;p&gt;To rebuild the Angstrom Distribution images, see the &lt;a href=&quot;http://wp.angstrom-distribution.org/?page_id=53&quot;&gt;Building Angstrom page&lt;/a&gt;. The shipped image is currently &apos;cloud9-gnome-image&apos;.&lt;/p&gt;
+&lt;p&gt;To ensure high source availability, a clone of all of the sources around the time of the latest official build is available &lt;a href=&quot;https://s3.amazonaws.com/beagleboard/angstrom-2013-04-30-18:41:38/index.html&quot;&gt;on Amazon S3&lt;/a&gt;. This build was performed on Amazon EC2 machines using these &lt;a href=&quot;https://github.com/jadonk/validation-scripts/tree/master/ec2-build&quot;&gt;EC2 build scripts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;http://wp.angstrom-distribution.org/?p=49&quot;&gt;http://wp.angstrom-distribution.org/?p=49&lt;/a&gt; for support mailing lists.&lt;/p&gt;</body>
+    <imagefile>292.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://www.angstrom-distribution.org/node/feed</rssfeed>
+    <pvcount type="float">258323.0</pvcount>
+    <prj_status>production</prj_status>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <cat_distro>distro</cat_distro>
+    <category>distro;</category>
+    <homepage>http://www.angstrom-distribution.org/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/angstrom/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Linux distribution tailored for embedded devices and shipped with the BeagleBoard-xM and BeagleBone</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

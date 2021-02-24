@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="282" name="website" prototype="Page" created="1217249671921" lastModified="1540303169296">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeagleBoard.org</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>production</prj_statusval>
+    <oauth2-token></oauth2-token>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>website</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36</http_browser>
+    <time type="date">06.08.2014 18:24:23 UTC</time>
+    <updatetime type="date">28.07.2008 12:54:31 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.jm00sjw6y64l</hopsession>
+    <body>&lt;p&gt;BeagleBoard.org is meant to be a very open project. To that end, we needed a very open website. Ultimately, this is software that could even run on a BeagleBoard.org! The source is managed using git and is &lt;a href=&quot;http://github.com/beagleboard/beagleboard-org&quot;&gt;available to browse.&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>282.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://feeds.feedburner.com/BeagleBoard</rssfeed>
+    <pvcount type="float">9244.0</pvcount>
+    <prj_status>production</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://beagleboard.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/website/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBoard Helma-based website for collaboration</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

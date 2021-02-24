@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4176" name="multichannel-audio-system" prototype="Page" created="1455577410143" lastModified="1540700302069">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Low-Latency Multichannel Audio System (2 x 24 Bit stereo inputs, 4 x 24 Bit stereo outputs)</pname>
+    <registrant>www.creative-technologies.de/author/hlanger</registrant>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,nb;q=0.2,fr;q=0.2</http_language>
+    <uri>multichannel-audio-system</uri>
+    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36</http_browser>
+    <time type="date">17.02.2016 17:41:10 UTC</time>
+    <updatetime type="date">15.02.2016 23:03:30 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.1p97czzah60m</hopsession>
+    <body>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Multichannel audio system based on BeagleBone Green/Black and AD1938 audio codec by Analog Devices Inc. The audio system offers 2 x 24 Bit stereo ADCs and 4 x 24 Bit stereo DACs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 stereo ADCs and 4 stereo DACs&lt;/li&gt;
+&lt;li&gt;Up to 96 kHz sampling rate with 8 audio channels (up to 192 kHz with 4 channels)&lt;/li&gt;
+&lt;li&gt;24 Bit word width&lt;/li&gt;
+&lt;li&gt;Separate interfaces to ADCs and DACs&lt;/li&gt;
+&lt;li&gt;Asynchronous sampling rates for playback and capture&lt;/li&gt;
+&lt;li&gt;Up to 3,2 ms round-trip-time&lt;/li&gt;
+&lt;li&gt;Mobile usage (the Beaglebone Green and the audio card both are supplied with 5V supply voltage)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Project Components:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;S sound card (CTAG face2|4)&lt;/li&gt;
+&lt;li&gt;Forked BeagleBone Linux kernel 4.1 with sound card drivers and modified device trees&lt;/li&gt;
+&lt;li&gt;Adapter card &amp;ldquo;bbg-cape&amp;rdquo; to connect the BeagleBone Black/Green with I&lt;sup&gt;2&lt;/sup&gt;S sound card&lt;/li&gt;
+&lt;li&gt;Adapter card &amp;ldquo;con-cape&amp;rdquo; with stereo jacks and headphone amplifier, not yet published due to some bugs&lt;/li&gt;
+&lt;li&gt;BASH script for automatic evaluation of latency, THD+N, DNR, crosstalk and frequency response using GNU Octave&lt;/li&gt;
+&lt;li&gt;Surround-Delay audio effect for demonstration&lt;/li&gt;
+&lt;li&gt;Debian Wheezy SD card image for BeagleBone Green (evaluation script and demonstration effect is included)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Applications:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mobile sound studio (simultaneously record several inputs with different audio effects applied and preview them on different outputs in real time)&lt;/li&gt;
+&lt;li&gt;Programmable effect device for various music instruments&lt;/li&gt;
+&lt;li&gt;Open platform for DIY audio projects&lt;/li&gt;
+&lt;li&gt;Eurorack analog I/O interfaces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The complete project is open sourced.&lt;br /&gt; &lt;strong&gt;For more details visit our &lt;a href=&quot;http://www.creative-technologies.de/linux-based-low-latency-multichannel-audio-system-2/&quot; target=&quot;_blank&quot;&gt;website&lt;/a&gt;&amp;nbsp;or our &lt;a href=&quot;https://hackaday.io/project/9634-linux-based-low-latency-multichannel-audio-system&quot; target=&quot;_blank&quot;&gt;hackaday project&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;Feedback is welcome:)&lt;/p&gt;</body>
+    <imagefile>4176.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">26221.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <boardtype>bbblack;</boardtype>
+    <category>cape;gsoc;</category>
+    <homepage>http://www.creative-technologies.de/linux-based-low-latency-multichannel-audio-system-2/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/multichannel-audio-system/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>audio, embedded, linux, alsa, asoc, multichannel, eurorack, diy, interface, i2s, tdm, pcm, am335x, ad1938, musictech, synthesizer, open source, DSP, ctag face 2|4</shortdesc>
+    <user>www.creative-technologies.de/author/hlanger</user>
+  </hopobject>
+</xmlroot>

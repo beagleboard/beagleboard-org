@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4112" name="ledgames" prototype="Page" created="1441300275269" lastModified="1540787859135">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>LedGames</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <prj_statusval>demo</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>ledgames</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.6 Safari/537.36</http_browser>
+    <time type="date">03.09.2015 17:21:06 UTC</time>
+    <updatetime type="date">03.09.2015 17:11:15 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>demo</projstatus>
+    <hopsession>127.0.0.1n7gt9a7bb1hr</hopsession>
+    <body>&lt;p&gt;From&amp;nbsp;&lt;a class=&quot;external&quot; href=&quot;https://learn.adafruit.com/ledgames-beaglebone-black-64x64-led-game/overview&quot;&gt;https://learn.adafruit.com/ledgames-beaglebone-black-64x64-led-game/overview&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;page-title-wrapper&quot; style=&quot;box-sizing: border-box; position: relative; color: #333333; font-family: &apos;Gotham SSm A&apos;, &apos;Gotham SSm B&apos;; font-size: 14px; line-height: 20px;&quot;&gt;
+&lt;h1 class=&quot;headline&quot; style=&quot;box-sizing: border-box; font-size: 30px; margin: 4px 0px 12px; font-weight: 400; line-height: 1; padding: 0px 0px 5px; border-bottom-style: none; display: inline-block; width: 511px;&quot;&gt;&lt;span id=&quot;overview&quot; style=&quot;box-sizing: border-box;&quot;&gt;Overview&lt;/span&gt;&lt;/h1&gt;
+&lt;a class=&quot;author&quot; style=&quot;box-sizing: border-box; color: #ffffff; text-decoration: none; float: right; margin: 10px -15px 0px 0px; padding: 0px 10px 0px 0px; height: 30px; position: absolute; top: -10px; right: 0px; background: #34e0bd;&quot; href=&quot;https://learn.adafruit.com/users/Keith_Henrickson&quot; data-hover-color=&quot;#2cbea1&quot; data-default-color=&quot;#34e0bd&quot;&gt;&lt;img class=&quot;user-gravatar load-gravatar&quot; style=&quot;box-sizing: border-box; border: 0px; vertical-align: middle; margin-right: 5px;&quot; src=&quot;https://secure.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=64&amp;amp;d=mm&amp;amp;r=pg&quot; alt=&quot;Author Gravatar Image&quot; width=&quot;30&quot; height=&quot;30&quot; data-gravatar_hash=&quot;d41d8cd98f00b204e9800998ecf8427e&quot; /&gt;&amp;nbsp;&lt;span class=&quot;name&quot; style=&quot;box-sizing: border-box; display: inline-block; vertical-align: bottom; padding-bottom: 7px; font-size: 12px;&quot;&gt;K. HENRICKSON&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;page-content&quot; style=&quot;box-sizing: border-box; color: #333333; font-family: &apos;Gotham SSm A&apos;, &apos;Gotham SSm B&apos;; font-size: 14px; line-height: 20px;&quot;&gt;
+&lt;div class=&quot;row-fluid build-text&quot; style=&quot;box-sizing: border-box; padding-bottom: 20px;&quot;&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 0px 10px;&quot;&gt;The goal of this project is to build a two-player &apos;cocktail&apos; style game, with a 64x64 LED display, and arcade controls.&amp;nbsp;The game system has stereo sound, and sits on a tabletop&amp;nbsp;to save space and materials. The number of included sample games is small, but will hopefully grow over time.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px;&quot;&gt;This was not an easy project for me to make, and will require some design work on your part in order to successfully build it. Some of the parts can come in various flavors, and it can be hard to tell if you will be getting just the right thing. My advice is to go in this order:&lt;/p&gt;
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 10px; margin-bottom: 0px;&quot;&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Read all sections carefully. Do not simply order everything on the parts list without understanding why you will use it.&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Order all the parts you think you will need, from a given supplier. Let it come in, inventory what you have, test fit things together.&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;If the parts seem to fit, move on to the next supplier. If a part isn&apos;t what you expected or needed, maybe something similar can be added to your next order.&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;If a part needs a larger space, or a bigger hole, than is accounted for in the acrylic cutting, adjust the files as needed.&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Finally cut the acrylic and hold your breath that everything fits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;table class=&quot;build-table&quot; style=&quot;box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; margin: 0px -10px 20px; table-layout: fixed; max-width: none; background-color: transparent;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr class=&quot;build-row&quot; style=&quot;box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-top-color: #e7e7e7; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e7e7e7; width: 750px;&quot;&gt;
+&lt;td class=&quot;side-images&quot; style=&quot;box-sizing: border-box; padding: 10px 0px; width: 375px; max-width: 50%; vertical-align: top;&quot;&gt;&lt;span id=&quot;step-3&quot; class=&quot;anchor-link-target&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;/span&gt;
+&lt;ul style=&quot;box-sizing: border-box; margin: 0px; list-style-type: none; padding: 0px;&quot;&gt;
+&lt;li class=&quot;medium-side&quot; style=&quot;box-sizing: border-box; display: block; clear: both; margin: 0px;&quot;&gt;&lt;a class=&quot;large-side-image-link&quot; style=&quot;box-sizing: border-box; color: #00acec; text-decoration: none; background: transparent;&quot; href=&quot;https://learn.adafruit.com/assets/23816&quot;&gt;&lt;img class=&quot;23816-asset medium-side-image img-responsive&quot; style=&quot;box-sizing: border-box; border: 0px; vertical-align: middle; display: block; max-width: 100%; height: auto; width: 375px;&quot; src=&quot;https://learn.adafruit.com/system/assets/assets/000/023/816/medium640/gaming_IMG_0204.jpg?1426384163&quot; alt=&quot;gaming_IMG_0204.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td class=&quot;side-text&quot; style=&quot;box-sizing: border-box; padding: 10px 0px; width: 375px; vertical-align: top;&quot;&gt;
+&lt;div class=&quot;text&quot; style=&quot;box-sizing: border-box; padding: 0px 10px;&quot;&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding-bottom: 0px;&quot;&gt;This is the pile of leftover, unused, and unworkable parts that I created while designing this project. This suggests that this is not an easy build.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;row-fluid build-text&quot; style=&quot;box-sizing: border-box; padding-bottom: 20px;&quot;&gt;
+&lt;h2 style=&quot;box-sizing: border-box; font-weight: 400; line-height: 1; color: inherit; margin: 10px 0px 0px; font-size: 20px; padding-bottom: 5px;&quot;&gt;&lt;span id=&quot;what-is-it-good-for&quot; class=&quot;anchor-link-target&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;/span&gt;What is it good for?&lt;/h2&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px;&quot;&gt;I&apos;m glad you asked. With a 64x64 resolution, what sort of games can fit in such a limited space? A surprising amount, although the graphics will be very crude. This is something that you can turn into your advantage. Not an artist, but always wanted to create a game? With graphics this primitive, no one is a great artist.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px;&quot;&gt;Extremely low-resolution games have shown up in many places. If the game is fun, HD graphics aren&apos;t needed to express it. Think of your favorite game, reduce it to it&apos;s bare essentials, use colors instead of resolution, and see what you can make go.&lt;/p&gt;
+&lt;h2 style=&quot;box-sizing: border-box; font-weight: 400; line-height: 1; color: inherit; margin: 10px 0px 0px; font-size: 20px; padding-bottom: 5px;&quot;&gt;&lt;span id=&quot;how-does-it-work&quot; class=&quot;anchor-link-target&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;/span&gt;How does it work?&lt;/h2&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px;&quot;&gt;There is a set of software for the BeagleBone Black, called LEDscape, which uses one of the secondary CPU units (called a PRU), to drive attached LED matrix displays. By disabling the BeagleBone Black&apos;s HDMI port and a couple of other resources, enough pins can be freed up to drive 64 LED matrix displays.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px;&quot;&gt;I didn&apos;t want that many panels, 4 would do, so I spent some time finding a way to get it to do&amp;nbsp;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;LESS&lt;/strong&gt;than the maximum. I made a fork with the LEDscape software configured to support one chain of 4 displays, and included some sample games along with some software to read the control panels.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px; padding: 10px 0px 0px;&quot;&gt;A link to the&amp;nbsp;repo with the original code can be found in the downloads page, along with a link to my own fork, which is preconfigured for this project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+    <imagefile>4112.gif</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">12345.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>demo</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>https://learn.adafruit.com/ledgames-beaglebone-black-64x64-led-game/parts-list</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/ledgames/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>a BeagleBone Black 64x64 LED Game - 
+Retro gaming to the extreme, with 64x64 resolution!</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

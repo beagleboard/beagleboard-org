@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3777" name="nodered" prototype="Page" created="1410532869248" lastModified="1540812994723">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Node-RED</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>nodered</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36</http_browser>
+    <time type="date">12.09.2014 14:42:42 UTC</time>
+    <updatetime type="date">12.09.2014 14:41:09 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.x6exoezk90au</hopsession>
+    <body>&lt;p&gt;&lt;span style=&quot;font-family: Arial; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;Node-RED is a tool for wiring together hardware devices, APIs and online services in new and interesting ways.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: Arial; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;&lt;a href=&quot;http://nodered.org/docs/hardware/beagleboneblack.html&quot;&gt;Instructions for installing Node-RED on BeagleBone Black.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;col-1-2&quot; style=&quot;box-sizing: border-box; float: left; padding-left: 0px; padding-right: 17px; width: 502.5px; color: #555555; font-family: Arial; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;
+&lt;div class=&quot;content feature&quot; style=&quot;box-sizing: border-box; min-height: 250px; margin: 80px auto; max-width: 485px; text-align: center;&quot;&gt;&lt;img style=&quot;box-sizing: border-box; max-width: 445px; width: 445px;&quot; src=&quot;http://nodered.org/images/nr-image-1.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-1-2&quot; style=&quot;box-sizing: border-box; float: left; padding-left: 17px; padding-right: 0px; width: 502.5px; color: #555555; font-family: Arial; font-size: 16px; line-height: 25.6000003814697px;&quot;&gt;
+&lt;div class=&quot;content blurb&quot; style=&quot;box-sizing: border-box; min-height: 250px; margin: 80px 0px;&quot;&gt;
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &apos;Roboto Slab&apos;; font-weight: normal; font-size: 24px; margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;Browser-based flow editing&lt;/h3&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;JavaScript functions can be created within the editor using the rich capabilities of the embedded Eclipse Orion.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;A built-in library allows you to save useful functions, templates or flows for re-use.&lt;/p&gt;
+&lt;div class=&quot;grid&quot; style=&quot;box-sizing: border-box; width: 1155px; max-width: 1155px; min-width: 755px; margin: 0px auto; overflow: hidden; padding: 0px 75px; line-height: 25.6000003814697px;&quot;&gt;
+&lt;div class=&quot;col-1-2&quot; style=&quot;box-sizing: border-box; float: left; padding-left: 0px; padding-right: 17px; width: 502.5px;&quot;&gt;
+&lt;div class=&quot;content blurb&quot; style=&quot;box-sizing: border-box; min-height: 250px; margin: 80px 0px;&quot;&gt;
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &apos;Roboto Slab&apos;; font-weight: normal; font-size: 24px; margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;Built on Node.js&lt;/h3&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;The light-weight runtime is built on Node.js, taking full advantage of its event-driven, non-blocking model. This makes it ideal to run at the edge of the network on low-cost hardware such as the BeagleBone Black as well as in the cloud.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;With over 60 thousand modules in Node&apos;s package repository, it is easy to extend the range of palette nodes to add new capabilities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid&quot; style=&quot;box-sizing: border-box; width: 1155px; max-width: 1155px; min-width: 755px; margin: 0px auto; overflow: hidden; padding: 0px 75px; line-height: 25.6000003814697px;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;col-1-2&quot; style=&quot;box-sizing: border-box; float: left; padding-left: 17px; padding-right: 0px; width: 502.5px;&quot;&gt;
+&lt;div class=&quot;content blurb&quot; style=&quot;box-sizing: border-box; min-height: 250px; margin: 80px 0px;&quot;&gt;
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &apos;Roboto Slab&apos;; font-weight: normal; font-size: 24px; margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;Social Development&lt;/h3&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;The flows created in Node-RED are stored using JSON which can be easily imported and exported for sharing with others.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px;&quot;&gt;An online flow library allows you to share your best flows with the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3777.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">14806.0</pvcount>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;</category>
+    <homepage>http://nodered.org/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/nodered/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>A visual tool for wiring the Internet of Things</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

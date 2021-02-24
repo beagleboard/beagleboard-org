@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4152" name="cncplasma" prototype="Page" created="1448908643439" lastModified="1540702091826">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Upgrading a CNC plasma cutting machine</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>cncplasma</uri>
+    <time type="date">30.11.2015 18:37:23 UTC</time>
+    <updatetime type="date">30.11.2015 18:37:23 UTC</updatetime>
+    <projstatus>demo</projstatus>
+    <body>&lt;header style=&quot;min-height: 0px; box-sizing: border-box; padding: 0px 0px 0.25em; margin: 0px 0px 1em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #cccccc; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif; font-size: 16px; line-height: 24px;&quot;&gt;
+&lt;p class=&quot;meta&quot; style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 0.5em;&quot;&gt;From&amp;nbsp;&lt;a href=&quot;http://www.rs-online.com/designspark/electronics/eng/blog/upgrading-a-cnc-plasma-cutting-machine-part-1&quot;&gt;http://www.rs-online.com/designspark/electronics/eng/blog/upgrading-a-cnc-plasma-cutting-machine-part-1:&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;meta&quot; style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 0.5em;&quot;&gt;Posted by&amp;nbsp;&lt;a class=&quot;author&quot; style=&quot;color: #4d0a60; transition: color 0.25s ease 0s; font-weight: bold;&quot; href=&quot;http://www.rs-online.com/designspark/electronics/users/view/stuartChilds&quot;&gt;stuartChilds&lt;/a&gt;&amp;nbsp;on&amp;nbsp;&lt;time style=&quot;color: #003788; font-weight: bold;&quot; datetime=&quot;2015-11-23 14:52:00&quot;&gt;Mon, Nov 23 2015 14:52:00&lt;/time&gt;&lt;/p&gt;
+&lt;div style=&quot;min-height: 0px; box-sizing: border-box; float: right;&quot;&gt;&lt;a class=&quot;button small&quot; style=&quot;text-decoration: none; color: #ffffff; transition: color 0.25s ease 0s; display: inline-block; font-weight: bold; font-stretch: normal; font-size: 12px; line-height: 1.4286; border: 0px; padding: 0.5em 1em; text-transform: uppercase; margin: 5px 0px 5px 10px; background: #004bbb;&quot; href=&quot;http://www.rs-online.com/designspark/electronics/users/add_follow/14411?url=%2Fdesignspark%2Felectronics%2Feng%2Fblog%2Fupgrading-a-cnc-plasma-cutting-machine-part-1&quot;&gt;FOLLOW&lt;/a&gt;&lt;/div&gt;
+&lt;p class=&quot;comment-count&quot; style=&quot;font-size: 0.875rem; line-height: 1; margin: 0px 1em 0px 0px; display: inline-block; font-stretch: normal; font-family: Lato, Arial, sans-serif; color: #313131; padding: 0.6em 0px 0em 24px; background: url(&apos;http://www.rs-online.com/designspark/assets/dsv13/ds_icons/comment-icon.png&apos;) 0px 8px no-repeat scroll;&quot;&gt;377 views&lt;/p&gt;
+&lt;/header&gt;
+&lt;p style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 1em; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif;&quot;&gt;&lt;img style=&quot;border: 1px solid #d2d2d2; vertical-align: middle; max-width: 100%; padding: 2px; box-sizing: border-box;&quot; src=&quot;http://www.rs-online.com/designspark/assets/ds-assets/uploads/images/565322750a104462a89036f20ab5637101-machinePhoto.jpg&quot; alt=&quot;title&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 1em; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif;&quot;&gt;&lt;strong&gt;Improving safety and implementing basic motion control with a BeagleBone Black&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 1em; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif;&quot;&gt;Upgrading CNC machines can be a cost effective way of equipping your workshop with serviceable and easily maintained tools, with a reduced initial financial outlay. Understanding how your machine works and perhaps more importantly, being able to repair and improve it&apos;s capabilities, is also highly rewarding.&lt;/p&gt;
+&lt;p style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 1em; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif;&quot;&gt;In a previous series of posts, we covered the upgrade of a desktop CNC milling machine...&lt;/p&gt;
+&lt;p style=&quot;font-size: 0.875rem; line-height: 1.375; margin: 0px 0px 1em; color: #101010; font-family: &apos;Open Sans&apos;, Arial, sans-serif;&quot;&gt;Continue on&amp;nbsp;&lt;a href=&quot;http://www.rs-online.com/designspark/electronics/eng/blog/upgrading-a-cnc-plasma-cutting-machine-part-1&quot;&gt;http://www.rs-online.com/designspark/electronics/eng/blog/upgrading-a-cnc-plasma-cutting-machine-part-1&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>4152.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10284.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;robotics;</category>
+    <homepage>http://ow.ly/UYLWY</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Improving safety and implementing basic motion control with a BeagleBone Black</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4088" name="jilia" prototype="Page" created="1437602563975" lastModified="1540657172510">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Jilia IoT Development Kit</pname>
+    <registrant>centralitesystems.wordpress.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>jilia</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.7 Safari/537.36</http_browser>
+    <time type="date">23.07.2015 02:16:45 UTC</time>
+    <updatetime type="date">22.07.2015 22:02:43 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.1h6tnmky5tcfz</hopsession>
+    <body>&lt;h2&gt;Our Kickstarter for the Jilia Dev Kit is now live!&lt;br /&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/centralite/jilia-iot-development-kit&quot; target=&quot;_blank&quot;&gt;Click here to check it out.&lt;/a&gt;&amp;nbsp;&lt;/h2&gt;
+&lt;h2&gt;What is Jilia?&lt;/h2&gt;
+&lt;p&gt;Jilia is a cloud-based platform and API framework that empowers developers to imagine, build, and expand the Internet of Things with a single, simple API framework. It&apos;s the easiest way to get started exploring and developing the Internet of Things. It&apos;s also the perfect platform to build new IoT products and Jilia has the scalability to support millions of users and devices.&lt;/p&gt;
+&lt;h2&gt;What is the Jilia IoT Dev Kit?&lt;/h2&gt;
+&lt;p&gt;The Jilia IoT Development Kit includes an add-on board that adds comprehensive IoT capabilities to your Raspberry Pi or BeagleBone Black. The Jilia IoT Development Kit includes on-board ZigBee, Z-Wave, Bluetooth, and Wi-Fi* (BeagleBone only) so you can connect to hundreds of existing devices.&lt;/p&gt;
+&lt;p&gt;The add-on boards allow developers to build new IoT systems utilizing the new Jilia API. Jilia is a feature-rich, easy-to-use, and scalable dream-come-true for developers who create products and services for the Internet of Things.&lt;/p&gt;
+&lt;h1&gt;What&apos;s on it?&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://ksr-ugc.imgix.net/assets/004/141/844/e4d6ba4fdb1755a14a84fd0c0cfcc0ed_original.jpg?v=1436813993&amp;amp;w=680&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=92&amp;amp;s=52be3fac9a6215e2a72a86714be4fe29&quot; alt=&quot;&quot; width=&quot;680&quot; height=&quot;563&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;What else can it do?&lt;/h2&gt;
+&lt;p&gt;Philips Hue, August Lock, and IFTTTJilia makes other products easier to develop for! By integrating APIs like Philips Hue, August Lock, and IFTTT into Jilia, you can use the simplified approach that Jilia offers.&lt;/p&gt;
+&lt;h3&gt;Two-way Communications&lt;/h3&gt;
+&lt;p&gt;The Jilia Dev Kit doesn&apos;t just poll devices. Jilia can &quot;subscribe&quot; to a device, receiving a constant stream as they report changes, triggers, actions, and statuses.&lt;/p&gt;
+&lt;h2&gt;How can it help me?&lt;/h2&gt;
+&lt;p&gt;Jilia makes developers&amp;rsquo; jobs easier and speeds up product development. With the Jilia IoT Dev Kit, projects require fewer developers, less experience, and less overhead. Jilia can shorten your project time by as much as 80%! &amp;nbsp;Projects that normally take 18 months to develop can utilize Jilia to finish the project in as little as 3 months. Jilia&apos;s flexibility also makes it easy to integrate into existing products and services.&lt;/p&gt;
+&lt;h2&gt;What&apos;s so &quot;easy&quot; about Jilia?&lt;/h2&gt;
+&lt;p&gt;Jilia allows developers to focus on a single development approach, regardless of the protocol used (e.g., Z-Wave, ZigBee, and Bluetooth). To the developer, Jilia treats all of these protocols the same. You don&apos;t have to know these standards to use them! &amp;nbsp;Jilia&apos;s cloud eliminates the need for custom server software, infrastructure, or dedicated IT teams.&lt;/p&gt;
+&lt;p&gt;App, hardware, and software teams will all use the same APi to interact with Jilia. This can eliminate rework and provides a shorter learning curve .&lt;/p&gt;
+&lt;p&gt;Jilia doesn&apos;t require any experience with IoT protocols or RF!&lt;/p&gt;
+&lt;p&gt;In the example below, you&apos;ll see an example of using Jilia along with JavaScript. The API can be used locally, through a mobile app, or a web app like this example of flashing a light:&lt;/p&gt;
+&lt;h2&gt;&lt;img src=&quot;https://ksr-ugc.imgix.net/assets/004/167/680/de13a0456aca97ddb2a1a56ea61252a3_original.png?v=1437164003&amp;amp;w=680&amp;amp;fit=max&amp;amp;auto=format&amp;amp;lossless=true&amp;amp;s=4880394cf027d5a682b5115131644782&quot; alt=&quot;&quot; width=&quot;680&quot; height=&quot;616&quot; /&gt;Who can use it?&lt;/h2&gt;
+&lt;p&gt;Jilia can be used by beginners and experts! There are only a few hundred software developers worldwide that have enough real-world experience in ZigBee, Z-Wave, or Bluetooth to get a comprehensive IoT project launched from the ground up. For most companies (especially startups), finding and hiring these developers is not an option. Jilia will make your project so easy that nearly any developer can pull off complex projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jilia doesn&apos;t require developers to learn a new language!&lt;br /&gt;&lt;/strong&gt;Teams can develop complex solutions with the Jilia API with nearly any programming language available.&lt;/p&gt;
+&lt;p&gt;With an estimated 20 million software, web, and app developers worldwide, Jilia expands the pool of talent from a few hundred experts to 20 million developers from a wide range of backgrounds.&lt;/p&gt;
+&lt;h2&gt;The Jilia IoT Dev Kit is perfect for:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developers without low-level code or hardware experience.&lt;/li&gt;
+&lt;li&gt;Seasoned experts who just want a faster and cheaper way to develop IoT products and services.&lt;/li&gt;
+&lt;li&gt;App developers wanting to control an ecosystem of devices.&lt;/li&gt;
+&lt;li&gt;Web developers without hardware or embedded experience.&lt;/li&gt;
+&lt;li&gt;Supported Programming Languages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If we want Jilia to be the &quot;language of things&quot; then it only makes sense that we make it compatible with nearly every common programming language out there. Since Jilia uses an API, there are few limitations to how you include it in your code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ksr-ugc.imgix.net/assets/004/141/372/79a320cc52014da8d5e5a62412ce6f6f_original.jpg?v=1436809950&amp;amp;w=680&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=92&amp;amp;s=fe13b414d607e81ff29328132cc720b4&quot; alt=&quot;&quot; width=&quot;680&quot; height=&quot;850&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Developer Portal&lt;/h2&gt;
+&lt;p&gt;Your Jilia IoT Developer Kit will come with lifetime service to the Jilia cloud. The developer portal will be your guide and resource for getting started, testing, and mastering &quot;things&quot;. Here&apos;s a few features the dev portal will offer:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code generators for the most common languages&lt;/li&gt;
+&lt;li&gt;Real-time Testing Console&lt;/li&gt;
+&lt;li&gt;Code libraries for the common programming languages (making Jilia even easier).&lt;/li&gt;
+&lt;li&gt;Getting Started Guides &amp;amp; Tutorials&lt;/li&gt;
+&lt;li&gt;Extensive API Documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Is it &quot;too simple&quot;?&lt;/h2&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While the dev kit is simple, it&apos;s certainly not &quot;too simple!&quot; The Jilia Dev Kit is perfect for experts and developers who want to work at a lower level using the extensive API developer&apos;s documentation.&lt;/p&gt;</body>
+    <imagefile>4088.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">16410.0</pvcount>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;cape;</category>
+    <homepage>https://www.kickstarter.com/projects/centralite/jilia-iot-development-kit</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/jilia/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Jilia is a cloud-based platform and API framework that empowers developers to imagine, build, and expand the Internet of Things with a single, simple API framework. It&apos;s the easiest way to get started exploring and developing the Internet of Things. It&apos;s also the perfect platform to build new IoT products and Jilia has the scalability to support millions of users and devices.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

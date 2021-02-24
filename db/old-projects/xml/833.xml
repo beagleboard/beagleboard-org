@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="833" name="rowboat" prototype="Page" created="1256219680070" lastModified="1540610365192">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Android on TI Sitara processors</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>rowboat</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 15:27:06 UTC</time>
+    <updatetime type="date">22.10.2009 13:54:40 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;h3&gt;Goals of the project:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a stable Google Android base port for TI Sitara ARM platforms&lt;/li&gt;
+&lt;li&gt;Enable key hardware features (ARM plus NEON, DSP, 2D/3D Accelerated Graphics and others)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Key differentiators among many others:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Active and open development of a quality Android port&lt;/li&gt;
+&lt;li&gt;Focused on a stable, well tested and benchmarked Android port for OMAP35xx&lt;/li&gt;
+&lt;li&gt;Graphics and Multimedia performance optimizations&lt;/li&gt;
+&lt;li&gt;Complete support of BeagleBoard and OMAP3EVM (and a few more to soon follow)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Who might be interested in this project:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Groups planning to use Android with OMAP35xx&lt;/li&gt;
+&lt;li&gt;BeagleBoard users with an interest in Android&lt;/li&gt;
+&lt;li&gt;Android OS and Android application developers&lt;/li&gt;
+&lt;li&gt;Everyone considering Android beyond handsets&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>833.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://arowboat.wordpress.com/feed/</rssfeed>
+    <pvcount type="float">97730.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <cat_distro>distro</cat_distro>
+    <category>distro;documentation;</category>
+    <homepage>http://arowboat.org</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/rowboat/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Rowboat project enables Android on TI Sitara ARM Cortex-A processors.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

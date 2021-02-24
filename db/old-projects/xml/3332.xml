@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3332" name="Streaming video BBB" prototype="Page" created="1387802518522" lastModified="1540807695678">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>64.134.16.2</http_remotehost>
+    <pname>Streaming video beaglebone black</pname>
+    <registrant>quentin.therond</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>Streaming video BBB</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">03.04.2014 14:38:40 UTC</time>
+    <updatetime type="date">28.01.2014 13:32:46 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>64.134.16.1pbt5fyootc60</hopsession>
+    <body>&lt;p&gt;In this video, you look at video streaming (320x240, 640x480) using the Beaglebone black.&lt;br /&gt;To realise this c language project i used: v4l driver, compression and decompression JPEG, UDP protocol transfer, openCV image show.&lt;/p&gt;
+&lt;pre&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/eAylw-LBKrA&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/pre&gt;
+&lt;p&gt;git link:&lt;/p&gt;
+&lt;p&gt;https://github.com/Mras2an/Webcam-IP-BeagleBone&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Website:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mras2an.webnode.fr/&quot;&gt;http://mras2an.webnode.fr/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3332.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <pvcount type="float">38869.0</pvcount>
+    <categories></categories>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>demo</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>https://github.com/Mras2an/Webcam-IP-BeagleBone</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/Streaming+video+BBB/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Streaming video BBB</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

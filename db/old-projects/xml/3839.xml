@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3839" name="prucape" prototype="Page" created="1415285054641" lastModified="1540610737387">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36</http_browser>
+    <homepage>http://www.ti.com/tool/prucape</homepage>
+    <registrant>jkridner.wordpress.com</registrant>
+    <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
+    <updatetime type="date">06.11.2014 14:44:14 UTC</updatetime>
+    <uri>prucape</uri>
+    <boardtype>bbblack;bbone;</boardtype>
+    <http_language>en-US,en;q=0.8</http_language>
+    <category>library;cape;robotics;</category>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.1otngbzkpu1wt</hopsession>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415285368:X=1415288968</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <shortdesc>TI PRU Cape and associated SDK can help you get started with real-time programming using the 2 32-bit 200MHz PRUs quickly and for only about $39</shortdesc>
+    <rssfeed></rssfeed>
+    <projstatus>submitted</projstatus>
+    <edit_skin>edit_project</edit_skin>
+    <imagefile>3839.jpeg</imagefile>
+    <body>&lt;div style=&quot;width: 500px;&quot;&gt;
+&lt;div id=&quot;description&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;
+&lt;h5 id=&quot;description&quot; class=&quot;larger&quot; style=&quot;box-sizing: border-box; margin: 1em 0px 0.5em; color: #333333; font-size: 1.6em;&quot;&gt;Description&lt;/h5&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 500px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 500px;&quot;&gt;The TI PRU Cape is a BeagleBone Black add-on board that allows users get to know TI&amp;rsquo;s powerful Programmable Real-Time Unit (PRU) core and basic functionality.&amp;nbsp; The PRU is a low-latency microcontroller subsystem integrated in the Sitara AM335x and AM437x family of devices.&amp;nbsp; The PRU core is optimized for deterministic, real-time processing, direct access to I/Os and ultra-low-latency requirements.&amp;nbsp; It includes LEDs and push buttons for GPIO, audio, and a temp sensor.&amp;nbsp; Together the BeagleBone Black and PRUCAPE are an ideal EVM solution to begin PRU development on the Sitara platform.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1em; max-width: 300px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;additionalInfo&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div id=&quot;features&quot; style=&quot;box-sizing: border-box; color: #555555; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 14px;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: #118899; outline: 0px;&quot; name=&quot;Features&quot;&gt;&lt;/a&gt;
+&lt;h5 id=&quot;Features&quot; class=&quot;larger&quot; style=&quot;box-sizing: border-box; margin: 1em 0px 0.5em; color: #333333; font-size: 1.6em;&quot;&gt;Features&lt;/h5&gt;
+&lt;ul style=&quot;box-sizing: border-box; list-style-type: none; padding: 0px; margin: 0px 0px 1em 1em;&quot;&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;BeagleBone and BeagleBone Black compatible plug-in board (&amp;ldquo;cape&amp;rdquo;)&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Quick development and evaluation of the PRU integrated in Sitara processors&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;Leverages sample code included in the TI Linux Software Development Kit&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; list-style-type: none; padding-left: 0.6em; margin: 0px 0px 0.5em; background: url(&apos;http://www.ti.com/assets/images/ulCircle.png&apos;) 0px 0.5em no-repeat;&quot;&gt;The PRU core is optimized for deterministic, real-time processing, direct access to I/Os and ultra-low-latency requirements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class=&quot;tblstandard&quot; style=&quot;box-sizing: border-box; font-size: 1em; border-collapse: collapse; border: 1px solid #e0e0e0; position: relative; z-index: 2; margin: 0px 0px 1em; width: 500px;&quot; border=&quot;0&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr class=&quot;tb11&quot; style=&quot;box-sizing: border-box; width: 500px;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot; colspan=&quot;2&quot;&gt;PRUCAPE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;tb15&quot; style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Expansion Connector&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Connection to BeagleBone / BeagleBone Black&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;tb16&quot; style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;UART&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Hardware UART to PRU Subsystem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Sensors&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Temperature sensor monitoring using 1-wire interface&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;LCD&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;LCD Connector for optional character display (not included). Compatible with Newhaven NHD-0208AZ-RN-YBW-33V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Audio&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Audio jack connection output&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;GPIO&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Dual GPIO push button switch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;LEDs&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Bank of PRU0 &amp;amp; PRU1 LEDs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Price (USD) Per Unit&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;$39.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Version Date&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; border-right-width: 1px; border-right-style: solid; border-right-color: #e0e0e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; vertical-align: top; padding: 0.5em; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;&quot;&gt;Oct 2014&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+    <errmsg></errmsg>
+    <http_referer>http://beagleboard.org/project/prucape/edit</http_referer>
+    <user>jkridner.wordpress.com</user>
+    <http_host>127.0.0.1:8080</http_host>
+    <pname>PRU Cape</pname>
+    <cat_robot>robotics</cat_robot>
+    <cat_cape>cape</cat_cape>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <brd_black>bbblack</brd_black>
+    <time type="date">06.11.2014 14:50:53 UTC</time>
+    <prj_statusval>submitted</prj_statusval>
+    <g_authuser_h2>0</g_authuser_h2>
+    <render_skin>project</render_skin>
+    <prj_status>submitted</prj_status>
+    <pvcount type="float">91290.0</pvcount>
+    <brd_bone>bbone</brd_bone>
+  </hopobject>
+</xmlroot>

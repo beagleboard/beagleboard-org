@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3741" name="restservice" prototype="Page" created="1409005918869" lastModified="1540515868984">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>REST Web Services with Javascript on the BeagleBone Black</pname>
+    <registrant>hoffmanjon.wordpress.com</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-us</http_language>
+    <uri>restservice</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4</http_browser>
+    <time type="date">25.08.2014 22:32:17 UTC</time>
+    <updatetime type="date">25.08.2014 22:31:58 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.18rc821zac7fv</hopsession>
+    <body>&lt;p&gt;This blog post shows how I created a simple REST based Web Service using Javascript/Bonescrip and Restify. &amp;nbsp;This service read a TMP36GZ Temperature sensor and returned the current temperature to the client. &amp;nbsp;Here is a link to the post: &amp;nbsp;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/08/creating-rest-based-web-service-using.html&quot;&gt;http://myroboticadventure.blogspot.com/2014/08/creating-rest-based-web-service-using.html&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3741.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">13763.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://myroboticadventure.blogspot.com</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/restservice/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>This blog post shows how I created a simple REST based Web Service using Javascript/Bonescrip and Restify.  </shortdesc>
+    <user>hoffmanjon.wordpress.com</user>
+  </hopobject>
+</xmlroot>

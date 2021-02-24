@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3582" name="FlyingBone" prototype="Page" created="1397516857979" lastModified="1540607290556">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>129.174.89.217</http_remotehost>
+    <pname>Flying Bone</pname>
+    <registrant>jacek.radzikowski</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>FlyingBone</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0</http_browser>
+    <time type="date">14.04.2014 23:11:21 UTC</time>
+    <updatetime type="date">14.04.2014 23:07:37 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>complete</projstatus>
+    <hopsession>129.174.89.1oc66481swqcs</hopsession>
+    <body>&lt;p&gt;Loks like a proto board, but FlyingBone is a full-fledged cape develpment platform. Thanks to inclusion of configuraiton EEPROM it is possible to fully test a concept for a cape and develp supporting software even before the first prototype of the production PCB has been designed.&lt;/p&gt;
+&lt;p&gt;It also works very well as a protyping platform. The side &quot;wings&quot; contain descriptions of all signals available on nthe expansion connectors. This reduces the need to search through documentaion and counting pins on expansion connectors, only to find where to connect the prototyping wire. After cutting off the &quot;wings&quot; the shape of the board matches perfectly the shape of your Beagle Boone.&lt;/p&gt;</body>
+    <imagefile>3582.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9345.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>https://github.com/piranha32/FlyingBone</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/FlyingBone/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Development platform for capes</shortdesc>
+    <user>jacek.radzikowski@gmail.com</user>
+  </hopobject>
+</xmlroot>

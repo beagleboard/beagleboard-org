@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="1096" name="opencv acceleration" prototype="Page" created="1274044885456" lastModified="1540804066224">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>OpenCV DSP Acceleration</pname>
+    <registrant>ppoudel.myopenid.com</registrant>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>opencv acceleration</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36</http_browser>
+    <time type="date">12.11.2015 16:07:39 UTC</time>
+    <updatetime type="date">16.05.2010 21:21:25 UTC</updatetime>
+    <hopsession>127.0.0.jmhh70x0686t</hopsession>
+    <body>&lt;p&gt;Use of optimized computer vision algorithms are vital to meet real-time requirements of popular mobile platform like Beagleboard which use OMAP3530 .OpenCV is one of the extensively used computer vision library today. This library is optimized to take advantage of Intel architecture. However, when working on mobile platform like OMAP35x which also house heterogeneous DSP core C64x+, it is desired that this library give better performance using the on-chip DSP core. This project aims no narrow down this gap by porting low-level OpenCV API over DSP core. The execution of this project will be carried out in two phase. In phase one, some of the low-level OpenCV API like cvDFT(), cvSobel(), cvAvgSdv()and cvIntegral will be ported to DSP. In phase two, an application that make use of these accelerated libraries will be built to demonstrate the success of the project.&lt;/p&gt;</body>
+    <imagefile>1096.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://pramodpoudel.blogspot.com/</rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">22442.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>library;gsoc;</category>
+    <homepage>https://github.com/jadonk/opencv-dsp-acceleration</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/opencv+acceleration/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>This project aims to accelerate some of the low-level OpenCV libraries using the on-chip DSP C64x+ found on popular mobile processors like OMAP35x. Beagleboard, which house OMAP3530, will be used to demonstrate the functionality of accelerated libraries.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

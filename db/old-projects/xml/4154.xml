@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4154" name="apstability" prototype="Page" created="1448913019324" lastModified="1540718390687">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Gauging Wireless AP Stability with a BeagleBone Black</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>apstability</uri>
+    <time type="date">30.11.2015 19:50:19 UTC</time>
+    <updatetime type="date">30.11.2015 19:50:19 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;From&amp;nbsp;&lt;a href=&quot;http://dev.iachieved.it/iachievedit/gauging-wireless-ap-stability-with-a-beaglebone-black/&quot;&gt;http://dev.iachieved.it/iachievedit/gauging-wireless-ap-stability-with-a-beaglebone-black/&lt;/a&gt;:&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;It&amp;rsquo;s easy to roll your own wireless router with&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #428bca; text-decoration: none; transition: color 0.3s ease; outline: none; background: 0px 0px;&quot; href=&quot;https://w1.fi/hostapd/&quot;&gt;hostapd&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #428bca; text-decoration: none; transition: color 0.3s ease; outline: none; background: 0px 0px;&quot; href=&quot;https://openwrt.org/&quot;&gt;OpenWRT&lt;/a&gt;&amp;nbsp;and a BeagleBone Black and&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #428bca; text-decoration: none; transition: color 0.3s ease; outline: none; background: 0px 0px;&quot; href=&quot;http://www.diygadget.com/802-11b-g-n-nano-usb-wifi-adapter-dongle-with-external-antenna-for-raspberry-pi-ralink-rt5370.html&quot;&gt;USB Wifi Adapter Dongle&lt;/a&gt;. In this post we&amp;rsquo;re going to roll our own Wifi AP stability tester. To follow along at home you&amp;rsquo;ll need a:&lt;/p&gt;
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; padding-left: 35px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;
+&lt;li style=&quot;box-sizing: border-box; margin-bottom: 10px;&quot;&gt;BeagleBone Black&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; margin-bottom: 10px;&quot;&gt;Wifi USB Adapter&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box; margin-bottom: 10px;&quot;&gt;a tri-color LED&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;You will also need a microSD card and adapter so you can flash the final image on your BeagleBone.&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot;&gt;Note:&lt;/span&gt;&amp;nbsp;We&amp;rsquo;ll use the term BeagleBone with a cavalier attitude, but we&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;mean&lt;/em&gt;&amp;nbsp;BeagleBone Black.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;To build our Wifi AP tester, We went with a TP-LINK Nano adapter:&lt;/p&gt;
+&lt;div id=&quot;attachment_1769&quot; class=&quot;wp-caption aligncenter&quot; style=&quot;box-sizing: border-box; border: none; max-width: 100%; padding: 0px; text-align: center; margin: 0px auto 20px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px; width: 183px;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: #428bca; text-decoration: none; transition: color 0.3s ease; outline: none; background: 0px 0px;&quot; href=&quot;http://dev.iachieved.it/iachievedit/wp-content/uploads/2015/10/tplink.jpg&quot;&gt;&lt;img class=&quot;wp-image-1769&quot; style=&quot;box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; width: 183px;&quot; src=&quot;http://dev.iachieved.it/iachievedit/wp-content/uploads/2015/10/tplink.jpg&quot; alt=&quot;tplink&quot; width=&quot;173&quot; height=&quot;239&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;wp-caption-text&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 15px; padding: 10px; font-style: italic; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #d9534f; background-color: #ededed;&quot;&gt;TP-LINK Wireless N Nano USB Adapter&lt;/p&gt;
+&lt;/div&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;And for the tri-color LED we picked up a&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;Linrose Super Brite LED&lt;/em&gt;, Linrose part number B4361H1/5.&lt;/p&gt;
+&lt;div id=&quot;attachment_1767&quot; class=&quot;wp-caption aligncenter&quot; style=&quot;box-sizing: border-box; border: none; max-width: 100%; padding: 0px; text-align: center; margin: 0px auto 20px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px; width: 191px;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: #428bca; text-decoration: none; transition: color 0.3s ease; outline: none; background: 0px 0px;&quot; href=&quot;http://dev.iachieved.it/iachievedit/wp-content/uploads/2015/10/superbrite_led.jpg&quot;&gt;&lt;img class=&quot;wp-image-1767&quot; style=&quot;box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; height: auto; width: 191px;&quot; src=&quot;http://dev.iachieved.it/iachievedit/wp-content/uploads/2015/10/superbrite_led.jpg&quot; alt=&quot;superbrite_led&quot; width=&quot;181&quot; height=&quot;480&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;wp-caption-text&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 15px; padding: 10px; font-style: italic; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #d9534f; background-color: #ededed;&quot;&gt;Three Colors in One L.E.D.!&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 style=&quot;box-sizing: border-box; font-family: Neuton, serif; font-weight: 500; line-height: 1.1; margin-top: 20px; margin-bottom: 10px; font-size: 30px;&quot;&gt;Preparing Your BeagleBone Black&lt;/h2&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;We&amp;rsquo;re going to keep the OS simple and go with the latest&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;console&lt;/em&gt;&amp;nbsp;release of Debian 8.2 for the BeagleBone Black. The full release contains a desktop environment and we just don&amp;rsquo;t need that for something this simple.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 15px; font-family: &apos;Open Sans&apos;, sans-serif; font-size: 15px; line-height: 28px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For more, see &lt;a href=&quot;http://dev.iachieved.it/iachievedit/gauging-wireless-ap-stability-with-a-beaglebone-black/&quot;&gt;http://dev.iachieved.it/iachievedit/gauging-wireless-ap-stability-with-a-beaglebone-black/&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>4154.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">13026.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://dev.iachieved.it/iachievedit/gauging-wireless-ap-stability-with-a-beaglebone-black/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Build a WiFi Access Point tester with an LED status indicator</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

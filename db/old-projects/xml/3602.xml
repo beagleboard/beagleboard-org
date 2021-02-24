@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3602" name="blacklib" prototype="Page" created="1398788131056" lastModified="1540469766318">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>85.108.254.171</http_remotehost>
+    <pname>BlackLib C++ Library</pname>
+    <registrant>ygtyce</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8,tr;q=0.6</http_language>
+    <uri>blacklib</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36</http_browser>
+    <time type="date">29.04.2014 21:06:15 UTC</time>
+    <updatetime type="date">29.04.2014 16:15:31 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>85.108.254.11u3ny7wff8qx</hopsession>
+    <body>&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;BlackLib library is wrote for controlling Beaglebone Black&apos;s feature. It takes power from C++ language. It is created for reading analog input, generating pwm signal and using gpio pins. In addition to them, it includes debugging feature. So you can check errors after call any function in the library.&lt;/p&gt;
+&lt;hr style=&quot;height: 0px; border-style: solid none none; border-top-color: #4a6aaa; font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot; /&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 style=&quot;-webkit-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear; margin-right: 15px; font-family: Roboto, sans-serif; text-align: justify;&quot;&gt;Debugging&lt;/h2&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;It always tracks member functions errors and records these errors to data structures. All end nodes which interact with end users, have overloaded fail() functions. So you can check all errors or specific error whichever you want.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr style=&quot;height: 0px; border-style: solid none none; border-top-color: #4a6aaa; font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot; /&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 style=&quot;-webkit-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear; margin-right: 15px; font-family: Roboto, sans-serif; text-align: justify;&quot;&gt;Class Hierarchy&lt;/h2&gt;
+&lt;ul style=&quot;font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot;&gt;
+&lt;li&gt;
+&lt;h3 style=&quot;transition: text-shadow 0.5s linear; -webkit-transition: text-shadow 0.5s linear; margin-right: 15px;&quot;&gt;Library Core&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;BlackLib includes&amp;nbsp;&lt;a class=&quot;el&quot; style=&quot;color: #44aadd; font-weight: bold; text-decoration: none;&quot; title=&quot;Base class of the other classes. &quot; href=&quot;http://blacklib.yigityuce.com/classBlackCore.html&quot;&gt;BlackCore&lt;/a&gt;&amp;nbsp;class for doing core process. End users can&apos;t access to it. Because it is abstract class and all member functions, except constructor and destructor, are private or protected.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot;&gt;
+&lt;li&gt;
+&lt;h3 style=&quot;transition: text-shadow 0.5s linear; -webkit-transition: text-shadow 0.5s linear; margin-right: 15px;&quot;&gt;Sub Level Cores&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;BlackLib includes sub level cores for GPIO, ADC and PWM features. Preparing, device tree loading or initialization stages are realized in here, at sub level cores. Therefore, if you don&apos;t like end nodes or you don&apos;t want to use these, you can derive your own class(es), from these sub level cores. But end nodes designed for taking care of your all need.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style=&quot;font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot;&gt;
+&lt;li&gt;
+&lt;h3 style=&quot;transition: text-shadow 0.5s linear; -webkit-transition: text-shadow 0.5s linear; margin-right: 15px;&quot;&gt;End Node Classes&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;End node classes are designed for interacting with end user. You can read, set or control Beaglebone Black&apos;s ADC, GPIO or PWM features from these classes. These classes include primary functions like read or set properties of Beaglebone Black&apos;s features and include additional functions like ADC parser, gpio pin toggle etc. to make easier your life.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr style=&quot;height: 0px; border-style: solid none none; border-top-color: #4a6aaa; font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot; /&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 style=&quot;-webkit-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear; margin-right: 15px; font-family: Roboto, sans-serif; text-align: justify;&quot;&gt;Definitions&lt;/h2&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;BlackLib includes enum type definitions for your and Beaglebone Black&apos;s safety. GPIO, ADC, PWM names; PWM, GPIO values; GPIO directions and a lot more features defined with enums. It means you can&apos;t call some member functions without use this enums. These enums avoid user errors like write 345 to gpio export file instead of 34.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr style=&quot;height: 0px; border-style: solid none none; border-top-color: #4a6aaa; font-family: Roboto, sans-serif; font-size: 14px; text-align: justify;&quot; /&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 style=&quot;-webkit-transition: text-shadow 0.5s linear; transition: text-shadow 0.5s linear; margin-right: 15px; font-family: Roboto, sans-serif; text-align: justify;&quot;&gt;Contact&lt;/h2&gt;
+&lt;p style=&quot;font-family: Roboto, sans-serif; font-size: 16px; text-align: justify;&quot;&gt;For any comment or suggestion please contact the creator of BlackLib Library at&amp;nbsp;&lt;a style=&quot;color: #44aadd; text-decoration: none;&quot; href=&quot;http://blacklib.yigityuce.com/&quot;&gt;contact@blacklib.yigityuce.com&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3602.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">77195.0</pvcount>
+    <prj_status></prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;</category>
+    <homepage>http://blacklib.yigityuce.com</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/blacklib/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Beaglebone Black C++ Library for GPIO, ADC and PWM</shortdesc>
+    <user>ygtyce@gmail.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4006" name="PADS" prototype="Page" created="1426705682190" lastModified="1540644561723">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>BeagleBone Black - Reference Design source data for PADS</pname>
+    <registrant>mentorgraphicspads</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>PADS</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.7 Safari/537.36</http_browser>
+    <time type="date">24.07.2015 15:54:59 UTC</time>
+    <updatetime type="date">18.03.2015 19:08:02 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>127.0.0.1h6tnmky5tcfz</hopsession>
+    <body>&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11.0pt; font-family: &apos;Calibri&apos;,sans-serif; color: #1f497d;&quot;&gt;(Sorry for sending out the wrong link in the newsletter, PocketNC is at &lt;a href=&quot;../pocketnc&quot;&gt;/project/pocketnc&lt;/a&gt;.)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11.0pt; font-family: &apos;Calibri&apos;,sans-serif; color: #1f497d;&quot;&gt;This BeagleBone Black&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;data provides the hobbyist/maker community and beyond with reference designs to work with, take from&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;and build up to make your own designs!&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;The reference design includes 19 files including:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;text-indent: -0.25in;&quot;&gt;Schematic design in xDX Designer format (&lt;/span&gt;.prj)&lt;/li&gt;
+&lt;li&gt;Layout design in PADS 9.5 format (.pcb)&lt;/li&gt;
+&lt;li&gt;Bill of Materials for the design ( Bill of Materials.html)&lt;/li&gt;
+&lt;li&gt;PDF of the schematic design ( (Schematic).pdf)&lt;/li&gt;
+&lt;li&gt;PDF of the layout design ( (Layout).pdf)&lt;/li&gt;
+&lt;li&gt;Property definitions file (netlist.prp)&lt;/li&gt;
+&lt;li&gt;PCB Configuration file (pads95.cfg)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The schematic symbols will be located in one of two locations, depending on the design:&lt;/p&gt;
+&lt;ol start=&quot;1&quot; type=&quot;1&quot;&gt;
+&lt;li&gt;/Libs folder&lt;/li&gt;
+&lt;li&gt;/SYM folder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The layout decals will be located in the /LP Wizard folder.&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11.0pt; font-family: &apos;Calibri&apos;,sans-serif; color: #1f497d;&quot;&gt;All Reference Desgins found here:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#1f497d&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6666669845581px;&quot;&gt;&lt;a href=&quot;http://www.pads.com/reference-designs/&quot;&gt;http://www.pads.com/reference-designs/&lt;/a&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;can be used with our new inexpensive (PADS based) Designer Schematic and Designer Layout&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;tools now available for the hobbyist/maker community from Digikey !&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: #1f497d;&quot;&gt;&lt;a href=&quot;http://www.digikey.com/product-highlights/us/en/mentor-graphics-designer-software/4171&quot;&gt;http://www.digikey.com/product-highlights/us/en/mentor-graphics-designer-software/4171&lt;/a&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #1f497d; font-family: Calibri, sans-serif; font-size: 14.6666669845581px;&quot;&gt;as well as our desktop PADS products&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>4006.gif</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">14603.0</pvcount>
+    <prj_status></prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;</category>
+    <homepage>http://www.pads.com/reference-designs/bb-bblk-000</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/pads/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone Black - Reference Design source data for PADS PCB</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

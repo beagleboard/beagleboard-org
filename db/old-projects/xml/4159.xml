@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4159" name="fbtft-drivers-ti-inux-41" prototype="Page" created="1449019579134" lastModified="1540755935206">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Build fbtft drivers for TI Linux 4.1 kernel</pname>
+    <registrant>pdp7.blogspot.com</registrant>
+    <uri>fbtft-drivers-ti-inux-41</uri>
+    <time type="date">02.12.2015 01:26:19 UTC</time>
+    <updatetime type="date">02.12.2015 01:26:19 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;div class=&quot;jive-rendered-content&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21846-232960/IMG_20151119_021028.jpg&quot;&gt;&lt;img class=&quot;jive-image image-6&quot; style=&quot;height: 465px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21846-232960/1200-900/IMG_20151119_021028.jpg&quot; alt=&quot;IMG_20151119_021028.jpg&quot; width=&quot;1200&quot; height=&quot;900&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;strong&gt;Texas Instruments&lt;/strong&gt; has their own &lt;strong&gt;Linux kernel&lt;/strong&gt; repo with branches to support their processors such as the &lt;strong&gt;Sitara AM3358&lt;/strong&gt; in the &lt;strong&gt;BeagleBone Black:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://git.ti.com/ti-linux-kernel/ti-linux-kernel&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;em&gt;Gitorious@TI:&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; ti-linux-kernel&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;This repo contains a &lt;strong&gt;Linux kernel&lt;/strong&gt; that has been &lt;strong&gt;integrated with &lt;/strong&gt;&lt;strong&gt;outstanding TI open source patches&lt;/strong&gt; based on the open source Linux kernel found at &lt;strong&gt;kernel.org&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Here is a &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://docs.google.com/presentation/d/19Qd8YKmc8dtIxrUlykdbKWXJlKE3JQyTxUEfc5fI8zg/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&amp;amp;slide=id.p4&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;good presentation for TI TechDay 2015&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt; on how TI handles Linux engineering.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;most excellent&lt;/strong&gt; &lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://rcn-ee.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Robert C. Nelson&lt;/span&gt;&lt;/a&gt;&lt;/strong&gt; has made it very easy to run TI kernels on your BeagleBone Black by using his &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/RobertCNelson/ti-linux-kernel-dev/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;ti-linux-kernel-dev&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; repo.&amp;nbsp; The newest branch is &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/RobertCNelson/ti-linux-kernel-dev/tree/ti-linux-4.1.y&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;ti-linux-4.1.y&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;.&amp;nbsp; While current &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://lwn.net/Articles/662714/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;kernel.org stable is 4.3&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;, TI is working on 4.1 as it is &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://lwn.net/Articles/648911/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;current Long Term Support &lt;em&gt;(LTS)&lt;/em&gt; kernel&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;.&amp;nbsp; &lt;strong&gt;Linux 4.4&lt;/strong&gt; is expected to be released at the end of the year, and that will become the new &lt;strong&gt;LTS&lt;/strong&gt; kernel.&amp;nbsp; I believe TI will then move forward to that.&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #333333; font-size: 10pt; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif, &apos;Apple Color Emoji&apos;, &apos;Segoe UI Emoji&apos;, &apos;Segoe UI Symbol&apos;;&quot;&gt;A big advantage of moving to Linux 4.1 is that the &lt;strong&gt;fbtft&lt;/strong&gt; drivers are now in the Linux &lt;/span&gt;kernel: &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/torvalds/linux/tree/master/drivers/staging/fbtft&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;drivers/staging/fbtft&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;.&amp;nbsp; &lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;Last December, &lt;/span&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://free-electrons.com/company/staff/thomas-petazzoni/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Thomas Petazzoni&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; of &lt;/span&gt;Free Electrons t&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;ook it upon himself to add &lt;/span&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft/wiki/Development&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;notro&apos;s fbtft drivers&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; to the kernel: &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://driverdev.linuxdriverproject.org/pipermail/driverdev-devel/2014-December/063195.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;[PATCH 00/29] staging: add drivers from the fbtft project&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;.&amp;nbsp; Development in &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/notro/fbtft&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;notro&apos;s repo&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt; has ceased and moved to the Linux kernel drivers &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://git.kernel.org/cgit/linux/kernel/git/gregkh/staging.git/tree/drivers/staging/fbtft?h=staging-testing&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;staging tree&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;.&amp;nbsp; &lt;strong&gt;fbtft&lt;/strong&gt; is &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://www.kernel.org/doc/linux/MAINTAINERS&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;maintained&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt; by Noralf Tr&amp;oslash;nnes &lt;em&gt;(notro)&lt;/em&gt; &amp;amp; Thomas Petazzoni.&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Here are the steps that I followed.&amp;nbsp; Full transcript is in my &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://gist.github.com/pdp7/acb1780b1a368fe532d3&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;GitHub Gist&lt;/span&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 1: Build kernel&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;These commands were on my &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;64-bit Intel laptop&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt; running &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;Debian GNU/Linux 8.2&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; git clone &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/RobertCNelson/ti-linux-kernel-dev/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://github.com/RobertCNelson/ti-linux-kernel-dev/&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Cloning into &apos;ti-linux-kernel-dev&apos;...&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;remote: Counting objects: 6549, done.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;remote: Compressing objects: 100% (56/56), done.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;remote: Total 6549 (delta 37), reused 0 (delta 0), pack-reused 6493&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Receiving objects: 100% (6549/6549), 5.21 MiB | 3.17 MiB/s, done.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Resolving deltas: 100% (5036/5036), done.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Checking connectivity... done.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; cd ti-linux-kernel-dev&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; git checkout ti-linux-4.1.y&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Branch ti-linux-4.1.y set up to track remote branch ti-linux-4.1.y from origin by rebasing.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Switched to a new branch &apos;ti-linux-4.1.y&apos;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; ./build_kernel.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After running for awhile, &lt;strong&gt;build_kernel.sh&lt;/strong&gt; will invoke the kernel config menu.&amp;nbsp; Enable the &lt;strong&gt;fbtft&lt;/strong&gt; modules located in the &lt;strong&gt;Device Drivers -&amp;gt; Staging &lt;/strong&gt;menu.&amp;nbsp; Here are &lt;strong&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://photos.google.com/album/AF1QipPuGfQQx6eQ48GB-uX4z5PrSdAmc08qeGYFzPQs&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;photos of kernel config menus&lt;/a&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21846-232961/config1.png&quot;&gt;&lt;img class=&quot;jive-image image-7&quot; style=&quot;height: 536px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21846-232961/config1.png&quot; alt=&quot;config1.png&quot; width=&quot;917&quot; height=&quot;793&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21846-232962/config2.png&quot;&gt;&lt;img class=&quot;jive-image image-8&quot; style=&quot;height: 536px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21846-232962/config2.png&quot; alt=&quot;config2.png&quot; width=&quot;917&quot; height=&quot;793&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21846-232963/config3.png&quot;&gt;&lt;img class=&quot;jive-image image-9&quot; style=&quot;height: 536px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21846-232963/config3.png&quot; alt=&quot;config3.png&quot; width=&quot;917&quot; height=&quot;793&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/servlet/JiveServlet/showImage/38-21846-232964/config4.png&quot;&gt;&lt;img class=&quot;image-10 jive-image&quot; style=&quot;height: 536px; width: 620px;&quot; src=&quot;http://www.element14.com/community/servlet/JiveServlet/downloadImage/38-21846-232964/config4.png&quot; alt=&quot;config4.png&quot; width=&quot;917&quot; height=&quot;793&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Step 2: Flash SD card&lt;/span&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Flash a &lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Jessie_Snapshot_console&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;Debian 8.2 &lt;em&gt;(&lt;/em&gt;&lt;/strong&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;strong&gt;&lt;em&gt;Jessie)&lt;/em&gt; Snapshot console image&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt; from the &lt;a class=&quot;jive-link-external-small&quot; href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Debian&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;BeagleBoneBlack Debian page&lt;/strong&gt;&lt;/a&gt; on the eLinux.org wiki:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; sudo dd if=bone-debian-8.2-console-armhf-2015-10-11-2gb.img of=/dev/sdc&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;3481600+0 records in&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;3481600+0 records out&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;1782579200 bytes (1.8 GB) copied, 686.836 s, 2.6 MB/s&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; sudo eject /dev/sdc&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;; font-size: 12pt; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 3: Install new kernel&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Re-insert SD card so that its filesystem is mounted.&amp;nbsp; Run the kernel install script from your&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;strong&gt;ti-linux-kernel-dev&lt;/strong&gt; &lt;/span&gt;directory:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;laptop$&lt;/em&gt; sudo ./tools/install_kernel.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;Unmount and eject the SD card:&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;&lt;strong&gt;laptop$&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt; sudo umount /dev/sdc1&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 10pt;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;em&gt;laptop$&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt; sudo eject /dev/sdc&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.5em; font-size: 13.3333px; text-decoration: underline; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;Insert SD card into &lt;strong&gt;BeagleBone Black &lt;/strong&gt;and boot it.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The install script fails to do the following so it must be done manually.&amp;nbsp; Copy the kernel image and device tree bindings to the expected location:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt; sudo cp /zImage /boot/vmlinuz-4.1.13-ti-r30&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo cp -pr /dtbs /boot/dtbs/4.1.13-ti-r30&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Edit &lt;strong&gt;/boot/uEnv.txt&lt;/strong&gt; to set &lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;strong&gt;uname_r=4.1.13-ti-r30&lt;/strong&gt; and set &lt;strong&gt;dtb=am335x-boneblack-overlay.dtb&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo vi /boot/uEnv.txt&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 13.3333px; line-height: 1.5em; font-family: &apos;courier new&apos;, courier;&quot;&gt;uname_r=4.1.13-ti-r30&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;dtb=am335x-boneblack-overlay.dtb&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;Run script to grow filesystem to make use of the SD cards full capacity:&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; cd /opt/scripts/tools&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo ./grow_partition.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reboot the BeagleBone:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo reboot&lt;/strong&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;After rebooting, verify that the new kernel is running:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; uname -a&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 13.3333px;&quot;&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;Linux beaglebone 4.1.13-ti-r30 #1 SMP PREEMPT Mon Nov 16 00:50:22 CST 2015 armv7l GNU/Linux&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16px; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 4: Enable SPI&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now build &amp;amp; install the latest &lt;strong&gt;Device Tree Overlays&lt;/strong&gt; from &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/beagleboard/bb.org-overlays&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;bb.org-overlays repo&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$ &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;git clone &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://github.com/beagleboard/bb.org-overlays&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://github.com/beagleboard/bb.org-overlays&lt;/a&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$ &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;cd bb.org-overlays/&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$ &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;./dtc-overlay.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$ &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;./install.sh&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Enable the &lt;strong&gt;spi1&lt;/strong&gt; peripheral &lt;em&gt;(which LCD is wired up to)&lt;/em&gt; by loading the &lt;strong&gt;BB-SPIDEV1&lt;/strong&gt; Device Tree overlay:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; cat /sys/devices/platform/bone_capemgr/slots&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;0: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;1: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;2: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;3: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo /bin/sh -c &apos;echo BB-SPIDEV1 &amp;gt; /sys/devices/platform/bone_capemgr/slots&apos;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; cat /sys/devices/platform/bone_capemgr/slots&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;0: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;1: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;2: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;3: PF---- -1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;4: P-O-L- 0 Override Board Name,00A0,Override Manuf,BB-SPIDEV1&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16px; text-decoration: underline;&quot;&gt;&lt;strong&gt;Step 5: Load fbtft driver&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Load the &lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;strong&gt;fbtft_device&lt;/strong&gt; kernel module for &lt;strong&gt;adafruit18&lt;/strong&gt; &lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://www.adafruit.com/products/358&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;(&lt;/strong&gt;&lt;/a&gt;&lt;span style=&quot;font-family: &apos;Lucida Grande&apos;, Arial, Helvetica, sans-serif; font-size: 13.3333px;&quot;&gt;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;https://www.adafruit.com/products/358&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;Adafruit 1.8&quot; TFT LCD)&lt;/strong&gt;&lt;/a&gt; which will then load the &lt;strong&gt;fb_st7735r&lt;/strong&gt; driver:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo modprobe fbtft_device busnum=1 name=adafruit18 debug=7 verbose=3 gpios=dc:48,reset:60&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Install &lt;strong&gt;fbi&lt;/strong&gt; to display image on the LCD:&lt;/p&gt;
+&lt;blockquote class=&quot;jive-quote&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo apt-get update&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier; font-size: 10pt; line-height: 1.5em;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo apt-get install fbi&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;min-height: 8pt; padding: 0px;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; wget &apos;&lt;a class=&quot;jive-link-external-small&quot; href=&quot;../../static/uploads/BorisTux_w_Logo.png&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://beagleboard.org/static/uploads/BorisTux_w_Logo.png&lt;/a&gt;&apos;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 13.3333px; font-family: &apos;courier new&apos;, courier;&quot;&gt;&lt;strong&gt;&lt;em&gt;bone$&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; sudo fbi -d /dev/fb1 -T 1 -a BorisTux_w_Logo.png&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;</body>
+    <imagefile>4159.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10330.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;demo;</category>
+    <homepage>http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2015/11/19/build-fbtft-drviers-for-ti-linux-41-kernel</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Build fbtft drivers for TI Linux 4.1 kernel so that BeagleBone Black can use TFT LCD connected via SPI as Framebuffer</shortdesc>
+    <user>pdp7.blogspot.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="330" name="U-Boot (V1)" prototype="Page" created="1218969350615" lastModified="1540810127352">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Das U-Boot Bootloader</pname>
+    <registrant>dirkbe.myopenid.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <oauth2-token></oauth2-token>
+    <beagleirclog>000000</beagleirclog>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>U-Boot (V1)</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36</http_browser>
+    <time type="date">20.05.2014 19:44:30 UTC</time>
+    <updatetime type="date">17.08.2008 10:35:50 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.9u8540vbqjpf</hopsession>
+    <body>&lt;p&gt;This project supports U-Boot boot loader for BeagleBoard, BeagleBoard-xM and BeagleBone in the U-Boot mainline.&lt;/p&gt;
+&lt;p&gt;The configuration for BeagleBoard and BeagleBoard-xM is &lt;em&gt;omap3_beagle&lt;/em&gt;. The configuration for BeagleBone is &lt;em&gt;am335x_evm&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To rebuild:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install ARM cross-compiler. On Ubuntu:
+&lt;ul&gt;
+&lt;li&gt;sudo opkg install gcc-arm-linux-gnueabi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;git clone git://git.denx.de/u-boot.git &amp;amp;&amp;amp; cd u-boot&lt;/li&gt;
+&lt;li&gt;ARCH=arm CROSS_COMPILE=&lt;em&gt;arm-linux-gnueabi-&lt;/em&gt; make &lt;em&gt;am335x_evm_config|omap3_beagle_config&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ARCH=arm CROSS_COMPILE=&lt;em&gt;arm-linux-gnueabi-&lt;/em&gt; make&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Typical boot process for BeagleBoard using U-Boot includes two U-Boot phases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The BeagleBoard ROM bootloader first loads a file called &quot;MLO&quot; from the SD card. This requires special formatting of the SD card and copying of the &quot;MLO&quot; file to the SD card. The &quot;MLO&quot; file is provided by U-Boot&apos;s Secondary Program Loader (SPL) functionality. It is placed into the u-boot folder upon build.&lt;/li&gt;
+&lt;li&gt;The U-Boot SPL configures the off-chip memory and then loads the full U-Boot. The file is typically called &quot;u-boot.img&quot; and SPL will typically look for it in the root folder of a FAT partition, but other options are possible.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;More information can be found on the &lt;a href=&quot;http://elinux.org/BeagleBoard#U-Boot&quot;&gt;eLinux.org wiki&lt;/a&gt;.&lt;/p&gt;</body>
+    <imagefile>330.gif</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <cat_host>utility</cat_host>
+    <pvcount type="float">58380.0</pvcount>
+    <prj_status>production</prj_status>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>library;utility;</category>
+    <homepage>http://www.denx.de/wiki/U-Boot/WebHome</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/U-Boot+(V1)/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Maintain U-Boot for BeagleBoard and BeagleBone. Fix bugs, integrate new features and support mainline.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

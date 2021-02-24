@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4095" name="heatsink-bbb-enclosure" prototype="Page" created="1437633251869" lastModified="1540629853803">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Heatsink Enclosure</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>heatsink-bbb-enclosure</uri>
+    <time type="date">23.07.2015 06:34:11 UTC</time>
+    <updatetime type="date">23.07.2015 06:34:11 UTC</updatetime>
+    <projstatus>production</projstatus>
+    <body>&lt;p&gt;From http://tem-products.com/index.php/electronics/enclosures/bbbenc.html:&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 1em; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; background-color: rgba(255, 255, 255, 0.701961);&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;BeagleBone Black Rev. C&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 1em; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; background-color: rgba(255, 255, 255, 0.701961);&quot;&gt;This slique enclosure protects from impact, dust, static and interference.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 1em; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; background-color: rgba(255, 255, 255, 0.701961);&quot;&gt;The solid aluminum shell thermally connects to the processor for high-performance cooling.&lt;/p&gt;</body>
+    <imagefile>4095.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10576.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>case;</category>
+    <homepage>http://tem-products.com/index.php/electronics/enclosures/bbbenc.html</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone Black Heatsink Enclosure</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

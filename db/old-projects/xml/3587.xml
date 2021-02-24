@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3587" name="Snoopy" prototype="Page" created="1397679889869" lastModified="1540285992580">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Snoopy Copter</pname>
+    <registrant>miketheman765@gmail.com</registrant>
+    <uri>Snoopy</uri>
+    <time type="date">16.04.2014 20:24:49 UTC</time>
+    <updatetime type="date">16.04.2014 20:24:49 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;The Snoopy Copter is an open-source, low cost quadcopter cape designed to integrate with the BeagleBone Black to create a &amp;lt; $200 quadcopter, loaded with nine-axes of data, an altimeter, and a GPS. The quadcopter current flies under remote control, and will eventually support fully autonomous flight.&lt;/p&gt;
+&lt;p&gt;Check out our Github page for pictures and videos, as well as all of the necessary design files for you to build your own low cost quadcopter!&lt;/p&gt;
+&lt;p&gt;This project was created by students at Rose-Hulman Institute of Technology as a Robotics capstone design project. Though the quadcopter is not currently in production, depending on demand, we may create a kickstarter or begin produing them ourselves.&lt;/p&gt;
+&lt;p&gt;Project photo credit:&amp;nbsp;http://img.photobucket.com/albums/v346/snoopsy/copter.png?t=1202863781&lt;/p&gt;</body>
+    <imagefile>3587.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">20018.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;cape;case;demo;robotics;</category>
+    <homepage>https://github.com/Rose-Hulman-ROBO4xx/1314-BeagleBone-Quadcopter/tree/master_rev2</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>The flying Beagle!</shortdesc>
+    <user>miketheman765@gmail.com</user>
+  </hopobject>
+</xmlroot>

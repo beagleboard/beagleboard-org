@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2873" name="Replicape" prototype="Page" created="1373930255123" lastModified="1540615424489">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Replicape 3D printer cape</pname>
+    <registrant>elias.bakken</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>Replicape</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.23 Safari/537.36</http_browser>
+    <time type="date">11.02.2016 19:49:49 UTC</time>
+    <updatetime type="date">13.10.2015 20:18:52 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>production</projstatus>
+    <hopsession>127.0.0.123sxco88g1l5</hopsession>
+    <body>&lt;p&gt;&lt;iframe src=&quot;https://www.kickstarter.com/projects/1924187374/replicape-a-smart-and-quiet-3d-printer-control-boa/widget/video.html&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;&lt;strong&gt;UPDATE #2:&amp;nbsp;&lt;/strong&gt;Replicape Rev B is &lt;a href=&quot;https://www.kickstarter.com/projects/1924187374/replicape-a-smart-and-quiet-3d-printer-control-boa?ref=nav_search&quot;&gt;now launched on Kickstarter for only $99!&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: Replicape is &lt;a href=&quot;http://www.thing-printer.com/product/replicape/&quot;&gt;now available for purchase!&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;Replicape is a 3D printer cape for BeagleBone.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;Features include:&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 5 stepper motors (2.5A DRV8825) (X, Y, Z, Ext1, Ext2)&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 3 high power MOSFETs (PWM controlled) for 2 extruders and 1 HPB. (12..24V)&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 3 medium power MOSFETs (PWM controlled) for up to 3 fans/LED strips. (12V)&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 3 analog input ports for thermistors. noise-filtered inputs and option for shielding&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 6 inputs for end stops (X, Y, Z).&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- 1 bus for Dallas 1W temperature sensor for monitoring the cold end. Many sensors can be added to ne bus.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Programmable current limits on steppers motor drivers (SMD). No need to manually adjust a pot meter.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Microstepping individually programmable for each SMD from 1 to 32.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- All steppers are controlled by the Programmable Realtime Unit (PRU) for hard real time operation.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Option for stackable LCD cape (LCD3). HDMI compatible LCD on the way.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Single 12 to 24V PSU, fans are still 12V.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Comptabile with BeagleBone and BeagleBone Black.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Open source hard ware and software.&lt;/span&gt;&lt;br style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot; /&gt;&lt;span style=&quot;color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;&quot;&gt;- Software written in Python for maintainability and hackability.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#333333&quot; face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.399999618530273px; line-height: 20px;&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/7Sxl5geo10w&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;</body>
+    <imagefile>2873.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <contactinfo></contactinfo>
+    <pvcount type="float">101086.0</pvcount>
+    <categories></categories>
+    <prj_status>production</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://www.thing-printer.com/product/replicape/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>https://beagleboard.org/project/replicape/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Replicape is an open source hardware and software project for bringing 3D printer capabilities to the BeagleBone and BeagleBone Black</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

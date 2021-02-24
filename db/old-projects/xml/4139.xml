@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4139" name="awsiot" prototype="Page" created="1446530098713" lastModified="1540253114502">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>AWS IoT</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>awsiot</uri>
+    <time type="date">03.11.2015 05:54:58 UTC</time>
+    <updatetime type="date">03.11.2015 05:54:58 UTC</updatetime>
+    <projstatus>production</projstatus>
+    <body>&lt;p&gt;&lt;a href=&quot;../../green&quot;&gt;SeeedStudio BeagleBone Green&lt;/a&gt; is included in one of the AWS IoT Starter Kits.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;From&amp;nbsp;&lt;a href=&quot;https://aws.amazon.com/iot/getting-started/&quot;&gt;https://aws.amazon.com/iot/getting-started/&lt;/a&gt;:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;title-wrapper section&quot; style=&quot;box-sizing: border-box; color: #333333; font-family: HelveticaNeue, Helvetica, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.4px;&quot;&gt;
+&lt;div class=&quot;row title  &quot; style=&quot;box-sizing: border-box; width: auto; max-width: none; margin: 0px -10px 15px; min-width: 0px;&quot;&gt;
+&lt;div class=&quot;twelve columns&quot; style=&quot;box-sizing: border-box; float: left; min-height: 1px; padding: 0px 10px; position: relative; width: 879px;&quot;&gt;
+&lt;h3 id=&quot;devicesdk&quot; style=&quot;box-sizing: border-box; margin: 0px; line-height: 1.3em; color: #1f3d5c; text-rendering: optimizeLegibility; font-size: 1.4em; font-weight: 300;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: inherit;&quot; name=&quot;devicesdk&quot;&gt;&lt;/a&gt;AWS IoT Device SDK&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;aws-text-box section&quot; style=&quot;box-sizing: border-box; margin-bottom: 25px; font-family: HelveticaNeue, Helvetica, Helvetica, Arial, sans-serif; color: #333333; font-size: 14px; line-height: 22.4px;&quot;&gt;
+&lt;div class=&quot;  &quot; style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.8em;&quot;&gt;The&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/iot/sdk/&quot;&gt;AWS IoT Device SDK&lt;/a&gt;&amp;nbsp;helps you to easily and quickly connect your hardware device or your mobile device to AWS IoT. It offers enhanced features so that you can seamlessly interact with the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/iot/how-it-works/#gateway&quot;&gt;device gateway&lt;/a&gt;&amp;nbsp;and the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/iot/how-it-works/#shadows&quot;&gt;device shadow&lt;/a&gt;&amp;nbsp;that will enable you to quick start your development. The Device SDK supports a variety types of devices, from basic to industrial hardware devices. Learn more about the&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/iot/sdk/&quot;&gt;AWS IoT Device SDKs&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title-wrapper section&quot; style=&quot;box-sizing: border-box; color: #333333; font-family: HelveticaNeue, Helvetica, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.4px;&quot;&gt;
+&lt;div class=&quot;row title  &quot; style=&quot;box-sizing: border-box; width: auto; max-width: none; margin: 0px -10px 15px; min-width: 0px;&quot;&gt;
+&lt;div class=&quot;twelve columns&quot; style=&quot;box-sizing: border-box; float: left; min-height: 1px; padding: 0px 10px; position: relative; width: 879px;&quot;&gt;
+&lt;h3 id=&quot;kits&quot; style=&quot;box-sizing: border-box; margin: 0px; line-height: 1.3em; color: #1f3d5c; text-rendering: optimizeLegibility; font-size: 1.4em; font-weight: 300;&quot;&gt;&lt;a style=&quot;box-sizing: border-box; color: inherit;&quot; name=&quot;kits&quot;&gt;&lt;/a&gt;AWS IoT Starter Kits&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;aws-text-box section&quot; style=&quot;box-sizing: border-box; margin-bottom: 25px; font-family: HelveticaNeue, Helvetica, Helvetica, Arial, sans-serif; color: #333333; font-size: 14px; line-height: 22.4px;&quot;&gt;
+&lt;div class=&quot;  &quot; style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.8em;&quot;&gt;The AWS IoT Starter Kits enable you to move quickly from idea to prototype. These physical kits are designed to help accelerate cloud-powered prototype development of connected devices and connect securely to AWS IoT. The kits include development microcontroller development boards, sensors and actuators, the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/iot/sdk/&quot;&gt;AWS IoT Device SDK&lt;/a&gt;, and a simple getting started guide so that you can easily find the best fit for your products. You can purchase the kits from Amazon.com. If you already have the hardware board, you can download the SDK and samples to get started in minutes. Visit the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: #005b86; text-decoration: none; cursor: pointer;&quot; href=&quot;https://aws.amazon.com/partners/apn-portal/&quot;&gt;APN partner portal&lt;/a&gt;&amp;nbsp;to learn more about partners who provide AWS IoT Starter Kits.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+    <imagefile>4139.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">11470.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype></boardtype>
+    <category>documentation;library;demo;</category>
+    <homepage>https://aws.amazon.com/blogs/aws/aws-iot-cloud-services-for-connected-devices/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Cloud Services for Connected Devices</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

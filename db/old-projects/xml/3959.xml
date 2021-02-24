@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3959" name="BLACKlink" prototype="Page" created="1423860084076" lastModified="1540755580021">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>BLACKlink</pname>
+    <registrant>r.kahawita@gmail.com</registrant>
+    <uri>BLACKlink</uri>
+    <time type="date">13.02.2015 20:41:24 UTC</time>
+    <updatetime type="date">13.02.2015 20:41:24 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p style=&quot;margin: 0px 0px 0.9em; padding: 0px; font-size: 10.6666669845581px; line-height: 14.9333343505859px; word-wrap: break-word; width: 510px; overflow: hidden; color: #191919; font-family: Arial, Helvetica, sans-serif;&quot;&gt;This project provides a step by step guide for the development of device driver blocks specifically for the BeagleBone Black.&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;Several standard blocks are developed including blocks for:&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- GPIO read/write&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- I2C read/write&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- Analog Input read&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- USR LEDs control&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;&amp;nbsp;&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;Specific sensor drivers are also developed for the:&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- ADXL330 accelerometer&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- L3G4200D gyroscope&amp;nbsp;&lt;br style=&quot;margin: 0px; padding: 0px; line-height: 1px;&quot; /&gt;- HMC5883L magnetometer&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 0.9em; padding: 0px; font-size: 10.6666669845581px; line-height: 14.9333343505859px; word-wrap: break-word; width: 510px; overflow: hidden; color: #191919; font-family: Arial, Helvetica, sans-serif;&quot;&gt;The developed driver blocks are then combined in a Simulink model for attitude estimation via a descent gradient sensor fusion algorithm. Finally a UI is developed to display sensor data and estimated attitude via Simulink 3D VR animation. All code is included.&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 0.9em; padding: 0px; font-size: 10.6666669845581px; line-height: 14.9333343505859px; word-wrap: break-word; width: 510px; overflow: hidden; color: #191919; font-family: Arial, Helvetica, sans-serif;&quot;&gt;Note that this project may prove especially useful for those using Matlab versions prior to R2014B where the &quot;Embedded Coder&amp;reg; Support Package for BeagleBone Black Hardware&quot; is not supported.&lt;/p&gt;</body>
+    <imagefile>3959.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10370.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;</category>
+    <homepage>http://www.mathworks.com/matlabcentral/fileexchange/49702-device-drivers-for-the-beaglebone-black</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Simulink library for the BeagleBone Black</shortdesc>
+    <user>r.kahawita@gmail.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3805" name="wrx" prototype="Page" created="1414024887761" lastModified="1540606891052">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>WRX</pname>
+    <registrant>jks</registrant>
+    <prj_statusval>demo</prj_statusval>
+    <http_language>en-us</http_language>
+    <uri>wrx</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/6.2.3 Safari/537.85.12</http_browser>
+    <time type="date">23.02.2015 19:01:42 UTC</time>
+    <updatetime type="date">23.10.2014 00:41:27 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <projstatus>demo</projstatus>
+    <hopsession>127.0.0.ac6w890pvsjl</hopsession>
+    <body>&lt;p&gt;February 2015: See the status update at the homepage link below.&lt;/p&gt;
+&lt;p&gt;Here&apos;s a prototype of a cape that turns your BeagleBone Black into a web-controlled shortwave receiver. Several simultaneous web connections are possible each of which can independently tune a channel of the receiver. See the project homepage for details of the web interface.&lt;br /&gt;&lt;br /&gt;The cape consists of an active antenna coupler, followed by an HF low-pass filter, +20 dB amplifier, 14-bit ADC and Xilinx LX25 FPGA connected to the Beagle over the SPI0 connection. For the software-defined GPS a Skyworks SE4150 GPS front-end chip connects to the FPGA. The GPS is used to accurately calibrate the receivers.&lt;br /&gt;&lt;br /&gt;Since low cost is a primary goal this cape is &lt;em&gt;not&lt;/em&gt; designed to be a general purpose FPGA development board. Existing capes (LOGi-Bone etc.) are already available. However, the FPGA is programmed from the Beagle and you can download any firmware you choose. The open-source software and firmware will allow experimentation with SDR and SD-GPS design.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3805.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <pvcount type="float">15430.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ea6320948ea8988fc4412335b9c9061fae3cfc02.QPVQ8qpVohCfRCeR.f7c1:I=1424718065:X=1424804465</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <prj_status>demo</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>cape;demo;</category>
+    <homepage>http://www.jks.com/wrx/wrx.html</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/wrx/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone Black SDR cape: software-defined receiver (0-30 MHz), web-controlled, ADC + FPGA + GPS</shortdesc>
+    <user>jks@jks.com</user>
+  </hopobject>
+</xmlroot>

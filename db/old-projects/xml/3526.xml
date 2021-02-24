@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3526" name="home-automation-book" prototype="Page" created="1395777969018" lastModified="1540366390485">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeagleBone Home Automation</pname>
+    <registrant>jkridner</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>home-automation-book</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 20:28:28 UTC</time>
+    <updatetime type="date">25.03.2014 20:06:09 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>production</projstatus>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin: 1.12em 0px 1.12em 20px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Practical approach to home automation using BeagleBone; starting from the very basics of GPIO control and progressing up to building a complete home automation solution&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Covers the operating principles of a range of useful environment sensors, including their programming and integration to the server application&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Easy-to-follow approach with electronics schematics, wiring diagrams, and controller code all broken down into manageable and easy-to-understand sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin: 0px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;In Detail&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;Home automation lets you control daily activities such as changing the temperature, opening the garage door, or dimming the lights of your house using microprocessors. BeagleBone is a low-cost, high-expansion, hardware-hacker-focused BeagleBoard. It is small and comes with the high-performance ARM capabilities you expect from a BeagleBoard. BeagleBone takes full-featured Linux to places it has never gone before.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;Starting with the absolute basics, BeagleBone Home Automation gives you the knowledge you will require to create an Internet-age home automation solution. This book will show you how to set up Linux on BeagleBone. You will learn how to use Python to control different electronic components and sensors to create a standalone embedded system that also accepts control remotely from a smartphone.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;This book starts with the very basics of Linux administration and application execution using terminal connections. You will learn the basics of the general purpose input/output pins and discover how various electronic sensors and electronic components work. The &quot;hardware jargon&quot; is explained, and example applications demonstrating their practical use are created so that you will feel in control of the capabilities provided.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;Network programming is also a big part of this book, as the created server will be made accessible from the Internet through a smartphone application. You will also learn how to create a fully working Android application that communicates with the home automation server over the Internet.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;What you will learn from this book&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin: 1.12em 0px 1.12em 20px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Learn how to interface the BeagleBone board with various hardware components and environmental sensors&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Set up the programming logic necessary to enable standalone periodic tasks and their management&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Set up the programming logic necessary to enable standalone periodic tasks and their management&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Discover network programming over TCP/IP sockets, and enable encrypted access over the Internet&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Program an Android application that can interface with your home automation server&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Implement a framework to send any type of data, such as images captured from a camera, to your smartphone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin: 0px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Approach&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;An easy-to-follow guide full of hands-on examples to help transform your house into a standalone home automation solution.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Who this book is written for&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 0px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;If you are looking for ways to create a highly capable home automation system that is easily extendable and highly configurable, then this book is for you. Basic knowledge of electronics and programming in Python and/or Java languages will be helpful, but not mandatory.&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&quot;width: 120px; height: 240px;&quot; src=&quot;http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;Operation=GetAdHtml&amp;amp;ID=OneJS&amp;amp;OneJS=1&amp;amp;source=ss&amp;amp;ref=ss_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=bloghanerhead-20&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=1783285737&amp;amp;asins=1783285737&amp;amp;show_border=true&amp;amp;link_opens_in_new_window=true&amp;amp;MarketPlace=US&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;
+&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>3526.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">21736.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>production</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;</category>
+    <homepage>https://www.amazon.com/BeagleBone-Home-Automation-Juha-Lumme/dp/1783285737/ref=as_li_ss_til?tag=bloghanerhead-20&amp;linkCode=w01&amp;creativeASIN=1783285737</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/home-automation-book/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Live your sophisticated dream with home automation using BeagleBone (book)</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

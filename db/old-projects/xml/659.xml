@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="659" name="riscos" prototype="Page" created="1245674953191" lastModified="1540652700838">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>RISC OS for BeagleBoard</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>riscos</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">27.03.2014 03:36:48 UTC</time>
+    <updatetime type="date">31.03.2010 13:51:13 UTC</updatetime>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;A port of the shared-source RISC OS to the new ARM Cortex-A8 based processors. &lt;br /&gt;To try out RISC OS on the BeagleBoard, follow the &lt;a href=&quot;https://www.riscosopen.org/wiki/documentation/pages/Using+the+Cortex-A8+port&quot;&gt;Using the Cortex-A8 port&lt;/a&gt; instructions or download the riscos image from &lt;a href=&quot;http://www.riscosopen.org/content/downloads/other-zipfiles&quot;&gt;www.riscosopen.org&lt;/a&gt; and make a uImage.bin file using:&lt;/p&gt;
+&lt;pre&gt;mkimage -A arm -O linux -T kernel -C none -a 0x81000000 -e 0x81000040 -n &quot;RISC OS&quot; -d riscos uImage.bin&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;Additional getting started information is available on the project &lt;a href=&quot;http://www.riscosopen.org/wiki/documentation/pages/Cortex-A8+port&quot;&gt;homepage.&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>659.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">18483.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_distro>distro</cat_distro>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>distro;</category>
+    <homepage>http://www.riscosopen.org/wiki/documentation/pages/Cortex-A8+port</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/riscos/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>A port of the shared-source RISC OS to the new ARM Cortex-A8 based processors.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

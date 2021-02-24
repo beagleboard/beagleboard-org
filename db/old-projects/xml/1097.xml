@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="1097" name="dsp-rpc-posix" prototype="Page" created="1274105565069" lastModified="1540721634244">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>DSP ease-of-use and RPC framework with POSIX wrappers</pname>
+    <registrant>www.google.com/profiles/maltanar</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>dsp-rpc-posix</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 15:50:29 UTC</time>
+    <updatetime type="date">17.05.2010 14:12:45 UTC</updatetime>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;dsp-rpc-posix aims to make life easier while developing for the OMAP3530&apos;s DSP (especially the BeagleBoard), by offering a simple compilation script and the ability to use the familiar GPP-side POSIX calls such as printf and scanf for prototyping. The project will build onto the existing C6Run project.&lt;/p&gt;</body>
+    <imagefile>1097.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://maltanar.blogspot.com/feeds/posts/default</rssfeed>
+    <pvcount type="float">8545.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>library;gsoc;</category>
+    <homepage>http://elinux.org/BeagleBoard/GSoC/2010_Projects/C6Run</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/dsp-rpc-posix/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>dsp-rpc-posix aims to make life easier while developing for the OMAP3530&apos;s DSP (especially the BeagleBoard), by offering a simple compilation script and the ability to use the familiar GPP-side POSIX calls such as printf and scanf for prototyping. The project will build onto the existing C6Run project.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

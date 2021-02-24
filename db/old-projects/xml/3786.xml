@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3786" name="show" prototype="Page" created="1411737153976" lastModified="1540263118944">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Trade Show Presentations</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>show</uri>
+    <time type="date">26.09.2014 13:12:33 UTC</time>
+    <updatetime type="date">26.09.2014 13:12:33 UTC</updatetime>
+    <projstatus>dev</projstatus>
+    <body>&lt;p&gt;Too many people are looking for all of the presentation materials and not finding them. I&apos;m working on moving all of them to http://beagleboard.org/show.&lt;/p&gt;</body>
+    <imagefile>3786.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">8164.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://beagleboard.org/show</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>This is a place to store links to the presentations given at various shows like Maker Faire, ESC/DesignEast/DesignWest and other shows BeagleBoard.org attends.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

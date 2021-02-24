@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3606" name="bacon" prototype="Page" created="1398988431829" lastModified="1540549565422">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Bacon Cape</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>bacon</uri>
+    <time type="date">01.05.2014 23:53:51 UTC</time>
+    <updatetime type="date">01.05.2014 23:53:51 UTC</updatetime>
+    <projstatus>production</projstatus>
+    <body>&lt;p&gt;Check out the many tutorials that make use of the Bacon Cape:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;../../support/BoneScript/cape_bacon&quot;&gt;http://beagleboard.org/support/BoneScript/cape_bacon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OBsOVLR6364&quot;&gt;https://www.youtube.com/watch?v=OBsOVLR6364&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>3606.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10780.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://elinux.org/CircuitCo:Bacon_Cape</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Training cape to learn to do basic BeagleBone I/O, digital in/out, analog in, PWM out, shift register out and I2C</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

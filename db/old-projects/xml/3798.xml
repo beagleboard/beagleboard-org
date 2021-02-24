@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3798" name="pru" prototype="Page" created="1412621570008" lastModified="1540689992126">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>PRU-ICSS resources</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>pru</uri>
+    <time type="date">06.10.2014 18:52:50 UTC</time>
+    <updatetime type="date">06.10.2014 18:52:50 UTC</updatetime>
+    <projstatus>dev</projstatus>
+    <body>&lt;p&gt;We need an official home for documentation about how to use the PRUs!&lt;/p&gt;</body>
+    <imagefile>3798.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10434.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;</category>
+    <homepage>http://beagleboard.org/pru</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Getting started information for BeagleBone PRUs</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

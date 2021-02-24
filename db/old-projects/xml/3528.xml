@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3528" name="robotic-projects-book" prototype="Page" created="1395778693517" lastModified="1540468042624">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeagleBone Robotic Projects</pname>
+    <registrant>jkridner</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>production</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>robotic-projects-book</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 20:31:56 UTC</time>
+    <updatetime type="date">25.03.2014 20:18:13 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>production</projstatus>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;div style=&quot;float: right;&quot;&gt;&lt;iframe style=&quot;width: 120px; height: 240px;&quot; src=&quot;http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;Operation=GetAdHtml&amp;amp;ID=OneJS&amp;amp;OneJS=1&amp;amp;source=ss&amp;amp;ref=ss_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=bloghanerhead-20&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=1783559322&amp;amp;asins=1783559322&amp;amp;show_border=true&amp;amp;link_opens_in_new_window=true&amp;amp;MarketPlace=US&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot;&gt;
+&lt;/iframe&gt;&lt;/div&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin: 1.12em 0px 1.12em 20px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Get to grips with robotic systems&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Communicate with your robot and teach it to detect and respond to its environment&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Develop walking, rolling, swimming, and flying robots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin: 0px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;In Detail&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;Thanks to new, inexpensive microcontrollers, robotics has become far more accessible than it was in the past. These microcontrollers provide a whole new set of capabilities to allow even the most inexperienced users to make amazingly complicated projects. Beaglebone is effectively a small, light, cheap computer in a similar vein to Raspberry Pi and Arduino. It has all of the extensibility of today&apos;s desktop machines, but without the bulk, expense, or noise.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;This project guide provides step-by-step instructions to allow anyone to use this new, low cost platform in some fascinating robotics projects. By the time you are finished, your projects will be able to see, speak, listen, detect their surroundings, and move in a variety of amazing ways.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;The book begins with unpacking and powering up the components.This will include guidance on what to purchase and how to connect it all successfully-and a primer on programming the BeagleBone Black. Chapter by chapter, we will add additional software functionality available from the open source community, including how to make the system see using a webcam, how to hear using a microphone, and how to speak using a speaker. We then add hardware to make your robots move-including wheeled and legged examples-as well as covering how to add sonar sensors to avoid or find objects, plus wireless control to make your robot truly autonomous. Adding GPS allows the robot to find itself. Finally the book covers how to integrate all of this functionality so that it can all work together, before developing the most impressive robotics projects: those that can sail, fly, and explore underwater.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;What you will learn from this book&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin: 1.12em 0px 1.12em 20px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Unbox, power up, and configure the BeagleBone black with Ubuntu&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Install speech recognition software to issue voice commands to your projects&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Set up a webcam and a computer vision toolkit for distinguishing objects&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Communicate with external motors to enable you robotics projects to move in a variety of ways&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Process audio signals like music or other sounds&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Add GPS capability to your system so it will know where it is&lt;/li&gt;
+&lt;li style=&quot;margin: 0px 0px 0px 20px; word-wrap: break-word;&quot;&gt;Use the building blocks you have learned to create complex robotic projects that can combine all of these features and more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin: 0px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Approach&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;Develop practical example projects with detailed explanations; combine the projects in a vast number of ways to create different robot designs, or work through them in sequence to discover the full capability of the BeagleBone Black.&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 14px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;&lt;strong&gt;Who this book is written for&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin: -4px 0px 0px; padding: 0px; color: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px;&quot;&gt;This book is for anyone who is curious about using new, low-cost hardware to create robotic projects that have previously been the domain of research labs, major universities or Defence departments. Some programming experience would be useful, but if you know how to use a personal computer, you can use this book to construct far more complex systems than you would have thought possible.&lt;/p&gt;</body>
+    <imagefile>3528.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">15500.0</pvcount>
+    <prj_status>production</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;robotics;</category>
+    <homepage>https://www.amazon.com/BeagleBone-Robotic-Projects-Richard-Grimmett/dp/1783559322/ref=as_li_ss_til?tag=bloghanerhead-20&amp;linkCode=w01&amp;creativeASIN=1783559322</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/robotic-projects-book/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Create complex and exciting robotic projects with the BeagleBone Black (book)</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

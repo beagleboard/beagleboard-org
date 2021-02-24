@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3819" name="lasersaur" prototype="Page" created="1414706360658" lastModified="1540270787909">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Lasersaur</pname>
+    <registrant>stefan@nortd.com</registrant>
+    <uri>lasersaur</uri>
+    <time type="date">30.10.2014 21:59:20 UTC</time>
+    <updatetime type="date">30.10.2014 21:59:20 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;The Lasersaur is an open source laser cutter. We designed it to fill the need of makers, artist and scientist who wanted a safe and highly-capable machine. Unlike others it comes fully loaded with knowledge to run, maintain, and modify.&lt;/p&gt;</body>
+    <imagefile>3819.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9658.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>robotics;</category>
+    <homepage>http://www.lasersaur.com/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>The open-source laser cutter for makers and builders.</shortdesc>
+    <user>stefan@nortd.com</user>
+  </hopobject>
+</xmlroot>

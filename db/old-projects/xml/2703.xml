@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2703" name="BBBabb" prototype="Page" created="1370000568510" lastModified="1540462247164">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BeagleBoneBlack Android Based Boot System</pname>
+    <registrant>ungureanuvladvictor</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>BBBabb</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 17:58:04 UTC</time>
+    <updatetime type="date">31.05.2013 11:42:48 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;The project aims to provide a way to ROM boot the BeagleBone Black and the normal Bone over USB from an Android device. The implementation will be based on libUSB ported to Android(preferably without need of root permissions on the device). The am335x SoC implements RNDIS when booting over USB and it needs a BOOTP server from where to fetch the image that will be ran. The MLO will be 1st sent to the board over usb(BOOTP). After MLO is ran the rest of the things required for the boot will be sent using normal USB transfer. There are some implementations about using USB boot there all of them are for the BBxM or the first BB. This project is really helpful for board bring-ups and testing them in case of fault. Maybe in the future ADK communication protocol(Accessory Development Kit) can be used after ROM booting over usb. Using ADK one can use the Android device as display/touchscreen or even share the internet connection from the Android device. GitHub link: https://github.com/ungureanuvladvictor/BBBabb&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/hxzoz6f4Q5w&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>2703.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://beagleboot.vdev.ro/?feed=rss2</rssfeed>
+    <cat_host>utility</cat_host>
+    <pvcount type="float">12943.0</pvcount>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>utility;gsoc;</category>
+    <homepage>http://beagleboot.vdev.ro/</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/BBBabb/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>The project aims to provide a way to ROM boot the BeagleBone Black and the normal Bone over USB from an Android device.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

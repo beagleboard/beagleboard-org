@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="639" name="Irrlicht" prototype="Page" created="1244501458645" lastModified="1540742655828">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Irrlicht 3D Engine</pname>
+    <registrant>hybridol.myopenid.com</registrant>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>Irrlicht</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 16:34:31 UTC</time>
+    <updatetime type="date">08.06.2009 22:50:58 UTC</updatetime>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;This project targets at porting the Irrlicht 3D Engine to the BeagleBoard. The project will execute in several steps. First is to fix current issues with the OpenGL-ES 1.x driver. Next, we will optimize the software renderers to NEON in order to support other OMAP processors without ogl-es. And finally we will provide a full OpenGL-ES 2.x driver for a cmplete shader pipeline.&lt;/p&gt;</body>
+    <imagefile>639.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://sourceforge.net/export/rss2_projnews.php?group_id=74339</rssfeed>
+    <pvcount type="float">8960.0</pvcount>
+    <prj_status>complete</prj_status>
+    <boardtype>bbxm;bboard;</boardtype>
+    <category>library;</category>
+    <homepage>irrlicht.sourceforge.net</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/Irrlicht/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>The Irrlicht Engine is an open source high performance realtime 3D engine written and usable in C++.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

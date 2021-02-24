@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3584" name="doghouse" prototype="Page" created="1397524159305" lastModified="1540462619011">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>The Doghouse Cape</pname>
+    <registrant>infotronixcorp@gmail.com</registrant>
+    <uri>doghouse</uri>
+    <time type="date">15.04.2014 01:09:19 UTC</time>
+    <updatetime type="date">15.04.2014 01:09:19 UTC</updatetime>
+    <projstatus>dev</projstatus>
+    <body>&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot; /&gt;We are excited to announce the future of environmental data collection, storage and transmission; the Doghouse. The cape accurately measures temperature, pressure, humidity, light, voltage, current and more utilizing sensors and enables control of actuators. The data is then transmitted via the Doghouse&apos;s WiFi and CAN based wired communication to local-only or cloud/IOT based data acquisition infrastructures. The Doghouse cape will come enclosed in a rugged, environmentally sealed, nylon 6/6 enclosure.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Doghouse Cape Features&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;- Rugged, environmentally sealed, nylon 6/6 enclosure&lt;/p&gt;
+&lt;p&gt;- Power, I/O and CAN channels accessible via connector&lt;/p&gt;
+&lt;p&gt;- 12/24V capable 5V regulator&lt;/p&gt;
+&lt;p&gt;- TBD analog input channels with protection and filtering circuits&lt;/p&gt;
+&lt;p&gt;- TBD digital input channels with protection circuitry&lt;/p&gt;
+&lt;p&gt;- TBD output channels with TBDA high-side drive capability&lt;/p&gt;
+&lt;p&gt;- Galvanically isolated CAN channel&lt;/p&gt;
+&lt;p&gt;- WiFi enabled&lt;/p&gt;
+&lt;p&gt;- TBD-based Linux distribution with WiFi and CAN-based&amp;nbsp;data acquisition and control support&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3584.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9011.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>distro;documentation;cape;case;</category>
+    <homepage>infotronix.co</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>The Electronics of Information | The cape that lets you measure your environment without having to worry about the weather.</shortdesc>
+    <user>infotronixcorp@gmail.com</user>
+  </hopobject>
+</xmlroot>

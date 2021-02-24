@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3670" name="eqep_rotary_encoder" prototype="Page" created="1405191038772" lastModified="1540705335745">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>BeagleBone Black: TI eQEP demo with rotary encoder</pname>
+    <registrant>pdp7pdp7@gmail.com</registrant>
+    <uri>eqep_rotary_encoder</uri>
+    <time type="date">12.07.2014 18:50:38 UTC</time>
+    <updatetime type="date">12.07.2014 18:50:38 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;Video: https://www.youtube.com/watch?v=4qvnOxG8vko&lt;/p&gt;
+&lt;p&gt;I demonstrate how to read position of a rotary encoder connected to the BeagleBone Black. &amp;nbsp;I use the eQEP (enhanced Quadrature-Encoded Pulse) decoder module built-in to the BBB&apos;s TI Sitara ARM processor.&lt;/p&gt;
+&lt;p&gt;NOTE: This requires the TI eQEP Linux kernel module from Nathiel Lewis (http://nathanielrlewis.com/?p=87) which is inlcuded on BeagleBoard.org Debian image for BBB since 2014-May-14 (http://beagleboard.org/latest-images)&lt;/p&gt;
+&lt;p&gt;Further information on the eQEP kernel module and API for Python &amp;amp; C++ is in Nathaniel&apos;s GitHub repo: https://github.com/Teknoman117/beaglebot/tree/master/encoders&lt;/p&gt;</body>
+    <imagefile>3670.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">26967.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>documentation;library;demo;</category>
+    <homepage>https://www.youtube.com/watch?v=4qvnOxG8vko</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>BeagleBone Black: read rotary encoder position using built-in TI eQEP hardware module </shortdesc>
+    <user>pdp7pdp7@gmail.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3612" name="libpruio" prototype="Page" created="1399654167803" lastModified="1540723575209">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>libpruio-0.2 (fast and easy D/A - I/O)</pname>
+    <registrant>tjfr.wordpress.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>de,en-US;q=0.7,en;q=0.3</http_language>
+    <uri>libpruio</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0</http_browser>
+    <time type="date">27.10.2014 08:25:11 UTC</time>
+    <updatetime type="date">09.05.2014 16:49:27 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>127.0.0.875v9irjwa3o</hopsession>
+    <body>&lt;p&gt;Developing I/O tasks on Beaglebone (white or black) hardware isn&apos;t really fun (effective May 2014). For digital I/O you&apos;ve to deal with issues like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;multiple source (device tree overlays and you program)&lt;/li&gt;
+&lt;li&gt;several device tree compiler versions (option -@)&lt;/li&gt;
+&lt;li&gt;pure documentation (spread all over the kernel source)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And also for analog input the situation isn&apos;t better&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;faulty ADC kernel driver&lt;/li&gt;
+&lt;li&gt;no control over the ADC device setting&lt;/li&gt;
+&lt;li&gt;slow sampling rates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most operations either need root privileges or a lot of configurations to get access for a normal user. Furthermore, all I/O isn&apos;t fast due to the slow file operations.&lt;br /&gt;&lt;br /&gt;All these pitfalls don&apos;t realy help when you&apos;re going to focus on your core problem: create new software.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Here&apos;s my solution&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;libpruio is a driver for the AM33xx processor family. It controls the subsystems&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Control Module (pinmuxing)&lt;/li&gt;
+&lt;li&gt;GPIO 0 to 3 (General Purpose Input and Output)&lt;/li&gt;
+&lt;li&gt;TSC_ADC_SS (Touch Screen Controler and Analog to Digital Convertor SubSystem)&lt;/li&gt;
+&lt;li&gt;PWMSS 0 to 2 (Pulse Width Modulation SubSystem)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;in real time by software running on the PRUSS (Programable Realtime Unit SubSystem). The API is designed for easy and safe usage, but also for high speed operations. For the daily work you need not care about mystic tables with CPU ball numbers or GPIO codes. Instead specify what you see (ie. P8_11 = header P8, pin 11).&lt;br /&gt;&lt;br /&gt;libpruio handles&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;waking up subsystems&lt;/li&gt;
+&lt;li&gt;reading original subsystems configurations on start up&lt;/li&gt;
+&lt;li&gt;enable or disable subsystems at run-time&lt;/li&gt;
+&lt;li&gt;configure subsystems at run-time&lt;/li&gt;
+&lt;li&gt;performing GPIO operations (read / write in IO mode)&lt;/li&gt;
+&lt;li&gt;output of pulse trains (PWM)&lt;/li&gt;
+&lt;li&gt;analysing of pulse trains (CAP)&lt;/li&gt;
+&lt;li&gt;setting ADC configurations&lt;/li&gt;
+&lt;li&gt;reading single ADC samples (IO mode, timed by host)&lt;/li&gt;
+&lt;li&gt;reading multiple ADC samples in a ring buffer and controling digital lines (RB mode, timed by PRUSS)&lt;/li&gt;
+&lt;li&gt;reading multiple ADC samples in a buffer (MM mode, timed by PRUSS)&lt;/li&gt;
+&lt;li&gt;using triggers to start ADC sampling in MM mode (GPIO or ADC input)&lt;/li&gt;
+&lt;li&gt;restoring the original configurations on close down&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The library can be used under the terms of the Lesser GNU Public Licence version 2 (LGPLv2). The package also contains a C wrapper for the library and examples (under GPLv3) in FreeBASIC syntax (most of them are also included in C syntax):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;1&lt;/span&gt;: minimal example&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;analyse&lt;/span&gt;: output initial devices configurations&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;io_input&lt;/span&gt;: output the digital and analog lines in IO mode&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;pwm_cap&lt;/span&gt;: output a measured pulse train of a PWM output&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;sos&lt;/span&gt;: blink a user led in SOS code&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;stepper&lt;/span&gt;: drive a stepper motor (unipolar)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pwm_adc&lt;/strong&gt;: show a graph of analog inputs of three PWM outputs&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;oszi&lt;/span&gt;: show a graph of analog inputs&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;rb_oszi&lt;/span&gt;: show a graph of analog inputs&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;triggers&lt;/span&gt;: start measurements by trigger events in MM mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since version 0.2, tools to create, compile and install device tree overlays are included. They support either customized overlays with fixed pin configurations or universal overlays with run-time pinmuxing capability.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Check out the &lt;a class=&quot;postlink&quot; href=&quot;http://users.freebasic-portal.de/tjf/Projekte/libpruio/doc/html/&quot;&gt;on-line documentation&lt;/a&gt; or &lt;a class=&quot;postlink&quot; href=&quot;http://www.freebasic-portal.de/downloads/fb-on-arm/anleitung-zu-libpruio-en-326.html&quot;&gt;download it here&lt;/a&gt; for off-line usage.&lt;br /&gt;&lt;br /&gt;Download the package (source and binaries) at&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;postlink&quot; href=&quot;http://www.freebasic-portal.de/downloads/fb-on-arm/libpruio-325.html&quot;&gt;libpruio (D/A - I/O schnell und einfach)&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3612.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <cat_demo>demo</cat_demo>
+    <rssfeed></rssfeed>
+    <pvcount type="float">58129.0</pvcount>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;library;demo;robotics;</category>
+    <homepage>http://www.freebasic.net/forum/viewtopic.php?f=14&amp;t=22501</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/libpruio/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Fast and easy digital input/output and analog input for Beaglebone hardware with PRU subsystem.</shortdesc>
+    <user>tjfr.wordpress.com</user>
+  </hopobject>
+</xmlroot>

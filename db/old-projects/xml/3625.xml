@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3625" name="FirstRobot" prototype="Page" created="1401242547991" lastModified="1540761313012">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>69.246.174.183</http_remotehost>
+    <pname>My First Working Robot, It&apos;s Alive</pname>
+    <registrant>hoffmanjon.wordpress.com</registrant>
+    <prj_statusval>dev</prj_statusval>
+    <http_language>en-us</http_language>
+    <uri>FirstRobot</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4</http_browser>
+    <time type="date">20.07.2014 01:14:43 UTC</time>
+    <updatetime type="date">28.05.2014 02:02:27 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>complete</projstatus>
+    <hopsession>69.246.174.vnrzud9zd1qg</hopsession>
+    <body>&lt;p&gt;I documented the steps to create my robot in the following series of posts:&lt;/p&gt;
+&lt;p&gt;Post 1: &amp;nbsp;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/05/my-first-working-robot-its-alive.html&quot;&gt;My first working robot part 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Post 2: &amp;nbsp;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/05/my-first-working-robot-its-alive-part-2.html&quot;&gt;My first working robot part 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Post 3: &amp;nbsp;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/05/my-first-working-robot-its-alive-part-3.html&quot;&gt;My first working robot part 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Been playing with Bonescript: &amp;nbsp;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/06/using-javascript-with-bonescript-to.html&quot;&gt;Using Javascript with Bonescript to program the BeagleBone Black&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Each post contains images and videos that document my progress. &amp;nbsp;At the end of the third post I have a full functional robot that I can control remotely. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This is an ongoing project with the goal of creating an autonomous robot. &amp;nbsp;I will be updating this project as we build our robot.&lt;/p&gt;
+&lt;p&gt;We took the first steps to make the robot autonomous:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/06/beaglebone-black-and-lv-maxsonar-ez2.html&quot;&gt;BeagleBone Black and the LV-MaxSonar-EZ2 Range Finder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/07/prototyping-autonomous-robot-with.html&quot;&gt;Prototyping an antonomous robot with Javascript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://myroboticadventure.blogspot.com/2014/07/sensors-sensors-everywhere.html&quot;&gt;Sensors Sensors Everywhere&lt;/a&gt;&lt;/p&gt;</body>
+    <imagefile>3625.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">22882.0</pvcount>
+    <prj_status>dev</prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>robotics;</category>
+    <homepage>http://myroboticadventure.blogspot.com</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/FirstRobot/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>This project documents how I created my first working robot with the BeagleBone Black.  </shortdesc>
+    <user>hoffmanjon.wordpress.com</user>
+  </hopobject>
+</xmlroot>

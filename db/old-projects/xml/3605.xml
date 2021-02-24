@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3605" name="smalltalk" prototype="Page" created="1398986649642" lastModified="1540571849064">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Smalltalk</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>smalltalk</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36</http_browser>
+    <time type="date">01.05.2014 23:25:00 UTC</time>
+    <updatetime type="date">01.05.2014 23:24:09 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>demo</projstatus>
+    <hopsession>98.250.189.lfyfsoohb59w</hopsession>
+    <body>&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/aqEfOLZiWjc&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Updated instructions for running Squeak on BeagleBone Black Debian images:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span style=&quot;color: #333333; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot;&gt;apt-get install squeak-vm unzip&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #333333; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot;&gt;wget&amp;nbsp;&lt;/span&gt;&lt;a class=&quot;ot-anchor aaTEdf&quot; style=&quot;color: #2793e6; cursor: pointer; text-decoration: none; -webkit-transition: color 0.218s; transition: color 0.218s; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot; href=&quot;http://squeakvm.org/unix/release/Squeak4.2-10966.zip&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://squeakvm.org/unix/release/Squeak4.2-10966.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #333333; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot;&gt;unzip Squeak4.2-10966.zip&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color: #333333; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;squeak Squeak4.2-10966.image &amp;amp;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: arial, sans-serif; font-size: 13px; line-height: 17.030000686645508px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Code for demo:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;graph1 := GraphMorph new.
+graph1 openInWorld.
+graph1 extent: 700@500.
+graph1 clear.
+
+analog1 := FileStream readOnlyFileNamed: &apos;/sys/devices/ocp.3/helper.15/AIN0&apos;.
+
+[1000 timesRepeat: [
+	| lightValue |
+	lightValue := (analog1 contents) asInteger.
+	graph1 appendValue: lightValue.
+	(Delay forMilliseconds: 20) wait.
+	]] fork.
+&lt;/pre&gt;</body>
+    <imagefile>3605.gif</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">10282.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>library;</category>
+    <homepage>http://wiki.squeak.org/squeak/3616</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/smalltalk/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Doing some basic tasks with Squeak Smalltalk virtual machine on BeagleBone</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

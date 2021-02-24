@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2684" name="beagle-ros" prototype="Page" created="1369774658195" lastModified="1540821032553">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Beagle-ROS</pname>
+    <registrant>v.mayoralv</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>beagle-ros</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 17:14:55 UTC</time>
+    <updatetime type="date">28.05.2013 20:57:38 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;Both ROS and the BeagleBone are great tools and increasingly being used in robotics. Having both of them working together in a easy way would be a great asset. A lot of users show their interest for ARM ROS integration. Some made a couple of tutorials about how to install ROS on Ubuntu on the BeagleBoard however this documentation is getting a bit old fashioned and probably not the right way. There&apos;s also some code to use lightweight versions of ROS but again, roboticists might not be looking for a light-ROS device but a fully functional one.&lt;/p&gt;
+&lt;p&gt;Their aim is to provide ROS in an OpenEmbedded Linux system and clearly they ask for coders and people interested which seems a great starting point. My overall goal will be to provide the tools and documentation to set an easy ROS set up. Clarify the limitations and enumerate what&apos;s available and what&apos;s not. Using capes in the BeagleBone is just great and super easy. So why not have them ready for ROS usage as well. This might need a bit of work and i&apos;m excited about diving into it.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/JTsZL-puy-E&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>2684.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://beagleros.wordpress.com/feed/</rssfeed>
+    <pvcount type="float">19413.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;library;gsoc;</category>
+    <homepage>http://beagleros.wordpress.com/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/beagle-ros/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Integration of the Robot Operative System (ROS) and the BeagleBone.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

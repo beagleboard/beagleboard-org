@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4094" name="ps1rfid" prototype="Page" created="1437632227281" lastModified="1540750011136">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>ps1rfid</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>ps1rfid</uri>
+    <time type="date">23.07.2015 06:17:07 UTC</time>
+    <updatetime type="date">23.07.2015 06:17:07 UTC</updatetime>
+    <projstatus>demo</projstatus>
+    <body>&lt;p&gt;From&amp;nbsp;https://github.com/loansindi/ps1rfid:&lt;/p&gt;
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.25em; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; margin-top: 0px !important;&quot;&gt;Client-side RFID authentication (and general access control) for Pumping Station: One&lt;/h1&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;This system is built on a BeagleBone Black and Sparkfun&apos;s USB board for RFID readers for hardware, and PS1Auth&apos;s server-side RFID authentication on the backend.&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;Client-side software is written in Go.&lt;/p&gt;
+&lt;h2 style=&quot;box-sizing: border-box; margin-top: 1em; margin-bottom: 16px; line-height: 1.225; font-size: 1.75em; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eeeeee; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif;&quot;&gt;&lt;a id=&quot;user-content-making-things-work&quot; class=&quot;anchor&quot; style=&quot;box-sizing: border-box; color: #4078c0; text-decoration: none; position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; line-height: 1; background-color: transparent;&quot; href=&quot;https://github.com/loansindi/ps1rfid#making-things-work&quot;&gt;&lt;/a&gt;Making things work&lt;/h2&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;Cloning this repo to your BBB is the first step. The primary challenges:&lt;/p&gt;
+&lt;ul style=&quot;box-sizing: border-box; padding: 0px 0px 0px 2em; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Launching application on startup of the BBB&lt;/li&gt;
+&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Enabling non-root access to the GPIO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;First, you&apos;ll want to create a user to run the service. I created a user &apos;rfid&apos;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0px; margin: 0px; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157);&quot;&gt;$ sudo adduser rfid&lt;/code&gt;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;Go ahead and also create a group &apos;gpio&apos;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0px; margin: 0px; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157);&quot;&gt;$ sudo addgroup gpio&lt;/code&gt;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;Here&apos;s the service file I&apos;m using to launch the application:&lt;/p&gt;
+&lt;pre style=&quot;box-sizing: border-box; overflow: auto; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; font-stretch: normal; line-height: 1.45; padding: 16px; border-radius: 3px; word-wrap: normal; color: #333333; background-color: #f7f7f7;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0px; margin: 0px; border-radius: 3px; word-break: normal; border: 0px; display: inline; max-width: initial; overflow: initial; line-height: inherit; word-wrap: normal; background: transparent;&quot;&gt;[Unit]
+Description=Rfid entry service
+After=udev.service
+
+[Service]
+Type=simple
+User=rfid
+group=rfid
+ExecStart=/home/derek/go/src/github.com/loansindi/ps1rfid/ps1rfid
+WorkingDirectory=/srv/rfid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;Drop this in&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0px; margin: 0px; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157);&quot;&gt;/etc/systemd/system/rfid.service&lt;/code&gt;&lt;/p&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;The udev rules go in&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0px; margin: 0px; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157);&quot;&gt;/etc/udev/rules.d/90-gpio.rules&lt;/code&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;pre style=&quot;box-sizing: border-box; overflow: auto; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; margin-top: 0px; margin-bottom: 16px; font-stretch: normal; line-height: 1.45; padding: 16px; border-radius: 3px; word-wrap: normal; color: #333333; background-color: #f7f7f7;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Consolas, &apos;Liberation Mono&apos;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0px; margin: 0px; border-radius: 3px; word-break: normal; border: 0px; display: inline; max-width: initial; overflow: initial; line-height: inherit; word-wrap: normal; background: transparent;&quot;&gt;KERNEL==&quot;gpio*&quot;, SUBSYSTEM==&quot;gpio&quot;, ACTION==&quot;add&quot;, PROGRAM=&quot;/bin/sh -c &apos;chown -R rfid:gpio /sys/class/gpio&apos;&quot;
+KERNEL==&quot;gpio*&quot;, SUBSYSTEM==&quot;gpio&quot;, ACTION==&quot;add&quot;, PROGRAM=&quot;/bin/sh -c &apos;chown -R rfid:gpio /sys/devices/virtual/gpio/&apos;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: #333333; font-family: &apos;Helvetica Neue&apos;, Helvetica, &apos;Segoe UI&apos;, Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6px;&quot;&gt;This should allow non-elevated ccess to the GPIO.&lt;/p&gt;</body>
+    <imagefile>4094.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">7322.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>demo;</category>
+    <homepage>https://github.com/loansindi/ps1rfid</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Golang RFID authentication for ps1auth</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

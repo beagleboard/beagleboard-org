@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3775" name="oel" prototype="Page" created="1410437928474" lastModified="1540514469085">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <pname>Open Enea Linux</pname>
+    <registrant>jonikeraldama</registrant>
+    <prj_statusval></prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>oel</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36</http_browser>
+    <time type="date">16.09.2014 17:02:51 UTC</time>
+    <updatetime type="date">11.09.2014 12:18:48 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <projstatus>dev</projstatus>
+    <hopsession>127.0.0.x6exoezk90au</hopsession>
+    <body>&lt;p&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;Open Enea Linux (OEL) is an embedded Linux distribution based on the latest version of the Yocto project (Daisy 1.6 at the time of this post). OEL is focused on ease of use and, because of that, it comes along with a complete ecosystem that includes software development tools, instructions and video tutorials to do everything from target deployment to cross debugging, as well as ways to interact with Enea developers and other community members&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;&lt;a href=&quot;http://www.openenealinux.org&quot;&gt;www.openenealinux.org&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;OEL&amp;nbsp;community&amp;nbsp;provides developers with:&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoListParagraph&quot; style=&quot;margin: 0cm 0cm 0pt 23.25pt; text-indent: -21pt;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;-&amp;nbsp;All prebuilt and tested binaries based on the latest version of the Yocto project: Distribution images and toolchain.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoListParagraph&quot; style=&quot;margin: 0cm 0cm 0pt 23.25pt; text-indent: -21pt;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;-&amp;nbsp;A complete and tested suite of industry standard software development tools that are exclusively open source and based on Eclipse IDE.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoListParagraph&quot; style=&quot;margin: 0cm 0cm 0pt 23.25pt; text-indent: -21pt;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;-&amp;nbsp;Online user guides and video tutorials that explain all the steps required to deploy the binaries on target, install the toolchain and set up a development environment (including cross compiling and cross debugging, tracing profiling, etc&amp;hellip;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoListParagraph&quot; style=&quot;margin: 0cm 0cm 0pt 23.25pt; text-indent: -21pt;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;-&amp;nbsp;A runtime customizable distribution: Open Enea Linux comes with a configured package manager that allows you to install packages in runtime, thus removing the need to modify the source and recompile binaries in case you are missing some functionality on target.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p class=&quot;MsoListParagraph&quot; style=&quot;margin: 0cm 0cm 0pt 23.25pt; text-indent: -21pt;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &apos;Verdana&apos;,&apos;sans-serif&apos;; font-size: 8.5pt; mso-ansi-language: EN-US;&quot;&gt;-&amp;nbsp;A software community infrastructure to interact with Enea&amp;rsquo;s developers and other members of the OEL community, which covers from bug reporting to technical discussions.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+    <imagefile>3775.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <cat_host>utility</cat_host>
+    <pvcount type="float">10663.0</pvcount>
+    <prj_status></prj_status>
+    <cat_doc>documentation</cat_doc>
+    <cat_distro>distro</cat_distro>
+    <boardtype>bbblack;</boardtype>
+    <category>distro;documentation;library;utility;</category>
+    <homepage>www.openenealinux.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/oel/edit</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Open Enea Linux - An embedded Linux distribution and ecosystem based on the Yocto project</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

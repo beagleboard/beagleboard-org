@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3733" name="shieldio" prototype="Page" created="1408718854857" lastModified="1540796994837">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>ShieldI/O Cape</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>shieldio</uri>
+    <time type="date">22.08.2014 14:47:34 UTC</time>
+    <updatetime type="date">22.08.2014 14:47:34 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p style=&quot;margin: 0px 0px 25px; padding: 0px; border: 0px; font-family: &apos;Segoe UI&apos;, Arial, Verdana, Tahoma, sans-serif; font-size: 12px; line-height: 18px; vertical-align: baseline; color: #444444;&quot;&gt;ShieldI/O Cape provides the ability to mount (almost) every Arduino Shield on the BeagleBone Black, no matter if it&amp;rsquo;s using 3.3V or 5V logic levels. Changing from 3.3V to 5V is done by software.&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;margin: 0px 0px 25px; padding: 0px; border: 0px; font-family: &apos;Segoe UI&apos;, Arial, Verdana, Tahoma, sans-serif; font-size: 12px; line-height: 18px; vertical-align: baseline; color: #444444;&quot;&gt;It can also be ordered with an onboard 16 pin I/O expander which is accessible over the I2C bus.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://elinux.org/images/thumb/e/e6/ArduinoCape.jpg/300px-ArduinoCape.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;See&amp;nbsp;&lt;a href=&quot;http://www.impressx.com/en-gb/products/shieldio.aspx&quot;&gt;http://www.impressx.com/en-gb/products/shieldio.aspx&lt;/a&gt; for more information.&lt;/p&gt;</body>
+    <imagefile>3733.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">11200.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;</category>
+    <homepage>http://elinux.org/Impressx:Arduino_Shield_Adapter</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Use Arduino shields with your BeagleBone or BeagleBone Black</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

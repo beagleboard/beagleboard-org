@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3417" name="Micro-stepper" prototype="Page" created="1391019897310" lastModified="1540200595203">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>BBB &amp; BB Dual Micro-stepping Motor Controller Cape</pname>
+    <registrant>816ntx</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>Micro-stepper</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">26.03.2014 19:23:03 UTC</time>
+    <updatetime type="date">29.01.2014 18:24:57 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <cat_cape>cape</cat_cape>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;ul style=&quot;margin-top: 0in;&quot; type=&quot;disc&quot;&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Intelligent high end stepping motor controller Cape to control two motors&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Step rate programmable from full step to 32 micro-step&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;DRV8825 stepping motor controller from TI&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;MSP430 micro-processor from TI&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;SPI communication to the Beagle Bone&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Stand-alone capabilities with full control of stepper motor via RS232&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Programmable motor current&amp;nbsp; from 1 to 2.5 amps&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;12 volts to 45 volt drive voltage capabilities&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Evaluation firmware available for the Beagle Bone written in C and runs under the Bone&amp;rsquo;s Linux Operation System&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Motor control parameters loaded into the embedded MSP430 are Motor current, micro-step mode, step count, starting speed, run speed and acceleration/deceleration control&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Acceleration and deceleration controller by algorithm in MSP430 micro-processor&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Motor movement controlled by algorithm in MSP430 micro-processor&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Size Beagle Bone Cape 3.4 X 2.1 inches&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Over travel limit detection included&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Homing algorithm included&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;Firmware in MSP430 programmed with Code Composer&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;MSP430 programmable via JTAG&lt;/li&gt;
+&lt;li class=&quot;MsoNormal&quot;&gt;This is not a bit-switch motor stepper, but a full step controller&lt;/li&gt;
+&lt;/ul&gt;</body>
+    <imagefile>3417.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">19296.0</pvcount>
+    <prj_status>production</prj_status>
+    <categories>cape,robotics</categories>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>cape;robotics;</category>
+    <homepage>http://elinux.org/Beagleboard:BeagleBone_MSTP</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/Micro-stepper/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Micro-stepping can cure many problems that have always plagued standard stepping motors for years. Problems like stalling, step oscillations, rough operation, and many unexplainable stepping motor problems.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

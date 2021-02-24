@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3656" name="stantor_BBB_v03" prototype="Page" created="1404373074412" lastModified="1540806845916">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>stantor_BBB_v03</pname>
+    <registrant>hubert.hersent@gmail.com</registrant>
+    <uri>stantor_BBB_v03</uri>
+    <time type="date">03.07.2014 07:37:54 UTC</time>
+    <updatetime type="date">03.07.2014 07:37:54 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;Version 3 of Micro Central Home Automation for BEAGLEBONE Black board with Websockets/HTML5 and Linux operating system (Angstrom distribution system for embedded use on real-time 24/24H). Working with multi clients sessions simultaneously and working in real time on multiple devices (PC, Smartpones, tablets). The functions of this apply are:&lt;br /&gt;- Acquisition of Digital inputs.&lt;br /&gt;- Control of Digital outputs.&lt;br /&gt;- Acquisition of Analog inputs.&lt;br /&gt;- Control of Output PWM (pulse width modulation).&lt;br /&gt;- Events counter under interruption.&lt;br /&gt;- Automatic sending of e-mail on events.&lt;br /&gt;- The acquisition of a video stream from a Webcam connected to the USB BBB board (with adjustable frequency display on the Web page).&lt;br /&gt;The human-machine interface is provided by HTML5/Javascript pages located on a client machine (PC, Tablet, Web server, smartphone, etc ...).&lt;br /&gt;The exchange of informations between the BBB board and the client is based on the protocol Websocket - HTML5.&lt;br /&gt;These web pages are available on the client microcomputer through Internet browsers - Firefox / Mozilla, Chrome, IE, Safari, etc ...&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>3656.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">9870.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>library;</category>
+    <homepage>http://www.stantor.com</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>home automation, domotic, html5, websocket, video, real-time</shortdesc>
+    <user>hubert.hersent@gmail.com</user>
+  </hopobject>
+</xmlroot>

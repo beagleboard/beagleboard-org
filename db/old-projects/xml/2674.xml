@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2674" name="minix-i2c" prototype="Page" created="1369684405230" lastModified="1540574776342">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Minix I2C Drivers for the BeagleBone Black </pname>
+    <registrant>www.tomcort.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>minix-i2c</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 17:13:03 UTC</time>
+    <updatetime type="date">27.05.2013 19:53:25 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;The project is to develop a generic I2C driver subsystem for the Minix operating system, and then use it to write drivers for I2C devices on the new BeagleBone Black, BeagleBone White, and BeagleBoard-xM. The primary programming language will be C, and the code will be open source under Minix&apos;s BSD-style license. These drivers will enable the BeagleBoard.org community to run Minix on the new BeagleBone with drivers that allow them to take advantage of more of the hardware features. The generic I2C driver will setup the I2C registers, take the I2C module out of reset, initialize the I2C buses, handle interrupts, initiate transfers, and transmit/receive data. An interface to the generic I2C driver will be developed in Minix&apos;s libsys. The other drivers will interact with I2C through that interface. The interface will be the same that NetBSD and OpenBSD provide. As a first test to verify that the basics of that interface are working, I will use NetBSD&apos;s usr.sbin/i2scan program and import it into Minix&apos;s base system. Following that, I will develop a driver for the EEPROM to get information about the board. After that, I will enhance the framebuffer driver to support EDID via the TDA19988. If time permits, I would work on the driver for the power management chip (TPS65217C). The Minix project is eager to get this code written and tested widely. Small commits will be submitted for inclusion to mainline Minix throughout the summer as code becomes production ready rather than waiting until the end of the summer and having one huge patchset.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/dxjaFsWYkAM&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>2674.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://minix-i2c.blogspot.com/feeds/posts/default</rssfeed>
+    <pvcount type="float">17990.0</pvcount>
+    <prj_status>complete</prj_status>
+    <cat_doc>documentation</cat_doc>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <cat_distro>distro</cat_distro>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>distro;documentation;library;gsoc;</category>
+    <homepage>http://minix-i2c.blogspot.ca/</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/minix-i2c/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>The project is to develop a generic I2C driver subsystem for Minix, and then use it to write drivers for I2C devices on the new BeagleBone Black.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

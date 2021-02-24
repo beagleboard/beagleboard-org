@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2081" name="java" prototype="Page" created="1346339417977" lastModified="1540681718946">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Oracle JDK</pname>
+    <registrant>blog.hangerhead.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>java</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36</http_browser>
+    <time type="date">01.08.2014 13:56:14 UTC</time>
+    <updatetime type="date">30.08.2012 15:10:17 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.vf9rewxnghq6</hopsession>
+    <body>&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;There are many options for developing with Java on the BeagleBoard/BeagleBoard-xM and BeagleBone/BeagleBone-Black.&lt;/p&gt;
+&lt;p&gt;According to Oracle, the Java trademark owner, &quot;Java is the foundation for virtually every type of networked application and is the global standard for developing and delivering mobile applications, games, Web-based content, and enterprise software. With more than 9 million developers worldwide, Java enables you to efficiently develop and deploy exciting applications and services. With comprehensive tooling, a mature ecosystem, and robust performance, Java delivers applications portability across even the most disparate computing environments.&quot; &lt;a href=&quot;http://www.oracle.com/us/technologies/java/overview/index.html&quot;&gt;*&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://blogs.oracle.com/henrik/entry/oracle_releases_jdk_for_linux&quot;&gt;Oracle&apos;s blog post on the JDK for Linux ARM release.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Installing Oracle&apos;s JDK on BeagleBone Black&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit the &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html&quot;&gt;JDK download page&lt;/a&gt;.&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;For Angstrom, download the &quot;Linux ARM v6/v7 VFP Soft Float ABI&quot; version.&lt;/li&gt;
+&lt;li&gt;For Debian, download the &quot;Linux ARM v6/v7 Hard Float ABI&quot; version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Copy jdk-7u40-linux-arm-vfp-*.gz to your BeagleBone Black&lt;/li&gt;
+&lt;li&gt;Perform &apos;tar xzf jdk-7u40-linux-arm-vfp-*.gz&apos; to extract the JDK&lt;/li&gt;
+&lt;li&gt;Perform &apos;export PATH=$PATH:/home/root/jdk1.7.0_40/bin&apos; to add the JDK to your path&lt;/li&gt;
+&lt;li&gt;Perform &apos;export JAVA_HOME=/home/root/jdk1.7.0_40&apos; to set the JAVA_HOME on your installation&lt;/li&gt;
+&lt;li&gt;Perform &apos;java -version&apos; to verify your installation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For Debian, you can also try out &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-arm-downloads-2187472.html&quot;&gt;version 8&lt;/a&gt;.&lt;/p&gt;</body>
+    <imagefile>2081.svg+xml</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>https://blogs.oracle.com/henrik/feed/entries/atom</rssfeed>
+    <pvcount type="float">127020.0</pvcount>
+    <prj_status>complete</prj_status>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>library;</category>
+    <homepage>http://www.oracle.com/technetwork/java/javase/downloads/index.html</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/java/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Oracle Java Platform, Standard Edition (Java SE) including the Java Development Kit (JDK) and JavaFX for ARM</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2752" name="userspace-arduino" prototype="Page" created="1371198141020" lastModified="1540499725722">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <cat_lib>library</cat_lib>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>98.250.189.79</http_remotehost>
+    <pname>Arduino-like userspace libraries for the Beagle</pname>
+    <registrant>userspace.arduino</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval> [Unhandled Macro: this.prj_Status] </prj_statusval>
+    <http_language>en-US,en;q=0.8</http_language>
+    <uri>userspace-arduino</uri>
+    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36</http_browser>
+    <time type="date">25.03.2014 17:16:45 UTC</time>
+    <updatetime type="date">14.06.2013 08:22:21 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>98.250.189.1ljbt1mc6avni</hopsession>
+    <body>&lt;p&gt;In this project, we aim to write Arduino like libraries for Linux, which will enable anyone to interface devices with much ease using the BeagleBone Black. The aim is to create userspace libraries which have function calls like digitalRead, analogWrite, etc. i.e. to keep them as similar to the Arduino environment. What will change is the underlying userspace calls. Another aim of the project is to look for various ways for communicating between the IDE and the BBB. Communication will include uploading the executable, executing them as well as fetching the output if any.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/1F0S5ajq-Ls&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+    <imagefile>2752.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed>http://prpplague.github.io/Energia/atom.xml</rssfeed>
+    <pvcount type="float">18638.0</pvcount>
+    <cat_gsoc>gsoc</cat_gsoc>
+    <cat_doc>documentation</cat_doc>
+    <prj_status>production</prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>documentation;library;gsoc;</category>
+    <homepage>http://elinux.org/Userspace_Arduino</homepage>
+    <edit_skin>edit_project</edit_skin>
+    <render_skin>project</render_skin>
+    <http_referer>http://beagleboard.org/project/userspace-arduino/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>Almost everyone in the embedded community is familiar with the Arduino development environment. Creating the Arduino libraries for userspace could offer significant reduction in the development time of projects on the Beaglebone involving interfacing with external peripherals, with the added advantage of running other userspace applications side-by-side.</shortdesc>
+    <user>jkridner@gmail.com</user>
+  </hopobject>
+</xmlroot>

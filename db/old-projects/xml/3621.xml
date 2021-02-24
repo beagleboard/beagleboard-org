@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3621" name="chromium" prototype="Page" created="1400757336326" lastModified="1540804836916">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>Chromium OS</pname>
+    <registrant>jkridner.wordpress.com</registrant>
+    <uri>chromium</uri>
+    <time type="date">22.05.2014 11:15:36 UTC</time>
+    <updatetime type="date">22.05.2014 11:15:36 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;&lt;span style=&quot;font-family: Arial, Verdana, sans-serif; font-size: 13px;&quot;&gt;Chromium OS is an open-source project that aims to build an operating system that provides a fast, simple, and more secure computing experience for people who spend most of their time on the web.&lt;/span&gt;&lt;/p&gt;</body>
+    <imagefile>3621.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">15404.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;bbone;</boardtype>
+    <category>distro;</category>
+    <homepage>http://www.chromium.org/chromium-os/developer-guide/beaglebone</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>Chromium OS is an open-source project that aims to build an operating system that provides a fast, simple, and more secure computing experience for people who spend most of their time on the web.</shortdesc>
+    <user>jkridner.wordpress.com</user>
+  </hopobject>
+</xmlroot>

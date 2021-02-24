@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="3790" name="bbbandroid" prototype="Page" created="1411947065690" lastModified="1539973858913">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <pname>BBBAndroid</pname>
+    <registrant>bbbandroid.wordpress.com</registrant>
+    <uri>bbbandroid</uri>
+    <time type="date">28.09.2014 23:31:05 UTC</time>
+    <updatetime type="date">28.09.2014 23:31:05 UTC</updatetime>
+    <projstatus>complete</projstatus>
+    <body>&lt;p&gt;BBBAndroid is a customized port of AOSP 4.4.4 (Android KitKat) for the BeagleBone Black. &amp;nbsp;Using a combination of the 3.8 Linux kernel and the AOSP and Rowboat repos, this flavor of Android focuses on a smoother build experience and providing kernel capemgr functionality and flexibility to the end-user. A pre-made image for an 8+ GB microSD card is available for download, and instructions for building BBBAndroid from source are provided.&lt;/p&gt;</body>
+    <imagefile>3790.jpeg</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">60220.0</pvcount>
+    <prj_status></prj_status>
+    <boardtype>bbblack;</boardtype>
+    <category>distro;</category>
+    <homepage>http://www.bbbandroid.org</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <errmsg></errmsg>
+    <shortdesc>A customized port of Android KitKat for the BeagleBone Black</shortdesc>
+    <user>bbbandroid.wordpress.com</user>
+  </hopobject>
+</xmlroot>

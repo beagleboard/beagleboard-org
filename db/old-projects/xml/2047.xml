@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="2047" name="OpenRTDynamics" prototype="Page" created="1341655588464" lastModified="1540805948011">
+  <hop:parent idref="20" prototyperef="Page"/>
+    <brd_board>bboard</brd_board>
+    <cat_lib>library</cat_lib>
+    <cat_robot>robotics</cat_robot>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>92.231.217.239</http_remotehost>
+    <pname>OpenRTDynamics</pname>
+    <registrant>christianausb.myopenid.com</registrant>
+    <brd_bone>bbone</brd_bone>
+    <prj_statusval>complete</prj_statusval>
+    <http_language>de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4</http_language>
+    <brd_xm>bbxm</brd_xm>
+    <uri>OpenRTDynamics</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36</http_browser>
+    <time type="date">01.04.2014 07:17:06 UTC</time>
+    <updatetime type="date">02.01.2014 14:21:44 UTC</updatetime>
+    <brd_black>bbblack</brd_black>
+    <hopsession>92.231.217.1w1w84pto10fj</hopsession>
+    <body>&lt;p&gt;This project is about bringing the real-time framework OpenRTDynamics to the Beagleboard. It enables data acquisition and processing (filters, state machines, data analysis) as well as remote monitoring / control capabilities via a TCP/IP Interface. Applications include: Robot control, sensor measurement applications along with automatic data analysis or everything that is based on regularly sampled data.&lt;/p&gt;
+&lt;p&gt;OpenRTDynamics (ORTD) is a framework for the implementation of advanced real-time control systems that use signal/block-based schematics (like Simulink or Scicos/Xcos) extended by several features like state machines and online-exchangeable sub-simulations. Besides, this framework properly handles multiple threads, their communication, allows to synchronise control systems to external events (e.g. variable timers or incoming network packages) and provides many other nice features. Because of a high-level schematic-description language -- in form of provided Scilab commands -- only a minimal implementation-effort (no error-prone C-programming) is required.&lt;/p&gt;
+&lt;p&gt;Additionally to standard approaches, ORTD features the ability to implement state machines represented by multiple, switching subsystems (each subsystem corresponds to one state). Since, subsystems can also run in the context of separated threads (with or without synchronisation to another one), e.g. high- and low frequency parts can be divided or computationally intensive tasks can run in the background. Because of a remote control interface and the ability to include Scilab-Code as computational functions (S-function like), ORTD is also ideally suited for laboratory automation. The ability to replace sub-schematics with new implementations and parameters during runtime removes the effort of restarting the main real-time program when new algorithms are (automatically) designed.&lt;/p&gt;
+&lt;h3&gt;Quick Installation on the target system&lt;/h3&gt;
+&lt;p&gt;A) Make sure you have the gnu compilers, perl and make on your target system (should be the case)&lt;/p&gt;
+&lt;p&gt;B) Download the default package from&amp;nbsp;&lt;a href=&quot;http://sourceforge.net/projects/openrtdynamics/files/&quot;&gt;http://sourceforge.net/projects/openrtdynamics/files/&lt;/a&gt;&amp;nbsp;named&amp;nbsp;OpenRTDynamics_source_revXXX.sh; XXX stands for the current revision number.&lt;/p&gt;
+&lt;p&gt;C) Transfer this file to your BB and place it into a folder in which you would like to install the framework. A subdirectory will be created within this folder.&lt;/p&gt;
+&lt;p&gt;D) From inside the chosen folder run: $ sh OpenRTDynamics_source_revXXX.sh; The source code will be automatically extracted and compiled.&lt;/p&gt;
+&lt;p&gt;E) Follow the given instructions&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Please note: To start development of schematics you want to install the framework on a host computer system.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;Examples&lt;/h3&gt;
+&lt;p&gt;An example on how to access the GPIO hardware interface is now available. Have a look at the README-file, section &quot;INSTALLATION ON BEAGLEBONE&quot; or into the folder examples/beaglebone.&lt;/p&gt;
+&lt;p&gt;A web-interface to a control system:&amp;nbsp;&lt;a href=&quot;http://www.youtube.com/watch?v=Mln_JxfzLD0&quot;&gt;http://www.youtube.com/watch?v=Mln_JxfzLD0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://sourceforge.net/projects/openrtdynamics/files/&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Video Demonstration&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/_3j4Zu9wGhI&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;</body>
+    <imagefile>2047.png</imagefile>
+    <pseudoparent idref="20" prototyperef="Page"/>
+    <rssfeed></rssfeed>
+    <pvcount type="float">23523.0</pvcount>
+    <prj_status>complete</prj_status>
+    <categories></categories>
+    <boardtype>bbblack;bbone;bbxm;bboard;</boardtype>
+    <category>library;robotics;</category>
+    <homepage>http://openrtdynamics.sf.net</homepage>
+    <render_skin>project</render_skin>
+    <edit_skin>edit_project</edit_skin>
+    <http_referer>http://beagleboard.org/project/OpenRTDynamics/edit</http_referer>
+    <http_host>beagleboard.org</http_host>
+    <errmsg></errmsg>
+    <shortdesc>A framework for signal processing and real-time control. Port to Beagleboard / bone</shortdesc>
+    <user>christianausb.myopenid.com</user>
+  </hopobject>
+</xmlroot>
