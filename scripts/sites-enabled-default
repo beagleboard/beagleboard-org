@@ -161,6 +161,8 @@ server {
 	server_name beaglebone.com;
 	server_name www.beaglebone.com;
 	server_name www.beaglebone.cn;
+	server_name beagleboard.com;
+	server_name www.beagleboard.com;
 	server_name beagleboard.net;
 	server_name www.beagleboard.net;
 	return 303 https://beagleboard.org$request_uri;
@@ -182,6 +184,7 @@ server {
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+
 }
 
 server {
@@ -195,6 +198,8 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
 }
 
 server {
@@ -207,6 +212,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 
 }
 
@@ -221,6 +227,7 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
+
 }
 
 server {
@@ -233,6 +240,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 
 }
 
@@ -1991,6 +1999,7 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 
+
 }
 
 server {
@@ -2058,6 +2067,7 @@ server {
 
 
 
+
 }
 
 server {
@@ -2070,6 +2080,7 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
 
 }
 
@@ -2090,6 +2101,7 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
 
 
 }
@@ -2115,6 +2127,7 @@ server {
       proxy_pass http://127.0.0.1:8010;
       proxy_set_header X-Forwarded-For $remote_addr;
     }
+
 
 
 }
@@ -2155,6 +2168,7 @@ server {
 
     #return 301 https://chat.beagleboard.org;
 
+
 }
 
 upstream yacy {
@@ -2171,6 +2185,7 @@ server {
 	}
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
+
 
 }
 
@@ -2228,6 +2243,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/bbb.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
 
 
 }
