@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1596121077754">
+  <hopobject id="4386" name="Grove" prototype="Page" created="1578641573490" lastModified="1616520575259">
   <hop:parent idref="4385" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">cSRlYNxSIqTWoJSwFLWjH8jPqZ4/fYCXT5gasy9m+SD2xFSRN3XcZ1R3/Pi82XyhmnE6BLcG0E/pOq5LnKIRuKivX1OOdMf19OmMxwE9Yi+UUQm4MDRXHAlC0hf1VzHBIvjp+w0JRh3idfLD9Tk05rDE/zy7thKtyge6I3wHRqk8ha5UbSjdCmttH4SptNCHVFeuMpJO5SS08KnRAgvxqQlRr1SQfx2R7uqFy3TbWBOgbwIw3ZSTiuy0nuy37D+0wYUGNBsWAtn6s7sU+YDebrUdZrw8Y/MNPya+jgB1feCrohDuh554HhRmpVKj9amcFPHxh2v+y/EjHneJOEa+r9WQ7g==--O8m1xbIiWGpbjCq3--NbG0oWlbphvL6DZspWCjNw==</property>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTRNalUyTXpBME55NHdPVGt6TWpJMkJqc0FSZz09IiwiZXhwIjoiMjAyMS0wMi0yNFQxNjo1MDo0Ny4wOTlaIiwicHVyIjpudWxsfX0=--30fd35d85f1cef6dbbafc1c54323c856bed0368c</property>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>Grove</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:77.0) Gecko/20100101 Firefox/77.0</http_browser>
-    <time type="date">30.07.2020 14:57:57 UTC</time>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
+    <time type="date">23.03.2021 17:29:35 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.a6eu4bgndojb</hopsession>
+    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
     <tk_tc>ATlwEp+cwKpRwbHn</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;style&gt;
@@ -78,9 +78,9 @@ function off() {
     &lt;br /&gt;
     &lt;select class=&quot;dropdown&quot; id=&quot;buy-kit-grove&quot;&gt;
       &lt;option&gt;Select a distributor to buy&lt;/option&gt;
-      &lt;option value=&quot;https://www.mouser.com/ProductDetail/Seeed-Studio/110061161?qs=%2Fha2pyFaduiZ9rSvTHw7RNsUSKevMrWBBI2QR78SBLLnZz%2FrxcKMZ7L%252BRQnNUXtt&quot;&gt;Mouser&lt;/option&gt;
       &lt;option value=&quot;https://www.digikey.com/products/en?keywords=2820-110061161-ND&quot;&gt;DigiKey&lt;/option&gt;
-      &lt;option value=&quot;https://www.arrow.com/en/products/pocketbeagle-grove-kit/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
+      &lt;option value=&quot;https://www.mouser.com/ProductDetail/Seeed-Studio/110061161?qs=%2Fha2pyFaduiZ9rSvTHw7RNsUSKevMrWBBI2QR78SBLLnZz%2FrxcKMZ7L%252BRQnNUXtt&quot;&gt;Mouser&lt;/option&gt;
+      &lt;!-- &lt;option value=&quot;https://www.arrow.com/en/products/pocketbeagle-grove-kit/beagleboardorg&quot;&gt;Arrow&lt;/option&gt; --&gt;
     &lt;/select&gt;
   &lt;/div&gt;
 
@@ -300,10 +300,10 @@ height=&quot;925&quot;
     <pvcount type="float">0.0</pvcount>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
+    <http_referer>https://beagleboard.org/Kits/Grove/pangea</http_referer>
     <doxygen_width>300</doxygen_width>
-    <http_referer>https://beagleboard.org/Kits/Grove/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
