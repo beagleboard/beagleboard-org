@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4238" name="Page" prototype="Page" created="1486498588282" lastModified="1540693344507">
+  <hopobject id="4238" name="Page" prototype="Page" created="1486498588282" lastModified="1617128928641">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36</http_browser>
-    <lang>en-us</lang>
-    <uri>gsocml</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.02.2017 20:16:28 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1a0kwqouldodb</hopsession>
-    <user>jkridner.wordpress.com</user>
-    <pvcount type="float">2268.0</pvcount>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>gsocml</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
+    <time type="date">30.03.2021 18:28:48 UTC</time>
+    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;script&gt;
-    window.location = &quot;https://groups.google.com/forum/#!forum/beagleboard-gsoc&quot;;
+    window.location = &quot;https://forum.beagleboard.org/c/gsoc&quot;;
 &lt;/script&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <http_referer>http://beagleboard.org/gsocml/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">2268.0</pvcount>
+    <http_referer>https://beagleboard.org/gsocml/pangea</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
