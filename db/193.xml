@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="193" name="discuss" prototype="Page" created="1214843511799" lastModified="1615916109534">
+  <hopobject id="193" name="discuss" prototype="Page" created="1214843511799" lastModified="1617915221402">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -12,11 +12,14 @@
     <beagleirclog>000000</beagleirclog>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>discuss</uri>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
-    <time type="date">16.03.2021 17:35:09 UTC</time>
-    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0</http_browser>
+    <time type="date">08.04.2021 20:53:41 UTC</time>
+    <hopsession>127.0.0.7hlyq5nkfkb7</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>&lt;h1&gt;Forums &amp; Mailing Lists&lt;/h1&gt;
+    <body>&lt;script&gt;
+    goTracked(&apos;discuss&apos;, &apos;https://forum.beagleboard.org&apos;);
+&lt;/script&gt;
+&lt;h1&gt;Forums &amp; Mailing Lists&lt;/h1&gt;
 &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;https://groups.google.com/g/beagleboard&quot;&gt;BeagleBoard Forum&lt;/a&gt; - or email beagleboard at googlegroups.com&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://groups.google.com/g/beaglebone&quot;&gt;BeagleBone Forum&lt;/a&gt;&lt;/li&gt;    
@@ -97,12 +100,13 @@
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;</body>
     <pvcount type="float">270381.0</pvcount>
     <prev idref="192" prototyperef="Page"/>
-    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416322525:X=1416326125</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
+    <doxygen_width>300</doxygen_width>
     <http_referer>https://beagleboard.org/discuss/pangea</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
