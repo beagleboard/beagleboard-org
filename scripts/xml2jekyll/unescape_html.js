@@ -1,7 +1,9 @@
-var fs = require('fs');
-var jsdom = require('jsdom');
+#!/usr/bin/env node
+const fs = require('fs');
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
 
-var document = jsdom.jsdom('<html><head></head><body></body></html>');
+var document = new JSDOM('<html><head></head><body></body></html>');
 
 fs.readFile(process.argv[2], onReadFile);
 
