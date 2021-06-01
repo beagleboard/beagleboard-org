@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1622570065039">
+  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1622570505321">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0</http_browser>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -22,10 +22,26 @@
 &lt;h2&gt;What is a PRU-ICSS?&lt;/h2&gt;
 &lt;p&gt;Per &lt;a href=&quot;https://training.ti.com/pru-training-series&quot; class=&quot;external&quot;&gt;https://training.ti.com/pru-training-series:&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;PRU-ICSS / PRU-ICSSG is a small processor that is tightly integrated with an IO subsystem, offering low-latency control of IO pins on our Sitara™ SoC devices.&lt;/p&gt;
-&lt;p&gt;The Programmable Real-time Unit and Industrial Communications Subsystem (PRU-ICSS / PRU-ICSSG) is a small processor that is tightly integrated with an IO subsystem, offering low-latency control of IO pins on our SoC devices, including the AM335x, AM437x, AM57x, and AM65x Sitara™ processors.&lt;/p&gt;
-&lt;p&gt;The PRU-ICSS / PRU-ICSSG is customer-programmable and can be used to implement simple and flexible control functions, peripherals and state machines that directly access IO pins of the device, as well as can communicate with the application cores. It can also be used for industrial applications using the ICSS / ICSSG and a Sitara Industrial Development Kit (IDK). This curriculum provides an in-depth look at the PRU-ICSS / ICSSG, including hardware, firmware, application design and drivers. It also examines the tools provided for compiling and debugging the PRU.&lt;/p&gt;
+&lt;p&gt;The Programmable Real-time Unit and Industrial Communications Subsystem (PRU-ICSS / PRU-ICSSG) is a small processor that is tightly integrated with an IO subsystem, offering low-latency control of IO pins on ... SoC devices, including the AM335x, AM437x, AM57x, and AM65x Sitara™ processors.&lt;/p&gt;
+&lt;p&gt;The PRU-ICSS / PRU-ICSSG is customer-programmable and can be used to implement simple and flexible control functions, peripherals and state machines that directly access IO pins of the device, as well as can communicate with the application cores.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Why PRUs?&lt;/h2&gt;
+&lt;p&gt;A programmable real-time unit (PRU) is a fast (200-MHz, 32-bit) processor with
+single-cycle I/O access to a number of the pins and full access to the internal
+memory and peripherals on the AM3358 processor on BeagleBones (BeagleBone,
+BeagleBone Black, BeagleBone Green, etc.). They are design to provide software-defined
+peripherals as part of the Programmable Real-time Unit Industrial Control SubSystem (PRU-ICSS)
+and are capable of implementing things like 25 pulse-width modulators, 4 soft UARTs,
+stepper motor drivers and much more. Having these controllers integrated is really
+handy to avoid throwing in another device to control or interface to a new peripheral.
+The real power comes when you need high-bandwidth between the main CPU and these
+controllers, such as in &lt;a class=&quot;external&quot; href=&quot;http://beaglelogic.net&quot;&gt;BeagleLogic.net&lt;/a&gt;,
+&lt;a class=&quot;external&quot; href=&quot;http://machinekit.io&quot;&gt;MachineKit&lt;/a&gt; or &lt;a class=&quot;external&quot; href=&quot;https://trmm.net/Category:LEDscape#LEDscape&quot;&gt;LEDscape&lt;/a&gt;. Those are all super-cool projects to check out.
+&lt;/p&gt;
+&lt;p&gt;The MIT Center for Bits and Atoms did a study of a critical metric for building machines able to control the
+    physical world, a software ring oscillator. This metric may help to give some perpective on how much of a game-changer
+    having the PRU-ICSS is: &lt;A href=&quot;https://pub.pages.cba.mit.edu/ring/&quot; class=&quot;external&quot;&gt;https://pub.pages.cba.mit.edu/ring/&lt;/A&gt;.
+&lt;/p&gt;
 &lt;h2&gt;Links to good resources&lt;/h2&gt;
 &lt;p&gt;Check out the new &lt;a href=&quot;https://markayoder.github.io/PRUCookbook/&quot; class=&quot;external&quot;&gt;PRU Cookbook&lt;/a&gt;! &lt;/p&gt;
 &lt;p&gt;There are also PRU examples for &lt;a href=&quot;https://github.com/beagleboard/cloud9-examples/tree/v2020.01/BeagleBone/Black/pru&quot;&gt;BeagleBone Black&lt;/a&gt;,
@@ -43,19 +59,6 @@
 &lt;li&gt;&lt;a href=&quot;https://www.ti.com/lit/pdf/sprace8&quot;&gt;PRU read latencies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This page is still in development. You should also explore &lt;a class=&quot;external&quot; href=&quot;https://elinux.org/Category:PRU&quot;&gt;https://elinux.org/Category:PRU&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Why PRUs&lt;/h2&gt;
-&lt;p&gt;A programmable real-time unit (PRU) is a fast (200-MHz, 32-bit) processor with
-single-cycle I/O access to a number of the pins and full access to the internal
-memory and peripherals on the AM3358 processor on BeagleBones (BeagleBone,
-BeagleBone Black, BeagleBone Green, etc.). They are design to provide software-defined
-peripherals as part of the Programmable Real-time Unit Industrial Control SubSystem (PRU-ICSS)
-and are capable of implementing things like 25 pulse-width modulators, 4 soft UARTs,
-stepper motor drivers and much more. Having these controllers integrated is really
-handy to avoid throwing in another device to control or interface to a new peripheral.
-The real power comes when you need high-bandwidth between the main CPU and these
-controllers, such as in &lt;a class=&quot;external&quot; href=&quot;http://beaglelogic.net&quot;&gt;BeagleLogic.net&lt;/a&gt;,
-&lt;a class=&quot;external&quot; href=&quot;http://machinekit.io&quot;&gt;MachineKit&lt;/a&gt; or &lt;a class=&quot;external&quot; href=&quot;https://trmm.net/Category:LEDscape#LEDscape&quot;&gt;LEDscape&lt;/a&gt;. Those are all super-cool projects to check out.
-&lt;/p&gt;
 &lt;h2&gt;Latest example&lt;/h2&gt;
 &lt;p&gt;The latest examples on getting started with PRU programming are at &lt;a class=&quot;external&quot; href=&quot;https://github.com/jadonk/bone101/tree/gh-pages/examples/extras/pru&quot;&gt;/examples/extras/pru in Bone101&lt;/a&gt;.
 The list of examples there should be growing soon and is a bit small right now. You can learn about the architecture with the resources below, but getting a new image and using
@@ -185,7 +188,7 @@ var disqus_shortname = &apos;beagleboard-project&apos;;
     <pseudoparent idref="0" prototyperef="Root"/>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="hck.usi">1</property>
-    <time type="date">01.06.2021 17:54:25 UTC</time>
+    <time type="date">01.06.2021 18:01:45 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
