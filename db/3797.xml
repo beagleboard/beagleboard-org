@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1622565038788">
+  <hopobject id="3797" name="Page" prototype="Page" created="1412621357700" lastModified="1622569578331">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0</http_browser>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -52,8 +52,9 @@ controllers, such as in &lt;a class=&quot;external&quot; href=&quot;http://beagl
 The list of examples there should be growing soon and is a bit small right now. You can learn about the architecture with the resources below, but getting a new image and using
 the Bone101 examples should be the fastest path to getting your code compiled and running.
 &lt;/p&gt;
-&lt;h2&gt;Ron&apos;s presentation at ELC&lt;/h2&gt;
-&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/plCYsbmMbmY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;TI Introductory Video&lt;/h2&gt;
+&lt;!-- &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/plCYsbmMbmY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;--&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/J6MlJ7hSQLw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2&gt;PRU Workshop&lt;/h2&gt;
 &lt;p&gt;Materials from the &lt;a href=&quot;http://www.meetup.com/Southeast-Michigan-BeagleBone-Users-Group/events/203915072/&quot;&gt;PRU workshop held at the SE Michigan BeagleBone Users&apos; Group&lt;/a&gt; meetup will be uploaded here shortly.&lt;/p&gt;
 &lt;h3&gt;Workshop BealgeBone Black flasher image&lt;/h3&gt;
@@ -175,7 +176,7 @@ var disqus_shortname = &apos;beagleboard-project&apos;;
     <pseudoparent idref="0" prototyperef="Root"/>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="hck.usi">1</property>
-    <time type="date">01.06.2021 16:30:38 UTC</time>
+    <time type="date">01.06.2021 17:46:18 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
