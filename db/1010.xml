@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1010" name="ixenqysvzv" prototype="Page" created="1269468348142" lastModified="1624108660972">
+  <hopobject id="1010" name="gsoc" prototype="Page" created="1269468348142" lastModified="1617135146768">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -9,31 +9,196 @@
     <property propertyname="hck.sssn">HFZJwRkYJu/VB2yY8IiSBCjU8OXx1CpEfKGAtdbQmG/CBRsbs+uw3pTg8aVHTbP7/Gt7EUNMR15Cf8qoWOBGc0B5priVtSDQwiIAGcH78JEIQVBxYiscCeYFLODt6YM9FaPWLSw73RKgBuoEtsp7sevkzen3sjcd3pppMs/nfNvaUqblbZHTjwFilZo/6YvhfbtqDzl//tLC1wA0YlSiJsBXHodrmzX8yGXuSqqG/jDDfv4F//RNHGj6Vhq/ci3sBFxUOuiyle0EfMsEy1dR3jPTU2ad59IDu8/KSA4k78gIhtteMmwQ7/XjXxyuN79KgxePkzBNjhN6rOIf2ZG4lPEX--DmDham1xyqGHCm96--zU+IywZ9lWcp0FVrnZyTGA==</property>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UVTRNRGM1TURFek9DNHpOek0xTlRjMkJqc0FSZz09IiwiZXhwIjoiMjAyMS0wMi0wNFQwNDoyMjoxOC4zNzNaIiwicHVyIjpudWxsfX0=--a38f941df86562203e04b0f29a520137363a088f</property>
     <g_authuser_h2>0</g_authuser_h2>
-    <http_language>zh-CN</http_language>
-    <uri>ixenqysvzv</uri>
-    <http_browser>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)</http_browser>
-    <time type="date">19.06.2021 13:17:40 UTC</time>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>gsoc</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
+    <time type="date">30.03.2021 20:12:26 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.r0v9di3slndg</hopsession>
+    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
     <tk_tc>L0gU18NIIrfMw6n9</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>BeagleBoard.org - gsoc - edit
-&lt;a href=&quot;http://www.g8b93b6g095v67d1yj7tn1i4vhvi08g4s.org/&quot;&gt;aixenqysvzv&lt;/a&gt;
-[url=http://www.g8b93b6g095v67d1yj7tn1i4vhvi08g4s.org/]uixenqysvzv[/url]
-ixenqysvzv http://www.g8b93b6g095v67d1yj7tn1i4vhvi08g4s.org/
+    <body>&lt;script&gt;
+    goTracked(&apos;gsoc&apos;, &quot;https://forum.beagleboard.org/t/27544&quot;);
+&lt;/script&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code&lt;/h1&gt;
+&lt;/p&gt;
+ &lt;h3&gt;What is Google Summer of Code?&lt;/h3&gt;
+ &lt;p&gt;&quot;Google Summer of Code is a global program that offers students stipends to write code for open source projects. We have worked with the open source community to 
+ identify and fund exciting projects for the upcoming summer.&quot; - &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;**&lt;/a&gt;&lt;/p&gt;
+ &lt;h3&gt;Status&lt;/h3&gt;
+ &lt;p&gt;We have been accepted as a mentoring organization for GSoC 2021!
+ You encouraged to join us
+ on &lt;a href=&quot;http://bbb.io/gsocchat&quot;&gt;http://bbb.io/gsocchat&lt;/a&gt; if you want
+ to get involved. Administrators are &apos;jkridner&apos; and &apos;cwicks&apos;. Our mentors last 
+ year were &apos;ds2&apos;, &apos;Abhishek_&apos;, &apos;ravikp7&apos;, &apos;m_w&apos;, &apos;pmezydlo&apos;, &apos;hendersa&apos;, &apos;pdp7&apos;,
+ &apos;zeekhuge&apos;, &apos;rma&apos;, &apos;sstabellini&apos;, &apos;julieng&apos;, and &apos;driain&apos;.&lt;/p&gt;
+ &lt;h3&gt;Step-by-step to get involved:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Sign up on the mailing list at &lt;a href=&quot;http://bbb.io/gsocml&quot;&gt;http://bbb.io/gsocml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Join the live chat at &lt;a href=&quot;http://bbb.io/gsocchat&quot;&gt;http://bbb.io/gsocchat&lt;/a&gt; (#beagle-gsoc) including weekly meetings every Wednesday at 12:30PM US Eastern time (&lt;a href=&quot;http://bbb.io/gsocmeet&quot;&gt;http://bbb.io/gsocmeet&lt;/a&gt;), which is 4:30PM UTC during US daylight savings time.&lt;/li&gt;
+&lt;li&gt;Read and contribute to our ideas list at &lt;a href=&quot;http://bbb.io/gsocideas&quot;&gt;http://bbb.io/gsocideas&lt;/a&gt; by following the instructions on the page.
+&lt;li&gt;Sign up on Google&apos;s system at &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;https://summerofcode.withgoogle.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;You can learn about some previous years&apos; projects below&lt;/h3&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2020&lt;/h1&gt;
+&lt;h3&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://elinux.org/BeagleBoard/GSoC/2020_Projects&quot;&gt;2020 Projects Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2019&lt;/h1&gt;
+&lt;h3&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://elinux.org/BeagleBoard/GSoC/2019_Projects&quot;&gt;2019 Projects Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2018&lt;/h1&gt;
+&lt;h3&gt;2018 videos&lt;/h3&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZreWjg2TLQDiUBdKGRy9TFVF&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2017&lt;/h1&gt;
+&lt;h3&gt;2017 project intro videos&lt;/h3&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZrcaT8qz2H38fUL3nlNI0lKX&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2016&lt;/h1&gt;
+&lt;p&gt;Google Summer of Code 2016 has completed! Read about the projects at the
+    &lt;a href=&quot;http://elinux.org/BeagleBoard/GSoC/2016_Projects&quot;&gt;2016 GSoC projects page&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h3&gt;2016 project videos&lt;/h3&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZreMT3hmfg10jJgVtRGyKJUh&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;h1&gt;BeagleBoard.org Google Summer of Code 2015&lt;/h1&gt;
+&lt;h3&gt;2015 project videos&lt;/h3&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLzq-XagGEZrdyhUefYObaVS9Xz8POe1cQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1&gt;BeagleBoard.org Google Summer of Code 2014&lt;/h1&gt;
+ &lt;p&gt;
+  BeagleBoard.org has been selected as a mentoring organization for
+  &lt;a class=&quot;external&quot; href=&quot;https://www.google-melange.com/gsoc/homepage/google/gsoc2014&quot;&gt;Google
+  Summer of Code 2014.&lt;/a&gt; For more information, visit the &lt;a class=&quot;external&quot; href=&quot;https://www.google-melange.com/gsoc/org2/google/gsoc2014/beagle&quot;&gt;
+    BeagleBoard.org organization page
+  &lt;/a&gt; and &lt;a class=&quot;external&quot; href=&quot;http://elinux.org/BeagleBoard/GSoC/Ideas&quot;&gt;project ideas
+      page
+  &lt;/a&gt; and &lt;a href=&quot;/blog/2014-02-25-beagleboardorg-mentoring-google-summer-of-code/&quot;&gt;
+      announcement blog post.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li&gt;
+   Join the
+   &lt;a class=&quot;external&quot; href=&quot;https://groups.google.com/group/beagleboard-gsoc&quot;&gt;BeagleBoard-GSoC mailing list&lt;/a&gt;
+   to get announcements and to simply be part of the discussion.  All official announcements will have the word &quot;Announce&quot; or &quot;Announcement&quot; in the subject line.
+  &lt;/li&gt;
+  &lt;li&gt;
+   For more information regarding the BeagleBoard.org GSoC 2013 projects, mentors and past GSoC projects please visit
+   &lt;a class=&quot;external&quot; href=&quot;http://eLinux.org/BeagleBoard/GSoC&quot;&gt;eLinux.org/BeagleBoard/GSoC.&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/iHVhG-9td0M?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/mp398Lkmzak?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/CIugTSnqcf4?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/irROS-2n0mU?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/CDbEAq33vdA?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/QymwVr9gY-Y?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;h1&gt;BeagleBoard.org Google Summer of Code 2013&lt;/h1&gt;
+ &lt;p&gt;
+  BeagleBoard.org has been selected as a mentoring organization for
+  &lt;a class=&quot;external&quot; href=&quot;https://google-melange.appspot.com/gsoc/org/google/gsoc2013/beagle&quot;&gt;Google
+  Summer of Code 2013.&lt;/a&gt; For more information, visit &lt;a class=&quot;external&quot;
+  href=&quot;beagleboard.blogspot.com/2013/06/beagleboardorg-google-summer-of-code.html&quot;&gt;
+      beagleboard.blogspot.com/2013/06/beagleboardorg-google-summer-of-code.html
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li&gt;
+   Join the
+   &lt;a class=&quot;external&quot; href=&quot;http://groups.google.com/group/beagleboard-gsoc&quot;&gt;BeagleBoard-GSoC mailing list&lt;/a&gt;
+   to get announcements and to simply be part of the discussion.  All official announcements will have the word &quot;Announce&quot; or &quot;Announcement&quot; in the subject line.
+  &lt;/li&gt;
+  &lt;li&gt;If you have a bit more tolerance for noise, join the general Google Summer of Code mailing list.  Approved mentors will automatically be added to the mentor mailing list, so there is no need to apply to that mailing list.&lt;/li&gt;
+  &lt;li&gt;
+   For more information regarding the BeagleBoard.org GSoC 2013 projects, mentors and past GSoC projects please visit
+   &lt;a class=&quot;external&quot; href=&quot;http://eLinux.org/BeagleBoard/GSoC&quot;&gt;eLinux.org/BeagleBoard/GSoC.&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/dxjaFsWYkAM?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/JTsZL-puy-E?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/1F0S5ajq-Ls?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;iframe src=&quot;https://www.youtube.com/embed/hxzoz6f4Q5w?showsearch=0&amp;modestbranding=1&quot; width=&quot;425&quot; height=&quot;319&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+ &lt;h1&gt;BeagleBoard.org Google Summer of Code 2010&lt;/h1&gt;
+ &lt;p&gt;
+  BeagleBoard.org has been accepted as a mentoring organization for the Google 
+  Summer of Code 2010.  For more information, visit
+  &lt;a class=&quot;external&quot; href=&quot;http://eLinux.org/BeagleBoard/GSoC&quot;&gt;eLinux.org/BeagleBoard/GSoC.&lt;/a&gt;
+ &lt;/p&gt;
+ &lt;h2&gt;Lightning talk introductions to Google Summer of Code&lt;/h2&gt;
+ &lt;p&gt;
+  In association with
+  &lt;a class=&quot;external&quot; href=&quot;http://www.ti.com/etechdays&quot;&gt;TI eTech Day on June 29,&lt;/a&gt;
+  BeagleBoard.org hosted a question and answer session with the BeagleBoard.org moderated Google Summer of Code students. You can learn more about their projects by watching the videos below.  Projects include USB sniffing, pulse-width modulation, XBMC optimizations, FFTW optimizations, OpenCV optimizations, and easy-to-use POSIX application development for the DSP.
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;/irclogs/index.php?date=2010-06-29#T14:00:20&quot;&gt;Logs from Q&amp;A session on June 29th&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;/chat&quot;&gt;Live chat room&lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h2&gt;BeagleBoard.org sponsored project introductions&lt;/h2&gt;
+ &lt;h3&gt;USB Sniffer&lt;/h3&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/wcGk4VmviU0&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/wcGk4VmviU0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
+ &lt;h3&gt;DSP-RPC-POSIX using C6Run&lt;/h3&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/c8z-UxFwsQA&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/c8z-UxFwsQA&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
+ &lt;p&gt;
+  &lt;a class=&quot;external&quot; href=&quot;https://www.vimeo.com/12796429&quot;&gt;C6Run presentation on Vimeo&lt;/a&gt;
+ &lt;/p&gt;
+ &lt;h3&gt;Pulse Width Modulation (PWM)&lt;/h3&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/d_vYMTuSGrM&amp;hl=en_US&amp;fs=1&amp;color1=0xe1600f&amp;color2=0xfebd01&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
+ &lt;h3&gt;OpenCV&lt;/h3&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/TSgAzdaJ1Xo&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
+ &lt;h3&gt;XBMC Rendering Optimizations&lt;/h3&gt;
+ &lt;p&gt;My apologies for the audio quality on this one...&lt;/p&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/gvJ32T-W3Gw&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
+ &lt;h2&gt;Request to participate in Google Summer of Code&lt;/h2&gt;
+ &lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;
+  &lt;param name=&quot;movie&quot; value=&quot;https://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot;/&gt;
+  &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;
+  &lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;/&gt;
+  &lt;embed src=&quot;https://www.youtube.com/v/vBRRR0BQyz0&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;/&gt;
+ &lt;/object&gt;
 </body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">56112.0</pvcount>
-    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <g_enabled_idps>google</g_enabled_idps>
-    <http_referer>https://beagleboard.org/gsoc/pangea</http_referer>
-    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
     <doxygen_width>300</doxygen_width>
+    <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
+    <http_referer>https://beagleboard.org/gsoc/pangea</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>ddlytxc@outlook.com</lang>
     <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="4280" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
