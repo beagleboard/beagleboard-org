@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1626370023912">
+  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1626370930979">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0</http_browser>
     <registrant>blog.hangerhead.com</registrant>
@@ -74,53 +74,23 @@
          &lt;li&gt;&lt;a href=&quot;/bad-to-the-bone&quot;&gt;Bad to the Bone&lt;/a&gt;&lt;/li&gt;
      &lt;/ul&gt;&lt;/li&gt;
  &lt;/ul&gt;
-&lt;h1&gt;Terms and Compliance&lt;/h1&gt;
-&lt;h2 id=&quot;user-content-terms-and-conditions&quot;&gt;
-&lt;a id=&quot;user-content-12-terms-and-conditions&quot; class=&quot;anchor&quot; href=&quot;#12-terms-and-conditions&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12 Terms and Conditions&lt;/h2&gt;
+&lt;h1 id=&quot;compliance&quot;&gt;Terms and Compliance&lt;/h1&gt;
 &lt;div&gt;
 &lt;div&gt;
 &lt;h3 id=&quot;user-content-regulatory-compliance-and-export-information&quot;&gt;
 &lt;a id=&quot;user-content-121-regulatory-compliance-and-export-information&quot; class=&quot;anchor&quot; href=&quot;#121-regulatory-compliance-and-export-information&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12.1 REGULATORY, COMPLIANCE, AND EXPORT INFORMATION&lt;/h3&gt;
 &lt;div&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Country of origin: PRC&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;FCC: 2ATUT-BBONE-AI&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CE: TBD&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CNHTS: 8543909000&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;USHTS: 8473301180&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MXHTS: 84733001&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;TARIC: 8473302000&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ECCN: 5A992.C&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CCATS:
-&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai/blob/master/regulatory/Validation_Z1613110.pdf&quot;&gt;Z1613110/G180570&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;RoHS/REACH: TBD&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Volatility: TBD&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/tree/master/regulatory&quot;&gt;BeagleBone Black and BeagleBone Black Industrial regulatory documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black-wireless/tree/master/regulatory&quot;&gt;BeagleBone Black Wireless regulatory documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai/tree/master/regulatory&quot;&gt;BeagleBone AI regulatory documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue/tree/master/regulatory&quot;&gt;BeagleBone Blue regulatory documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/pocketbeagle/tree/master/regulatory&quot;&gt;PocketBeagle regulatory documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beagleboard-x15/tree/master/regulatory&quot;&gt;BeagleBoard-X15 regulatory documentation&lt;/a&gt;&lt;/li&gt;    
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div&gt;
-&lt;p&gt;BeagleBone AI is annotated to comply with Part 15 of the FCC Rules.
+&lt;p&gt;Beagles are typically annotated to comply with Part 15 of the FCC Rules.
 Operation is subject to the following two conditions: (1) This device
 may not cause harmful interference, and (2) this device must accept any
 interference received, including interference that may cause undesired
@@ -136,12 +106,22 @@ Cet appareil numérique de la classe A ou B est conforme à la norme
 NMB-003 du Canada. Les changements ou les modifications pas expressément
 approuvés par la partie responsible de la conformité ont pu vider
 l’autorité de l’utilisateur pour actionner l’équipement.&lt;/p&gt;
+&lt;p&gt;Please refer to the specific regulatory tested documentation linked above
+for your specific device.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
 &lt;h3 id=&quot;user-content-warranty-and-disclaimers&quot;&gt;
 &lt;a id=&quot;user-content-122-warranty-and-disclaimers&quot; class=&quot;anchor&quot; href=&quot;#122-warranty-and-disclaimers&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12.2 WARRANTY AND DISCLAIMERS&lt;/h3&gt;
 &lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black&quot;&gt;BeagleBone Black and BeagleBone Black Industrial design documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black-wireless&quot;&gt;BeagleBone Black Wireless design documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai&quot;&gt;BeagleBone AI design documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue&quot;&gt;BeagleBone Blue design documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/pocketbeagle&quot;&gt;PocketBeagle design documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beagleboard-x15&quot;&gt;BeagleBoard-X15 design documentation&lt;/a&gt;&lt;/li&gt;    
+&lt;/ul&gt;&apos;
 &lt;p&gt;The design materials referred to in this document are &lt;em&gt;*NOT SUPPORTED*&lt;/em&gt;
 and &lt;strong&gt;DO NOT&lt;/strong&gt; constitute a reference design. Support of the open source
 developer community is provided through the the resources defined at
@@ -172,7 +152,7 @@ meet your requirements.&lt;/p&gt;
 &lt;a id=&quot;user-content-1221-additional-terms&quot; class=&quot;anchor&quot; href=&quot;#1221-additional-terms&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12.2.1 Additional terms&lt;/h4&gt;
 &lt;div&gt;
 &lt;p&gt;BeagleBoard.org Foundation and logo-licensed manufacturers (together,
-henceforth identified as &quot;Supplier&quot;) provide BeagleBone AI under the
+henceforth identified as &quot;Supplier&quot;) provide this board under the
 following conditions:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div&gt;
@@ -181,8 +161,8 @@ handling of the goods. Further, the user indemnifies Supplier from all
 claims arising from the handling or use of the goods.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div&gt;
-&lt;p&gt;Should BeagleBone AI not meet the specifications indicated in the System
-Reference Manual, BeagleBone AI may be returned within 90 days from the
+&lt;p&gt;Should this board not meet the specifications indicated in the System
+Reference Manual, this board may be returned within 90 days from the
 date of delivery to the distributor of purchase for a full refund. THE
 FOREGOING LIMITED WARRANTY IS THE EXCLUSIVE WARRANTY MADE BY SELLER TO
 BUYER AND IS IN LIEU OF ALL OTHER WARRANTIES, EXPRESSED, IMPLIED, OR
@@ -216,7 +196,7 @@ services described herein.&lt;/p&gt;
 &lt;h4 id=&quot;user-content-for-feasibility-evaluation-only-in-laboratorydevelopment-environments&quot;&gt;
 &lt;a id=&quot;user-content-1231-for-feasibility-evaluation-only-in-laboratorydevelopment-environments&quot; class=&quot;anchor&quot; href=&quot;#1231-for-feasibility-evaluation-only-in-laboratorydevelopment-environments&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12.3.1 For Feasibility Evaluation Only, in Laboratory/Development Environments&lt;/h4&gt;
 &lt;div&gt;
-&lt;p&gt;BeagleBone AI is not a complete product. It is intended solely for use
+&lt;p&gt;This board is not a complete product. It is intended solely for use
 for preliminary feasibility evaluation in laboratory/development
 environments by technically qualified electronics experts who are
 familiar with the dangers and application risks associated with handling
@@ -237,7 +217,7 @@ be used as all or part of a finished end product.&lt;/p&gt;
 regulatory requirements (including but not limited to Food and Drug
 Administration regulations, if applicable) which relate to your products
 and which relate to your use (and/or that of your employees, affiliates,
-contractors or designees) of BeagleBone AI for evaluation, testing and
+contractors or designees) of this board for evaluation, testing and
 other purposes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -245,20 +225,20 @@ other purposes.&lt;/p&gt;
 compliance of your products with all such laws and other applicable
 regulatory requirements, and also to assure the safety of any activities
 to be conducted by you and/or your employees, affiliates, contractors or
-designees, using BeagleBone AI. Further, you are responsible to assure
-that any interfaces (electronic and/or mechanical) between BeagleBone AI
+designees, using this board. Further, you are responsible to assure
+that any interfaces (electronic and/or mechanical) between this board
 and any human body are designed with suitable isolation and means to
 safely limit accessible leakage currents to minimize the risk of
 electrical shock hazard.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Since BeagleBone AI is not a completed product, it may not meet all
+&lt;p&gt;Since this board is not a completed product, it may not meet all
 applicable regulatory and safety compliance standards which may normally
 be associated with similar items. You assume full responsibility to
 determine and/or assure compliance with any such standards and related
 certifications as may be applicable. You will employ reasonable
-safeguards to ensure that your use of BeagleBone AI will not result in
-any property damage, injury or death, even if BeagleBone AI should fail
+safeguards to ensure that your use of this board will not result in
+any property damage, injury or death, even if this board should fail
 to perform as described or expected.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -268,30 +248,30 @@ to perform as described or expected.&lt;/p&gt;
 &lt;h4 id=&quot;user-content-certain-instructions&quot;&gt;
 &lt;a id=&quot;user-content-1233-certain-instructions&quot; class=&quot;anchor&quot; href=&quot;#1233-certain-instructions&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;12.3.3 Certain Instructions&lt;/h4&gt;
 &lt;div&gt;
-&lt;p&gt;It is important to operate BeagleBone AI within Supplier’s recommended
+&lt;p&gt;It is important to operate this board within Supplier’s recommended
 specifications and environmental considerations per the user guidelines.
-Exceeding the specified BeagleBone AI ratings (including but not limited
+Exceeding the specified this board ratings (including but not limited
 to input and output voltage, current, power, and environmental ranges)
 may cause property damage, personal injury or death. If there are
 questions concerning these ratings please contact the Supplier
 representative prior to connecting interface electronics including input
 power and intended loads. Any loads applied outside of the specified
 output range may result in unintended and/or inaccurate operation and/or
-possible permanent damage to BeagleBone AI and/or interface electronics.
+possible permanent damage to this board and/or interface electronics.
 Please consult the System Reference Manual prior to connecting any load
-to BeagleBone AI output. If there is uncertainty as to the load
+to this board output. If there is uncertainty as to the load
 specification, please contact the Supplier representative. During normal
 operation, some circuit components may have case temperatures greater
 than 60 C as long as the input and output are maintained at a normal
 ambient operating temperature. These components include but are not
 limited to linear regulators, switching transistors, pass transistors,
 and current sense resistors which can be identified using BeagleBone
-AI’s schematic located at the link in BeagleBone AI’s System Reference
+AI’s schematic located at the link in this board’s System Reference
 Manual. When placing measurement probes near these devices during normal
 operation, please be aware that these devices may be very warm to the
 touch. As with all electronic evaluation tools, only qualified personnel
 knowledgeable in electronic measurement and diagnostics normally found
-in development environments should use BeagleBone AI.&lt;/p&gt;
+in development environments should use this board.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
@@ -301,10 +281,10 @@ in development environments should use BeagleBone AI.&lt;/p&gt;
 &lt;p&gt;You agree to defend, indemnify and hold Supplier, its licensors and
 their representatives harmless from and against any and all claims,
 damages, losses, expenses, costs and liabilities (collectively,
-&quot;Claims&quot;) arising out of or in connection with any use of BeagleBone AI
+&quot;Claims&quot;) arising out of or in connection with any use of this board
 that is not in accordance with the terms of the agreement. This
 obligation shall apply whether Claims arise under law of tort or
-contract or any other legal theory, and even if BeagleBone AI fails to
+contract or any other legal theory, and even if this board fails to
 perform as described or expected.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -332,7 +312,7 @@ such intent and enter into a separate Assurance and Indemnity Agreement.&lt;/p&g
     <mcpopupclosed>yes</mcpopupclosed>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">15.07.2021 17:27:03 UTC</time>
+    <time type="date">15.07.2021 17:42:10 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
