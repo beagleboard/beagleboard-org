@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1626371753474">
+  <hopobject id="121" name="support" prototype="Page" created="1211119052705" lastModified="1626372171188">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0</http_browser>
     <registrant>blog.hangerhead.com</registrant>
@@ -27,6 +27,16 @@
     or others. Be sure to provide a link to your questions on the community forums as
     answers will be provided there.
 &lt;/p&gt;
+&lt;h2&gt;System Reference Manual&lt;/h2&gt;
+&lt;p&gt;Please make sure you have read the documentation prior to seeking support.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual&quot;&gt;BeagleBone Black and BeagleBone Black Industrial System Reference Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-black-wireless/wiki/System-Reference-Manual&quot;&gt;BeagleBone Black Wireless System Reference Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/System-Reference-Manual&quot;&gt;BeagleBone AI System Reference Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beaglebone-blue/wiki/System-Reference-Manual&quot;&gt;BeagleBone Blue System Reference Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual&quot;&gt;PocketBeagle System Reference Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/beagleboard/beagleboard-x15/wiki/System-Reference-Manual&quot;&gt;BeagleBoard-X15 System Reference Manual&lt;/a&gt;&lt;/li&gt;        
+&lt;/ul&gt;
 &lt;h1&gt;Community resources&lt;/h1&gt;
  &lt;p&gt;Please execute the board diagnostics, review the hardware documentation, and 
  consult the mailing list and IRC channel for support. BeagleBoard.org is a &quot;community&quot;
@@ -312,7 +322,7 @@ such intent and enter into a separate Assurance and Indemnity Agreement.&lt;/p&g
     <mcpopupclosed>yes</mcpopupclosed>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">15.07.2021 17:55:53 UTC</time>
+    <time type="date">15.07.2021 18:02:51 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
