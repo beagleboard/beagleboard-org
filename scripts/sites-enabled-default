@@ -139,7 +139,7 @@ server {
 	server_name riskyboard.com;
 	server_name riskyboards.org;
 	server_name riskyboards.com;
-	return 303 https://beagleboard.org/beaglev;
+	return 303 https://beaglev.org;
 
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/bbb.io/fullchain.pem; # managed by Certbot
@@ -296,6 +296,7 @@ server {
 
 		if (!-e $request_filename) {
 			rewrite_log on;
+			#rewrite /blog/wp-admin$ /blog/wp-admin/index.php last;
                 	rewrite ^(/[^/]+)?(/wp-.*) /blog/$2 last;
                 	rewrite ^/blog/(.*)$ /blog/index.php?q=$1 last;
 		}
@@ -345,9 +346,14 @@ server {
 		proxy_set_header  X-Secure true;
 	}
 
+	location /owncloud {
+		proxy_pass	http://127.0.0.1:8081;
+	}
+
 	location ~* /project/?$ {
 		rewrite ^/.* https://$server_name/p permanent;
 	}
+
 	location ~* /project/tor {
 		rewrite ^/.* https://$server_name/+134e59 permanent;
 	}
@@ -2048,6 +2054,10 @@ server {
 		}
 	}
 
+	location /owncloud {
+		proxy_pass	http://127.0.0.1:8081;
+	}
+
 	location / {
 		proxy_pass	http://127.0.0.1:8080;
 		gzip		on;
@@ -2120,6 +2130,29 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
+
+}
+
+server {
+	server_name	docs.beagleboard.org;
+	root /mnt/workspace/docs/_build/html;
+
+	location / {
+		fancyindex on;
+		#fancyindex_header "/static/fi-theme/header.html";
+		#fancyindex_footer "/static/fi-theme/footer.html";
+		#fancyindex_ignore "fi-theme";
+		#fancyindex_ignore "Nginx-Fancyindex-Theme";
+		fancyindex_name_length 255;
+		fancyindex_localtime on;
+	}
+
+    listen 80; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
 
