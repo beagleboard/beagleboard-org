@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1591197999897">
+  <hopobject id="280" name="resources" prototype="Page" created="1217169527024" lastModified="1631645059096">
   <hop:parent idref="0" prototyperef="Root"/>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -11,11 +12,11 @@
     <oauth2-token></oauth2-token>
     <g_authuser_h2>0</g_authuser_h2>
     <beagleirclog>000000</beagleirclog>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <uri>resources</uri>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36</http_browser>
-    <time type="date">03.06.2020 15:26:39 UTC</time>
-    <hopsession>127.0.0.pcpanpqylycx</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0</http_browser>
+    <time type="date">14.09.2021 18:44:19 UTC</time>
+    <hopsession>127.0.0.62wozm595jly</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body> &lt;h1&gt;Resource Links for the BeagleBoard.org Community&lt;/h1&gt;
  &lt;p&gt;The open-source BeagleBoard.org designs are perfect for rapidly building
@@ -44,6 +45,10 @@
       that brought us the original BeagleBoard, BeagleBoard-xM, BeagleBoard-X15, BeagleBone,
       and BeagleBone Black. He&apos;s an obvious first choice when looking to customize a BeagleBoard.org
       design or build your own.
+  &lt;/ul&gt;
+  &lt;ul&gt;&lt;a href=&quot;https://embedconsult.com&quot; class=&quot;external&quot;&gt;JK Embedded Consulting&lt;/a&gt; - Jason Kridner, Principal at
+      JK Embedded Consulting, is the other primary founder of BeagleBoard.org and is also available
+      to work with you on products to work in conjunction with BeagleBoard.org designs.
   &lt;/ul&gt;
   &lt;h3&gt;Manufacturing Partners&lt;/h3&gt;
   &lt;ul&gt;
@@ -94,11 +99,11 @@
     <pvcount type="float">37903.0</pvcount>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <g_enabled_idps>google</g_enabled_idps>
+    <http_referer>https://beagleboard.org/resources/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
-    <http_referer>https://beagleboard.org/resources/tide</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="314" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
