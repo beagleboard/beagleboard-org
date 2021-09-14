@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="0" name="root" prototype="Root" created="1202803640112" lastModified="1626962272534">
+  <hopobject id="0" name="root" prototype="Root" created="1202803640112" lastModified="1631644598177">
     <user idref="5" prototyperef="User"/>
     <hop:child idref="7" prototyperef="Page"/>
     <hop:child idref="8" prototyperef="Page"/>
@@ -337,5 +337,6 @@
     <hop:child idref="4413" prototyperef="Page"/>
     <hop:child idref="4414" prototyperef="Page"/>
     <hop:child idref="4415" prototyperef="Page"/>
+    <hop:child idref="4416" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
