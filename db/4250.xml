@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4250" name="xm" prototype="Page" created="1493861281936" lastModified="1567631748441">
+  <hopobject id="4250" name="xm" prototype="Page" created="1493861281936" lastModified="1641326306389">
   <hop:parent idref="3268" prototyperef="Page"/>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <uri>xm</uri>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
-    <time type="date">04.09.2019 21:15:48 UTC</time>
-    <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0</http_browser>
+    <time type="date">04.01.2022 19:58:26 UTC</time>
+    <hopsession>127.0.0.jwrjo2ceqra7</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-xm&quot;&gt;
     &lt;option&gt;Select distributor to buy&lt;/option&gt;
-    &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardxm/beagleboardorg&quot;&gt;Arrow&lt;/option&gt;
+    &lt;!-- &lt;option value=&quot;https://www.arrow.com/en/products/beagleboardxm/beagleboardorg&quot;&gt;Arrow&lt;/option&gt; --&gt;
     &lt;option value=&quot;http://www.digikey.com/products/en?keywords=1777-1000-ND&quot;&gt;Digi-Key&lt;/option&gt;
     &lt;option value=&quot;http://www.mouser.com/new/beagleboardorg/beagleboardxm/&quot;&gt;Mouser&lt;/option&gt;
 &lt;/select&gt;
@@ -47,7 +48,8 @@
     <pvcount type="float">8.0</pvcount>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
-    <http_referer>http://beagleboard.org/distributors/xm/tide</http_referer>
+    <http_referer>https://beagleboard.org/distributors/xm/hopper</http_referer>
+    <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
     <lang>en-us</lang>
