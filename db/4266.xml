@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4266" name="pb" prototype="Page" created="1505866411573" lastModified="1636479086749">
+  <hopobject id="4266" name="pb" prototype="Page" created="1505866411573" lastModified="1641326092096">
   <hop:parent idref="3268" prototyperef="Page"/>
     <userid>40774</userid>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
@@ -11,32 +11,32 @@
     <sessionlandingpage>/p/pocketbeagle</sessionlandingpage>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>pb</uri>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0</http_browser>
-    <time type="date">09.11.2021 17:31:26 UTC</time>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0</http_browser>
+    <time type="date">04.01.2022 19:54:52 UTC</time>
     <hopsession>127.0.0.jwrjo2ceqra7</hopsession>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-pb&quot;&gt;
   &lt;option&gt;Select distributor to buy&lt;/option&gt;
   &lt;!-- &lt;option value=&quot;https://www.newark.com/beagleboard/bb-pocket/silicon-manufacturer-octave-systems/dp/45AC6372&quot;&gt;Element14&lt;/option&gt; --&gt;
   &lt;option value=&quot;https://www.digikey.com/pocketbeagle&quot;&gt;Digi-Key&lt;/option&gt;
-  &lt;option value=&quot;https://www.arrow.com/pocketbeagle&quot;&gt;Arrow&lt;/option&gt;
+  &lt;!-- &lt;option value=&quot;https://www.arrow.com/pocketbeagle&quot;&gt;Arrow&lt;/option&gt; --&gt;
   &lt;option value=&quot;https://www.mouser.com/pocketbeagle&quot;&gt;Mouser&lt;/option&gt;
 &lt;/select&gt;</body>
     <pseudoparent idref="3268" prototyperef="Page"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">12.0</pvcount>
     <sessionreferrer>beagleboard.org</sessionreferrer>
-    <render_skin>bare</render_skin>
     <initiallandingpage>/p</initiallandingpage>
+    <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
-    <doxygen_width>300</doxygen_width>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>https://beagleboard.org/distributors/pb/hopper</http_referer>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <http_referer>https://beagleboard.org/distributors/pb/hopper</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
+    <doxygen_width>300</doxygen_width>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
