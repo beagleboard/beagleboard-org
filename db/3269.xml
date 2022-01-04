@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1617122324327">
+  <hopobject id="3269" name="black" prototype="Page" created="1386144082600" lastModified="1641326180254">
   <hop:parent idref="3268" prototyperef="Page"/>
     <skin_is_outer>1</skin_is_outer>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0</http_browser>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
     <lang>en-us</lang>
@@ -15,7 +15,7 @@
     <http_remotehost>127.0.0.1</http_remotehost>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <initiallandingpage>/p</initiallandingpage>
-    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
+    <hopsession>127.0.0.jwrjo2ceqra7</hopsession>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427696432:X=1427700032</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <is_xhtml type="boolean">true</is_xhtml>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU2ODczMzU4Ni40ODQ5ODU0BjsARg==--711a801a6a561986adfa8f215a428458c139456c</property>
@@ -23,7 +23,7 @@
     &lt;option&gt;Select distributor to buy&lt;/option&gt;
         &lt;option value=&quot;https://www.newark.com/seeed-studio/102110420/beaglebone-black-rohs-compliant/dp/88AH7402&quot;&gt;Newark&lt;/option&gt;
         &lt;option value=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-Seeed-Studio/102110420?qs=vmHwEFxEFR8FZOWBwz8ZDA%3D%3D&quot;&gt;Mouser&lt;/option&gt;
-        &lt;option value=&quot;https://www.arrow.com/en/products/beaglebone-black/seeed-technology-limited&quot;&gt;Arrow&lt;/option&gt;
+        &lt;!-- &lt;option value=&quot;https://www.arrow.com/en/products/beaglebone-black/seeed-technology-limited&quot;&gt;Arrow&lt;/option&gt; --&gt;
         &lt;option value=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110420/12719590&quot;&gt;Digi-Key&lt;/option&gt;
         &lt;option value=&quot;https://uk.farnell.com/b/beagleboard&quot;&gt;Farnell&lt;/option&gt;
         &lt;option value=&quot;https://www.okdo.com/us/p/beaglebone-black-rev-c/&quot;&gt;OKdo&lt;/option&gt;
@@ -127,19 +127,21 @@
     &lt;/optgroup&gt;    
 --&gt;
 </body>
-    <http_referer>https://beagleboard.org/distributors/black/pangea</http_referer>
+    <http_referer>https://beagleboard.org/distributors/black/hopper</http_referer>
+    <doxygen_width>300</doxygen_width>
     <user>default</user>
     <http_host>127.0.0.1:8080</http_host>
     <mcpopupclosed>yes</mcpopupclosed>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <pseudoparent idref="3268" prototyperef="Page"/>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">30.03.2021 16:38:44 UTC</time>
+    <time type="date">04.01.2022 19:56:20 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <g_authuser_h2>0</g_authuser_h2>
     <render_skin>bare</render_skin>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <pvcount type="float">163.0</pvcount>
