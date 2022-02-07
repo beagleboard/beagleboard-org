@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4420" name="server" prototype="Page" created="1644272077474" lastModified="1644272077550">
+  <hopobject id="4420" name="server" prototype="Page" created="1644272077474" lastModified="1644272102025">
   <hop:parent idref="4419" prototyperef="Page"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6ImNmYTZhNDgwLTNiOTYtNDkwNS04YWU0LTdiMTU4YTI4NDFlYlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYyMzE1ODEyMzc1MCwibGFzdEV2ZW50VGltZSI6MTYyMzE1ODEyNTU0MCwiZXZlbnRJZCI6MiwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjJ9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -17,6 +17,8 @@
 }</body>
     <pseudoparent idref="4419" prototyperef="Page"/>
     <pvcount type="float">0.0</pvcount>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
     <http_referer>https://beagleboard.org/.well-known/matrix/server/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
