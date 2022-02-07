@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4419" name="matrix" prototype="Page" created="1644272060821" lastModified="1644272077474">
-  <hop:parent idref="4418" prototyperef="Page"/>
+  <hopobject id="4420" name="server" prototype="Page" created="1644272077474" lastModified="1644272077550">
+  <hop:parent idref="4419" prototyperef="Page"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6ImNmYTZhNDgwLTNiOTYtNDkwNS04YWU0LTdiMTU4YTI4NDFlYlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYyMzE1ODEyMzc1MCwibGFzdEV2ZW50VGltZSI6MTYyMzE1ODEyNTU0MCwiZXZlbnRJZCI6MiwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjJ9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1674569018|pDru6Ic6LluZQR5NYS7WUlCLhUsAv5AqpCNeQIlZ9tW|c12f13d6c7113628029e7c3172dea7d844cd251bf450c6b5f41882399227aa89</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
-    <uri>matrix</uri>
+    <uri>server</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0</http_browser>
-    <time type="date">07.02.2022 22:14:20 UTC</time>
+    <time type="date">07.02.2022 22:14:37 UTC</time>
     <hopsession>127.0.0.lxm58o7j6jpr</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>matrix</body>
-    <pseudoparent idref="4418" prototyperef="Page"/>
+    <body>{
+    &quot;m.server&quot;: &quot;beagle.ems.host:443&quot;
+}</body>
+    <pseudoparent idref="4419" prototyperef="Page"/>
     <pvcount type="float">0.0</pvcount>
-    <http_referer>https://beagleboard.org/.well-known/matrix/hopper</http_referer>
+    <http_referer>https://beagleboard.org/.well-known/matrix/server/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
     <lang>en-us</lang>
     <user>default</user>
-    <hop:child idref="4420" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
