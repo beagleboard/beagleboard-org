@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1010" name="gsoc" prototype="Page" created="1269468348142" lastModified="1617135146768">
+  <hopobject id="1010" name="gsoc" prototype="Page" created="1269468348142" lastModified="1645024003625">
   <hop:parent idref="0" prototyperef="Root"/>
     <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
@@ -11,16 +11,18 @@
     <g_authuser_h2>0</g_authuser_h2>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>gsoc</uri>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
-    <time type="date">30.03.2021 20:12:26 UTC</time>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0</http_browser>
+    <time type="date">16.02.2022 15:06:43 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
+    <hopsession>127.0.0.1dwfa1vqqvhbd</hopsession>
     <tk_tc>L0gU18NIIrfMw6n9</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;script&gt;
     goTracked(&apos;gsoc&apos;, &quot;https://forum.beagleboard.org/t/27544&quot;);
 &lt;/script&gt;
 &lt;h1&gt;BeagleBoard.org Google Summer of Code&lt;/h1&gt;
+&lt;p&gt;
+This page has moved to our forum at &lt;a href=&quot;https://forum.beagleboard.org/t/27544&quot;&gt;forum.beagleboard.org/c/gsoc&lt;/a&gt;.
 &lt;/p&gt;
  &lt;h3&gt;What is Google Summer of Code?&lt;/h3&gt;
  &lt;p&gt;&quot;Google Summer of Code is a global program that offers students stipends to write code for open source projects. We have worked with the open source community to 
@@ -190,15 +192,15 @@
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">56112.0</pvcount>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=ed8ebf4993dcba4b00c92a36e7ae2719ccd2b834..154b:I=1427695908:X=1427699508</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <g_enabled_idps>google</g_enabled_idps>
-    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/gsoc/hopper</http_referer>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
-    <http_referer>https://beagleboard.org/gsoc/pangea</http_referer>
+    <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
     <hop:child idref="4280" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
