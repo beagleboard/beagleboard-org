@@ -120,6 +120,8 @@
 #}
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name beagle5.org;
 	server_name beaglev.com;
 	server_name beagle5.com;
@@ -169,6 +171,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     server_name beaglev.org;
     root /mnt/wordpress;
     index  index.php;
@@ -198,6 +202,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name bbb.io;
 	server_name beagle.cc;
 	server_name www.beagleboard.org;
@@ -227,6 +233,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	listen 80;
 	server_name 星光.org;
 	server_name xn--54qu12c.org;
@@ -243,6 +251,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	listen 80;
 	server_name beaglebone.ai;
 	server_name www.beaglebone.ai;
@@ -261,6 +271,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name debexpo.beagleboard.net;
 	return 303 https://debexpo.beagleboard.org$request_uri;
 
@@ -274,6 +286,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name debian.beagleboard.net;
 	return 303 https://debian.beagleboard.org$request_uri;
 
@@ -287,6 +301,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name builds.beagleboard.net;
 	return 303 https://builds.beagleboard.org$request_uri;
 
@@ -300,6 +316,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name beagleboard.org;
 	root /mnt/wordpress;
 
@@ -2032,6 +2050,11 @@ server {
 		gzip_types text/plain text/css text/xml text/javascript test/html application/x-javascript;
 		gzip_disable "MSIE [1-6]\.";
 
+		location /.well-known/matrix/client {
+			add_header Access-Control-Allow-Origin: *;
+			proxy_pass	http://127.0.0.1:8080/.well-known/matrix/client;
+		}
+
 		location /static {
 			add_header Cache-Control max-age=86400;
 			proxy_pass	http://127.0.0.1:8080/static;
@@ -2063,6 +2086,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	staging.beagleboard.org;
 
 	# Short links for projects (prefix with '+')
@@ -2136,6 +2161,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	debexpo.beagleboard.org;
 
 	location / {
@@ -2154,6 +2181,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	debian.beagleboard.org;
 	server_name	debian.beagle.cc;
 	root /mnt/debian/;
@@ -2184,6 +2213,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	docs.beagleboard.org;
 	root /mnt/workspace/docs/_build/html;
 
@@ -2210,6 +2241,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     server_name chat.beagleboard.org;
 
     # If you don't wanna serve a site, comment this out
@@ -2234,6 +2267,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     server_name matrix.beagleboard.org;
 
     # If you don't wanna serve a site, comment this out
@@ -2276,6 +2311,8 @@ upstream yacy {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	search.beagleboard.org;
 
 	location / {
@@ -2301,6 +2338,8 @@ upstream buildbot {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     server_name builds.beagleboard.org;
 
     root html;
@@ -2308,7 +2347,8 @@ server {
 
     add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
 
-    access_log  /var/log/nginx/buildbot.access.log;
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 
     proxy_set_header HOST $host;
     proxy_set_header X-Real-IP $remote_addr;
@@ -2400,6 +2440,8 @@ server {
 
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = beagleboard.com) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2446,6 +2488,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	listen 80;
 	server_name beaglev.org;
 	server_name beagle5.org;
@@ -2472,6 +2516,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	listen 80;
 	listen [::]:80 ipv6only=on;
 	server_name beagleboard.org;
@@ -2479,6 +2525,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = builds.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2490,6 +2538,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = builds.beagleboard.net) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2501,6 +2551,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = chat.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2512,6 +2564,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = debexpo.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2523,6 +2577,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = debexpo.beagleboard.net) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2534,6 +2590,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = debian.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2545,6 +2603,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = debian.beagleboard.net) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2556,6 +2616,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = matrix.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2567,6 +2629,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = search.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2578,6 +2642,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     if ($host = staging.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
@@ -2589,6 +2655,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
     server_name blabl.space;
     listen 80;
 
@@ -2596,6 +2664,8 @@ server {
 }
 
 server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
 	server_name	blabl.space;
 
 	location / {
