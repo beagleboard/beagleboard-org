@@ -150,24 +150,6 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
     add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 server {
@@ -2089,6 +2071,8 @@ server {
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
 	server_name	staging.beagleboard.org;
+	root /mnt/wordpress;
+    index  index.php;
 
 	# Short links for projects (prefix with '+')
 	location ~ ^/\+(.*)$ {
@@ -2100,32 +2084,27 @@ server {
 		return 303 https://$server_name/blog/$1;
 	}
 
-	location /blog {
-		alias /mnt/wordpress-staging;
-		index  index.php;
-
-		if (!-e $request_filename) {
-			rewrite_log on;
-                	rewrite ^(/[^/]+)?(/wp-.*) /$2 break;
-                	rewrite ^/(.*)$ /index.php?q=$1 last;
-		}
-
-		try_files $uri $uri/ /index.php?$args;
+	location / {
+		#try_files $uri $uri/ /index.php$is_args$args;
+		try_files $uri $uri/ =404;
 
 		location ~ \.php$ {
 			fastcgi_split_path_info ^(.+\.php)(.+)$;
-			fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+			fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
 			fastcgi_index index.php;
 			include fastcgi_params;
 			fastcgi_param SCRIPT_FILENAME $request_filename;
 		}
+
+		error_page 404 = @fallback;
+
 	}
 
 	location /owncloud {
 		proxy_pass	http://127.0.0.1:8081;
 	}
 
-	location / {
+        location @fallback {
 		proxy_pass	http://127.0.0.1:8080;
 		gzip		on;
 		gzip_min_length	1000;
@@ -2133,21 +2112,6 @@ server {
 		gzip_proxied expired no-cache no-store private auth;
 		gzip_types text/plain text/css text/xml text/javascript test/html application/x-javascript;
 		gzip_disable "MSIE [1-6]\.";
-
-		location /static {
-			add_header Cache-Control max-age=86400;
-			proxy_pass	http://127.0.0.1:8080/static;
-		}
-
-		location /librobotcontrol {
-			add_header Cache-Control max-age=86400;
-			proxy_pass	http://127.0.0.1:8080/static/librobotcontrol;
-		}
-
-		location /prucookbook {
-			add_header Cache-Control max-age=86400;
-			proxy_pass	http://127.0.0.1:8080/static/prucookbook;
-		}
 	}
 
     listen 443 ssl; # managed by Certbot
