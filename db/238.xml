@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="238" name="terms" prototype="Page" created="1216302046625" lastModified="1540820261688">
+  <hopobject id="238" name="terms" prototype="Page" created="1216302046625" lastModified="1645143266425">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.1) Gecko/2008070206 Firefox/3.0.1</http_browser>
-    <lang>en-us</lang>
-    <uri>terms</uri>
-    <http_host>beagleboard.org</http_host>
-    <time type="date">28.07.2008 05:10:57 UTC</time>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.76.31.18.f1ahu9rtl705</hopsession>
-    <user>blog.hangerhead.com</user>
-    <pvcount type="float">36293.0</pvcount>
-    <body>
- &lt;h1&gt;
-  &lt;strong&gt;UNDER CONSTRUCTION&lt;/strong&gt;
- &lt;/h1&gt;
- &lt;h1&gt;Terms and Conditions&lt;/h1&gt;
+    <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
+    <uri>terms</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0</http_browser>
+    <time type="date">18.02.2022 00:14:26 UTC</time>
+    <hopsession>127.0.0.15qmcl2vqmo4s</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body> &lt;h1&gt;Terms and Conditions&lt;/h1&gt;
  &lt;h2&gt;1. ACCEPTANCE OF TERMS&lt;/h2&gt;
  &lt;p&gt;
   BeagleBoard.org welcomes you.  BeagleBoard.org provides its service you subject to the following Terms of Service (&quot;TOS&quot;).  BeagleBoard.org reserves the right to make changes to this site and to the TOS at any time.  You can review the most current version of the TOS at any time at:
@@ -44,7 +40,11 @@
  &lt;h2&gt;7. SPECIFIC NOTICE REGARDING PRODUCTS PURCHASED OVER THIS SITE&lt;/h2&gt;
  &lt;p&gt;Products cannot be directly purchased over this site.&lt;/p&gt;
 </body>
-    <http_language>en-us,en;q=0.8,ja;q=0.5,zh;q=0.3</http_language>
-    <http_referer>http://beagleboard.org/terms/edit</http_referer>
+    <pvcount type="float">36293.0</pvcount>
+    <http_referer>https://beagleboard.org/terms/hopper</http_referer>
+    <doxygen_width>300</doxygen_width>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
