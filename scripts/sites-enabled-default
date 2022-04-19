@@ -122,10 +122,10 @@
 server {
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
-	listen 80;
+	listen 80 default_server;
 	listen [::]:80 ipv6only=on;
 	server_name beagleboard.org;
-        return 301 https://$host$request_uri;
+        return 302 https://beagleboard.org$request_uri;
 }
 
 server {
@@ -2422,30 +2422,6 @@ server {
 server {
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
-    if ($host = beagleboard.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleboard.cn) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleb.one) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = bbb.io) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
 
 	listen 80;
 	server_name bbb.io;
@@ -2464,6 +2440,10 @@ server {
 	server_name www.beagleboard.com;
 	server_name beagleboard.net;
 	server_name www.beagleboard.net;
+	server_name beagleplay.net;
+	server_name beagleplay.com;
+	server_name beagleplay.org;
+	server_name beagleplay.io;
         return 301 https://beagleboard.org$request_uri;
 }
 
