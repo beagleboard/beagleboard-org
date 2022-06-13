@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3268" name="distributors" prototype="Page" created="1386144073041" lastModified="1617123691408">
+  <hopobject id="3268" name="distributors" prototype="Page" created="1386144073041" lastModified="1655135673401">
   <hop:parent idref="0" prototyperef="Root"/>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <http_language>en-US,en;q=0.5</http_language>
-    <uri>distributors</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
+    <lang>en-us</lang>
+    <uri>distributors</uri>
+    <http_host>127.0.0.1:8080</http_host>
     <time type="date">30.03.2021 17:01:31 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1fhqxx0yzzgma</hopsession>
-    <mcpopupclosed>yes</mcpopupclosed>
+    <user>default</user>
+    <pvcount type="float">101.0</pvcount>
     <body>&lt;h1&gt;Official Distributors&lt;/h1&gt;
 &lt;h3&gt;&lt;a href=&quot;https://www.arrow.com/en/manufacturers/beagleboardorg&quot;&gt;Arrow&lt;/a&gt;&lt;/h3&gt;
 &lt;h3&gt;&lt;a href=&quot;https://uk.farnell.com/b/beagleboard&quot;&gt;Farnell&lt;/a&gt;&lt;/h3&gt;
@@ -20,13 +22,11 @@
 
 &lt;h2&gt;Individual product links&lt;/h2&gt;
 </body>
-    <pseudoparent idref="0" prototyperef="Root"/>
     <list_children>1</list_children>
-    <pvcount type="float">101.0</pvcount>
+    <http_language>en-US,en;q=0.5</http_language>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <mcpopupclosed>yes</mcpopupclosed>
     <http_referer>https://beagleboard.org/distributors/pangea</http_referer>
-    <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
-    <lang>en-us</lang>
     <hop:child idref="3269" prototyperef="Page"/>
     <hop:child idref="4106" prototyperef="Page"/>
     <hop:child idref="4199" prototyperef="Page"/>
@@ -38,5 +38,6 @@
     <hop:child idref="4364" prototyperef="Page"/>
     <hop:child idref="4398" prototyperef="Page"/>
     <hop:child idref="4399" prototyperef="Page"/>
+    <hop:child idref="4425" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
