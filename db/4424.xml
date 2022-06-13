@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4424" name="review" prototype="Page" created="1655135097449" lastModified="1655137430346">
+  <hopobject id="4424" name="review" prototype="Page" created="1655135097449" lastModified="1655137544478">
   <hop:parent idref="4416" prototyperef="Page"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjdmNmQyNTZiLTg4ZGEtNDViMC1iMWRmLWI1OTcxMmMyOGU1YlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY1NTEyOTQyOTA2MCwibGFzdEV2ZW50VGltZSI6MTY1NTEyOTQ5ODg0NSwiZXZlbnRJZCI6OCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjh9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,7 +9,7 @@
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>review</uri>
     <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0</http_browser>
-    <time type="date">13.06.2022 16:23:50 UTC</time>
+    <time type="date">13.06.2022 16:25:44 UTC</time>
     <hopsession>127.0.0.glhtbqk888lf</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
@@ -186,7 +186,7 @@ $(document).ready(function(){
 &lt;/div&gt;
 
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
-
+&lt;!--
 &lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/products/beaglebone-ai-64/embed?per_page=8&amp;col_class=col-sm-3&quot; 
 height=&quot;540&quot;
 width=&quot;100%&quot;
@@ -194,8 +194,7 @@ width=&quot;100%&quot;
   frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
  
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
-
-
+--&gt;
 </body>
     <pseudoparent idref="4416" prototyperef="Page"/>
     <pvcount type="float">0.0</pvcount>
