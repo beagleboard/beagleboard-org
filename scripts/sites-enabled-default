@@ -2116,7 +2116,7 @@ server {
     access_log syslog:server=unix:/dev/log;
 	server_name beaglebone.ai;
 	server_name www.beaglebone.ai;
-	return 303 https://beagleboard.org/ai;
+	return 303 https://beagleboard.org/ai-64;
 
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
@@ -2126,16 +2126,6 @@ server {
 
 
     add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
-
-
-
-
 }
 
 server {
