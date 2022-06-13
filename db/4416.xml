@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4416" name="ai-64" prototype="Page" created="1631644598176" lastModified="1655135097450">
+  <hopobject id="4416" name="ai-64" prototype="Page" created="1631644598176" lastModified="1655138574727">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0</http_browser>
     <lang>en-us</lang>
@@ -19,5 +19,6 @@
     <http_language>en-US,en;q=0.5</http_language>
     <http_referer>https://beagleboard.org/ai-64/hopper</http_referer>
     <hop:child idref="4424" prototyperef="Page"/>
+    <hop:child idref="4426" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
