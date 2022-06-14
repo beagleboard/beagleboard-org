@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1567636292868">
+  <hopobject id="3158" name="Page" prototype="Page" created="1381762725684" lastModified="1655188943587">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjdmNmQyNTZiLTg4ZGEtNDViMC1iMWRmLWI1OTcxMmMyOGU1YlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY1NTEyOTQyOTA2MCwibGFzdEV2ZW50VGltZSI6MTY1NTEyOTQ5ODg0NSwiZXZlbnRJZCI6OCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjh9</property>
     <is_xhtml type="boolean">true</is_xhtml>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">QjhTQ1JCM2w5US9aZWlGRWpxL1B1QnZGMzFWdTUrMjFucHFkR01LSDhCTEdpZnFMZ1JOT0RqeEVZeGw0UHYzcTdRMVVMNW9DbkU3anVVYThzUE5BZTVkVWZ2cnkyT3hhR3ozRjNRQjVXWkdmM0NTRUpSU090a2daS2lYaVhrOGZpS1pBeGlVWldkKzVXSFQzMDhZNXZ3Tkdyb1lEQnhVVmRsazJ6d0NiTDFwWERSNDFydUxRLzhhUCtUeXB4RDhXLS1UMG1NNStEaVIxU1E1THpUTFZDczFBPT0=--4be118f72a295b028b551363fa18f11a40992542</property>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>boards</uri>
-    <http_browser>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36</http_browser>
-    <time type="date">04.09.2019 22:31:32 UTC</time>
-    <hopsession>127.0.0.xtc7p5v2h8l1</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0</http_browser>
+    <time type="date">14.06.2022 06:42:23 UTC</time>
+    <hopsession>127.0.0.glhtbqk888lf</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Boards&lt;/h1&gt;
   &lt;p&gt;Explore the high-performance, low-power world with the tiny, affordable, open-source Beagles. Putting Android, Ubuntu and other Linux flavors at your fingertips, the Beagle family revs as high as 1.5GHz with flexible peripheral interfaces and a proven ecosystem of feature-rich &quot;Cape&quot; plug-in boards.&lt;/p&gt;
@@ -137,10 +139,10 @@ $(document).ready(function(){
     Complete robotics computer ready to fly or rove. Flexible networking and rich set of robotics-oriented peripherals make building mobile robots quick and affordable.
     &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/blue&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt; 
 &lt;/div&gt;
-&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai&quot;&gt;BeagleBone AI&lt;/a&gt;&lt;/h2&gt;
-    &lt;p&gt;&lt;img src=&quot;https://github.com/beagleboard/beaglebone-ai/wiki/images/BB_AI_BeautyAngle_800px.jpg&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
+&lt;div id=&quot;t2-c6&quot;&gt;&lt;h2&gt;&lt;a href=&quot;/ai-64&quot;&gt;BeagleBone AI-64&lt;/a&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;img src=&quot;/static/images/ai64/45-front.png&quot; width=&quot;100&quot; align=&quot;left&quot;/&gt;
     Multitude of powerful processing cores for diverse embedded computing needs.
-    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/ai&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
+    &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/ai-64&quot;&gt; Learn more&lt;/a&gt;  »&lt;/p&gt;   
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;t2-c1a&quot;&gt;&lt;h2&gt;Product Comparison Table&lt;/h2&gt;
@@ -150,28 +152,28 @@ $(document).ready(function(){
     &lt;th width=&quot;130px&quot;&gt;PocketBeagle&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBone Black&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;BeagleBone Blue&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBone AI&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBone AI-64&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
+    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A72&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;1.5GHz&lt;/td&gt;
+    &lt;td&gt;2GHz&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Co-processors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
-    &lt;td&gt;4x200-MHz PRUs, 2x ARM Cortex-M4, 2x SGX PowerVR, 2x HD video&lt;/td&gt;
+    &lt;td&gt;12x200-MHz PRUs, 6x ARM Cortex-R4, SGX Rogue 8XE GE8430, 2K HD video enc/dec&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
@@ -189,38 +191,45 @@ $(document).ready(function(){
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Memory&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;512MB DDR3 (800MHz x 16), microSD card slot&lt;/td&gt;
-    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;1GB DDR3 (2x 512Mx16, dual-channel), 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;512MB DDR3, microSD card slot&lt;/td&gt;
+    &lt;td&gt;512MB DDR3, 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;512MB DDR3, 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;4GB LPDDR4, 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 on expansion header&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
     &lt;td&gt;USB 2.0 480Mbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
-    &lt;td&gt;USB 3.0 5Gbps Host/Client Port, USB 2.0 Host Port&lt;/td&gt;
+    &lt;td&gt;USB 3.0 5Gbps Host/Client Port, 2x USB 3.0 5Gbps Host Ports&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Network&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;add-ons&lt;/td&gt;
     &lt;td&gt;10/100 Ethernet&lt;/td&gt;
     &lt;td&gt;2.4GHz WiFi, Bluetooth, BLE&lt;/td&gt;
-    &lt;td&gt;Gigabit Ethernet, 2.4/5GHz WiFi, Bluetooth, BLE&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, M.2 w/ PCIe/SDIO/USB&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;SPI displays&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;SPI displays&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;miniDP, DSI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;add-ons, Bluetooth&lt;/td&gt;
-    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
+    &lt;td&gt;miniDP, mikroBUS shuttle add-ons, cape add-ons&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Camera&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;add-ons, USB&lt;/td&gt;
+    &lt;td&gt;cape add-ons, USB&lt;/td&gt;
+    &lt;td&gt;add-ons, USB&lt;/td&gt;
+    &lt;td&gt;2x CSI (4-lane, 22-pin), cape add-ons, USB&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Expansion Interfaces&lt;/strong&gt;&lt;/td&gt;
@@ -244,7 +253,7 @@ $(document).ready(function(){
     &lt;td&gt;$25&lt;/td&gt;
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$79&lt;/td&gt;
-    &lt;td&gt;$99&lt;/td&gt;
+    &lt;td&gt;$179&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -304,17 +313,19 @@ Google Research
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">541189.0</pvcount>
-    <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
+    <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
+    <g_enabled_idps>google</g_enabled_idps>
     <initiallandingpage>/p</initiallandingpage>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <http_referer>https://beagleboard.org/boards/tide</http_referer>
+    <doxygen_width>300</doxygen_width>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <http_host>127.0.0.1:8080</http_host>
+    <http_referer>https://beagleboard.org/boards/hopper</http_referer>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <initialreferrer>beagleboard.org</initialreferrer>
+    <http_host>127.0.0.1:8080</http_host>
     <mp_mixpanel__c>0</mp_mixpanel__c>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
