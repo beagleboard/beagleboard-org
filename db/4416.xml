@@ -1,23 +1,204 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4416" name="ai-64" prototype="Page" created="1631644598176" lastModified="1655138574727">
+  <hopobject id="4416" name="ai-64" prototype="Page" created="1631644598176" lastModified="1655175338011">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0</http_browser>
-    <lang>en-us</lang>
-    <uri>ai-64</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">14.09.2021 18:36:38 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjdmNmQyNTZiLTg4ZGEtNDViMC1iMWRmLWI1OTcxMmMyOGU1YlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY1NTEyOTQyOTA2MCwibGFzdEV2ZW50VGltZSI6MTY1NTEyOTQ5ODg0NSwiZXZlbnRJZCI6OCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjh9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.62wozm595jly</hopsession>
-    <user>default</user>
-    <pvcount type="float">0.0</pvcount>
-    <body>&lt;h1&gt;BeagleBone AI-64&lt;/h1&gt;
-&lt;p&gt;Placeholder&lt;/p&gt;</body>
-    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
+    <uri>ai-64</uri>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0</http_browser>
+    <time type="date">14.06.2022 02:55:38 UTC</time>
+    <hopsession>127.0.0.glhtbqk888lf</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
+    <body>&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
+&lt;!-- slider --&gt;
+
+&lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+&lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;bnr_ss1&quot; class=&quot;noscript&quot;&gt;
+
+&lt;!-- &lt;div class=&quot;tislides&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt; --&gt;
+&lt;a data-action=&quot;promo-ai-64&quot; href=&quot;/ai-64&quot;&gt;
+ &lt;!-- &lt;picture&gt;
+  &lt;source type=&quot;image/webp&quot; srcset=&quot;/static/images/beaglebone-ai-banner-950x267.webp&quot;  /&gt;
+  &lt;img src=&quot;/static/images/beaglebone-ai-banner-950x267.png&quot;  /&gt;
+ &lt;/picture&gt; --&gt;
+ &lt;img src=&quot;/static/images/beaglebone-ai64-950X267.gif&quot; /&gt;
+&lt;/a&gt;
+&lt;!-- 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+--&gt;
+
+&lt;/div&gt;
+&lt;!-- bnr_ss1 --&gt;
+&lt;!--
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+        $(document).ready(function() {
+            $(&quot;#bnr_ss1&quot;).slideshow(
+                {
+                    debug:false,
+            		controls:true,
+					animate:&apos;slide&apos;,
+					autoplay:true,
+					pause:true,
+					start:1,
+					speed:5000,
+					duration:1200,
+					overlay:true,
+					overlaywidth:80
+				}
+			);  
+		}); 
+	
+&lt;/script&gt;
+--&gt;
+
+   &lt;/div&gt;
+   &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;h1&gt;BeagleBone&lt;sup&gt;®&lt;/sup&gt; AI-64&lt;/h1&gt;
+&lt;h2&gt;64-bit BeagleBone&lt;sup&gt;®&lt;/sup&gt; for High-Performance Embedded Computing&lt;/h2&gt;
+
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+
+&lt;div id=&quot;t2-c7-left&quot;&gt;
+    
+ &lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;/static/images/ai64/components.png&quot; rel=&quot;lightbox&quot; name=&quot;BeagleBone AI-64&quot; 
+title=&quot;Fast Track to Embedded Artificial Intelligence and Automation. See https://git.beagleboard.org/beagleboard/beaglebone-ai-64 for details.&quot;&gt;
+&lt;img src=&quot;/static/images/ai64/components.png&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2&gt;&lt;img class=&quot;start&quot; src=&quot;/static/images/icon-beagle.png&quot; border=&quot;0&quot; /&gt;&lt;a href=&quot;https://git.beagleboard.org/beagleboard/beaglebone-ai-64&quot; class=&quot;external&quot;&gt;Design and documentation &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/latest-images&quot;&gt;Latest Software Images &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/newsletter-subscribe&quot;&gt;Subscribe to Newsletter &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/ai-64/press&quot;&gt;Press Resources&lt;/a&gt;  »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/chat&quot;&gt;Live Chat&lt;/a&gt;  »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;https://forum.beagleboard.org&quot;&gt;Forum&lt;/a&gt;  »&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+ 
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is BeagleBone&lt;sup&gt;®&lt;/sup&gt; AI-64?&lt;/h2&gt;
+&lt;p&gt;BeagleBone® AI-64 brings a complete system for developing artificial intelligence (AI) and machine learning solutions with the convenience and expandability of the BeagleBone® platform and the peripherals on board to get started right away learning and building applications. With locally hosted, ready-to-use, open-source focused tool chains and development environment, a simple web browser, power source and network connection are all that need to be added to start building performance-optimized embedded applications. Industry-leading expansion possibilities are enabled through familiar BeagleBone® cape headers, with hundreds of open-source hardware examples and dozens of readily available embedded expansion options available off-the-shelf.&lt;/p&gt;    
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;https://www.ti.com/product/TDA4VM&quot; class=&quot;external&quot;&gt;Texas Instruments Jacinto TDA4VM&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;Dual Arm® Cortex®-A72 microprocessor subsystem @ 2GHz&lt;/li&gt;
+&lt;li&gt;C7x+MMA (8 TOPS) and 2 C66x floating-point VLIW DSPs&lt;/li&gt;
+&lt;li&gt;3x dual Arm® Cortex®-R5 co-processors&lt;/li&gt;
+&lt;li&gt;2x 6-core Programmable Real-Time Unit and Industrial Communication SubSystem (PRU-ICSSG)&lt;/li&gt;
+&lt;li&gt;PowerVR® Rogue™ 8XE GE8430 3D GPU&lt;/li&gt;
+&lt;li&gt;Accelerated video codecs (2x 1080p30 H.264 encode, 8x 1080p30 H.264/H.265 decode)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ti.com/product/TDA4VM&quot; class=&quot;external&quot;&gt;more ...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5c&quot;&gt;  
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Board Feature Highlights&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+    &lt;li&gt;BeagleBone Black header compatibility&lt;/li&gt;
+    &lt;li&gt;4GB RAM and 16GB on-board eMMC flash with high-speed interface&lt;/li&gt;
+    &lt;li&gt;USB type-C for power and superspeed dual-role controller; and 2x USB superspeed type-A hosts&lt;/li&gt;
+    &lt;li&gt;Gigabit Ethernet, M.2 E-key for WiFi/BT expansion&lt;/li&gt;
+    &lt;li&gt;miniDisplayPort, 2x 4-lane CSI, DSI&lt;/li&gt;
+    &lt;li&gt;Zero-download out-of-box software experience with Debian GNU/Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+    
+&lt;div id=&quot;CTA&quot;&gt;
+&lt;!-- Begin MailChimp Signup Form --&gt;
+&lt;!--
+&lt;div id=&quot;mc_embed_signup&quot; style=&quot;padding:0px;&quot;&gt;
+&lt;form action=&quot;https://beagleboard.us3.list-manage.com/subscribe/post?u=6e7c2131525b7b1b74c71e2cb&amp;id=85ff84625f&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate style=&quot;padding:0px;&quot;&gt;
+    &lt;div id=&quot;mc_embed_signup_scroll&quot; style=&quot;background-color:#de7224;&quot;&gt;
+    &lt;h2 style=&quot;color:#ffffff;margin:0px;&quot;&gt;Register your interest&lt;/h2&gt;
+    &lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot; style=&quot;height:32px;width:150px;margin-top:5px;&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Go&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; style=&quot;float:right;margin-top:5px;width:50px;text-align:center;padding:0px;&quot;&gt;
+    &lt;input style=&quot;display:none;&quot; checked type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;group[13753][1]&quot; id=&quot;mce-group[13753]-13753-0&quot;&gt;
+    &lt;input style=&quot;display:none;&quot; checked type=&quot;checkbox&quot; value=&quot;8&quot; name=&quot;group[13753][8]&quot; id=&quot;mce-group[13753]-13753-3&quot;&gt;
+    &lt;input style=&quot;display:none;&quot; checked type=&quot;checkbox&quot; value=&quot;128&quot; name=&quot;group[13753][128]&quot; id=&quot;mce-group[13753]-13753-4&quot;&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+&lt;!--
+    &lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_6e7c2131525b7b1b74c71e2cb_85ff84625f&quot; tabindex=&quot;-1&quot; value=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;!--End mc_embed_signup--&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
+ &lt;br /&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-ai-64&quot;&gt;
+&lt;select class=&quot;dropdown&quot; id=&quot;buy-ai64&quot;&gt;
+  &lt;option&gt;Select distributor&lt;/option&gt;
+  &lt;option value=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110646/15929655&quot;&gt;Digi-Key&lt;/option&gt;
+  &lt;option value=&quot;http://newark.com/jsp/search/productListing.jsp?SKUS=26AK8283&quot;&gt;Newark&lt;/option&gt;
+  &lt;option value=&quot;http://uk.farnell.com/jsp/search/productListing.jsp?SKUS=3923739&quot;&gt;Farnell&lt;/option&gt;
+&lt;/select&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+  if($(&apos;#buy-ai-64&apos;).length) {
+    $.get(&apos;/distributors/ai-64&apos;, function(data){
+        $(&apos;#buy-ai-64&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            goTracked(action, link, label);
+           });
+          });
+        });
+    });
+  }
+});
+&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;!--
+&lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/products/beaglebone-ai-64/embed?per_page=8&amp;col_class=col-sm-3&quot; 
+height=&quot;540&quot;
+width=&quot;100%&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+ 
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+--&gt;
+</body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">0.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
+    <doxygen_width>300</doxygen_width>
     <http_referer>https://beagleboard.org/ai-64/hopper</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
     <hop:child idref="4424" prototyperef="Page"/>
     <hop:child idref="4426" prototyperef="Page"/>
   </hopobject>
