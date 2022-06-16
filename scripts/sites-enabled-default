@@ -119,6 +119,8 @@
 #	}
 #}
 
+server_tokens off;
+
 server {
     if ($host = beagleboard.org) {
         return 301 https://$host$request_uri;
@@ -2929,30 +2931,50 @@ server {
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
-	server_name git.beagleboard.org;
+	server_name gitlab.local;
+	listen 80;
 
 	location / {
+		client_max_body_size 0;
+		gzip off;
 		proxy_read_timeout	300;
 		proxy_connect_timeout	300;
 		proxy_redirect		off;
-		proxy_set_header	Host			$host;
+		proxy_set_header	Host			$http_host;
 		proxy_set_header	X-Real-IP		$remote_addr;
 		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
 		proxy_set_header	X-Forwarded-Proto	https;
 		proxy_set_header	X-Frame-Options		SAMEORIGIN;
 		proxy_pass		http://gitlab-server;
-		client_max_body_size	1G;
+	}
+}
+
+server {
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name git.beagleboard.org;
+
+	location / {
+		client_max_body_size 0;
+		gzip off;
+		proxy_read_timeout	300;
+		proxy_connect_timeout	300;
+		proxy_redirect		off;
+		proxy_set_header	Host			$http_host;
+		proxy_set_header	X-Real-IP		$remote_addr;
+		proxy_set_header	X-Forwarded-Ssl		on;
+		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
+		proxy_set_header	X-Forwarded-Proto	https;
+		proxy_set_header	X-Frame-Options		SAMEORIGIN;
+		proxy_pass		http://gitlab-server;
 	}
 
+	add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
 	listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
 }
 
 server {
