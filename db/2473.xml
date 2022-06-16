@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="2473" name="Live Chat" prototype="Page" created="1366427591987" lastModified="1540809644809">
+  <hopobject id="2473" name="Live Chat" prototype="Page" created="1366427591987" lastModified="1655405025475">
   <hop:parent idref="2472" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36</http_browser>
-    <lang>en-us</lang>
+    <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjdmNmQyNTZiLTg4ZGEtNDViMC1iMWRmLWI1OTcxMmMyOGU1YlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY1NTEyOTQyOTA2MCwibGFzdEV2ZW50VGltZSI6MTY1NTEyOTQ5ODg0NSwiZXZlbnRJZCI6OCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjh9</property>
+    <is_xhtml type="boolean">true</is_xhtml>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>Live Chat</uri>
-    <http_host>www.beagleboard.org</http_host>
-    <time type="date">15.10.2013 19:24:51 UTC</time>
-    <pseudoparent idref="2472" prototyperef="Page"/>
-    <http_remotehost>98.250.142.42</http_remotehost>
-    <hopsession>98.250.142.frcbvkejz3oa</hopsession>
-    <user>jkridner@gmail.com</user>
-    <pvcount type="float">18557.0</pvcount>
+    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0</http_browser>
+    <time type="date">16.06.2022 18:43:45 UTC</time>
+    <hopsession>127.0.0.glhtbqk888lf</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Live Chat&lt;/h1&gt;
 
+&lt;p&gt;Please visit &lt;a href=&quot;/chat&quot;&gt;/chat&lt;/a&gt;&lt;/p&gt;
+
+&lt;script&gt;
+    goTracked(&apos;live-chat&apos;, &apos;/chat&apos;);
+&lt;/script&gt;
+
+&lt;!--
 &lt;h3&gt;Use this live chat tool to collaborate with the Beagle community, get your questions answered and contribute to the Beagle knowledge-base.&lt;/h3&gt;
 &lt;h3&gt;IRC Chat Resources:&lt;/h3&gt;
 &lt;ul&gt;
@@ -33,9 +40,15 @@
  &lt;br/&gt;
  &lt;object data=&quot;http://webchat.freenode.net/?channels=beagle&quot; width=&quot;800&quot; height=&quot;600&quot;&gt;
   &lt;a href=&quot;http://webchat.freenode.net/?channels=beagle&quot;&gt;Freenode.net webchat IRC client&lt;/a&gt;
- &lt;/object&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://www.beagleboard.org/Community/Live%20Chat/edit</http_referer>
+ &lt;/object&gt;
+ --&gt;</body>
+    <pseudoparent idref="2472" prototyperef="Page"/>
+    <pvcount type="float">18557.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
+    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/Community/Live%20Chat/hopper</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
