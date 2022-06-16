@@ -2841,101 +2841,60 @@ server {
 }
 
 server {
-    if ($host = debian.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
 	listen 80;
 	server_name	debian.beagleboard.org;
         return 302 https://debian.beagle.cc$request_uri;
-
-
 }
 
 server {
-    if ($host = debian.beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
-    #return 301 https://$host$request_uri;
     return 302 https://debian.beagle.cc$request_uri;
-
 
 	listen 80;
 	server_name debian.beagleboard.net;
-
-
 }
 
 server {
-    if ($host = matrix.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
         return 301 https://$host$request_uri;
 
-
     listen 80;
     server_name matrix.beagleboard.org;
-
-
 }
 
 server {
-    if ($host = search.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
         return 301 https://$host$request_uri;
 
 	listen 80;
 	server_name	search.beagleboard.org;
-
-
 }
 
 server {
-    if ($host = staging.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
         return 301 https://$host$request_uri;
 
 	listen 80;
 	server_name	staging.beagleboard.org;
+}
 
-
+upstream blabl-space {
+	server 127.0.0.1:7777;
 }
 
 server {
-    if ($host = blabl.space) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
     server_name blabl.space;
     listen 80;
 
     return 301 https://blabl.space$request_uri;
-
-
 }
 
 server {
@@ -2944,7 +2903,7 @@ server {
 	server_name	blabl.space;
 
 	location / {
-		proxy_pass	http://127.0.0.1:7777;
+		proxy_pass	http://blabl-space;
 	}
 
     listen 443 ssl; # managed by Certbot
@@ -2952,26 +2911,19 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
 
-
-
-
+upstream gitlab-server {
+	server 127.0.0.1:8082;
 }
 
 server {
-    if ($host = git.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name git.beagleboard.org;
 	listen 80;
 
 	return 301 https://git.beagleboard.org$request_uri;
-
-
 }
 
 server {
@@ -2988,7 +2940,7 @@ server {
 		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
 		proxy_set_header	X-Forwarded-Proto	https;
 		proxy_set_header	X-Frame-Options		SAMEORIGIN;
-		proxy_pass		http://127.0.0.1:8082;
+		proxy_pass		http://gitlab-server;
 		client_max_body_size	1G;
 	}
 
@@ -3052,8 +3004,7 @@ upstream gitlab-pages {
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
-	server_name beagleboard.io;
-	server_name *.beagleboard.io;
+	server_name beagleboard.io *.beagleboard.io;
 	listen 80;
 	return 301 https://$host$request_uri;
 }
@@ -3061,7 +3012,7 @@ server {
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
-	server_name beagleboard.io;
+	server_name beagleboard.io *.beagleboard.io;
 
 	location / {
 		proxy_read_timeout	300;
@@ -3075,32 +3026,7 @@ server {
 		proxy_set_header	X-Frame-Options		SAMEORIGIN;
 		proxy_cache		off;
 		proxy_pass		http://gitlab-pages;
-	}
-
-	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-}
-
-server {
-	error_log syslog:server=unix:/dev/log;
-	access_log syslog:server=unix:/dev/log;
-	server_name *.beagleboard.io;
-
-	location / {
-		proxy_read_timeout	300;
-		proxy_connect_timeout	300;
-		proxy_redirect		off;
-		proxy_set_header	Host			$http_host;
-		proxy_set_header	X-Real-IP		$remote_addr;
-		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
-		proxy_set_header	X-Forwarded-Proto	https;
-		proxy_set_header	X-Forwarded-Ssl		on;
-		proxy_set_header	X-Frame-Options		SAMEORIGIN;
-		proxy_cache		off;
-		proxy_pass		http://gitlab-pages;
+		client_max_body_size	1G;
 	}
 
 	listen 443 ssl; # managed by Certbot
