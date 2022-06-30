@@ -2125,6 +2125,10 @@ server {
     add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
+upstream debexpo {
+	server 127.0.0.1:5001;
+}
+
 server {
     error_log syslog:server=unix:/dev/log;
     access_log syslog:server=unix:/dev/log;
@@ -2136,12 +2140,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
-
-
 }
 
 server {
@@ -2250,7 +2248,7 @@ server {
 	server_name	debexpo.beagleboard.org;
 
 	location / {
-		proxy_pass	http://127.0.0.1:5000;
+		proxy_pass	http://debexpo;
 	}
 
     listen 443 ssl; # managed by Certbot
@@ -2258,10 +2256,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
 }
 
 server {
@@ -2972,20 +2966,83 @@ server {
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
+upstream gitlab-registry {
+	server 127.0.0.1:5000;
+}
+
 server {
-    if ($host = docs.beagleboard.org) {
+    if ($host = registry.git.beagleboard.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
 
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
+	server_name registry.git.beagleboard.org;
+	listen 80;
+
+	return 301 https://registry.git.beagleboard.org$request_uri;
+
+
+}
+
+server {
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name gitlab.local;
+	listen 80;
+
+	location / {
+		client_max_body_size 0;
+		gzip off;
+		proxy_read_timeout	300;
+		proxy_connect_timeout	300;
+		proxy_redirect		off;
+		proxy_set_header	Host			$http_host;
+		proxy_set_header	X-Real-IP		$remote_addr;
+		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
+		proxy_set_header	X-Forwarded-Proto	https;
+		proxy_set_header	X-Frame-Options		SAMEORIGIN;
+		proxy_pass		http://gitlab-registry;
+	}
+}
+
+server {
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name registry.git.beagleboard.org;
+
+	location / {
+		client_max_body_size 0;
+		gzip off;
+		proxy_read_timeout	300;
+		proxy_connect_timeout	300;
+		proxy_redirect		off;
+		proxy_set_header	Host			$http_host;
+		proxy_set_header	X-Real-IP		$remote_addr;
+		proxy_set_header	X-Forwarded-Ssl		on;
+		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
+		proxy_set_header	X-Forwarded-Proto	https;
+		proxy_set_header	X-Frame-Options		SAMEORIGIN;
+		proxy_pass		http://gitlab-registry;
+	}
+
+	add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/registry.git.beagleboard.org/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/registry.git.beagleboard.org/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+server {
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name docs.beagleboard.org;
 	listen 80;
 
 	return 301 https://docs.beagleboard.org$request_uri;
-
-
 }
 
 server {
@@ -3039,6 +3096,7 @@ server {
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
+
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
