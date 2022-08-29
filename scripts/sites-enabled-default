@@ -1,140 +1,9 @@
-# You may add here your
-# server {
-#	...
-# }
-# statements for each of your virtual hosts to this file
-
-##
-# You should look at the following URL's in order to grasp a solid understanding
-# of Nginx configuration files in order to fully unleash the power of Nginx.
-# http://wiki.nginx.org/Pitfalls
-# http://wiki.nginx.org/QuickStart
-# http://wiki.nginx.org/Configuration
-#
-# Generally, you will want to move this file somewhere, and start with a clean
-# file but keep this around for reference. Or just disable in sites-enabled.
-#
-# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
-##
-
-#server {
-	#listen   80; ## listen for ipv4; this line is default and implied
-	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
-
-	#root /usr/share/nginx/www;
-	#index index.html index.htm;
-
-	# Make site accessible from http://localhost/
-	#server_name localhost;
-
-	#location / {
-		# First attempt to serve request as file, then
-		# as directory, then fall back to index.html
-		#try_files $uri $uri/ /index.html;
-		# Uncomment to enable naxsi on this location
-		# include /etc/nginx/naxsi.rules
-	#}
-
-	#location /doc/ {
-		#alias /usr/share/doc/;
-		#autoindex on;
-		#allow 127.0.0.1;
-		#deny all;
-	#}
-
-	# Only for nginx-naxsi : process denied requests
-	#location /RequestDenied {
-		# For example, return an error code
-		#return 418;
-	#}
-
-	#error_page 404 /404.html;
-
-	# redirect server error pages to the static page /50x.html
-	#
-	#error_page 500 502 503 504 /50x.html;
-	#location = /50x.html {
-	#	root /usr/share/nginx/www;
-	#}
-
-	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
-	#
-	#location ~ \.php$ {
-	#	fastcgi_split_path_info ^(.+\.php)(/.+)$;
-	#	# NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
-	#
-	#	# With php5-cgi alone:
-	#	fastcgi_pass 127.0.0.1:9000;
-	#	# With php5-fpm:
-	#	fastcgi_pass unix:/var/run/php5-fpm.sock;
-	#	fastcgi_index index.php;
-	#	include fastcgi_params;
-	#}
-
-	# deny access to .htaccess files, if Apache's document root
-	# concurs with nginx's one
-	#
-	#location ~ /\.ht {
-	#	deny all;
-	#}
-#}
-
-
-# another virtual host using mix of IP-, name-, and port-based configuration
-#
-#server {
-#	listen 8000;
-#	listen somename:8080;
-#	server_name somename alias another.alias;
-#	root html;
-#	index index.html index.htm;
-#
-#	location / {
-#		try_files $uri $uri/ /index.html;
-#	}
-#}
-
-
-# HTTPS server
-#
-#server {
-#	listen 443;
-#	server_name localhost;
-#
-#	root html;
-#	index index.html index.htm;
-#
-#	ssl on;
-#	ssl_certificate cert.pem;
-#	ssl_certificate_key cert.key;
-#
-#	ssl_session_timeout 5m;
-#
-#	ssl_protocols SSLv3 TLSv1;
-#	ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv3:+EXP;
-#	ssl_prefer_server_ciphers on;
-#
-#	location / {
-#		try_files $uri $uri/ /index.html;
-#	}
-#}
-
 server_tokens off;
 
+# Main BeagleBoard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-	listen 80 default_server;
-	listen [::]:80 ipv6only=on;
-	server_name beagleboard.org;
-        return 302 https://beagleboard.org$request_uri;
-
-
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name beagleboard.org;
 	root /mnt/wordpress;
 
@@ -1895,22 +1764,20 @@ server {
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 
     add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
-
-
-
-
 }
 
+# BeagleV.org redirects (HTTPS->HTTPS)
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+
 	server_name beagle5.org;
 	server_name beaglev.com;
 	server_name beagle5.com;
@@ -1930,67 +1797,34 @@ server {
 	server_name riskyboard.com;
 	server_name riskyboards.org;
 	server_name riskyboards.com;
-	return 303 https://beaglev.org;
+	server_name 星光.org;
+	server_name xn--54qu12c.org;
+	return 302 https://beaglev.org;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
+# Main BeagleV.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    server_name beaglev.org;
-    root /mnt/wordpress;
-    index  index.php;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name beaglev.org;
+	root /mnt/wordpress;
+	index  index.php;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 
 	location / {
 		try_files $uri $uri/ /index.php$is_args$args;
@@ -2004,13 +1838,14 @@ server {
 			fastcgi_param SCRIPT_FILENAME $request_filename;
 		}
 	}
-
-
 }
 
+# BeagleBoard.org redirects (HTTPS->HTTPS)
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	listen 443 ssl; # managed by Certbot
+
 	server_name bbb.io;
 	server_name beagle.cc;
 	server_name www.beagleboard.org;
@@ -2027,166 +1862,76 @@ server {
 	server_name www.beagleboard.com;
 	server_name beagleboard.net;
 	server_name www.beagleboard.net;
-	return 303 https://beagleboard.org$request_uri;
+	server_name beagleplay.net;
+	server_name beagleplay.com;
+	server_name beagleplay.org;
+	server_name beagleplay.io;
+        return 301 https://beagleboard.org$request_uri;
 
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
+# BeagleBone.AI shortcut
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-	server_name 星光.org;
-	server_name xn--54qu12c.org;
-	return 303 https://beaglev.org;
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name beaglebone.ai;
 	server_name www.beaglebone.ai;
-	return 303 https://beagleboard.org/ai-64;
+	return 302 https://beagleboard.org/ai-64;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
 upstream debexpo {
-	server 127.0.0.1:5001;
+	server 127.0.0.1:5002;
 }
 
+# debexpo.beagleboard.org redirects (HTTPS->HTTPS)
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name debexpo.beagleboard.net;
-	return 303 https://debexpo.beagleboard.org$request_uri;
+	return 302 https://debexpo.beagleboard.org$request_uri;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
+# builds.beagleboard.org redirects (HTTPS->HTTPS)
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-	server_name debian.beagleboard.net;
-	#return 303 https://debian.beagleboard.org$request_uri;
-        return 302 https://debian.beagle.cc$request_uri;
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
-
-
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name builds.beagleboard.net;
 	return 303 https://builds.beagleboard.org$request_uri;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
-
-
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
+# staging.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	staging.beagleboard.org;
 	root /mnt/wordpress;
-    index  index.php;
+	index  index.php;
 
 	# Short links for projects (prefix with '+')
 	location ~ ^/\+(.*)$ {
@@ -2228,58 +1973,53 @@ server {
 		gzip_disable "MSIE [1-6]\.";
 	}
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
+# debexpo.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	debexpo.beagleboard.org;
 
 	location / {
 		proxy_pass	http://debexpo;
 	}
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
+# debian.beagle.cc redirects (HTTPS->HTTPS)
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	debian.beagleboard.org;
+	server_name	debian.beagleboard.net;
         return 302 https://debian.beagle.cc$request_uri;
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
+# debian.beagle.cc server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	debian.beagle.cc;
 	root /mnt/debian/;
 
@@ -2293,17 +2033,13 @@ server {
 		fancyindex_localtime on;
 	}
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
 #server {
@@ -2334,87 +2070,74 @@ server {
 #
 #}
 
+# chat.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    server_name chat.beagleboard.org;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name chat.beagleboard.org;
 
-    # If you don't wanna serve a site, comment this out
-    #root /var/www/html;
-    #index index.html index.htm;
+	# If you don't wanna serve a site, comment this out
+	#root /var/www/html;
+	#index index.html index.htm;
 
-    location / {
-      proxy_pass http://127.0.0.1:8010;
-      proxy_set_header X-Forwarded-For $remote_addr;
-    }
+	location / {
+		proxy_pass http://127.0.0.1:8010;
+		proxy_set_header X-Forwarded-For $remote_addr;
+	}
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 
 }
 
+# matrix.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    server_name matrix.beagleboard.org;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name matrix.beagleboard.org;
 
-    # If you don't wanna serve a site, comment this out
-    #root /var/www/html;
-    #index index.html index.htm;
+	# If you don't wanna serve a site, comment this out
+	#root /var/www/html;
+	#index index.html index.htm;
 
+	#location /_matrix {
+	#  proxy_pass http://127.0.0.1:8008;
+	#  proxy_set_header X-Forwarded-For $remote_addr;
+	#}
 
-    #location /_matrix {
-    #  proxy_pass http://127.0.0.1:8008;
-    #  proxy_set_header X-Forwarded-For $remote_addr;
-    #}
+	#location ~* ^(\/_matrix|\/_synapse\/client) {
+	location / {
+		proxy_pass http://localhost:8008;
+		proxy_set_header X-Forwarded-For $remote_addr;
+		# Nginx by default only allows file uploads up to 1M in size
+		# Increase client_max_body_size to match max_upload_size defined in homeserver.yaml
+		client_max_body_size 50M;
+	}
 
-    #location ~* ^(\/_matrix|\/_synapse\/client) {
-    location / {
-        proxy_pass http://localhost:8008;
-        proxy_set_header X-Forwarded-For $remote_addr;
-        # Nginx by default only allows file uploads up to 1M in size
-        # Increase client_max_body_size to match max_upload_size defined in homeserver.yaml
-        client_max_body_size 50M;
-    }
+	#return 301 https://chat.beagleboard.org;
 
-    #return 301 https://chat.beagleboard.org;
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
 upstream yacy {
 	server 127.0.0.1:8091;
 }
 
+# search.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	search.beagleboard.org;
 
 	location / {
@@ -2422,111 +2145,75 @@ server {
 	}
 
 
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
 upstream buildbot {
 	server 127.0.0.1:8011;
 }
 
+# builds.beagleboard.org server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    server_name builds.beagleboard.org;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name builds.beagleboard.org;
 
-    root html;
-    index index.html index.htm;
+        root html;
+        index index.html index.htm;
 
-    add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
+        add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
 
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	proxy_set_header HOST $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto  $scheme;
+	proxy_set_header X-Forwarded-Server  $host;
+	proxy_set_header X-Forwarded-Host  $host;
 
-    proxy_set_header HOST $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto  $scheme;
-    proxy_set_header X-Forwarded-Server  $host;
-    proxy_set_header X-Forwarded-Host  $host;
+	location / {
+		proxy_pass http://buildbot;
+	}
+	location /sse/ {
+		proxy_buffering off;
+		proxy_pass http://buildbot/sse/;
+	}
+	location /ws {
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection "upgrade";
+		proxy_pass http://buildbot/ws;
+		proxy_read_timeout 6000s;
+	}
+	location /linux {
+		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/linux;
+		autoindex on;
+	}
+	location /buildroot {
+		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/buildroot;
+		autoindex on;
+	}
+	location /image-builder {
+		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/image-builder;
+		autoindex on;
+	}
 
-    location / {
-        proxy_pass http://buildbot;
-    }
-    location /sse/ {
-        proxy_buffering off;
-        proxy_pass http://buildbot/sse/;
-    }
-    location /ws {
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection "upgrade";
-        proxy_pass http://buildbot/ws;
-        proxy_read_timeout 6000s;
-    }
-    location /linux {
-        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/linux;
-        autoindex on;
-    }
-    location /buildroot {
-        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/buildroot;
-        autoindex on;
-    }
-    location /image-builder {
-        alias /var/lib/buildbot/masters/beagle-buildbot/public_html/image-builder;
-        autoindex on;
-    }
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-    add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
-
-
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
 
 # https://github.com/WebThingsIO/registration_server
-# HTTP version of the main registration server. Should we redirect to TLS port 8443 to
-# avoid conflicting with tunneled domains?
-server {
-    if ($host = api.beagle.group) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    listen 80;
-    listen [::]:80;
-    server_name api.beagle.group;
-    return 301 https://$server_name$request_uri;
-
-
-}
-
-# This default server handles tunneled domains, i.e. myhost.mydomain.org.
-server {
-    listen 80;
-    listen [::]:80;
-    server_name *.beagle.group;
-    return 301 https://$host$request_uri;
-}
-
+#
 # This is the main registration server.
 #
 # This section assumes you're using Let's Encrypt to generate a host
@@ -2551,23 +2238,61 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_pass http://127.0.0.1:4141;
     }
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-
-
+    ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
 }
 
+# Simple HTTP->HTTPS redirects
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	listen 80;
+	listen [::]:80 ipv6only=on;
+	server_name beagleboard.org;
+	server_name beaglev.org;
+	server_name beagle5.org;
+	server_name beaglev.com;
+	server_name beagle5.com;
+	server_name beagle-v.org;
+	server_name beagle-5.org;
+	server_name beagle-v.com;
+	server_name beagle-5.com;
+	server_name beaglefive.org;
+	server_name beaglefive.com;
+	server_name beagle-five.org;
+	#server_name beagle-five.com;
+	server_name beagleriscv.org;
+	server_name beagleriscv.com;
+	server_name riskyboard.net;
+	server_name riskyboard.info;
+	server_name riskyboard.org;
+	server_name riskyboard.com;
+	server_name riskyboards.org;
+	server_name riskyboards.com;
+	server_name 星光.org;
+	server_name xn--54qu12c.org;
+	server_name git.beagleboard.org;
+	server_name registry.git.beagleboard.org;
+	server_name docs.beagleboard.org;
+	server_name builds.beagleboard.org;
+	server_name builds.beagleboard.net;
+	server_name chat.beagleboard.org;
+	server_name debexpo.beagleboard.org;
+	server_name debexpo.beagleboard.net;
+	server_name debian.beagleboard.org;
+	server_name debian.beagleboard.net;
+	server_name debian.beagle.cc;
+	server_name matrix.beagleboard.org;
+	server_name search.beagleboard.org;
+	server_name staging.beagleboard.org;
+	server_name beaglebone.ai;
+	server_name www.beaglebone.ai;
 	server_name bbb.io;
+	server_name *.bbb.io;
 	server_name beagle.cc;
+	server_name *.beagle.cc;
 	server_name www.beagleboard.org;
 	server_name beagleb.one;
-	#server_name beagleboard.cn;
-	#server_name www.beagleboard.cn;
-	#server_name beaglebone.cn;
-	#server_name www.beaglebone.cn;
 	server_name beaglebone.org;
 	server_name www.beaglebone.org;
 	server_name beaglebone.com;
@@ -2580,343 +2305,39 @@ server {
 	server_name beagleplay.com;
 	server_name beagleplay.org;
 	server_name beagleplay.io;
-        return 301 https://beagleboard.org$request_uri;
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-server {
-    if ($host = riskyboards.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = riskyboards.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = riskyboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = riskyboard.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = riskyboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = riskyboard.info) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglev.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglev.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleriscv.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleriscv.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglefive.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglefive.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle5.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle5.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle-v.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle-v.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle-five.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle-5.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle-5.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-	listen 80;
-	server_name beaglev.org;
-	server_name beagle5.org;
-	server_name beaglev.com;
-	server_name beagle5.com;
-	server_name beagle-v.org;
-	server_name beagle-5.org;
-	server_name beagle-v.com;
-	server_name beagle-5.com;
-	server_name beaglefive.org;
-	server_name beaglefive.com;
-	server_name beagle-five.org;
-	server_name beagleriscv.org;
-	server_name beagleriscv.com;
-	server_name riskyboard.net;
-	server_name riskyboard.info;
-	server_name riskyboard.org;
-	server_name riskyboard.com;
-	server_name riskyboards.org;
-	server_name riskyboards.com;
-        #return 301 https://beagleboard.org/beaglev;
-        return 301 https://beaglev.org$request_uri;
-    return 404; # managed by Certbot
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    if ($host = builds.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    listen 80;
-    server_name builds.beagleboard.org;
-    return 404; # managed by Certbot
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    if ($host = builds.beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name builds.beagleboard.net;
-    return 404; # managed by Certbot
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    if ($host = chat.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    listen 80;
-    server_name chat.beagleboard.org;
-    return 404; # managed by Certbot
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    if ($host = debexpo.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name	debexpo.beagleboard.org;
-    return 404; # managed by Certbot
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    if ($host = debexpo.beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name debexpo.beagleboard.net;
-    return 404; # managed by Certbot
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-	listen 80;
-	server_name	debian.beagleboard.org;
-        return 302 https://debian.beagle.cc$request_uri;
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    return 302 https://debian.beagle.cc$request_uri;
-
-	listen 80;
-	server_name debian.beagleboard.net;
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-        return 301 https://$host$request_uri;
-
-    listen 80;
-    server_name matrix.beagleboard.org;
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-        return 301 https://$host$request_uri;
-
-	listen 80;
-	server_name	search.beagleboard.org;
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-        return 301 https://$host$request_uri;
-
-	listen 80;
-	server_name	staging.beagleboard.org;
+	server_name beagleborad.com;
+	server_name api.beagle.group;
+	server_name *.beagle.group;
+	server_name blabl.space;
+	return 301 https://$host$request_uri;
 }
 
 upstream blabl-space {
 	server 127.0.0.1:7777;
 }
 
+# blabl.space server
 server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
-    server_name blabl.space;
-    listen 80;
-
-    return 301 https://blabl.space$request_uri;
-}
-
-server {
-    error_log syslog:server=unix:/dev/log;
-    access_log syslog:server=unix:/dev/log;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
 	server_name	blabl.space;
 
 	location / {
 		proxy_pass	http://blabl-space;
 	}
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
 upstream gitlab-server {
 	server 127.0.0.1:8082;
 }
 
-server {
-	error_log syslog:server=unix:/dev/log;
-	access_log syslog:server=unix:/dev/log;
-	server_name git.beagleboard.org;
-	listen 80;
-
-	return 301 https://git.beagleboard.org$request_uri;
-}
-
+# gitlab.local server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -2938,6 +2359,7 @@ server {
 	}
 }
 
+# git.beagleboard.org server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -2960,37 +2382,22 @@ server {
 
 	add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
 upstream gitlab-registry {
-	server 127.0.0.1:5000;
+	server 127.0.0.1:5001;
 }
 
-server {
-    if ($host = registry.git.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	error_log syslog:server=unix:/dev/log;
-	access_log syslog:server=unix:/dev/log;
-	server_name registry.git.beagleboard.org;
-	listen 80;
-
-	return 301 https://registry.git.beagleboard.org$request_uri;
-
-
-}
-
+# gitlab.local registry server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name gitlab.local;
-	listen 80;
+	listen 5001;
 
 	location / {
 		client_max_body_size 0;
@@ -3007,6 +2414,7 @@ server {
 	}
 }
 
+# registry.git.beagleboard.org server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -3029,22 +2437,13 @@ server {
 
 	add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/registry.git.beagleboard.org/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/registry.git.beagleboard.org/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 
-server {
-	error_log syslog:server=unix:/dev/log;
-	access_log syslog:server=unix:/dev/log;
-	server_name docs.beagleboard.org;
-	listen 80;
-
-	return 301 https://docs.beagleboard.org$request_uri;
-}
-
+# docs.beagleboard.org server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -3062,27 +2461,17 @@ server {
 	}
 
 	listen 443 ssl; # managed by Certbot
-	#ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-	#ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 
 upstream gitlab-pages {
 	server 127.0.0.1:8090;
 }
 
-server {
-	error_log syslog:server=unix:/dev/log;
-	access_log syslog:server=unix:/dev/log;
-	server_name beagleboard.io *.beagleboard.io;
-	listen 80;
-	return 301 https://$host$request_uri;
-}
-
+# docs.beagleboard.io redirects (HTTPS->HTTPS)
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -3090,13 +2479,13 @@ server {
 	return 301 https://docs.beagleboard.io;
 
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/beagleboard.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.io/privkey.pem;
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem;
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 
+# *.beagleboard.io server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -3118,178 +2507,9 @@ server {
 	}
 
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/beagleboard.io/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/beagleboard.io/privkey.pem;
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem;
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-}
-
-server {
-    if ($host = beagleplay.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleplay.io) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleplay.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleplay.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = www.beaglebone.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = www.beaglebone.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglebone.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglebone.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = www.beagleboard.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = www.beagleboard.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = www.beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleboard.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleboard.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagleb.one) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beagle.cc) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = bbb.io) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name bbb.io;
-	server_name beagle.cc;
-	server_name www.beagleboard.org;
-	server_name beagleb.one;
-	server_name beaglebone.org;
-	server_name www.beaglebone.org;
-	server_name beaglebone.com;
-	server_name www.beaglebone.com;
-	server_name beagleboard.com;
-	server_name www.beagleboard.com;
-	server_name beagleboard.net;
-	server_name www.beagleboard.net;
-	server_name beagleplay.net;
-	server_name beagleplay.com;
-	server_name beagleplay.org;
-	server_name beagleplay.io;
-	return 302 https://beagleboard.org$request_uri;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-server {
-    if ($host = www.beaglebone.ai) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    if ($host = beaglebone.ai) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name beaglebone.ai;
-	server_name www.beaglebone.ai;
-	return 402 https://beagleboard.org/ai;
-
-
-
-
-}
-
-server {
-    if ($host = xn--54qu12c.org) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-	listen 80;
-	server_name 星光.org;
-	server_name xn--54qu12c.org;
-        return 302 https://$host$request_uri;
-
-
 }
 
