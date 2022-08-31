@@ -1,9 +1,10 @@
 server_tokens off;
 
-# Main BeagleBoard.org server
+# Main BeagleBoard.org server (and Cloudflare cached beagle.cc)
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
+	server_name beagle.cc;
 	server_name beagleboard.org;
 	root /mnt/wordpress;
 
@@ -1769,7 +1770,6 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-
     add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
 }
 
@@ -1847,7 +1847,6 @@ server {
 	listen 443 ssl; # managed by Certbot
 
 	server_name bbb.io;
-	server_name beagle.cc;
 	server_name www.beagleboard.org;
 	server_name beagleb.one;
 	#server_name beagleboard.cn;
