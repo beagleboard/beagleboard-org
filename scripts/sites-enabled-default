@@ -1847,7 +1847,6 @@ server {
 	listen 443 ssl; # managed by Certbot
 
 	server_name bbb.io;
-	server_name www.beagleboard.org;
 	server_name beagleb.one;
 	#server_name beagleboard.cn;
 	#server_name www.beagleboard.cn;
@@ -1866,13 +1865,13 @@ server {
 	server_name beagleplay.org;
 	server_name beagleplay.io;
         return 301 https://beagleboard.org$request_uri;
-
-	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/bbb.io-0001/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/bbb.io-0001/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+
 }
 
 # BeagleBone.AI shortcut
@@ -1883,11 +1882,11 @@ server {
 	server_name www.beaglebone.ai;
 	return 302 https://beagleboard.org/ai-64;
 
-	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/docs.beagleboard.org/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/docs.beagleboard.org/privkey.pem; # managed by Certbot
-	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+	listen 443 ssl;
+	ssl_certificate /etc/ssl/beaglebone_ai.pem;
+	ssl_certificate_key /etc/ssl/beaglebone_ai.key;
+	include /etc/letsencrypt/options-ssl-nginx.conf;
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
 	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 }
@@ -2154,7 +2153,7 @@ server {
 }
 
 upstream buildbot {
-	server 127.0.0.1:8011;
+	server 127.0.0.1:808;
 }
 
 # builds.beagleboard.org server
@@ -2177,29 +2176,6 @@ server {
 
 	location / {
 		proxy_pass http://buildbot;
-	}
-	location /sse/ {
-		proxy_buffering off;
-		proxy_pass http://buildbot/sse/;
-	}
-	location /ws {
-		proxy_http_version 1.1;
-		proxy_set_header Upgrade $http_upgrade;
-		proxy_set_header Connection "upgrade";
-		proxy_pass http://buildbot/ws;
-		proxy_read_timeout 6000s;
-	}
-	location /linux {
-		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/linux;
-		autoindex on;
-	}
-	location /buildroot {
-		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/buildroot;
-		autoindex on;
-	}
-	location /image-builder {
-		alias /var/lib/buildbot/masters/beagle-buildbot/public_html/image-builder;
-		autoindex on;
 	}
 
 	listen 443 ssl; # managed by Certbot
@@ -2270,6 +2246,7 @@ server {
 	server_name riskyboards.com;
 	server_name 星光.org;
 	server_name xn--54qu12c.org;
+	server_name git.beagle.cc;
 	server_name git.beagleboard.org;
 	server_name registry.git.beagleboard.org;
 	server_name docs.beagleboard.org;
@@ -2285,7 +2262,7 @@ server {
 	server_name search.beagleboard.org;
 	server_name staging.beagleboard.org;
 	server_name beaglebone.ai;
-	server_name www.beaglebone.ai;
+	server_name *.beaglebone.ai;
 	server_name bbb.io;
 	server_name *.bbb.io;
 	server_name beagle.cc;
@@ -2362,6 +2339,7 @@ server {
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
+	server_name git.beagle.cc;
 	server_name git.beagleboard.org;
 
 	location / {
@@ -2442,11 +2420,12 @@ server {
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
-# docs.beagleboard.org server
+# docs.beagleboard.org and docs.beagle.cc server
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name docs.beagleboard.org;
+	server_name docs.beagle.cc;
 	root /mnt/docs/;
 
 	location / {
