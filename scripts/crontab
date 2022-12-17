@@ -24,3 +24,4 @@
 #@daily cd /home/ubuntu/beagleboard.org && git push gitorious master
 @hourly /home/ubuntu/beagleboard.org/scripts/save_irclog.sh
 @daily /home/ubuntu/beagleboard.org/scripts/run_server.sh
+@daily docker exec -t gitlab_web_1 gitlab-backup create
