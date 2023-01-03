@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /workspace/siteinspector
+cd /mnt/workspace/siteinspector
 docker build -t site-inspector .
 docker-compose up -d
