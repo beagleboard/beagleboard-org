@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3833" name="Page" prototype="Page" created="1415223784227" lastModified="1540819814788">
+  <hopobject id="3833" name="Page" prototype="Page" created="1415223784227" lastModified="1673117463905">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415215893:X=1415219493</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>cookbook</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">25.05.2017 19:33:21 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <hopsession>127.0.0.1doyt4mssbu6w</hopsession>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <user>jkridner.wordpress.com</user>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
-    <pvcount type="float">28732.0</pvcount>
+    <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
+    <uri>cookbook</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0</http_browser>
+    <time type="date">07.01.2023 18:51:03 UTC</time>
+    <hopsession>127.0.0.1edj1qe6kfnzb</hopsession>
+    <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;BeagleBone Cookbook&lt;/h1&gt;
+&lt;h2&gt;Related&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://docs.beagleboard.org&quot;&gt;Online cookbooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Original&lt;/h2&gt;
 &lt;div style=&quot;float:right;&quot;&gt;
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=bloghanerhead-20&amp;marketplace=amazon&amp;region=US&amp;placement=1491905395&amp;asins=1491905395&amp;linkId=29f4c37c984ae3818c53513f245aae46&amp;show_border=true&amp;link_opens_in_new_window=true&quot;&gt;
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=bloghanerhead-20&amp;marketplace=amazon®ion=US&amp;placement=1491905395&amp;asins=1491905395&amp;linkId=29f4c37c984ae3818c53513f245aae46&amp;show_border=true&amp;link_opens_in_new_window=true&quot;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;More information and errata &lt;a href=&quot;http://shop.oreilly.com/product/0636920033899.do&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
@@ -76,8 +79,14 @@ var disqus_shortname = &apos;beagleboard-cookbook&apos;;
 })();
 &lt;/script&gt;
 </body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/cookbook/edit</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">28732.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=a904e8804596933399347108157bacf6a501316c..e9b4:I=1415215893:X=1415219493</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <g_enabled_idps>google</g_enabled_idps>
+    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/cookbook/hopper</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
