@@ -1840,7 +1840,7 @@ server {
 	}
 }
 
-# BeagleBoard.org redirects (HTTPS->HTTPS) (except bbb.io, beagleb.one)
+# BeagleBoard.org redirects (HTTPS->HTTPS) (except Cloudflare)
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -1869,9 +1869,9 @@ server {
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-
 }
 
+# BeagleBoard.org redirects (HTTPS->HTTPS) (Cloudflare)
 server {
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
@@ -1880,14 +1880,14 @@ server {
 	server_name bbb.io;
 	server_name beagleb.one;
         return 301 https://beagleboard.org$request_uri;
-	ssl_certificate /etc/letsencrypt/live/bbb.io-0001/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/bbb.io-0001/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert-cf/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert-cf/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
-}
 
+}
 # BeagleBone.AI shortcut
 server {
 	error_log syslog:server=unix:/dev/log;
@@ -1897,8 +1897,8 @@ server {
 	return 302 https://beagleboard.org/ai-64;
 
 	listen 443 ssl;
-	ssl_certificate /etc/ssl/beaglebone_ai.pem;
-	ssl_certificate_key /etc/ssl/beaglebone_ai.key;
+	ssl_certificate /etc/letsencrypt/live/beaglecert-cf/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert-cf/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf;
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
@@ -2046,8 +2046,8 @@ server {
 	}
 
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert-cf/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert-cf/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
@@ -2495,6 +2495,34 @@ server {
 		proxy_set_header	X-Frame-Options		SAMEORIGIN;
 		proxy_cache		off;
 		proxy_pass		http://gitlab-pages;
+		client_max_body_size	1G;
+	}
+
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem;
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
+
+# default.beagleplay.io proxy
+server {
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name default.beagleplay.io;
+
+	location / {
+		proxy_read_timeout	300;
+		proxy_connect_timeout	300;
+		proxy_redirect		off;
+		proxy_set_header	Host			beagleplay.beagleboard.io;
+		proxy_set_header	X-Real-IP		$remote_addr;
+		proxy_set_header	X-Forwarded-For		$proxy_add_x_forwarded_for;
+		proxy_set_header	X-Forwarded-Proto	https;
+		proxy_set_header	X-Forwarded-Ssl		on;
+		proxy_set_header	X-Frame-Options		SAMEORIGIN;
+		proxy_cache		off;
+		proxy_pass		https://beagleplay.beagleboard.io;
 		client_max_body_size	1G;
 	}
 
