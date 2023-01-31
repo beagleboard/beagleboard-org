@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3272" name="Page" prototype="Page" created="1386184969178" lastModified="1540820170332">
+  <hopobject id="3272" name="Page" prototype="Page" created="1386184969178" lastModified="1675134481240">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36</http_browser>
-    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416765892:X=1416769492</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
-    <lang>en-us</lang>
-    <uri>source</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">23.11.2014 18:07:10 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
-    <hopsession>127.0.0.1jjd22xcncaj5</hopsession>
-    <http_remotehost>127.0.0.1</http_remotehost>
-    <user>jkridner.wordpress.com</user>
+    <is_xhtml type="boolean">true</is_xhtml>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
-    <pvcount type="float">51293.0</pvcount>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <g_authuser_h2>0</g_authuser_h2>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>source</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0</http_browser>
+    <time type="date">31.01.2023 03:08:01 UTC</time>
+    <hopsession>127.0.0.n4u61hgw7nux</hopsession>
     <body>&lt;script&gt;
+    goTracked(&apos;source&apos;,&apos;https://git.beagleboard.org&apos;);
+&lt;/script&gt;
+
+&lt;!--
+
+&lt;script&gt;
     window.location=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image&quot;;
 &lt;/script&gt;
 
@@ -24,9 +26,18 @@
 &lt;p&gt;For information on acquiring and rebuilding the source code, please
     visit &lt;a href=&quot;http://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image&quot;&gt;
 http://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image&lt;/a&gt;
-&lt;/p&gt;</body>
-    <http_language>en-US,en;q=0.8</http_language>
-    <is_xhtml type="boolean">true</is_xhtml>
-    <http_referer>http://beagleboard.org/source/edit</http_referer>
+&lt;/p&gt;
+
+--?</body>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">51293.0</pvcount>
+    <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416765892:X=1416769492</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
+    <g_enabled_idps>google</g_enabled_idps>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/source/hopper</http_referer>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
