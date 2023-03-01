@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4280" name="meeting.ics" prototype="Page" created="1521658185407" lastModified="1553703126333">
+  <hopobject id="4280" name="meeting.ics" prototype="Page" created="1521658185407" lastModified="1677698166927">
   <hop:parent idref="1010" prototyperef="Page"/>
     <mimetype>text/calendar</mimetype>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.sssn">NHJHcTE0S1hIRFBNQ3UvYXh3bGd1eTFoQWpabXdrRm93U0JlWU9yZzY1TUZIRitiU29wOUZ1NWp1amJZRDVtektYVkdwTk1wWjBNSGxJbUJvMGhDNnoyKzN0RVFlaXlEMzY2M0Y3N3lvVlhTalJ2eklISloxUk51WUR0bXg0M0xzRHZTYzRkN1paZXVtZHJsYWdBRHFyOHdiNDd0T0hFR3V4a29TVGVmcHEwSGpSU285RDB2blVweEpQamhDS2ZjbHBud01ZVmt1MUZCYjdXR1RuSVNzdWQwSnFTUDVhdXBjcDk2YWFoZlFFU0dxbTl3WURwRUNPR0ZoaFlEcXc4Vk9BVlZnWWFvOTVXWnZOYmh6cGlHZU5adWFwcnFpNTlWQXdMOUJoU3JnZlFtamdVYVFjKzdqM0ZBbVVGdFc4bkNVaEJKc2J6RWYveEs0TVJhQ2tCYjVqaFByYXlMYldKWGlKL2ZnSmYxay9JPS0tc2NMM2ZCaUxDZDVCckV6NXM0VVI4dz09--64a89c7c5295d97305114d60f4447754c7e17ea8</property>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
-    <http_language>en-US,en;q=0.9</http_language>
+    <http_language>en-US,en;q=0.5</http_language>
     <uri>meeting.ics</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36</http_browser>
-    <time type="date">27.03.2019 16:12:06 UTC</time>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0</http_browser>
+    <time type="date">01.03.2023 19:16:06 UTC</time>
     <property propertyname="hck.usi">1</property>
-    <hopsession>127.0.0.py6qe9i0nmph</hopsession>
+    <hopsession>127.0.0.vofqzv8c4uze</hopsession>
     <tk_tc>L0gU18NIIrfMw6n9</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>BEGIN:VCALENDAR
@@ -40,21 +40,24 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20190327T184310Z
 UID:20190327T184310Z-1251254564@beagleboard.org
-DTSTART;TZID=&quot;America/New_York&quot;:20190327T123000
-DTEND;TZID=&quot;America/New_York&quot;:20190327T133000
+DTSTART;TZID=&quot;America/New_York&quot;:20190327T113000
+DTEND;TZID=&quot;America/New_York&quot;:20190327T123000
 SUMMARY:BeagleBoard.org Google Summer of Code Weekly Meeting
-URL:https%3A%2F%2Fbbb.io%2Fgsocchat
-LOCATION:#beagle-gsoc on irc.freenode.net
+URL:https%3A%2F%2Fbbb.io%2Fgsocmeet
+LOCATION:#gsoc on Beagle Slack
 END:VEVENT
 END:VCALENDAR</body>
     <pseudoparent idref="1010" prototyperef="Page"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">30.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
     <render_skin>bare</render_skin>
     <skin_is_outer>true</skin_is_outer>
-    <http_referer>https://beagleboard.org/gsoc/meeting.ics/tide</http_referer>
+    <doxygen_width>300</doxygen_width>
+    <http_referer>https://beagleboard.org/gsoc/meeting.ics/hopper</http_referer>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
