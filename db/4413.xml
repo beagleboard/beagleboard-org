@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4413" name="Page" prototype="Page" created="1625680189367" lastModified="1662517776226">
+  <hopobject id="4413" name="Page" prototype="Page" created="1625680189367" lastModified="1678181367135">
   <hop:parent idref="0" prototyperef="Root"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -9,21 +9,123 @@
     <http_language>en-US,en;q=0.5</http_language>
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1673108555|vfCFEDwjAoWXgc9XFFPozYy4OEpWiowKzfCmCAPFYnN|c7fd8d404aec0e59318c86bbbfa3ec78831c1bce67ba6322c18aef729d19f791</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>beagleconnect</uri>
-    <http_browser>Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0</http_browser>
-    <time type="date">07.09.2022 02:29:36 UTC</time>
-    <hopsession>127.0.0.10ltty1dz551b</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
+    <time type="date">07.03.2023 09:29:27 UTC</time>
+    <hopsession>127.0.0.1st9epf2vngxq</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
-    <body>&lt;h1&gt;BeagleConnect™ Coming Soon!&lt;/h1&gt;
+    <body>&lt;h1&gt;BeagleConnect™ Freedom&lt;/h1&gt;
+&lt;h2&gt;1,000s of sensor options, wirelessly&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://git.beagleboard.org/beagleboard/beagleconnect&quot;&gt;Work-in-progress design&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.beagleboard.io/latest/boards/beagleconnect&quot;&gt;Work-in-progress documentation&lt;/a&gt;&lt;/p&gt;</body>
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+&lt;div id=&quot;t2-c7-left&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;https://www.beagleboard.org/app/uploads/2023/03/feature.webp&quot; rel=&quot;lightbox&quot; name=&quot;BeagleConnect Freedom&quot; 
+title=&quot;BeagleConnect Freedom: 1,000s of sensor options, wirelessly&quot;&gt;
+&lt;img src=&quot;https://www.beagleboard.org/app/uploads/2023/03/feature.webp&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2&gt;&lt;img class=&quot;start&quot; src=&quot;/static/images/icon-beagle.png&quot; border=&quot;0&quot; /&gt;&lt;a href=&quot;https://docs.beagleboard.org/latest/boards/beagleplay&quot; class=&quot;external&quot;&gt;Documentation&lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;https://git.beagleboard.org/beagleconnect/freedom&quot; class=&quot;external&quot;&gt;Design&lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/newsletter-subscribe&quot;&gt;Subscribe to Newsletter &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/chat&quot;&gt;Live Chat&lt;/a&gt;  »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;https://forum.beagleboard.org/tag/bcf&quot;&gt;Forum&lt;/a&gt;  »&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+ 
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is BeagleConnect™ Freedom?&lt;/h2&gt;
+&lt;p&gt;With 2x mikroBUS connections, there are over 1,000 different add-on options. On-board sensors include temperature, humidity and light level. There’s even a battery charger to assist with battery-backed-up designs.&lt;/p&gt;
+&lt;p&gt;Based on the Texas Instruments SimpleLink™ CC1352P7 wireless microcontroller running Zephyr and Micropython, utilizing the 2.4GHz and sub-1GHz IEEE 802.15.4 wireless networks are made easy. Numerous additional wireless networking stacks are available from TI, including Wi-SUN and Amazon Sidewalk, enabling you to take your IoT designs wherever you might want to go!&lt;/p&gt;
+&lt;p&gt;BeagleConnect™ is a revolutionary technology virtually eliminating low-level software development for IoT and IIoT applications, such as building automation, factory automation, and home automation. Choosing BeagleConnect™ simplifies development by eliminating the need for layer of software development.  While numerous IoT and IIoT solutions available today provide massive software libraries for microcontrollers supporting a limited body of sensors, actuators and indicators as well as libraries for communicating over various networks, BeagleConnect™ simply eliminates the need for these libraries by shifting the burden into the most massive and collaborative software project of all time, the Linux kernel.&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;https://www.ti.com/product/CC1352P7&quot; class=&quot;external&quot;&gt;Texas Instruments Simplelink CC1352P7&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;32-bit Arm Cortex-M4F multiprotocol and multi-band Sub-1 GHz and 2.4-GHz wireless MCU&lt;/li&gt;
+&lt;li&gt;704KB flash program memory&lt;/li&gt;
+&lt;li&gt;256KB of ROM for protocols and library functions&lt;/li&gt;
+&lt;li&gt;8KB of cache SRAM&lt;/li&gt;
+&lt;li&gt;144KB of ultra-low leakage SRAM with parity for high-reliability operation&lt;/li&gt;
+&lt;li&gt;Programmable radio includes support for 2-(G)FSK, 4-(G)FSK, MSK, OOK, Bluetooth® 5.2 Low Energy, IEEE 802.15.4 PHY and MAC&lt;/li&gt;
+&lt;li&gt;Supports over-the-air upgrade (OTA)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ti.com/product/CC1352P7&quot; class=&quot;external&quot;&gt;more ...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5c&quot;&gt;  
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Board Feature Highlights&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;Type-C USB based serial console and firmware updates&lt;/li&gt;
+&lt;li&gt;2x mikroBUS sockets to support Click boards from MikroE&lt;/li&gt;
+&lt;li&gt;2MB SPI flash&lt;/li&gt;
+&lt;li&gt;TI OPT3001 light sensor&lt;/li&gt;
+&lt;li&gt;TI HDC2010 humidity/temperature sensor&lt;/li&gt;
+&lt;li&gt;TI BQ2104 battery charger&lt;/li&gt;
+&lt;li&gt;4 programmable LEDs&lt;/li&gt;
+&lt;li&gt;1 programmable button&lt;/li&gt;
+&lt;li&gt;1 reset button&lt;/li&gt;
+&lt;li&gt;On-board 2.4GHz chip antenna&lt;/li&gt;
+&lt;li&gt;Enclosure and SubGHz antenna&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+    
+&lt;div id=&quot;CTA&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
+ &lt;br /&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-bcf&quot;&gt;
+&lt;select class=&quot;dropdown&quot; id=&quot;buy-bcf&quot;&gt;
+  &lt;option&gt;Select distributor&lt;/option&gt;
+  &lt;option value=&quot;https://referral.element14.com/OrderCodeView?fsku=4141335&amp;nsku=65AK6354&quot;&gt;Element14&lt;/option&gt;
+  &lt;option value=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110577/15929656&quot;&gt;Digi-Key&lt;/option&gt;
+  &lt;option value=&quot;https://www.mouser.com/new/beagleboardorg/beagleboard-beagleconnect-freedom/&quot;&gt;Mouser&lt;/option&gt;
+&lt;/select&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+  if($(&apos;#buy-bcf&apos;).length) {
+    $.get(&apos;/distributors/bcf&apos;, function(data){
+        $(&apos;#buy-bcf&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            goTracked(action, link, label);
+           });
+          });
+        });
+    });
+  }
+});
+&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <pvcount type="float">0.0</pvcount>
     <g_enabled_idps>google</g_enabled_idps>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
     <http_referer>https://beagleboard.org/beagleconnect/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>

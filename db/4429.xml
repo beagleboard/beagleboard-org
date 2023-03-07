@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4429" name="play" prototype="Page" created="1678180429414" lastModified="1678180466064">
+  <hopobject id="4429" name="play" prototype="Page" created="1678180429414" lastModified="1678180517062">
   <hop:parent idref="3268" prototyperef="Page"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
-    <lang>en-us</lang>
-    <doxygen_width>300</doxygen_width>
-    <uri>play</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.03.2023 09:14:26 UTC</time>
-    <pseudoparent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.5</http_language>
+    <uri>play</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
+    <time type="date">07.03.2023 09:14:26 UTC</time>
     <hopsession>127.0.0.1st9epf2vngxq</hopsession>
-    <user>default</user>
-    <pvcount type="float">0.0</pvcount>
-    <g_enabled_idps>google</g_enabled_idps>
     <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-play&quot;&gt;
   &lt;option&gt;Select distributor&lt;/option&gt;
   &lt;option value=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/option&gt;
@@ -22,8 +16,16 @@
   &lt;option value=&quot;https://www.mouser.com/new/beagleboardorg/beagleboard-beagleplay/&quot;&gt;Mouser&lt;/option&gt;
 &lt;/select&gt;
 </body>
-    <http_language>en-US,en;q=0.5</http_language>
-    <http_referer>https://beagleboard.org/distributors/play/hopper</http_referer>
+    <pseudoparent idref="3268" prototyperef="Page"/>
+    <pvcount type="float">0.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
     <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
+    <http_referer>https://beagleboard.org/distributors/play/hopper</http_referer>
+    <doxygen_width>300</doxygen_width>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
