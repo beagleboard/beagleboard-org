@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="helma.xsl"?>
+<xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
+  <hopobject id="4428" name="Page" prototype="Page" created="1678180399831" lastModified="1678180399979">
+  <hop:parent idref="0" prototyperef="Root"/>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
+    <lang>en-us</lang>
+    <doxygen_width>300</doxygen_width>
+    <uri>play</uri>
+    <http_host>127.0.0.1:8080</http_host>
+    <time type="date">07.03.2023 09:13:19 UTC</time>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <http_remotehost>127.0.0.1</http_remotehost>
+    <hopsession>127.0.0.1st9epf2vngxq</hopsession>
+    <user>default</user>
+    <pvcount type="float">0.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
+    <body>&lt;h1&gt;BeaglePlay&lt;sup&gt;®&lt;/sup&gt; &lt;/h1&gt;
+&lt;h2&gt;Easy. Affordable. Connected. Open.&lt;/h2&gt;
+
+&lt;div id=&quot;t2-c7&quot;&gt;
+&lt;div style=&quot;position:relative;&quot;&gt;
+&lt;div id=&quot;t2-c7-left&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/static/ti/slimbox2.js&quot;&gt;&lt;/script&gt;
+&lt;link media=&quot;screen&quot; type=&quot;text/css&quot; href=&quot;/static/ti/slimbox2.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;a href=&quot;https://www.beagleboard.org/app/uploads/2023/03/components-back.webp&quot; rel=&quot;lightbox&quot; name=&quot;BeaglePlay&quot; 
+title=&quot;BeaglePlay: Easy. Affordable. Connected. Open.&quot;&gt;
+&lt;img src=&quot;https://www.beagleboard.org/app/uploads/2023/03/components-back.webp&quot; border=&quot;0&quot;  style=&quot;width:250px;&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;div id=&quot;product-gettingStarted&quot; style=&quot;width:250px; margin-right:25px;&quot;&gt;
+&lt;h2&gt;&lt;img class=&quot;start&quot; src=&quot;/static/images/icon-beagle.png&quot; border=&quot;0&quot; /&gt;&lt;a href=&quot;https://docs.beagleboard.org/latest/boards/beagleplay&quot; class=&quot;external&quot;&gt;Documentation&lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;https://git.beagleboard.org/beagleplay/beagleplay&quot; class=&quot;external&quot;&gt;Design&lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/latest-images&quot;&gt;Latest Bootable Images &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/newsletter-subscribe&quot;&gt;Subscribe to Newsletter &lt;/a&gt; »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;/chat&quot;&gt;Live Chat&lt;/a&gt;  »&lt;/h2&gt;&lt;br /&gt;
+&lt;h2&gt;&lt;a href=&quot;https://forum.beagleboard.org/tag/play&quot;&gt;Forum&lt;/a&gt;  »&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;div id=&quot;t2-c7-content&quot;&gt;
+ 
+&lt;div id=&quot;t2-c5d&quot;&gt;
+&lt;h2&gt;What is BeagleOlay&lt;sup&gt;®&lt;/sup&gt;?&lt;/h2&gt;
+&lt;p&gt;Linux computing made simple and fun with 1,000s of available off-the-shelf sensors, actuators, indicators and connectivity options over mikroBUS, Grove, and QWIIC connections, a TI Sitara AM625 system-on-chip with 1.4GHz quad-core Arm Cortex-A53, PRU and M4 microcontrollers, Gigabit Ethernet, full-size HDMI, USB, 5GHz, 2.4GHz and sub-1GHz wireless, and single-pair Ethernet with power-over-data-line. Camera and touchscreen display ribbon-cable connectors also included.&lt;/p&gt;
+&lt;p&gt;No breadboarding expertise needed to expand this system, just connect, power, and leverage the massive ecosystem of Linux drivers. Want a remote sensor? Utilize BeagleConnect® technology over the sub-1GHz IEEE 802.15.4 wireless network to a BeagleConnect® Freedom up to 1km away.&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div id=&quot;t2-c5a&quot;&gt;   
+    &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
+    &lt;a href=&quot;https://www.ti.com/product/AM625&quot; class=&quot;external&quot;&gt;Texas Instruments AM625&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+&lt;li&gt;Quad Arm® Cortex®-A53 microprocessor subsystem @ 1.4GHz&lt;/li&gt;
+&lt;li&gt;Arm® Cortex®-M4F @ 400MHz&lt;/li&gt;
+&lt;li&gt;Dual-core PRU subsystem @ 333MHz&lt;/li&gt;
+&lt;li&gt;PowerVR® Rogue™ GPU&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ti.com/product/AM625&quot; class=&quot;external&quot;&gt;more ...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;t2-c5c&quot;&gt;  
+&lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Board Feature Highlights&lt;/h3&gt;
+&lt;ul class=&quot;square&quot;&gt;
+    &lt;li&gt;Small 8cm x 8cm form-factor&lt;/li&gt;
+    &lt;li&gt;2GB RAM and 16GB on-board eMMC flash with high-speed interface&lt;/li&gt;
+    &lt;li&gt;USB type-C for power and data and USB type-A host&lt;/li&gt;
+    &lt;li&gt;Gigabit Ethernet, Single-pair Ethernet with PoDL&lt;/li&gt;
+    &lt;li&gt;Integrated 2.4GHz and 5GHz WiFi&lt;/li&gt;
+    &lt;li&gt;2.4GHz and Sub-GHz programmable wireless MCU, integrated IEEE802.15.4 drivers/firmware&lt;/li&gt;
+    &lt;li&gt;Full-size HDMI, OLDI, 4-lane CSI&lt;/li&gt;
+    &lt;li&gt;Expansion via mikroBUS, Grove, QWIIC&lt;/li&gt;
+    &lt;li&gt;Zero-download out-of-box software experience with Debian GNU/Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+    
+&lt;div id=&quot;CTA&quot;&gt;
+    &lt;img src=&quot;/static/images/purchase.gif&quot; /&gt;&lt;br /&gt;
+ &lt;br /&gt;
+&lt;ul class=&quot;dropdown&quot; id=&quot;buy-play&quot;&gt;
+&lt;select class=&quot;dropdown&quot; id=&quot;buy-play&quot;&gt;
+  &lt;option&gt;Select distributor&lt;/option&gt;
+  &lt;option value=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/option&gt;
+  &lt;option value=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110762/17398989&quot;&gt;Digi-Key&lt;/option&gt;
+  &lt;option value=&quot;https://www.mouser.com/new/beagleboardorg/beagleboard-beagleplay/&quot;&gt;Mouser&lt;/option&gt;
+&lt;/select&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+  if($(&apos;#buy-play&apos;).length) {
+    $.get(&apos;/distributors/play&apos;, function(data){
+        $(&apos;#buy-play&apos;).replaceWith(data);
+        $(&apos;select.dropdown&apos;).each(function(){
+          var list = $(this);
+          var action = list.attr(&apos;id&apos;); 
+          list.change(function(){
+           $(&apos;option:selected&apos;, this).each(function(){
+            var label = $(this).text();
+            var link = $(this).val();
+            goTracked(action, link, label);
+           });
+          });
+        });
+    });
+  }
+});
+&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+&lt;!--
+&lt;iframe id=&quot;projects&quot; src=&quot;https://www.hackster.io/beagleboard/products/beaglebone-ai-64/embed?per_page=8&amp;col_class=col-sm-3&quot; 
+height=&quot;540&quot;
+width=&quot;100%&quot;
+  scrolling=&quot;no&quot;
+  frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+ 
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+--&gt;
+</body>
+    <http_language>en-US,en;q=0.5</http_language>
+    <http_referer>https://beagleboard.org/play/hopper</http_referer>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+  </hopobject>
+</xmlroot>
