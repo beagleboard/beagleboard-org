@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="3268" name="distributors" prototype="Page" created="1386144073041" lastModified="1678180429415">
+  <hopobject id="3268" name="distributors" prototype="Page" created="1386144073041" lastModified="1678181409884">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0</http_browser>
     <lang>en-us</lang>
@@ -40,5 +40,6 @@
     <hop:child idref="4399" prototyperef="Page"/>
     <hop:child idref="4425" prototyperef="Page"/>
     <hop:child idref="4429" prototyperef="Page"/>
+    <hop:child idref="4430" prototyperef="Page"/>
   </hopobject>
 </xmlroot>
