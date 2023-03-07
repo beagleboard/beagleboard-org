@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4429" name="play" prototype="Page" created="1678180429414" lastModified="1678180429495">
+  <hopobject id="4429" name="play" prototype="Page" created="1678180429414" lastModified="1678180466064">
   <hop:parent idref="3268" prototyperef="Page"/>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
     <lang>en-us</lang>
     <doxygen_width>300</doxygen_width>
     <uri>play</uri>
     <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.03.2023 09:13:49 UTC</time>
+    <time type="date">07.03.2023 09:14:26 UTC</time>
     <pseudoparent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hopsession>127.0.0.1st9epf2vngxq</hopsession>
     <user>default</user>
     <pvcount type="float">0.0</pvcount>
     <g_enabled_idps>google</g_enabled_idps>
-    <body>  &lt;option value=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/option&gt;
+    <body>&lt;select class=&quot;dropdown&quot; id=&quot;buy-play&quot;&gt;
+  &lt;option&gt;Select distributor&lt;/option&gt;
+  &lt;option value=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/option&gt;
   &lt;option value=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110762/17398989&quot;&gt;Digi-Key&lt;/option&gt;
   &lt;option value=&quot;https://www.mouser.com/new/beagleboardorg/beagleboard-beagleplay/&quot;&gt;Mouser&lt;/option&gt;
+&lt;/select&gt;
 </body>
     <http_language>en-US,en;q=0.5</http_language>
     <http_referer>https://beagleboard.org/distributors/play/hopper</http_referer>
