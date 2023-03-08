@@ -46,13 +46,15 @@
       </ul>
    </li>
 
-   <li class='has-sub'><a href='/boards'><span>Discover Boards &#8659;</span></a>
+   <li class='has-sub'><a href='/play'><span>Discover Boards &#8659;</span></a>
    <ul>
-         <li class='has-sub'><a href='/pocket'><span>&#9654; PocketBeagle &#9664;</span></a></li>
+         <li class='has-sub'><a href='/play'><span>&#9654; BeaglePlay &#9664;</span></a></li>
+         <li class='has-sub'><a href='/beagleconnect'><span>&#9654; BeagleConnect Freedom &#9664;</span></a></li>
+         <li class='has-sub'><a href='/pocket'><span>PocketBeagle</span></a></li>
          <li class='has-sub'><a href='/Kits/Grove'><span>&#9654; PocketBeagle Grove Kit &#9664;</span></a></li>
-         <li class='has-sub'><a href='/blue'><span>&#9654; BeagleBone Blue &#9664;</span></a></li>
+         <li class='has-sub'><a href='/blue'><span>BeagleBone Blue</span></a></li>
          <li class='has-sub'><a href='/black'><span>&#9654; BeagleBone Black &#9664;</span></a></li>
-         <li class='has-sub'><a href='/black-wireless'><span>&#9654; BeagleBone Black Wireless &#9664;</span></a></li>
+         <li class='has-sub'><a href='/black-wireless'><span>BeagleBone Black Wireless</span></a></li>
          <li class='has-sub'><a href='/black-industrial'><span>&#9654; BeagleBone Black Industrial &#9664;</span></a></li>
          <li class='has-sub'><a href='/ai'><span>BeagleBone AI</span></a></li>
          <li class='has-sub'><a href='/ai-64'><span>&#9654; BeagleBone AI-64 &#9664;</span></a></li>
@@ -61,25 +63,16 @@
          <li class='has-sub'><a href='/enhanced'><span>SanCloud BeagleBone Enhanced</span></a></li>
          <li class='has-sub'><a href='/cape'><span>BeagleBone Capes</span></a></li>
          <li class='has-sub'><a href='/bone-original'><span>BeagleBone</span></a></li>
-         <li class='has-sub'><a href='/x15'><span>&#9654; BeagleBoard-X15 &#9664;</span></a></li>
+         <li class='has-sub'><a href='/x15'><span>BeagleBoard-X15</span></a></li>
          <li class='has-sub'><a href='/beagleboard-xm'><span>BeagleBoard-xM</span></a></li>
          <li class='has-sub'><a href='/beagleboard'><span>BeagleBoard</span></a></li>
       </ul>   
     </li>
   
-   <li class='has-sub'><a href='/support'><span>Learn &#8659;</span></a>   
+   <li class='has-sub'><a href='https://docs.beagleboard.org'><span>Learn &#8659;</span></a>   
    <ul>
-         <li class='has-sub'><a href='/Support/bone101'><span>Introduction</span></a></li>
-         <li class='has-sub'><a href='https://github.com/beagleboard/cloud9-examples' target="_blank"><span>Tutorials &#10138;</span></a></li>
-         <li class='has-sub'><a href='/librobotcontrol'><span>librobotcontrol</span></a></li>
-         <li class='has-sub'><a href='/prucookbook'><span>PRU Cookbook</span></a></li>
-         <li class='has-sub'><a href='/books' target="_blank"><span>Books &#10138;</span></a></li>
-         <li class='has-sub'><a href='http://elinux.org/BeagleBoard' target="_blank"><span>Wiki &#10138;</span></a></li>
-         <li class='has-sub'><a href='/Support/Hardware+Support'><span>Hardware Support</span></a></li>
-         <li class='has-sub'><a href='/Support/Software+Support'><span>Software Support</span></a></li>
-         <li class='has-sub'><a href='https://learn.adafruit.com/category/beaglebone' target="_blank"><span>Adafruit Tutorials &#10138;</span></a></li>
-         <li class='has-sub'><a href='/Support/BoneScript'><span>BoneScript Library</span></a></li>
-         <li class='has-sub'><a href='/Support/FAQ'><span>FAQ</span></a></li>
+         <li class='has-sub'><a href='https://docs.beagleboard.org'><span>Documentation</span></a></li>
+         <li class='has-sub'><a href='https://forum.beagleboard.org/c/faq'><span>FAQ</span></a></li>
       </ul> 
    </li>
    
@@ -94,12 +87,10 @@
 
    <li class='has-sub'><a href='/Community'><span>Collaborate &#8659;</span></a>
    <ul>
+         <li class='has-sub'><a href='https://git.beagleboard.org' target="_blank"><span>Beagle Gitlab &#10138;</span></a></li>
          <li class='has-sub'><a href='/chat'><span>Live Chat</span></a></li>
          <li class='has-sub'><a href='https://forum.beagleboard.org'><span>Forums</span></a></li>
-         <li class='has-sub'><a href='/p/projects/new'><span>Register Project</span></a></li>
          <li class='has-sub'><a href='/newsletter'><span>Subscribe to Newsletter</span></a></li>
-         <li class='has-sub'><a href='https://github.com/beagleboard' target="_blank"><span>Github &#10138;</span></a></li>
-         <!--<li class='has-sub'><a href='https://upverter.com/Beagle' target="_blank"><span>Upverter &#10138;</span></a></li>-->
       </ul>
    </li>
 </ul>
