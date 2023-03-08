@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4432" name="Page" prototype="Page" created="1678297545178" lastModified="1678297632184">
+  <hopobject id="4432" name="Page" prototype="Page" created="1678297545178" lastModified="1678297752188">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_remotehost>127.0.0.1</http_remotehost>
     <tk_qs></tk_qs>
+    <http_remotehost>127.0.0.1</http_remotehost>
     <http_language>en-US,en;q=0.5</http_language>
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>play-hidden</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
-    <time type="date">08.03.2023 17:47:12 UTC</time>
+    <time type="date">08.03.2023 17:49:12 UTC</time>
     <hopsession>127.0.0.1st9epf2vngxq</hopsession>
     <body>&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
 &lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
@@ -69,13 +69,10 @@ a &lt;a href=&quot;https://beagleconnect.org&quot;&gt;BeagleConnect® Freedom&lt;
 &lt;li&gt;Dual-core PRU subsystem @ 333MHz&lt;/li&gt;
 &lt;li&gt;PowerVR® Rogue™ GPU&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.ti.com/product/AM625&quot; class=&quot;external&quot;&gt;more ...&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-Get yours today at:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110762/17398989&quot;&gt;Digi-Key&lt;/a&gt;&lt;/li
-&gt;&lt;li&gt;&lt;a href=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-Seeed-Studio/102110762?qs=amGC7iS6iy%252BiSone%2FBpwhg%3D%3D&quot;&gt;Mouser&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2&gt;Get yours today at:&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;https://referral.element14.com/OrderCodeView?fsku=4141336&amp;nsku=65AK6355&quot;&gt;Element14&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;https://www.digikey.com/en/products/detail/beagleboard-by-seeed-studio/102110762/17398989&quot;&gt;Digi-Key&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;https://www.mouser.com/ProductDetail/BeagleBoard-by-Seeed-Studio/102110762?qs=amGC7iS6iy%252BiSone%2FBpwhg%3D%3D&quot;&gt;Mouser&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;div id=&quot;t2-c5c&quot;&gt;  
 &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Board Feature Highlights&lt;/h3&gt;
@@ -151,7 +148,7 @@ width=&quot;100%&quot;
     <http_referer>https://beagleboard.org/play-hidden/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
