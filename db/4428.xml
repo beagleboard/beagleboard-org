@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4428" name="play-hidden" prototype="Page" created="1678180399831" lastModified="1678222513481">
+  <hopobject id="4428" name="play-hidden" prototype="Page" created="1678180399831" lastModified="1678250311648">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
-    <lang>en-us</lang>
-    <doxygen_width>300</doxygen_width>
-    <uri>play-hidden</uri>
-    <http_host>127.0.0.1:8080</http_host>
-    <time type="date">07.03.2023 20:55:13 UTC</time>
-    <pseudoparent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <http_language>en-US,en;q=0.5</http_language>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
+    <uri>play-hidden</uri>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0</http_browser>
+    <time type="date">08.03.2023 04:38:31 UTC</time>
     <hopsession>127.0.0.1st9epf2vngxq</hopsession>
-    <user>default</user>
-    <pvcount type="float">0.0</pvcount>
-    <g_enabled_idps>google</g_enabled_idps>
     <body>&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
 &lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
 &lt;script src=&quot;/static/ti/com.ti.jquery.ui.widgets.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
@@ -54,8 +49,15 @@ title=&quot;BeaglePlay: Easy. Affordable. Connected. Open.&quot;&gt;
  
 &lt;div id=&quot;t2-c5d&quot;&gt;
 &lt;h2&gt;What is BeaglePlay&lt;sup&gt;®&lt;/sup&gt;?&lt;/h2&gt;
-&lt;p&gt;Linux computing made simple and fun with 1,000s of available off-the-shelf sensors, actuators, indicators and connectivity options over mikroBUS, Grove, and QWIIC connections, a TI Sitara AM625 system-on-chip with 1.4GHz quad-core Arm Cortex-A53, PRU and M4 microcontrollers, Gigabit Ethernet, full-size HDMI, USB, 5GHz, 2.4GHz and sub-1GHz wireless, and single-pair Ethernet with power-over-data-line. Camera and touchscreen display ribbon-cable connectors also included.&lt;/p&gt;
-&lt;p&gt;No breadboarding expertise needed to expand this system, just connect, power, and leverage the massive ecosystem of Linux drivers. Want a remote sensor? Utilize BeagleConnect® technology over the sub-1GHz IEEE 802.15.4 wireless network to a BeagleConnect® Freedom up to 1km away.&lt;/p&gt;
+&lt;p&gt;Linux computing made simple and fun with 1,000s of available off-the-shelf sensors, actuators,
+indicators and connectivity options over mikroBUS, Grove, and QWIIC connections, a TI Sitara AM625 
+system-on-chip with 1.4GHz quad-core Arm Cortex-A53, PRU and M4 microcontrollers, Gigabit Ethernet, 
+full-size HDMI, USB, 5GHz, 2.4GHz and sub-1GHz wireless, and single-pair Ethernet with 
+power-over-data-line. Camera and touchscreen display ribbon-cable connectors also included.&lt;/p&gt;
+&lt;p&gt;No breadboarding expertise needed to expand this system, just connect, power, and leverage the 
+massive ecosystem of Linux drivers. Want a remote sensor? Utilize BeagleConnect® technology over 
+the sub-1GHz IEEE 802.15.4 wireless network to 
+a &lt;a href=&quot;https://beagleconnect.org&quot;&gt;BeagleConnect® Freedom&lt;/a&gt; up to 1km away.&lt;/p&gt;
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;Processor: 
@@ -135,8 +137,14 @@ width=&quot;100%&quot;
 &lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
 --&gt;
 </body>
-    <http_language>en-US,en;q=0.5</http_language>
-    <http_referer>https://beagleboard.org/play-hidden/hopper</http_referer>
+    <pseudoparent idref="0" prototyperef="Root"/>
+    <pvcount type="float">0.0</pvcount>
+    <g_enabled_idps>google</g_enabled_idps>
     <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+    <http_referer>https://beagleboard.org/play-hidden/hopper</http_referer>
+    <doxygen_width>300</doxygen_width>
+    <http_host>127.0.0.1:8080</http_host>
+    <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
