@@ -1,7 +1,6 @@
-server_tokens off;
-
 # Main BeagleBoard.org server (and Cloudflare cached beagle.cc)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name beagle.cc;
@@ -1729,7 +1728,7 @@ server {
 #	}
 
 	location ~* /gsoc$ {
-		rewrite ^/.* https://forum.beagleboard.org/t/about-google-summer-of-code/27544 permanent;
+		rewrite ^/.* https://forum.beagleboard.org/t/about-google-summer-of-code/27544 redirect;
 	}
 
 	location / {
@@ -1775,6 +1774,7 @@ server {
 
 # BeagleV.org redirects (HTTPS->HTTPS)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 
@@ -1812,6 +1812,7 @@ server {
 
 # Main BeagleV.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name beaglev.org;
@@ -1842,6 +1843,7 @@ server {
 
 # BeagleBoard.org redirects (HTTPS->HTTPS) (except Cloudflare)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	listen 443 ssl; # managed by Certbot
@@ -1858,10 +1860,6 @@ server {
 	server_name www.beagleboard.com;
 	server_name beagleboard.net;
 	server_name www.beagleboard.net;
-	server_name beagleplay.net;
-	server_name beagleplay.com;
-	server_name beagleplay.org;
-	server_name beagleplay.io;
         return 301 https://beagleboard.org$request_uri;
 	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
 	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
@@ -1873,6 +1871,7 @@ server {
 
 # BeagleBoard.org redirects (HTTPS->HTTPS) (Cloudflare)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	listen 443 ssl; # managed by Certbot
@@ -1888,8 +1887,10 @@ server {
 	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
 
 }
+
 # BeagleBone.AI shortcut
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name beaglebone.ai;
@@ -1911,6 +1912,7 @@ upstream debexpo {
 
 # debexpo.beagleboard.org redirects (HTTPS->HTTPS)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name debexpo.beagleboard.net;
@@ -1925,6 +1927,7 @@ server {
 
 # builds.beagleboard.org redirects (HTTPS->HTTPS)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name builds.beagleboard.net;
@@ -1939,6 +1942,7 @@ server {
 
 # staging.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	staging.beagleboard.org;
@@ -1996,6 +2000,7 @@ server {
 
 # debexpo.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	debexpo.beagleboard.org;
@@ -2013,6 +2018,7 @@ server {
 
 # debian.beagle.cc redirects (HTTPS->HTTPS)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	debian.beagleboard.org;
@@ -2030,6 +2036,7 @@ server {
 
 # debian.beagle.cc server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	debian.beagle.cc;
@@ -2084,6 +2091,7 @@ server {
 
 # chat.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name chat.beagleboard.org;
@@ -2109,6 +2117,7 @@ server {
 
 # matrix.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name matrix.beagleboard.org;
@@ -2148,6 +2157,7 @@ upstream yacy {
 
 # search.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	search.beagleboard.org;
@@ -2172,6 +2182,7 @@ upstream buildbot {
 
 # builds.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name builds.beagleboard.org;
@@ -2208,6 +2219,7 @@ server {
 # This section assumes you're using Let's Encrypt to generate a host
 # certificate. Adjust accordingly if necessary.
 server {
+	server_tokens off;
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
     server_name api.beagle.group;
@@ -2233,6 +2245,7 @@ server {
 
 # Simple HTTP->HTTPS redirects
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	listen 80;
@@ -2299,6 +2312,8 @@ server {
 	server_name api.beagle.group;
 	server_name *.beagle.group;
 	server_name blabl.space;
+	server_name beagleconnect.org;
+	server_name beagleconnect.us;
 	return 301 https://$host$request_uri;
 }
 
@@ -2308,6 +2323,7 @@ upstream blabl-space {
 
 # blabl.space server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name	blabl.space;
@@ -2351,6 +2367,7 @@ server {
 
 # git.beagleboard.org server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name git.beagle.cc;
@@ -2436,6 +2453,7 @@ server {
 
 # docs.beagleboard.org and docs.beagle.cc server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name docs.beagleboard.org;
@@ -2465,6 +2483,7 @@ upstream gitlab-pages {
 
 # docs.beagleboard.io redirects (HTTPS->HTTPS)
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name beagleboard.io;
@@ -2479,6 +2498,7 @@ server {
 
 # *.beagleboard.io server
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name *.beagleboard.io;
@@ -2507,9 +2527,11 @@ server {
 
 # default.beagleplay.io proxy
 server {
+	server_tokens off;
 	error_log syslog:server=unix:/dev/log;
 	access_log syslog:server=unix:/dev/log;
 	server_name default.beagleplay.io;
+	server_name beagleplay.io;
 
 	location / {
 		proxy_read_timeout	300;
@@ -2533,3 +2555,53 @@ server {
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
 
+# beagleconnect.org shortcut
+server {
+	server_tokens off;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name beagleconnect.org;
+	server_name beagleconnect.us;
+	server_name beagleconnect.io;
+	server_name beagleconnect.net;
+	server_name www.beagleconnect.org;
+	server_name www.beagleconnect.us;
+	server_name www.beagleconnect.io;
+	server_name www.beagleconnect.net;
+
+	rewrite ^/micropython https://docs.beagle.cc/latest/boards/beagleconnect/freedom/using-micropython redirect;
+	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleconnect/freedom/ch3-quick-start redirect;
+	return 302 https://www.beagleboard.org/boards/beagleconnect-freedom;
+
+	listen 443 ssl;
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf;
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+}
+
+# beagleplay.org shortcut
+server {
+	server_tokens off;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name beagleplay.net;
+	server_name beagleplay.com;
+	server_name beagleplay.org;
+	server_name www.beagleplay.net;
+	server_name www.beagleplay.com;
+	server_name www.beagleplay.org;
+
+	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleplay/ch3-quick-start redirect;
+	return 302 https://www.beagleboard.org/boards/beagleplay;
+
+	listen 443 ssl;
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf;
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+}
