@@ -36,12 +36,14 @@ function trackExitLink() {
 }
 
 function goTracked(action, link, label, category) {
-    label = label || link;
-    category = category || 'exit';
-    ga('send', 'event', category, action, label, {'hitCallback': hitCallback});
-
     function hitCallback() {
        document.location = link;
     }
+
+    label = label || link;
+    category = category || 'exit';
+    ga('send', 'event', category, action, label);//, {'hitCallback': hitCallback});
+    hitCallback();
+
 }
 
