@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="124" name="chat" prototype="Page" created="1211119922104" lastModified="1622566186313">
+  <hopobject id="124" name="chat" prototype="Page" created="1211119922104" lastModified="1679594958184">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0</http_browser>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0</http_browser>
     <projhids>[1615e0</projhids>
     <registrant>blog.hangerhead.com</registrant>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <lang>en-us</lang>
     <uri>chat</uri>
+    <g_enabled_idps>google</g_enabled_idps>
     <initialreferrer>beagleboard.org</initialreferrer>
     <http_language>en-US,en;q=0.5</http_language>
     <http_remotehost>127.0.0.1</http_remotehost>
     <initiallandingpage>/p</initiallandingpage>
     <property propertyname="hck.sssn">xZqgzXFwKl+Pl7G/pfAiyAUXPdR6uiu80Hfx+xYdVNaS9BTtEzHk1UUaRzO67o0SkRX1QVko5nLQB/d4GTLoEfP3Ubnr/rIR1GpwnOlE9xGhGELkqoWFbrepA3GIga2mXPJwjVCDOAtK6K2xH9iIxEtngd/uzOM5qGl0RtfBdUwu4A==--ou1V9fy3Vx1bVKzq--yPqDtZBCW9gvTsUfMgtoZw==</property>
-    <hopsession>127.0.0.13qu85m83229f</hopsession>
+    <hopsession>127.0.0.wgjcql8z0qwv</hopsession>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=b2c3ed7296ba8c5a08bbf6ca6d04f27199473c5b..3b4c:I=1416251801:X=1416255401</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <is_xhtml type="boolean">true</is_xhtml>
     <tk_tc>OAVxVxDabwtfA2rX</tk_tc>
     <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU1MzI2Mzg0OC42MTIxMTc1BjsARg==--bf041424cfbc40c1dd7b2255e72029e37d247cf8</property>
     <tk_ai>6VdsiA53f/VAY7Y8/3nHrTUx</tk_ai>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <beagleirclog>000000</beagleirclog>
     <body> &lt;script src=&quot;/static/irclog.js&quot; type=&quot;text/javascript&quot;&gt;0&lt;/script&gt;
  &lt;h1&gt;
@@ -46,8 +48,8 @@
 &lt;!--  &lt;a href=&quot;/static/irclog&quot;&gt;http://beagleboard.org/static/irclog&lt;/a&gt;
   and --&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://logs.nslu2-linux.org/livelogs/beagle/&quot;&gt;http://logs.nslu2-linux.org/livelogs/beagle&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://libera.irclog.whitequark.org/beagle/&quot;&gt;https://libera.irclog.whitequark.org/beagle&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https://libera.irclog.whitequark.org/beagle/&quot;&gt;Logs since 2021-05-27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;http://logs.nslu2-linux.org/livelogs/beagle/&quot;&gt;Logs from abandoned freenode IRC&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
  &lt;/p&gt;
  &lt;h2&gt;Live chat&lt;/h2&gt;
@@ -75,24 +77,25 @@
    --&gt;
   &lt;/ul&gt;
  &lt;/div&gt;</body>
-    <http_referer>https://beagleboard.org/chat/pangea</http_referer>
+    <http_referer>https://beagleboard.org/chat/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <user>default</user>
     <prev idref="80" prototyperef="Page"/>
     <http_host>127.0.0.1:8080</http_host>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
     <mcpopupclosed>yes</mcpopupclosed>
     <projcnt>2</projcnt>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
     <property propertyname="278d81]"></property>
     <property propertyname="hck.usi">1</property>
-    <time type="date">01.06.2021 16:49:46 UTC</time>
+    <time type="date">23.03.2023 18:09:18 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p/patrickpoirier51/pocketpilot-a-new-linux-fc-based-on-the-25-pocketbeagle-1fa14b&quot;,&quot;Session landing page type&quot;: &quot;projects#show&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <g_authuser_h2>0</g_authuser_h2>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6ImNmYTZhNDgwLTNiOTYtNDkwNS04YWU0LTdiMTU4YTI4NDFlYlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYxOTQ0OTQwMzcyMiwibGFzdEV2ZW50VGltZSI6MTYxOTQ0OTQzMjA5NCwiZXZlbnRJZCI6OSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjl9</property>
-    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
-    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
     <pvcount type="float">1597.0</pvcount>
+    <firstseen>2017-11-08T15:25:03.596Z</firstseen>
+    <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
   </hopobject>
 </xmlroot>
