@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1681748085309">
+  <hopobject id="1645" name="Page" prototype="Page" created="1314993934058" lastModified="1681748422250">
   <hop:parent idref="0" prototyperef="Root"/>
     <userid>40774</userid>
     <is_xhtml type="boolean">true</is_xhtml>
@@ -14,7 +14,7 @@
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>bone</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0</http_browser>
-    <time type="date">17.04.2023 16:14:45 UTC</time>
+    <time type="date">17.04.2023 16:20:22 UTC</time>
     <hopsession>127.0.0.wgjcql8z0qwv</hopsession>
     <tk_tc>hMPDcEEel1vKL6iy</tk_tc>
     <mcpopupclosed>yes</mcpopupclosed>
@@ -168,28 +168,28 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone Black&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SeeedStudio BeagleBone Green&lt;/th&gt;
     &lt;th width=&quot;130px&quot;&gt;SanCloud BeagleBone Enhanced&lt;/th&gt;
-    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone AI&lt;/th&gt;
+    &lt;th width=&quot;130px&quot;&gt;BeagleBoard.org BeagleBone AI-64&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Processor&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
     &lt;td&gt;AM3358 &lt;br&gt;ARM Cortex-A8&lt;/td&gt;
-    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A15&lt;/td&gt;
+    &lt;td&gt;AM5729 &lt;br&gt;2x ARM Cortex-A72&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Maximum Processor Speed&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
     &lt;td&gt;1GHz&lt;/td&gt;
-    &lt;td&gt;1.5GHz&lt;/td&gt;
+    &lt;td&gt;2GHz&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Co-processors&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
     &lt;td&gt;2x200-MHz PRUs, ARM Cortex-M3, SGX PowerVR&lt;/td&gt;
-    &lt;td&gt;4x200-MHz PRUs, 2x ARM Cortex-M4, 2x SGX PowerVR, 2x HD video&lt;/td&gt;
+    &lt;td&gt;4x333-MHz PRUs, 2x ARM Cortex-M4, 6x ARM Cortex-R5, SGX PowerVR, HD video&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Analog Pins&lt;/strong&gt;&lt;/td&gt;
@@ -210,42 +210,42 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;td&gt;512MB DDR3 (800MHz x 16), 2GB (4GB on Rev C) on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;512MB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
     &lt;td&gt;1GB DDR3 (800MHz x 16), 4GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
-    &lt;td&gt;1GB DDR3 (2x 512Mx16, dual-channel), 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
+    &lt;td&gt;2GB DDR4, 16GB on-board storage using eMMC, microSD card slot&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;mini-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
     &lt;td&gt;micro-AB USB 2.0 client port, Type-A USB 2.0 host port&lt;/td&gt;
     &lt;td&gt;mini-AB USB 2.0 client port, 2x Type-A USB 2.0 host ports, 2x pin header USB 2.0 host ports&lt;/td&gt;
-    &lt;td&gt;Type-C USB 3.0 5Gbps Host/Client port, Type-A USB 2.0 host port&lt;/td&gt;
+    &lt;td&gt;Type-C USB 3.0 5Gbps Host/Client port, 2x Type-A USB 3.0 host ports, USB 2.0 on cape headers&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Network&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;10/100 Ethernet&lt;/td&gt;
     &lt;td&gt;10/100 Ethernet&lt;/td&gt;
     &lt;td&gt;Gigabit Ethernet, 2.4GHz WiFi, Bluetooth, BLE&lt;/td&gt;
-    &lt;td&gt;Gigabit Ethernet, 2.4/5GHz WiFi, Bluetooth, BLE&lt;/td&gt;
+    &lt;td&gt;Gigabit Ethernet, M.2 E-key with PCIe/USB/SDIO&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
-    &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
+    &lt;td&gt;miniDP, DSI, 2x CSI, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;microHDMI, cape add-ons&lt;/td&gt;
     &lt;td&gt;cape add-ons&lt;/td&gt;
     &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
-    &lt;td&gt;microHDMI, Bluetooth, cape add-ons&lt;/td&gt;
+    &lt;td&gt;miniDP, cape add-ons&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;&lt;strong&gt;Supported Interfaces&lt;/strong&gt;&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;br /&gt;2 Grove (I2C, UART)&lt;/td&gt;
     &lt;td&gt;4x UART, 12x PWM/Timers, LCD, GPMC, MMC1, 2x SPI, 2x I2C, A/D Converter, 2x CAN Bus (w/o PHY)&lt;/td&gt;
-    &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, 7x A/D converter, CAN bus (w/o PHY), 
+    &lt;td&gt;4x UART, 12x PWM/Timers, 2x SPI, 2x I2C, A/D converter, CAN bus (w/o PHY), 
     LCD, 3x quadrature encoder, SD/MMC&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
@@ -260,7 +260,7 @@ With a Gigabyte of RAM, gigabit Ethernet, extra USB host ports and a WiFi/Blueto
     &lt;td&gt;$49&lt;/td&gt;
     &lt;td&gt;$39&lt;/td&gt;
     &lt;td&gt;$69&lt;/td&gt;
-    &lt;td&gt;$99&lt;/td&gt;
+    &lt;td&gt;$179&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
