@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1636128284678">
+  <hopobject id="199" name="about" prototype="Page" created="1215035644542" lastModified="1683727760755">
   <hop:parent idref="0" prototyperef="Root"/>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0</http_browser>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0</http_browser>
     <registrant>blog.hangerhead.com</registrant>
     <g_userstate_h2>102344295024422039483=1</g_userstate_h2>
     <mixpanel_user>session_316729fb977d5c3d7528fe48b2031955</mixpanel_user>
     <lang>en-us</lang>
     <uri>about</uri>
+    <g_enabled_idps>google</g_enabled_idps>
     <mp_mixpanel__c>0</mp_mixpanel__c>
+    <ln_or>eyIyMDU3NTA4IjoiZCJ9</ln_or>
     <initialreferrer>beagleboard.org</initialreferrer>
     <http_language>en-US,en;q=0.5</http_language>
     <http_remotehost>127.0.0.1</http_remotehost>
     <hackster_user_signed_in>1</hackster_user_signed_in>
+    <property propertyname="hck.sssn">tpaRKRQ4cW66QHVZtvxDNyY+bXE0H3sH+5Avd31EK6gq5DPVHbD16kMsnngzZVl1Y/M2utOONmWCWkQX0KsJQ1fJyVfxM/9xi5VKNENkGoq3RoM4hxmw7RfvxZxhxQb8bTE0PKyRCqdN1/mRsYBaokxHzL2l4jOkvMi2aMrLItwXOfLyMe8iKREteA6ZgtguLwOoHh0wJwumKGPA3BAppCtiGa/gO58BPl+DzcnV8VDg/XyeWMt9KvZa2u/bb1QVe5E3v+OXOlqUvfx8pML8oXHEsokcFd9ujLQfFpFu24co+dCzBy4j7mLVKgxLnAhQQhok4nRP5wR2AC1oeu9WAI7d--Rr/h4FHO7S92VYMi--YVO6KprSMdBOvmuo0JEfRA==</property>
     <initiallandingpage>/p</initiallandingpage>
-    <hopsession>127.0.0.jwrjo2ceqra7</hopsession>
+    <hopsession>127.0.0.1d1zfe99nfvy5</hopsession>
     <gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>C=456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com:S=59202cb6b0e3abf8841e59655fc76b8fd0b01517..b6ed:I=1433514894:X=1433518494</gcscu_09fc0a6904b23374785c0ee5cef186728fc4a113_h2>
     <is_xhtml type="boolean">true</is_xhtml>
-    <property propertyname="hck.rut">BAhbCFsGaQJGn0kiQSQyYSQxMCRxenouRzBhelRHM3NiOFY4dFVJc08uR3dZaHpPVzdnUnhZbDc0UVJaUVFVb2IzejJvNDdFLgY6BkVUSSIXMTU2Nzc0Mjg0NS41NzAxNzM3BjsARg==--6a0002486ab101e32aee03daac6872e294a9f69a</property>
+    <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UWTRNelk1T1RjMk5pNDJPREkyTVRrNEJqc0FSZz09IiwiZXhwIjoiMjAyNC0wNS0xMFQwNjoyMjo0Ni42ODJaIiwicHVyIjpudWxsfX0=--eef5354c4bf0f7d2ae4078e367d65760eb47701f</property>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <beagleirclog>000000</beagleirclog>
     <body>&lt;h1&gt;About BeagleBoard.org and the BeagleBoard.org Foundation&lt;/h1&gt;
 
@@ -81,11 +85,11 @@
 &lt;/p&gt;
 &lt;h3&gt;Media contacts&lt;/h3&gt;
 &lt;p&gt;&lt;b&gt;Christine Long&lt;/b&gt;&lt;br /&gt;
-BeagleBoard.org Executive Director&lt;br /&gt;
+BeagleBoard.org CEO&lt;br /&gt;
 Email: &lt;span id=&quot;email2&quot;&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Jason Kridner&lt;/b&gt;&lt;br /&gt;
-BeagleBoard.org Co-founder&lt;br /&gt;
+BeagleBoard.org Co-founder/CTO&lt;br /&gt;
 Email: &lt;span id=&quot;email1&quot;&gt;&lt;/span&gt;&lt;br /&gt;
 Telephone: 713-234-0535&lt;br /&gt;
 Meetings: &lt;a href=&quot;http://calendly.com/jkridner&quot;&gt;Create a meeting&lt;/a&gt;&lt;br /&gt;
@@ -119,19 +123,21 @@ Oakland Twp, MI 48306
     <user>default</user>
     <prev idref="76" prototyperef="Page"/>
     <http_host>127.0.0.1:8080</http_host>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
     <mcpopupclosed>yes</mcpopupclosed>
     <oauth2-token></oauth2-token>
     <optimizelyenduserid>oeu1513707483740r0.34333428907647967</optimizelyenduserid>
     <initiallandingpagetype>main_base#not_found</initiallandingpagetype>
-    <time type="date">05.11.2021 16:04:44 UTC</time>
+    <property propertyname="hck.usi">1</property>
+    <time type="date">10.05.2023 14:09:20 UTC</time>
     <userid>40774</userid>
     <mp_8988eb664d967f8222b87e16e6e37966_mixpanel>{&quot;distinct_id&quot;: &quot;undefined&quot;,&quot;$initial_referrer&quot;: &quot;$direct&quot;,&quot;$initial_referring_domain&quot;: &quot;$direct&quot;,&quot;Fingerprint&quot;: &quot;347ce2d4492cfa70a294ed3eb774e03d&quot;,&quot;First seen&quot;: &quot;2017-11-08T15:25:03.596Z&quot;,&quot;Hash ID&quot;: &quot;58765f4eae33b88348c4667c4d9744c6c16559a8&quot;,&quot;Initial landing page&quot;: &quot;/p&quot;,&quot;Initial landing page type&quot;: &quot;main_base#not_found&quot;,&quot;Initial referrer&quot;: &quot;beagleboard.org&quot;,&quot;Session landing page&quot;: &quot;/p&quot;,&quot;Session landing page type&quot;: &quot;client/projects#index&quot;,&quot;Session referrer&quot;: &quot;beagleboard.org&quot;,&quot;User ID&quot;: &quot;40774&quot;,&quot;$search_engine&quot;: &quot;google&quot;}</mp_8988eb664d967f8222b87e16e6e37966_mixpanel>
     <hackster_uuid>ed5f4050-c569-11e7-b19c-9d5d382c383f</hackster_uuid>
     <g_authuser_h2>0</g_authuser_h2>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
+    <pvcount type="float">128753.0</pvcount>
     <hashid>58765f4eae33b88348c4667c4d9744c6c16559a8</hashid>
     <firstseen>2017-11-08T15:25:03.596Z</firstseen>
-    <pvcount type="float">128753.0</pvcount>
     <hop:child idref="3090" prototyperef="Page"/>
     <hop:child idref="4320" prototyperef="Page"/>
     <hop:child idref="4388" prototyperef="Page"/>
