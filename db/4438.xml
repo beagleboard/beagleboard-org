@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4438" name="bva" prototype="Page" created="1689100075123" lastModified="1689100075199">
+  <hopobject id="4438" name="bva" prototype="Page" created="1689100075123" lastModified="1689100132158">
   <hop:parent idref="3268" prototyperef="Page"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UWTRNelk1T1RjMk5pNDJPREkyTVRrNEJqc0FSZz09IiwiZXhwIjoiMjAyNC0wNS0xMFQwNjoyMjo0Ni42ODJaIiwicHVyIjpudWxsfX0=--eef5354c4bf0f7d2ae4078e367d65760eb47701f</property>
@@ -25,10 +25,12 @@
     <pvcount type="float">0.0</pvcount>
     <g_enabled_idps>google</g_enabled_idps>
     <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+    <render_skin>bare</render_skin>
+    <skin_is_outer>true</skin_is_outer>
     <http_referer>https://beagleboard.org/distributors/bva/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
-    <lang>en-us</lang>
     <user>default</user>
+    <lang>en-us</lang>
   </hopobject>
 </xmlroot>
