@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4437" name="Page" prototype="Page" created="1689094279146" lastModified="1689192393681">
+  <hopobject id="4437" name="Page" prototype="Page" created="1689094279146" lastModified="1689737765816">
   <hop:parent idref="0" prototyperef="Root"/>
     <http_remotehost>127.0.0.1</http_remotehost>
     <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UWTRNelk1T1RjMk5pNDJPREkyTVRrNEJqc0FSZz09IiwiZXhwIjoiMjAyNC0wNS0xMFQwNjoyMjo0Ni42ODJaIiwicHVyIjpudWxsfX0=--eef5354c4bf0f7d2ae4078e367d65760eb47701f</property>
     <http_language>en-US,en;q=0.5</http_language>
-    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1720710242|6iEdDnxF16pD0a3nA6kUAke1YEHRUVRiFHMnhERlWiO|b3f639051336c1fd6fa5942798ba9ec921952d64ab9a4679cc5dde01e16ed484</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
+    <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>beaglev-ahead</uri>
-    <http_browser>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0</http_browser>
-    <time type="date">12.07.2023 20:06:33 UTC</time>
-    <hopsession>127.0.0.eokuyzzce7mg</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0</http_browser>
+    <time type="date">19.07.2023 03:36:05 UTC</time>
+    <hopsession>127.0.0.1xu90p1c58vab</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;div id=&quot;promo&quot; style=&quot;margin-left:-26px;&quot;&gt;
 &lt;link href=&quot;/static/ti/com.ti.jquery.ui.widget.default.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
@@ -54,9 +54,9 @@ title=&quot;BeagleV-Ahead: Enabling the future of open source&quot;&gt;
  &lt;/div&gt;
  &lt;div id=&quot;t2-c5a&quot;&gt;   
     &lt;h3 style=&quot;margin-top:-5px;&quot;&gt;System on chip: 
-    &lt;a href=&quot;https://t-head.cn/TBD&quot; class=&quot;external&quot;&gt;Alibaba T-Head TH1520&lt;/a&gt;&lt;/h3&gt;
+    &lt;!--&lt;a href=&quot;https://t-head.cn/TBD&quot; class=&quot;external&quot;&gt;--&gt;Alibaba T-Head TH1520&lt;!--&lt;/a&gt;--&gt;&lt;/h3&gt;
 &lt;ul class=&quot;square&quot;&gt;
-&lt;li&gt;2GHz quad-core RISC-V 64GCV Xuantie &lt;!--&lt;a href=&quot;https://www.t-head.cn/product/C910&quot;&gt;--&gt;C910&lt;!--&lt;/a&gt;--&gt; central processing unit (CPU)&lt;/li&gt;
+&lt;li&gt;2GHz quad-core RISC-V 64GC Xuantie &lt;a href=&quot;https://www.t-head.cn/product/C910&quot;&gt;C910&lt;/a&gt; central processing unit (CPU)&lt;/li&gt;
 &lt;li&gt;50GFLOPS, 3Mpixel/s Imagination &lt;a href=&quot;https://www.imaginationtech.com/product/img-bxm-4-64-mc4/&quot;&gt;BXM-4-64&lt;/a&gt; graphics processing unit (GPU)&lt;/li&gt;
 &lt;li&gt;4TOPS@INT8 neural processing unit (NPU) @ 1GHz&lt;/li&gt;
 &lt;li&gt;H.265/H.264 @ 4Kp75 video decoder&lt;/li&gt;
@@ -135,7 +135,7 @@ $(document).ready(function(){
     <http_referer>https://beagleboard.org/beaglev-ahead/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
-    <user>default</user>
     <lang>en-us</lang>
+    <user>default</user>
   </hopobject>
 </xmlroot>
