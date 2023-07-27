@@ -2569,9 +2569,10 @@ server {
 	server_name www.beagleconnect.io;
 	server_name www.beagleconnect.net;
 
-	rewrite ^/micropython https://docs.beagle.cc/latest/boards/beagleconnect/freedom/using-micropython redirect;
-	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleconnect/freedom/ch3-quick-start redirect;
-	return 302 https://www.beagleboard.org/boards/beagleconnect-freedom;
+	rewrite ^/micropython https://docs.beagle.cc/latest/boards/beagleconnect/freedom/demos-and-tutorials/using-micropython.html redirect;
+	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleconnect/freedom/02-quick-start.html redirect;
+	#return 302 https://www.beagleboard.org/boards/beagleconnect-freedom;
+	return 302 https://beagleboard.org/beagleconnect;
 
 	listen 443 ssl;
 	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
@@ -2594,8 +2595,32 @@ server {
 	server_name www.beagleplay.com;
 	server_name www.beagleplay.org;
 
-	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleplay/ch3-quick-start redirect;
-	return 302 https://www.beagleboard.org/boards/beagleplay;
+	rewrite ^/quick https://docs.beagle.cc/latest/boards/beagleplay/02-quick-start.html redirect;
+	#rewrite ^/announce https://beagleboard.org/blog/2023-03-08-beagleplay-announcement redirect;
+	rewrite ^/announce https://beagleboard.org/blog/2023-03-08-beagleplay-annoucement redirect;
+	#return 302 https://www.beagleboard.org/boards/beagleplay;
+	return 302 https://beagleboard.org/play;
+
+	listen 443 ssl;
+	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/beaglecert/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf;
+	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+	add_header Strict-Transport-Security "max-age=604800; includeSubDomains" always;
+}
+
+# beaglev-ahead.org shortcut
+server {
+	server_tokens off;
+	error_log syslog:server=unix:/dev/log;
+	access_log syslog:server=unix:/dev/log;
+	server_name beaglev-ahead.org;
+	server_name www.beaglev-ahead.org;
+
+	rewrite ^/quick https://docs.beagle.cc/latest/boards/beaglev/ahead/02-quick-start.html redirect;
+	rewrite ^/announce https://beagleboard.org/blog/2023-07-12-beaglev-ahead-annoucnement redirect;
+	return 302 https://beagleboard.org/beaglev-ahead;
 
 	listen 443 ssl;
 	ssl_certificate /etc/letsencrypt/live/beaglecert/fullchain.pem; # managed by Certbot

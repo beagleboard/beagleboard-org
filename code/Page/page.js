@@ -61,12 +61,12 @@ function constructor(user, uri, body)
   this.time = new Date();
  }
 
-function tide_action ()
+function hopper_action ()
  {
   var saveEdit = false;
 
   //if(this.edit_skin == 'edit_project') return(res.redirect());
-  return;
+  //return;
 
   if (false)
    {
