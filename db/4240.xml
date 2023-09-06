@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4240" name="Page" prototype="Page" created="1486499565258" lastModified="1621348470804">
+  <hopobject id="4240" name="Page" prototype="Page" created="1486499565258" lastModified="1694003367358">
   <hop:parent idref="0" prototyperef="Root"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYyMDc1MDQ0MTQwMCwibGFzdEV2ZW50VGltZSI6MTYyMDc1MDQ0MTQ4NSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
+    <property propertyname="hck.rut">eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFKR24wa2lRU1F5WVNReE1DUnhlbm91UnpCaGVsUkhNM05pT0ZZNGRGVkpjMDh1UjNkWmFIcFBWemRuVW5oWmJEYzBVVkphVVZGVmIySXplakp2TkRkRkxnWTZCa1ZVU1NJWE1UWTRNelk1T1RjMk5pNDJPREkyTVRrNEJqc0FSZz09IiwiZXhwIjoiMjAyNC0wNS0xMFQwNjoyMjo0Ni42ODJaIiwicHVyIjpudWxsfX0=--eef5354c4bf0f7d2ae4078e367d65760eb47701f</property>
     <http_language>en-US,en;q=0.5</http_language>
     <uri>gsocchat</uri>
-    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0</http_browser>
-    <time type="date">18.05.2021 14:34:30 UTC</time>
-    <hopsession>127.0.0.hwn7niezba74</hopsession>
+    <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0</http_browser>
+    <time type="date">06.09.2023 12:29:27 UTC</time>
+    <hopsession>127.0.0.ccsxrxn15ddd</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;script&gt;
-  window.location=&quot;https://join.slack.com/t/beagleboard/shared_invite/zt-450hc9ya-YkbxSESD0KGEv0whe79p_A&quot;    
+  //window.location=&quot;https://join.slack.com/t/beagleboard/shared_invite/zt-450hc9ya-YkbxSESD0KGEv0whe79p_A&quot;    
+  window.location=&quot;https://bbb.io/discord&quot;    
 &lt;/script&gt;
 
 &lt;!--
@@ -25,7 +27,9 @@ Alternative: &lt;a href=&quot;http://webchat.freenode.net/?channels=beagle-gsoc&
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">2644.0</pvcount>
-    <http_referer>https://beagleboard.org/gsocchat/pangea</http_referer>
+    <g_enabled_idps>google</g_enabled_idps>
+    <logged_out_marketing_header_id>eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltTXhNREV6TURFd0xUbGhPR1V0TkdJM05pMWlZelk0TFdWallUSTFZamRqT1RWbE9DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0=--a04e3a20dab33026ce73460e363fba68e6ffbcb3</logged_out_marketing_header_id>
+    <http_referer>https://old.beagleboard.org/gsocchat/hopper</http_referer>
     <doxygen_width>300</doxygen_width>
     <http_host>127.0.0.1:8080</http_host>
     <user>default</user>
