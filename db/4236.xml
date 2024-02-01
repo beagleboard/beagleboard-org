@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="helma.xsl"?>
 <xmlroot xmlns:hop="http://www.helma.org/docs/guide/features/database">
-  <hopobject id="4236" name="Page" prototype="Page" created="1486498135622" lastModified="1706810313657">
+  <hopobject id="4236" name="Page" prototype="Page" created="1486498135622" lastModified="1706813702671">
   <hop:parent idref="0" prototyperef="Root"/>
     <property propertyname="amplitude_id_fef1e872c952688acd962d30aa545b9ebeagleboard.org">eyJkZXZpY2VJZCI6IjRiOGUzNDY2LTU2ZDMtNDZiNy1hOTNmLWRhYTk4MjQwMzg5MVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTYzMTAzNjYyMDM1MSwibGFzdEV2ZW50VGltZSI6MTYzMTAzNjYyMDM1MSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjF9</property>
     <http_remotehost>127.0.0.1</http_remotehost>
@@ -10,13 +10,14 @@
     <wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>jkridner|1709777743|26ZZpyIZJnd1d8ote63tRPsre6ZBktfRT5lFv44a4bT|76c0ec236142f347fa74e83ef3c365ab93e6e474ba1b8600dcdf56500ceae841</wordpress_sec_f8f1c04be6a72ee15c9662f219b0a65e>
     <uri>gsocmeet</uri>
     <http_browser>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0</http_browser>
-    <time type="date">01.02.2024 17:58:33 UTC</time>
+    <time type="date">01.02.2024 18:55:02 UTC</time>
     <wordpress_sec_592bf882fbe6a91a258548c3c7bee1ce>jkridner|1726763974|Ku1vZvTn78p85WR8180pRA4oXxEqDuo3fggxujryv2z|a94820ad9cb66b47ee619a9d7ebeab0ecccdd98b51d14df192ec7a4de264d82f</wordpress_sec_592bf882fbe6a91a258548c3c7bee1ce>
     <hopsession>127.0.0.1rh65l3kpoo7y</hopsession>
     <mcpopupclosed>yes</mcpopupclosed>
     <body>&lt;h1&gt;Google Summer of Code Meeting Times&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://forum.beagleboard.org/t/gsoc-meeting/37278&quot;&gt;See the meeting information on the forum&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;All meetings officially take place on &lt;a href=&quot;https://beagleboard.org/gsocchat&quot;&gt;Discord&lt;/a&gt;.
-Here is the &lt;a href=&quot;https://beagleboard.org/gsoc/meeting.ics&quot;&gt;calender event&lt;/a&gt;.
+&lt;!-- Here is the &lt;a href=&quot;https://beagleboard.org/gsoc/meeting.ics&quot;&gt;calender event&lt;/a&gt;. --&gt;
 &lt;/p&gt;
 &lt;!--
 &lt;p&gt;All meetings officially take place on &lt;a href=&quot;/gsocchat&quot;&gt;Slack&lt;/a&gt;, but
@@ -34,11 +35,9 @@ Here is the &lt;a href=&quot;https://beagleboard.org/gsoc/meeting.ics&quot;&gt;c
         &lt;td&gt;Admin update (everyone)&lt;/td&gt;&lt;td&gt;Wed 8:30 AM&lt;/td&gt;&lt;td&gt;Wed 11:30 AM&lt;/td&gt;&lt;td&gt;Wed 17:30&lt;/td&gt;&lt;td&gt;Wed 22:00 (21:00 during US DST)&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
-&lt;!--
 &lt;script&gt;
-    window.location=&quot;https://beagleboard.org/gsoc/meeting.ics&quot;;
-&lt;/script&gt;
---&gt;</body>
+    window.location=&quot;https://forum.beagleboard.org/t/gsoc-meeting/37278&quot;;
+&lt;/script&gt;</body>
     <pseudoparent idref="0" prototyperef="Root"/>
     <hackster_user_signed_in>1</hackster_user_signed_in>
     <pvcount type="float">1229.0</pvcount>
