@@ -234,6 +234,9 @@ function href (action)
 
 function notfound_action ()
  {
+  //res.redirect("https://www.beagleboard.org/");
+  //return();
+
   res.data.body = "";
 
   try

@@ -125,7 +125,6 @@ $(document).ready(function(){
            $('option:selected', this).each(function(){
             var label = $(this).text();
             var link = $(this).val();
-            _gaq.push(['_trackEvent', 'exit', action, label]);
             setTimeout('document.location = "' + link + '"', 100)
            });
           });

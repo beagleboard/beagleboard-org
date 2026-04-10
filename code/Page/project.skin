@@ -3,7 +3,6 @@
 <div itemscope itemtype="http://schema.org/CreativeWork">
 <h1 itemprop="name"><% this.pname %></h1>
 <h2 itemprop="description"><% this.shortdesc %></h2>
-<button class="g-interactivepost" data-calltoaction="LEARN" data-contenturl="http://beagleboard.org/project/<%this.uri%>/" data-clientid="456596826642-hp34gga3r8lmshjkarkbfoohfm2972f9.apps.googleusercontent.com" data-cookiepolicy="single_host_origin" data-calltoactionurl="http://beagleboard.org/project/<%this.uri%>/">Share on G+</button>
 <table class="tblproject">
  <tr>
   <td valign="top" class="tb" align="right"><img itemprop="image" id="projectImage" class="projimg" style="max-width:300px;max-height:300px;" src="<%this.imageFile%>" /></td>
@@ -51,4 +50,3 @@ $(document).ready(function() {
 	$('.projimg').nailthumb({width:300, height:300, replaceAnimation:null, method:'resize', fitDirection:'top right'});
 });
 </script>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
